@@ -33,11 +33,22 @@ async function discordFetch(endpoint, method = 'GET', body = null) {
 
     try {
         const response = await fetch(`${API_BASE}${endpoint}`, options);
+        
+        // Handle rate limits smoothly
+        if (response.status === 429) {
+            const errorData = await response.json();
+            console.warn(`⚠️ [Discord API] Rate limited! Retrying after ${errorData.retry_after} seconds...`);
+            await new Promise(res => setTimeout(res, errorData.retry_after * 1000));
+            return discordFetch(endpoint, method, body);
+        }
+
         if (!response.ok) {
             const errorData = await response.json();
             console.error(`❌ Discord API Error (${response.status}):`, errorData);
             return null;
         }
+        
+        // DELETE and some PATCH requests return 204 No Content
         return response.status === 204 ? true : await response.json();
     } catch (error) {
         console.error(`❌ Discord Fetch Error:`, error.message);
