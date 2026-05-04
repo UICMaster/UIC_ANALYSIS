@@ -1,41 +1,52 @@
-require('dotenv').config(); // Loads your .env file
+require('dotenv').config();
 const fs = require('fs');
 
-// 1. Initialization: Load local databases
-const roster = JSON.parse(fs.readFileSync('./roster.json', 'utf8'));
-const config = JSON.parse(fs.readFileSync('./config.json', 'utf8'));
+// Import our custom modules
+const primeApi = require('./api/prime');
+const riotApi = require('./api/riot');
+const analytics = require('./core/analytics');
+const discordEvents = require('./discord/events');
+const discordMessages = require('./discord/messages');
 
-// The Main Asynchronous Loop
-async function runAnalyticsEngine() {
-    console.log("🚀 Starting UIC Analytics Engine...");
+async function runEngine() {
+    console.log("🚀 Starting UIC Analytics Modular Engine...");
 
     try {
-        // --- PHASE 1: Fetch Prime League Schedule ---
-        console.log("1️⃣ Checking Prime League API for upcoming/recent matches...");
-        // TODO: Ping Prime Bot API using config IDs
+        // 1. Load Database
+        const teamsDb = JSON.parse(fs.readFileSync('./data/teams.json', 'utf8'));
 
-        // --- PHASE 2: Fetch Riot Match Data (with Rate Limiting) ---
-        console.log("2️⃣ Fetching deep stats from Riot Match-V5...");
-        // TODO: Map Prime IDs to Riot PUUIDs, fetch timelines
+        // 2. Fetch Prime League Matchups
+        console.log("📡 Phase 1: Checking Prime Bot API...");
+        const scoutingData = await primeApi.fetchPrimeData(teamsDb);
 
-        // --- PHASE 3: The Crunch (Math & Analytics) ---
-        console.log("3️⃣ Calculating Damage/Gold and GD@15 Deltas...");
-        // TODO: Compare player stats vs enemy stats
+        if (scoutingData.length === 0) {
+            console.log("🛑 No active matchups found. Engine going to sleep.");
+            return;
+        }
 
-        // --- PHASE 4: Delivery ---
-        console.log("4️⃣ Dispatching to Discord & Saving Local File...");
-        // TODO: Send Discord Webhooks
-        
-        // Mock save for Website (Repo B) to read later
-        const finalData = { status: "success", timestamp: Date.now() };
-        fs.writeFileSync('./compiled_data.json', JSON.stringify(finalData, null, 2));
-        
-        console.log("✅ Run complete.");
+        // 3. Process each found matchup
+        for (const match of scoutingData) {
+            console.log(`⚔️ Processing Matchup: ${match.myTeam} vs ${match.enemyTeamName}`);
+            
+            // TODO: Call Riot API to get PUUIDs and History
+            // const matchStats = await riotApi.getDeepStats(match);
+            
+            // TODO: Calculate advanced metrics (GD@15, Damage/Gold)
+            // const analyticsReport = analytics.generateReport(matchStats);
+
+            // TODO: Create/Update Discord Event
+            // await discordEvents.createOrUpdateEvent(match, analyticsReport);
+        }
+
+        // 4. Update the Leaderboards (Runs regardless of matches)
+        console.log("📊 Phase 4: Updating Organizational Leaderboards...");
+        // await discordMessages.updateLeaderboards(teamsDb);
+
+        console.log("✅ Engine Run Complete.");
 
     } catch (error) {
-        console.error("❌ Engine Error:", error);
+        console.error("❌ Fatal Engine Error:", error);
     }
 }
 
-// Start the engine
-runAnalyticsEngine();
+runEngine();
