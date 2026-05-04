@@ -1,0 +1,37 @@
+name: Prime League Analytics Engine
+
+# This tells GitHub exactly WHEN to run your script
+on:
+  schedule:
+    # 1. The "Prime Time" Runner: Every 15 minutes between 16:00 and 22:00 UTC (18:00 - 00:00 CEST)
+    - cron: '*/15 16-22 * * *'
+    # 2. The "Maintenance" Runner: Hourly for the rest of the day
+    - cron: '0 0-15,23 * * *'
+  
+  # This creates the manual "Run workflow" button in the Actions tab
+  workflow_dispatch: 
+
+jobs:
+  run-analytics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Grab the latest code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install NPM Dependencies
+        run: npm install
+
+      - name: Execute the Orchestrator (src/index.js)
+        # GitHub invisibly injects your secrets from the repository settings here
+        env:
+          RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
+          PRIME_API_URL: ${{ secrets.PRIME_API_URL }}
+          # Uncomment the line below if your Prime Bot requires an auth token
+          # PRIME_API_TOKEN: ${{ secrets.PRIME_API_TOKEN }}
+        run: node src/index.js
