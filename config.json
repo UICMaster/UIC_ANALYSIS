@@ -1,1 +1,15 @@
-.......
+{
+  "teams": [
+    { "key": "prime", "id": "116908" },
+    { "key": "eclipse", "id": "208131" },
+    { "key": "vakuum", "id": "207696" },
+    { "key": "spark", "id": "208694" },
+    { "key": "phoenix", "id": "212473" },
+    { "key": "cyber", "id": "198490" },
+    { "key": "sakura", "id": "208851" },
+    { "key": "nova", "id": "203447" },
+    { "key": "obsidian", "id": "212407" },
+    { "key": "ember", "id": "211165" },
+    { "key": "abyss", "id": "204924" }
+  ]
+}
