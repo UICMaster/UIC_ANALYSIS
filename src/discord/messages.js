@@ -1,31 +1,37 @@
 /**
  * src/discord/messages.js
- * Handles the formatting and posting of Discord Leaderboards.
+ * Formats and delivers the analytical leaderboards to Discord.
  */
 
 const BOT_TOKEN = process.env.DISCORD_BOT_TOKEN;
-const API_BASE = 'https://discord.com/api/v10';
-
-// Environment variables for your channels
+const GUILD_ID = process.env.DISCORD_GUILD_ID;
 const CH_LP = process.env.DISCORD_CH_LP;
 const CH_CARRY = process.env.DISCORD_CH_CARRY;
 const CH_TACTICIAN = process.env.DISCORD_CH_TACTICIAN;
 
-/**
- * Standard fetch wrapper for the Discord API
- */
+const API_BASE = 'https://discord.com/api/v10';
+const UIC_COLOR = 0x00F0FF; // The #00F0FF Cyan Color
+
+// Custom Server Emojis
+const RANK_EMOJIS = {
+    "CHALLENGER": "<:challenger:1501324978321101021>",
+    "GRANDMASTER": "<:grandmaster:1501325107128434748>",
+    "MASTER": "<:master:1501325178993512478>",
+    "DIAMOND": "<:diamond:1501325003671601224>",
+    "EMERALD": "<:emerald:1501325048219304039>",
+    "PLATINUM": "<:platinum:1501325207330095104>",
+    "GOLD": "<:gold:1501325080960172072>",
+    "SILVER": "<:silver:1501325230868529345>",
+    "BRONZE": "<:bronze:1501324928606146761>",
+    "IRON": "<:iron:1501325151466422282>",
+    "UNRANKED": "❔"
+};
+
 async function discordFetch(endpoint, method = 'GET', body = null) {
     if (!BOT_TOKEN) return null;
-
-    const options = {
-        method,
-        headers: {
-            'Authorization': `Bot ${BOT_TOKEN}`,
-            'Content-Type': 'application/json'
-        }
-    };
+    const options = { method, headers: { 'Authorization': `Bot ${BOT_TOKEN}`, 'Content-Type': 'application/json' } };
     if (body) options.body = JSON.stringify(body);
-
+    
     try {
         const response = await fetch(`${API_BASE}${endpoint}`, options);
         if (response.status === 429) {
@@ -36,124 +42,84 @@ async function discordFetch(endpoint, method = 'GET', body = null) {
         if (!response.ok) return null;
         return response.status === 204 ? true : await response.json();
     } catch (error) {
-        console.error(`❌ [Discord API] Fetch Error:`, error.message);
         return null;
     }
 }
 
-/**
- * Deletes recent bot messages in a channel to keep the leaderboard clean
- */
 async function clearChannel(channelId) {
     if (!channelId) return;
     const messages = await discordFetch(`/channels/${channelId}/messages?limit=10`);
-    if (!messages) return;
-
-    for (const msg of messages) {
-        // Only delete the bot's own messages
-        if (msg.author.bot) {
+    if (messages && messages.length > 0) {
+        for (const msg of messages) {
             await discordFetch(`/channels/${channelId}/messages/${msg.id}`, 'DELETE');
         }
     }
 }
 
-/**
- * The Master Leaderboard Generator
- * Chunks players into groups of 10 and creates a stacked embed array.
- */
-async function postLeaderboard(channelId, title, colorHex, players, formatCallback) {
-    if (!channelId) {
-        console.log(`⚠️ Channel ID missing for ${title}. Skipping...`);
-        return;
-    }
-
+async function postEmbed(channelId, title, description) {
+    if (!channelId) return;
     await clearChannel(channelId);
-
-    // Filter out nulls and sort (the formatCallback should ideally pre-sort, but we ensure it's clean)
-    const validPlayers = players.filter(p => p !== null);
     
-    let embeds = [];
-    const chunkSize = 10;
-
-    for (let i = 0; i < validPlayers.length; i += chunkSize) {
-        const chunk = validPlayers.slice(i, i + chunkSize);
-        
-        let description = "";
-        chunk.forEach((player, index) => {
-            const overallRank = i + index + 1;
-            
-            // Format the identity: Ping the Discord User if we have their ID, otherwise use Riot Name
-            const identity = player.discordId 
-                ? `<@${player.discordId}> (${player.gameName})` 
-                : `**${player.gameName}**`;
-
-            description += `**${overallRank}.** ${identity}\n${formatCallback(player)}\n\n`;
-        });
-
-        embeds.push({
-            title: i === 0 ? title : `${title} (Cont.)`,
-            color: parseInt(colorHex.replace("#", ""), 16),
+    const payload = {
+        embeds: [{
+            title: title,
             description: description,
-            footer: i === 0 ? { text: "Organized by UIC Analytics Engine" } : null
-        });
-    }
-
-    // Discord allows a max of 10 embeds per message. 60 players = 6 embeds, so we are safe.
-    if (embeds.length > 0) {
-        await discordFetch(`/channels/${channelId}/messages`, 'POST', { embeds: embeds });
-        console.log(`   -> ✅ [Discord] Posted ${title} to channel ${channelId}`);
-    }
+            color: UIC_COLOR,
+            footer: { text: "Bereitgestellt durch Ultra Instinct Crew" },
+            timestamp: new Date().toISOString()
+        }]
+    };
+    await discordFetch(`/channels/${channelId}/messages`, 'POST', payload);
 }
 
-// ---------------------------------------------------------
-// EXPORTED UPDATERS
-// ---------------------------------------------------------
+// --- LEADERBOARD LOGIC ---
 
-/**
- * 1. Updates the SoloQ LP Leaderboard
- * Expects an array of objects: { gameName, discordId, tier, rank, lp }
- */
-async function updateLpLeaderboard(lpDataArray) {
-    // Standard League Sorting Logic (Challenger > Iron, High LP > Low LP)
-    const tierValues = { "CHALLENGER": 10, "GRANDMASTER": 9, "MASTER": 8, "DIAMOND": 7, "EMERALD": 6, "PLATINUM": 5, "GOLD": 4, "SILVER": 3, "BRONZE": 2, "IRON": 1 };
-    const rankValues = { "I": 4, "II": 3, "III": 2, "IV": 1 };
-
-    lpDataArray.sort((a, b) => {
-        if (tierValues[a.tier] !== tierValues[b.tier]) return tierValues[b.tier] - tierValues[a.tier];
-        if (rankValues[a.rank] !== rankValues[b.rank]) return rankValues[b.rank] - rankValues[a.rank];
-        return b.lp - a.lp;
-    });
-
-    await postLeaderboard(CH_LP, "🏆 Organizational LP Standings", "#FFD700", lpDataArray, (p) => {
-        return `└ Rank: ${p.tier} ${p.rank} (${p.lp} LP)`;
-    });
+// Helper to mathematically sort League of Legends Ranks
+function getRankScore(tier, rank, lp) {
+    const tiers = { "CHALLENGER": 90000, "GRANDMASTER": 80000, "MASTER": 70000, "DIAMOND": 60000, "EMERALD": 50000, "PLATINUM": 40000, "GOLD": 30000, "SILVER": 20000, "BRONZE": 10000, "IRON": 0 };
+    const ranks = { "I": 4000, "II": 3000, "III": 2000, "IV": 1000 };
+    return (tiers[tier] || 0) + (ranks[rank] || 0) + parseInt(lp || 0);
 }
 
-/**
- * 2. Updates the Carry Index (Top & Mid Laners sorted by GD@15)
- * Expects an array of objects: { gameName, discordId, gd15, dmgPerGold }
- */
-async function updateCarryIndex(carryDataArray) {
-    // Sort by highest Gold Difference at 15
-    carryDataArray.sort((a, b) => b.gd15 - a.gd15);
+async function updateLpLeaderboard(data) {
+    if (!data || data.length === 0) return;
 
-    await postLeaderboard(CH_CARRY, "⚔️ The Carry Index (GD@15)", "#E22828", carryDataArray, (p) => {
-        const sign = p.gd15 > 0 ? "+" : "";
-        return `└ GD@15: **${sign}${p.gd15}** | Dmg/Gold: ${p.dmgPerGold}`;
-    });
+    data.sort((a, b) => getRankScore(b.tier, b.rank, b.lp) - getRankScore(a.tier, a.rank, a.lp));
+    
+    // We use \u2003 (Em Space) to act as a wide, clean tab stop
+    const description = data.slice(0, 15).map((p, index) => {
+        const emoji = RANK_EMOJIS[p.tier] || RANK_EMOJIS["UNRANKED"];
+        return `**${index + 1}.** **${p.gameName}** ${emoji} ${p.tier} ${p.rank} (${p.lp} LP)`;
+    }).join('\n\n');
+
+    await postEmbed(CH_LP, "🏆 UIC Rangliste SoloQ/DuoQ", description);
+    console.log(`   ✅ [Discord] Posted 🏆 UIC Rangliste SoloQ/DuoQ`);
 }
 
-/**
- * 3. Updates the Tacticians Ledger (Junglers & Supports sorted by KP% / VSPM)
- * Expects an array of objects: { gameName, discordId, kp, vspm }
- */
-async function updateTacticianLedger(tacticianDataArray) {
-    // Sort by highest Kill Participation
-    tacticianDataArray.sort((a, b) => b.kp - a.kp);
+async function updateCarryIndex(data) {
+    if (!data || data.length === 0) return;
 
-    await postLeaderboard(CH_TACTICIAN, "🛡️ Tacticians Ledger (KP & Vision)", "#287AE2", tacticianDataArray, (p) => {
-        return `└ KP: **${p.kp}%** | VSPM: ${p.vspm}`;
-    });
+    data.sort((a, b) => b.gd15 - a.gd15);
+    
+    const description = data.slice(0, 10).map((p, index) => {
+        return `**${index + 1}.** **${p.gameName}** 📈 +${p.gd15} GD15 | ⚔️ ${p.dmgPerGold} DPG`;
+    }).join('\n\n');
+
+    await postEmbed(CH_CARRY, "⚔️ UIC Rangliste Carry Index", description);
+    console.log(`   ✅ [Discord] Posted ⚔️ UIC Rangliste Carry Index`);
+}
+
+async function updateTacticianLedger(data) {
+    if (!data || data.length === 0) return;
+
+    data.sort((a, b) => b.kp - a.kp);
+    
+    const description = data.slice(0, 10).map((p, index) => {
+        return `**${index + 1}.** **${p.gameName}** 🎯 ${p.kp}% KP | 👁️ ${p.vspm} VSPM`;
+    }).join('\n\n');
+
+    await postEmbed(CH_TACTICIAN, "🧠 UIC Rangliste Tactician Index", description);
+    console.log(`   ✅ [Discord] Posted 🧠 UIC Rangliste Tactician Index`);
 }
 
 module.exports = { updateLpLeaderboard, updateCarryIndex, updateTacticianLedger };
