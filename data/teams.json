@@ -1,89 +1,105 @@
 {
   "prime": {
     "primeLeagueId": "116908",
+    "teamDisplay": "UIC Prime",
+    "tier": "Division X",
     "roster": [
-      { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP", "puuid": "", "trackStats": true },
-      { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL", "puuid": "", "trackStats": true },
-      { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID", "puuid": "", "trackStats": true },
-      { "gameName": "UIC Giani", "tagLine": "999", "role": "BOT", "puuid": "", "trackStats": true },
-      { "gameName": "UIC Baguetto", "tagLine": "R3kt", "role": "SUP", "puuid": "", "trackStats": true },
-      { "gameName": "Baumi", "tagLine": "123", "role": "MID", "puuid": "", "trackStats": true },
-      { "gameName": "UIC Frozenhands", "tagLine": "MID", "role": "MID", "puuid": "", "trackStats": true }
+      { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC Giani", "tagLine": "999", "role": "BOT", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC Baguetto", "tagLine": "R3kt", "role": "SUP", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "Baumi", "tagLine": "123", "role": "MID", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "sub", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC Frozenhands", "tagLine": "MID", "role": "MID", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "sub", "socials": { "twitch": "", "x_twitter": "" } }
     ]
   },
   "eclipse": {
     "primeLeagueId": "208131",
+    "teamDisplay": "UIC Eclipse",
+    "tier": "Division X",
     "roster": [
-      { "gameName": "Stafferl", "tagLine": "FNC", "role": "TOP", "puuid": "", "trackStats": true },
-      { "gameName": "UIC Nairadawsm", "tagLine": "UIC", "role": "JGL", "puuid": "", "trackStats": true },
-      { "gameName": "Regentropfen", "tagLine": "H2O", "role": "MID", "puuid": "", "trackStats": true },
-      { "gameName": "Pferdemilch", "tagLine": "Milch", "role": "BOT", "puuid": "", "trackStats": true },
-      { "gameName": "Autonamed", "tagLine": "EUW", "role": "SUP", "puuid": "", "trackStats": true }
+      { "gameName": "Stafferl", "tagLine": "FNC", "role": "TOP", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC Nairadawsm", "tagLine": "UIC", "role": "JGL", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "Regentropfen", "tagLine": "H2O", "role": "MID", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "Pferdemilch", "tagLine": "Milch", "role": "BOT", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "Autonamed", "tagLine": "EUW", "role": "SUP", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } }
     ]
   },
   "vakuum": {
     "primeLeagueId": "207696",
+    "teamDisplay": "UIC Vakuum",
+    "tier": "Division X",
     "roster": [
-      { "gameName": "VTennic", "tagLine": "Goat", "role": "TOP", "puuid": "", "trackStats": true },
-      { "gameName": "UIC Hunter", "tagLine": "UIC", "role": "JGL", "puuid": "", "trackStats": true },
-      { "gameName": "UIC Kaoxz", "tagLine": "CRNGE", "role": "MID", "puuid": "", "trackStats": true },
-      { "gameName": "UIC Painfull", "tagLine": "UIC", "role": "BOT", "puuid": "", "trackStats": true },
-      { "gameName": "FirstBlo", "tagLine": "EUW", "role": "SUP", "puuid": "", "trackStats": true }
+      { "gameName": "VTennic", "tagLine": "Goat", "role": "TOP", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC Hunter", "tagLine": "UIC", "role": "JGL", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC Kaoxz", "tagLine": "CRNGE", "role": "MID", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC Painfull", "tagLine": "UIC", "role": "BOT", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "FirstBlo", "tagLine": "EUW", "role": "SUP", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } }
     ]
   },
   "spark": {
     "primeLeagueId": "208694",
+    "teamDisplay": "UIC Spark",
+    "tier": "Division X",
     "roster": [
-      { "gameName": "Haselmania", "tagLine": "BIER", "role": "TOP", "puuid": "", "trackStats": true },
-      { "gameName": "TheRealCrimes", "tagLine": "EUW", "role": "JGL", "puuid": "", "trackStats": true },
-      { "gameName": "DeutscheLandmine", "tagLine": "EUW", "role": "MID", "puuid": "", "trackStats": true },
-      { "gameName": "EnchanterPocket", "tagLine": "Bissi", "role": "BOT", "puuid": "", "trackStats": true },
-      { "gameName": "ChrizZzorR", "tagLine": "NOC", "role": "SUP", "puuid": "", "trackStats": true }
+      { "gameName": "Haselmania", "tagLine": "BIER", "role": "TOP", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "TheRealCrimes", "tagLine": "EUW", "role": "JGL", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "DeutscheLandmine", "tagLine": "EUW", "role": "MID", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "EnchanterPocket", "tagLine": "Bissi", "role": "BOT", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "ChrizZzorR", "tagLine": "NOC", "role": "SUP", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } }
     ]
   },
   "phoenix": {
     "primeLeagueId": "212473",
+    "teamDisplay": "UIC Phoenix",
+    "tier": "Division X",
     "roster": [
-      { "gameName": "UIC Kamo", "tagLine": "tpt", "role": "TOP", "puuid": "", "trackStats": true },
-      { "gameName": "Exi", "tagLine": "QUAK", "role": "JGL", "puuid": "", "trackStats": true },
-      { "gameName": "giow99", "tagLine": "Gio", "role": "MID", "puuid": "", "trackStats": true },
-      { "gameName": "UIC AutumnLeaf", "tagLine": "Moo", "role": "BOT", "puuid": "", "trackStats": true },
-      { "gameName": "UIC Ryu Copeland", "tagLine": "117", "role": "SUP", "puuid": "", "trackStats": true }
+      { "gameName": "UIC Kamo", "tagLine": "tpt", "role": "TOP", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "Exi", "tagLine": "QUAK", "role": "JGL", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "giow99", "tagLine": "Gio", "role": "MID", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC AutumnLeaf", "tagLine": "Moo", "role": "BOT", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC Ryu Copeland", "tagLine": "117", "role": "SUP", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } }
     ]
   },
   "cyber": {
     "primeLeagueId": "198490",
+    "teamDisplay": "UIC Cyber",
+    "tier": "Division X",
     "roster": [
-      { "gameName": "UIC DANY", "tagLine": "RFA40", "role": "TOP", "puuid": "", "trackStats": true },
-      { "gameName": "Ðărkø", "tagLine": "SAI", "role": "JGL", "puuid": "", "trackStats": true },
-      { "gameName": "CYS Rellik", "tagLine": "CYS", "role": "MID", "puuid": "", "trackStats": true },
-      { "gameName": "UIC Pjure", "tagLine": "CYS", "role": "BOT", "puuid": "", "trackStats": true },
-      { "gameName": "CYS Ryu Panda", "tagLine": "CSX", "role": "SUP", "puuid": "", "trackStats": true }
+      { "gameName": "UIC DANY", "tagLine": "RFA40", "role": "TOP", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "Ðărkø", "tagLine": "SAI", "role": "JGL", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "CYS Rellik", "tagLine": "CYS", "role": "MID", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC Pjure", "tagLine": "CYS", "role": "BOT", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "CYS Ryu Panda", "tagLine": "CSX", "role": "SUP", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } }
     ]
   },
   "nova": {
     "primeLeagueId": "203447",
+    "teamDisplay": "UIC Nova",
+    "tier": "Division X",
     "roster": [
-      { "gameName": "UIC Kaetaya", "tagLine": "XwX", "role": "TOP", "puuid": "", "trackStats": true },
-      { "gameName": "UIC Muh", "tagLine": "KATZE", "role": "TOP", "puuid": "", "trackStats": true },
-      { "gameName": "UIC Rubix Qube", "tagLine": "MÖP", "role": "JGL", "puuid": "", "trackStats": true },
-      { "gameName": "UIC Namorii", "tagLine": "Nova", "role": "JGL", "puuid": "", "trackStats": true },
-      { "gameName": "UIC adedier", "tagLine": "EUWE", "role": "MID", "puuid": "", "trackStats": true },
-      { "gameName": "UIC GreatATuin", "tagLine": "AUS", "role": "MID", "puuid": "", "trackStats": true },
-      { "gameName": "UIC Boohunter", "tagLine": "Boo", "role": "BOT", "puuid": "", "trackStats": true },
-      { "gameName": "UIC Deavan", "tagLine": "UIC", "role": "BOT", "puuid": "", "trackStats": true },
-      { "gameName": "UIC Kaanto", "tagLine": "Nova", "role": "SUP", "puuid": "", "trackStats": true },
-      { "gameName": "UIC Excellent C", "tagLine": "1997", "role": "SUP", "puuid": "", "trackStats": true }
+      { "gameName": "UIC Kaetaya", "tagLine": "XwX", "role": "TOP", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC Muh", "tagLine": "KATZE", "role": "TOP", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "sub", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC Rubix Qube", "tagLine": "MÖP", "role": "JGL", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC Namorii", "tagLine": "Nova", "role": "JGL", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "sub", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC adedier", "tagLine": "EUWE", "role": "MID", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC GreatATuin", "tagLine": "AUS", "role": "MID", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "sub", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC Boohunter", "tagLine": "Boo", "role": "BOT", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC Deavan", "tagLine": "UIC", "role": "BOT", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "sub", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC Kaanto", "tagLine": "Nova", "role": "SUP", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC Excellent C", "tagLine": "1997", "role": "SUP", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "sub", "socials": { "twitch": "", "x_twitter": "" } }
     ]
   },
   "abyss": {
     "primeLeagueId": "204924",
+    "teamDisplay": "UIC Abyss",
+    "tier": "Division X",
     "roster": [
-      { "gameName": "EPS Laserjet M47", "tagLine": "Chris", "role": "TOP", "puuid": "", "trackStats": true },
-      { "gameName": "yShizuu", "tagLine": "ÊUW", "role": "JGL", "puuid": "", "trackStats": true },
-      { "gameName": "UIC Keygasza", "tagLine": "1337", "role": "MID", "puuid": "", "trackStats": true },
-      { "gameName": "UIC M Character", "tagLine": "UIC", "role": "BOT", "puuid": "", "trackStats": true },
-      { "gameName": "TheEigeeen", "tagLine": "EIGI", "role": "SUP", "puuid": "", "trackStats": true }
+      { "gameName": "EPS Laserjet M47", "tagLine": "Chris", "role": "TOP", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "yShizuu", "tagLine": "ÊUW", "role": "JGL", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC Keygasza", "tagLine": "1337", "role": "MID", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "UIC M Character", "tagLine": "UIC", "role": "BOT", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } },
+      { "gameName": "TheEigeeen", "tagLine": "EIGI", "role": "SUP", "puuid": "", "trackStats": true, "discordId": "", "rosterStatus": "starter", "socials": { "twitch": "", "x_twitter": "" } }
     ]
   }
 }
