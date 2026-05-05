@@ -32,9 +32,10 @@ jobs:
           PRIME_API_URL: ${{ secrets.PRIME_API_URL }}
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           DISCORD_GUILD_ID: ${{ secrets.DISCORD_GUILD_ID }}
-          DISCORD_CH_LP: ${{ secrets.DISCORD_CH_LP }}
-          DISCORD_CH_CARRY: ${{ secrets.DISCORD_CH_CARRY }}
-          DISCORD_CH_TACTICIAN: ${{ secrets.DISCORD_CH_TACTICIAN }}
+          DISCORD_CH_LP: ${{ secrets.CH_LP }}
+          DISCORD_CH_CARRY: ${{ secrets.CH_CARRY }}
+          DISCORD_CH_TACTICIAN: ${{ secrets.CH_TACTICIAN }}
+          DISCORD_CH_POSTGAME: ${{ secrets.CH_POSTGAME }}
         run: node src/index.js
 
       - name: Save Data to Repository
