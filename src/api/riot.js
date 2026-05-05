@@ -40,7 +40,9 @@ async function getPUUID(gameName, tagLine) {
 async function getRankedData(puuid) {
     // Jump 1: Convert PUUID to Summoner ID
     const summonerData = await riotFetch(`${EUW_BASE}/lol/summoner/v4/summoners/by-puuid/${puuid}`);
-    if (!summonerData) return null;
+    
+    // SAFETY CHECK: If Riot doesn't return the ID, stop here so we don't crash the next URL
+    if (!summonerData || !summonerData.id) return null;
 
     // Jump 2: Fetch League Entries using Summoner ID
     const leagueData = await riotFetch(`${EUW_BASE}/lol/league/v4/entries/by-summoner/${summonerData.id}`);
