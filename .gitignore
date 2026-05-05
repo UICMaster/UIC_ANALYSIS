@@ -1,3 +1,9 @@
+# Dependency directories
 node_modules/
+
+# Environment Variables (CRITICAL SECURITY)
 .env
-compiled_data.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
