@@ -4,95 +4,65 @@
  */
 
 const API_KEY = process.env.RIOT_API_KEY;
-// For Match-v5 and Account-v1, Riot uses broad routing (europe, americas, asia)
-const REGION_BASE = 'https://europe.api.riotgames.com'; 
+const REGION_BASE = 'https://europe.api.riotgames.com'; // For Account & Match routing
+const EUW_BASE = 'https://euw1.api.riotgames.com';      // For Summoner & League (Ranked) routing
 
-// The Architect's Secret: A simple delay function to prevent Rate Limit (429) errors
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-/**
- * The "Polite" base fetcher. 
- * Every Riot API call goes through here to ensure we don't spam their servers.
- */
-async function riotFetch(endpoint) {
+async function riotFetch(url) {
     if (!API_KEY) throw new Error("RIOT_API_KEY is missing!");
-
-    const url = `${REGION_BASE}${endpoint}`;
-    
     try {
-        const response = await fetch(url, {
-            headers: { 'X-Riot-Token': API_KEY }
-        });
-
-        // If we hit a rate limit, the API tells us how long to wait in the 'Retry-After' header
+        const response = await fetch(url, { headers: { 'X-Riot-Token': API_KEY } });
         if (response.status === 429) {
             const retryAfter = response.headers.get('Retry-After') || 2;
-            console.warn(`⚠️ [Riot API] Rate limited! Sleeping for ${retryAfter} seconds...`);
+            console.warn(`⚠️ [Riot] Rate limited! Sleeping for ${retryAfter}s...`);
             await delay(retryAfter * 1000);
-            return riotFetch(endpoint); // Retry the exact same call after waiting
+            return riotFetch(url);
         }
-
-        if (!response.ok) {
-            throw new Error(`Riot API Error ${response.status}: ${response.statusText}`);
-        }
-
-        // Wait a tiny bit (100ms) after a successful call just to be safe
-        await delay(100); 
+        if (!response.ok) throw new Error(`Riot API Error ${response.status}: ${response.statusText}`);
+        await delay(100); // 100ms safety buffer
         return await response.json();
-
     } catch (error) {
-        console.error(`❌ [Riot API] Request failed for ${endpoint} ->`, error.message);
+        console.error(`❌ [Riot API] Request failed for ${url} ->`, error.message);
         return null;
     }
 }
 
-// ---------------------------------------------------------
-// EXPORTED FUNCTIONS
-// ---------------------------------------------------------
-
-/**
- * 1. Convert GameName#TagLine into an encrypted PUUID
- */
+// 1. Account / PUUID
 async function getPUUID(gameName, tagLine) {
-    console.log(`   -> Fetching PUUID for ${gameName}#${tagLine}`);
-    // Riot requires URI encoding for names with spaces (e.g. "UIC Speedy" -> "UIC%20Speedy")
     const safeName = encodeURIComponent(gameName);
     const safeTag = encodeURIComponent(tagLine);
-    
-    const data = await riotFetch(`/riot/account/v1/accounts/by-riot-id/${safeName}/${safeTag}`);
+    const data = await riotFetch(`${REGION_BASE}/riot/account/v1/accounts/by-riot-id/${safeName}/${safeTag}`);
     return data ? data.puuid : null;
 }
 
-/**
- * 2. Get the last X Match IDs for a specific PUUID
- * We filter by queue=440 (Flex) or queue=420 (SoloQ) if you want to be specific, 
- * but for scouting, we usually just want their recent games.
- */
+// 2. Ranked LP Tracking (Requires Summoner ID)
+async function getRankedData(puuid) {
+    // Jump 1: Convert PUUID to Summoner ID
+    const summonerData = await riotFetch(`${EUW_BASE}/lol/summoner/v4/summoners/by-puuid/${puuid}`);
+    if (!summonerData) return null;
+
+    // Jump 2: Fetch League Entries using Summoner ID
+    const leagueData = await riotFetch(`${EUW_BASE}/lol/league/v4/entries/by-summoner/${summonerData.id}`);
+    if (!leagueData) return null;
+
+    // Filter to strictly SoloQ
+    const soloQ = leagueData.find(queue => queue.queueType === "RANKED_SOLO_5x5");
+    return soloQ ? { tier: soloQ.tier, rank: soloQ.rank, lp: soloQ.leaguePoints, wins: soloQ.wins, losses: soloQ.losses } : null;
+}
+
+// 3. Match History & Timelines
 async function getRecentMatches(puuid, count = 5) {
-    console.log(`   -> Fetching last ${count} matches for ${puuid.substring(0, 8)}...`);
-    // queue=420 is Ranked Solo/Duo. Remove `?queue=420&` if you want Flex/Normals too.
-    return await riotFetch(`/lol/match/v5/matches/by-puuid/${puuid}/ids?start=0&count=${count}`);
+    // queue=440 is Flex, 420 is SoloQ. Removing the query parameter fetches ALL match types (Prime League uses custom games)
+    return await riotFetch(`${REGION_BASE}/lol/match/v5/matches/by-puuid/${puuid}/ids?start=0&count=${count}`);
 }
 
-/**
- * 3. Get the End-of-Game Scoreboard Data
- */
 async function getMatchData(matchId) {
-    console.log(`   -> Fetching Match Data for ${matchId}`);
-    return await riotFetch(`/lol/match/v5/matches/${matchId}`);
+    return await riotFetch(`${REGION_BASE}/lol/match/v5/matches/${matchId}`);
 }
 
-/**
- * 4. Get the Minute-by-Minute Timeline Data (Crucial for GD@15)
- */
 async function getMatchTimeline(matchId) {
-    console.log(`   -> Fetching Match Timeline for ${matchId}`);
-    return await riotFetch(`/lol/match/v5/matches/${matchId}/timeline`);
+    return await riotFetch(`${REGION_BASE}/lol/match/v5/matches/${matchId}/timeline`);
 }
 
-module.exports = { 
-    getPUUID, 
-    getRecentMatches, 
-    getMatchData, 
-    getMatchTimeline 
-};
+module.exports = { getPUUID, getRankedData, getRecentMatches, getMatchData, getMatchTimeline };
