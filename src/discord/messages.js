@@ -24,7 +24,7 @@ const RANK_EMOJIS = {
     "SILVER": "<:silver:1501325230868529345>",
     "BRONZE": "<:bronze:1501324928606146761>",
     "IRON": "<:iron:1501325151466422282>",
-    "UNRANKED": "❔"
+    "UNRANKED": "<:unranked:1501325256227553362> "
 };
 
 async function discordFetch(endpoint, method = 'GET', body = null) {
