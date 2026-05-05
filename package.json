@@ -1,10 +1,10 @@
 {
-  "name": "uic-analysis",
+  "name": "uic-analytics-engine",
   "version": "1.0.0",
-  "description": "Analytics Engine",
-  "main": "index.js",
+  "description": "Automated Prime League Esports Analytics Engine",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5"
