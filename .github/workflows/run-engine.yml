@@ -1,15 +1,14 @@
 name: Prime League Analytics Engine
 
-# This tells GitHub exactly WHEN to run your script
 on:
   schedule:
-    # 1. The "Prime Time" Runner: Every 15 minutes between 16:00 and 22:00 UTC (18:00 - 00:00 CEST)
     - cron: '*/15 16-22 * * *'
-    # 2. The "Maintenance" Runner: Hourly for the rest of the day
     - cron: '0 0-15,23 * * *'
-  
-  # This creates the manual "Run workflow" button in the Actions tab
   workflow_dispatch: 
+
+# We must give the action permission to write code back to your repository
+permissions:
+  contents: write
 
 jobs:
   run-analytics:
@@ -25,13 +24,21 @@ jobs:
           node-version: '20'
 
       - name: Install NPM Dependencies
-        run: npm install
+        run: npm install # (Or just ignore this step if you have no package.json yet)
 
-      - name: Execute the Orchestrator (src/index.js)
-        # GitHub invisibly injects your secrets from the repository settings here
+      - name: Execute the Orchestrator
         env:
           RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
           PRIME_API_URL: ${{ secrets.PRIME_API_URL }}
-          # Uncomment the line below if your Prime Bot requires an auth token
-          # PRIME_API_TOKEN: ${{ secrets.PRIME_API_TOKEN }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_GUILD_ID: ${{ secrets.DISCORD_GUILD_ID }}
+          DISCORD_CH_LP: ${{ secrets.DISCORD_CH_LP }}
+          DISCORD_CH_CARRY: ${{ secrets.DISCORD_CH_CARRY }}
+          DISCORD_CH_TACTICIAN: ${{ secrets.DISCORD_CH_TACTICIAN }}
         run: node src/index.js
+
+      - name: Save Data to Repository
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 Auto-update: Ledger & PUUID Database"
+          file_pattern: "data/*.json"
