@@ -36,16 +36,10 @@ async function getPUUID(gameName, tagLine) {
     return data ? data.puuid : null;
 }
 
-// 2. Ranked LP Tracking (Requires Summoner ID)
+// 2. Ranked LP Tracking (Directly via PUUID!)
 async function getRankedData(puuid) {
-    // Jump 1: Convert PUUID to Summoner ID
-    const summonerData = await riotFetch(`${EUW_BASE}/lol/summoner/v4/summoners/by-puuid/${puuid}`);
-    
-    // SAFETY CHECK: If Riot doesn't return the ID, stop here so we don't crash the next URL
-    if (!summonerData || !summonerData.id) return null;
-
-    // Jump 2: Fetch League Entries using Summoner ID
-    const leagueData = await riotFetch(`${EUW_BASE}/lol/league/v4/entries/by-summoner/${summonerData.id}`);
+    // We can now fetch Rank directly using the PUUID! No more Summoner ID jump.
+    const leagueData = await riotFetch(`${EUW_BASE}/lol/league/v4/entries/by-puuid/${puuid}`);
     if (!leagueData) return null;
 
     // Filter to strictly SoloQ
