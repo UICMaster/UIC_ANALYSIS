@@ -24,7 +24,7 @@ jobs:
           node-version: '20'
 
       - name: Install NPM Dependencies
-        run: npm install # (Or just ignore this step if you have no package.json yet)
+        run: npm install
 
       - name: Execute the Orchestrator
         env:
@@ -36,6 +36,8 @@ jobs:
           DISCORD_CH_CARRY: ${{ secrets.CH_CARRY }}
           DISCORD_CH_TACTICIAN: ${{ secrets.CH_TACTICIAN }}
           DISCORD_CH_POSTGAME: ${{ secrets.CH_POSTGAME }}
+          # 👇 The new Team Overview Secret
+          DISCORD_CH_OVERVIEW: ${{ secrets.CH_OVERVIEW }} 
         run: node src/index.js
 
       - name: Save Data to Repository
