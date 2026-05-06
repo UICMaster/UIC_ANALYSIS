@@ -7,9 +7,13 @@ const BOT_TOKEN = process.env.DISCORD_BOT_TOKEN;
 const GUILD_ID = process.env.DISCORD_GUILD_ID;
 const API_BASE = 'https://discord.com/api/v10';
 
-const TWITCH_URL = 'https://twitch.tv/your_org_channel'; 
+// Replace with your Org's actual Twitch or stream link
+const TWITCH_URL = 'https://twitch.tv/your_twitch_channel'; 
 
-// Replace this with the URL to your organization's matchday banner image (JPG or PNG)
+// Replace this with your upcoming GitHub Pages URL (Repository B)
+const WEBSITE_BASE_URL = 'https://your-github-username.github.io/UIC-Dashboard';
+
+// Replace with your Org's matchday banner image (JPG or PNG)
 const BANNER_IMAGE_URL = 'https://example.com/your-org-banner.jpg'; 
 
 async function discordFetch(endpoint, method = 'GET', body = null) {
@@ -49,17 +53,20 @@ async function getBase64Image(url) {
 
 async function syncMatchEvent(matchData) {
     const startTime = new Date(matchData.matchTime);
-    const endTime = new Date(startTime.getTime() + (2 * 60 * 60 * 1000));
+    const endTime = new Date(startTime.getTime() + (2 * 60 * 60 * 1000)); // 2 hour duration
 
     if (startTime < new Date()) return; // Don't create past events
 
-    let description = `🏆 **Prime League Match**\n⚔️ **Team ${matchData.myTeam.toUpperCase()} vs ${matchData.enemyTeamName}**\n\n`;
+    // Cleanly capitalize the team name (e.g., "prime" -> "Prime")
+    const teamNameClean = matchData.myTeam.charAt(0).toUpperCase() + matchData.myTeam.slice(1);
+
+    let description = `🏆 **Prime League Match**\n⚔️ **UIC ${teamNameClean} vs ${matchData.enemyTeamName}**\n\n`;
     let imageBase64 = null;
 
     if (matchData.isPredicted) {
-        description += `*Rosters are not fully locked yet. Stand by for the official Scouting Report...*\n\n`;
+        description += `*Die Roster sind noch nicht vollständig bestätigt. Das offizielle Scouting-Update folgt...*\n\n`;
     } else {
-        description += `📊 **Pre-Game Scouting Report Ready!**\n🔗 [Click here for Lane-by-Lane Analysis](https://yourwebsite.com/match/${matchData.matchId})\n\n`;
+        description += `📊 **Pre-Game Scouting Report ist online!**\n🔗 [Klicke hier für die Lane-by-Lane Analyse](${WEBSITE_BASE_URL}?match=${matchData.matchId})\n\n`;
         // Grab the hype banner ONLY when the roster is officially locked
         imageBase64 = await getBase64Image(BANNER_IMAGE_URL);
     }
@@ -67,11 +74,11 @@ async function syncMatchEvent(matchData) {
     description += `\n*MatchID: ${matchData.matchId}*`;
 
     const eventPayload = {
-        name: `UIC ${matchData.myTeam.toUpperCase()} vs ${matchData.enemyTeamName}`,
-        privacy_level: 2,
+        name: `UIC ${teamNameClean} vs ${matchData.enemyTeamName}`,
+        privacy_level: 2, // 2 = GUILD_ONLY
         scheduled_start_time: startTime.toISOString(),
         scheduled_end_time: endTime.toISOString(),
-        entity_type: 3,
+        entity_type: 3, // 3 = EXTERNAL (URL)
         entity_metadata: { location: TWITCH_URL },
         description: description
     };
@@ -86,7 +93,7 @@ async function syncMatchEvent(matchData) {
     const existingEvent = activeEvents.find(e => e.description && e.description.includes(`MatchID: ${matchData.matchId}`));
 
     if (existingEvent) {
-        // If description changed (e.g., from predicted to locked), update the event and attach the image!
+        // If description changed (e.g., from predicted to locked), update the event
         if (existingEvent.description !== description) {
             console.log(`   -> 🔄 [Discord] Updating existing event for Match ${matchData.matchId}`);
             await discordFetch(`/guilds/${GUILD_ID}/scheduled-events/${existingEvent.id}`, 'PATCH', eventPayload);
