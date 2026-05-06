@@ -4,9 +4,8 @@
  */
 
 async function fetchPrimeData(teamsData) {
-    console.log("📡 [Prime API] Checking schedule for all teams...");
+    console.log("📡 [Prime API] Checking schedule for active teams...");
     
-    // Remember: Your secret is exactly "https://primebot.me"
     const baseUrl = process.env.PRIME_API_URL;
     if (!baseUrl) {
         console.error("❌ PRIME_API_URL is missing!");
@@ -16,12 +15,25 @@ async function fetchPrimeData(teamsData) {
     let activeScoutingReports = [];
 
     for (const [teamKey, teamInfo] of Object.entries(teamsData)) {
+        // 1. SKIP COMMUNITY & TEAMS WITHOUT IDS
+        if (teamKey === "community" || !teamInfo.primeLeagueId || teamInfo.primeLeagueId === "") {
+            continue;
+        }
+
         try {
-            const response = await fetch(`${baseUrl}/api/v1/teams/${teamInfo.primeLeagueId}/`, { headers: { 'Accept': 'application/json' } });
-            if (!response.ok) continue;
+            const response = await fetch(`${baseUrl}/api/v1/teams/${teamInfo.primeLeagueId}/`, { 
+                headers: { 'Accept': 'application/json' } 
+            });
+            
+            if (!response.ok) {
+                console.log(`   ⚠️ [Prime] Could not fetch data for ${teamInfo.teamDisplay}`);
+                continue;
+            }
 
             const primeData = await response.json();
-            const upcomingMatches = primeData.matches
+            
+            // 2. FIND THE NEXT UNFINISHED MATCH
+            const upcomingMatches = (primeData.matches || [])
                 .filter(m => !m.result || m.result === "")
                 .sort((a, b) => new Date(a.begin) - new Date(b.begin));
 
@@ -30,29 +42,38 @@ async function fetchPrimeData(teamsData) {
             const nextMatch = upcomingMatches[0];
             let enemyStarters = [], myStarters = [], isPredicted = false;
 
-            // My Locked Roster (Fallback to Golden DB)
+            // 3. PROCESS MY ROSTER (Locked vs. Fallback)
             if (nextMatch.team_lineup && nextMatch.team_lineup.length > 0) {
                 myStarters = nextMatch.team_lineup.map(p => p.summoner_name);
             } else {
-                myStarters = teamInfo.roster.filter(p => p.trackStats && p.rosterStatus === "starter").map(p => `${p.gameName}#${p.tagLine}`);
+                // Fallback to our teams.json Starters
+                myStarters = teamInfo.roster
+                    .filter(p => p.trackStats && p.rosterStatus === "starter")
+                    .map(p => `${p.gameName}#${p.tagLine}`);
             }
 
-            // Enemy Locked Roster (Fallback to Prediction)
+            // 4. PROCESS ENEMY ROSTER (Locked vs. Prediction)
             if (nextMatch.enemy_lineup && nextMatch.enemy_lineup.length > 0) {
                 enemyStarters = nextMatch.enemy_lineup.map(p => p.summoner_name);
             } else {
                 isPredicted = true;
                 try {
-                    const enemyRes = await fetch(`${baseUrl}/api/v1/teams/${nextMatch.enemy_team.id}/`, { headers: { 'Accept': 'application/json' } });
+                    // Try to fetch the enemy team's general roster as a prediction
+                    const enemyRes = await fetch(`${baseUrl}/api/v1/teams/${nextMatch.enemy_team.id}/`, { 
+                        headers: { 'Accept': 'application/json' } 
+                    });
                     if (enemyRes.ok) {
                         const enemyData = await enemyRes.json();
-                        enemyStarters = enemyData.players.slice(0, 5).map(p => p.summoner_name);
+                        enemyStarters = (enemyData.players || []).slice(0, 5).map(p => p.summoner_name);
                     }
-                } catch (err) {}
+                } catch (err) {
+                    console.log(`   ⚠️ [Prime] Failed to fetch enemy roster prediction for ${nextMatch.enemy_team.name}`);
+                }
             }
 
             activeScoutingReports.push({
                 myTeam: teamKey,
+                teamDisplay: teamInfo.teamDisplay,
                 enemyTeamName: nextMatch.enemy_team.name,
                 matchTime: nextMatch.begin,
                 myStarters: myStarters,
@@ -65,6 +86,8 @@ async function fetchPrimeData(teamsData) {
             console.error(`❌ [Prime] Error processing ${teamKey}:`, error.message);
         }
     }
+    
+    console.log(`   ✅ [Prime] Found ${activeScoutingReports.length} upcoming matches across all divisions.`);
     return activeScoutingReports;
 }
 
