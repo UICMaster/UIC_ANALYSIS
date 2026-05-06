@@ -30,128 +30,147 @@ async function runEngine() {
             ledger = JSON.parse(fs.readFileSync(LEDGER_PATH, 'utf8'));
         }
 
-        // --- 1. PRIME SCHEDULE & DISCORD EVENTS ---
-        console.log("\n📅 --- PHASE 1: PRIME SCHEDULE & EVENTS ---");
-        const scoutingData = await primeApi.fetchPrimeData(teamsDb);
-        
-        if (scoutingData.length > 0) {
-            for (const match of scoutingData) {
-                await discordEvents.syncMatchEvent(match);
-            }
-        } else {
-            console.log("💤 No upcoming Prime matches found today.");
-        }
-
-        // --- 2. PLAYER DATA ACQUISITION & ANALYTICS ---
-        console.log("\n🧠 --- PHASE 2: RIOT DATA & LEDGER COMPILATION ---");
-        
-        let lpLeaderboard = [];
-        let carryIndex = [];
-        let tacticianLedger = [];
         let teamsUpdated = false;
 
-        // Loop through every team and player in the Golden Database
+        // --- 1. PUUID SYNC ---
+        console.log("\n🔍 --- PHASE 1: PUUID SYNCHRONIZATION ---");
         for (const [teamKey, teamInfo] of Object.entries(teamsDb)) {
-            console.log(`\n🛡️ Processing Team: ${teamInfo.teamDisplay}`);
-
-            for (let i = 0; i < teamInfo.roster.length; i++) {
-                let player = teamInfo.roster[i];
-                if (!player.trackStats) continue;
-
-                // 2A. Get or Update PUUID
-                if (!player.puuid || player.puuid === "") {
+            for (let player of teamInfo.roster) {
+                // If they don't have a PUUID and they aren't an empty slot
+                if (player.trackStats !== false && (!player.puuid || player.puuid === "")) {
+                    console.log(`   📡 Fetching PUUID for ${player.gameName}#${player.tagLine}...`);
                     const puuid = await riotApi.getPUUID(player.gameName, player.tagLine);
                     if (puuid) {
                         player.puuid = puuid;
                         teamsUpdated = true;
-                        console.log(`   📝 Saved PUUID for ${player.gameName}`);
+                        console.log(`   ✅ Saved PUUID for ${player.gameName}`);
                     } else {
                         console.log(`   ❌ Could not find account for ${player.gameName}`);
-                        continue;
-                    }
-                }
-
-                // 2B. Fetch SoloQ LP for the Discord Leaderboard
-                const rankData = await riotApi.getRankedData(player.puuid);
-                if (rankData) {
-                    lpLeaderboard.push({
-                        gameName: player.gameName,
-                        discordId: player.discordId,
-                        tier: rankData.tier,
-                        rank: rankData.rank,
-                        lp: rankData.lp
-                    });
-                }
-
-                // 2C. Fetch Recent Matches and Update Ledger
-                const recentMatches = await riotApi.getRecentMatches(player.puuid, 5);
-                if (!recentMatches) continue;
-
-                let playerCompetitiveStats = [];
-
-                for (const matchId of recentMatches) {
-                    // Check if we already processed this exact match for this exact player
-                    const existingEntry = ledger.find(entry => entry.matchId === matchId && entry.puuid === player.puuid);
-                    
-                    if (existingEntry) {
-                        if (existingEntry.isCompetitive) playerCompetitiveStats.push(existingEntry);
-                        continue;
-                    }
-
-                    // Not in ledger -> Fetch from Riot
-                    const matchData = await riotApi.getMatchData(matchId);
-                    const timelineData = await riotApi.getMatchTimeline(matchId);
-
-                    if (matchData && timelineData) {
-                        const stats = analytics.calculatePlayerStats(player.puuid, matchData, timelineData);
-                        if (stats) {
-                            // Queue 0 is Custom Games, 124 is Tournament Draft (Prime League uses these)
-                            const isCompetitive = matchData.info.queueId === 0 || matchData.info.queueId === 124;
-                            
-                            // Attach identifiers for the Website Frontend
-                            stats.puuid = player.puuid;
-                            stats.teamKey = teamKey;
-                            stats.discordId = player.discordId;
-                            stats.isCompetitive = isCompetitive;
-
-                            ledger.push(stats); // Add to permanent history
-                            if (isCompetitive) playerCompetitiveStats.push(stats);
-                            console.log(`   ✅ Added Match ${matchId} to Ledger for ${player.gameName}`);
-                        }
-                    }
-                }
-
-                // 2D. Calculate Discord Averages (Based ONLY on Competitive/Prime Games)
-                if (playerCompetitiveStats.length > 0) {
-                    const totalGames = playerCompetitiveStats.length;
-                    const avgGd15 = Math.round(playerCompetitiveStats.reduce((sum, s) => sum + s.gd15, 0) / totalGames);
-                    const avgDmgGold = parseFloat((playerCompetitiveStats.reduce((sum, s) => sum + s.dmgPerGold, 0) / totalGames).toFixed(2));
-                    const avgKp = parseFloat((playerCompetitiveStats.reduce((sum, s) => sum + s.kp, 0) / totalGames).toFixed(1));
-                    const avgVspm = parseFloat((playerCompetitiveStats.reduce((sum, s) => sum + s.vspm, 0) / totalGames).toFixed(2));
-
-                    if (player.role === "TOP" || player.role === "MID") {
-                        carryIndex.push({ gameName: player.gameName, discordId: player.discordId, gd15: avgGd15, dmgPerGold: avgDmgGold });
-                    } else if (player.role === "JGL" || player.role === "SUP" || player.role === "UTILITY") {
-                        tacticianLedger.push({ gameName: player.gameName, discordId: player.discordId, kp: avgKp, vspm: avgVspm });
                     }
                 }
             }
         }
 
-        // --- 3. DISCORD LEADERBOARD DELIVERY ---
-        console.log("\n📊 --- PHASE 3: UPDATING DISCORD LEADERBOARDS ---");
-        if (lpLeaderboard.length > 0) await discordMessages.updateLpLeaderboard(lpLeaderboard);
-        if (carryIndex.length > 0) await discordMessages.updateCarryIndex(carryIndex);
-        if (tacticianLedger.length > 0) await discordMessages.updateTacticianLedger(tacticianLedger);
+        // --- 2. PRIME SCHEDULE & DISCORD EVENTS ---
+        console.log("\n📅 --- PHASE 2: PRIME SCHEDULE & EVENTS ---");
+        // Only run Prime API check for actual teams, not the community
+        const scoutingData = await primeApi.fetchPrimeData(teamsDb);
+        if (scoutingData && scoutingData.length > 0) {
+            for (const match of scoutingData) {
+                await discordEvents.syncMatchEvent(match);
+            }
+        } else {
+            console.log("   💤 No upcoming Prime matches found today.");
+        }
 
-        // --- 4. DATA EXPORT ---
-        console.log("\n💾 --- PHASE 4: SAVING DATA ---");
+        // --- 3. THE GREAT DATA PULL (RIOT API) ---
+        console.log("\n🧠 --- PHASE 3: RIOT DATA ACQUISITION ---");
+        console.log("   ⏳ Note: With ~70 players, this phase will take ~6 minutes to respect rate limits.");
         
-        // Save the updated ledger (The Website Database)
-        fs.writeFileSync(LEDGER_PATH, JSON.stringify(ledger, null, 2));
-        console.log("   ✅ match_database.json successfully saved.");
+        let discordLpBoard = [];
+        let discordCarryBoard = [];
+        let discordTacticianBoard = [];
+        let teamOverviewData = []; // For the new channel
 
-        // If we found new PUUIDs, save them back to teams.json so we never fetch them again
+        for (const [teamKey, teamInfo] of Object.entries(teamsDb)) {
+            console.log(`\n🛡️ Processing Group: ${teamInfo.teamDisplay}`);
+            
+            // Object to hold team data for the Overview Channel
+            let currentTeamData = {
+                teamDisplay: teamInfo.teamDisplay,
+                roster: [],
+                activeRanks: [] // Used to calculate Average Elo later
+            };
+
+            for (let player of teamInfo.roster) {
+                // Skip empty slots
+                if (player.trackStats === false || !player.puuid) continue;
+
+                const tag = player.tagLine;
+                const teamNameShort = teamInfo.teamDisplay.replace("UIC ", ""); // e.g., "Eclipse"
+
+                // 3A. Fetch Live LP
+                const rankData = await riotApi.getRankedData(player.puuid);
+                if (rankData) {
+                    discordLpBoard.push({
+                        gameName: player.gameName, tagLine: tag, team: teamNameShort,
+                        tier: rankData.tier, rank: rankData.rank, lp: rankData.lp
+                    });
+                    
+                    // Add rank to Team Overview (if they are a player, not a Coach/Manager)
+                    if (player.role !== "MNG" && player.role !== "COH") {
+                        currentTeamData.activeRanks.push(rankData);
+                    }
+                }
+
+                // Add to Team Overview roster
+                currentTeamData.roster.push({
+                    gameName: player.gameName, role: player.role, isCaptain: player.isCaptain, rankData: rankData
+                });
+
+                // 3B. Fetch Last 10 Matches
+                const matchIds = await riotApi.getRecentMatches(player.puuid, 10);
+                if (!matchIds || matchIds.length === 0) continue;
+
+                let matchDatas = [];
+
+                for (const matchId of matchIds) {
+                    const matchData = await riotApi.getMatchData(matchId);
+                    if (!matchData) continue;
+                    
+                    matchDatas.push(matchData);
+
+                    // 3C. WEBSITE LEDGER: Check if this was a Prime/Competitive Game (Queue 0 or 124)
+                    const isCompetitive = matchData.info.queueId === 0 || matchData.info.queueId === 124;
+                    if (isCompetitive) {
+                        const exists = ledger.find(e => e.matchId === matchId && e.puuid === player.puuid);
+                        if (!exists) {
+                            console.log(`   🏆 Prime Match Detected! Fetching Timeline for ${player.gameName}...`);
+                            const timelineData = await riotApi.getMatchTimeline(matchId);
+                            if (timelineData) {
+                                const websiteStats = analytics.calculateWebsiteLedger(player.puuid, matchData, timelineData);
+                                if (websiteStats) {
+                                    websiteStats.puuid = player.puuid;
+                                    websiteStats.teamKey = teamKey;
+                                    ledger.push(websiteStats);
+                                    console.log(`   ✅ Saved Prime Stats for ${player.gameName}`);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                // 3D. DISCORD GAMIFICATION: Calculate stats from all 10 matches
+                const discordStats = analytics.calculateDiscordStats(player.puuid, matchDatas);
+                if (discordStats) {
+                    // Everyone gets evaluated for both indices
+                    discordCarryBoard.push({
+                        gameName: player.gameName, tagLine: tag, team: teamNameShort,
+                        ...discordStats
+                    });
+                    
+                    discordTacticianBoard.push({
+                        gameName: player.gameName, tagLine: tag, team: teamNameShort,
+                        ...discordStats
+                    });
+                }
+            }
+            
+            teamOverviewData.push(currentTeamData);
+        }
+
+        // --- 4. DISCORD DELIVERY ---
+        console.log("\n📊 --- PHASE 4: DISCORD DELIVERY ---");
+        if (discordLpBoard.length > 0) await discordMessages.updateLpLeaderboard(discordLpBoard);
+        if (discordCarryBoard.length > 0) await discordMessages.updateCarryIndex(discordCarryBoard);
+        if (discordTacticianBoard.length > 0) await discordMessages.updateTacticianLedger(discordTacticianBoard);
+        if (teamOverviewData.length > 0) await discordMessages.updateTeamOverview(teamOverviewData);
+
+        // --- 5. DATA EXPORT ---
+        console.log("\n💾 --- PHASE 5: SAVING DATA ---");
+        fs.writeFileSync(LEDGER_PATH, JSON.stringify(ledger, null, 2));
+        console.log("   ✅ match_database.json safely secured.");
+
         if (teamsUpdated) {
             fs.writeFileSync(TEAMS_PATH, JSON.stringify(teamsDb, null, 2));
             console.log("   ✅ teams.json updated with new PUUIDs.");
@@ -160,7 +179,7 @@ async function runEngine() {
         console.log("\n🎉 Engine Run Complete! All systems nominal.");
 
     } catch (error) {
-        console.error("❌ Fatal Engine Error:", error);
+        console.error("\n❌ Fatal Engine Error:", error);
     }
 }
 
