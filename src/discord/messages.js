@@ -9,6 +9,7 @@ const API_BASE = 'https://discord.com/api/v10';
 const CH_LP = process.env.DISCORD_CH_LP;
 const CH_CARRY = process.env.DISCORD_CH_CARRY;
 const CH_TACTICIAN = process.env.DISCORD_CH_TACTICIAN;
+const CH_OVERVIEW = process.env.DISCORD_CH_OVERVIEW; // 👈 The new Secret
 
 const UIC_COLOR = 0x00F0FF; // #00F0FF Cyan Color
 
@@ -48,7 +49,7 @@ async function discordFetch(endpoint, method = 'GET', body = null) {
 
 async function clearChannel(channelId) {
     if (!channelId) return;
-    const messages = await discordFetch(`/channels/${channelId}/messages?limit=10`);
+    const messages = await discordFetch(`/channels/${channelId}/messages?limit=20`);
     if (messages && messages.length > 0) {
         for (const msg of messages) {
             if (msg.author.bot) {
@@ -81,7 +82,6 @@ async function postLeaderboard(channelId, title, leftHeader, rightHeader, player
             const overallRank = i + index + 1;
             const formatted = formatCallback(player, overallRank);
             
-            // Add to columns with line breaks
             columnLeft += formatted.left + "\n";
             columnRight += formatted.right + "\n";
         });
@@ -103,12 +103,35 @@ async function postLeaderboard(channelId, title, leftHeader, rightHeader, player
     }
 }
 
-// --- SORTING LOGIC ---
+// --- SCORE MATH & AVERAGES ---
 
 function getRankScore(tier, rank, lp) {
-    const tiers = { "CHALLENGER": 90000, "GRANDMASTER": 80000, "MASTER": 70000, "DIAMOND": 60000, "EMERALD": 50000, "PLATINUM": 40000, "GOLD": 30000, "SILVER": 20000, "BRONZE": 10000, "IRON": 0, "UNRANKED": -1000 };
+    const tiers = { "CHALLENGER": 90000, "GRANDMASTER": 80000, "MASTER": 70000, "DIAMOND": 60000, "EMERALD": 50000, "PLATINUM": 40000, "GOLD": 30000, "SILVER": 20000, "BRONZE": 10000, "IRON": 0, "UNRANKED": 0 };
     const ranks = { "I": 4000, "II": 3000, "III": 2000, "IV": 1000 };
     return (tiers[tier] || 0) + (ranks[rank] || 0) + parseInt(lp || 0);
+}
+
+function getAverageRankString(ranks) {
+    if (!ranks || ranks.length === 0) return "UNRANKED";
+    const totalScore = ranks.reduce((sum, r) => sum + getRankScore(r.tier, r.rank, r.lp), 0);
+    const avg = totalScore / ranks.length;
+
+    if (avg <= 0) return "UNRANKED";
+
+    const tierNames = ["IRON", "BRONZE", "SILVER", "GOLD", "PLATINUM", "EMERALD", "DIAMOND", "MASTER", "GRANDMASTER", "CHALLENGER"];
+    let tierIndex = Math.floor(avg / 10000);
+    if (tierIndex > 9) tierIndex = 9;
+    
+    const tier = tierNames[tierIndex];
+    if (tierIndex >= 7) return tier; // Master+ doesn't use divisions conventionally in averages
+
+    const remainder = avg % 10000;
+    let rank = "IV";
+    if (remainder >= 3500) rank = "I";
+    else if (remainder >= 2500) rank = "II";
+    else if (remainder >= 1500) rank = "III";
+
+    return `${tier} ${rank}`;
 }
 
 // --- UPDATERS ---
@@ -117,10 +140,10 @@ async function updateLpLeaderboard(data) {
     if (!data || data.length === 0) return;
     data.sort((a, b) => getRankScore(b.tier, b.rank, b.lp) - getRankScore(a.tier, a.rank, a.lp));
     
-    await postLeaderboard(CH_LP, "UIC Rangliste SoloQ/DuoQ", "Spieler", "Rang & LP", data, (p, rank) => {
+    await postLeaderboard(CH_LP, "🏆 UIC Rangliste SoloQ/DuoQ", "Spieler", "Rang & LP", data, (p, rank) => {
         const emoji = RANK_EMOJIS[p.tier] || RANK_EMOJIS["UNRANKED"];
         return {
-            left: `**${rank}.** ${p.gameName}`,
+            left: `**${rank}.** ${p.gameName}#${p.tagLine} *(${p.team})*`,
             right: `${emoji} ${p.tier} ${p.rank} (${p.lp} LP)`
         };
     });
@@ -128,27 +151,74 @@ async function updateLpLeaderboard(data) {
 
 async function updateCarryIndex(data) {
     if (!data || data.length === 0) return;
-    data.sort((a, b) => b.gd15 - a.gd15);
+    data.sort((a, b) => b.carryIndex - a.carryIndex); // Using the new math index!
     
-    await postLeaderboard(CH_CARRY, "UIC Rangliste Carry Index", "Spieler", "Leistung", data, (p, rank) => {
-        const sign = p.gd15 > 0 ? "+" : "";
+    await postLeaderboard(CH_CARRY, "⚔️ UIC Rangliste Carry Index", "Spieler", "Form Score (Last 10)", data, (p, rank) => {
         return {
-            left: `**${rank}.** ${p.gameName}`,
-            right: `📈 ${sign}${p.gd15} GD15 | ⚔️ ${p.dmgPerGold} DPG`
+            left: `**${rank}.** ${p.gameName}#${p.tagLine} *(${p.team})*`,
+            right: `🏆 **${p.carryIndex}** CI | ⚔️ ${p.dpm} DPM`
         };
     });
 }
 
 async function updateTacticianLedger(data) {
     if (!data || data.length === 0) return;
-    data.sort((a, b) => b.kp - a.kp);
+    data.sort((a, b) => b.tacticianIndex - a.tacticianIndex); // Using the new math index!
     
-    await postLeaderboard(CH_TACTICIAN, "UIC Rangliste Tactician Index", "Spieler", "Map Control", data, (p, rank) => {
+    await postLeaderboard(CH_TACTICIAN, "🧠 UIC Rangliste Tactician Index", "Spieler", "Map Control (Last 10)", data, (p, rank) => {
         return {
-            left: `**${rank}.** ${p.gameName}`,
-            right: `🎯 ${p.kp}% KP | 👁️ ${p.vspm} VSPM`
+            left: `**${rank}.** ${p.gameName}#${p.tagLine} *(${p.team})*`,
+            right: `🧠 **${p.tacticianIndex}** TI | 🎯 ${p.kp}% KP`
         };
     });
 }
 
-module.exports = { updateLpLeaderboard, updateCarryIndex, updateTacticianLedger };
+async function updateTeamOverview(teamOverviewData) {
+    if (!CH_OVERVIEW || teamOverviewData.length === 0) return;
+    await clearChannel(CH_OVERVIEW);
+
+    let embeds = [];
+
+    for (const team of teamOverviewData) {
+        const avgRankStr = getAverageRankString(team.activeRanks);
+        const avgTierName = avgRankStr.split(" ")[0]; // Gets just "EMERALD" from "EMERALD II"
+        const avgEmoji = RANK_EMOJIS[avgTierName] || RANK_EMOJIS["UNRANKED"];
+
+        let description = `**Durchschnittliche Elo:** ${avgEmoji} ${avgRankStr}\n\n**Roster:**\n`;
+
+        team.roster.forEach(p => {
+            let prefix = "🔹";
+            let suffix = `(${p.role})`;
+            
+            // Highlight Staff & Captains
+            if (p.role === "MNG") { prefix = "👔"; suffix = "(Manager)"; }
+            else if (p.role === "COH") { prefix = "📋"; suffix = "(Coach)"; }
+            else if (p.isCaptain) { prefix = "👑"; }
+
+            // Attach Rank info for standard players
+            let rankInfo = "";
+            if (p.rankData && p.role !== "MNG" && p.role !== "COH") {
+                const rankEmoji = RANK_EMOJIS[p.rankData.tier] || RANK_EMOJIS["UNRANKED"];
+                rankInfo = ` - ${rankEmoji} ${p.rankData.tier} ${p.rankData.rank}`;
+            }
+
+            description += `${prefix} **${p.gameName}** ${suffix}${rankInfo}\n`;
+        });
+
+        embeds.push({
+            title: `🛡️ ${team.teamDisplay}`,
+            color: UIC_COLOR,
+            description: description
+        });
+    }
+
+    // Discord allows up to 10 embeds per message
+    for (let i = 0; i < embeds.length; i += 10) {
+        const chunk = embeds.slice(i, i + 10);
+        await discordFetch(`/channels/${CH_OVERVIEW}/messages`, 'POST', { embeds: chunk });
+    }
+    
+    console.log(`   ✅ [Discord] Posted Team Overview to channel ${CH_OVERVIEW}`);
+}
+
+module.exports = { updateLpLeaderboard, updateCarryIndex, updateTacticianLedger, updateTeamOverview };
