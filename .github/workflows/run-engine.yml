@@ -6,7 +6,6 @@ on:
     - cron: '0 0-15,23 * * *'
   workflow_dispatch: 
 
-# We must give the action permission to write code back to your repository
 permissions:
   contents: write
 
@@ -32,12 +31,12 @@ jobs:
           PRIME_API_URL: ${{ secrets.PRIME_API_URL }}
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           DISCORD_GUILD_ID: ${{ secrets.DISCORD_GUILD_ID }}
-          DISCORD_CH_LP: ${{ secrets.CH_LP }}
-          DISCORD_CH_CARRY: ${{ secrets.CH_CARRY }}
-          DISCORD_CH_TACTICIAN: ${{ secrets.CH_TACTICIAN }}
-          DISCORD_CH_POSTGAME: ${{ secrets.CH_POSTGAME }}
-          # 👇 The new Team Overview Secret
-          DISCORD_CH_OVERVIEW: ${{ secrets.CH_OVERVIEW }} 
+          # These now match your DISCORD_CH_... naming convention
+          DISCORD_CH_LP: ${{ secrets.DISCORD_CH_LP }}
+          DISCORD_CH_CARRY: ${{ secrets.DISCORD_CH_CARRY }}
+          DISCORD_CH_TACTICIAN: ${{ secrets.DISCORD_CH_TACTICIAN }}
+          DISCORD_CH_OVERVIEW: ${{ secrets.DISCORD_CH_OVERVIEW }}
+          DISCORD_CH_POSTGAME: ${{ secrets.DISCORD_CH_POSTGAME }} 
         run: node src/index.js
 
       - name: Save Data to Repository
