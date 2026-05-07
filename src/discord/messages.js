@@ -171,7 +171,12 @@ async function updateTeamOverview(teamOverviewData) {
         let roleColumn = "";
 
         team.roster.forEach(p => {
-            nameColumn += `${p.gameName}#${p.tagLine}\n`;
+            // Check if user has a tagline, else fallback to empty
+            const tag = p.tagLine && p.tagLine !== "undefined" ? `#${p.tagLine}` : "";
+            // If they are captain, append the crown
+            const crown = p.isCaptain ? " 👑" : "";
+
+            nameColumn += `${p.gameName}${tag}${crown}\n`;
             // Map the role or fallback to raw role string if not in dict
             roleColumn += `${roleMapping[p.role] || p.role}\n`; 
         });
@@ -181,7 +186,7 @@ async function updateTeamOverview(teamOverviewData) {
             color: UIC_COLOR,
             fields: [
                 { name: "Kader", value: nameColumn || "-", inline: true },
-                { name: "Wertung", value: roleColumn || "-", inline: true }
+                { name: "Rolle", value: roleColumn || "-", inline: true } // Name in "Rolle" geändert
             ]
         });
     }
