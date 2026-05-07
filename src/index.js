@@ -36,7 +36,6 @@ async function runEngine() {
         console.log("\n🔍 --- PHASE 1: PUUID SYNCHRONIZATION ---");
         for (const [teamKey, teamInfo] of Object.entries(teamsDb)) {
             for (let player of teamInfo.roster) {
-                // If they don't have a PUUID and they aren't an empty slot
                 if (player.trackStats !== false && (!player.puuid || player.puuid === "")) {
                     console.log(`   📡 Fetching PUUID for ${player.gameName}#${player.tagLine}...`);
                     const puuid = await riotApi.getPUUID(player.gameName, player.tagLine);
@@ -53,7 +52,6 @@ async function runEngine() {
 
         // --- 2. PRIME SCHEDULE & DISCORD EVENTS ---
         console.log("\n📅 --- PHASE 2: PRIME SCHEDULE & EVENTS ---");
-        // Only run Prime API check for actual teams, not the community
         const scoutingData = await primeApi.fetchPrimeData(teamsDb);
         if (scoutingData && scoutingData.length > 0) {
             for (const match of scoutingData) {
@@ -65,29 +63,27 @@ async function runEngine() {
 
         // --- 3. THE GREAT DATA PULL (RIOT API) ---
         console.log("\n🧠 --- PHASE 3: RIOT DATA ACQUISITION ---");
-        console.log("   ⏳ Note: With ~70 players, this phase will take ~6 minutes to respect rate limits.");
+        console.log("   ⏳ Note: Timelines now required for Discord Stats. ETA: ~10 mins.");
         
         let discordLpBoard = [];
         let discordCarryBoard = [];
         let discordTacticianBoard = [];
-        let teamOverviewData = []; // For the new channel
+        let teamOverviewData = []; 
 
         for (const [teamKey, teamInfo] of Object.entries(teamsDb)) {
             console.log(`\n🛡️ Processing Group: ${teamInfo.teamDisplay}`);
             
-            // Object to hold team data for the Overview Channel
             let currentTeamData = {
                 teamDisplay: teamInfo.teamDisplay,
                 roster: [],
-                activeRanks: [] // Used to calculate Average Elo later
+                activeRanks: [] 
             };
 
             for (let player of teamInfo.roster) {
-                // Skip empty slots
                 if (player.trackStats === false || !player.puuid) continue;
 
                 const tag = player.tagLine;
-                const teamNameShort = teamInfo.teamDisplay.replace("UIC ", ""); // e.g., "Eclipse"
+                const teamNameShort = teamInfo.teamDisplay.replace("UIC ", ""); 
 
                 // 3A. Fetch Live LP
                 const rankData = await riotApi.getRankedData(player.puuid);
@@ -97,13 +93,11 @@ async function runEngine() {
                         tier: rankData.tier, rank: rankData.rank, lp: rankData.lp
                     });
                     
-                    // Add rank to Team Overview (if they are a player, not a Coach/Manager)
                     if (player.role !== "MNG" && player.role !== "COH") {
                         currentTeamData.activeRanks.push(rankData);
                     }
                 }
 
-                // Add to Team Overview roster
                 currentTeamData.roster.push({
                     gameName: player.gameName, role: player.role, isCaptain: player.isCaptain, rankData: rankData
                 });
@@ -113,37 +107,39 @@ async function runEngine() {
                 if (!matchIds || matchIds.length === 0) continue;
 
                 let matchDatas = [];
+                let timelineDatas = [];
 
                 for (const matchId of matchIds) {
                     const matchData = await riotApi.getMatchData(matchId);
                     if (!matchData) continue;
                     
-                    matchDatas.push(matchData);
+                    // NEW: We now fetch the Timeline for EVERY match to get GD@15 for the CI/TI calculation
+                    const timelineData = await riotApi.getMatchTimeline(matchId);
+                    if (!timelineData) continue;
 
-                    // 3C. WEBSITE LEDGER: Check if this was a Prime/Competitive Game (Queue 0 or 124)
+                    matchDatas.push(matchData);
+                    timelineDatas.push(timelineData);
+
+                    // 3C. WEBSITE LEDGER
                     const isCompetitive = matchData.info.queueId === 0 || matchData.info.queueId === 124;
                     if (isCompetitive) {
                         const exists = ledger.find(e => e.matchId === matchId && e.puuid === player.puuid);
                         if (!exists) {
-                            console.log(`   🏆 Prime Match Detected! Fetching Timeline for ${player.gameName}...`);
-                            const timelineData = await riotApi.getMatchTimeline(matchId);
-                            if (timelineData) {
-                                const websiteStats = analytics.calculateWebsiteLedger(player.puuid, matchData, timelineData);
-                                if (websiteStats) {
-                                    websiteStats.puuid = player.puuid;
-                                    websiteStats.teamKey = teamKey;
-                                    ledger.push(websiteStats);
-                                    console.log(`   ✅ Saved Prime Stats for ${player.gameName}`);
-                                }
+                            console.log(`   🏆 Prime Match Detected! Saving to Ledger for ${player.gameName}...`);
+                            const websiteStats = analytics.calculateWebsiteLedger(player.puuid, matchData, timelineData);
+                            if (websiteStats) {
+                                websiteStats.puuid = player.puuid;
+                                websiteStats.teamKey = teamKey;
+                                ledger.push(websiteStats);
+                                console.log(`   ✅ Saved Prime Stats for ${player.gameName}`);
                             }
                         }
                     }
                 }
 
-                // 3D. DISCORD GAMIFICATION: Calculate stats from all 10 matches
-                const discordStats = analytics.calculateDiscordStats(player.puuid, matchDatas);
+                // 3D. DISCORD GAMIFICATION (Now passes the timelines array!)
+                const discordStats = analytics.calculateDiscordStats(player.puuid, matchDatas, timelineDatas);
                 if (discordStats) {
-                    // Everyone gets evaluated for both indices
                     discordCarryBoard.push({
                         gameName: player.gameName, tagLine: tag, team: teamNameShort,
                         ...discordStats
