@@ -8,13 +8,13 @@ const GUILD_ID = process.env.DISCORD_GUILD_ID;
 const API_BASE = 'https://discord.com/api/v10';
 
 // Replace with your Org's actual Twitch or stream link
-const TWITCH_URL = 'https://twitch.tv/your_twitch_channel'; 
+const TWITCH_URL = 'https://www.twitch.tv/ultrainstinctcrew'; 
 
 // Replace this with your upcoming GitHub Pages URL (Repository B)
-const WEBSITE_BASE_URL = 'https://your-github-username.github.io/UIC-Dashboard';
+const WEBSITE_BASE_URL = 'https://ultrainstinctcrew.com/';
 
 // Replace with your Org's matchday banner image (JPG or PNG)
-const BANNER_IMAGE_URL = 'https://example.com/your-org-banner.jpg'; 
+const BANNER_IMAGE_URL = 'https://ultrainstinctcrew.com/assets/logo/logo.png'; 
 
 async function discordFetch(endpoint, method = 'GET', body = null) {
     if (!BOT_TOKEN || !GUILD_ID) return null;
