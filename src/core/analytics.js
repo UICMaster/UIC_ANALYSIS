@@ -1,111 +1,126 @@
 /**
  * src/core/analytics.js
- * The proprietary math engine divided into Discord Gamification and Website Analytics.
+ * Professionelle Esports-Analytics Engine mit Z-Score Normalisierung.
+ * Baselines: Master+ Niveau
  */
+
+// Statistische Baselines für Master+ (m = Mittelwert, s = Standardabweichung)
+const BASELINES = {
+    TOP: { gd_15: { m: 0, s: 1500 }, dpg: { m: 1.2, s: 0.35 }, vspm: { m: 1.4, s: 0.5 }, cc: { m: 18, s: 12 }, kp: { m: 48, s: 10 } },
+    JGL: { gd_15: { m: 0, s: 1200 }, dpg: { m: 0.9, s: 0.25 }, vspm: { m: 2.2, s: 0.7 }, cc: { m: 28, s: 18 }, kp: { m: 65, s: 12 } },
+    MID: { gd_15: { m: 0, s: 1300 }, dpg: { m: 1.45, s: 0.4 }, vspm: { m: 1.5, s: 0.5 }, cc: { m: 20, s: 14 }, kp: { m: 58, s: 11 } },
+    BOT: { gd_15: { m: 0, s: 1600 }, dpg: { m: 1.65, s: 0.45 }, vspm: { m: 1.3, s: 0.4 }, cc: { m: 12, s: 8 },  kp: { m: 52, s: 10 } },
+    SUP: { gd_15: { m: 0, s: 800 },  dpg: { m: 0.45, s: 0.2 }, vspm: { m: 3.8, s: 1.4 }, cc: { m: 40, s: 25 }, kp: { m: 68, s: 13 } }
+};
 
 /**
- * ---------------------------------------------------------------------------
- * ENGINE 1: THE DISCORD GAMIFICATION CALCULATOR
- * Analyzes up to 10 SoloQ matches to generate a "Form" score.
- * ---------------------------------------------------------------------------
+ * Hilfsfunktion zum Begrenzen von Werten (Clamping)
  */
-function calculateDiscordStats(targetPuuid, matchDataArray) {
-    // Filter out null matches and Remakes (games under 5 minutes) so stats don't tank
+function clamp(val, min, max) {
+    return Math.max(min, Math.min(max, val));
+}
+
+/**
+ * Normalisierung via Z-Score auf eine 0-100 Skala (50 = Durchschnitt)
+ */
+function normalize(val, baseline) {
+    if (!baseline) return 50;
+    const z = (val - baseline.m) / baseline.s;
+    const n_raw = (z * 15) + 50;
+    return clamp(n_raw, 0, 100);
+}
+
+/**
+ * ENGINE 1: THE DISCORD GAMIFICATION CALCULATOR
+ */
+function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray) {
     const validMatches = matchDataArray.filter(m => m && m.info && m.info.gameDuration > 300);
-    
     if (validMatches.length === 0) return null;
 
-    let totals = {
-        kills: 0, assists: 0, teamKills: 0,
-        damage: 0, teamDamage: 0, gold: 0,
-        vision: 0, minutes: 0, wins: 0
-    };
+    let gameScores = { ci: [], ti: [] };
 
-    validMatches.forEach(match => {
+    validMatches.forEach((match, idx) => {
         const info = match.info;
+        const timeline = timelineDataArray[idx];
         const me = info.participants.find(p => p.puuid === targetPuuid);
         if (!me) return;
 
+        const role = me.teamPosition || "MID"; 
+        const bl = BASELINES[role] || BASELINES.MID;
+        const gameMins = info.gameDuration / 60;
+
+        // --- DATEN-EXTRAKTION ---
         const myTeam = info.participants.filter(p => p.teamId === me.teamId);
         const teamKills = myTeam.reduce((sum, p) => sum + p.kills, 0);
         const teamDamage = myTeam.reduce((sum, p) => sum + p.totalDamageDealtToChampions, 0);
-        const gameMins = info.gameDuration / 60;
+        const teamGold = myTeam.reduce((sum, p) => sum + p.goldEarned, 0);
 
-        totals.kills += me.kills;
-        totals.assists += me.assists;
-        totals.teamKills += teamKills;
-        totals.damage += me.totalDamageDealtToChampions;
-        totals.teamDamage += teamDamage;
-        totals.gold += me.goldEarned;
-        totals.vision += me.visionScore;
-        totals.minutes += gameMins;
-        if (me.win) totals.wins += 1;
+        const dmgShare = me.totalDamageDealtToChampions / teamDamage;
+        const goldShare = me.goldEarned / teamGold;
+        const objDmgShare = me.damageDealtToObjectives / (info.participants.reduce((s, p) => s + p.damageDealtToObjectives, 0) || 1);
+
+        // GD@15 Berechnung
+        let gd15 = 0;
+        if (timeline && timeline.info.frames[15]) {
+            const enemy = info.participants.find(p => p.teamId !== me.teamId && p.teamPosition === me.teamPosition);
+            if (enemy) {
+                const myG = timeline.info.frames[15].participantFrames[me.participantId].totalGold;
+                const enG = timeline.info.frames[15].participantFrames[enemy.participantId].totalGold;
+                gd15 = myG - enG;
+            }
+        }
+
+        // --- CARRY INDEX (CI) ---
+        const n_gd15 = normalize(gd15, bl.gd_15);
+        const n_dpg = normalize(me.totalDamageDealtToChampions / (me.goldEarned || 1), bl.dpg);
+        
+        const delta_econ = dmgShare - goldShare;
+        const n_delta_econ = clamp((delta_econ + 0.05) * 1000, 0, 100);
+        const n_obj_dmg = clamp(objDmgShare * 100, 0, 100);
+
+        const CI = (0.30 * n_gd15) + (0.40 * n_delta_econ) + (0.15 * n_dpg) + (0.15 * n_obj_dmg);
+
+        // --- TACTICIAN INDEX (TI) ---
+        const kp_pct = teamKills > 0 ? (me.kills + me.assists) / teamKills : 0;
+        // Proxy für Isolated Deaths (Deaths ohne Kill-Beteiligung des Teams)
+        const iso_death_pct = me.deaths > 0 ? clamp((me.deaths - (me.assists * 0.5)) / me.deaths, 0, 1) : 0;
+        const kp_adj = (kp_pct * 100) - (iso_death_pct * 10); // Skalierte Adjustierung
+
+        const TI = (0.20 * n_gd15) + 
+                   (0.30 * normalize(me.visionScore / gameMins, bl.vspm)) + 
+                   (0.30 * normalize(me.timeCCingOthers, bl.cc)) + 
+                   (0.20 * normalize(kp_adj, bl.kp));
+
+        gameScores.ci.push(CI);
+        gameScores.ti.push(TI);
     });
 
-    // Calculate Averages Across the 10 Games
-    const kp = totals.teamKills > 0 ? ((totals.kills + totals.assists) / totals.teamKills) * 100 : 0;
-    const dpm = totals.minutes > 0 ? totals.damage / totals.minutes : 0;
-    const dpg = totals.gold > 0 ? totals.damage / totals.gold : 0;
-    const dmgShare = totals.teamDamage > 0 ? (totals.damage / totals.teamDamage) * 100 : 0;
-    const vspm = totals.minutes > 0 ? totals.vision / totals.minutes : 0;
-    const winRate = Math.round((totals.wins / validMatches.length) * 100);
-
-    // THE PROPRIETARY FORMULA (Normalized to 100 = Average)
-    // Carry: DPM (Baseline 600), Dmg Share (Baseline 25%), DPG (Baseline 1.3)
-    const carryIndex = Math.round(((dpm / 600) * 0.4 + (dmgShare / 25) * 0.3 + (dpg / 1.3) * 0.3) * 100);
-    
-    // Tactician: KP (Baseline 50%), VSPM (Baseline 1.5)
-    const tacticianIndex = Math.round(((kp / 50) * 0.5 + (vspm / 1.5) * 0.5) * 100);
+    // Durchschnitt über alle Spiele bilden
+    const avgCI = Math.round(gameScores.ci.reduce((a, b) => a + b, 0) / gameScores.ci.length);
+    const avgTI = Math.round(gameScores.ti.reduce((a, b) => a + b, 0) / gameScores.ti.length);
 
     return {
-        gamesPlayed: validMatches.length,
-        winRate: winRate,
-        kp: parseFloat(kp.toFixed(1)),
-        dpm: Math.round(dpm),
-        dpg: parseFloat(dpg.toFixed(2)),
-        dmgShare: parseFloat(dmgShare.toFixed(1)),
-        vspm: parseFloat(vspm.toFixed(2)),
-        carryIndex: carryIndex,
-        tacticianIndex: tacticianIndex
+        carryIndex: clamp(avgCI, 0, 100),
+        tacticianIndex: clamp(avgTI, 0, 100)
     };
 }
 
 /**
- * ---------------------------------------------------------------------------
- * ENGINE 2: THE WEBSITE LEDGER (PRIME LEAGUE MATCHES ONLY)
- * Deep scouting metrics requiring Timeline API (GD@15).
- * ---------------------------------------------------------------------------
+ * ENGINE 2: THE WEBSITE LEDGER (Scouting Tool)
  */
 function calculateWebsiteLedger(targetPuuid, matchData, timelineData) {
     const info = matchData.info;
     const me = info.participants.find(p => p.puuid === targetPuuid);
     if (!me) return null;
 
-    const myTeamId = me.teamId;
     const myRole = me.teamPosition; 
-    const myParticipantId = me.participantId; 
-
-    const enemy = info.participants.find(p => p.teamId !== myTeamId && p.teamPosition === myRole);
-    const enemyParticipantId = enemy ? enemy.participantId : null;
-
-    const myTeam = info.participants.filter(p => p.teamId === myTeamId);
-    const teamTotalKills = myTeam.reduce((sum, p) => sum + p.kills, 0);
-    const teamTotalDamage = myTeam.reduce((sum, p) => sum + p.totalDamageDealtToChampions, 0);
-    const gameMinutes = info.gameDuration / 60;
-
-    const kp = teamTotalKills > 0 ? parseFloat((((me.kills + me.assists) / teamTotalKills) * 100).toFixed(1)) : 0;
-    const dmgPerGold = me.goldEarned > 0 ? parseFloat((me.totalDamageDealtToChampions / me.goldEarned).toFixed(2)) : 0;
-    const dmgShare = teamTotalDamage > 0 ? parseFloat(((me.totalDamageDealtToChampions / teamTotalDamage) * 100).toFixed(1)) : 0;
-    const vspm = gameMinutes > 0 ? parseFloat((me.visionScore / gameMinutes).toFixed(2)) : 0;
+    const enemy = info.participants.find(p => p.teamId !== me.teamId && p.teamPosition === myRole);
 
     let gd15 = 0;
-    if (timelineData && enemyParticipantId && timelineData.info.frames.length > 15) {
-        const frame15 = timelineData.info.frames[15]; 
-        if (frame15 && frame15.participantFrames) {
-            const myGold = frame15.participantFrames[myParticipantId.toString()].totalGold;
-            const enemyGold = frame15.participantFrames[enemyParticipantId.toString()].totalGold;
-            gd15 = myGold - enemyGold;
-        }
+    if (timelineData && timelineData.info.frames[15]) {
+        const myG = timelineData.info.frames[15].participantFrames[me.participantId].totalGold;
+        const enG = enemy ? timelineData.info.frames[15].participantFrames[enemy.participantId].totalGold : myG;
+        gd15 = myG - enG;
     }
 
     return {
@@ -115,11 +130,8 @@ function calculateWebsiteLedger(targetPuuid, matchData, timelineData) {
         role: myRole,
         win: me.win,
         kda: `${me.kills}/${me.deaths}/${me.assists}`,
-        kp: kp,
-        dmgPerGold: dmgPerGold,
-        dmgShare: dmgShare,
-        vspm: vspm,
         gd15: gd15,
+        dmgShare: parseFloat(((me.totalDamageDealtToChampions / info.participants.filter(p => p.teamId === me.teamId).reduce((s, p) => s + p.totalDamageDealtToChampions, 0)) * 100).toFixed(1)),
         enemyName: enemy ? (enemy.riotIdGameName || enemy.summonerName) : "Unknown"
     };
 }
