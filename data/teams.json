@@ -216,8 +216,8 @@
     "tier": "Division X",
     "roster": [
       {
-        "gameName": "Haselmania",
-        "tagLine": "BIER",
+        "gameName": "UIC Haselmania",
+        "tagLine": "UIC",
         "role": "TOP",
         "puuid": "",
         "trackStats": true,
@@ -417,8 +417,8 @@
         "isCaptain": false
       },
       {
-        "gameName": "Blauerlopus",
-        "tagLine": "Euw",
+        "gameName": "Blauerlupos",
+        "tagLine": "euw",
         "role": "JGL",
         "puuid": "",
         "trackStats": true,
