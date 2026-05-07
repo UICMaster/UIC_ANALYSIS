@@ -98,8 +98,9 @@ async function runEngine() {
                     }
                 }
 
+                // HIER IST DER FIX: tagLine: tag wurde hinzugefügt
                 currentTeamData.roster.push({
-                    gameName: player.gameName, role: player.role, isCaptain: player.isCaptain, rankData: rankData
+                    gameName: player.gameName, tagLine: tag, role: player.role, isCaptain: player.isCaptain, rankData: rankData
                 });
 
                 // 3B. Fetch Last 10 Matches
@@ -113,7 +114,6 @@ async function runEngine() {
                     const matchData = await riotApi.getMatchData(matchId);
                     if (!matchData) continue;
                     
-                    // NEW: We now fetch the Timeline for EVERY match to get GD@15 for the CI/TI calculation
                     const timelineData = await riotApi.getMatchTimeline(matchId);
                     if (!timelineData) continue;
 
@@ -137,7 +137,7 @@ async function runEngine() {
                     }
                 }
 
-                // 3D. DISCORD GAMIFICATION (Now passes the timelines array!)
+                // 3D. DISCORD GAMIFICATION
                 const discordStats = analytics.calculateDiscordStats(player.puuid, matchDatas, timelineDatas);
                 if (discordStats) {
                     discordCarryBoard.push({
