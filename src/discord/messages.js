@@ -9,11 +9,11 @@ const API_BASE = 'https://discord.com/api/v10';
 const CH_LP = process.env.DISCORD_CH_LP;
 const CH_CARRY = process.env.DISCORD_CH_CARRY;
 const CH_TACTICIAN = process.env.DISCORD_CH_TACTICIAN;
-const CH_OVERVIEW = process.env.DISCORD_CH_OVERVIEW; // 👈 The new Secret
+const CH_OVERVIEW = process.env.DISCORD_CH_OVERVIEW;
 
 const UIC_COLOR = 0x00F0FF; // #00F0FF Cyan Color
 
-// Custom Server Emojis
+// Custom Server Emojis (Nur noch für LP Leaderboard genutzt)
 const RANK_EMOJIS = {
     "CHALLENGER": "<:challenger:1501324978321101021>",
     "GRANDMASTER": "<:grandmaster:1501325107128434748>",
@@ -111,36 +111,13 @@ function getRankScore(tier, rank, lp) {
     return (tiers[tier] || 0) + (ranks[rank] || 0) + parseInt(lp || 0);
 }
 
-function getAverageRankString(ranks) {
-    if (!ranks || ranks.length === 0) return "UNRANKED";
-    const totalScore = ranks.reduce((sum, r) => sum + getRankScore(r.tier, r.rank, r.lp), 0);
-    const avg = totalScore / ranks.length;
-
-    if (avg <= 0) return "UNRANKED";
-
-    const tierNames = ["IRON", "BRONZE", "SILVER", "GOLD", "PLATINUM", "EMERALD", "DIAMOND", "MASTER", "GRANDMASTER", "CHALLENGER"];
-    let tierIndex = Math.floor(avg / 10000);
-    if (tierIndex > 9) tierIndex = 9;
-    
-    const tier = tierNames[tierIndex];
-    if (tierIndex >= 7) return tier; // Master+ doesn't use divisions conventionally in averages
-
-    const remainder = avg % 10000;
-    let rank = "IV";
-    if (remainder >= 3500) rank = "I";
-    else if (remainder >= 2500) rank = "II";
-    else if (remainder >= 1500) rank = "III";
-
-    return `${tier} ${rank}`;
-}
-
 // --- UPDATERS ---
 
 async function updateLpLeaderboard(data) {
     if (!data || data.length === 0) return;
     data.sort((a, b) => getRankScore(b.tier, b.rank, b.lp) - getRankScore(a.tier, a.rank, a.lp));
     
-    await postLeaderboard(CH_LP, "🏆 UIC Rangliste SoloQ/DuoQ", "Spieler", "Rang & LP", data, (p, rank) => {
+    await postLeaderboard(CH_LP, "UIC Rangliste SoloQ/DuoQ", "Spieler", "Rang & LP", data, (p, rank) => {
         const emoji = RANK_EMOJIS[p.tier] || RANK_EMOJIS["UNRANKED"];
         return {
             left: `**${rank}.** ${p.gameName}#${p.tagLine} *(${p.team})*`,
@@ -151,24 +128,24 @@ async function updateLpLeaderboard(data) {
 
 async function updateCarryIndex(data) {
     if (!data || data.length === 0) return;
-    data.sort((a, b) => b.carryIndex - a.carryIndex); // Using the new math index!
+    data.sort((a, b) => b.carryIndex - a.carryIndex); 
     
-    await postLeaderboard(CH_CARRY, "⚔️ UIC Rangliste Carry Index", "Spieler", "Form Score (Last 10)", data, (p, rank) => {
+    await postLeaderboard(CH_CARRY, "UIC Rangliste Carry Index", "Spieler", "Wertung", data, (p, rank) => {
         return {
             left: `**${rank}.** ${p.gameName}#${p.tagLine} *(${p.team})*`,
-            right: `🏆 **${p.carryIndex}** CI | ⚔️ ${p.dpm} DPM`
+            right: `Score: **${p.carryIndex}**`
         };
     });
 }
 
 async function updateTacticianLedger(data) {
     if (!data || data.length === 0) return;
-    data.sort((a, b) => b.tacticianIndex - a.tacticianIndex); // Using the new math index!
+    data.sort((a, b) => b.tacticianIndex - a.tacticianIndex); 
     
-    await postLeaderboard(CH_TACTICIAN, "🧠 UIC Rangliste Tactician Index", "Spieler", "Map Control (Last 10)", data, (p, rank) => {
+    await postLeaderboard(CH_TACTICIAN, "UIC Rangliste Tactician Index", "Spieler", "Wertung", data, (p, rank) => {
         return {
             left: `**${rank}.** ${p.gameName}#${p.tagLine} *(${p.team})*`,
-            right: `🧠 **${p.tacticianIndex}** TI | 🎯 ${p.kp}% KP`
+            right: `Score: **${p.tacticianIndex}**`
         };
     });
 }
@@ -177,38 +154,35 @@ async function updateTeamOverview(teamOverviewData) {
     if (!CH_OVERVIEW || teamOverviewData.length === 0) return;
     await clearChannel(CH_OVERVIEW);
 
+    const roleMapping = {
+        "TOP": "Toplane", 
+        "JGL": "Jungle", 
+        "MID": "Midlane", 
+        "BOT": "Botlane", 
+        "SUP": "Support", 
+        "MNG": "Manager", 
+        "COH": "Coach"
+    };
+
     let embeds = [];
 
     for (const team of teamOverviewData) {
-        const avgRankStr = getAverageRankString(team.activeRanks);
-        const avgTierName = avgRankStr.split(" ")[0]; // Gets just "EMERALD" from "EMERALD II"
-        const avgEmoji = RANK_EMOJIS[avgTierName] || RANK_EMOJIS["UNRANKED"];
-
-        let description = `**Durchschnittliche Elo:** ${avgEmoji} ${avgRankStr}\n\n**Roster:**\n`;
+        let nameColumn = "";
+        let roleColumn = "";
 
         team.roster.forEach(p => {
-            let prefix = "🔹";
-            let suffix = `(${p.role})`;
-            
-            // Highlight Staff & Captains
-            if (p.role === "MNG") { prefix = "👔"; suffix = "(Manager)"; }
-            else if (p.role === "COH") { prefix = "📋"; suffix = "(Coach)"; }
-            else if (p.isCaptain) { prefix = "👑"; }
-
-            // Attach Rank info for standard players
-            let rankInfo = "";
-            if (p.rankData && p.role !== "MNG" && p.role !== "COH") {
-                const rankEmoji = RANK_EMOJIS[p.rankData.tier] || RANK_EMOJIS["UNRANKED"];
-                rankInfo = ` - ${rankEmoji} ${p.rankData.tier} ${p.rankData.rank}`;
-            }
-
-            description += `${prefix} **${p.gameName}** ${suffix}${rankInfo}\n`;
+            nameColumn += `${p.gameName}#${p.tagLine}\n`;
+            // Map the role or fallback to raw role string if not in dict
+            roleColumn += `${roleMapping[p.role] || p.role}\n`; 
         });
 
         embeds.push({
-            title: `🛡️ ${team.teamDisplay}`,
+            title: team.teamDisplay,
             color: UIC_COLOR,
-            description: description
+            fields: [
+                { name: "Kader", value: nameColumn || "-", inline: true },
+                { name: "Wertung", value: roleColumn || "-", inline: true }
+            ]
         });
     }
 
