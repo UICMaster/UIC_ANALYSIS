@@ -57,21 +57,21 @@
       {
         "gameName": "Baumi",
         "tagLine": "123",
-        "role": "SUB_1",
+        "role": "MID",
         "puuid": "6pV_5tzKR0TKkTy-Yh-cOGCKXDbVybApPq4nH7M7b6SD8PkVYJG7OIEZaUHjvtrC4oY2K-G6EYX3Jg",
         "trackStats": true,
         "discordId": "",
-        "rosterStatus": "sub",
+        "rosterStatus": "substitute",
         "isCaptain": false
       },
       {
         "gameName": "UIC Frozenhands",
         "tagLine": "MID",
-        "role": "SUB_2",
+        "role": "MID",
         "puuid": "DeAfW8t1lBn3vkOopHUlH-k69EM1ZzsvPCq9CKZ7oHbv05LBKc9xNhCFqZvrP9yod9PYA-ySmDo3YQ",
         "trackStats": true,
         "discordId": "",
-        "rosterStatus": "sub",
+        "rosterStatus": "substitute",
         "isCaptain": false
       },
       {
@@ -79,16 +79,6 @@
         "tagLine": "stay",
         "role": "MNG",
         "puuid": "dCDrsC55a3Nxsbn62aEgLCx-F6BtgrVUrN8z6dKfbAQW5SzYY5fUBZAGitYxD4FaJSK-E-C71gPPXg",
-        "trackStats": true,
-        "discordId": "",
-        "rosterStatus": "staff",
-        "isCaptain": false
-      },
-      {
-        "gameName": "UIC Loonz",
-        "tagLine": "Coach",
-        "role": "COH",
-        "puuid": "_O_u4cBRnVcUi9K0aQudsF2XU-u9lCfMM1oJ0krQORslg-ILsd-GvXjlCxf7dsJR6MHM9ACeZ1yuuQ",
         "trackStats": true,
         "discordId": "",
         "rosterStatus": "staff",
@@ -459,31 +449,11 @@
       {
         "gameName": "zab77",
         "tagLine": "EUW",
-        "role": "SUB",
+        "role": "TOP",
         "puuid": "BRbSkq7sfdOr3PraDbS_rrcu3-OLRtdUdpf27yjWHehGy8wuYhAzRZ7OwUYg8XGzMUmOwD9ILhHaDw",
         "trackStats": true,
         "discordId": "",
         "rosterStatus": "sub",
-        "isCaptain": false
-      },
-      {
-        "gameName": "UIC Ayumu",
-        "tagLine": "LoveK",
-        "role": "MNG",
-        "puuid": "IhvwtG1CDNEpTQUuYpWgrC4lPF4zIg6WqBk8x6acd3mQQ4pFA8Ab03HcUQtJouCavkoFiGnz7C_3lQ",
-        "trackStats": true,
-        "discordId": "",
-        "rosterStatus": "staff",
-        "isCaptain": false
-      },
-      {
-        "gameName": "UIC Frozenhands",
-        "tagLine": "mid",
-        "role": "COH",
-        "puuid": "DeAfW8t1lBn3vkOopHUlH-k69EM1ZzsvPCq9CKZ7oHbv05LBKc9xNhCFqZvrP9yod9PYA-ySmDo3YQ",
-        "trackStats": true,
-        "discordId": "",
-        "rosterStatus": "staff",
         "isCaptain": false
       }
     ]
@@ -496,7 +466,7 @@
       {
         "gameName": "UIC Kaetaya",
         "tagLine": "XwX",
-        "role": "TOP_1",
+        "role": "TOP",
         "puuid": "LxL0uUd8IgBBCTjVQps4n8incQV45AcMAGv0AwaeTRvtJRUsM66WJo2WcLH0VHxuZN2JicILBrnQOA",
         "trackStats": true,
         "discordId": "",
@@ -506,7 +476,7 @@
       {
         "gameName": "UIC Muh",
         "tagLine": "KATZE",
-        "role": "TOP_2",
+        "role": "TOP",
         "puuid": "GF3JA9ZAjz4F0H1rbq8U4l6eRY-_bM3Xfhm9uf_6T9rmyusct329hifOXIuhqfSgjhL0nQmcTeu2eA",
         "trackStats": true,
         "discordId": "",
@@ -516,7 +486,7 @@
       {
         "gameName": "UIC Rubix Qube",
         "tagLine": "MÖP",
-        "role": "JGL_1",
+        "role": "JGL",
         "puuid": "xbEI_-Yihvio3P3RrIAYnBLZY09mv-Us3JzAw5F_Hrultzhdqr2fiP9cmpazQTjsUd7IGNqnf8AXaA",
         "trackStats": true,
         "discordId": "",
@@ -526,7 +496,7 @@
       {
         "gameName": "UIC Namorii",
         "tagLine": "Nova",
-        "role": "JGL_2",
+        "role": "JGL",
         "puuid": "_Vboe8vgAfGoD22_iqVr-3gD6z5l0reXZLkp_6drpF9yHrCAj-7DAd6aUy_FLrC4VDUJyXUfsp-RWw",
         "trackStats": true,
         "discordId": "",
@@ -536,7 +506,7 @@
       {
         "gameName": "UIC adedier",
         "tagLine": "EUWE",
-        "role": "MID_1",
+        "role": "MID",
         "puuid": "B4ND0LT_kMkFcYyufBNWMPDLztEkkPnk81-dS4blNBqIE2PtEOEMoO0zbncNVu-Inc91okWZBa7GNw",
         "trackStats": true,
         "discordId": "",
@@ -546,7 +516,7 @@
       {
         "gameName": "UIC GreatATuin",
         "tagLine": "AUS",
-        "role": "MID_2",
+        "role": "MID",
         "puuid": "bAw5x0hXyyqGyuVCfdNcASFtSlaN3czBq_LqAo2mS0l74GFvXX0elEhKLbzYu8cFhC38YWbBPI-Uig",
         "trackStats": true,
         "discordId": "",
@@ -556,7 +526,7 @@
       {
         "gameName": "UIC Boohunter",
         "tagLine": "Boo",
-        "role": "BOT_1",
+        "role": "BOT",
         "puuid": "uWBnvrR7EW8CpWBQAuARc1hA3HbC58oLsGhdITpU47pE0Jw0I57DPPIPDGTj_V2xQAzSKsNy2upWOw",
         "trackStats": true,
         "discordId": "",
@@ -566,7 +536,7 @@
       {
         "gameName": "UIC Deavan",
         "tagLine": "UIC",
-        "role": "BOT_2",
+        "role": "BOT",
         "puuid": "PJs9YrCoxAr0NCgYTjcmpG9OiGo23J478vnanue29snn2Zdh5d1C3q21dtv3bkO23OuyGrHIHThVPQ",
         "trackStats": true,
         "discordId": "",
@@ -576,7 +546,7 @@
       {
         "gameName": "UIC Kaanto",
         "tagLine": "Nova",
-        "role": "SUP_1",
+        "role": "SUP",
         "puuid": "RUhHXMFa0fnChQqNybEqTgYZIX8NkpVHgLid302Lri9EgMk3_kbBl2L23Wf-ocg8ZXDO9VoqCjlnsg",
         "trackStats": true,
         "discordId": "",
@@ -586,22 +556,12 @@
       {
         "gameName": "UIC Excellent C",
         "tagLine": "1997",
-        "role": "SUP_2",
+        "role": "SUP",
         "puuid": "j0sWU6hmVenc4tJuSjLK7qsdf_CZZS63r6v9qlxy4WF0ia7dYorDo5x36edpvnKbyWyjfJ8i1jB0pQ",
         "trackStats": true,
         "discordId": "",
         "rosterStatus": "starter",
         "isCaptain": true
-      },
-      {
-        "gameName": "UIC Loonz",
-        "tagLine": "Coach",
-        "role": "COH",
-        "puuid": "_O_u4cBRnVcUi9K0aQudsF2XU-u9lCfMM1oJ0krQORslg-ILsd-GvXjlCxf7dsJR6MHM9ACeZ1yuuQ",
-        "trackStats": true,
-        "discordId": "",
-        "rosterStatus": "staff",
-        "isCaptain": false
       }
     ]
   },
@@ -658,16 +618,6 @@
         "trackStats": true,
         "discordId": "",
         "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "gameName": "UIC Taiga",
-        "tagLine": "UIC",
-        "role": "COH",
-        "puuid": "OtOrCb_VTx5SsvbMosk8YY_M_TtOcBYgaMR_7ADjIut4m8JEOvRCtxBbw4QOhcQ0stMBp2smBLEKXg",
-        "trackStats": true,
-        "discordId": "",
-        "rosterStatus": "staff",
         "isCaptain": false
       }
     ]
@@ -740,7 +690,7 @@
     ]
   },
   "abyss": {
-    "primeLeagueId": "204924",
+    "primeLeagueId": "191522",
     "teamDisplay": "UIC Abyss",
     "tier": "Division X",
     "roster": [
@@ -804,81 +754,81 @@
       {
         "gameName": "RD Nuokii",
         "tagLine": "072",
-        "role": "ALL",
+        "role": "JGL",
         "puuid": "YcECbZnWu751gA35EUPzpaQq8cUwK7zbT5Pu51KltNjeYnU6oGXbvGX-2ejjnpXpt2SQRbGQW6_hdg",
         "trackStats": true,
         "discordId": "",
-        "rosterStatus": "community",
+        "rosterStatus": "starter",
         "isCaptain": false
       },
       {
         "gameName": "RD Slevin",
         "tagLine": "1612",
-        "role": "ALL",
+        "role": "MID",
         "puuid": "QXYsr7RfT77OIEU74ca9ME3911voA_TLmnxYEmTzYO491dQq7wZIxYVwwx_OrrB8Nx7gMftVddO9tg",
         "trackStats": true,
         "discordId": "",
-        "rosterStatus": "community",
+        "rosterStatus": "starter",
         "isCaptain": false
       },
       {
         "gameName": "UIC Gallagros",
         "tagLine": "187",
-        "role": "ALL",
+        "role": "BOT",
         "puuid": "hWt8q6dyralthW4l2YUWKY20qhUVxUFCLtpSrCRdorTIEm9yZM1XDxjTHMwxQOKyf-kIzTvTiOCwLg",
         "trackStats": true,
         "discordId": "",
-        "rosterStatus": "community",
+        "rosterStatus": "starter",
         "isCaptain": false
       },
       {
         "gameName": "Qvy",
         "tagLine": "Wonky",
-        "role": "ALL",
+        "role": "JGL",
         "puuid": "j5n6xIa_z29u-3prac8YBnt_tGOMDX54oIr-52e58gb80cvG79LcoPfC_FGpf-4_JljCu_OBSheAcw",
         "trackStats": true,
         "discordId": "",
-        "rosterStatus": "community",
+        "rosterStatus": "starter",
         "isCaptain": false
       },
       {
         "gameName": "UIC ReCord",
         "tagLine": "Cedo",
-        "role": "ALL",
+        "role": "JGL",
         "puuid": "jE2-mcAWqXViJHhYt8MliqD0-sGj-pWulNE7TSKY-din1_lweuhBN1ygjLfut_xjNFGjBGCL97gzDg",
         "trackStats": true,
         "discordId": "",
-        "rosterStatus": "community",
+        "rosterStatus": "starter",
         "isCaptain": false
       },
       {
         "gameName": "HGG Schuh",
         "tagLine": "Cedo",
-        "role": "ALL",
+        "role": "JGL",
         "puuid": "41dLJArbVbTbkcjVffYyH5TDm27ive51-ip2vV0ECTLiUo2FqJbJwERViuLuoQHboyO0MZSqjs-8DA",
         "trackStats": true,
         "discordId": "",
-        "rosterStatus": "community",
+        "rosterStatus": "starter",
         "isCaptain": false
       },
       {
         "gameName": "UIC Goku",
         "tagLine": "UIC",
-        "role": "ALL",
+        "role": "MID",
         "puuid": "VSQzV-v5NgUqtfJZpsJAHKZB0R-YDNoKj_4r3llLG3n6OmqY2ak6wMxyn22nBraCR_QZYxRXRamBaA",
         "trackStats": true,
         "discordId": "",
-        "rosterStatus": "community",
+        "rosterStatus": "starter",
         "isCaptain": false
       },
       {
         "gameName": " RD Dragonfly",
         "tagLine": "UIC",
-        "role": "ALL",
+        "role": "SUP",
         "puuid": "nqnImE7-QZv1dIWmBRPEnYD7q66e4iudBVoaPTL75sGWgrrJHrIuioKuMI0kv3QPg80wNWjrJAaodw",
         "trackStats": true,
         "discordId": "",
-        "rosterStatus": "community",
+        "rosterStatus": "starter",
         "isCaptain": false
       }
     ]
