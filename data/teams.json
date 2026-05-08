@@ -822,6 +822,36 @@
         "isCaptain": false
       },
       {
+        "gameName": "UIC Kuroko",
+        "tagLine": "Pass",
+        "role": "BOT",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "gameName": "UIC Taiga",
+        "tagLine": "UIC",
+        "role": "SUP",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "gameName": "UIC Rayando07",
+        "tagLine": "HELP",
+        "role": "TOP",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
         "gameName": "RD Dragonfly",
         "tagLine": "UIC",
         "role": "SUP",
