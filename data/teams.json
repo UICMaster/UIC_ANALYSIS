@@ -437,11 +437,11 @@
         "isCaptain": false
       },
       {
-        "gameName": "",
-        "tagLine": "",
+        "gameName": "Rui Arneb",
+        "tagLine": "16396",
         "role": "SUP",
         "puuid": "",
-        "trackStats": false,
+        "trackStats": true,
         "discordId": "",
         "rosterStatus": "starter",
         "isCaptain": false
@@ -846,6 +846,56 @@
         "tagLine": "HELP",
         "role": "TOP",
         "puuid": "LFkU5DobxNuJ4-vhghOqZoLzNjLAdqYSb_9UyOkSycE7k6PpBHr1ugHuT1xPc2BSQJXdYom15KotOQ",
+        "trackStats": true,
+        "discordId": "",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "gameName": "pt4",
+        "tagLine": "000",
+        "role": "TOP",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "gameName": "Michiel deRuyter",
+        "tagLine": "NLNLN",
+        "role": "JGL",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "gameName": "Percy Magic",
+        "tagLine": "1234",
+        "role": "MID",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "gameName": "KC NEXT ADKING",
+        "tagLine": "EUW",
+        "role": "BOT",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "gameName": "G2 Labrov",
+        "tagLine": "8085",
+        "role": "SUP",
+        "puuid": "",
         "trackStats": true,
         "discordId": "",
         "rosterStatus": "starter",
