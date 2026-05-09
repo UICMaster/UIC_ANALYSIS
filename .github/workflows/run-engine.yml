@@ -44,7 +44,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "🤖 [Engine] Sync Match Records & State"
-          file_pattern: "data/*.json data/matches/*.json"
 
       - name: Sync to Website
         uses: dmnemec/copy_file_to_another_repo_action@main
