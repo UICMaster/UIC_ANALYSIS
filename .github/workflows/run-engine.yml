@@ -2,16 +2,13 @@ name: UIC Analytics Engine V2
 
 on:
   schedule:
-    # Peak polling: 16:00-22:00 CEST (14:00-20:00 UTC) every 15 mins
     - cron: '*/15 14-20 * * *'
-    # Off-peak: Every hour
     - cron: '0 0-13,21-23 * * *'
   workflow_dispatch: 
 
 permissions:
   contents: write
 
-# Prevents overlapping runs from causing Git conflicts during data writes
 concurrency:
   group: engine-execution
   cancel-in-progress: false
@@ -19,53 +16,43 @@ concurrency:
 jobs:
   run-analytics:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Grab the latest code
+      - name: Grab code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js Environment
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
 
-      - name: Install NPM Dependencies
-        # Standard install used for Web-GUI compatibility 
+      - name: Install
         run: npm install 
 
-      - name: Execute Orchestrator V2
+      - name: Execute
         env:
           RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
           PRIME_API_URL: ${{ secrets.PRIME_API_URL }}
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           DISCORD_GUILD_ID: ${{ secrets.DISCORD_GUILD_ID }}
-          # Discord Channels
           DISCORD_CH_LP: ${{ secrets.DISCORD_CH_LP }}
           DISCORD_CH_POWER_RANKINGS: ${{ secrets.DISCORD_CH_POWER_RANKINGS }}
-          DISCORD_CH_SCHEDULE: ${{ secrets.DISCORD_CH_SCHEDULE }}
           DISCORD_CH_RESULTS: ${{ secrets.DISCORD_CH_RESULTS }}
           DISCORD_CH_OVERVIEW: ${{ secrets.DISCORD_CH_OVERVIEW }}
         run: node src/index.js
 
-      - name: Save Engine State & Match Ledger
-        if: success() 
+      - name: Save State
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🤖 [Engine V2] Auto-update: State, Names & Prime Match Records"
-          # Tracks the main state files AND all individual match JSONs
+          commit_message: "🤖 [Engine] Sync Match Records & State"
           file_pattern: "data/*.json data/matches/*.json"
-          skip_dirty_check: false 
 
-      # --- SYNC TO FRONTEND (REPO B) ---
-      # This pushes the individual match analytics files to your website
-      - name: Push Analytics to Website Repo
-        if: success()
+      - name: Sync to Website
         uses: dmnemec/copy_file_to_another_repo_action@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.REPO_B_PAT }}
         with:
-          source_file: 'data/matches/' # Pushes the entire folder of analytics
+          source_file: 'data/matches/'
           destination_repo: 'YourGitHubName/Repo-B-Name'
           destination_folder: 'src/data/matches' 
           user_email: 'bot@ultrainstinctcrew.com'
