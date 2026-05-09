@@ -10,7 +10,7 @@ on:
 permissions:
   contents: write
 
-# CRITICAL FIX: Prevents overlapping runs from causing Git conflicts if a run gets stuck
+# Prevents overlapping runs from causing Git conflicts if a run gets stuck
 concurrency:
   group: engine-execution
   cancel-in-progress: false
@@ -27,10 +27,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm' # CRITICAL FIX: Caches dependencies to save build time
 
       - name: Install NPM Dependencies
-        run: npm ci # Faster, deterministic builds compared to npm install
+        run: npm install # Uses standard install for Web GUI compatibility
 
       - name: Execute the Orchestrator
         env:
@@ -53,7 +52,7 @@ jobs:
           skip_dirty_check: false 
 
       # --- THE BRIDGE TO THE FRONTEND REPO (REPO B) ---
-      # Ensure you change 'YourGitHubName/Repo-B-Name' to your actual frontend repository
+      # Ensure you change 'YourGitHubName/Repo-B-Name' to your actual frontend repository later!
       - name: Push Ledger to Frontend Repository (Repo B)
         if: success()
         uses: dmnemec/copy_file_to_another_repo_action@main
@@ -62,7 +61,7 @@ jobs:
         with:
           source_file: 'data/match_database.json'
           destination_repo: 'YourGitHubName/Repo-B-Name'
-          destination_folder: 'public/data' # The folder inside your frontend repo where the dashboard expects the JSON
+          destination_folder: 'public/data' 
           user_email: 'bot@ultrainstinctcrew.com'
           user_name: 'UIC Data Engine'
           commit_message: '🤖 Automated Ledger Sync from Backend'
