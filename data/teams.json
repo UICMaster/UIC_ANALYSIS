@@ -392,7 +392,7 @@
     ]
   },
   "sakura": {
-    "primeLeagueId": "",
+    "primeLeagueId": "208851",
     "teamDisplay": "UIC Sakura",
     "tier": "Division 5",
     "roster": [
@@ -566,7 +566,7 @@
     ]
   },
   "obsidian": {
-    "primeLeagueId": "",
+    "primeLeagueId": "212407",
     "teamDisplay": "UIC Obsidian",
     "tier": "Division 8",
     "roster": [
@@ -623,7 +623,7 @@
     ]
   },
   "ember": {
-    "primeLeagueId": "",
+    "primeLeagueId": "211165",
     "teamDisplay": "UIC Ember",
     "tier": "Division 6",
     "roster": [
