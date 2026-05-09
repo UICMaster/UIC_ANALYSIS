@@ -1,18 +1,8 @@
-/**
- * src/core/analytics.js
- * The High-Quality Statistical Engine for UIC.
- * Focus: Role-Normalized ROI (Return on Investment).
- */
-
 const RIOT_ROLE_MAP = {
     "TOP": "TOP", "JUNGLE": "JGL", "MIDDLE": "MID", "BOTTOM": "BOT", "UTILITY": "SUP",
     "JGL": "JGL", "MID": "MID", "BOT": "BOT", "SUP": "SUP"
 };
 
-/**
- * MASTER+ BASELINES (μ = Mean, σ = StdDev)
- * These constants represent the expected performance of a Master Tier player.
- */
 const BASELINES = {
     TOP: { 
         gd15: { m: 0, s: 1300 }, dpg: { m: 1.2, s: 0.35 }, vspm: { m: 1.4, s: 0.5 }, 
@@ -41,19 +31,13 @@ const BASELINES = {
 
 const clamp = (val, min, max) => Math.max(min, Math.min(max, val));
 
-/**
- * Normalizes a raw value into a 0-100 score based on Master+ baselines.
- */
 function normalize(val, baseline) {
     if (!baseline) return 50;
     const z = (val - baseline.m) / baseline.s;
-    const n_raw = (z * 15) + 50; // 50 is the baseline center
+    const n_raw = (z * 15) + 50; 
     return clamp(n_raw, 0, 100);
 }
 
-/**
- * Performance Optimized: Extracts all required 15-minute stats in one pass.
- */
 function getTimelineStats(timeline, participantId, enemyParticipantId) {
     const stats = { gd15: 0, kp15: 0 };
     if (!timeline || !timeline.info || !timeline.info.frames) return stats;
@@ -66,7 +50,6 @@ function getTimelineStats(timeline, participantId, enemyParticipantId) {
         stats.gd15 = myGold - enGold;
     }
 
-    // Extract Kill Participation at 15m
     let killsAt15 = 0;
     for (let i = 0; i <= 15 && i < timeline.info.frames.length; i++) {
         const events = timeline.info.frames[i].events || [];
@@ -80,9 +63,6 @@ function getTimelineStats(timeline, participantId, enemyParticipantId) {
     return stats;
 }
 
-/**
- * ENGINE: ROLE-NORMALIZED ANALYTICS
- */
 function calculateIndices(targetPuuid, matchData, timelineData, assignedRole) {
     const info = matchData.info;
     const me = info.participants.find(p => p.puuid === targetPuuid);
@@ -92,18 +72,16 @@ function calculateIndices(targetPuuid, matchData, timelineData, assignedRole) {
     const bl = BASELINES[role] || BASELINES.MID;
     const gameMins = info.gameDuration / 60;
     
-    // Team Resources
     const team = info.participants.filter(p => p.teamId === me.teamId);
     const teamKills = team.reduce((s, p) => s + p.kills, 0);
     const teamDmg = team.reduce((s, p) => s + p.totalDamageDealtToChampions, 0);
     const teamGold = team.reduce((s, p) => s + p.goldEarned, 0);
     const goldShare = me.goldEarned / (teamGold || 1);
 
-    // Timeline Data
     const enemy = info.participants.find(p => p.teamId !== me.teamId && p.teamPosition === me.teamPosition);
     const tStats = getTimelineStats(timelineData, me.participantId, enemy?.participantId);
 
-    // 1. CARRY INDEX (CI) - Converting Gold to Pressure
+    // Carry Index
     const n_dpg = normalize(me.totalDamageDealtToChampions / (me.goldEarned || 1), bl.dpg);
     const n_gd15 = normalize(tStats.gd15, bl.gd15);
     let CI = 50;
@@ -118,7 +96,7 @@ function calculateIndices(targetPuuid, matchData, timelineData, assignedRole) {
         CI = (0.5 * n_dpg) + (0.5 * n_gd15);
     }
 
-    // 2. TACTICIAN INDEX (TI) - Awareness & Utility
+    // Tactician Index
     const n_vspm = normalize(me.visionScore / gameMins, bl.vspm);
     const kp_pct = teamKills > 0 ? (me.kills + me.assists) / teamKills : 0;
     let TI = 50;
@@ -131,7 +109,7 @@ function calculateIndices(targetPuuid, matchData, timelineData, assignedRole) {
         TI = (0.2 * n_vspm) + (0.4 * normalize(kp_pct * 100, bl.kp)) + (0.4 * n_survival);
     }
 
-    // 3. VANGUARD INDEX (VI) - Space Creation (Frontliners only)
+    // Vanguard Index
     let VI = 0;
     if (["TOP", "JGL", "SUP"].includes(role)) {
         const n_abs = normalize(me.totalDamageTaken / (goldShare * 100), bl.abs);
@@ -148,9 +126,6 @@ function calculateIndices(targetPuuid, matchData, timelineData, assignedRole) {
     };
 }
 
-/**
- * REPOSITORY B SOURCE: Generates the forensic JSON for the website.
- */
 function calculateWebsiteLedger(targetPuuid, matchData, timelineData, assignedRole) {
     const indices = calculateIndices(targetPuuid, matchData, timelineData, assignedRole);
     if (!indices) return null;
