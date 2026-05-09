@@ -2,12 +2,18 @@ name: Prime League Analytics Engine
 
 on:
   schedule:
-    - cron: '*/15 16-22 * * *'
-    - cron: '0 0-15,23 * * *'
+    # Adjusted for UTC -> CEST/CET conversion. Peak polling from 16:00-22:00 CEST (14:00-20:00 UTC)
+    - cron: '*/15 14-20 * * *'
+    - cron: '0 0-13,21-23 * * *'
   workflow_dispatch: 
 
 permissions:
   contents: write
+
+# CRITICAL FIX: Prevents overlapping runs from causing Git conflicts if a run gets stuck
+concurrency:
+  group: engine-execution
+  cancel-in-progress: false
 
 jobs:
   run-analytics:
@@ -21,9 +27,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm' # CRITICAL FIX: Caches dependencies to save build time
 
       - name: Install NPM Dependencies
-        run: npm install
+        run: npm ci # Faster, deterministic builds compared to npm install
 
       - name: Execute the Orchestrator
         env:
@@ -31,16 +38,31 @@ jobs:
           PRIME_API_URL: ${{ secrets.PRIME_API_URL }}
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           DISCORD_GUILD_ID: ${{ secrets.DISCORD_GUILD_ID }}
-          # These now match your DISCORD_CH_... naming convention
           DISCORD_CH_LP: ${{ secrets.DISCORD_CH_LP }}
           DISCORD_CH_CARRY: ${{ secrets.DISCORD_CH_CARRY }}
           DISCORD_CH_TACTICIAN: ${{ secrets.DISCORD_CH_TACTICIAN }}
           DISCORD_CH_OVERVIEW: ${{ secrets.DISCORD_CH_OVERVIEW }}
-          DISCORD_CH_POSTGAME: ${{ secrets.DISCORD_CH_POSTGAME }} 
         run: node src/index.js
 
-      - name: Save Data to Repository
+      - name: Save Data to Backend Repository
+        if: success() 
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🤖 Auto-update: Ledger & PUUID Database"
+          commit_message: "🤖 Auto-update: Ledger, State & PUUID Database"
           file_pattern: "data/*.json"
+          skip_dirty_check: false 
+
+      # --- THE BRIDGE TO THE FRONTEND REPO (REPO B) ---
+      # Ensure you change 'YourGitHubName/Repo-B-Name' to your actual frontend repository
+      - name: Push Ledger to Frontend Repository (Repo B)
+        if: success()
+        uses: dmnemec/copy_file_to_another_repo_action@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.REPO_B_PAT }}
+        with:
+          source_file: 'data/match_database.json'
+          destination_repo: 'YourGitHubName/Repo-B-Name'
+          destination_folder: 'public/data' # The folder inside your frontend repo where the dashboard expects the JSON
+          user_email: 'bot@ultrainstinctcrew.com'
+          user_name: 'UIC Data Engine'
+          commit_message: '🤖 Automated Ledger Sync from Backend'
