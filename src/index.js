@@ -7,35 +7,23 @@ require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 
-// Import Modules
 const primeApi = require('./api/prime');
 const riotApi = require('./api/riot');
 const analytics = require('./core/analytics');
 const discordEvents = require('./discord/events');
 const discordMessages = require('./discord/messages');
 
-// File Paths
 const TEAMS_PATH = path.join(__dirname, '../data/teams.json');
 const LEDGER_PATH = path.join(__dirname, '../data/match_database.json');
-const STATE_PATH = path.join(__dirname, '../data/player_state.json'); // NEW: Cache State
+const STATE_PATH = path.join(__dirname, '../data/player_state.json');
 
 async function runEngine() {
     console.log("🚀 Starting UIC Analytics Modular Engine...");
 
     try {
-        // --- 0. INITIALIZATION ---
         const teamsDb = JSON.parse(fs.readFileSync(TEAMS_PATH, 'utf8'));
-        
-        let ledger = [];
-        if (fs.existsSync(LEDGER_PATH)) {
-            ledger = JSON.parse(fs.readFileSync(LEDGER_PATH, 'utf8'));
-        }
-
-        // NEW: Load the Player State Cache
-        let playerState = {};
-        if (fs.existsSync(STATE_PATH)) {
-            playerState = JSON.parse(fs.readFileSync(STATE_PATH, 'utf8'));
-        }
+        let ledger = fs.existsSync(LEDGER_PATH) ? JSON.parse(fs.readFileSync(LEDGER_PATH, 'utf8')) : [];
+        let playerState = fs.existsSync(STATE_PATH) ? JSON.parse(fs.readFileSync(STATE_PATH, 'utf8')) : {};
 
         let teamsUpdated = false;
         let cacheUpdated = false;
@@ -47,14 +35,12 @@ async function runEngine() {
                 if (!player.gameName || player.gameName.trim() === "") continue;
 
                 if (player.trackStats !== false && (!player.puuid || player.puuid === "")) {
-                    console.log(`   📡 Fetching PUUID for ${player.gameName}#${player.tagLine}...`);
+                    console.log(`   📡 Fetching PUUID for ${player.gameName}...`);
                     const puuid = await riotApi.getPUUID(player.gameName, player.tagLine);
                     if (puuid) {
                         player.puuid = puuid;
                         teamsUpdated = true;
-                        console.log(`   ✅ Saved PUUID for ${player.gameName}`);
-                    } else {
-                        console.log(`   ❌ Could not find account for ${player.gameName}`);
+                        console.log(`   ✅ Saved PUUID`);
                     }
                 }
             }
@@ -81,12 +67,7 @@ async function runEngine() {
 
         for (const [teamKey, teamInfo] of Object.entries(teamsDb)) {
             console.log(`\n🛡️ Processing Group: ${teamInfo.teamDisplay}`);
-            
-            let currentTeamData = {
-                teamDisplay: teamInfo.teamDisplay,
-                roster: [],
-                activeRanks: [] 
-            };
+            let currentTeamData = { teamDisplay: teamInfo.teamDisplay, roster: [], activeRanks: [] };
 
             for (let player of teamInfo.roster) {
                 if (!player.gameName || player.gameName.trim() === "") continue;
@@ -95,46 +76,33 @@ async function runEngine() {
                 const tag = player.tagLine;
                 const teamNameShort = teamInfo.teamDisplay.replace("UIC ", ""); 
 
-                // 3A. Fetch Live LP (We always fetch this live, it's only 1 quick call)
+                // 3A. Fetch Live LP
                 const rankData = await riotApi.getRankedData(player.puuid);
                 if (rankData) {
-                    discordLpBoard.push({
-                        gameName: player.gameName, tagLine: tag, team: teamNameShort,
-                        tier: rankData.tier, rank: rankData.rank, lp: rankData.lp
-                    });
-                    
-                    if (player.role !== "MNG" && player.role !== "COH") {
-                        currentTeamData.activeRanks.push(rankData);
-                    }
+                    discordLpBoard.push({ gameName: player.gameName, tagLine: tag, team: teamNameShort, tier: rankData.tier, rank: rankData.rank, lp: rankData.lp });
+                    if (player.role !== "MNG" && player.role !== "COH") currentTeamData.activeRanks.push(rankData);
                 }
 
-                currentTeamData.roster.push({
-                    gameName: player.gameName, tagLine: tag, role: player.role, isCaptain: player.isCaptain, rankData: rankData
-                });
+                currentTeamData.roster.push({ gameName: player.gameName, tagLine: tag, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus });
 
-                // 3B. Fetch Last 10 Matches (Just the IDs)
+                // Skip Analytics for Management/Coaches entirely
+                if (player.role === "MNG" || player.role === "COH") continue;
+
+                // 3B. Fetch Last 10 Matches
                 const matchIds = await riotApi.getRecentMatches(player.puuid, 10);
                 if (!matchIds || matchIds.length === 0) continue;
 
                 const latestMatchId = matchIds[0];
-
-                // --- 🚀 DELTA CACHE CHECK 🚀 ---
                 const cachedState = playerState[player.puuid];
+
+                // 🚀 DELTA CACHE BYPASS 🚀
                 if (cachedState && cachedState.lastMatchId === latestMatchId) {
                     console.log(`   ⏭️ Skipped Riot Fetch for ${player.gameName} (No new games)`);
-                    
-                    // Inject cached stats directly into the leaderboards!
                     if (cachedState.ci && cachedState.ti) {
-                        discordCarryBoard.push({
-                            gameName: player.gameName, tagLine: tag, team: teamNameShort,
-                            carryIndex: cachedState.ci, tacticianIndex: cachedState.ti
-                        });
-                        discordTacticianBoard.push({
-                            gameName: player.gameName, tagLine: tag, team: teamNameShort,
-                            carryIndex: cachedState.ci, tacticianIndex: cachedState.ti
-                        });
+                        discordCarryBoard.push({ gameName: player.gameName, tagLine: tag, team: teamNameShort, carryIndex: cachedState.ci, tacticianIndex: cachedState.ti });
+                        discordTacticianBoard.push({ gameName: player.gameName, tagLine: tag, team: teamNameShort, carryIndex: cachedState.ci, tacticianIndex: cachedState.ti });
                     }
-                    continue; // Skip all the heavy Match/Timeline API calls below!
+                    continue; 
                 }
 
                 console.log(`   🔄 Fetching new data for ${player.gameName}...`);
@@ -154,9 +122,8 @@ async function runEngine() {
                     // 3C. WEBSITE LEDGER
                     const isCompetitive = matchData.info.queueId === 0 || matchData.info.queueId === 124;
                     if (isCompetitive) {
-                        const exists = ledger.find(e => e.matchId === matchId && e.puuid === player.puuid);
-                        if (!exists) {
-                            console.log(`   🏆 Prime Match Detected! Saving to Ledger for ${player.gameName}...`);
+                        if (!ledger.find(e => e.matchId === matchId && e.puuid === player.puuid)) {
+                            console.log(`   🏆 Prime Match Detected! Saving to Ledger...`);
                             const websiteStats = analytics.calculateWebsiteLedger(player.puuid, matchData, timelineData);
                             if (websiteStats) {
                                 websiteStats.puuid = player.puuid;
@@ -167,27 +134,16 @@ async function runEngine() {
                     }
                 }
 
-                // 3D. DISCORD GAMIFICATION
-                const discordStats = analytics.calculateDiscordStats(player.puuid, matchDatas, timelineDatas);
+                // 3D. DISCORD GAMIFICATION (Passing player.role for the new filter)
+                const discordStats = analytics.calculateDiscordStats(player.puuid, matchDatas, timelineDatas, player.role);
                 if (discordStats) {
-                    discordCarryBoard.push({
-                        gameName: player.gameName, tagLine: tag, team: teamNameShort, ...discordStats
-                    });
-                    
-                    discordTacticianBoard.push({
-                        gameName: player.gameName, tagLine: tag, team: teamNameShort, ...discordStats
-                    });
+                    discordCarryBoard.push({ gameName: player.gameName, tagLine: tag, team: teamNameShort, ...discordStats });
+                    discordTacticianBoard.push({ gameName: player.gameName, tagLine: tag, team: teamNameShort, ...discordStats });
 
-                    // --- 💾 UPDATE THE CACHE ---
-                    playerState[player.puuid] = {
-                        lastMatchId: latestMatchId,
-                        ci: discordStats.carryIndex,
-                        ti: discordStats.tacticianIndex
-                    };
+                    playerState[player.puuid] = { lastMatchId: latestMatchId, ci: discordStats.carryIndex, ti: discordStats.tacticianIndex };
                     cacheUpdated = true;
                 }
             }
-            
             teamOverviewData.push(currentTeamData);
         }
 
@@ -214,11 +170,9 @@ async function runEngine() {
         }
 
         console.log("\n🎉 Engine Run Complete! All systems nominal.");
-
     } catch (error) {
         console.error("\n❌ Fatal Engine Error:", error);
     }
 }
 
-// Start the engine
 runEngine();
