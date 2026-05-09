@@ -15,6 +15,7 @@ const STATE_PATH = path.join(DATA_DIR, 'player_state.json');
 if (!fs.existsSync(MATCHES_DIR)) fs.mkdirSync(MATCHES_DIR, { recursive: true });
 
 async function runEngine() {
+    console.log("🚀 UIC Analytics Engine 2.0: Starting High-Performance Run...");
     try {
         const teamsDb = JSON.parse(fs.readFileSync(TEAMS_PATH, 'utf8'));
         const playerState = fs.existsSync(STATE_PATH) ? JSON.parse(fs.readFileSync(STATE_PATH, 'utf8')) : {};
@@ -44,7 +45,8 @@ async function runEngine() {
         for (const [teamKey, teamInfo] of Object.entries(teamsDb)) {
             const teamNameShort = teamInfo.teamDisplay.replace("UIC ", "");
 
-            await processInBatches(teamInfo.roster, 5, 1200, async (player) => {
+            // Process 3 players at a time, wait 2 seconds (Safe for Dev Key limits)
+            await processInBatches(teamInfo.roster, 3, 2000, async (player) => {
                 if (!player.puuid || player.trackStats === false) return;
 
                 const rank = await riotApi.getRankedData(player.puuid);
@@ -56,7 +58,7 @@ async function runEngine() {
                     const latestId = soloMatchIds[0];
                     const cache = playerState[player.puuid] || { primeHistory: [] };
 
-                    if (cache.lastSoloId === latestId) {
+                    if (cache.lastSoloId === latestId && cache.lastScores) {
                         powerBoard.push({ ...cache.lastScores, gameName: player.gameName, team: teamNameShort });
                     } else {
                         const mData = await riotApi.getMatchData(latestId);
@@ -70,7 +72,7 @@ async function runEngine() {
                     }
                 }
 
-                // Prime Match Logic (The Website Source)
+                // Prime Match Logic
                 const activeMatch = scoutingData.find(m => m.myTeam === teamKey);
                 if (activeMatch) {
                     const customIds = await riotApi.getRecentMatches(player.puuid, 3, 'custom');
@@ -86,7 +88,6 @@ async function runEngine() {
                             const forensic = analytics.calculateWebsiteLedger(player.puuid, cMatch, cTimeline, player.role);
                             
                             if (forensic) {
-                                // Track Season Average for Website Visualization
                                 const cache = playerState[player.puuid] || { primeHistory: [] };
                                 cache.primeHistory = cache.primeHistory || [];
                                 cache.primeHistory.push(forensic.indices);
