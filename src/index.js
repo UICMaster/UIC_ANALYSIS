@@ -17,6 +17,7 @@ const discordMessages = require('./discord/messages');
 // File Paths
 const TEAMS_PATH = path.join(__dirname, '../data/teams.json');
 const LEDGER_PATH = path.join(__dirname, '../data/match_database.json');
+const STATE_PATH = path.join(__dirname, '../data/player_state.json'); // NEW: Cache State
 
 async function runEngine() {
     console.log("🚀 Starting UIC Analytics Modular Engine...");
@@ -30,13 +31,19 @@ async function runEngine() {
             ledger = JSON.parse(fs.readFileSync(LEDGER_PATH, 'utf8'));
         }
 
+        // NEW: Load the Player State Cache
+        let playerState = {};
+        if (fs.existsSync(STATE_PATH)) {
+            playerState = JSON.parse(fs.readFileSync(STATE_PATH, 'utf8'));
+        }
+
         let teamsUpdated = false;
+        let cacheUpdated = false;
 
         // --- 1. PUUID SYNC ---
         console.log("\n🔍 --- PHASE 1: PUUID SYNCHRONIZATION ---");
         for (const [teamKey, teamInfo] of Object.entries(teamsDb)) {
             for (let player of teamInfo.roster) {
-                // Ghost Player Check
                 if (!player.gameName || player.gameName.trim() === "") continue;
 
                 if (player.trackStats !== false && (!player.puuid || player.puuid === "")) {
@@ -66,7 +73,6 @@ async function runEngine() {
 
         // --- 3. THE GREAT DATA PULL (RIOT API) ---
         console.log("\n🧠 --- PHASE 3: RIOT DATA ACQUISITION ---");
-        console.log("   ⏳ Note: Timelines now required for Discord Stats. ETA: ~10 mins.");
         
         let discordLpBoard = [];
         let discordCarryBoard = [];
@@ -83,14 +89,13 @@ async function runEngine() {
             };
 
             for (let player of teamInfo.roster) {
-                // Ghost Player Check
                 if (!player.gameName || player.gameName.trim() === "") continue;
                 if (player.trackStats === false || !player.puuid) continue;
 
                 const tag = player.tagLine;
                 const teamNameShort = teamInfo.teamDisplay.replace("UIC ", ""); 
 
-                // 3A. Fetch Live LP
+                // 3A. Fetch Live LP (We always fetch this live, it's only 1 quick call)
                 const rankData = await riotApi.getRankedData(player.puuid);
                 if (rankData) {
                     discordLpBoard.push({
@@ -107,10 +112,32 @@ async function runEngine() {
                     gameName: player.gameName, tagLine: tag, role: player.role, isCaptain: player.isCaptain, rankData: rankData
                 });
 
-                // 3B. Fetch Last 10 Matches
+                // 3B. Fetch Last 10 Matches (Just the IDs)
                 const matchIds = await riotApi.getRecentMatches(player.puuid, 10);
                 if (!matchIds || matchIds.length === 0) continue;
 
+                const latestMatchId = matchIds[0];
+
+                // --- 🚀 DELTA CACHE CHECK 🚀 ---
+                const cachedState = playerState[player.puuid];
+                if (cachedState && cachedState.lastMatchId === latestMatchId) {
+                    console.log(`   ⏭️ Skipped Riot Fetch for ${player.gameName} (No new games)`);
+                    
+                    // Inject cached stats directly into the leaderboards!
+                    if (cachedState.ci && cachedState.ti) {
+                        discordCarryBoard.push({
+                            gameName: player.gameName, tagLine: tag, team: teamNameShort,
+                            carryIndex: cachedState.ci, tacticianIndex: cachedState.ti
+                        });
+                        discordTacticianBoard.push({
+                            gameName: player.gameName, tagLine: tag, team: teamNameShort,
+                            carryIndex: cachedState.ci, tacticianIndex: cachedState.ti
+                        });
+                    }
+                    continue; // Skip all the heavy Match/Timeline API calls below!
+                }
+
+                console.log(`   🔄 Fetching new data for ${player.gameName}...`);
                 let matchDatas = [];
                 let timelineDatas = [];
 
@@ -135,7 +162,6 @@ async function runEngine() {
                                 websiteStats.puuid = player.puuid;
                                 websiteStats.teamKey = teamKey;
                                 ledger.push(websiteStats);
-                                console.log(`   ✅ Saved Prime Stats for ${player.gameName}`);
                             }
                         }
                     }
@@ -145,14 +171,20 @@ async function runEngine() {
                 const discordStats = analytics.calculateDiscordStats(player.puuid, matchDatas, timelineDatas);
                 if (discordStats) {
                     discordCarryBoard.push({
-                        gameName: player.gameName, tagLine: tag, team: teamNameShort,
-                        ...discordStats
+                        gameName: player.gameName, tagLine: tag, team: teamNameShort, ...discordStats
                     });
                     
                     discordTacticianBoard.push({
-                        gameName: player.gameName, tagLine: tag, team: teamNameShort,
-                        ...discordStats
+                        gameName: player.gameName, tagLine: tag, team: teamNameShort, ...discordStats
                     });
+
+                    // --- 💾 UPDATE THE CACHE ---
+                    playerState[player.puuid] = {
+                        lastMatchId: latestMatchId,
+                        ci: discordStats.carryIndex,
+                        ti: discordStats.tacticianIndex
+                    };
+                    cacheUpdated = true;
                 }
             }
             
@@ -174,6 +206,11 @@ async function runEngine() {
         if (teamsUpdated) {
             fs.writeFileSync(TEAMS_PATH, JSON.stringify(teamsDb, null, 2));
             console.log("   ✅ teams.json updated with new PUUIDs.");
+        }
+
+        if (cacheUpdated) {
+            fs.writeFileSync(STATE_PATH, JSON.stringify(playerState, null, 2));
+            console.log("   ✅ player_state.json cache updated.");
         }
 
         console.log("\n🎉 Engine Run Complete! All systems nominal.");
