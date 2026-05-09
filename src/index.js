@@ -36,6 +36,9 @@ async function runEngine() {
         console.log("\n🔍 --- PHASE 1: PUUID SYNCHRONIZATION ---");
         for (const [teamKey, teamInfo] of Object.entries(teamsDb)) {
             for (let player of teamInfo.roster) {
+                // Ghost Player Check
+                if (!player.gameName || player.gameName.trim() === "") continue;
+
                 if (player.trackStats !== false && (!player.puuid || player.puuid === "")) {
                     console.log(`   📡 Fetching PUUID for ${player.gameName}#${player.tagLine}...`);
                     const puuid = await riotApi.getPUUID(player.gameName, player.tagLine);
@@ -80,6 +83,8 @@ async function runEngine() {
             };
 
             for (let player of teamInfo.roster) {
+                // Ghost Player Check
+                if (!player.gameName || player.gameName.trim() === "") continue;
                 if (player.trackStats === false || !player.puuid) continue;
 
                 const tag = player.tagLine;
@@ -98,7 +103,6 @@ async function runEngine() {
                     }
                 }
 
-                // HIER IST DER FIX: tagLine: tag wurde hinzugefügt
                 currentTeamData.roster.push({
                     gameName: player.gameName, tagLine: tag, role: player.role, isCaptain: player.isCaptain, rankData: rankData
                 });
