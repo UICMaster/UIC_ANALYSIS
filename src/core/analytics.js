@@ -14,11 +14,29 @@ const RIOT_ROLE_MAP = {
  * These constants represent the expected performance of a Master Tier player.
  */
 const BASELINES = {
-    TOP: { gd15: { m: 0, s: 1300 }, dpg: { m: 1.2, s: 0.35 }, vspm: { m: 1.4, s: 0.5 }, tower: { m: 4500, s: 2000 }, abs: { m: 2.2, s: 0.8 }, mit: { m: 1.8, s: 0.7 }, kp15: { m: 0.35, s: 0.15 } },
-    JGL: { gd15: { m: 0, s: 1100 }, dpg: { m: 0.9, s: 0.25 }, vspm: { m: 2.2, s: 0.7 }, kp: { m: 65, s: 12 }, abs: { m: 1.8, s: 0.6 }, mit: { m: 1.2, s: 0.5 }, kp15: { m: 0.55, s: 0.20 } },
-    MID: { gd15: { m: 0, s: 1200 }, dpg: { m: 1.45, s: 0.4 }, vspm: { m: 1.5, s: 0.5 }, kp: { m: 58, s: 11 }, deaths: { m: 4.5, s: 2.0 }, dmgShare: { m: 0.26, s: 0.08 } },
-    BOT: { gd15: { m: 0, s: 1500 }, dpg: { m: 1.65, s: 0.45 }, vspm: { m: 1.3, s: 0.4 }, kp: { m: 52, s: 10 }, deaths: { m: 4.2, s: 1.8 }, dmgShare: { m: 0.30, s: 0.10 } },
-    SUP: { gd15: { m: 0, s: 700 }, dpg: { m: 0.45, s: 0.2 }, vspm: { m: 3.8, s: 1.4 }, utility: { m: 40, s: 20 }, abs: { m: 1.5, s: 0.7 }, mit: { m: 1.0, s: 0.5 }, kp15: { m: 0.45, s: 0.18 } }
+    TOP: { 
+        gd15: { m: 0, s: 1300 }, dpg: { m: 1.2, s: 0.35 }, vspm: { m: 1.4, s: 0.5 }, 
+        tower: { m: 4500, s: 2000 }, abs: { m: 2.2, s: 0.8 }, mit: { m: 1.8, s: 0.7 }, 
+        kp15: { m: 0.35, s: 0.15 }, kp: { m: 45, s: 12 }, deaths: { m: 5.0, s: 2.2 } 
+    },
+    JGL: { 
+        gd15: { m: 0, s: 1100 }, dpg: { m: 0.9, s: 0.25 }, vspm: { m: 2.2, s: 0.7 }, 
+        kp: { m: 65, s: 12 }, abs: { m: 1.8, s: 0.6 }, mit: { m: 1.2, s: 0.5 }, 
+        kp15: { m: 0.55, s: 0.20 }, deaths: { m: 4.8, s: 2.0 } 
+    },
+    MID: { 
+        gd15: { m: 0, s: 1200 }, dpg: { m: 1.45, s: 0.4 }, vspm: { m: 1.5, s: 0.5 }, 
+        kp: { m: 58, s: 11 }, deaths: { m: 4.5, s: 2.0 }, dmgShare: { m: 0.26, s: 0.08 } 
+    },
+    BOT: { 
+        gd15: { m: 0, s: 1500 }, dpg: { m: 1.65, s: 0.45 }, vspm: { m: 1.3, s: 0.4 }, 
+        kp: { m: 52, s: 10 }, deaths: { m: 4.2, s: 1.8 }, dmgShare: { m: 0.30, s: 0.10 } 
+    },
+    SUP: { 
+        gd15: { m: 0, s: 700 }, dpg: { m: 0.45, s: 0.2 }, vspm: { m: 3.8, s: 1.4 }, 
+        utility: { m: 40, s: 20 }, abs: { m: 1.5, s: 0.7 }, mit: { m: 1.0, s: 0.5 }, 
+        kp15: { m: 0.45, s: 0.18 }, kp: { m: 60, s: 15 }, deaths: { m: 5.5, s: 2.5 } 
+    }
 };
 
 const clamp = (val, min, max) => Math.max(min, Math.min(max, val));
