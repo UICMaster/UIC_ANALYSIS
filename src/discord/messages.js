@@ -1,6 +1,6 @@
 /**
  * src/discord/messages.js
- * Formats and delivers the analytical leaderboards to Discord.
+ * Formats and delivers the analytical leaderboards to Discord via Smart Editing.
  */
 
 const BOT_TOKEN = process.env.DISCORD_BOT_TOKEN;
@@ -13,7 +13,7 @@ const CH_OVERVIEW = process.env.DISCORD_CH_OVERVIEW;
 
 const UIC_COLOR = 0x00F0FF; // #00F0FF Cyan Color
 
-// Custom Server Emojis (Nur noch für LP Leaderboard genutzt)
+// Custom Server Emojis
 const RANK_EMOJIS = {
     "CHALLENGER": "<:challenger:1501324978321101021>",
     "GRANDMASTER": "<:grandmaster:1501325107128434748>",
@@ -37,39 +37,64 @@ async function discordFetch(endpoint, method = 'GET', body = null) {
         const response = await fetch(`${API_BASE}${endpoint}`, options);
         if (response.status === 429) {
             const errorData = await response.json();
+            console.warn(`⚠️ [Discord] Rate limited. Waiting ${errorData.retry_after}s...`);
             await new Promise(res => setTimeout(res, errorData.retry_after * 1000));
             return discordFetch(endpoint, method, body);
         }
         if (!response.ok) return null;
         return response.status === 204 ? true : await response.json();
     } catch (error) {
+        console.error(`❌ [Discord API] Error on ${endpoint}:`, error.message);
         return null;
     }
 }
 
-async function clearChannel(channelId) {
-    if (!channelId) return;
-    const messages = await discordFetch(`/channels/${channelId}/messages?limit=20`);
-    if (messages && messages.length > 0) {
-        for (const msg of messages) {
-            if (msg.author.bot) {
-                await discordFetch(`/channels/${channelId}/messages/${msg.id}`, 'DELETE');
-            }
+/**
+ * 🚀 THE SMART EDIT ALGORITHM 🚀
+ * Instead of deleting messages, we update existing ones.
+ */
+async function updateOrPostMessage(channelId, embeds) {
+    if (!channelId || embeds.length === 0) return;
+
+    // Discord allows max 10 embeds per message. We chunk them.
+    const embedChunks = [];
+    for (let i = 0; i < embeds.length; i += 10) {
+        embedChunks.push(embeds.slice(i, i + 10));
+    }
+
+    // Grab the last 10 messages in the channel
+    const messages = await discordFetch(`/channels/${channelId}/messages?limit=10`);
+    const botMessages = messages ? messages.filter(m => m.author.bot) : [];
+
+    // Sort oldest to newest to maintain order
+    botMessages.sort((a, b) => a.id.localeCompare(b.id));
+
+    // Update existing messages, or create new ones if we need more chunks
+    for (let i = 0; i < embedChunks.length; i++) {
+        const payload = { embeds: embedChunks[i] };
+        if (i < botMessages.length) {
+            await discordFetch(`/channels/${channelId}/messages/${botMessages[i].id}`, 'PATCH', payload);
+        } else {
+            await discordFetch(`/channels/${channelId}/messages`, 'POST', payload);
         }
+    }
+
+    // Clean up excess bot messages (e.g. if roster shrank and we need fewer messages)
+    for (let i = embedChunks.length; i < botMessages.length; i++) {
+        await discordFetch(`/channels/${channelId}/messages/${botMessages[i].id}`, 'DELETE');
     }
 }
 
 /**
- * The Master Leaderboard Generator (Two-Column Layout)
+ * The Master Leaderboard Generator
  */
 async function postLeaderboard(channelId, title, leftHeader, rightHeader, players, formatCallback) {
     if (!channelId) return;
-    await clearChannel(channelId);
 
     const validPlayers = players.filter(p => p !== null);
     let embeds = [];
     
-    // We chunk by 15 players so we don't hit Discord's 1024-character limit for fields
+    // Chunking to stay under the 1024 character limit per embed field
     const chunkSize = 15; 
 
     for (let i = 0; i < validPlayers.length; i += chunkSize) {
@@ -90,21 +115,19 @@ async function postLeaderboard(channelId, title, leftHeader, rightHeader, player
             title: i === 0 ? title : `${title} (Fortsetzung)`,
             color: UIC_COLOR,
             fields: [
-                { name: leftHeader, value: columnLeft, inline: true },
-                { name: rightHeader, value: columnRight, inline: true }
+                { name: leftHeader, value: columnLeft || "-", inline: true },
+                { name: rightHeader, value: columnRight || "-", inline: true }
             ],
-            footer: i === 0 ? { text: "Bereitgestellt durch Ultra Instinct Crew" } : null
+            footer: i === 0 ? { text: "Bereitgestellt durch Ultra Instinct Crew" } : null,
+            timestamp: i === 0 ? new Date().toISOString() : null // Adds a "Last Updated" timestamp
         });
     }
 
-    if (embeds.length > 0) {
-        await discordFetch(`/channels/${channelId}/messages`, 'POST', { embeds: embeds });
-        console.log(`   ✅ [Discord] Posted ${title}`);
-    }
+    await updateOrPostMessage(channelId, embeds);
+    console.log(`   ✅ [Discord] Updated ${title}`);
 }
 
 // --- SCORE MATH & AVERAGES ---
-
 function getRankScore(tier, rank, lp) {
     const tiers = { "CHALLENGER": 90000, "GRANDMASTER": 80000, "MASTER": 70000, "DIAMOND": 60000, "EMERALD": 50000, "PLATINUM": 40000, "GOLD": 30000, "SILVER": 20000, "BRONZE": 10000, "IRON": 0, "UNRANKED": 0 };
     const ranks = { "I": 4000, "II": 3000, "III": 2000, "IV": 1000 };
@@ -112,7 +135,6 @@ function getRankScore(tier, rank, lp) {
 }
 
 // --- UPDATERS ---
-
 async function updateLpLeaderboard(data) {
     if (!data || data.length === 0) return;
     data.sort((a, b) => getRankScore(b.tier, b.rank, b.lp) - getRankScore(a.tier, a.rank, a.lp));
@@ -120,7 +142,7 @@ async function updateLpLeaderboard(data) {
     await postLeaderboard(CH_LP, "UIC Rangliste SoloQ/DuoQ", "Spieler", "Rang & LP", data, (p, rank) => {
         const emoji = RANK_EMOJIS[p.tier] || RANK_EMOJIS["UNRANKED"];
         return {
-            left: `**${rank}.** ${p.gameName}#${p.tagLine} *(${p.team})*`,
+            left: `**${rank}.** ${p.gameName} *(${p.team})*`,
             right: `${emoji} ${p.tier} ${p.rank} (${p.lp} LP)`
         };
     });
@@ -132,7 +154,7 @@ async function updateCarryIndex(data) {
     
     await postLeaderboard(CH_CARRY, "UIC Rangliste Carry Index", "Spieler", "Wertung", data, (p, rank) => {
         return {
-            left: `**${rank}.** ${p.gameName}#${p.tagLine} *(${p.team})*`,
+            left: `**${rank}.** ${p.gameName} *(${p.team})*`,
             right: `Score: **${p.carryIndex}**`
         };
     });
@@ -144,7 +166,7 @@ async function updateTacticianLedger(data) {
     
     await postLeaderboard(CH_TACTICIAN, "UIC Rangliste Tactician Index", "Spieler", "Wertung", data, (p, rank) => {
         return {
-            left: `**${rank}.** ${p.gameName}#${p.tagLine} *(${p.team})*`,
+            left: `**${rank}.** ${p.gameName} *(${p.team})*`,
             right: `Score: **${p.tacticianIndex}**`
         };
     });
@@ -152,7 +174,6 @@ async function updateTacticianLedger(data) {
 
 async function updateTeamOverview(teamOverviewData) {
     if (!CH_OVERVIEW || teamOverviewData.length === 0) return;
-    await clearChannel(CH_OVERVIEW);
 
     const roleMapping = {
         "TOP": "Toplane", 
@@ -171,14 +192,15 @@ async function updateTeamOverview(teamOverviewData) {
         let roleColumn = "";
 
         team.roster.forEach(p => {
-            // Check if user has a tagline, else fallback to empty
             const tag = p.tagLine && p.tagLine !== "undefined" ? `#${p.tagLine}` : "";
-            // If they are captain, append the crown
             const crown = p.isCaptain ? " 👑" : "";
-
+            
+            // Format Names and mapped Roles cleanly
             nameColumn += `${p.gameName}${tag}${crown}\n`;
-            // Map the role or fallback to raw role string if not in dict
-            roleColumn += `${roleMapping[p.role] || p.role}\n`; 
+            
+            // If it's a sub, add it next to the role. E.g., "Midlane (Sub)"
+            const subLabel = p.rosterStatus === "substitute" ? " *(Sub)*" : "";
+            roleColumn += `${roleMapping[p.role] || p.role}${subLabel}\n`; 
         });
 
         embeds.push({
@@ -186,18 +208,13 @@ async function updateTeamOverview(teamOverviewData) {
             color: UIC_COLOR,
             fields: [
                 { name: "Kader", value: nameColumn || "-", inline: true },
-                { name: "Rolle", value: roleColumn || "-", inline: true } // Name in "Rolle" geändert
+                { name: "Rolle", value: roleColumn || "-", inline: true }
             ]
         });
     }
 
-    // Discord allows up to 10 embeds per message
-    for (let i = 0; i < embeds.length; i += 10) {
-        const chunk = embeds.slice(i, i + 10);
-        await discordFetch(`/channels/${CH_OVERVIEW}/messages`, 'POST', { embeds: chunk });
-    }
-    
-    console.log(`   ✅ [Discord] Posted Team Overview to channel ${CH_OVERVIEW}`);
+    await updateOrPostMessage(CH_OVERVIEW, embeds);
+    console.log(`   ✅ [Discord] Updated Team Overview`);
 }
 
 module.exports = { updateLpLeaderboard, updateCarryIndex, updateTacticianLedger, updateTeamOverview };
