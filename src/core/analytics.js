@@ -9,7 +9,6 @@ const RIOT_ROLE_MAP = {
     "JGL": "JGL", "MID": "MID", "BOT": "BOT", "SUP": "SUP"
 };
 
-// Added smd (Self-Mitigated Damage) and dt2d (Damage Taken to Death) for the Vanguard Index
 const BASELINES = {
     TOP: { gd_15: { m: 0, s: 1500 }, dpg: { m: 1.2, s: 0.35 }, vspm: { m: 1.4, s: 0.5 }, cc: { m: 18, s: 12 }, kp: { m: 48, s: 10 }, obj: { m: 0.15, s: 0.08 }, hsp: { m: 1000, s: 1500 }, smd: { m: 25000, s: 10000 }, dt2d: { m: 4000, s: 1500 } },
     JGL: { gd_15: { m: 0, s: 1200 }, dpg: { m: 0.9, s: 0.25 }, vspm: { m: 2.2, s: 0.7 }, cc: { m: 28, s: 18 }, kp: { m: 65, s: 12 }, obj: { m: 0.45, s: 0.15 }, hsp: { m: 1500, s: 2000 }, smd: { m: 20000, s: 8000 }, dt2d: { m: 3500, s: 1200 } },
@@ -86,12 +85,10 @@ function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, e
         const delta_econ = dmgShare - goldShare;
         const n_delta_econ = clamp((delta_econ + 0.05) * 1000, 0, 100); 
 
-        // 1. CARRY INDEX (CI)
         let CI = (expectedRole === "SUP") 
             ? (0.50 * n_gd15) + (0.20 * n_delta_econ) + (0.10 * n_dpg) + (0.20 * n_obj_dmg)
             : (0.30 * n_gd15) + (0.35 * n_delta_econ) + (0.20 * n_dpg) + (0.15 * n_obj_dmg);
 
-        // 2. TACTICIAN INDEX (TI)
         const healShield = (me.totalHealsOnTeammates || 0) + (me.totalDamageShieldedOnTeammates || 0);
         const n_utility = Math.max(normalize(me.timeCCingOthers, bl.cc), normalize(healShield, bl.hsp)); 
         const kp_pct = teamKills > 0 ? (me.kills + me.assists) / teamKills : 0;
@@ -100,14 +97,12 @@ function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, e
 
         let TI = (0.15 * n_gd15) + (0.35 * normalize(me.visionScore / gameMins, bl.vspm)) + (0.30 * n_utility) + (0.20 * normalize(kp_adj, bl.kp));
 
-        // 3. VANGUARD INDEX (VI)
         const dt2d = me.totalDamageTaken / (me.deaths || 1);
         let VI = (0.35 * normalize(me.damageSelfMitigated, bl.smd)) + (0.35 * normalize(dt2d, bl.dt2d)) + (0.30 * normalize(kp_adj, bl.kp));
 
-        // THE PENALTY: Death Share vs Gold Share
         let globalPenalty = 1.0;
-        if (deathShare > (goldShare + 0.15)) globalPenalty = 0.85; // Heavy feeder penalty
-        else if (deathShare > (goldShare + 0.05)) globalPenalty = 0.95; // Slight feeder penalty
+        if (deathShare > (goldShare + 0.15)) globalPenalty = 0.85; 
+        else if (deathShare > (goldShare + 0.05)) globalPenalty = 0.95; 
 
         let UPS = ((CI + TI + VI) / 3) * globalPenalty;
 
@@ -129,7 +124,6 @@ function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, e
     };
 }
 
-// ... calculateWebsiteLedger remains identical ...
 function calculateWebsiteLedger(targetPuuid, matchData, timelineData) {
     const info = matchData.info;
     const me = info.participants.find(p => p.puuid === targetPuuid);
