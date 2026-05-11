@@ -28,7 +28,6 @@ async function runEngine() {
         let teamsUpdated = false;
         let cacheUpdated = false;
 
-        // --- 1. PUUID SYNC ---
         console.log("\n🔍 --- PHASE 1: PUUID SYNCHRONIZATION ---");
         for (const [teamKey, teamInfo] of Object.entries(teamsDb)) {
             for (let player of teamInfo.roster) {
@@ -46,7 +45,6 @@ async function runEngine() {
             }
         }
 
-        // --- 2. PRIME SCHEDULE & DISCORD EVENTS ---
         console.log("\n📅 --- PHASE 2: PRIME SCHEDULE & EVENTS ---");
         const scoutingData = await primeApi.fetchPrimeData(teamsDb);
         if (scoutingData && scoutingData.length > 0) {
@@ -57,12 +55,10 @@ async function runEngine() {
             console.log("   💤 No upcoming Prime matches found today.");
         }
 
-        // --- 3. THE GREAT DATA PULL (RIOT API) ---
         console.log("\n🧠 --- PHASE 3: RIOT DATA ACQUISITION ---");
         
         let discordLpBoard = [];
-        let discordCarryBoard = [];
-        let discordTacticianBoard = [];
+        let discordMasterBoard = []; // Unified Board Array
         let teamOverviewData = []; 
 
         for (const [teamKey, teamInfo] of Object.entries(teamsDb)) {
@@ -73,35 +69,32 @@ async function runEngine() {
                 if (!player.gameName || player.gameName.trim() === "") continue;
                 if (player.trackStats === false || !player.puuid) continue;
 
-                const tag = player.tagLine;
                 const teamNameShort = teamInfo.teamDisplay.replace("UIC ", ""); 
 
                 // 3A. Fetch Live LP
                 const rankData = await riotApi.getRankedData(player.puuid);
                 if (rankData) {
-                    discordLpBoard.push({ gameName: player.gameName, tagLine: tag, team: teamNameShort, tier: rankData.tier, rank: rankData.rank, lp: rankData.lp });
+                    discordLpBoard.push({ gameName: player.gameName, tagLine: player.tagLine, team: teamNameShort, tier: rankData.tier, rank: rankData.rank, lp: rankData.lp });
                     if (player.role !== "MNG" && player.role !== "COH") currentTeamData.activeRanks.push(rankData);
                 }
 
-                currentTeamData.roster.push({ gameName: player.gameName, tagLine: tag, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus });
-
-                // Skip Analytics for Management/Coaches entirely
-                if (player.role === "MNG" || player.role === "COH") continue;
-
-                // 3B. Fetch Last 10 Matches
+                // 3B. Fetch Matches
                 const matchIds = await riotApi.getRecentMatches(player.puuid, 10);
-                if (!matchIds || matchIds.length === 0) continue;
+                if (!matchIds || matchIds.length === 0) {
+                    currentTeamData.roster.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus });
+                    continue;
+                }
 
                 const latestMatchId = matchIds[0];
                 const cachedState = playerState[player.puuid];
 
-                // 🚀 DELTA CACHE BYPASS 🚀
-                if (cachedState && cachedState.lastMatchId === latestMatchId) {
+                // DELTA CACHE BYPASS (Expanded for UPS)
+                if (player.role !== "MNG" && player.role !== "COH" && cachedState && cachedState.lastMatchId === latestMatchId) {
                     console.log(`   ⏭️ Skipped Riot Fetch for ${player.gameName} (No new games)`);
-                    if (cachedState.ci && cachedState.ti) {
-                        discordCarryBoard.push({ gameName: player.gameName, tagLine: tag, team: teamNameShort, carryIndex: cachedState.ci, tacticianIndex: cachedState.ti });
-                        discordTacticianBoard.push({ gameName: player.gameName, tagLine: tag, team: teamNameShort, carryIndex: cachedState.ci, tacticianIndex: cachedState.ti });
+                    if (cachedState.ups) {
+                        discordMasterBoard.push({ gameName: player.gameName, tagLine: player.tagLine, team: teamNameShort, metrics: cachedState });
                     }
+                    currentTeamData.roster.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus });
                     continue; 
                 }
 
@@ -119,7 +112,18 @@ async function runEngine() {
                     matchDatas.push(matchData);
                     timelineDatas.push(timelineData);
 
-                    // 3C. WEBSITE LEDGER
+                    // 🚀 SELF HEALING: Check for Name Changes 🚀
+                    const me = matchData.info.participants.find(p => p.puuid === player.puuid);
+                    if (me && me.riotIdGameName) {
+                        if (player.gameName !== me.riotIdGameName || player.tagLine !== me.riotIdTagline) {
+                            console.log(`   ✨ Name Change Detected! Updating ${player.gameName} -> ${me.riotIdGameName}`);
+                            player.gameName = me.riotIdGameName;
+                            player.tagLine = me.riotIdTagline;
+                            teamsUpdated = true;
+                        }
+                    }
+
+                    // WEBSITE LEDGER
                     const isCompetitive = matchData.info.queueId === 0 || matchData.info.queueId === 124;
                     if (isCompetitive) {
                         if (!ledger.find(e => e.matchId === matchId && e.puuid === player.puuid)) {
@@ -134,34 +138,34 @@ async function runEngine() {
                     }
                 }
 
-                // 3D. DISCORD GAMIFICATION (Passing player.role for the new filter)
-                const discordStats = analytics.calculateDiscordStats(player.puuid, matchDatas, timelineDatas, player.role);
-                if (discordStats) {
-                    discordCarryBoard.push({ gameName: player.gameName, tagLine: tag, team: teamNameShort, ...discordStats });
-                    discordTacticianBoard.push({ gameName: player.gameName, tagLine: tag, team: teamNameShort, ...discordStats });
+                // Push healed name to Team Overview array
+                currentTeamData.roster.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus });
 
-                    playerState[player.puuid] = { lastMatchId: latestMatchId, ci: discordStats.carryIndex, ti: discordStats.tacticianIndex };
+                if (player.role === "MNG" || player.role === "COH") continue;
+
+                // 3D. DISCORD GAMIFICATION
+                const metrics = analytics.calculateDiscordStats(player.puuid, matchDatas, timelineDatas, player.role);
+                if (metrics) {
+                    discordMasterBoard.push({ gameName: player.gameName, tagLine: player.tagLine, team: teamNameShort, metrics: metrics });
+                    playerState[player.puuid] = { lastMatchId: latestMatchId, ...metrics };
                     cacheUpdated = true;
                 }
             }
             teamOverviewData.push(currentTeamData);
         }
 
-        // --- 4. DISCORD DELIVERY ---
         console.log("\n📊 --- PHASE 4: DISCORD DELIVERY ---");
         if (discordLpBoard.length > 0) await discordMessages.updateLpLeaderboard(discordLpBoard);
-        if (discordCarryBoard.length > 0) await discordMessages.updateCarryIndex(discordCarryBoard);
-        if (discordTacticianBoard.length > 0) await discordMessages.updateTacticianLedger(discordTacticianBoard);
+        if (discordMasterBoard.length > 0) await discordMessages.updateMasterLeaderboard(discordMasterBoard);
         if (teamOverviewData.length > 0) await discordMessages.updateTeamOverview(teamOverviewData);
 
-        // --- 5. DATA EXPORT ---
         console.log("\n💾 --- PHASE 5: SAVING DATA ---");
         fs.writeFileSync(LEDGER_PATH, JSON.stringify(ledger, null, 2));
         console.log("   ✅ match_database.json safely secured.");
 
         if (teamsUpdated) {
             fs.writeFileSync(TEAMS_PATH, JSON.stringify(teamsDb, null, 2));
-            console.log("   ✅ teams.json updated with new PUUIDs.");
+            console.log("   ✅ teams.json updated with new PUUIDs/Names.");
         }
 
         if (cacheUpdated) {
