@@ -1,71 +1,88 @@
 /**
  * src/discord/events.js
- * Manages Discord Scheduled Events for Prime League.
+ * Handles creating and updating Discord Server Events for upcoming matches.
  */
-
-const { fetchWithRetry } = require('../utils/network');
 
 const BOT_TOKEN = process.env.DISCORD_BOT_TOKEN;
 const GUILD_ID = process.env.DISCORD_GUILD_ID;
 const API_BASE = 'https://discord.com/api/v10';
-const TWITCH_URL = 'https://www.twitch.tv/ultrainstinctcrew';
+
+const TWITCH_URL = 'https://www.twitch.tv/ultrainstinctcrew'; 
+const WEBSITE_BASE_URL = 'https://ultrainstinctcrew.com/';
 
 async function discordFetch(endpoint, method = 'GET', body = null) {
-    const url = `${API_BASE}${endpoint}`;
-    const options = {
-        method,
-        headers: {
-            'Authorization': `Bot ${BOT_TOKEN}`,
-            'Content-Type': 'application/json'
-        }
-    };
+    if (!BOT_TOKEN || !GUILD_ID) return null;
+
+    const options = { method, headers: { 'Authorization': `Bot ${BOT_TOKEN}`, 'Content-Type': 'application/json' } };
     if (body) options.body = JSON.stringify(body);
 
-    const { status, data } = await fetchWithRetry(url, options);
-    return data;
+    try {
+        const response = await fetch(`${API_BASE}${endpoint}`, options);
+        if (response.status === 429) {
+            const errorData = await response.json();
+            console.warn(`⚠️ [Discord Events] Rate limited. Waiting ${errorData.retry_after}s...`);
+            await new Promise(res => setTimeout(res, errorData.retry_after * 1000));
+            return discordFetch(endpoint, method, body);
+        }
+        if (!response.ok) return null;
+        return response.status === 204 ? true : await response.json();
+    } catch (error) {
+        return null;
+    }
 }
 
 async function syncMatchEvent(matchData) {
     const startTime = new Date(matchData.matchTime);
-    // Allow updates for matches that started up to 4 hours ago (handles delays)
-    if (startTime.getTime() + (4 * 60 * 60 * 1000) < Date.now()) return;
+    const endTime = new Date(startTime.getTime() + (2 * 60 * 60 * 1000)); 
+
+    if (startTime < new Date()) return; // Skip past events
 
     const teamRaw = matchData.myTeam || "Unknown";
     const teamNameClean = teamRaw.charAt(0).toUpperCase() + teamRaw.slice(1);
 
     let description = `🏆 **Prime League Match**\n⚔️ **UIC ${teamNameClean} vs ${matchData.enemyTeamName}**\n\n`;
-    
-    if (matchData.isPredicted) {
-        description += `⚠️ *Lineups are predicted based on team rosters.*`;
-    } else {
-        description += `✅ **Confirmed Lineups:**\n`;
-        description += `🔵 **UIC:** ${matchData.myStarters.join(', ')}\n`;
-        description += `🔴 **Enemy:** ${matchData.enemyStarters.join(', ')}`;
-    }
 
-    const activeEvents = await discordFetch(`/guilds/${GUILD_ID}/scheduled-events`) || [];
+    if (matchData.isPredicted) {
+        description += `*Die Roster sind noch nicht vollständig bestätigt. Das offizielle Scouting-Update folgt...*\n\n`;
+    } else {
+        description += `📊 **Pre-Game Scouting Report ist online!**\n🔗 [Klicke hier für die Lane-by-Lane Analyse](${WEBSITE_BASE_URL}?match=${matchData.matchId})\n\n`;
+    }
+    
+    description += `\n*MatchID: ${matchData.matchId}*`;
+
+    const activeEvents = await discordFetch(`/guilds/${GUILD_ID}/scheduled-events`);
+    if (!activeEvents) return;
+
     const existingEvent = activeEvents.find(e => e.description && e.description.includes(`MatchID: ${matchData.matchId}`));
 
     const eventPayload = {
         name: `UIC ${teamNameClean} vs ${matchData.enemyTeamName}`,
-        privacy_level: 2,
+        privacy_level: 2, 
         scheduled_start_time: startTime.toISOString(),
-        scheduled_end_time: new Date(startTime.getTime() + (2 * 60 * 60 * 1000)).toISOString(),
-        entity_type: 3,
+        scheduled_end_time: endTime.toISOString(),
+        entity_type: 3, 
         entity_metadata: { location: TWITCH_URL },
         description: description
     };
 
     if (existingEvent) {
-        const timeChanged = new Date(existingEvent.scheduled_start_time).getTime() !== startTime.getTime();
+        // --- RESCHEDULE DETECTOR ---
+        const existingStartTime = new Date(existingEvent.scheduled_start_time).getTime();
+        const newStartTime = startTime.getTime();
+
+        const timeChanged = existingStartTime !== newStartTime;
         const descChanged = existingEvent.description !== description;
 
-        if (timeChanged || descChanged) {
-            console.log(`   🔄 [Discord] Updating Event for Match ${matchData.matchId}`);
+        if (descChanged || timeChanged) {
+            let updateLog = `   -> 🔄 [Discord] Updating Match ${matchData.matchId}:`;
+            if (timeChanged) updateLog += ` [Time Changed]`;
+            if (descChanged) updateLog += ` [Status/Desc Changed]`;
+            console.log(updateLog);
+            
             await discordFetch(`/guilds/${GUILD_ID}/scheduled-events/${existingEvent.id}`, 'PATCH', eventPayload);
         }
     } else {
-        console.log(`   ✨ [Discord] Creating NEW Event for Match ${matchData.matchId}`);
+        console.log(`   -> ✨ [Discord] Creating NEW event for Match ${matchData.matchId}`);
         await discordFetch(`/guilds/${GUILD_ID}/scheduled-events`, 'POST', eventPayload);
     }
 }
