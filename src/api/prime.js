@@ -15,7 +15,6 @@ async function fetchPrimeData(teamsData) {
     let activeScoutingReports = [];
 
     for (const [teamKey, teamInfo] of Object.entries(teamsData)) {
-        // 1. SKIP COMMUNITY & TEAMS WITHOUT IDS
         if (teamKey === "community" || !teamInfo.primeLeagueId || teamInfo.primeLeagueId === "") {
             continue;
         }
@@ -32,7 +31,6 @@ async function fetchPrimeData(teamsData) {
 
             const primeData = await response.json();
             
-            // 2. FIND THE NEXT UNFINISHED MATCH
             const upcomingMatches = (primeData.matches || [])
                 .filter(m => !m.result || m.result === "")
                 .sort((a, b) => new Date(a.begin) - new Date(b.begin));
@@ -42,23 +40,19 @@ async function fetchPrimeData(teamsData) {
             const nextMatch = upcomingMatches[0];
             let enemyStarters = [], myStarters = [], isPredicted = false;
 
-            // 3. PROCESS MY ROSTER (Locked vs. Fallback)
             if (nextMatch.team_lineup && nextMatch.team_lineup.length > 0) {
                 myStarters = nextMatch.team_lineup.map(p => p.summoner_name);
             } else {
-                // Fallback to our teams.json Starters
                 myStarters = teamInfo.roster
                     .filter(p => p.trackStats && p.rosterStatus === "starter")
                     .map(p => `${p.gameName}#${p.tagLine}`);
             }
 
-            // 4. PROCESS ENEMY ROSTER (Locked vs. Prediction)
             if (nextMatch.enemy_lineup && nextMatch.enemy_lineup.length > 0) {
                 enemyStarters = nextMatch.enemy_lineup.map(p => p.summoner_name);
             } else {
                 isPredicted = true;
                 try {
-                    // Try to fetch the enemy team's general roster as a prediction
                     const enemyRes = await fetch(`${baseUrl}/api/v1/teams/${nextMatch.enemy_team.id}/`, { 
                         headers: { 'Accept': 'application/json' } 
                     });
