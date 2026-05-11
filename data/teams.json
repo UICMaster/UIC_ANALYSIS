@@ -216,8 +216,8 @@
         "isCaptain": false
       },
       {
-        "gameName": "TheRealCrimes",
-        "tagLine": "EUW",
+        "gameName": "UIC RealCrimes",
+        "tagLine": "UIC",
         "role": "JGL",
         "puuid": "tmw2fl7lgzGjC83OOWfIYFkJ1oInOJlpOmQsm1pEa_3IkNZ1nK5QaYe31F0jmBUu693NdjBbtio4dA",
         "trackStats": true,
@@ -226,8 +226,8 @@
         "isCaptain": false
       },
       {
-        "gameName": "DeutscheLandmine",
-        "tagLine": "EUW",
+        "gameName": "UIC Landmine",
+        "tagLine": "UIC",
         "role": "MID",
         "puuid": "RynyLYvm0d0mmFbbGLYf4xH2oGoU099liSNXnVsdCva3AuOc04Cs08-79SVIDm43TdPUEscF8qA9cA",
         "trackStats": true,
@@ -323,8 +323,8 @@
         "isCaptain": false
       },
       {
-        "gameName": "UIC Cerberus",
-        "tagLine": "Goatz",
+        "gameName": "RG Cerberus",
+        "tagLine": "GOATZ",
         "role": "MNG",
         "puuid": "fASubCixfJH14tN3uUWMezmsxZkzme8vMloOF2spKR9CC6Op3tWuP5yuQeRUcf6GvHOklrmtzRsGCw",
         "trackStats": true,
@@ -408,7 +408,7 @@
       },
       {
         "gameName": "Blauerlupos",
-        "tagLine": "euw",
+        "tagLine": "EUW",
         "role": "JGL",
         "puuid": "a9qvNn5SCBYhjfBfBhU1Altmiu5nysVMQXVOgHe8wQNSrJXU_XYrCa9uqRFIiEH2sH2VcD669YUYAw",
         "trackStats": true,
@@ -639,7 +639,7 @@
       },
       {
         "gameName": "BlauerKlaus",
-        "tagLine": "Qvy心",
+        "tagLine": "Blubb",
         "role": "JGL",
         "puuid": "W2Eya-oXKvyjHoiqFw3mwU5fxUEKCEE9OPa9Utwlq4z3cJIdJY7GgAL2mIHIQeiRbY10OvyZCKrOVA",
         "trackStats": true,
@@ -658,8 +658,8 @@
         "isCaptain": false
       },
       {
-        "gameName": "UIC Starboy",
-        "tagLine": "UIC",
+        "gameName": "ASENSIO21",
+        "tagLine": "FENER",
         "role": "BOT",
         "puuid": "nM6KLdiFbTB69MLSNa54TgGLwv_oOyhqeiu_Dr7z6tMxXS43yfeg3chjamstxQWZmhtpCpf7Opyfgg",
         "trackStats": true,
@@ -678,8 +678,8 @@
         "isCaptain": true
       },
       {
-        "gameName": "UIC Cerberus",
-        "tagLine": "Goatz",
+        "gameName": "RG Cerberus",
+        "tagLine": "GOATZ",
         "role": "MNG",
         "puuid": "fASubCixfJH14tN3uUWMezmsxZkzme8vMloOF2spKR9CC6Op3tWuP5yuQeRUcf6GvHOklrmtzRsGCw",
         "trackStats": true,
@@ -843,7 +843,7 @@
       },
       {
         "gameName": "UIC Rayando07",
-        "tagLine": "HELP",
+        "tagLine": "Help",
         "role": "TOP",
         "puuid": "LFkU5DobxNuJ4-vhghOqZoLzNjLAdqYSb_9UyOkSycE7k6PpBHr1ugHuT1xPc2BSQJXdYom15KotOQ",
         "trackStats": true,
