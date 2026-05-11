@@ -29,14 +29,13 @@ jobs:
           node-version: '20'
 
       - name: Install NPM Dependencies
-        run: npm install # Uses standard install for Web GUI compatibility
+        run: npm install 
 
       - name: Execute the Orchestrator
         env:
           RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
           PRIME_API_URL: ${{ secrets.PRIME_API_URL }}
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
-          DISCORD_GUILD_ID: ${{ secrets.DISCORD_GUILD_ID }}
           DISCORD_CH_LP: ${{ secrets.DISCORD_CH_LP }}
           DISCORD_CH_LEADERBOARD: ${{ secrets.DISCORD_CH_LEADERBOARD }}
           DISCORD_CH_OVERVIEW: ${{ secrets.DISCORD_CH_OVERVIEW }}
