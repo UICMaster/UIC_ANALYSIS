@@ -1,7 +1,8 @@
-name: UIC Analytics Engine V2
+name: Prime League Analytics Engine
 
 on:
   schedule:
+    # Adjusted for UTC -> CEST/CET conversion. Peak polling from 16:00-22:00 CEST (14:00-20:00 UTC)
     - cron: '*/15 14-20 * * *'
     - cron: '0 0-13,21-23 * * *'
   workflow_dispatch: 
@@ -9,6 +10,7 @@ on:
 permissions:
   contents: write
 
+# Prevents overlapping runs from causing Git conflicts if a run gets stuck
 concurrency:
   group: engine-execution
   cancel-in-progress: false
@@ -16,43 +18,50 @@ concurrency:
 jobs:
   run-analytics:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Grab code
+      - name: Grab the latest code
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Setup Node.js Environment
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: Install
-        run: npm install 
+      - name: Install NPM Dependencies
+        run: npm install # Uses standard install for Web GUI compatibility
 
-      - name: Execute
+      - name: Execute the Orchestrator
         env:
           RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
           PRIME_API_URL: ${{ secrets.PRIME_API_URL }}
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           DISCORD_GUILD_ID: ${{ secrets.DISCORD_GUILD_ID }}
           DISCORD_CH_LP: ${{ secrets.DISCORD_CH_LP }}
-          DISCORD_CH_POWER_RANKINGS: ${{ secrets.DISCORD_CH_POWER_RANKINGS }}
-          DISCORD_CH_RESULTS: ${{ secrets.DISCORD_CH_RESULTS }}
+          DISCORD_CH_CARRY: ${{ secrets.DISCORD_CH_CARRY }}
+          DISCORD_CH_TACTICIAN: ${{ secrets.DISCORD_CH_TACTICIAN }}
           DISCORD_CH_OVERVIEW: ${{ secrets.DISCORD_CH_OVERVIEW }}
         run: node src/index.js
 
-      - name: Save State
+      - name: Save Data to Backend Repository
+        if: success() 
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🤖 [Engine] Sync Match Records & State"
+          commit_message: "🤖 Auto-update: Ledger, State & PUUID Database"
+          file_pattern: "data/*.json"
+          skip_dirty_check: false 
 
-      - name: Sync to Website
+      # --- THE BRIDGE TO THE FRONTEND REPO (REPO B) ---
+      # Ensure you change 'YourGitHubName/Repo-B-Name' to your actual frontend repository later!
+      - name: Push Ledger to Frontend Repository (Repo B)
+        if: success()
         uses: dmnemec/copy_file_to_another_repo_action@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.REPO_B_PAT }}
         with:
-          source_file: 'data/matches/'
-          destination_repo: 'UICMaster/UIC_WEBSITE'
-          destination_folder: 'src/data/matches' 
+          source_file: 'data/match_database.json'
+          destination_repo: 'YourGitHubName/Repo-B-Name'
+          destination_folder: 'public/data' 
           user_email: 'bot@ultrainstinctcrew.com'
           user_name: 'UIC Data Engine'
-          commit_message: '🤖 Automated Prime Match Sync'
+          commit_message: '🤖 Automated Ledger Sync from Backend'
