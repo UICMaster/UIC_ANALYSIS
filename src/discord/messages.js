@@ -7,8 +7,7 @@ const BOT_TOKEN = process.env.DISCORD_BOT_TOKEN;
 const API_BASE = 'https://discord.com/api/v10';
 
 const CH_LP = process.env.DISCORD_CH_LP;
-const CH_CARRY = process.env.DISCORD_CH_CARRY;
-const CH_TACTICIAN = process.env.DISCORD_CH_TACTICIAN;
+const CH_LEADERBOARD = process.env.DISCORD_CH_LEADERBOARD;
 const CH_OVERVIEW = process.env.DISCORD_CH_OVERVIEW;
 
 const UIC_COLOR = 0x00F0FF; 
@@ -41,9 +40,6 @@ async function discordFetch(endpoint, method = 'GET', body = null) {
     }
 }
 
-/**
- * 🚀 THE SMART EDIT ALGORITHM 🚀
- */
 async function updateOrPostMessage(channelId, embeds) {
     if (!channelId || embeds.length === 0) return;
 
@@ -70,76 +66,70 @@ async function updateOrPostMessage(channelId, embeds) {
     }
 }
 
-async function postLeaderboard(channelId, title, leftHeader, rightHeader, players, formatCallback) {
-    if (!channelId) return;
-
-    const validPlayers = players.filter(p => p !== null);
-    let embeds = [];
-    const chunkSize = 15; 
-
-    for (let i = 0; i < validPlayers.length; i += chunkSize) {
-        const chunk = validPlayers.slice(i, i + chunkSize);
-        
-        let columnLeft = "";
-        let columnRight = "";
-
-        chunk.forEach((player, index) => {
-            const overallRank = i + index + 1;
-            const formatted = formatCallback(player, overallRank);
-            columnLeft += formatted.left + "\n";
-            columnRight += formatted.right + "\n";
-        });
-
-        embeds.push({
-            title: i === 0 ? title : `${title} (Fortsetzung)`,
-            color: UIC_COLOR,
-            fields: [
-                { name: leftHeader, value: columnLeft || "-", inline: true },
-                { name: rightHeader, value: columnRight || "-", inline: true }
-            ],
-            footer: i === 0 ? { text: "Bereitgestellt durch Ultra Instinct Crew" } : null,
-            timestamp: i === 0 ? new Date().toISOString() : null 
-        });
-    }
-
-    await updateOrPostMessage(channelId, embeds);
-    console.log(`   ✅ [Discord] Updated ${title}`);
-}
-
 function getRankScore(tier, rank, lp) {
     const tiers = { "CHALLENGER": 90000, "GRANDMASTER": 80000, "MASTER": 70000, "DIAMOND": 60000, "EMERALD": 50000, "PLATINUM": 40000, "GOLD": 30000, "SILVER": 20000, "BRONZE": 10000, "IRON": 0, "UNRANKED": 0 };
     const ranks = { "I": 4000, "II": 3000, "III": 2000, "IV": 1000 };
     return (tiers[tier] || 0) + (ranks[rank] || 0) + parseInt(lp || 0);
 }
 
+// 1. LP Leaderboard (Kept for the grind)
 async function updateLpLeaderboard(data) {
-    if (!data || data.length === 0) return;
+    if (!CH_LP || data.length === 0) return;
     data.sort((a, b) => getRankScore(b.tier, b.rank, b.lp) - getRankScore(a.tier, a.rank, a.lp));
     
-    await postLeaderboard(CH_LP, "UIC Rangliste SoloQ/DuoQ", "Spieler", "Rang & LP", data, (p, rank) => {
+    let description = "";
+    data.slice(0, 50).forEach((p, index) => {
         const emoji = RANK_EMOJIS[p.tier] || RANK_EMOJIS["UNRANKED"];
-        return { left: `**${rank}.** ${p.gameName} *(${p.team})*`, right: `${emoji} ${p.tier} ${p.rank} (${p.lp} LP)` };
+        description += `**${index + 1}.** ${p.gameName} *(${p.team})* — ${emoji} **${p.tier} ${p.rank}** (${p.lp} LP)\n`;
     });
+
+    const embed = {
+        title: "📈 UIC SoloQ/DuoQ Grind",
+        color: UIC_COLOR,
+        description: description,
+        timestamp: new Date().toISOString()
+    };
+
+    await updateOrPostMessage(CH_LP, [embed]);
+    console.log(`   ✅ [Discord] Updated LP Leaderboard`);
 }
 
-async function updateCarryIndex(data) {
-    if (!data || data.length === 0) return;
-    data.sort((a, b) => b.carryIndex - a.carryIndex); 
+// 2. The New Master DNA Leaderboard
+async function updateMasterLeaderboard(data) {
+    if (!CH_LEADERBOARD || data.length === 0) return;
     
-    await postLeaderboard(CH_CARRY, "UIC Rangliste Carry Index", "Spieler", "Wertung", data, (p, rank) => {
-        return { left: `**${rank}.** ${p.gameName} *(${p.team})*`, right: `Score: **${p.carryIndex}**` };
-    });
-}
-
-async function updateTacticianLedger(data) {
-    if (!data || data.length === 0) return;
-    data.sort((a, b) => b.tacticianIndex - a.tacticianIndex); 
+    // Sort by Overall UPS
+    data.sort((a, b) => b.metrics.ups - a.metrics.ups);
     
-    await postLeaderboard(CH_TACTICIAN, "UIC Rangliste Tactician Index", "Spieler", "Wertung", data, (p, rank) => {
-        return { left: `**${rank}.** ${p.gameName} *(${p.team})*`, right: `Score: **${p.tacticianIndex}**` };
+    // Take Top 15
+    const topPlayers = data.slice(0, 15);
+    let description = "*Basierend auf SoloQ Master+ Baselines (Letzte 10 Spiele)*\n\n";
+
+    topPlayers.forEach((player, index) => {
+        let medal = `**${index + 1}.**`;
+        if (index === 0) medal = "🥇 **1.**";
+        if (index === 1) medal = "🥈 **2.**";
+        if (index === 2) medal = "🥉 **3.**";
+
+        const { ups, ci, ti, vi } = player.metrics;
+
+        description += `${medal} **${player.gameName}** *(${player.team})* — **${ups} UPS**\n`;
+        description += `↳ \`[ ⚔️ CI: ${ci.toString().padEnd(2)} | 👁️ TI: ${ti.toString().padEnd(2)} | 🛡️ VI: ${vi.toString().padEnd(2)} ]\`\n\n`;
     });
+
+    const embed = {
+        title: "🏆 UIC Power Ranking – Die Top 15",
+        color: UIC_COLOR,
+        description: description,
+        timestamp: new Date().toISOString(),
+        footer: { text: "UIC Analytics Engine • Updated Automatically" }
+    };
+
+    await updateOrPostMessage(CH_LEADERBOARD, [embed]);
+    console.log(`   ✅ [Discord] Updated Master DNA Leaderboard`);
 }
 
+// 3. Team Overview
 async function updateTeamOverview(teamOverviewData) {
     if (!CH_OVERVIEW || teamOverviewData.length === 0) return;
 
@@ -169,4 +159,4 @@ async function updateTeamOverview(teamOverviewData) {
     console.log(`   ✅ [Discord] Updated Team Overview`);
 }
 
-module.exports = { updateLpLeaderboard, updateCarryIndex, updateTacticianLedger, updateTeamOverview };
+module.exports = { updateLpLeaderboard, updateMasterLeaderboard, updateTeamOverview };
