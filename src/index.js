@@ -10,7 +10,6 @@ const path = require('path');
 const primeApi = require('./api/prime');
 const riotApi = require('./api/riot');
 const analytics = require('./core/analytics');
-const discordEvents = require('./discord/events');
 const discordMessages = require('./discord/messages');
 
 const TEAMS_PATH = path.join(__dirname, '../data/teams.json');
@@ -45,25 +44,27 @@ async function runEngine() {
             }
         }
 
-        console.log("\n📅 --- PHASE 2: PRIME SCHEDULE & EVENTS ---");
+        // We keep Phase 2 strictly to get the enemy lineups for verification in Phase 3
+        console.log("\n📅 --- PHASE 2: PRIME MATCHUPS (For Cross-Referencing) ---");
         const scoutingData = await primeApi.fetchPrimeData(teamsDb);
-        if (scoutingData && scoutingData.length > 0) {
-            for (const match of scoutingData) {
-                await discordEvents.syncMatchEvent(match);
-            }
-        } else {
+        if (!scoutingData || scoutingData.length === 0) {
             console.log("   💤 No upcoming Prime matches found today.");
+        } else {
+            console.log(`   ✅ Loaded ${scoutingData.length} matchups for verification.`);
         }
 
         console.log("\n🧠 --- PHASE 3: RIOT DATA ACQUISITION ---");
         
         let discordLpBoard = [];
-        let discordMasterBoard = []; // Unified Board Array
+        let discordMasterBoard = []; 
         let teamOverviewData = []; 
 
         for (const [teamKey, teamInfo] of Object.entries(teamsDb)) {
             console.log(`\n🛡️ Processing Group: ${teamInfo.teamDisplay}`);
             let currentTeamData = { teamDisplay: teamInfo.teamDisplay, roster: [], activeRanks: [] };
+
+            // Find today's specific scouting data for THIS team (if it exists)
+            const activeScout = scoutingData.find(s => s.myTeam === teamKey);
 
             for (let player of teamInfo.roster) {
                 if (!player.gameName || player.gameName.trim() === "") continue;
@@ -88,7 +89,7 @@ async function runEngine() {
                 const latestMatchId = matchIds[0];
                 const cachedState = playerState[player.puuid];
 
-                // DELTA CACHE BYPASS (Expanded for UPS)
+                // DELTA CACHE BYPASS
                 if (player.role !== "MNG" && player.role !== "COH" && cachedState && cachedState.lastMatchId === latestMatchId) {
                     console.log(`   ⏭️ Skipped Riot Fetch for ${player.gameName} (No new games)`);
                     if (cachedState.ups) {
@@ -123,22 +124,52 @@ async function runEngine() {
                         }
                     }
 
-                    // WEBSITE LEDGER
+                    // 🚀 PRIME LEAGUE VERIFICATION ALGORITHM 🚀
                     const isCompetitive = matchData.info.queueId === 0 || matchData.info.queueId === 124;
                     if (isCompetitive) {
                         if (!ledger.find(e => e.matchId === matchId && e.puuid === player.puuid)) {
-                            console.log(`   🏆 Prime Match Detected! Saving to Ledger...`);
-                            const websiteStats = analytics.calculateWebsiteLedger(player.puuid, matchData, timelineData);
-                            if (websiteStats) {
-                                websiteStats.puuid = player.puuid;
-                                websiteStats.teamKey = teamKey;
-                                ledger.push(websiteStats);
+                            
+                            let isVerifiedPrime = false;
+
+                            if (activeScout) {
+                                // Extract and normalize all player names in the Riot Lobby
+                                const matchNames = matchData.info.participants.map(p => 
+                                    (p.riotIdGameName || p.summonerName || "").toLowerCase().replace(/\s+/g, '')
+                                );
+
+                                // Normalize the expected enemies from the Prime League API
+                                const expectedEnemies = activeScout.enemyStarters.map(name => 
+                                    name.toLowerCase().replace(/\s+/g, '')
+                                );
+
+                                // Check how many enemies in the lobby match the Prime API
+                                const matchedEnemies = expectedEnemies.filter(enemy => matchNames.includes(enemy));
+
+                                // Threshold: At least 2 enemy matches ensures it's the official game
+                                if (matchedEnemies.length >= 2) {
+                                    isVerifiedPrime = true;
+                                    console.log(`   🎯 Prime Match Verified: Found enemy players (${matchedEnemies.join(', ')})`);
+                                } else {
+                                    console.log(`   ⚠️ Custom Game Ignored: Enemy lineup mismatch (Likely a Scrim)`);
+                                }
+                            } else {
+                                console.log(`   ⚠️ Custom Game Ignored: No official Prime match scheduled for ${teamInfo.teamDisplay} today.`);
+                            }
+
+                            // Save to Website Ledger ONLY if verified
+                            if (isVerifiedPrime) {
+                                console.log(`   🏆 Saving Verified Match to Ledger...`);
+                                const websiteStats = analytics.calculateWebsiteLedger(player.puuid, matchData, timelineData);
+                                if (websiteStats) {
+                                    websiteStats.puuid = player.puuid;
+                                    websiteStats.teamKey = teamKey;
+                                    ledger.push(websiteStats);
+                                }
                             }
                         }
                     }
                 }
 
-                // Push healed name to Team Overview array
                 currentTeamData.roster.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus });
 
                 if (player.role === "MNG" || player.role === "COH") continue;
