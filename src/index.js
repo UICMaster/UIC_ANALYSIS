@@ -27,12 +27,13 @@ async function runEngine() {
         let teamsUpdated = false;
         let cacheUpdated = false;
 
-        console.log("\n🔍 --- PHASE 1: PUUID SYNCHRONIZATION ---");
+        console.log("\n🔍 --- PHASE 1: PUUID & NAME SYNCHRONIZATION ---");
         for (const [teamKey, teamInfo] of Object.entries(teamsDb)) {
             for (let player of teamInfo.roster) {
-                if (!player.gameName || player.gameName.trim() === "") continue;
+                if (player.trackStats === false) continue;
 
-                if (player.trackStats !== false && (!player.puuid || player.puuid === "")) {
+                if (!player.puuid || player.puuid === "") {
+                    if (!player.gameName || player.gameName.trim() === "") continue;
                     console.log(`   📡 Fetching PUUID for ${player.gameName}...`);
                     const puuid = await riotApi.getPUUID(player.gameName, player.tagLine);
                     if (puuid) {
@@ -40,11 +41,21 @@ async function runEngine() {
                         teamsUpdated = true;
                         console.log(`   ✅ Saved PUUID`);
                     }
+                } else {
+                    // 🚀 LIVE ACCOUNT SELF-HEALING 🚀
+                    const liveAccount = await riotApi.getAccountByPUUID(player.puuid);
+                    if (liveAccount && liveAccount.gameName) {
+                        if (player.gameName !== liveAccount.gameName || player.tagLine !== liveAccount.tagLine) {
+                            console.log(`   ✨ Name Healed! ${player.gameName} -> ${liveAccount.gameName}#${liveAccount.tagLine}`);
+                            player.gameName = liveAccount.gameName;
+                            player.tagLine = liveAccount.tagLine;
+                            teamsUpdated = true;
+                        }
+                    }
                 }
             }
         }
 
-        // We keep Phase 2 strictly to get the enemy lineups for verification in Phase 3
         console.log("\n📅 --- PHASE 2: PRIME MATCHUPS (For Cross-Referencing) ---");
         const scoutingData = await primeApi.fetchPrimeData(teamsDb);
         if (!scoutingData || scoutingData.length === 0) {
@@ -62,8 +73,6 @@ async function runEngine() {
         for (const [teamKey, teamInfo] of Object.entries(teamsDb)) {
             console.log(`\n🛡️ Processing Group: ${teamInfo.teamDisplay}`);
             let currentTeamData = { teamDisplay: teamInfo.teamDisplay, roster: [], activeRanks: [] };
-
-            // Find today's specific scouting data for THIS team (if it exists)
             const activeScout = scoutingData.find(s => s.myTeam === teamKey);
 
             for (let player of teamInfo.roster) {
@@ -72,14 +81,12 @@ async function runEngine() {
 
                 const teamNameShort = teamInfo.teamDisplay.replace("UIC ", ""); 
 
-                // 3A. Fetch Live LP
                 const rankData = await riotApi.getRankedData(player.puuid);
                 if (rankData) {
                     discordLpBoard.push({ gameName: player.gameName, tagLine: player.tagLine, team: teamNameShort, tier: rankData.tier, rank: rankData.rank, lp: rankData.lp });
                     if (player.role !== "MNG" && player.role !== "COH") currentTeamData.activeRanks.push(rankData);
                 }
 
-                // 3B. Fetch Matches
                 const matchIds = await riotApi.getRecentMatches(player.puuid, 10);
                 if (!matchIds || matchIds.length === 0) {
                     currentTeamData.roster.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus });
@@ -89,7 +96,6 @@ async function runEngine() {
                 const latestMatchId = matchIds[0];
                 const cachedState = playerState[player.puuid];
 
-                // DELTA CACHE BYPASS
                 if (player.role !== "MNG" && player.role !== "COH" && cachedState && cachedState.lastMatchId === latestMatchId) {
                     console.log(`   ⏭️ Skipped Riot Fetch for ${player.gameName} (No new games)`);
                     if (cachedState.ups) {
@@ -113,50 +119,25 @@ async function runEngine() {
                     matchDatas.push(matchData);
                     timelineDatas.push(timelineData);
 
-                    // 🚀 SELF HEALING: Check for Name Changes 🚀
-                    const me = matchData.info.participants.find(p => p.puuid === player.puuid);
-                    if (me && me.riotIdGameName) {
-                        if (player.gameName !== me.riotIdGameName || player.tagLine !== me.riotIdTagline) {
-                            console.log(`   ✨ Name Change Detected! Updating ${player.gameName} -> ${me.riotIdGameName}`);
-                            player.gameName = me.riotIdGameName;
-                            player.tagLine = me.riotIdTagline;
-                            teamsUpdated = true;
-                        }
-                    }
-
-                    // 🚀 PRIME LEAGUE VERIFICATION ALGORITHM 🚀
                     const isCompetitive = matchData.info.queueId === 0 || matchData.info.queueId === 124;
                     if (isCompetitive) {
                         if (!ledger.find(e => e.matchId === matchId && e.puuid === player.puuid)) {
-                            
                             let isVerifiedPrime = false;
 
                             if (activeScout) {
-                                // Extract and normalize all player names in the Riot Lobby
                                 const matchNames = matchData.info.participants.map(p => 
                                     (p.riotIdGameName || p.summonerName || "").toLowerCase().replace(/\s+/g, '')
                                 );
-
-                                // Normalize the expected enemies from the Prime League API
                                 const expectedEnemies = activeScout.enemyStarters.map(name => 
                                     name.toLowerCase().replace(/\s+/g, '')
                                 );
-
-                                // Check how many enemies in the lobby match the Prime API
                                 const matchedEnemies = expectedEnemies.filter(enemy => matchNames.includes(enemy));
 
-                                // Threshold: At least 2 enemy matches ensures it's the official game
                                 if (matchedEnemies.length >= 2) {
                                     isVerifiedPrime = true;
                                     console.log(`   🎯 Prime Match Verified: Found enemy players (${matchedEnemies.join(', ')})`);
-                                } else {
-                                    console.log(`   ⚠️ Custom Game Ignored: Enemy lineup mismatch (Likely a Scrim)`);
                                 }
-                            } else {
-                                console.log(`   ⚠️ Custom Game Ignored: No official Prime match scheduled for ${teamInfo.teamDisplay} today.`);
                             }
-
-                            // Save to Website Ledger ONLY if verified
                             if (isVerifiedPrime) {
                                 console.log(`   🏆 Saving Verified Match to Ledger...`);
                                 const websiteStats = analytics.calculateWebsiteLedger(player.puuid, matchData, timelineData);
@@ -174,7 +155,6 @@ async function runEngine() {
 
                 if (player.role === "MNG" || player.role === "COH") continue;
 
-                // 3D. DISCORD GAMIFICATION
                 const metrics = analytics.calculateDiscordStats(player.puuid, matchDatas, timelineDatas, player.role);
                 if (metrics) {
                     discordMasterBoard.push({ gameName: player.gameName, tagLine: player.tagLine, team: teamNameShort, metrics: metrics });
@@ -196,7 +176,7 @@ async function runEngine() {
 
         if (teamsUpdated) {
             fs.writeFileSync(TEAMS_PATH, JSON.stringify(teamsDb, null, 2));
-            console.log("   ✅ teams.json updated with new PUUIDs/Names.");
+            console.log("   ✅ teams.json updated with Live Account Data.");
         }
 
         if (cacheUpdated) {
