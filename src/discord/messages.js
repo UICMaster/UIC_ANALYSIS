@@ -43,6 +43,7 @@ async function discordFetch(endpoint, method = 'GET', body = null) {
 async function updateOrPostMessage(channelId, embeds) {
     if (!channelId || embeds.length === 0) return;
 
+    // Discord allows max 10 embeds per message.
     const embedChunks = [];
     for (let i = 0; i < embeds.length; i += 10) {
         embedChunks.push(embeds.slice(i, i + 10));
@@ -72,61 +73,84 @@ function getRankScore(tier, rank, lp) {
     return (tiers[tier] || 0) + (ranks[rank] || 0) + parseInt(lp || 0);
 }
 
-// 1. LP Leaderboard (Kept for the grind)
+const capitalize = s => s ? s.charAt(0).toUpperCase() + s.slice(1).toLowerCase() : "";
+
+/**
+ * Universal Formatter for 3-Column Leaderboards
+ */
+async function postRankingsEmbeds(channelId, title, column3Name, data, formatCallback) {
+    let embeds = [];
+    const chunkSize = 15; // 15 players per embed keeps it safe from Discord's 1024 character limit per field
+
+    for (let i = 0; i < data.length; i += chunkSize) {
+        const chunk = data.slice(i, i + chunkSize);
+
+        let colSpieler = "";
+        let colTeam = "";
+        let colWertung = "";
+
+        chunk.forEach((player, index) => {
+            const rank = i + index + 1;
+            const row = formatCallback(player, rank);
+            colSpieler += row.spieler + "\n";
+            colTeam += row.team + "\n";
+            colWertung += row.wertung + "\n";
+        });
+
+        embeds.push({
+            title: i === 0 ? title : `${title} (Fortsetzung)`,
+            color: UIC_COLOR,
+            fields: [
+                { name: "Spieler", value: colSpieler || "-", inline: true },
+                { name: "Team", value: colTeam || "-", inline: true },
+                { name: column3Name, value: colWertung || "-", inline: true }
+            ],
+            footer: { text: "Bereitgestellt durch UIC" },
+            timestamp: new Date().toISOString()
+        });
+    }
+
+    await updateOrPostMessage(channelId, embeds);
+}
+
+// 1. LP Leaderboard (All Players)
 async function updateLpLeaderboard(data) {
     if (!CH_LP || data.length === 0) return;
     data.sort((a, b) => getRankScore(b.tier, b.rank, b.lp) - getRankScore(a.tier, a.rank, a.lp));
     
-    let description = "";
-    data.slice(0, 50).forEach((p, index) => {
+    await postRankingsEmbeds(CH_LP, "UIC Rangliste SoloQ/DuoQ", "Rang & LP", data, (p, rank) => {
         const emoji = RANK_EMOJIS[p.tier] || RANK_EMOJIS["UNRANKED"];
-        description += `**${index + 1}.** ${p.gameName} *(${p.team})* — ${emoji} **${p.tier} ${p.rank}** (${p.lp} LP)\n`;
+        const tierStr = p.tier ? capitalize(p.tier) : "Unranked";
+        const rankStr = p.rank ? p.rank : "";
+        const lpStr = p.lp !== undefined ? `(${p.lp} LP)` : "";
+
+        return {
+            spieler: `**${rank}.** ${p.gameName}#${p.tagLine}`,
+            team: p.team || "-",
+            wertung: `${emoji} ${tierStr} ${rankStr} ${lpStr}`.trim()
+        };
     });
-
-    const embed = {
-        title: "📈 UIC SoloQ/DuoQ Grind",
-        color: UIC_COLOR,
-        description: description,
-        timestamp: new Date().toISOString()
-    };
-
-    await updateOrPostMessage(CH_LP, [embed]);
-    console.log(`   ✅ [Discord] Updated LP Leaderboard`);
+    
+    console.log(`   ✅ [Discord] Updated LP Leaderboard (Alle Spieler)`);
 }
 
-// 2. The New Master DNA Leaderboard
+// 2. Master DNA Leaderboard (UPS - All Players)
 async function updateMasterLeaderboard(data) {
     if (!CH_LEADERBOARD || data.length === 0) return;
     
     // Sort by Overall UPS
     data.sort((a, b) => b.metrics.ups - a.metrics.ups);
     
-    // Take Top 15
-    const topPlayers = data.slice(0, 15);
-    let description = "*Basierend auf SoloQ Master+ Baselines (Letzte 10 Spiele)*\n\n";
-
-    topPlayers.forEach((player, index) => {
-        let medal = `**${index + 1}.**`;
-        if (index === 0) medal = "🥇 **1.**";
-        if (index === 1) medal = "🥈 **2.**";
-        if (index === 2) medal = "🥉 **3.**";
-
-        const { ups, ci, ti, vi } = player.metrics;
-
-        description += `${medal} **${player.gameName}** *(${player.team})* — **${ups} UPS**\n`;
-        description += `↳ \`[ ⚔️ CI: ${ci.toString().padEnd(2)} | 👁️ TI: ${ti.toString().padEnd(2)} | 🛡️ VI: ${vi.toString().padEnd(2)} ]\`\n\n`;
+    await postRankingsEmbeds(CH_LEADERBOARD, "UIC Power Ranking", "Wertung", data, (p, rank) => {
+        const { ups, vi, ti, ci } = p.metrics;
+        return {
+            spieler: `**${rank}.** ${p.gameName}#${p.tagLine}`,
+            team: p.team || "-",
+            wertung: `Score: ${ups} (VI: ${vi} | TI: ${ti} | CI: ${ci})`
+        };
     });
 
-    const embed = {
-        title: "🏆 UIC Power Ranking – Die Top 15",
-        color: UIC_COLOR,
-        description: description,
-        timestamp: new Date().toISOString(),
-        footer: { text: "UIC Analytics Engine • Updated Automatically" }
-    };
-
-    await updateOrPostMessage(CH_LEADERBOARD, [embed]);
-    console.log(`   ✅ [Discord] Updated Master DNA Leaderboard`);
+    console.log(`   ✅ [Discord] Updated Master DNA Leaderboard (Alle Spieler)`);
 }
 
 // 3. Team Overview
@@ -153,6 +177,12 @@ async function updateTeamOverview(teamOverviewData) {
             title: team.teamDisplay, color: UIC_COLOR,
             fields: [ { name: "Kader", value: nameColumn || "-", inline: true }, { name: "Rolle", value: roleColumn || "-", inline: true } ]
         });
+    }
+
+    // Add footer to the last embed in the list
+    if (embeds.length > 0) {
+        embeds[embeds.length - 1].footer = { text: "Bereitgestellt durch UIC" };
+        embeds[embeds.length - 1].timestamp = new Date().toISOString();
     }
 
     await updateOrPostMessage(CH_OVERVIEW, embeds);
