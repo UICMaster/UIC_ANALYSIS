@@ -236,8 +236,8 @@
         "isCaptain": false
       },
       {
-        "gameName": "EnchanterPocket",
-        "tagLine": "Bissi",
+        "gameName": "UIC BissiBoy",
+        "tagLine": "UIC",
         "role": "BOT",
         "puuid": "ZxeaV_p5l8mckMwYbx1Fo-xFiLKgXvifZaLzej8ae3ytsrlwSI1VoMqtD7COMr9Fr4XKGtc1DsLT8Q",
         "trackStats": true,
@@ -323,7 +323,7 @@
         "isCaptain": false
       },
       {
-        "gameName": "RG Cerberus",
+        "gameName": "UIC Cerberus",
         "tagLine": "GOATZ",
         "role": "MNG",
         "puuid": "fASubCixfJH14tN3uUWMezmsxZkzme8vMloOF2spKR9CC6Op3tWuP5yuQeRUcf6GvHOklrmtzRsGCw",
@@ -437,7 +437,7 @@
         "isCaptain": false
       },
       {
-        "gameName": "Rui Arneb",
+        "gameName": "UIC Moonlxght",
         "tagLine": "16396",
         "role": "SUP",
         "puuid": "2X5FYmWrw5_0iq_D9HSLvuaZufq722xyOA4U98kpddoWcGgAGYK8BdD0aFAFRdtTmeJlB_AhpSBGTQ",
@@ -658,8 +658,8 @@
         "isCaptain": false
       },
       {
-        "gameName": "ASENSIO21",
-        "tagLine": "FENER",
+        "gameName": "UIC Starboy",
+        "tagLine": "UIC",
         "role": "BOT",
         "puuid": "nM6KLdiFbTB69MLSNa54TgGLwv_oOyhqeiu_Dr7z6tMxXS43yfeg3chjamstxQWZmhtpCpf7Opyfgg",
         "trackStats": true,
@@ -678,7 +678,7 @@
         "isCaptain": true
       },
       {
-        "gameName": "RG Cerberus",
+        "gameName": "UIC Cerberus",
         "tagLine": "GOATZ",
         "role": "MNG",
         "puuid": "fASubCixfJH14tN3uUWMezmsxZkzme8vMloOF2spKR9CC6Op3tWuP5yuQeRUcf6GvHOklrmtzRsGCw",
@@ -695,7 +695,7 @@
     "tier": "Division 5",
     "roster": [
       {
-        "gameName": "EPS Laserjet M47",
+        "gameName": "UIC Laserjet M47",
         "tagLine": "Chris",
         "role": "TOP",
         "puuid": "nSE4c7Y1jRSe-Z7JLTVHDne5-jJ110eEXoooKphnjbo2iitwKwt1ya7nggr7ojxNKSEGAa6M9Gn6xQ",
