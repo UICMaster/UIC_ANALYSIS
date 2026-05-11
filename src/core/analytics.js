@@ -9,12 +9,13 @@ const RIOT_ROLE_MAP = {
     "JGL": "JGL", "MID": "MID", "BOT": "BOT", "SUP": "SUP"
 };
 
+// Added smd (Self-Mitigated Damage) and dt2d (Damage Taken to Death) for the Vanguard Index
 const BASELINES = {
-    TOP: { gd_15: { m: 0, s: 1500 }, dpg: { m: 1.2, s: 0.35 }, vspm: { m: 1.4, s: 0.5 }, cc: { m: 18, s: 12 }, kp: { m: 48, s: 10 }, obj: { m: 0.15, s: 0.08 }, hsp: { m: 1000, s: 1500 } },
-    JGL: { gd_15: { m: 0, s: 1200 }, dpg: { m: 0.9, s: 0.25 }, vspm: { m: 2.2, s: 0.7 }, cc: { m: 28, s: 18 }, kp: { m: 65, s: 12 }, obj: { m: 0.45, s: 0.15 }, hsp: { m: 1500, s: 2000 } },
-    MID: { gd_15: { m: 0, s: 1300 }, dpg: { m: 1.45, s: 0.4 }, vspm: { m: 1.5, s: 0.5 }, cc: { m: 20, s: 14 }, kp: { m: 58, s: 11 }, obj: { m: 0.15, s: 0.08 }, hsp: { m: 1000, s: 1500 } },
-    BOT: { gd_15: { m: 0, s: 1600 }, dpg: { m: 1.65, s: 0.45 }, vspm: { m: 1.3, s: 0.4 }, cc: { m: 12, s: 8 },  kp: { m: 52, s: 10 }, obj: { m: 0.20, s: 0.10 }, hsp: { m: 500,  s: 800  } },
-    SUP: { gd_15: { m: 0, s: 800 },  dpg: { m: 0.45, s: 0.2 }, vspm: { m: 3.8, s: 1.4 }, cc: { m: 40, s: 25 }, kp: { m: 68, s: 13 }, obj: { m: 0.05, s: 0.05 }, hsp: { m: 6000, s: 5000 } }
+    TOP: { gd_15: { m: 0, s: 1500 }, dpg: { m: 1.2, s: 0.35 }, vspm: { m: 1.4, s: 0.5 }, cc: { m: 18, s: 12 }, kp: { m: 48, s: 10 }, obj: { m: 0.15, s: 0.08 }, hsp: { m: 1000, s: 1500 }, smd: { m: 25000, s: 10000 }, dt2d: { m: 4000, s: 1500 } },
+    JGL: { gd_15: { m: 0, s: 1200 }, dpg: { m: 0.9, s: 0.25 }, vspm: { m: 2.2, s: 0.7 }, cc: { m: 28, s: 18 }, kp: { m: 65, s: 12 }, obj: { m: 0.45, s: 0.15 }, hsp: { m: 1500, s: 2000 }, smd: { m: 20000, s: 8000 }, dt2d: { m: 3500, s: 1200 } },
+    MID: { gd_15: { m: 0, s: 1300 }, dpg: { m: 1.45, s: 0.4 }, vspm: { m: 1.5, s: 0.5 }, cc: { m: 20, s: 14 }, kp: { m: 58, s: 11 }, obj: { m: 0.15, s: 0.08 }, hsp: { m: 1000, s: 1500 }, smd: { m: 10000, s: 5000 }, dt2d: { m: 2500, s: 800 } },
+    BOT: { gd_15: { m: 0, s: 1600 }, dpg: { m: 1.65, s: 0.45 }, vspm: { m: 1.3, s: 0.4 }, cc: { m: 12, s: 8 },  kp: { m: 52, s: 10 }, obj: { m: 0.20, s: 0.10 }, hsp: { m: 500,  s: 800  }, smd: { m: 8000, s: 3000 }, dt2d: { m: 2000, s: 600 } },
+    SUP: { gd_15: { m: 0, s: 800 },  dpg: { m: 0.45, s: 0.2 }, vspm: { m: 3.8, s: 1.4 }, cc: { m: 40, s: 25 }, kp: { m: 68, s: 13 }, obj: { m: 0.05, s: 0.05 }, hsp: { m: 6000, s: 5000 }, smd: { m: 15000, s: 8000 }, dt2d: { m: 3000, s: 1000 } }
 };
 
 function clamp(val, min, max) { return Math.max(min, Math.min(max, val)); }
@@ -26,19 +27,12 @@ function normalize(val, baseline) {
     return clamp(n_raw, 0, 100);
 }
 
-/**
- * ENGINE 1: THE DISCORD GAMIFICATION CALCULATOR
- * Strictly filters for SoloQ (420) and correct assigned roles.
- */
 function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, expectedRole) {
     const validMatches = [];
     const validTimelines = [];
 
-    // 1. STRICT DATA FILTERING
     matchDataArray.forEach((m, idx) => {
         if (!m || !m.info || m.info.gameDuration <= 300) return;
-        
-        // Only evaluate Ranked Solo/Duo games
         if (m.info.queueId !== 420) return;
 
         const me = m.info.participants.find(p => p.puuid === targetPuuid);
@@ -47,7 +41,6 @@ function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, e
         const rawRiotPosition = me.teamPosition || "MIDDLE";
         const mappedRole = RIOT_ROLE_MAP[rawRiotPosition] || "MID"; 
         
-        // Only keep the game if they played their assigned teams.json role!
         if (mappedRole === expectedRole) {
             validMatches.push(m);
             validTimelines.push(timelineDataArray[idx]);
@@ -56,8 +49,8 @@ function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, e
 
     if (validMatches.length === 0) return null;
 
-    let gameScores = { ci: [], ti: [] };
-    const bl = BASELINES[expectedRole] || BASELINES.MID; // Safe to lock here now
+    let gameScores = { ups: [], ci: [], ti: [], vi: [] };
+    const bl = BASELINES[expectedRole] || BASELINES.MID;
 
     validMatches.forEach((match, idx) => {
         const info = match.info;
@@ -65,14 +58,15 @@ function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, e
         const me = info.participants.find(p => p.puuid === targetPuuid);
         const gameMins = info.gameDuration / 60;
 
-        // --- DATA EXTRACTION ---
         const myTeam = info.participants.filter(p => p.teamId === me.teamId);
         const teamKills = myTeam.reduce((sum, p) => sum + p.kills, 0);
+        const teamDeaths = myTeam.reduce((sum, p) => sum + p.deaths, 0);
         const teamDamage = myTeam.reduce((sum, p) => sum + p.totalDamageDealtToChampions, 0);
         const teamGold = myTeam.reduce((sum, p) => sum + p.goldEarned, 0);
 
         const dmgShare = me.totalDamageDealtToChampions / (teamDamage || 1);
         const goldShare = me.goldEarned / (teamGold || 1);
+        const deathShare = me.deaths / (teamDeaths || 1);
         const objDmgShare = me.damageDealtToObjectives / (info.participants.reduce((s, p) => s + p.damageDealtToObjectives, 0) || 1);
 
         let gd15 = 0;
@@ -86,49 +80,56 @@ function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, e
             }
         }
 
-        // --- NORMALIZATION ---
         const n_gd15 = normalize(gd15, bl.gd_15);
         const n_dpg = normalize(me.totalDamageDealtToChampions / (me.goldEarned || 1), bl.dpg);
         const n_obj_dmg = normalize(objDmgShare, bl.obj); 
         const delta_econ = dmgShare - goldShare;
         const n_delta_econ = clamp((delta_econ + 0.05) * 1000, 0, 100); 
 
-        // --- CARRY INDEX (CI) ---
-        let CI;
-        if (expectedRole === "SUP") {
-            CI = (0.50 * n_gd15) + (0.20 * n_delta_econ) + (0.10 * n_dpg) + (0.20 * n_obj_dmg);
-        } else {
-            CI = (0.30 * n_gd15) + (0.35 * n_delta_econ) + (0.20 * n_dpg) + (0.15 * n_obj_dmg);
-        }
+        // 1. CARRY INDEX (CI)
+        let CI = (expectedRole === "SUP") 
+            ? (0.50 * n_gd15) + (0.20 * n_delta_econ) + (0.10 * n_dpg) + (0.20 * n_obj_dmg)
+            : (0.30 * n_gd15) + (0.35 * n_delta_econ) + (0.20 * n_dpg) + (0.15 * n_obj_dmg);
 
-        // --- TACTICIAN INDEX (TI) ---
+        // 2. TACTICIAN INDEX (TI)
         const healShield = (me.totalHealsOnTeammates || 0) + (me.totalDamageShieldedOnTeammates || 0);
         const n_utility = Math.max(normalize(me.timeCCingOthers, bl.cc), normalize(healShield, bl.hsp)); 
-
         const kp_pct = teamKills > 0 ? (me.kills + me.assists) / teamKills : 0;
         const iso_death_pct = me.deaths > 0 ? clamp((me.deaths - (me.assists * 0.5)) / me.deaths, 0, 1) : 0;
         const kp_adj = (kp_pct * 100) - (iso_death_pct * 25); 
 
-        const TI = (0.15 * n_gd15) + 
-                   (0.35 * normalize(me.visionScore / gameMins, bl.vspm)) + 
-                   (0.30 * n_utility) + 
-                   (0.20 * normalize(kp_adj, bl.kp));
+        let TI = (0.15 * n_gd15) + (0.35 * normalize(me.visionScore / gameMins, bl.vspm)) + (0.30 * n_utility) + (0.20 * normalize(kp_adj, bl.kp));
+
+        // 3. VANGUARD INDEX (VI)
+        const dt2d = me.totalDamageTaken / (me.deaths || 1);
+        let VI = (0.35 * normalize(me.damageSelfMitigated, bl.smd)) + (0.35 * normalize(dt2d, bl.dt2d)) + (0.30 * normalize(kp_adj, bl.kp));
+
+        // THE PENALTY: Death Share vs Gold Share
+        let globalPenalty = 1.0;
+        if (deathShare > (goldShare + 0.15)) globalPenalty = 0.85; // Heavy feeder penalty
+        else if (deathShare > (goldShare + 0.05)) globalPenalty = 0.95; // Slight feeder penalty
+
+        let UPS = ((CI + TI + VI) / 3) * globalPenalty;
 
         gameScores.ci.push(CI);
         gameScores.ti.push(TI);
+        gameScores.vi.push(VI);
+        gameScores.ups.push(UPS);
     });
 
-    if (gameScores.ci.length === 0) return null;
+    if (gameScores.ups.length === 0) return null;
 
-    const avgCI = Math.round(gameScores.ci.reduce((a, b) => a + b, 0) / gameScores.ci.length);
-    const avgTI = Math.round(gameScores.ti.reduce((a, b) => a + b, 0) / gameScores.ti.length);
+    const avg = arr => Math.round(arr.reduce((a, b) => a + b, 0) / arr.length);
 
-    return { carryIndex: clamp(avgCI, 0, 100), tacticianIndex: clamp(avgTI, 0, 100) };
+    return { 
+        ups: clamp(avg(gameScores.ups), 0, 100),
+        ci: clamp(avg(gameScores.ci), 0, 100), 
+        ti: clamp(avg(gameScores.ti), 0, 100),
+        vi: clamp(avg(gameScores.vi), 0, 100)
+    };
 }
 
-/**
- * ENGINE 2: THE WEBSITE LEDGER (Scouting Tool)
- */
+// ... calculateWebsiteLedger remains identical ...
 function calculateWebsiteLedger(targetPuuid, matchData, timelineData) {
     const info = matchData.info;
     const me = info.participants.find(p => p.puuid === targetPuuid);
