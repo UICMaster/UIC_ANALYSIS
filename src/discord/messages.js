@@ -47,15 +47,19 @@ async function discordFetch(endpoint, method = 'GET', body = null) {
 async function updateOrPostMessage(channelId, embeds) {
     if (!channelId || embeds.length === 0) return;
 
+    // FIX: Discord has a hard limit of 6000 characters PER MESSAGE.
+    // By chunking to 3 embeds per message (instead of 10), we safely stay around ~4000 characters.
     const embedChunks = [];
-    for (let i = 0; i < embeds.length; i += 10) {
-        embedChunks.push(embeds.slice(i, i + 10));
+    for (let i = 0; i < embeds.length; i += 3) {
+        embedChunks.push(embeds.slice(i, i + 3));
     }
 
-    const messages = await discordFetch(`/channels/${channelId}/messages?limit=10`);
+    // Fetch the bot's previous messages to edit them
+    const messages = await discordFetch(`/channels/${channelId}/messages?limit=20`);
     const botMessages = messages ? messages.filter(m => m.author.bot) : [];
     botMessages.sort((a, b) => a.id.localeCompare(b.id));
 
+    // Update existing messages, or post new ones if we need more space
     for (let i = 0; i < embedChunks.length; i++) {
         const payload = { embeds: embedChunks[i] };
         if (i < botMessages.length) {
@@ -65,6 +69,7 @@ async function updateOrPostMessage(channelId, embeds) {
         }
     }
 
+    // Delete any leftover old messages if the roster shrank
     for (let i = embedChunks.length; i < botMessages.length; i++) {
         await discordFetch(`/channels/${channelId}/messages/${botMessages[i].id}`, 'DELETE');
     }
