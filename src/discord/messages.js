@@ -32,10 +32,14 @@ async function discordFetch(endpoint, method = 'GET', body = null) {
             await new Promise(res => setTimeout(res, errorData.retry_after * 1000));
             return discordFetch(endpoint, method, body);
         }
-        if (!response.ok) return null;
+        if (!response.ok) {
+            const errText = await response.text();
+            console.error(`❌ [Discord API Error] HTTP ${response.status} on ${endpoint}:`, errText);
+            return null;
+        }
         return response.status === 204 ? true : await response.json();
     } catch (error) {
-        console.error(`❌ [Discord API] Error on ${endpoint}:`, error.message);
+        console.error(`❌ [Discord Network Error] on ${endpoint}:`, error.message);
         return null;
     }
 }
@@ -43,7 +47,6 @@ async function discordFetch(endpoint, method = 'GET', body = null) {
 async function updateOrPostMessage(channelId, embeds) {
     if (!channelId || embeds.length === 0) return;
 
-    // Discord allows max 10 embeds per message.
     const embedChunks = [];
     for (let i = 0; i < embeds.length; i += 10) {
         embedChunks.push(embeds.slice(i, i + 10));
@@ -75,12 +78,9 @@ function getRankScore(tier, rank, lp) {
 
 const capitalize = s => s ? s.charAt(0).toUpperCase() + s.slice(1).toLowerCase() : "";
 
-/**
- * Universal Formatter for 3-Column Leaderboards
- */
 async function postRankingsEmbeds(channelId, title, column3Name, data, formatCallback) {
     let embeds = [];
-    const chunkSize = 15; // 15 players per embed keeps it safe from Discord's 1024 character limit per field
+    const chunkSize = 15; 
 
     for (let i = 0; i < data.length; i += chunkSize) {
         const chunk = data.slice(i, i + chunkSize);
@@ -113,7 +113,6 @@ async function postRankingsEmbeds(channelId, title, column3Name, data, formatCal
     await updateOrPostMessage(channelId, embeds);
 }
 
-// 1. LP Leaderboard (All Players)
 async function updateLpLeaderboard(data) {
     if (!CH_LP || data.length === 0) return;
     data.sort((a, b) => getRankScore(b.tier, b.rank, b.lp) - getRankScore(a.tier, a.rank, a.lp));
@@ -134,11 +133,9 @@ async function updateLpLeaderboard(data) {
     console.log(`   ✅ [Discord] Updated LP Leaderboard (Alle Spieler)`);
 }
 
-// 2. Master DNA Leaderboard (UPS - All Players)
 async function updateMasterLeaderboard(data) {
     if (!CH_LEADERBOARD || data.length === 0) return;
     
-    // Sort by Overall UPS
     data.sort((a, b) => b.metrics.ups - a.metrics.ups);
     
     await postRankingsEmbeds(CH_LEADERBOARD, "UIC Power Ranking", "Wertung", data, (p, rank) => {
@@ -146,14 +143,13 @@ async function updateMasterLeaderboard(data) {
         return {
             spieler: `**${rank}.** ${p.gameName}#${p.tagLine}`,
             team: p.team || "-",
-            wertung: `Score: ${ups} (VI: ${vi} | TI: ${ti} | CI: ${ci})`
+            wertung: `Score: **${ups}** (VI: ${vi} | TI: ${ti} | CI: ${ci})`
         };
     });
 
     console.log(`   ✅ [Discord] Updated Master DNA Leaderboard (Alle Spieler)`);
 }
 
-// 3. Team Overview
 async function updateTeamOverview(teamOverviewData) {
     if (!CH_OVERVIEW || teamOverviewData.length === 0) return;
 
@@ -179,7 +175,6 @@ async function updateTeamOverview(teamOverviewData) {
         });
     }
 
-    // Add footer to the last embed in the list
     if (embeds.length > 0) {
         embeds[embeds.length - 1].footer = { text: "Bereitgestellt durch UIC" };
         embeds[embeds.length - 1].timestamp = new Date().toISOString();
