@@ -852,56 +852,6 @@
         "isCaptain": false
       },
       {
-        "gameName": "pt4",
-        "tagLine": "000",
-        "role": "TOP",
-        "puuid": "l85xj8d5nN-7oxDyln8uxq_0XfSNyhN8np7vxnhu7Gzz9OKms-L6cO0NiOpvgmGWDmWXlgIEzW8mcw",
-        "trackStats": true,
-        "discordId": "",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "gameName": "Michiel deRuyter",
-        "tagLine": "NLNLN",
-        "role": "JGL",
-        "puuid": "Efb2o1gNxrzXWdyoybrpYXrV3F845XOIqlIVfxNfl3RnJWVjVM2uJQc384qYFg2m0ooBmIe5AA-J_Q",
-        "trackStats": true,
-        "discordId": "",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "gameName": "Percy Magic",
-        "tagLine": "1234",
-        "role": "MID",
-        "puuid": "gyt-B48vsl11X5zL3q3XIrN-mpkvU-clNZhDGYyEnyaXPpwet67T_7rGz3lNAxac_q-ww2EFewRPrQ",
-        "trackStats": true,
-        "discordId": "",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "gameName": "KC NEXT ADKING",
-        "tagLine": "EUW",
-        "role": "BOT",
-        "puuid": "3IVXXB8zUruYZ3MasFGXuDw40rEt7OPu-sLaGJsQoj71TKS87sIc_7FXvzOHTSebhZfvrwhsH8n9pw",
-        "trackStats": true,
-        "discordId": "",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "gameName": "G2 Labrov",
-        "tagLine": "8085",
-        "role": "SUP",
-        "puuid": "E2kgwAcNW42qen4rrPKcmcllBxzhTUMc07BTcje7lSByJFFrx6Sl1qnlhrmaan8EZRHA7QfJxtV-1g",
-        "trackStats": true,
-        "discordId": "",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
         "gameName": "RD Dragonfly",
         "tagLine": "UIC",
         "role": "SUP",
