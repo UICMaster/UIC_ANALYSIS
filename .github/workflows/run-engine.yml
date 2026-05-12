@@ -56,9 +56,9 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.REPO_B_PAT }}
         with:
-          source_file: 'data/' # This copies the ENTIRE data folder
+          source_file: 'data' # <--- Removed the slash
           destination_repo: 'UICMaster/UIC_ANALYSIS_FRONTEND'
-          destination_folder: '/' # Drops the data folder right into the root of Repo B
+          destination_folder: 'data' # <--- Tell it to put it inside a data folder
           user_email: 'bot@ultrainstinctcrew.com'
           user_name: 'UIC Data Engine'
           commit_message: '🤖 Automated HUD Data Sync from Backend'
