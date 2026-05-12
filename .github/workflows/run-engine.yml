@@ -49,17 +49,16 @@ jobs:
           file_pattern: "data/*.json"
           skip_dirty_check: false 
 
-      # --- THE BRIDGE TO THE FRONTEND REPO (REPO B) ---
-      # Ensure you change 'YourGitHubName/Repo-B-Name' to your actual frontend repository later!
-      # - name: Push Ledger to Frontend Repository (Repo B)
-      #   if: success()
-      #   uses: dmnemec/copy_file_to_another_repo_action@main
-      #   env:
-      #     API_TOKEN_GITHUB: ${{ secrets.REPO_B_PAT }}
-      #   with:
-      #     source_file: 'data/match_database.json'
-      #     destination_repo: 'YourGitHubName/Repo-B-Name'
-      #     destination_folder: 'public/data' 
-      #     user_email: 'bot@ultrainstinctcrew.com'
-      #     user_name: 'UIC Data Engine'
-      #     commit_message: '🤖 Automated Ledger Sync from Backend'
+# --- THE BRIDGE TO THE FRONTEND REPO (REPO B) ---
+      - name: Push Ledger to Frontend Repository (Repo B)
+        if: success()
+        uses: dmnemec/copy_file_to_another_repo_action@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.REPO_B_PAT }}
+        with:
+          source_file: 'data/' # This copies the ENTIRE data folder
+          destination_repo: 'UICMaster/UIC_ANALYSIS_FRONTEND'
+          destination_folder: '/' # Drops the data folder right into the root of Repo B
+          user_email: 'bot@ultrainstinctcrew.com'
+          user_name: 'UIC Data Engine'
+          commit_message: '🤖 Automated HUD Data Sync from Backend'
