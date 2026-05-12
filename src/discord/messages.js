@@ -143,7 +143,7 @@ async function updateMasterLeaderboard(data) {
     
     data.sort((a, b) => b.metrics.ups - a.metrics.ups);
     
-    await postRankingsEmbeds(CH_LEADERBOARD, "UIC Power Ranking", "Wertung", data, (p, rank) => {
+    await postRankingsEmbeds(CH_LEADERBOARD, "UIC Formkurve SoloQ/DuoQ", "Wertung (Letzte 10 Games)", data, (p, rank) => {
         const { ups, vi, ti, ci } = p.metrics;
         return {
             spieler: `**${rank}.** ${p.gameName}#${p.tagLine}`,
