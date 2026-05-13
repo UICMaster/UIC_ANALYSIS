@@ -62,3 +62,14 @@ jobs:
           user_email: 'bot@ultrainstinctcrew.com'
           user_name: 'UIC Data Engine'
           commit_message: '🤖 Automated HUD Data Sync from Backend'
+          
+      - name: 🕵️ Test Secret Mapping
+        env:
+          TEST_KEY: ${{ secrets.RIOT_API_KEY }}
+        run: |
+          if [ -z "$TEST_KEY" ]; then
+            echo "❌ THE SECRET IS EMPTY. GITHUB ACTIONS CANNOT SEE IT."
+            exit 1
+          else
+            echo "✅ THE SECRET EXISTS IN GITHUB ACTIONS!"
+          fi
