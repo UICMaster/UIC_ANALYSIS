@@ -3,6 +3,11 @@
  * Handles Riot API requests with an invincible Global Batch Queue.
  */
 
+// Inside src/api/riot.js
+console.log("🔍 KEY HEALTH CHECK IN NODE.JS:");
+console.log(`1. Exact Length: ${API_KEY.length}`);
+console.log(`2. Starts with 'RGAPI': ${API_KEY.startsWith('RGAPI')}`);
+
 const API_KEY = process.env.RIOT_API_KEY ? process.env.RIOT_API_KEY.trim() : null;
 const REGION_BASE = 'https://europe.api.riotgames.com'; 
 const EUW_BASE = 'https://euw1.api.riotgames.com';      
