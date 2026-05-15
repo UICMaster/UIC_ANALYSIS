@@ -42,7 +42,7 @@ jobs:
           DISCORD_CH_OVERVIEW: ${{ secrets.DISCORD_CH_OVERVIEW }}
         run: node src/index.js
 
-      - name: Save Data to Backend Repository
+      - name: Update Source
         if: success() 
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -50,14 +50,13 @@ jobs:
           file_pattern: "data/*.json"
           skip_dirty_check: false 
 
-# --- THE BRIDGE TO THE FRONTEND REPO (REPO B) ---
-      - name: Push Ledger to Frontend Repository (Repo B)
+      - name: Export Job Analyse Frontend
         if: success()
         uses: dmnemec/copy_file_to_another_repo_action@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.REPO_B_PAT }}
         with:
-          source_file: 'data' # <--- Removed the slash
+          source_file: 'data'
           destination_repo: 'UICMaster/UIC_ANALYSIS_FRONTEND'
           destination_folder: '/' 
           user_email: 'bot@ultrainstinctcrew.com'
