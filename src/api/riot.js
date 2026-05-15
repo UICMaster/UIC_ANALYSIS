@@ -16,10 +16,12 @@ const RATE_LIMIT_DELAY_MS = 100;
 let requestQueue = Promise.resolve(); 
 
 // 2. THE BULLETPROOF NETWORK PACKET BUILDER
-// This completely ignores Node.js native fetch bugs and forces the header through.
 function bulletproofFetch(url) {
     return new Promise((resolve, reject) => {
-        const req = https.get(url, {
+        // Strip out any hidden whitespace in the compiled URL just in case
+        const cleanUrl = url.trim(); 
+        
+        const req = https.get(cleanUrl, {
             headers: {
                 'X-Riot-Token': API_KEY,
                 'User-Agent': 'UIC-Analytics-Engine/1.0'
@@ -32,7 +34,6 @@ function bulletproofFetch(url) {
                     status: res.statusCode,
                     ok: res.statusCode >= 200 && res.statusCode < 300,
                     headers: {
-                        // Mimics the fetch API so our 429 logic still works
                         get: (name) => res.headers[name.toLowerCase()]
                     },
                     json: async () => JSON.parse(data),
@@ -49,7 +50,6 @@ async function executeFetch(url) {
     if (!API_KEY) throw new Error("RIOT_API_KEY is missing entirely!");
     
     try {
-        // Look ma, no fetch()! We use our low-level bypass.
         const response = await bulletproofFetch(url);
         
         if (response.status === 429) {
@@ -81,6 +81,7 @@ function riotFetch(url) {
     });
 }
 
+// 3. THE WHITESPACE ASSASSIN: .trim() added to every variable
 async function getPUUID(gameName, tagLine) {
     const safeName = encodeURIComponent(gameName.trim());
     const safeTag = encodeURIComponent(tagLine.trim());
@@ -89,11 +90,11 @@ async function getPUUID(gameName, tagLine) {
 }
 
 async function getAccountByPUUID(puuid) {
-    return await riotFetch(`${REGION_BASE}/riot/account/v1/accounts/by-puuid/${puuid}`);
+    return await riotFetch(`${REGION_BASE}/riot/account/v1/accounts/by-puuid/${puuid.trim()}`);
 }
 
 async function getRankedData(puuid) {
-    const leagueData = await riotFetch(`${EUW_BASE}/lol/league/v4/entries/by-puuid/${puuid}`);
+    const leagueData = await riotFetch(`${EUW_BASE}/lol/league/v4/entries/by-puuid/${puuid.trim()}`);
     if (!leagueData) return null;
 
     const soloQ = leagueData.find(queue => queue.queueType === "RANKED_SOLO_5x5");
@@ -101,15 +102,15 @@ async function getRankedData(puuid) {
 }
 
 async function getRecentMatches(puuid, count = 10) {
-    return await riotFetch(`${REGION_BASE}/lol/match/v5/matches/by-puuid/${puuid}/ids?start=0&count=${count}`);
+    return await riotFetch(`${REGION_BASE}/lol/match/v5/matches/by-puuid/${puuid.trim()}/ids?start=0&count=${count}`);
 }
 
 async function getMatchData(matchId) {
-    return await riotFetch(`${REGION_BASE}/lol/match/v5/matches/${matchId}`);
+    return await riotFetch(`${REGION_BASE}/lol/match/v5/matches/${matchId.trim()}`);
 }
 
 async function getMatchTimeline(matchId) {
-    return await riotFetch(`${REGION_BASE}/lol/match/v5/matches/${matchId}/timeline`);
+    return await riotFetch(`${REGION_BASE}/lol/match/v5/matches/${matchId.trim()}/timeline`);
 }
 
 module.exports = { getPUUID, getAccountByPUUID, getRankedData, getRecentMatches, getMatchData, getMatchTimeline };
