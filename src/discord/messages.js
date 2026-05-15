@@ -47,19 +47,15 @@ async function discordFetch(endpoint, method = 'GET', body = null) {
 async function updateOrPostMessage(channelId, embeds) {
     if (!channelId || embeds.length === 0) return;
 
-    // FIX: Discord has a hard limit of 6000 characters PER MESSAGE.
-    // By chunking to 3 embeds per message (instead of 10), we safely stay around ~4000 characters.
     const embedChunks = [];
     for (let i = 0; i < embeds.length; i += 3) {
         embedChunks.push(embeds.slice(i, i + 3));
     }
 
-    // Fetch the bot's previous messages to edit them
     const messages = await discordFetch(`/channels/${channelId}/messages?limit=20`);
-    const botMessages = messages ? messages.filter(m => m.author.bot) : [];
+    const botMessages = (messages || []).filter(m => m.author.bot);
     botMessages.sort((a, b) => a.id.localeCompare(b.id));
 
-    // Update existing messages, or post new ones if we need more space
     for (let i = 0; i < embedChunks.length; i++) {
         const payload = { embeds: embedChunks[i] };
         if (i < botMessages.length) {
@@ -69,7 +65,6 @@ async function updateOrPostMessage(channelId, embeds) {
         }
     }
 
-    // Delete any leftover old messages if the roster shrank
     for (let i = embedChunks.length; i < botMessages.length; i++) {
         await discordFetch(`/channels/${channelId}/messages/${botMessages[i].id}`, 'DELETE');
     }
@@ -143,16 +138,17 @@ async function updateMasterLeaderboard(data) {
     
     data.sort((a, b) => b.metrics.ups - a.metrics.ups);
     
-    await postRankingsEmbeds(CH_LEADERBOARD, "UIC Formkurve SoloQ/DuoQ", "Wertung (Letzte 10 Games)", data, (p, rank) => {
-        const { ups, vi, ti, ci } = p.metrics;
+    // Updated Title & Clean Single-Score Output
+    await postRankingsEmbeds(CH_LEADERBOARD, "UIC Formkurve (Letzte 10 SoloQ)", "Wertung", data, (p, rank) => {
+        const { ups } = p.metrics;
         return {
             spieler: `**${rank}.** ${p.gameName}#${p.tagLine}`,
             team: p.team || "-",
-            wertung: `Score: **${ups}** (VI: ${vi} | TI: ${ti} | CI: ${ci})`
+            wertung: `Score: **${ups}**`
         };
     });
 
-    console.log(`   ✅ [Discord] Updated Master DNA Leaderboard (Alle Spieler)`);
+    console.log(`   ✅ [Discord] Updated Master DNA Leaderboard (Single Score)`);
 }
 
 async function updateTeamOverview(teamOverviewData) {
