@@ -2,8 +2,9 @@
  * src/api/riot.js
  * Handles Riot API requests with an invincible Global Batch Queue.
  */
+const https = require('https'); // <-- THE NUCLEAR BYPASS
 
-// 1. AGGRESSIVE SANITIZER: Destroys any hidden characters from GitHub Actions
+// 1. AGGRESSIVE SANITIZER
 let rawKey = process.env.RIOT_API_KEY || "";
 const API_KEY = rawKey.replace(/['"`\s\r\n]/g, ''); 
 
@@ -11,26 +12,48 @@ const REGION_BASE = 'https://europe.api.riotgames.com';
 const EUW_BASE = 'https://euw1.api.riotgames.com';      
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-
-// 2. HIGH-PERFORMANCE PACER: Lowered to 100ms for your Production Key
 const RATE_LIMIT_DELAY_MS = 100; 
 let requestQueue = Promise.resolve(); 
+
+// 2. THE BULLETPROOF NETWORK PACKET BUILDER
+// This completely ignores Node.js native fetch bugs and forces the header through.
+function bulletproofFetch(url) {
+    return new Promise((resolve, reject) => {
+        const req = https.get(url, {
+            headers: {
+                'X-Riot-Token': API_KEY,
+                'User-Agent': 'UIC-Analytics-Engine/1.0'
+            }
+        }, (res) => {
+            let data = '';
+            res.on('data', chunk => data += chunk);
+            res.on('end', () => {
+                resolve({
+                    status: res.statusCode,
+                    ok: res.statusCode >= 200 && res.statusCode < 300,
+                    headers: {
+                        // Mimics the fetch API so our 429 logic still works
+                        get: (name) => res.headers[name.toLowerCase()]
+                    },
+                    json: async () => JSON.parse(data),
+                    text: async () => data
+                });
+            });
+        });
+        
+        req.on('error', reject);
+    });
+}
 
 async function executeFetch(url) {
     if (!API_KEY) throw new Error("RIOT_API_KEY is missing entirely!");
     
-    // 3. THE FIREWALL BYPASS: Inject the key directly into the URL
-    const fetchUrl = url.includes('?') 
-        ? `${url}&api_key=${API_KEY}` 
-        : `${url}?api_key=${API_KEY}`;
-    
     try {
-        // No headers! We bypass the Node.js native fetch header drop bug.
-        const response = await fetch(fetchUrl);
+        // Look ma, no fetch()! We use our low-level bypass.
+        const response = await bulletproofFetch(url);
         
-        // 4. THE INTELLIGENT BRAIN: Still reacts to Riot's 429 commands
         if (response.status === 429) {
-            const retryAfter = response.headers.get('Retry-After') || 5;
+            const retryAfter = response.headers.get('retry-after') || 5;
             console.warn(`⚠️ [Riot] Emergency Rate Limit Hit! Sleeping for ${retryAfter}s...`);
             await delay(retryAfter * 1000);
             return executeFetch(url); 
@@ -38,13 +61,12 @@ async function executeFetch(url) {
         
         if (!response.ok) {
             const errorBody = await response.text(); 
-            throw new Error(`Riot API Error ${response.status}: ${response.statusText} | Riot Says: ${errorBody}`);
+            throw new Error(`Riot API Error ${response.status} | Riot Says: ${errorBody}`);
         }
         
         return await response.json();
     } catch (error) {
-        // Clean up the error log so it doesn't print your API key to the GitHub logs
-        console.error(`❌ [Riot API] Request failed for ${url.split('?')[0]} ->`, error.message);
+        console.error(`❌ [Riot API] Request failed for ${url} ->`, error.message);
         return null;
     }
 }
