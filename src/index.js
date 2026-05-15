@@ -94,8 +94,8 @@ async function runEngine() {
                     if (player.role !== "MNG" && player.role !== "COH") currentTeamData.activeRanks.push(rankData);
                 }
 
-                // 3. Match Processing
-                const matchIds = await riotApi.getRecentMatches(player.puuid, 10);
+                // 3. Match Processing (Fetch 20 to guarantee we find 10 SoloQ games)
+                const matchIds = await riotApi.getRecentMatches(player.puuid, 20);
                 if (!matchIds || matchIds.length === 0) {
                     currentTeamData.roster.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus });
                     continue;
@@ -133,11 +133,12 @@ async function runEngine() {
                             let isVerifiedPrime = false;
 
                             if (activeScout) {
+                                // Match Riot Name strictly by splitting off #TagLine to match Prime API predictions
                                 const matchNames = matchData.info.participants.map(p => 
-                                    (p.riotIdGameName || p.summonerName || "").toLowerCase().replace(/\s+/g, '')
+                                    (p.riotIdGameName || p.summonerName || "").split('#')[0].toLowerCase().replace(/\s+/g, '')
                                 );
                                 const expectedEnemies = activeScout.enemyStarters.map(name => 
-                                    name.toLowerCase().replace(/\s+/g, '')
+                                    name.split('#')[0].toLowerCase().replace(/\s+/g, '')
                                 );
                                 const matchedEnemies = expectedEnemies.filter(enemy => matchNames.includes(enemy));
 
