@@ -63,22 +63,24 @@ async function syncPlayerRank(player, tier) {
         const hasCorrectRole = currentRoles.includes(targetRoleId);
         const otherRankRoles = currentRoles.filter(r => ALL_RANK_ROLE_IDS.includes(r) && r !== targetRoleId);
 
-        // Optimization: Do nothing if already correct
+        // If user has the right role and no old rank roles, we are done.
         if (hasCorrectRole && otherRankRoles.length === 0) return;
 
+        // 1. Assign new role
         if (!hasCorrectRole) {
             await discordRequest(`/guilds/${GUILD_ID}/members/${player.discordId}/roles/${targetRoleId}`, 'PUT');
             console.log(`   🎭 [Discord] Assigned ${targetTier} to ${player.gameName}`);
-            await sleep(200); 
+            await sleep(250); 
         }
 
+        // 2. Strip all other old rank roles
         for (const oldRole of otherRankRoles) {
             await discordRequest(`/guilds/${GUILD_ID}/members/${player.discordId}/roles/${oldRole}`, 'DELETE');
             console.log(`   🧹 [Discord] Cleaned old rank role from ${player.gameName}`);
-            await sleep(200);
+            await sleep(250);
         }
     } catch (e) {
-        // Silently fail if user left the server
+        // Silently catch ghost members who left the server
     }
 }
 
