@@ -2,71 +2,48 @@
  * src/api/riot.js
  * Handles Riot API requests with an invincible Global Batch Queue.
  */
-const https = require('https'); // <-- THE NUCLEAR BYPASS
 
-// 1. AGGRESSIVE SANITIZER
-let rawKey = process.env.RIOT_API_KEY || "";
+// 1. AGGRESSIVE SANITIZER: Destroys hidden characters from GitHub Secrets
+const rawKey = process.env.RIOT_API_KEY || "";
 const API_KEY = rawKey.replace(/['"`\s\r\n]/g, ''); 
 
 const REGION_BASE = 'https://europe.api.riotgames.com'; 
 const EUW_BASE = 'https://euw1.api.riotgames.com';      
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+// 2. HIGH-PERFORMANCE PACER: Optimized for your Production Key (20k/10s limit)
 const RATE_LIMIT_DELAY_MS = 100; 
 let requestQueue = Promise.resolve(); 
 
-// 2. THE BULLETPROOF NETWORK PACKET BUILDER
-function bulletproofFetch(url) {
-    return new Promise((resolve, reject) => {
-        // Strip out any hidden whitespace in the compiled URL just in case
-        const cleanUrl = url.trim(); 
-        
-        const req = https.get(cleanUrl, {
-            headers: {
-                'X-Riot-Token': API_KEY,
-                'User-Agent': 'UIC-Analytics-Engine/1.0'
-            }
-        }, (res) => {
-            let data = '';
-            res.on('data', chunk => data += chunk);
-            res.on('end', () => {
-                resolve({
-                    status: res.statusCode,
-                    ok: res.statusCode >= 200 && res.statusCode < 300,
-                    headers: {
-                        get: (name) => res.headers[name.toLowerCase()]
-                    },
-                    json: async () => JSON.parse(data),
-                    text: async () => data
-                });
-            });
-        });
-        
-        req.on('error', reject);
-    });
-}
-
 async function executeFetch(url) {
-    if (!API_KEY) throw new Error("RIOT_API_KEY is missing entirely!");
+    if (!API_KEY) throw new Error("RIOT_API_KEY is missing!");
     
     try {
-        const response = await bulletproofFetch(url);
+        // 3. THE CLOUDFLARE DISGUISE: Standard User-Agent prevents header stripping
+        const response = await fetch(url.trim(), { 
+            headers: { 
+                'X-Riot-Token': API_KEY,
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+            } 
+        });
         
+        // Intelligent Rate Limit Recovery
         if (response.status === 429) {
-            const retryAfter = response.headers.get('retry-after') || 5;
+            const retryAfter = response.headers.get('Retry-After') || 5;
             console.warn(`⚠️ [Riot] Emergency Rate Limit Hit! Sleeping for ${retryAfter}s...`);
             await delay(retryAfter * 1000);
-            return executeFetch(url); 
+            return executeFetch(url);
         }
         
         if (!response.ok) {
-            const errorBody = await response.text(); 
-            throw new Error(`Riot API Error ${response.status} | Riot Says: ${errorBody}`);
+            const errorBody = await response.text();
+            throw new Error(`Riot API Error ${response.status}: ${response.statusText} | Body: ${errorBody}`);
         }
         
         return await response.json();
     } catch (error) {
-        console.error(`❌ [Riot API] Request failed for ${url} ->`, error.message);
+        console.error(`❌ [Riot API] Request failed for ${url.split('?')[0]} ->`, error.message);
         return null;
     }
 }
@@ -81,7 +58,7 @@ function riotFetch(url) {
     });
 }
 
-// 3. THE WHITESPACE ASSASSIN: .trim() added to every variable
+// 4. THE WHITESPACE ASSASSINS: .trim() ensures PUUIDs never trigger "Exception decrypting"
 async function getPUUID(gameName, tagLine) {
     const safeName = encodeURIComponent(gameName.trim());
     const safeTag = encodeURIComponent(tagLine.trim());
@@ -90,10 +67,12 @@ async function getPUUID(gameName, tagLine) {
 }
 
 async function getAccountByPUUID(puuid) {
+    if (!puuid) return null;
     return await riotFetch(`${REGION_BASE}/riot/account/v1/accounts/by-puuid/${puuid.trim()}`);
 }
 
 async function getRankedData(puuid) {
+    if (!puuid) return null;
     const leagueData = await riotFetch(`${EUW_BASE}/lol/league/v4/entries/by-puuid/${puuid.trim()}`);
     if (!leagueData) return null;
 
@@ -102,14 +81,17 @@ async function getRankedData(puuid) {
 }
 
 async function getRecentMatches(puuid, count = 10) {
+    if (!puuid) return [];
     return await riotFetch(`${REGION_BASE}/lol/match/v5/matches/by-puuid/${puuid.trim()}/ids?start=0&count=${count}`);
 }
 
 async function getMatchData(matchId) {
+    if (!matchId) return null;
     return await riotFetch(`${REGION_BASE}/lol/match/v5/matches/${matchId.trim()}`);
 }
 
 async function getMatchTimeline(matchId) {
+    if (!matchId) return null;
     return await riotFetch(`${REGION_BASE}/lol/match/v5/matches/${matchId.trim()}/timeline`);
 }
 
