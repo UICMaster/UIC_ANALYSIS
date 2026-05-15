@@ -1,6 +1,7 @@
 /**
  * src/core/analytics.js
  * Professionelle Esports-Analytics Engine mit Z-Score Normalisierung.
+ * UPS 2.0 Math: Sigmoid Economy, Laplace Smoothing, Team-Relative Tactics.
  * Baselines: Master+ Niveau
  */
 
@@ -9,7 +10,6 @@ const RIOT_ROLE_MAP = {
     "JGL": "JGL", "MID": "MID", "BOT": "BOT", "SUP": "SUP"
 };
 
-// Added 'dtp' (Damage Taken Percentage) for the purified Vanguard Index
 const BASELINES = {
     TOP: { gd_15: { m: 0, s: 1500 }, dpg: { m: 1.2, s: 0.35 }, vspm: { m: 1.4, s: 0.5 }, cc: { m: 18, s: 12 }, kp: { m: 48, s: 10 }, obj: { m: 0.15, s: 0.08 }, hsp: { m: 1000, s: 1500 }, smd: { m: 25000, s: 10000 }, dt2d: { m: 4000, s: 1500 }, dtp: { m: 0.28, s: 0.05 } },
     JGL: { gd_15: { m: 0, s: 1200 }, dpg: { m: 0.9, s: 0.25 }, vspm: { m: 2.2, s: 0.7 }, cc: { m: 28, s: 18 }, kp: { m: 65, s: 12 }, obj: { m: 0.45, s: 0.15 }, hsp: { m: 1500, s: 2000 }, smd: { m: 20000, s: 8000 }, dt2d: { m: 3500, s: 1200 }, dtp: { m: 0.25, s: 0.05 } },
@@ -27,13 +27,16 @@ function normalize(val, baseline) {
     return clamp(n_raw, 0, 100);
 }
 
+// ==========================================
+// DISCORD ENGINE: UPS 2.0 (ADVANCED MATH)
+// ==========================================
 function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, expectedRole) {
     const validMatches = [];
     const validTimelines = [];
 
     matchDataArray.forEach((m, idx) => {
         if (!m || !m.info || m.info.gameDuration <= 300) return;
-        if (m.info.queueId !== 420) return;
+        if (m.info.queueId !== 420) return; // Strict SoloQ restriction
 
         const me = m.info.participants.find(p => p.puuid === targetPuuid);
         if (!me) return;
@@ -42,8 +45,11 @@ function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, e
         const mappedRole = RIOT_ROLE_MAP[rawRiotPosition] || "MID"; 
         
         if (mappedRole === expectedRole) {
-            validMatches.push(m);
-            validTimelines.push(timelineDataArray[idx]);
+            // Guarantee maximum of 10 tracked games
+            if (validMatches.length < 10) {
+                validMatches.push(m);
+                validTimelines.push(timelineDataArray[idx]);
+            }
         }
     });
 
@@ -82,33 +88,43 @@ function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, e
             }
         }
 
+        // --- 1. IMPACT INDEX (Sword/CI) ---
         const n_gd15 = normalize(gd15, bl.gd_15);
         const n_dpg = normalize(me.totalDamageDealtToChampions / (me.goldEarned || 1), bl.dpg);
         const n_obj_dmg = normalize(objDmgShare, bl.obj); 
+        
+        // UPS 2.0 Math: Sigmoid Smoothing for Economy
         const delta_econ = dmgShare - goldShare;
-        const n_delta_econ = clamp((delta_econ + 0.05) * 1000, 0, 100); 
+        const n_delta_econ = 100 / (1 + Math.exp(-40 * delta_econ)); 
 
-        // 1. CARRY INDEX (CI) - The Sword
         let CI = (0.30 * n_gd15) + (0.35 * n_delta_econ) + (0.20 * n_dpg) + (0.15 * n_obj_dmg);
 
-        // 2. TACTICIAN INDEX (TI) - The Brain
+        // --- 2. TACTICAL INDEX (Brain/TI) ---
         const healShield = (me.totalHealsOnTeammates || 0) + (me.totalDamageShieldedOnTeammates || 0);
         const primaryUtility = Math.max(normalize(me.timeCCingOthers, bl.cc), normalize(healShield, bl.hsp));
         const secondaryUtility = Math.min(normalize(me.timeCCingOthers, bl.cc), normalize(healShield, bl.hsp));
         const blendedUtility = (0.6 * primaryUtility) + (0.4 * secondaryUtility);
 
         const kp_pct = teamKills > 0 ? (me.kills + me.assists) / teamKills : 0;
-        const iso_death_pct = me.deaths > 0 ? clamp((me.deaths - (me.assists * 0.5)) / me.deaths, 0, 1) : 0;
-        const kp_adj = (kp_pct * 100) - (iso_death_pct * 25); 
+        const n_kp = normalize(kp_pct * 100, bl.kp);
+        
+        // UPS 2.0 Math: Team-Relative Positioning Efficiency
+        const positioning_score = clamp(1 - (me.deaths / (teamDeaths + 1)), 0, 1) * 100;
 
-        let TI = (0.40 * normalize(me.visionScore / gameMins, bl.vspm)) + (0.35 * blendedUtility) + (0.25 * normalize(kp_adj, bl.kp));
+        let TI = (0.35 * normalize(me.visionScore / gameMins, bl.vspm)) + 
+                 (0.30 * blendedUtility) + 
+                 (0.20 * n_kp) + 
+                 (0.15 * positioning_score);
 
-        // 3. VANGUARD INDEX (VI) - The Shield
-        const perfectMultiplier = me.deaths === 0 ? 1.5 : 1.0;
-        const dt2d = (me.totalDamageTaken * perfectMultiplier) / (me.deaths || 1);
-        let VI = (0.35 * normalize(me.damageSelfMitigated, bl.smd)) + (0.35 * normalize(dt2d, bl.dt2d)) + (0.30 * normalize(dmgTakenShare, bl.dtp));
+        // --- 3. FORTITUDE INDEX (Shield/VI) ---
+        // UPS 2.0 Math: Laplace Smoothed Denominator
+        const dt2d_adj = me.totalDamageTaken / (me.deaths + 1); 
 
-        // ROLE-SPECIFIC UPS WEIGHTING
+        let VI = (0.35 * normalize(me.damageSelfMitigated, bl.smd)) + 
+                 (0.35 * normalize(dt2d_adj, bl.dt2d)) + 
+                 (0.30 * normalize(dmgTakenShare, bl.dtp));
+
+        // --- ROLE-SPECIFIC AGGREGATION ---
         let UPS_Raw = 0;
         if (expectedRole === "TOP") {
             UPS_Raw = (0.35 * CI) + (0.25 * TI) + (0.40 * VI);
@@ -119,10 +135,10 @@ function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, e
         } else if (expectedRole === "SUP") {
             UPS_Raw = (0.15 * CI) + (0.60 * TI) + (0.25 * VI);
         } else if (expectedRole === "BOT") {
-            UPS_Raw = (0.65 * CI) + (0.35 * TI) + (0.00 * VI); // ADCs are immune to Vanguard metrics
+            UPS_Raw = (0.60 * CI) + (0.35 * TI) + (0.05 * VI); 
         }
 
-        // GLOBAL PENALTY (Supports Exempt)
+        // GLOBAL PENALTY
         let globalPenalty = 1.0;
         if (expectedRole !== "SUP") {
             if (deathShare > (goldShare + 0.15)) globalPenalty = 0.85; 
@@ -149,6 +165,9 @@ function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, e
     };
 }
 
+// ==========================================
+// WEBSITE ENGINE: RAW STATS DATABASE
+// ==========================================
 function calculateWebsiteLedger(targetPuuid, matchData, timelineData) {
     const info = matchData.info;
     const me = info.participants.find(p => p.puuid === targetPuuid);
@@ -157,6 +176,12 @@ function calculateWebsiteLedger(targetPuuid, matchData, timelineData) {
     const rawRiotPosition = me.teamPosition || "MIDDLE";
     const mappedRole = RIOT_ROLE_MAP[rawRiotPosition] || "MID"; 
     const enemy = info.participants.find(p => p.teamId !== me.teamId && p.teamPosition === me.teamPosition);
+
+    const myTeam = info.participants.filter(p => p.teamId === me.teamId);
+    const teamDamage = myTeam.reduce((sum, p) => sum + p.totalDamageDealtToChampions, 0);
+    const teamGold = myTeam.reduce((sum, p) => sum + p.goldEarned, 0);
+    const teamDamageTaken = myTeam.reduce((sum, p) => sum + p.totalDamageTaken, 0);
+    const teamKills = myTeam.reduce((sum, p) => sum + p.kills, 0);
 
     let gd15 = 0;
     if (timelineData && timelineData.info && timelineData.info.frames && timelineData.info.frames.length > 15) {
@@ -168,15 +193,24 @@ function calculateWebsiteLedger(targetPuuid, matchData, timelineData) {
         }
     }
 
+    // Returns purely factual, unmodified raw stats for your website interface
     return {
         matchId: matchData.metadata.matchId,
         gameCreation: info.gameCreation,
         champion: me.championName,
         role: mappedRole,
         win: me.win,
-        kda: `${me.kills}/${me.deaths}/${me.assists}`,
+        kills: me.kills,
+        deaths: me.deaths,
+        assists: me.assists,
+        kp: teamKills > 0 ? parseFloat((((me.kills + me.assists) / teamKills) * 100).toFixed(1)) : 0,
         gd15: gd15,
-        dmgShare: parseFloat(((me.totalDamageDealtToChampions / (info.participants.filter(p => p.teamId === me.teamId).reduce((s, p) => s + p.totalDamageDealtToChampions, 0) || 1)) * 100).toFixed(1)),
+        dmgShare: parseFloat(((me.totalDamageDealtToChampions / (teamDamage || 1)) * 100).toFixed(1)),
+        goldShare: parseFloat(((me.goldEarned / (teamGold || 1)) * 100).toFixed(1)),
+        dmgTakenShare: parseFloat(((me.totalDamageTaken / (teamDamageTaken || 1)) * 100).toFixed(1)),
+        vspm: parseFloat((me.visionScore / (info.gameDuration / 60)).toFixed(2)),
+        dpm: parseFloat((me.totalDamageDealtToChampions / (info.gameDuration / 60)).toFixed(1)),
+        smd: me.damageSelfMitigated,
         enemyName: enemy ? (enemy.riotIdGameName || enemy.summonerName) : "Unknown"
     };
 }
