@@ -1,6 +1,7 @@
 /**
  * src/discord/role-sync.js
  * Synchronizes Discord Roles based on Riot Games Ranked Tiers.
+ * Respects the Golden teams.json structure.
  */
 const fs = require('fs');
 
@@ -13,8 +14,7 @@ if (!DISCORD_TOKEN || !GUILD_ID) {
     process.exit(1);
 }
 
-// ⚠️ REPLACE THESE WITH YOUR ACTUAL DISCORD ROLE IDs (Right-click role -> Copy ID)
-// MUST BE STRINGS!
+// ⚠️ YOUR ACTUAL DISCORD ROLE IDs
 const RANK_ROLES = {
     "CHALLENGER": "1358901521990942771",
     "GRANDMASTER": "1358901520887713883",
@@ -29,33 +29,28 @@ const RANK_ROLES = {
     "UNRANKED": "1504828753459675166" 
 };
 
-// We need a list of ALL rank roles so we can strip the old ones.
 const ALL_RANK_ROLE_IDS = Object.values(RANK_ROLES);
-
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 // --- 2. BULLETPROOF DISCORD API WRAPPER ---
-async function discordFetch(endpoint, method = 'GET', body = null) {
+async function discordRequest(endpoint, method = 'GET', body = null) {
     const url = `https://discord.com/api/v10${endpoint}`;
-    const options = {
+    const res = await fetch(url, {
         method,
         headers: {
             'Authorization': `Bot ${DISCORD_TOKEN}`,
             'Content-Type': 'application/json',
             'User-Agent': 'UIC-Analytics-Bot (https://github.com/uic, 1.0.0)'
-        }
-    };
-    if (body) options.body = JSON.stringify(body);
+        },
+        body: body ? JSON.stringify(body) : null
+    });
 
-    const res = await fetch(url, options);
-
-    // Handle Discord Rate Limits (429)
     if (res.status === 429) {
         const data = await res.json();
-        const delay = (data.retry_after * 1000) + 100; // Add 100ms safety buffer
+        const delay = (data.retry_after * 1000) + 100;
         console.warn(`⚠️ [Discord] Rate limited. Sleeping for ${delay}ms...`);
         await sleep(delay);
-        return discordFetch(endpoint, method, body);
+        return discordRequest(endpoint, method, body);
     }
 
     if (!res.ok) {
@@ -63,90 +58,93 @@ async function discordFetch(endpoint, method = 'GET', body = null) {
         if (res.status === 403) throw new Error("403_FORBIDDEN_HIERARCHY");
         throw new Error(`Discord API Error ${res.status}: ${res.statusText}`);
     }
-
-    // DELETE and PUT requests to Discord usually return 204 No Content (empty body)
     return res.status === 204 ? true : await res.json();
 }
 
 // --- 3. THE CORE SYNC LOGIC ---
-async function syncPlayerRole(discordId, riotTier, gameName) {
-    if (!discordId || discordId === "") return;
-
-    // Default to Unranked if Riot API returned null/undefined
-    const targetTier = riotTier ? riotTier.toUpperCase() : "UNRANKED";
-    const targetRoleId = RANK_ROLES[targetTier];
-
-    if (!targetRoleId) {
-        console.warn(`⚠️ [Skip] ${gameName}: Unknown Tier '${targetTier}'`);
-        return;
-    }
+async function syncUser(player, currentTier) {
+    const discordId = player.discordId;
+    const targetRoleId = RANK_ROLES[currentTier?.toUpperCase()] || RANK_ROLES["UNRANKED"];
 
     try {
         // Step 1: Get user's current roles
-        const memberData = await discordFetch(`/guilds/${GUILD_ID}/members/${discordId}`);
-        const currentRoles = memberData.roles;
+        const member = await discordRequest(`/guilds/${GUILD_ID}/members/${discordId}`);
+        const currentRoles = member.roles || [];
 
         // Step 2: Calculate the Diff
-        const hasTargetRole = currentRoles.includes(targetRoleId);
-        const wrongRankRoles = currentRoles.filter(id => ALL_RANK_ROLE_IDS.includes(id) && id !== targetRoleId);
+        const hasCorrectRole = currentRoles.includes(targetRoleId);
+        const otherRankRoles = currentRoles.filter(r => ALL_RANK_ROLE_IDS.includes(r) && r !== targetRoleId);
 
-        if (hasTargetRole && wrongRankRoles.length === 0) {
-            console.log(`✅ [OK] ${gameName} is already synced to ${targetTier}.`);
+        if (hasCorrectRole && otherRankRoles.length === 0) {
+            console.log(`✅ [OK] ${player.gameName || 'User'} is already synced to ${currentTier || 'UNRANKED'}.`);
             return;
         }
 
         // Step 3: Add the correct role
-        if (!hasTargetRole) {
-            await discordFetch(`/guilds/${GUILD_ID}/members/${discordId}/roles/${targetRoleId}`, 'PUT');
-            console.log(`🆙 [Updated] ${gameName}: Granted ${targetTier} role.`);
-            await sleep(500); // 500ms safety pacer
+        if (!hasCorrectRole) {
+            // Uncomment the line below to perform the actual assignment
+            await discordRequest(`/guilds/${GUILD_ID}/members/${discordId}/roles/${targetRoleId}`, 'PUT');
+            console.log(`🆙 [Updated] ${player.gameName || 'User'}: Granted ${currentTier || 'UNRANKED'} role.`);
+            await sleep(500);
         }
 
         // Step 4: Strip the incorrect/old roles
-        for (const badRoleId of wrongRankRoles) {
-            await discordFetch(`/guilds/${GUILD_ID}/members/${discordId}/roles/${badRoleId}`, 'DELETE');
-            console.log(`🧹 [Cleaned] ${gameName}: Removed outdated rank role.`);
-            await sleep(500); // 500ms safety pacer
+        for (const oldRole of otherRankRoles) {
+            // Uncomment the line below to perform the actual removal
+            await discordRequest(`/guilds/${GUILD_ID}/members/${discordId}/roles/${oldRole}`, 'DELETE');
+            console.log(`🧹 [Cleaned] ${player.gameName || 'User'}: Removed outdated rank role.`);
+            await sleep(500);
         }
-
     } catch (e) {
         if (e.message === "404_UNKNOWN_MEMBER") {
-            console.log(`👻 [Ghost] ${gameName} (ID: ${discordId}) is not in the Discord server.`);
+            console.log(`👻 [Ghost] ${player.gameName || 'User'} (ID: ${discordId}) is not in the Discord server.`);
         } else if (e.message === "403_FORBIDDEN_HIERARCHY") {
-            console.error(`🚨 [Permission Error] Cannot assign role to ${gameName}. Move the Bot's role HIGHER in Server Settings!`);
+            console.error(`🚨 [Permission Error] Cannot assign role to ${player.gameName || 'User'}. Move the Bot's role HIGHER in Server Settings!`);
         } else {
-            console.error(`❌ [Error] Failed to sync ${gameName}:`, e.message);
+            console.error(`❌ [Error] Failed to sync ${player.gameName || 'User'}:`, e.message);
         }
     }
 }
 
 // --- 4. EXECUTION FLOW ---
-async function run() {
+async function startSync() {
     console.log("🚀 Starting Discord Role Sync...");
 
-    // Read the data generated by your Riot Analytics engine
-    // (Adjust the path if your engine saves it differently)
-    const dataPath = './data/player_state.json'; 
-    if (!fs.existsSync(dataPath)) {
-        console.error("❌ No player data found. Did the Riot Engine run first?");
+    const teamsPath = './data/teams.json';
+    const statePath = './data/player_state.json';
+
+    if (!fs.existsSync(teamsPath) || !fs.existsSync(statePath)) {
+        console.error("❌ CRITICAL: teams.json or player_state.json is missing.");
         process.exit(1);
     }
 
-    const db = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+    const teams = JSON.parse(fs.readFileSync(teamsPath, 'utf8'));
+    const state = JSON.parse(fs.readFileSync(statePath, 'utf8'));
 
-    // Loop through the data and sync
-    for (const [teamName, teamData] of Object.entries(db)) {
-        for (const player of teamData.roster) {
-            // We only process if they have a Discord ID and are actively tracked
-            if (player.trackStats && player.discordId) {
-                // Assuming your Riot script saves the tier here (e.g., player.tier = "DIAMOND")
-                await syncPlayerRole(player.discordId, player.tier, player.gameName);
-                await sleep(1000); // 1 Second global pacer between users to guarantee zero 429s
+    for (const teamKey in teams) {
+        const team = teams[teamKey];
+        console.log(`📡 Syncing Roles for: ${team.teamDisplay}`);
+
+        for (const player of team.roster) {
+            // --- THE RESPECTFUL CHECKS ---
+            if (!player.trackStats) {
+                console.log(`⏭️  Skipping ${player.gameName || 'Empty Slot'} (trackStats: false)`);
+                continue;
             }
+
+            if (!player.discordId) {
+                console.log(`⏭️  Skipping ${player.gameName} (No DiscordID)`);
+                continue;
+            }
+
+            const playerState = state[player.puuid];
+            const tier = playerState ? playerState.tier : "UNRANKED";
+
+            await syncUser(player, tier);
+            await sleep(1000); // Respect Discord's rate limits (1 member per second)
         }
     }
-
     console.log("🎉 Discord Role Sync Complete!");
 }
 
-run();
+startSync();
