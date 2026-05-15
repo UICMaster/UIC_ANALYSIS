@@ -3,7 +3,6 @@
  * Handles Riot API requests with an invincible Global Batch Queue.
  */
 
-// 1. AGGRESSIVE SANITIZER: Destroys hidden characters from GitHub Secrets
 const rawKey = process.env.RIOT_API_KEY || "";
 const API_KEY = rawKey.replace(/['"`\s\r\n]/g, ''); 
 
@@ -11,16 +10,12 @@ const REGION_BASE = 'https://europe.api.riotgames.com';
 const EUW_BASE = 'https://euw1.api.riotgames.com';      
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-
-// 2. HIGH-PERFORMANCE PACER: Optimized for your Production Key (20k/10s limit)
 const RATE_LIMIT_DELAY_MS = 100; 
 let requestQueue = Promise.resolve(); 
 
 async function executeFetch(url) {
     if (!API_KEY) throw new Error("RIOT_API_KEY is missing!");
-    
     try {
-        // 3. THE CLOUDFLARE DISGUISE: Standard User-Agent prevents header stripping
         const response = await fetch(url.trim(), { 
             headers: { 
                 'X-Riot-Token': API_KEY,
@@ -28,17 +23,15 @@ async function executeFetch(url) {
             } 
         });
         
-        // Intelligent Rate Limit Recovery
         if (response.status === 429) {
             const retryAfter = response.headers.get('Retry-After') || 5;
-            console.warn(`⚠️ [Riot] Emergency Rate Limit Hit! Sleeping for ${retryAfter}s...`);
             await delay(retryAfter * 1000);
             return executeFetch(url);
         }
         
         if (!response.ok) {
             const errorBody = await response.text();
-            throw new Error(`Riot API Error ${response.status}: ${response.statusText} | Body: ${errorBody}`);
+            throw new Error(`Riot API Error ${response.status} | Body: ${errorBody}`);
         }
         
         return await response.json();
@@ -58,7 +51,6 @@ function riotFetch(url) {
     });
 }
 
-// 4. THE WHITESPACE ASSASSINS: .trim() ensures PUUIDs never trigger "Exception decrypting"
 async function getPUUID(gameName, tagLine) {
     const safeName = encodeURIComponent(gameName.trim());
     const safeTag = encodeURIComponent(tagLine.trim());
