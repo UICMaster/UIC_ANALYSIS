@@ -1,7 +1,8 @@
 /**
  * src/core/analytics.js
  * Professionelle Esports-Analytics Engine mit Z-Score Normalisierung.
- * UPS 2.0 Math: Sigmoid Economy, Laplace Smoothing, Team-Relative Tactics.
+ * OVR (Overall Value Rating) Framework: Laning, Combat, Macro, Survivability.
+ * Bias Fixed: Role-Relative Economy Delta & Removed Flat Death Penalties.
  * Baselines: Master+ Niveau
  */
 
@@ -10,12 +11,13 @@ const RIOT_ROLE_MAP = {
     "JGL": "JGL", "MID": "MID", "BOT": "BOT", "SUP": "SUP"
 };
 
+// Added 'de' (Delta Economy) to fix the Mid/Jgl bias by comparing to role-specific averages.
 const BASELINES = {
-    TOP: { gd_15: { m: 0, s: 1500 }, dpg: { m: 1.2, s: 0.35 }, vspm: { m: 1.4, s: 0.5 }, cc: { m: 18, s: 12 }, kp: { m: 48, s: 10 }, obj: { m: 0.15, s: 0.08 }, hsp: { m: 1000, s: 1500 }, smd: { m: 25000, s: 10000 }, dt2d: { m: 4000, s: 1500 }, dtp: { m: 0.28, s: 0.05 } },
-    JGL: { gd_15: { m: 0, s: 1200 }, dpg: { m: 0.9, s: 0.25 }, vspm: { m: 2.2, s: 0.7 }, cc: { m: 28, s: 18 }, kp: { m: 65, s: 12 }, obj: { m: 0.45, s: 0.15 }, hsp: { m: 1500, s: 2000 }, smd: { m: 20000, s: 8000 }, dt2d: { m: 3500, s: 1200 }, dtp: { m: 0.25, s: 0.05 } },
-    MID: { gd_15: { m: 0, s: 1300 }, dpg: { m: 1.45, s: 0.4 }, vspm: { m: 1.5, s: 0.5 }, cc: { m: 20, s: 14 }, kp: { m: 58, s: 11 }, obj: { m: 0.15, s: 0.08 }, hsp: { m: 1000, s: 1500 }, smd: { m: 10000, s: 5000 }, dt2d: { m: 2500, s: 800 }, dtp: { m: 0.15, s: 0.04 } },
-    BOT: { gd_15: { m: 0, s: 1600 }, dpg: { m: 1.65, s: 0.45 }, vspm: { m: 1.3, s: 0.4 }, cc: { m: 12, s: 8 },  kp: { m: 52, s: 10 }, obj: { m: 0.20, s: 0.10 }, hsp: { m: 500,  s: 800  }, smd: { m: 8000, s: 3000 }, dt2d: { m: 2000, s: 600 }, dtp: { m: 0.12, s: 0.03 } },
-    SUP: { gd_15: { m: 0, s: 800 },  dpg: { m: 0.45, s: 0.2 }, vspm: { m: 3.8, s: 1.4 }, cc: { m: 40, s: 25 }, kp: { m: 68, s: 13 }, obj: { m: 0.05, s: 0.05 }, hsp: { m: 6000, s: 5000 }, smd: { m: 15000, s: 8000 }, dt2d: { m: 3000, s: 1000 }, dtp: { m: 0.20, s: 0.05 } }
+    TOP: { gd_15: { m: 0, s: 1500 }, dpg: { m: 1.2, s: 0.35 }, de: { m: 0.02, s: 0.05 }, vspm: { m: 1.4, s: 0.5 }, cc: { m: 18, s: 12 }, kp: { m: 48, s: 10 }, obj: { m: 0.15, s: 0.08 }, hsp: { m: 1000, s: 1500 }, smd: { m: 25000, s: 10000 }, dt2d: { m: 4000, s: 1500 }, dtp: { m: 0.28, s: 0.05 } },
+    JGL: { gd_15: { m: 0, s: 1200 }, dpg: { m: 0.9, s: 0.25 }, de: { m: -0.04, s: 0.05 }, vspm: { m: 2.2, s: 0.7 }, cc: { m: 28, s: 18 }, kp: { m: 65, s: 12 }, obj: { m: 0.45, s: 0.15 }, hsp: { m: 1500, s: 2000 }, smd: { m: 20000, s: 8000 }, dt2d: { m: 3500, s: 1200 }, dtp: { m: 0.25, s: 0.05 } },
+    MID: { gd_15: { m: 0, s: 1300 }, dpg: { m: 1.45, s: 0.4 }, de: { m: 0.06, s: 0.05 }, vspm: { m: 1.5, s: 0.5 }, cc: { m: 20, s: 14 }, kp: { m: 58, s: 11 }, obj: { m: 0.15, s: 0.08 }, hsp: { m: 1000, s: 1500 }, smd: { m: 10000, s: 5000 }, dt2d: { m: 2500, s: 800 }, dtp: { m: 0.15, s: 0.04 } },
+    BOT: { gd_15: { m: 0, s: 1600 }, dpg: { m: 1.65, s: 0.45 }, de: { m: 0.08, s: 0.05 }, vspm: { m: 1.3, s: 0.4 }, cc: { m: 12, s: 8 },  kp: { m: 52, s: 10 }, obj: { m: 0.20, s: 0.10 }, hsp: { m: 500,  s: 800  }, smd: { m: 8000, s: 3000 }, dt2d: { m: 2000, s: 600 }, dtp: { m: 0.12, s: 0.03 } },
+    SUP: { gd_15: { m: 0, s: 800 },  dpg: { m: 0.45, s: 0.2 }, de: { m: -0.10, s: 0.05 }, vspm: { m: 3.8, s: 1.4 }, cc: { m: 40, s: 25 }, kp: { m: 68, s: 13 }, obj: { m: 0.05, s: 0.05 }, hsp: { m: 6000, s: 5000 }, smd: { m: 15000, s: 8000 }, dt2d: { m: 3000, s: 1000 }, dtp: { m: 0.20, s: 0.05 } }
 };
 
 function clamp(val, min, max) { return Math.max(min, Math.min(max, val)); }
@@ -28,7 +30,7 @@ function normalize(val, baseline) {
 }
 
 // ==========================================
-// DISCORD ENGINE: UPS 2.0 (ADVANCED MATH)
+// DISCORD ENGINE: OVR FRAMEWORK
 // ==========================================
 function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, expectedRole) {
     const validMatches = [];
@@ -55,7 +57,7 @@ function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, e
 
     if (validMatches.length === 0) return null;
 
-    let gameScores = { ups: [], ci: [], ti: [], vi: [] };
+    let gameScores = { ups: [], ci: [], ti: [], vi: [] }; // Kept original keys for system parity
     const bl = BASELINES[expectedRole] || BASELINES.MID;
 
     validMatches.forEach((match, idx) => {
@@ -73,7 +75,6 @@ function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, e
 
         const dmgShare = me.totalDamageDealtToChampions / (teamDamage || 1);
         const goldShare = me.goldEarned / (teamGold || 1);
-        const deathShare = me.deaths / (teamDeaths || 1);
         const dmgTakenShare = me.totalDamageTaken / (teamDamageTaken || 1);
         const objDmgShare = me.damageDealtToObjectives / (info.participants.reduce((s, p) => s + p.damageDealtToObjectives, 0) || 1);
 
@@ -88,69 +89,52 @@ function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, e
             }
         }
 
-        // --- 1. IMPACT INDEX (Sword/CI) ---
-        const n_gd15 = normalize(gd15, bl.gd_15);
-        const n_dpg = normalize(me.totalDamageDealtToChampions / (me.goldEarned || 1), bl.dpg);
-        const n_obj_dmg = normalize(objDmgShare, bl.obj); 
-        
-        // UPS 2.0 Math: Sigmoid Smoothing for Economy
+        // --- 1. LANING Pillar ---
+        let Laning = normalize(gd15, bl.gd_15);
+
+        // --- 2. COMBAT Pillar ---
         const delta_econ = dmgShare - goldShare;
-        const n_delta_econ = 100 / (1 + Math.exp(-40 * delta_econ)); 
+        const n_delta_econ = normalize(delta_econ, bl.de); // Fixed Mid/Jgl delta bias via baseline mapping
+        const n_dpg = normalize(me.totalDamageDealtToChampions / (me.goldEarned || 1), bl.dpg);
+        const kp_pct = teamKills > 0 ? (me.kills + me.assists) / teamKills : 0;
+        
+        let Combat = (0.40 * n_delta_econ) + (0.35 * n_dpg) + (0.25 * normalize(kp_pct * 100, bl.kp));
 
-        let CI = (0.30 * n_gd15) + (0.35 * n_delta_econ) + (0.20 * n_dpg) + (0.15 * n_obj_dmg);
-
-        // --- 2. TACTICAL INDEX (Brain/TI) ---
+        // --- 3. MACRO Pillar ---
         const healShield = (me.totalHealsOnTeammates || 0) + (me.totalDamageShieldedOnTeammates || 0);
         const primaryUtility = Math.max(normalize(me.timeCCingOthers, bl.cc), normalize(healShield, bl.hsp));
         const secondaryUtility = Math.min(normalize(me.timeCCingOthers, bl.cc), normalize(healShield, bl.hsp));
         const blendedUtility = (0.6 * primaryUtility) + (0.4 * secondaryUtility);
 
-        const kp_pct = teamKills > 0 ? (me.kills + me.assists) / teamKills : 0;
-        const n_kp = normalize(kp_pct * 100, bl.kp);
-        
-        // UPS 2.0 Math: Team-Relative Positioning Efficiency
+        let Macro = (0.45 * normalize(me.visionScore / gameMins, bl.vspm)) + (0.35 * blendedUtility) + (0.20 * normalize(objDmgShare, bl.obj));
+
+        // --- 4. SURVIVABILITY Pillar ---
+        const dt2d_adj = me.totalDamageTaken / (me.deaths + 1); // Laplace smoothing for continuous distribution
         const positioning_score = clamp(1 - (me.deaths / (teamDeaths + 1)), 0, 1) * 100;
 
-        let TI = (0.35 * normalize(me.visionScore / gameMins, bl.vspm)) + 
-                 (0.30 * blendedUtility) + 
-                 (0.20 * n_kp) + 
-                 (0.15 * positioning_score);
+        let Survivability = (0.35 * normalize(me.damageSelfMitigated, bl.smd)) + 
+                            (0.35 * normalize(dt2d_adj, bl.dt2d)) + 
+                            (0.30 * positioning_score);
 
-        // --- 3. FORTITUDE INDEX (Shield/VI) ---
-        // UPS 2.0 Math: Laplace Smoothed Denominator
-        const dt2d_adj = me.totalDamageTaken / (me.deaths + 1); 
-
-        let VI = (0.35 * normalize(me.damageSelfMitigated, bl.smd)) + 
-                 (0.35 * normalize(dt2d_adj, bl.dt2d)) + 
-                 (0.30 * normalize(dmgTakenShare, bl.dtp));
-
-        // --- ROLE-SPECIFIC AGGREGATION ---
-        let UPS_Raw = 0;
+        // --- ROLE-SPECIFIC PRO OVR WEIGHTING ---
+        let OVR = 0;
         if (expectedRole === "TOP") {
-            UPS_Raw = (0.35 * CI) + (0.25 * TI) + (0.40 * VI);
+            OVR = (0.25 * Laning) + (0.25 * Combat) + (0.15 * Macro) + (0.35 * Survivability);
         } else if (expectedRole === "JGL") {
-            UPS_Raw = (0.25 * CI) + (0.45 * TI) + (0.30 * VI);
+            OVR = (0.15 * Laning) + (0.25 * Combat) + (0.35 * Macro) + (0.25 * Survivability);
         } else if (expectedRole === "MID") {
-            UPS_Raw = (0.45 * CI) + (0.35 * TI) + (0.20 * VI);
-        } else if (expectedRole === "SUP") {
-            UPS_Raw = (0.15 * CI) + (0.60 * TI) + (0.25 * VI);
+            OVR = (0.25 * Laning) + (0.35 * Combat) + (0.25 * Macro) + (0.15 * Survivability);
         } else if (expectedRole === "BOT") {
-            UPS_Raw = (0.60 * CI) + (0.35 * TI) + (0.05 * VI); 
+            OVR = (0.30 * Laning) + (0.45 * Combat) + (0.10 * Macro) + (0.15 * Survivability);
+        } else if (expectedRole === "SUP") {
+            OVR = (0.15 * Laning) + (0.15 * Combat) + (0.50 * Macro) + (0.20 * Survivability);
         }
 
-        // GLOBAL PENALTY
-        let globalPenalty = 1.0;
-        if (expectedRole !== "SUP") {
-            if (deathShare > (goldShare + 0.15)) globalPenalty = 0.85; 
-            else if (deathShare > (goldShare + 0.05)) globalPenalty = 0.95; 
-        }
-
-        let UPS = UPS_Raw * globalPenalty;
-
-        gameScores.ci.push(CI);
-        gameScores.ti.push(TI);
-        gameScores.vi.push(VI);
-        gameScores.ups.push(UPS);
+        // Mapping to original legacy keys to ensure zero breakdown in other files
+        gameScores.ci.push(Laning);
+        gameScores.ti.push(Combat);
+        gameScores.vi.push(Macro);
+        gameScores.ups.push(OVR);
     });
 
     if (gameScores.ups.length === 0) return null;
