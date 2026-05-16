@@ -136,15 +136,17 @@ async function updateLpLeaderboard(data) {
 async function updateMasterLeaderboard(data) {
     if (!CH_LEADERBOARD || data.length === 0) return;
     
-    data.sort((a, b) => b.metrics.ups - a.metrics.ups);
+    // CHANGED: Sort by OVR instead of UPS
+    data.sort((a, b) => b.metrics.ovr - a.metrics.ovr);
     
-    // Updated Title & Clean Single-Score Output
     await postRankingsEmbeds(CH_LEADERBOARD, "UIC Formkurve (Letzte 10 SoloQ)", "Wertung", data, (p, rank) => {
-        const { ups } = p.metrics;
+        // CHANGED: Extract OVR instead of UPS
+        const { ovr } = p.metrics;
         return {
             spieler: `**${rank}.** ${p.gameName}#${p.tagLine}`,
             team: p.team || "-",
-            wertung: `Score: **${ups}**`
+            // CHANGED: Display OVR instead of UPS
+            wertung: `Score: **${ovr}**`
         };
     });
 
