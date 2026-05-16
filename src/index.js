@@ -104,9 +104,10 @@ async function runEngine() {
                 const latestMatchId = matchIds[0];
                 const cachedState = playerState[player.puuid];
 
+                // FIX: Check for cachedState.ovr instead of cachedState.ups
                 if (player.role !== "MNG" && player.role !== "COH" && cachedState && cachedState.lastMatchId === latestMatchId) {
                     console.log(`   ⏭️ Skipped Riot Fetch for ${player.gameName} (No new games)`);
-                    if (cachedState.ups) {
+                    if (cachedState.ovr) {
                         discordMasterBoard.push({ gameName: player.gameName, tagLine: player.tagLine, team: teamNameShort, metrics: cachedState });
                     }
                     currentTeamData.roster.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus });
