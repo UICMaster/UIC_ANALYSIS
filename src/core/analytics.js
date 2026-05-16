@@ -57,7 +57,7 @@ function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, e
 
     if (validMatches.length === 0) return null;
 
-    let gameScores = { ups: [], ci: [], ti: [], vi: [] }; // Kept original keys for system parity
+    let gameScores = { ovr: [], laning: [], combat: [], macro: [], survivability: [] };
     const bl = BASELINES[expectedRole] || BASELINES.MID;
 
     validMatches.forEach((match, idx) => {
@@ -130,22 +130,23 @@ function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, e
             OVR = (0.15 * Laning) + (0.15 * Combat) + (0.50 * Macro) + (0.20 * Survivability);
         }
 
-        // Mapping to original legacy keys to ensure zero breakdown in other files
-        gameScores.ci.push(Laning);
-        gameScores.ti.push(Combat);
-        gameScores.vi.push(Macro);
-        gameScores.ups.push(OVR);
+        gameScores.laning.push(Laning);
+        gameScores.combat.push(Combat);
+        gameScores.macro.push(Macro);
+        gameScores.survivability.push(Survivability);
+        gameScores.ovr.push(OVR);
     });
 
-    if (gameScores.ups.length === 0) return null;
+    if (gameScores.ovr.length === 0) return null;
 
     const avg = arr => Math.round(arr.reduce((a, b) => a + b, 0) / arr.length);
 
     return { 
-        ups: clamp(avg(gameScores.ups), 0, 100),
-        ci: clamp(avg(gameScores.ci), 0, 100), 
-        ti: clamp(avg(gameScores.ti), 0, 100),
-        vi: clamp(avg(gameScores.vi), 0, 100)
+        ovr: clamp(avg(gameScores.ovr), 0, 100),
+        laning: clamp(avg(gameScores.laning), 0, 100), 
+        combat: clamp(avg(gameScores.combat), 0, 100),
+        macro: clamp(avg(gameScores.macro), 0, 100),
+        survivability: clamp(avg(gameScores.survivability), 0, 100)
     };
 }
 
