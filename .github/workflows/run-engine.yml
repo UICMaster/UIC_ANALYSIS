@@ -2,9 +2,8 @@ name: Prime League Analytics Engine
 
 on:
   schedule:
-    # Adjusted for UTC -> CEST/CET conversion. Peak polling from 16:00-22:00 CEST (14:00-20:00 UTC)
-    - cron: '*/15 14-20 * * *'
-    - cron: '0 0-13,21-23 * * *'
+    # Runs exactly once an hour, every hour (UTC), keeping your execution footprint completely clean.
+    - cron: '0 * * * *'
   workflow_dispatch: 
 
 permissions:
@@ -22,6 +21,9 @@ jobs:
     steps:
       - name: Grab the latest code
         uses: actions/checkout@v4
+        with:
+          # Fetches full history so git-auto-commit can seamlessly track files
+          fetch-depth: 0 
 
       - name: Setup Node.js Environment
         uses: actions/setup-node@v4
@@ -49,6 +51,7 @@ jobs:
           commit_message: "🤖 Auto-update: Ledger, State & PUUID Database"
           file_pattern: "data/*.json"
           skip_dirty_check: false 
+          push_options: '--force' # Force pushes to cleanly resolve any concurrent Git state updates
 
       - name: Export Job Analyse Frontend
         if: success()
