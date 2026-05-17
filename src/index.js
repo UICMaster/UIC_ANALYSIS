@@ -94,7 +94,7 @@ async function runEngine() {
                     if (player.role !== "MNG" && player.role !== "COH") currentTeamData.activeRanks.push(rankData);
                 }
 
-                // 3. Match Processing (Fetch 20 to guarantee we find 10 SoloQ games)
+                // 3. Match Processing (Fetch combined history array)
                 const matchIds = await riotApi.getRecentMatches(player.puuid, 20);
                 if (!matchIds || matchIds.length === 0) {
                     currentTeamData.roster.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus });
@@ -104,7 +104,6 @@ async function runEngine() {
                 const latestMatchId = matchIds[0];
                 const cachedState = playerState[player.puuid];
 
-                // FIX: Check for cachedState.ovr instead of cachedState.ups
                 if (player.role !== "MNG" && player.role !== "COH" && cachedState && cachedState.lastMatchId === latestMatchId) {
                     console.log(`   ⏭️ Skipped Riot Fetch for ${player.gameName} (No new games)`);
                     if (cachedState.ovr) {
@@ -128,26 +127,59 @@ async function runEngine() {
                     matchDatas.push(matchData);
                     timelineDatas.push(timelineData);
 
-                    const isCompetitive = matchData.info.queueId === 0 || matchData.info.queueId === 124;
+                    // STRICT COMPONENT FILTER: Custom, Tournament Draft, or Official Codes ONLY. Completely ignores Flex.
+                    const isCompetitive = matchData.info.queueId === 0 || 
+                                          matchData.info.gameType === "TOURNAMENT_DRAFT" || 
+                                          matchData.info.gameType === "CUSTOM_GAME" || 
+                                          !!matchData.info.tournamentCode;
+
                     if (isCompetitive) {
                         if (!ledger.find(e => e.matchId === matchId && e.puuid === player.puuid)) {
                             let isVerifiedPrime = false;
 
                             if (activeScout) {
-                                // Match Riot Name strictly by splitting off #TagLine to match Prime API predictions
+                                // Extract clean strings from current lobby participants
                                 const matchNames = matchData.info.participants.map(p => 
                                     (p.riotIdGameName || p.summonerName || "").split('#')[0].toLowerCase().replace(/\s+/g, '')
                                 );
+                                
+                                // Extract clean strings from expected Prime API enemies
                                 const expectedEnemies = activeScout.enemyStarters.map(name => 
                                     name.split('#')[0].toLowerCase().replace(/\s+/g, '')
                                 );
                                 const matchedEnemies = expectedEnemies.filter(enemy => matchNames.includes(enemy));
 
+                                // Extract clean strings from our internal team roster definition
+                                const ourRosterNames = teamInfo.roster.map(p => 
+                                    (p.gameName || "").trim().toLowerCase().replace(/\s+/g, '')
+                                );
+                                const matchedTeammates = matchNames.filter(name => ourRosterNames.includes(name));
+
+                                // --- STRATIFIED VERIFICATION TRILOGY ---
+                                
+                                // Check A: Enemy name validation check (Optimal path)
                                 if (matchedEnemies.length >= 2) {
                                     isVerifiedPrime = true;
                                     console.log(`   🎯 Prime Match Verified: Found enemy players (${matchedEnemies.join(', ')})`);
+                                } 
+                                // Check B: Direct cryptographic Tournament Code check
+                                else if (matchData.info.tournamentCode) {
+                                    isVerifiedPrime = true;
+                                    console.log(`   🎯 Prime Match Verified: Official Tournament Code detected!`);
+                                } 
+                                // Check C: Strict Internal Team Density fallback window (Saves ghost matches if enemies name-changed)
+                                else {
+                                    const gameTime = matchData.info.gameCreation;
+                                    const primeTime = new Date(activeScout.matchTime).getTime();
+                                    const timeDiffHours = Math.abs(gameTime - primeTime) / (1000 * 60 * 60);
+
+                                    if (timeDiffHours <= 3 && matchedTeammates.length >= 3) {
+                                        isVerifiedPrime = true;
+                                        console.log(`   🎯 Prime Match Verified: Roster alignment (${matchedTeammates.length} starters) within schedule window!`);
+                                    }
                                 }
                             }
+
                             if (isVerifiedPrime) {
                                 console.log(`   🏆 Saving Verified Match to Ledger...`);
                                 const websiteStats = analytics.calculateWebsiteLedger(player.puuid, matchData, timelineData);
