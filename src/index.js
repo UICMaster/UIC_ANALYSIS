@@ -1,28 +1,26 @@
 /**
  * src/index.js
  * The Master Orchestrator for the UIC Analytics Engine.
+ * Pure SoloQ & Discord Integration Build.
  */
 
 require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 
-const primeApi = require('./api/prime');
 const riotApi = require('./api/riot');
 const analytics = require('./core/analytics');
 const discordMessages = require('./discord/messages');
 const discordRoles = require('./discord/roles'); 
 
 const TEAMS_PATH = path.join(__dirname, '../data/teams.json');
-const LEDGER_PATH = path.join(__dirname, '../data/match_database.json');
 const STATE_PATH = path.join(__dirname, '../data/player_state.json');
 
 async function runEngine() {
-    console.log("🚀 Starting UIC Analytics Modular Engine...");
+    console.log("🚀 Starting UIC Analytics SoloQ Engine...");
 
     try {
         const teamsDb = JSON.parse(fs.readFileSync(TEAMS_PATH, 'utf8'));
-        let ledger = fs.existsSync(LEDGER_PATH) ? JSON.parse(fs.readFileSync(LEDGER_PATH, 'utf8')) : [];
         let playerState = fs.existsSync(STATE_PATH) ? JSON.parse(fs.readFileSync(STATE_PATH, 'utf8')) : {};
 
         let teamsUpdated = false;
@@ -56,15 +54,7 @@ async function runEngine() {
             }
         }
 
-        console.log("\n📅 --- PHASE 2: PRIME MATCHUPS (For Cross-Referencing) ---");
-        const scoutingData = await primeApi.fetchPrimeData(teamsDb);
-        if (!scoutingData || scoutingData.length === 0) {
-            console.log("   💤 No upcoming Prime matches found today.");
-        } else {
-            console.log(`   ✅ Loaded ${scoutingData.length} matchups for verification.`);
-        }
-
-        console.log("\n🧠 --- PHASE 3: RIOT DATA ACQUISITION ---");
+        console.log("\n🧠 --- PHASE 2: SOLOQ DATA ACQUISITION ---");
         
         let discordLpBoard = [];
         let discordMasterBoard = []; 
@@ -73,7 +63,6 @@ async function runEngine() {
         for (const [teamKey, teamInfo] of Object.entries(teamsDb)) {
             console.log(`\n🛡️ Processing Group: ${teamInfo.teamDisplay}`);
             let currentTeamData = { teamDisplay: teamInfo.teamDisplay, roster: [], activeRanks: [] };
-            const activeScout = scoutingData.find(s => s.myTeam === teamKey);
 
             for (let player of teamInfo.roster) {
                 if (!player.gameName || player.gameName.trim() === "") continue;
@@ -94,10 +83,9 @@ async function runEngine() {
                     if (player.role !== "MNG" && player.role !== "COH") currentTeamData.activeRanks.push(rankData);
                 }
 
-                // 3. Match Processing (Fetch combined history fingerprint wrapper)
-                const matchDataWrapper = await riotApi.getRecentMatches(player.puuid, 20);
-                const matchIds = matchDataWrapper.ids;
-                const latestFingerprint = matchDataWrapper.fingerprint;
+                // 3. Match Processing
+                const matchIds = await riotApi.getRecentMatches(player.puuid, 20);
+                const latestMatchId = matchIds.length > 0 ? matchIds[0] : "no_games";
 
                 if (!matchIds || matchIds.length === 0) {
                     currentTeamData.roster.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus });
@@ -106,8 +94,7 @@ async function runEngine() {
 
                 const cachedState = playerState[player.puuid];
 
-                // Check the unique dual-stream fingerprint instead of index 0
-                if (player.role !== "MNG" && player.role !== "COH" && cachedState && cachedState.lastMatchId === latestFingerprint) {
+                if (player.role !== "MNG" && player.role !== "COH" && cachedState && cachedState.lastMatchId === latestMatchId) {
                     console.log(`   ⏭️ Skipped Riot Fetch for ${player.gameName} (No new games)`);
                     if (cachedState.ovr) {
                         discordMasterBoard.push({ gameName: player.gameName, tagLine: player.tagLine, team: teamNameShort, metrics: cachedState });
@@ -129,82 +116,18 @@ async function runEngine() {
 
                     matchDatas.push(matchData);
                     timelineDatas.push(timelineData);
-
-                    // STRICT COMPONENT FILTER: Custom, Tournament Draft, or Official Codes ONLY. Completely ignores Flex.
-                    const isCompetitive = matchData.info.queueId === 0 || 
-                                          matchData.info.gameType === "TOURNAMENT_DRAFT" || 
-                                          matchData.info.gameType === "CUSTOM_GAME" || 
-                                          !!matchData.info.tournamentCode;
-
-                    if (isCompetitive) {
-                        if (!ledger.find(e => e.matchId === matchId && e.puuid === player.puuid)) {
-                            let isVerifiedPrime = false;
-
-                            if (activeScout) {
-                                // Extract clean strings from current lobby participants
-                                const matchNames = matchData.info.participants.map(p => 
-                                    (p.riotIdGameName || p.summonerName || "").split('#')[0].toLowerCase().replace(/\s+/g, '')
-                                );
-                                
-                                // Extract clean strings from expected Prime API enemies
-                                const expectedEnemies = activeScout.enemyStarters.map(name => 
-                                    name.split('#')[0].toLowerCase().replace(/\s+/g, '')
-                                );
-                                const matchedEnemies = expectedEnemies.filter(enemy => matchNames.includes(enemy));
-
-                                // Extract clean strings from our internal team roster definition
-                                const ourRosterNames = teamInfo.roster.map(p => 
-                                    (p.gameName || "").trim().toLowerCase().replace(/\s+/g, '')
-                                );
-                                const matchedTeammates = matchNames.filter(name => ourRosterNames.includes(name));
-
-                                // --- STRATIFIED VERIFICATION TRILOGY ---
-                                
-                                // Check A: Enemy name validation check (Optimal path)
-                                if (matchedEnemies.length >= 2) {
-                                    isVerifiedPrime = true;
-                                    console.log(`   🎯 Prime Match Verified: Found enemy players (${matchedEnemies.join(', ')})`);
-                                } 
-                                // Check B: Direct cryptographic Tournament Code check
-                                else if (matchData.info.tournamentCode) {
-                                    isVerifiedPrime = true;
-                                    console.log(`   🎯 Prime Match Verified: Official Tournament Code detected!`);
-                                } 
-                                // Check C: Strict Internal Team Density fallback window (Saves ghost matches if enemies name-changed)
-                                else {
-                                    const gameTime = matchData.info.gameCreation;
-                                    const primeTime = new Date(activeScout.matchTime).getTime();
-                                    const timeDiffHours = Math.abs(gameTime - primeTime) / (1000 * 60 * 60);
-
-                                    if (timeDiffHours <= 3 && matchedTeammates.length >= 3) {
-                                        isVerifiedPrime = true;
-                                        console.log(`   🎯 Prime Match Verified: Roster alignment (${matchedTeammates.length} starters) within schedule window!`);
-                                    }
-                                }
-                            }
-
-                            if (isVerifiedPrime) {
-                                console.log(`   🏆 Saving Verified Match to Ledger...`);
-                                const websiteStats = analytics.calculateWebsiteLedger(player.puuid, matchData, timelineData);
-                                if (websiteStats) {
-                                    websiteStats.puuid = player.puuid;
-                                    websiteStats.teamKey = teamKey;
-                                    ledger.push(websiteStats);
-                                }
-                            }
-                        }
-                    }
                 }
 
                 currentTeamData.roster.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus });
 
                 if (player.role === "MNG" || player.role === "COH") continue;
 
-                // --- CACHE STABILIZATION: Always lock fingerprint to minimize redundant server sweeps ---
+                // Calculate OVR based on SoloQ games
                 const metrics = analytics.calculateDiscordStats(player.puuid, matchDatas, timelineDatas, player.role);
                 
+                // Save Cache State
                 playerState[player.puuid] = playerState[player.puuid] || {};
-                playerState[player.puuid].lastMatchId = latestFingerprint;
+                playerState[player.puuid].lastMatchId = latestMatchId;
 
                 if (metrics) {
                     discordMasterBoard.push({ gameName: player.gameName, tagLine: player.tagLine, team: teamNameShort, metrics: metrics });
@@ -216,15 +139,12 @@ async function runEngine() {
             teamOverviewData.push(currentTeamData);
         }
 
-        console.log("\n📊 --- PHASE 4: DISCORD DELIVERY ---");
+        console.log("\n📊 --- PHASE 3: DISCORD DELIVERY ---");
         if (discordLpBoard.length > 0) await discordMessages.updateLpLeaderboard(discordLpBoard);
         if (discordMasterBoard.length > 0) await discordMessages.updateMasterLeaderboard(discordMasterBoard);
         if (teamOverviewData.length > 0) await discordMessages.updateTeamOverview(teamOverviewData);
 
-        console.log("\n💾 --- PHASE 5: SAVING DATA ---");
-        fs.writeFileSync(LEDGER_PATH, JSON.stringify(ledger, null, 2));
-        console.log("   ✅ match_database.json safely secured.");
-
+        console.log("\n💾 --- PHASE 4: SAVING DATA ---");
         if (teamsUpdated) {
             fs.writeFileSync(TEAMS_PATH, JSON.stringify(teamsDb, null, 2));
             console.log("   ✅ teams.json updated with Live Account Data.");
