@@ -94,17 +94,20 @@ async function runEngine() {
                     if (player.role !== "MNG" && player.role !== "COH") currentTeamData.activeRanks.push(rankData);
                 }
 
-                // 3. Match Processing (Fetch combined history array)
-                const matchIds = await riotApi.getRecentMatches(player.puuid, 20);
+                // 3. Match Processing (Fetch combined history fingerprint wrapper)
+                const matchDataWrapper = await riotApi.getRecentMatches(player.puuid, 20);
+                const matchIds = matchDataWrapper.ids;
+                const latestFingerprint = matchDataWrapper.fingerprint;
+
                 if (!matchIds || matchIds.length === 0) {
                     currentTeamData.roster.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus });
                     continue;
                 }
 
-                const latestMatchId = matchIds[0];
                 const cachedState = playerState[player.puuid];
 
-                if (player.role !== "MNG" && player.role !== "COH" && cachedState && cachedState.lastMatchId === latestMatchId) {
+                // Check the unique dual-stream fingerprint instead of index 0
+                if (player.role !== "MNG" && player.role !== "COH" && cachedState && cachedState.lastMatchId === latestFingerprint) {
                     console.log(`   ⏭️ Skipped Riot Fetch for ${player.gameName} (No new games)`);
                     if (cachedState.ovr) {
                         discordMasterBoard.push({ gameName: player.gameName, tagLine: player.tagLine, team: teamNameShort, metrics: cachedState });
@@ -197,12 +200,18 @@ async function runEngine() {
 
                 if (player.role === "MNG" || player.role === "COH") continue;
 
+                // --- CACHE STABILIZATION: Always lock fingerprint to minimize redundant server sweeps ---
                 const metrics = analytics.calculateDiscordStats(player.puuid, matchDatas, timelineDatas, player.role);
+                
+                playerState[player.puuid] = playerState[player.puuid] || {};
+                playerState[player.puuid].lastMatchId = latestFingerprint;
+
                 if (metrics) {
                     discordMasterBoard.push({ gameName: player.gameName, tagLine: player.tagLine, team: teamNameShort, metrics: metrics });
-                    playerState[player.puuid] = { lastMatchId: latestMatchId, ...metrics };
-                    cacheUpdated = true;
+                    Object.assign(playerState[player.puuid], metrics);
                 }
+                
+                cacheUpdated = true;
             }
             teamOverviewData.push(currentTeamData);
         }
