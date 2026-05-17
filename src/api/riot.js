@@ -1,8 +1,7 @@
 /**
  * src/api/riot.js
  * Handles Riot API requests with an invincible Global Batch Queue.
- * Upgraded: Dual-targeting streams with deterministic fingerprinting.
- * Optimized: Accelerated for high-tier production key rate limits.
+ * Optimized: Pure SoloQ Engine (queue=420) for Discord OVR.
  */
 
 const rawKey = process.env.RIOT_API_KEY || "";
@@ -12,7 +11,7 @@ const REGION_BASE = 'https://europe.api.riotgames.com';
 const EUW_BASE = 'https://euw1.api.riotgames.com';      
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-const RATE_LIMIT_DELAY_MS = 10; // Optimized to 10ms for Production API Key speed
+const RATE_LIMIT_DELAY_MS = 10; 
 let requestQueue = Promise.resolve(); 
 
 async function executeFetch(url) {
@@ -75,33 +74,9 @@ async function getRankedData(puuid) {
 }
 
 async function getRecentMatches(puuid, count = 20) {
-    if (!puuid) return { ids: [], fingerprint: "none" };
-
-    // 1. Fetch strictly SoloQ games (queue=420) to guarantee leaderboard entries
-    const soloQMatches = await getMatchesWithFilter(puuid, `queue=420&count=${count}`);
-
-    // 2. Fetch strictly Tournament code matches (type=tourney) to protect Prime League tracking
-    const tourneyMatches = await getMatchesWithFilter(puuid, `type=tourney&count=5`);
-
-    // Merge arrays and deduplicate via Set to preserve sorting integrity
-    const combinedMatches = [...new Set([...tourneyMatches, ...soloQMatches])];
-
-    // Create a deterministic fingerprint hash to detect new games in EITHER stream
-    const topSolo = soloQMatches[0] || "no_solo";
-    const topTourney = tourneyMatches[0] || "no_tourney";
-    const fingerprint = `${topSolo}_${topTourney}`;
-
-    return {
-        ids: combinedMatches,
-        fingerprint: fingerprint
-    };
-}
-
-/**
- * Helper function to isolate the history queries cleanly
- */
-async function getMatchesWithFilter(puuid, filterString) {
-    const url = `${REGION_BASE}/lol/match/v5/matches/by-puuid/${puuid.trim()}/ids?start=0&${filterString}`;
+    if (!puuid) return [];
+    // Strictly fetch SoloQ games (queue=420)
+    const url = `${REGION_BASE}/lol/match/v5/matches/by-puuid/${puuid.trim()}/ids?start=0&queue=420&count=${count}`;
     const data = await riotFetch(url);
     return Array.isArray(data) ? data : [];
 }
