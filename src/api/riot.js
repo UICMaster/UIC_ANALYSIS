@@ -1,7 +1,7 @@
 /**
  * src/api/riot.js
  * Handles Riot API requests with an invincible Global Batch Queue.
- * Upgraded: Dual-targeting to fetch both SoloQ and Tournament match types.
+ * Upgraded: Dual-targeting streams with deterministic fingerprinting.
  * Optimized: Accelerated for high-tier production key rate limits.
  */
 
@@ -75,7 +75,7 @@ async function getRankedData(puuid) {
 }
 
 async function getRecentMatches(puuid, count = 20) {
-    if (!puuid) return [];
+    if (!puuid) return { ids: [], fingerprint: "none" };
 
     // 1. Fetch strictly SoloQ games (queue=420) to guarantee leaderboard entries
     const soloQMatches = await getMatchesWithFilter(puuid, `queue=420&count=${count}`);
@@ -83,9 +83,18 @@ async function getRecentMatches(puuid, count = 20) {
     // 2. Fetch strictly Tournament code matches (type=tourney) to protect Prime League tracking
     const tourneyMatches = await getMatchesWithFilter(puuid, `type=tourney&count=5`);
 
-    // Merge arrays and deduplicate via Set to keep order clean
+    // Merge arrays and deduplicate via Set to preserve sorting integrity
     const combinedMatches = [...new Set([...tourneyMatches, ...soloQMatches])];
-    return combinedMatches;
+
+    // Create a deterministic fingerprint hash to detect new games in EITHER stream
+    const topSolo = soloQMatches[0] || "no_solo";
+    const topTourney = tourneyMatches[0] || "no_tourney";
+    const fingerprint = `${topSolo}_${topTourney}`;
+
+    return {
+        ids: combinedMatches,
+        fingerprint: fingerprint
+    };
 }
 
 /**
