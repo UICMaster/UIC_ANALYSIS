@@ -2,6 +2,7 @@
  * src/index.js
  * The Master Orchestrator for the UIC Analytics Engine.
  * Pure SoloQ & Discord Integration Build.
+ * Optimized: Staff (MNG/COH) are skipped early to save hundreds of API calls.
  */
 
 require('dotenv').config();
@@ -83,23 +84,27 @@ async function runEngine() {
                     if (player.role !== "MNG" && player.role !== "COH") currentTeamData.activeRanks.push(rankData);
                 }
 
-                // 3. Match Processing
+                // Add to Discord Team Overview Embed layout configuration
+                currentTeamData.roster.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus });
+
+                // 🛑 THE STAFF GATE: Hard Stop for Managers and Coaches.
+                // Their tracking is completed for cosmetic profiles, skipping heavy data loops.
+                if (player.role === "MNG" || player.role === "COH") continue;
+
+                // 3. Match Processing (Only Active Roster & Subs reach this point)
                 const matchIds = await riotApi.getRecentMatches(player.puuid, 20);
                 const latestMatchId = matchIds.length > 0 ? matchIds[0] : "no_games";
 
-                if (!matchIds || matchIds.length === 0) {
-                    currentTeamData.roster.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus });
-                    continue;
-                }
+                if (!matchIds || matchIds.length === 0) continue;
 
                 const cachedState = playerState[player.puuid];
 
-                if (player.role !== "MNG" && player.role !== "COH" && cachedState && cachedState.lastMatchId === latestMatchId) {
+                // Streamlined Check: Staff check removed because they can no longer navigate here
+                if (cachedState && cachedState.lastMatchId === latestMatchId) {
                     console.log(`   ⏭️ Skipped Riot Fetch for ${player.gameName} (No new games)`);
                     if (cachedState.ovr) {
                         discordMasterBoard.push({ gameName: player.gameName, tagLine: player.tagLine, team: teamNameShort, metrics: cachedState });
                     }
-                    currentTeamData.roster.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus });
                     continue; 
                 }
 
@@ -117,10 +122,6 @@ async function runEngine() {
                     matchDatas.push(matchData);
                     timelineDatas.push(timelineData);
                 }
-
-                currentTeamData.roster.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus });
-
-                if (player.role === "MNG" || player.role === "COH") continue;
 
                 // Calculate OVR based on SoloQ games
                 const metrics = analytics.calculateDiscordStats(player.puuid, matchDatas, timelineDatas, player.role);
