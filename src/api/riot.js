@@ -1,6 +1,8 @@
 /**
  * src/api/riot.js
  * Handles Riot API requests with an invincible Global Batch Queue.
+ * Upgraded: Dual-targeting to fetch both SoloQ and Tournament match types.
+ * Optimized: Accelerated for high-tier production key rate limits.
  */
 
 const rawKey = process.env.RIOT_API_KEY || "";
@@ -10,7 +12,7 @@ const REGION_BASE = 'https://europe.api.riotgames.com';
 const EUW_BASE = 'https://euw1.api.riotgames.com';      
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-const RATE_LIMIT_DELAY_MS = 100; 
+const RATE_LIMIT_DELAY_MS = 10; // Optimized to 10ms for Production API Key speed
 let requestQueue = Promise.resolve(); 
 
 async function executeFetch(url) {
@@ -72,9 +74,27 @@ async function getRankedData(puuid) {
     return soloQ ? { tier: soloQ.tier, rank: soloQ.rank, lp: soloQ.leaguePoints, wins: soloQ.wins, losses: soloQ.losses } : null;
 }
 
-async function getRecentMatches(puuid, count = 10) {
+async function getRecentMatches(puuid, count = 20) {
     if (!puuid) return [];
-    return await riotFetch(`${REGION_BASE}/lol/match/v5/matches/by-puuid/${puuid.trim()}/ids?start=0&count=${count}`);
+
+    // 1. Fetch strictly SoloQ games (queue=420) to guarantee leaderboard entries
+    const soloQMatches = await getMatchesWithFilter(puuid, `queue=420&count=${count}`);
+
+    // 2. Fetch strictly Tournament code matches (type=tourney) to protect Prime League tracking
+    const tourneyMatches = await getMatchesWithFilter(puuid, `type=tourney&count=5`);
+
+    // Merge arrays and deduplicate via Set to keep order clean
+    const combinedMatches = [...new Set([...tourneyMatches, ...soloQMatches])];
+    return combinedMatches;
+}
+
+/**
+ * Helper function to isolate the history queries cleanly
+ */
+async function getMatchesWithFilter(puuid, filterString) {
+    const url = `${REGION_BASE}/lol/match/v5/matches/by-puuid/${puuid.trim()}/ids?start=0&${filterString}`;
+    const data = await riotFetch(url);
+    return Array.isArray(data) ? data : [];
 }
 
 async function getMatchData(matchId) {
@@ -87,4 +107,11 @@ async function getMatchTimeline(matchId) {
     return await riotFetch(`${REGION_BASE}/lol/match/v5/matches/${matchId.trim()}/timeline`);
 }
 
-module.exports = { getPUUID, getAccountByPUUID, getRankedData, getRecentMatches, getMatchData, getMatchTimeline };
+module.exports = { 
+    getPUUID, 
+    getAccountByPUUID, 
+    getRankedData, 
+    getRecentMatches, 
+    getMatchData, 
+    getMatchTimeline 
+};
