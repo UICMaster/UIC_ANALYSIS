@@ -65,3 +65,16 @@ jobs:
           user_email: 'bot@ultrainstinctcrew.com'
           user_name: 'UIC Data Engine'
           commit_message: '🤖 Automated HUD Data Sync from Backend'
+
+      - name: Export Job Website
+        if: success()
+        uses: dmnemec/copy_file_to_another_repo_action@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.REPO_B_PAT }}
+        with:
+          source_file: 'data'
+          destination_repo: 'UICMaster/UIC_WEBSITE'
+          destination_folder: '/' 
+          user_email: 'bot@ultrainstinctcrew.com'
+          user_name: 'UIC Data Engine'
+          commit_message: '🤖 Automated HUD Data Sync from Backend'
