@@ -1,8 +1,7 @@
 /**
  * src/index.js
  * The Master Orchestrator for the UIC Analytics Engine.
- * Pure SoloQ & Discord Integration Build.
- * Optimized: Staff (MNG/COH) are skipped early to save hundreds of API calls.
+ * Pure SoloQ, Discord Integration, & Roster Export Build.
  */
 
 require('dotenv').config();
@@ -16,6 +15,7 @@ const discordRoles = require('./discord/roles');
 
 const TEAMS_PATH = path.join(__dirname, '../data/teams.json');
 const STATE_PATH = path.join(__dirname, '../data/player_state.json');
+const EXPORT_PATH = path.join(__dirname, '../data/data.json');
 
 async function runEngine() {
     console.log("🚀 Starting UIC Analytics SoloQ Engine...");
@@ -55,19 +55,40 @@ async function runEngine() {
             }
         }
 
-        console.log("\n🧠 --- PHASE 2: SOLOQ DATA ACQUISITION ---");
+        console.log("\n🧠 --- PHASE 2: SOLOQ DATA ACQUISITION & EXPORT ---");
         
+        const currentPatch = await riotApi.getLatestPatch();
+        console.log(`   ✨ Using Data Dragon Patch: ${currentPatch}`);
+
         let discordLpBoard = [];
         let discordMasterBoard = []; 
         let teamOverviewData = []; 
+        let exportData = {}; 
 
         for (const [teamKey, teamInfo] of Object.entries(teamsDb)) {
+            
+            // DYNAMIC EXPORT RULE: If a team has a Prime League ID, they go to the Website Export
+            const isExportTeam = teamInfo.primeLeagueId && teamInfo.primeLeagueId.trim() !== "";
+            if (isExportTeam) exportData[teamKey] = [];
+
             console.log(`\n🛡️ Processing Group: ${teamInfo.teamDisplay}`);
             let currentTeamData = { teamDisplay: teamInfo.teamDisplay, roster: [], activeRanks: [] };
 
             for (let player of teamInfo.roster) {
-                if (!player.gameName || player.gameName.trim() === "") continue;
-                if (player.trackStats === false || !player.puuid) continue;
+                
+                // --- EXPORT GATE 1: Handle Empty Slots or Ignored Profiles ---
+                if (player.trackStats === false || !player.gameName || player.gameName.trim() === "") {
+                    if (isExportTeam) {
+                        exportData[teamKey].push({
+                            name: player.gameName || "OPEN SPOT",
+                            role: player.role,
+                            level: 0,
+                            tier: player.gameName ? "STAFF" : "RECRUITING",
+                            lp: 0, wins: 0, losses: 0, winRate: 0, icon: null
+                        });
+                    }
+                    continue; 
+                }
 
                 const teamNameShort = teamInfo.teamDisplay.replace("UIC ", ""); 
 
@@ -84,11 +105,31 @@ async function runEngine() {
                     if (player.role !== "MNG" && player.role !== "COH") currentTeamData.activeRanks.push(rankData);
                 }
 
-                // Add to Discord Team Overview Embed layout configuration
                 currentTeamData.roster.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus });
 
+                // --- EXPORT GATE 2: Build Website Database (MNG & COH are captured here!) ---
+                if (isExportTeam) {
+                    const summonerData = await riotApi.getSummonerData(player.puuid);
+                    let winRate = 0;
+                    if (rankData && (rankData.wins + rankData.losses) > 0) {
+                        winRate = parseFloat(((rankData.wins / (rankData.wins + rankData.losses)) * 100).toFixed(1));
+                    }
+                    
+                    exportData[teamKey].push({
+                        name: player.gameName,
+                        role: player.role,
+                        level: summonerData ? summonerData.summonerLevel : 0,
+                        tier: rankData ? `${rankData.tier} ${rankData.rank}` : "UNRANKED",
+                        lp: rankData ? rankData.lp : 0,
+                        wins: rankData ? rankData.wins : 0,
+                        losses: rankData ? rankData.losses : 0,
+                        winRate: winRate,
+                        icon: summonerData ? `https://ddragon.leagueoflegends.com/cdn/${currentPatch}/img/profileicon/${summonerData.profileIconId}.png` : null
+                    });
+                }
+
                 // 🛑 THE STAFF GATE: Hard Stop for Managers and Coaches.
-                // Their tracking is completed for cosmetic profiles, skipping heavy data loops.
+                // They are officially saved to data.json above, so we safely skip their Match History loop here.
                 if (player.role === "MNG" || player.role === "COH") continue;
 
                 // 3. Match Processing (Only Active Roster & Subs reach this point)
@@ -99,7 +140,6 @@ async function runEngine() {
 
                 const cachedState = playerState[player.puuid];
 
-                // Streamlined Check: Staff check removed because they can no longer navigate here
                 if (cachedState && cachedState.lastMatchId === latestMatchId) {
                     console.log(`   ⏭️ Skipped Riot Fetch for ${player.gameName} (No new games)`);
                     if (cachedState.ovr) {
@@ -155,6 +195,10 @@ async function runEngine() {
             fs.writeFileSync(STATE_PATH, JSON.stringify(playerState, null, 2));
             console.log("   ✅ player_state.json cache updated.");
         }
+
+        // Save generated Website Export Database
+        fs.writeFileSync(EXPORT_PATH, JSON.stringify(exportData, null, 2));
+        console.log("   ✅ data.json (Website Export) generated safely.");
 
         console.log("\n🎉 Engine Run Complete! All systems nominal.");
     } catch (error) {
