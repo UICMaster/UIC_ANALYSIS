@@ -52,6 +52,26 @@ function riotFetch(url) {
     });
 }
 
+// --- DATA DRAGON & SUMMONER HELPERS ---
+
+async function getLatestPatch() {
+    try {
+        const res = await fetch('https://ddragon.leagueoflegends.com/api/versions.json');
+        const versions = await res.json();
+        return versions[0]; 
+    } catch (e) {
+        console.error("❌ Failed to fetch Data Dragon versions, defaulting to 14.4.1");
+        return "14.4.1";
+    }
+}
+
+async function getSummonerData(puuid) {
+    if (!puuid) return null;
+    return await riotFetch(`${EUW_BASE}/lol/summoner/v4/summoners/by-puuid/${puuid.trim()}`);
+}
+
+// ---------------------------------------
+
 async function getPUUID(gameName, tagLine) {
     const safeName = encodeURIComponent(gameName.trim());
     const safeTag = encodeURIComponent(tagLine.trim());
@@ -97,5 +117,7 @@ module.exports = {
     getRankedData, 
     getRecentMatches, 
     getMatchData, 
-    getMatchTimeline 
+    getMatchTimeline,
+    getLatestPatch, 
+    getSummonerData 
 };
