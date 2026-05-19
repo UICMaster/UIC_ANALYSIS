@@ -29,8 +29,8 @@
       "tier": "MASTER I",
       "lp": 0,
       "wins": 80,
-      "losses": 77,
-      "winRate": 51,
+      "losses": 79,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7094.png"
     },
     {
@@ -102,7 +102,7 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5982.png"
     },
     {
-      "name": "Regentropfen",
+      "name": "UIC Regentropfen",
       "role": "MID",
       "level": 992,
       "tier": "DIAMOND II",
@@ -646,12 +646,12 @@
     {
       "name": "LordZash",
       "role": "SUP",
-      "level": 747,
-      "tier": "PLATINUM III",
-      "lp": 16,
+      "level": 748,
+      "tier": "PLATINUM IV",
+      "lp": 75,
       "wins": 61,
-      "losses": 71,
-      "winRate": 46.2,
+      "losses": 73,
+      "winRate": 45.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/932.png"
     }
   ],
@@ -661,10 +661,10 @@
       "role": "TOP",
       "level": 723,
       "tier": "PLATINUM I",
-      "lp": 50,
+      "lp": 29,
       "wins": 64,
-      "losses": 62,
-      "winRate": 50.8,
+      "losses": 63,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6490.png"
     },
     {
