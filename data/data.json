@@ -60,8 +60,8 @@
       "role": "MID",
       "level": 1078,
       "tier": "MASTER I",
-      "lp": 686,
-      "wins": 378,
+      "lp": 716,
+      "wins": 379,
       "losses": 368,
       "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3151.png"
@@ -185,10 +185,10 @@
       "role": "SUP",
       "level": 487,
       "tier": "DIAMOND IV",
-      "lp": 19,
+      "lp": 0,
       "wins": 86,
-      "losses": 77,
-      "winRate": 52.8,
+      "losses": 78,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4655.png"
     }
   ],
@@ -503,10 +503,10 @@
       "role": "TOP",
       "level": 525,
       "tier": "PLATINUM IV",
-      "lp": 77,
+      "lp": 57,
       "wins": 116,
-      "losses": 118,
-      "winRate": 49.6,
+      "losses": 119,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/781.png"
     },
     {
@@ -525,10 +525,10 @@
       "role": "JGL",
       "level": 958,
       "tier": "DIAMOND IV",
-      "lp": 60,
-      "wins": 45,
+      "lp": 79,
+      "wins": 46,
       "losses": 39,
-      "winRate": 53.6,
+      "winRate": 54.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3791.png"
     },
     {
@@ -547,21 +547,21 @@
       "role": "MID",
       "level": 595,
       "tier": "EMERALD I",
-      "lp": 10,
-      "wins": 252,
+      "lp": 29,
+      "wins": 253,
       "losses": 231,
-      "winRate": 52.2,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/23.png"
     },
     {
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1402,
-      "tier": "PLATINUM IV",
-      "lp": 84,
-      "wins": 448,
+      "tier": "PLATINUM III",
+      "lp": 4,
+      "wins": 449,
       "losses": 439,
-      "winRate": 50.5,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
     },
     {
