@@ -17,15 +17,15 @@
       "level": 1034,
       "tier": "MASTER I",
       "lp": 60,
-      "wins": 143,
-      "losses": 137,
+      "wins": 145,
+      "losses": 139,
       "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4380.png"
     },
     {
       "name": "UIC Shenycrane",
       "role": "MID",
-      "level": 636,
+      "level": 637,
       "tier": "MASTER I",
       "lp": 65,
       "wins": 80,
@@ -95,10 +95,10 @@
       "role": "JGL",
       "level": 294,
       "tier": "EMERALD IV",
-      "lp": 61,
-      "wins": 61,
+      "lp": 80,
+      "wins": 62,
       "losses": 64,
-      "winRate": 48.8,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5982.png"
     },
     {
@@ -299,10 +299,10 @@
       "role": "JGL",
       "level": 798,
       "tier": "DIAMOND I",
-      "lp": 41,
-      "wins": 160,
+      "lp": 60,
+      "wins": 161,
       "losses": 162,
-      "winRate": 49.7,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/528.png"
     },
     {
@@ -322,9 +322,9 @@
       "level": 848,
       "tier": "MASTER I",
       "lp": 246,
-      "wins": 121,
-      "losses": 98,
-      "winRate": 55.3,
+      "wins": 122,
+      "losses": 99,
+      "winRate": 55.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6373.png"
     },
     {
@@ -341,12 +341,12 @@
     {
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 801,
-      "tier": "EMERALD IV",
-      "lp": 83,
-      "wins": 60,
-      "losses": 67,
-      "winRate": 47.2,
+      "level": 802,
+      "tier": "EMERALD III",
+      "lp": 22,
+      "wins": 63,
+      "losses": 68,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     },
     {
@@ -457,10 +457,10 @@
       "role": "BOT",
       "level": 598,
       "tier": "DIAMOND IV",
-      "lp": 95,
+      "lp": 51,
       "wins": 157,
-      "losses": 180,
-      "winRate": 46.6,
+      "losses": 182,
+      "winRate": 46.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6388.png"
     },
     {
@@ -536,10 +536,10 @@
       "role": "MID",
       "level": 620,
       "tier": "PLATINUM IV",
-      "lp": 49,
-      "wins": 91,
+      "lp": 67,
+      "wins": 92,
       "losses": 99,
-      "winRate": 47.9,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4379.png"
     },
     {
@@ -560,8 +560,8 @@
       "tier": "PLATINUM IV",
       "lp": 84,
       "wins": 450,
-      "losses": 441,
-      "winRate": 50.5,
+      "losses": 442,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
     },
     {
@@ -569,10 +569,10 @@
       "role": "BOT",
       "level": 403,
       "tier": "PLATINUM II",
-      "lp": 92,
+      "lp": 33,
       "wins": 145,
-      "losses": 121,
-      "winRate": 54.5,
+      "losses": 124,
+      "winRate": 53.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6388.png"
     },
     {
@@ -648,10 +648,10 @@
       "role": "SUP",
       "level": 747,
       "tier": "PLATINUM III",
-      "lp": 76,
+      "lp": 36,
       "wins": 60,
-      "losses": 67,
-      "winRate": 47.2,
+      "losses": 69,
+      "winRate": 46.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/932.png"
     }
   ],
@@ -703,7 +703,7 @@
     {
       "name": "UIC Envy",
       "role": "SUP",
-      "level": 347,
+      "level": 348,
       "tier": "EMERALD IV",
       "lp": 5,
       "wins": 242,
