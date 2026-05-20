@@ -17,8 +17,8 @@
       "level": 1035,
       "tier": "MASTER I",
       "lp": 120,
-      "wins": 147,
-      "losses": 139,
+      "wins": 148,
+      "losses": 140,
       "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4380.png"
     },
@@ -141,10 +141,10 @@
       "role": "TOP",
       "level": 486,
       "tier": "DIAMOND IV",
-      "lp": 18,
-      "wins": 21,
+      "lp": 46,
+      "wins": 22,
       "losses": 20,
-      "winRate": 51.2,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     },
     {
@@ -342,11 +342,11 @@
       "name": "UIC Loonz",
       "role": "COH",
       "level": 802,
-      "tier": "EMERALD III",
-      "lp": 22,
-      "wins": 63,
-      "losses": 68,
-      "winRate": 48.1,
+      "tier": "EMERALD IV",
+      "lp": 80,
+      "wins": 64,
+      "losses": 71,
+      "winRate": 47.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     },
     {
@@ -457,10 +457,10 @@
       "role": "BOT",
       "level": 598,
       "tier": "DIAMOND IV",
-      "lp": 45,
-      "wins": 159,
+      "lp": 83,
+      "wins": 161,
       "losses": 184,
-      "winRate": 46.4,
+      "winRate": 46.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6388.png"
     },
     {
@@ -558,10 +558,10 @@
       "role": "BOT",
       "level": 1403,
       "tier": "PLATINUM IV",
-      "lp": 63,
-      "wins": 450,
+      "lp": 81,
+      "wins": 451,
       "losses": 444,
-      "winRate": 50.3,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
     },
     {
@@ -591,10 +591,10 @@
       "role": "SUP",
       "level": 574,
       "tier": "PLATINUM IV",
-      "lp": 56,
-      "wins": 109,
+      "lp": 75,
+      "wins": 110,
       "losses": 111,
-      "winRate": 49.5,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7064.png"
     }
   ],
@@ -693,9 +693,9 @@
       "name": "UIC Starboy",
       "role": "BOT",
       "level": 846,
-      "tier": "DIAMOND II",
-      "lp": 81,
-      "wins": 335,
+      "tier": "DIAMOND I",
+      "lp": 1,
+      "wins": 336,
       "losses": 300,
       "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4575.png"
@@ -762,10 +762,10 @@
       "role": "BOT",
       "level": 645,
       "tier": "EMERALD I",
-      "lp": 75,
+      "lp": 53,
       "wins": 80,
-      "losses": 91,
-      "winRate": 46.8,
+      "losses": 92,
+      "winRate": 46.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6330.png"
     },
     {
@@ -773,10 +773,10 @@
       "role": "SUP",
       "level": 669,
       "tier": "EMERALD III",
-      "lp": 39,
+      "lp": 18,
       "wins": 72,
-      "losses": 88,
-      "winRate": 45,
+      "losses": 89,
+      "winRate": 44.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6037.png"
     }
   ]
