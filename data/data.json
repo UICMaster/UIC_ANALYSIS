@@ -25,12 +25,12 @@
     {
       "name": "UIC Shenycrane",
       "role": "MID",
-      "level": 637,
-      "tier": "DIAMOND I",
-      "lp": 76,
-      "wins": 82,
-      "losses": 82,
-      "winRate": 50,
+      "level": 638,
+      "tier": "MASTER I",
+      "lp": 18,
+      "wins": 85,
+      "losses": 83,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7094.png"
     },
     {
@@ -58,12 +58,12 @@
     {
       "name": "Baumi",
       "role": "MID",
-      "level": 1080,
+      "level": 1081,
       "tier": "MASTER I",
-      "lp": 699,
-      "wins": 388,
-      "losses": 378,
-      "winRate": 50.7,
+      "lp": 754,
+      "wins": 392,
+      "losses": 380,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3151.png"
     },
     {
@@ -105,11 +105,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 992,
-      "tier": "DIAMOND II",
-      "lp": 13,
-      "wins": 39,
-      "losses": 51,
-      "winRate": 43.3,
+      "tier": "DIAMOND III",
+      "lp": 93,
+      "wins": 40,
+      "losses": 53,
+      "winRate": 43,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6284.png"
     },
     {
@@ -229,12 +229,12 @@
     {
       "name": "UIC BissiBoy",
       "role": "BOT",
-      "level": 785,
-      "tier": "DIAMOND III",
-      "lp": 93,
-      "wins": 185,
-      "losses": 200,
-      "winRate": 48.1,
+      "level": 786,
+      "tier": "DIAMOND II",
+      "lp": 10,
+      "wins": 187,
+      "losses": 201,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3369.png"
     },
     {
@@ -389,10 +389,10 @@
       "role": "MID",
       "level": 673,
       "tier": "DIAMOND IV",
-      "lp": 39,
-      "wins": 120,
+      "lp": 58,
+      "wins": 121,
       "losses": 99,
-      "winRate": 54.8,
+      "winRate": 55,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7084.png"
     },
     {
@@ -547,10 +547,10 @@
       "role": "MID",
       "level": 596,
       "tier": "EMERALD II",
-      "lp": 66,
-      "wins": 253,
-      "losses": 234,
-      "winRate": 52,
+      "lp": 43,
+      "wins": 254,
+      "losses": 236,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/23.png"
     },
     {
@@ -558,20 +558,20 @@
       "role": "BOT",
       "level": 1403,
       "tier": "PLATINUM IV",
-      "lp": 84,
+      "lp": 63,
       "wins": 450,
-      "losses": 442,
+      "losses": 443,
       "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
     },
     {
       "name": "UIC Deavan",
       "role": "BOT",
-      "level": 403,
+      "level": 404,
       "tier": "PLATINUM III",
-      "lp": 72,
-      "wins": 145,
-      "losses": 127,
+      "lp": 89,
+      "wins": 147,
+      "losses": 129,
       "winRate": 53.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6388.png"
     },
@@ -615,10 +615,10 @@
       "role": "JGL",
       "level": 458,
       "tier": "GOLD III",
-      "lp": 44,
-      "wins": 86,
+      "lp": 84,
+      "wins": 88,
       "losses": 88,
-      "winRate": 49.4,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7126.png"
     },
     {
@@ -648,10 +648,10 @@
       "role": "SUP",
       "level": 748,
       "tier": "PLATINUM IV",
-      "lp": 48,
-      "wins": 64,
-      "losses": 77,
-      "winRate": 45.4,
+      "lp": 65,
+      "wins": 66,
+      "losses": 78,
+      "winRate": 45.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/932.png"
     }
   ],
