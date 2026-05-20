@@ -17,8 +17,8 @@
       "level": 1035,
       "tier": "MASTER I",
       "lp": 120,
-      "wins": 148,
-      "losses": 140,
+      "wins": 149,
+      "losses": 141,
       "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4380.png"
     },
@@ -60,9 +60,9 @@
       "role": "MID",
       "level": 1081,
       "tier": "MASTER I",
-      "lp": 784,
-      "wins": 393,
-      "losses": 380,
+      "lp": 783,
+      "wins": 394,
+      "losses": 381,
       "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3151.png"
     },
@@ -107,9 +107,9 @@
       "level": 992,
       "tier": "DIAMOND III",
       "lp": 93,
-      "wins": 40,
-      "losses": 53,
-      "winRate": 43,
+      "wins": 41,
+      "losses": 54,
+      "winRate": 43.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6284.png"
     },
     {
@@ -145,7 +145,7 @@
       "wins": 22,
       "losses": 20,
       "winRate": 52.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4552.png"
     },
     {
       "name": "UIC Hunter",
@@ -196,12 +196,12 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1295,
+      "level": 1296,
       "tier": "DIAMOND IV",
-      "lp": 28,
+      "lp": 0,
       "wins": 174,
-      "losses": 200,
-      "winRate": 46.5,
+      "losses": 202,
+      "winRate": 46.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5969.png"
     },
     {
@@ -343,10 +343,10 @@
       "role": "COH",
       "level": 802,
       "tier": "EMERALD IV",
-      "lp": 80,
+      "lp": 60,
       "wins": 64,
-      "losses": 71,
-      "winRate": 47.4,
+      "losses": 72,
+      "winRate": 47.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     },
     {
@@ -387,7 +387,7 @@
     {
       "name": "UIC Rellik",
       "role": "MID",
-      "level": 673,
+      "level": 674,
       "tier": "DIAMOND IV",
       "lp": 58,
       "wins": 121,
@@ -692,11 +692,11 @@
     {
       "name": "UIC Starboy",
       "role": "BOT",
-      "level": 846,
+      "level": 847,
       "tier": "DIAMOND I",
       "lp": 21,
-      "wins": 338,
-      "losses": 301,
+      "wins": 339,
+      "losses": 302,
       "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4575.png"
     },
