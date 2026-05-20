@@ -14,12 +14,12 @@
     {
       "name": "UIC Niki",
       "role": "JGL",
-      "level": 1034,
+      "level": 1035,
       "tier": "MASTER I",
-      "lp": 90,
-      "wins": 146,
+      "lp": 120,
+      "wins": 147,
       "losses": 139,
-      "winRate": 51.2,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4380.png"
     },
     {
@@ -27,9 +27,9 @@
       "role": "MID",
       "level": 637,
       "tier": "DIAMOND I",
-      "lp": 75,
-      "wins": 81,
-      "losses": 81,
+      "lp": 76,
+      "wins": 82,
+      "losses": 82,
       "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7094.png"
     },
@@ -60,10 +60,10 @@
       "role": "MID",
       "level": 1079,
       "tier": "MASTER I",
-      "lp": 775,
-      "wins": 381,
-      "losses": 369,
-      "winRate": 50.8,
+      "lp": 742,
+      "wins": 382,
+      "losses": 371,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3151.png"
     },
     {
@@ -376,7 +376,7 @@
     {
       "name": "Ðărkø",
       "role": "JGL",
-      "level": 792,
+      "level": 793,
       "tier": "MASTER I",
       "lp": 17,
       "wins": 34,
@@ -457,9 +457,9 @@
       "role": "BOT",
       "level": 598,
       "tier": "DIAMOND IV",
-      "lp": 51,
-      "wins": 157,
-      "losses": 182,
+      "lp": 47,
+      "wins": 158,
+      "losses": 183,
       "winRate": 46.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6388.png"
     },
@@ -525,10 +525,10 @@
       "role": "JGL",
       "level": 958,
       "tier": "DIAMOND IV",
-      "lp": 37,
+      "lp": 16,
       "wins": 46,
-      "losses": 41,
-      "winRate": 52.9,
+      "losses": 42,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3791.png"
     },
     {
@@ -536,10 +536,10 @@
       "role": "MID",
       "level": 621,
       "tier": "PLATINUM IV",
-      "lp": 45,
+      "lp": 23,
       "wins": 92,
-      "losses": 100,
-      "winRate": 47.9,
+      "losses": 101,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4379.png"
     },
     {
@@ -547,10 +547,10 @@
       "role": "MID",
       "level": 596,
       "tier": "EMERALD II",
-      "lp": 87,
+      "lp": 66,
       "wins": 253,
-      "losses": 233,
-      "winRate": 52.1,
+      "losses": 234,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/23.png"
     },
     {
@@ -648,10 +648,10 @@
       "role": "SUP",
       "level": 748,
       "tier": "PLATINUM IV",
-      "lp": 73,
-      "wins": 62,
-      "losses": 74,
-      "winRate": 45.6,
+      "lp": 90,
+      "wins": 64,
+      "losses": 75,
+      "winRate": 46,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/932.png"
     }
   ],
