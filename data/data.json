@@ -27,10 +27,10 @@
       "role": "MID",
       "level": 638,
       "tier": "MASTER I",
-      "lp": 18,
-      "wins": 85,
+      "lp": 49,
+      "wins": 86,
       "losses": 83,
-      "winRate": 50.6,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7094.png"
     },
     {
@@ -60,8 +60,8 @@
       "role": "MID",
       "level": 1081,
       "tier": "MASTER I",
-      "lp": 754,
-      "wins": 392,
+      "lp": 784,
+      "wins": 393,
       "losses": 380,
       "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3151.png"
@@ -141,10 +141,10 @@
       "role": "TOP",
       "level": 486,
       "tier": "DIAMOND IV",
-      "lp": 29,
+      "lp": 18,
       "wins": 21,
-      "losses": 19,
-      "winRate": 52.5,
+      "losses": 20,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     },
     {
@@ -549,8 +549,8 @@
       "tier": "EMERALD II",
       "lp": 43,
       "wins": 254,
-      "losses": 236,
-      "winRate": 51.8,
+      "losses": 237,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/23.png"
     },
     {
@@ -560,8 +560,8 @@
       "tier": "PLATINUM IV",
       "lp": 63,
       "wins": 450,
-      "losses": 443,
-      "winRate": 50.4,
+      "losses": 444,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
     },
     {
@@ -569,10 +569,10 @@
       "role": "BOT",
       "level": 404,
       "tier": "PLATINUM III",
-      "lp": 89,
+      "lp": 68,
       "wins": 147,
-      "losses": 129,
-      "winRate": 53.3,
+      "losses": 130,
+      "winRate": 53.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6388.png"
     },
     {
@@ -593,8 +593,8 @@
       "tier": "PLATINUM IV",
       "lp": 56,
       "wins": 109,
-      "losses": 110,
-      "winRate": 49.8,
+      "losses": 111,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7064.png"
     }
   ],
@@ -646,12 +646,12 @@
     {
       "name": "LordZash",
       "role": "SUP",
-      "level": 748,
+      "level": 749,
       "tier": "PLATINUM IV",
-      "lp": 65,
-      "wins": 66,
-      "losses": 78,
-      "winRate": 45.8,
+      "lp": 42,
+      "wins": 67,
+      "losses": 80,
+      "winRate": 45.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/932.png"
     }
   ],
@@ -740,10 +740,10 @@
       "role": "JGL",
       "level": 498,
       "tier": "MASTER I",
-      "lp": 60,
-      "wins": 144,
+      "lp": 90,
+      "wins": 145,
       "losses": 135,
-      "winRate": 51.6,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6759.png"
     },
     {
