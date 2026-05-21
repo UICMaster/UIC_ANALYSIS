@@ -308,12 +308,12 @@
     {
       "name": "UIC AutumnLeaf",
       "role": "BOT",
-      "level": 848,
+      "level": 849,
       "tier": "MASTER I",
-      "lp": 226,
-      "wins": 122,
+      "lp": 288,
+      "wins": 124,
       "losses": 99,
-      "winRate": 55.2,
+      "winRate": 55.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6373.png"
     },
     {
@@ -535,11 +535,11 @@
       "name": "UIC GreatATuin",
       "role": "MID",
       "level": 596,
-      "tier": "EMERALD II",
-      "lp": 39,
-      "wins": 255,
-      "losses": 238,
-      "winRate": 51.7,
+      "tier": "EMERALD III",
+      "lp": 93,
+      "wins": 256,
+      "losses": 241,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/23.png"
     },
     {
