@@ -36,7 +36,7 @@
     {
       "name": "UIC Giani",
       "role": "BOT",
-      "level": 732,
+      "level": 733,
       "tier": "MASTER I",
       "lp": 2,
       "wins": 73,
@@ -82,11 +82,11 @@
     {
       "name": "Stafferl",
       "role": "TOP",
-      "level": 844,
+      "level": 845,
       "tier": "EMERALD II",
-      "lp": 10,
-      "wins": 3,
-      "losses": 6,
+      "lp": 20,
+      "wins": 4,
+      "losses": 8,
       "winRate": 33.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7011.png"
     },
@@ -262,7 +262,7 @@
     {
       "name": "UIC Taiga",
       "role": "COH",
-      "level": 468,
+      "level": 469,
       "tier": "DIAMOND III",
       "lp": 65,
       "wins": 22,
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 798,
       "tier": "DIAMOND I",
-      "lp": 79,
-      "wins": 162,
-      "losses": 162,
-      "winRate": 50,
+      "lp": 96,
+      "wins": 164,
+      "losses": 163,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/528.png"
     },
     {
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 908,
       "tier": "MASTER I",
-      "lp": 40,
-      "wins": 143,
+      "lp": 71,
+      "wins": 144,
       "losses": 155,
-      "winRate": 48,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5954.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 599,
       "tier": "DIAMOND III",
-      "lp": 1,
-      "wins": 163,
-      "losses": 185,
-      "winRate": 46.8,
+      "lp": 19,
+      "wins": 164,
+      "losses": 186,
+      "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6388.png"
     },
     {
@@ -458,8 +458,8 @@
       "level": 319,
       "tier": "DIAMOND II",
       "lp": 74,
-      "wins": 84,
-      "losses": 73,
+      "wins": 85,
+      "losses": 74,
       "winRate": 53.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4068.png"
     },
@@ -556,7 +556,7 @@
     {
       "name": "UIC Deavan",
       "role": "BOT",
-      "level": 404,
+      "level": 405,
       "tier": "PLATINUM III",
       "lp": 68,
       "wins": 147,
