@@ -249,15 +249,15 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/665.png"
     },
     {
-      "name": "OPEN SPOT",
+      "name": "BrandMachtFeuFeu",
       "role": "TOP",
-      "level": 0,
-      "tier": "RECRUITING",
-      "lp": 0,
-      "wins": 0,
-      "losses": 0,
-      "winRate": 0,
-      "icon": null
+      "level": 716,
+      "tier": "EMERALD I",
+      "lp": 58,
+      "wins": 40,
+      "losses": 46,
+      "winRate": 46.5,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6794.png"
     },
     {
       "name": "UIC Taiga",
@@ -269,17 +269,6 @@
       "losses": 14,
       "winRate": 61.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6795.png"
-    },
-    {
-      "name": "OPEN SPOT",
-      "role": "MNG",
-      "level": 0,
-      "tier": "RECRUITING",
-      "lp": 0,
-      "wins": 0,
-      "losses": 0,
-      "winRate": 0,
-      "icon": null
     }
   ],
   "phoenix": [
@@ -321,7 +310,7 @@
       "role": "BOT",
       "level": 848,
       "tier": "MASTER I",
-      "lp": 246,
+      "lp": 226,
       "wins": 122,
       "losses": 99,
       "winRate": 55.2,
@@ -591,10 +580,10 @@
       "role": "SUP",
       "level": 574,
       "tier": "PLATINUM IV",
-      "lp": 75,
+      "lp": 54,
       "wins": 110,
-      "losses": 111,
-      "winRate": 49.8,
+      "losses": 112,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7064.png"
     }
   ],
@@ -710,17 +699,6 @@
       "losses": 226,
       "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7100.png"
-    },
-    {
-      "name": "OPEN SPOT",
-      "role": "",
-      "level": 0,
-      "tier": "RECRUITING",
-      "lp": 0,
-      "wins": 0,
-      "losses": 0,
-      "winRate": 0,
-      "icon": null
     }
   ],
   "abyss": [
@@ -738,12 +716,12 @@
     {
       "name": "yShizuu",
       "role": "JGL",
-      "level": 498,
+      "level": 499,
       "tier": "MASTER I",
-      "lp": 90,
-      "wins": 145,
-      "losses": 135,
-      "winRate": 51.8,
+      "lp": 29,
+      "wins": 146,
+      "losses": 138,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6759.png"
     },
     {
