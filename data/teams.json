@@ -246,11 +246,11 @@
         "isCaptain": false
       },
       {
-        "gameName": "",
-        "tagLine": "",
+        "gameName": "BrandMachtFeuFeu",
+        "tagLine": "Feuer",
         "role": "TOP",
         "puuid": "",
-        "trackStats": false,
+        "trackStats": true,
         "discordId": "282221304919359489",
         "rosterStatus": "substitute",
         "isCaptain": false
@@ -261,17 +261,7 @@
         "role": "COH",
         "puuid": "beEudGPCZazDKHj8wLDn4KNgd0AtTeTtXCy9NhvKC7XIZxBRx_8iBf1XP3ZWrq_WBi3vnsNLvzGnJw",
         "trackStats": true,
-        "discordId": "",
-        "rosterStatus": "staff",
-        "isCaptain": false
-      },
-      {
-        "gameName": "",
-        "tagLine": "",
-        "role": "MNG",
-        "puuid": "",
-        "trackStats": false,
-        "discordId": "237239541310685184",
+        "discordId": "390181591021780992",
         "rosterStatus": "staff",
         "isCaptain": false
       }
@@ -696,16 +686,6 @@
         "discordId": "858153409735688203",
         "rosterStatus": "starter",
         "isCaptain": true
-      },
-      {
-        "gameName": "",
-        "tagLine": "",
-        "role": "",
-        "puuid": "",
-        "trackStats": false,
-        "discordId": "619130729225519105",
-        "rosterStatus": "staff",
-        "isCaptain": false
       }
     ]
   },
