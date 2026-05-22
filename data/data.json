@@ -545,12 +545,12 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1403,
+      "level": 1404,
       "tier": "PLATINUM IV",
-      "lp": 33,
-      "wins": 452,
+      "lp": 70,
+      "wins": 454,
       "losses": 447,
-      "winRate": 50.3,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
     },
     {
@@ -727,7 +727,7 @@
     {
       "name": "UIC Keygasza",
       "role": "MID",
-      "level": 475,
+      "level": 476,
       "tier": "EMERALD II",
       "lp": 87,
       "wins": 67,
