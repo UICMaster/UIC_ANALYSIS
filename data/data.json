@@ -172,12 +172,12 @@
     {
       "name": "UIC Painfull",
       "role": "BOT",
-      "level": 798,
-      "tier": "EMERALD I",
-      "lp": 47,
+      "level": 799,
+      "tier": "EMERALD II",
+      "lp": 84,
       "wins": 79,
-      "losses": 69,
-      "winRate": 53.4,
+      "losses": 72,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6883.png"
     },
     {
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 909,
       "tier": "MASTER I",
-      "lp": 31,
+      "lp": 1,
       "wins": 145,
-      "losses": 158,
-      "winRate": 47.9,
+      "losses": 159,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5954.png"
     },
     {
@@ -479,13 +479,13 @@
     {
       "name": "UIC Kaetaya",
       "role": "TOP",
-      "level": 871,
+      "level": 872,
       "tier": "EMERALD II",
       "lp": 6,
       "wins": 54,
       "losses": 54,
       "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/1116.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7129.png"
     },
     {
       "name": "UIC Muh",
@@ -512,7 +512,7 @@
     {
       "name": "UIC Namorii",
       "role": "JGL",
-      "level": 958,
+      "level": 959,
       "tier": "DIAMOND IV",
       "lp": 16,
       "wins": 46,
@@ -547,10 +547,10 @@
       "role": "BOT",
       "level": 1404,
       "tier": "PLATINUM IV",
-      "lp": 68,
+      "lp": 47,
       "wins": 455,
-      "losses": 448,
-      "winRate": 50.4,
+      "losses": 449,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
     },
     {
@@ -604,10 +604,10 @@
       "role": "JGL",
       "level": 459,
       "tier": "GOLD II",
-      "lp": 24,
-      "wins": 89,
-      "losses": 88,
-      "winRate": 50.3,
+      "lp": 2,
+      "wins": 90,
+      "losses": 90,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7126.png"
     },
     {
@@ -683,10 +683,10 @@
       "role": "BOT",
       "level": 847,
       "tier": "DIAMOND I",
-      "lp": 81,
+      "lp": 60,
       "wins": 342,
-      "losses": 302,
-      "winRate": 53.1,
+      "losses": 303,
+      "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4575.png"
     },
     {
