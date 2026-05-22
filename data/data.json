@@ -49,10 +49,10 @@
       "role": "SUP",
       "level": 999,
       "tier": "MASTER I",
-      "lp": 16,
+      "lp": 0,
       "wins": 123,
-      "losses": 103,
-      "winRate": 54.4,
+      "losses": 104,
+      "winRate": 54.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4380.png"
     },
     {
@@ -140,11 +140,11 @@
       "name": "VTennic",
       "role": "TOP",
       "level": 487,
-      "tier": "DIAMOND IV",
-      "lp": 46,
-      "wins": 22,
+      "tier": "DIAMOND III",
+      "lp": 1,
+      "wins": 23,
       "losses": 21,
-      "winRate": 51.2,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4552.png"
     },
     {
@@ -152,10 +152,10 @@
       "role": "JGL",
       "level": 970,
       "tier": "EMERALD II",
-      "lp": 36,
-      "wins": 81,
+      "lp": 56,
+      "wins": 82,
       "losses": 82,
-      "winRate": 49.7,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4967.png"
     },
     {
@@ -173,11 +173,11 @@
       "name": "UIC Painfull",
       "role": "BOT",
       "level": 798,
-      "tier": "EMERALD I",
-      "lp": 76,
+      "tier": "EMERALD II",
+      "lp": 92,
       "wins": 75,
-      "losses": 64,
-      "winRate": 54,
+      "losses": 68,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6883.png"
     },
     {
@@ -240,12 +240,12 @@
     {
       "name": "UIC Haselmania",
       "role": "SUP",
-      "level": 605,
+      "level": 606,
       "tier": "MASTER I",
-      "lp": 60,
-      "wins": 56,
-      "losses": 50,
-      "winRate": 52.8,
+      "lp": 30,
+      "wins": 58,
+      "losses": 53,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/665.png"
     },
     {
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 803,
       "tier": "EMERALD III",
-      "lp": 1,
-      "wins": 67,
+      "lp": 21,
+      "wins": 68,
       "losses": 73,
-      "winRate": 47.9,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     },
     {
@@ -387,7 +387,7 @@
     {
       "name": "UIC Pjure",
       "role": "BOT",
-      "level": 744,
+      "level": 745,
       "tier": "DIAMOND II",
       "lp": 55,
       "wins": 116,
@@ -457,10 +457,10 @@
       "role": "SUP",
       "level": 319,
       "tier": "DIAMOND II",
-      "lp": 54,
-      "wins": 85,
+      "lp": 74,
+      "wins": 86,
       "losses": 75,
-      "winRate": 53.1,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4068.png"
     },
     {
@@ -579,11 +579,11 @@
       "name": "UIC Excellent C",
       "role": "SUP",
       "level": 575,
-      "tier": "PLATINUM IV",
-      "lp": 10,
+      "tier": "GOLD I",
+      "lp": 75,
       "wins": 111,
-      "losses": 115,
-      "winRate": 49.1,
+      "losses": 117,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7064.png"
     }
   ],
@@ -683,10 +683,10 @@
       "role": "BOT",
       "level": 847,
       "tier": "DIAMOND I",
-      "lp": 41,
-      "wins": 340,
+      "lp": 81,
+      "wins": 342,
       "losses": 302,
-      "winRate": 53,
+      "winRate": 53.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4575.png"
     },
     {
