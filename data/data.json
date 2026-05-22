@@ -47,7 +47,7 @@
     {
       "name": "UIC Baguetto",
       "role": "SUP",
-      "level": 999,
+      "level": 1000,
       "tier": "MASTER I",
       "lp": 0,
       "wins": 123,
@@ -82,12 +82,12 @@
     {
       "name": "Stafferl",
       "role": "TOP",
-      "level": 845,
+      "level": 846,
       "tier": "EMERALD II",
-      "lp": 20,
-      "wins": 4,
-      "losses": 8,
-      "winRate": 33.3,
+      "lp": 60,
+      "wins": 6,
+      "losses": 10,
+      "winRate": 37.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7011.png"
     },
     {
@@ -95,10 +95,10 @@
       "role": "JGL",
       "level": 294,
       "tier": "EMERALD IV",
-      "lp": 80,
-      "wins": 62,
+      "lp": 99,
+      "wins": 63,
       "losses": 64,
-      "winRate": 49.2,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5982.png"
     },
     {
@@ -117,10 +117,10 @@
       "role": "BOT",
       "level": 847,
       "tier": "EMERALD IV",
-      "lp": 27,
-      "wins": 47,
-      "losses": 68,
-      "winRate": 40.9,
+      "lp": 25,
+      "wins": 48,
+      "losses": 69,
+      "winRate": 41,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6582.png"
     },
     {
@@ -174,9 +174,9 @@
       "role": "BOT",
       "level": 798,
       "tier": "EMERALD II",
-      "lp": 92,
-      "wins": 75,
-      "losses": 68,
+      "lp": 90,
+      "wins": 76,
+      "losses": 69,
       "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6883.png"
     },
@@ -422,7 +422,7 @@
     {
       "name": "Blauerlupos",
       "role": "JGL",
-      "level": 1110,
+      "level": 1111,
       "tier": "DIAMOND I",
       "lp": 35,
       "wins": 194,
@@ -445,11 +445,11 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 599,
-      "tier": "DIAMOND III",
-      "lp": 19,
+      "tier": "DIAMOND IV",
+      "lp": 75,
       "wins": 164,
-      "losses": 186,
-      "winRate": 46.9,
+      "losses": 188,
+      "winRate": 46.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6388.png"
     },
     {
@@ -525,10 +525,10 @@
       "role": "MID",
       "level": 621,
       "tier": "PLATINUM IV",
-      "lp": 23,
+      "lp": 1,
       "wins": 92,
-      "losses": 101,
-      "winRate": 47.7,
+      "losses": 102,
+      "winRate": 47.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4379.png"
     },
     {
