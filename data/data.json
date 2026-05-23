@@ -48,8 +48,8 @@
       "name": "UIC Baguetto",
       "role": "SUP",
       "level": 1000,
-      "tier": "MASTER I",
-      "lp": 0,
+      "tier": "DIAMOND I",
+      "lp": 75,
       "wins": 123,
       "losses": 104,
       "winRate": 54.2,
@@ -172,12 +172,12 @@
     {
       "name": "UIC Painfull",
       "role": "BOT",
-      "level": 799,
-      "tier": "EMERALD I",
-      "lp": 16,
+      "level": 800,
+      "tier": "EMERALD II",
+      "lp": 96,
       "wins": 84,
-      "losses": 75,
-      "winRate": 52.8,
+      "losses": 76,
+      "winRate": 52.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6883.png"
     },
     {
@@ -251,7 +251,7 @@
     {
       "name": "BrandMachtFeuFeu",
       "role": "TOP",
-      "level": 716,
+      "level": 717,
       "tier": "EMERALD I",
       "lp": 58,
       "wins": 40,
@@ -388,11 +388,11 @@
       "name": "UIC Pjure",
       "role": "BOT",
       "level": 745,
-      "tier": "DIAMOND II",
-      "lp": 34,
+      "tier": "DIAMOND III",
+      "lp": 92,
       "wins": 116,
-      "losses": 107,
-      "winRate": 52,
+      "losses": 109,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5449.png"
     },
     {
@@ -602,7 +602,7 @@
     {
       "name": "Leberkasleatschn",
       "role": "JGL",
-      "level": 459,
+      "level": 460,
       "tier": "GOLD II",
       "lp": 21,
       "wins": 92,
