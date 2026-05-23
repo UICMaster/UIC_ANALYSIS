@@ -287,11 +287,11 @@
       "name": "UIC Exi",
       "role": "JGL",
       "level": 798,
-      "tier": "DIAMOND I",
-      "lp": 96,
-      "wins": 164,
+      "tier": "MASTER I",
+      "lp": 15,
+      "wins": 165,
       "losses": 163,
-      "winRate": 50.2,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/528.png"
     },
     {
@@ -319,23 +319,23 @@
     {
       "name": "UIC Ryu Copeland",
       "role": "SUP",
-      "level": 999,
+      "level": 1000,
       "tier": "DIAMOND I",
-      "lp": 54,
-      "wins": 71,
+      "lp": 75,
+      "wins": 72,
       "losses": 73,
-      "winRate": 49.3,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6622.png"
     },
     {
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 803,
+      "level": 804,
       "tier": "EMERALD III",
-      "lp": 21,
-      "wins": 68,
+      "lp": 41,
+      "wins": 69,
       "losses": 73,
-      "winRate": 48.2,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     },
     {
@@ -580,10 +580,10 @@
       "role": "SUP",
       "level": 575,
       "tier": "GOLD I",
-      "lp": 75,
-      "wins": 111,
+      "lp": 93,
+      "wins": 112,
       "losses": 117,
-      "winRate": 48.7,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7064.png"
     }
   ],
@@ -718,10 +718,10 @@
       "role": "JGL",
       "level": 499,
       "tier": "MASTER I",
-      "lp": 29,
-      "wins": 146,
+      "lp": 59,
+      "wins": 147,
       "losses": 138,
-      "winRate": 51.4,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6759.png"
     },
     {
