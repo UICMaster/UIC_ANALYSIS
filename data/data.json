@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1035,
       "tier": "MASTER I",
-      "lp": 180,
+      "lp": 150,
       "wins": 151,
-      "losses": 141,
-      "winRate": 51.7,
+      "losses": 142,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4380.png"
     },
     {
@@ -682,11 +682,11 @@
       "name": "UIC Starboy",
       "role": "BOT",
       "level": 847,
-      "tier": "DIAMOND I",
-      "lp": 60,
-      "wins": 342,
+      "tier": "MASTER I",
+      "lp": 1,
+      "wins": 344,
       "losses": 303,
-      "winRate": 53,
+      "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4575.png"
     },
     {
@@ -740,10 +740,10 @@
       "role": "BOT",
       "level": 645,
       "tier": "EMERALD I",
-      "lp": 53,
-      "wins": 80,
+      "lp": 72,
+      "wins": 81,
       "losses": 92,
-      "winRate": 46.5,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6330.png"
     },
     {
