@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 599,
       "tier": "DIAMOND III",
-      "lp": 11,
-      "wins": 165,
-      "losses": 188,
-      "winRate": 46.7,
+      "lp": 7,
+      "wins": 166,
+      "losses": 189,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6388.png"
     },
     {
@@ -481,10 +481,10 @@
       "role": "TOP",
       "level": 872,
       "tier": "EMERALD II",
-      "lp": 6,
-      "wins": 54,
+      "lp": 27,
+      "wins": 55,
       "losses": 54,
-      "winRate": 50,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7129.png"
     },
     {
@@ -580,10 +580,10 @@
       "role": "SUP",
       "level": 576,
       "tier": "GOLD I",
-      "lp": 67,
-      "wins": 113,
+      "lp": 85,
+      "wins": 114,
       "losses": 119,
-      "winRate": 48.7,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7064.png"
     }
   ],
@@ -604,10 +604,10 @@
       "role": "JGL",
       "level": 459,
       "tier": "GOLD II",
-      "lp": 1,
-      "wins": 91,
+      "lp": 21,
+      "wins": 92,
       "losses": 91,
-      "winRate": 50,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7126.png"
     },
     {
@@ -692,7 +692,7 @@
     {
       "name": "UIC Envy",
       "role": "SUP",
-      "level": 348,
+      "level": 349,
       "tier": "EMERALD IV",
       "lp": 5,
       "wins": 242,
