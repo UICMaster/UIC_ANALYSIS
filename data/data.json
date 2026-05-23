@@ -14,12 +14,12 @@
     {
       "name": "UIC Niki",
       "role": "JGL",
-      "level": 1035,
+      "level": 1036,
       "tier": "MASTER I",
-      "lp": 150,
-      "wins": 151,
-      "losses": 142,
-      "winRate": 51.5,
+      "lp": 180,
+      "wins": 153,
+      "losses": 143,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4380.png"
     },
     {
@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 642,
       "tier": "MASTER I",
-      "lp": 10,
-      "wins": 67,
+      "lp": 70,
+      "wins": 69,
       "losses": 60,
-      "winRate": 52.8,
+      "winRate": 53.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6811.png"
     }
   ],
@@ -545,12 +545,12 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1404,
-      "tier": "PLATINUM III",
-      "lp": 5,
+      "level": 1405,
+      "tier": "PLATINUM IV",
+      "lp": 64,
       "wins": 458,
-      "losses": 449,
-      "winRate": 50.5,
+      "losses": 451,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
     },
     {
@@ -567,23 +567,23 @@
     {
       "name": "UIC Kaanto",
       "role": "SUP",
-      "level": 384,
+      "level": 385,
       "tier": "PLATINUM III",
-      "lp": 45,
-      "wins": 84,
+      "lp": 64,
+      "wins": 85,
       "losses": 88,
-      "winRate": 48.8,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7099.png"
     },
     {
       "name": "UIC Excellent C",
       "role": "SUP",
-      "level": 575,
+      "level": 576,
       "tier": "GOLD I",
-      "lp": 93,
+      "lp": 49,
       "wins": 112,
-      "losses": 117,
-      "winRate": 48.9,
+      "losses": 119,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7064.png"
     }
   ],
@@ -683,10 +683,10 @@
       "role": "BOT",
       "level": 847,
       "tier": "MASTER I",
-      "lp": 1,
+      "lp": 0,
       "wins": 344,
-      "losses": 303,
-      "winRate": 53.2,
+      "losses": 304,
+      "winRate": 53.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4575.png"
     },
     {
