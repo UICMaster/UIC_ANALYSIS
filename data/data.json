@@ -173,11 +173,11 @@
       "name": "UIC Painfull",
       "role": "BOT",
       "level": 800,
-      "tier": "EMERALD II",
-      "lp": 96,
-      "wins": 84,
+      "tier": "EMERALD I",
+      "lp": 16,
+      "wins": 85,
       "losses": 76,
-      "winRate": 52.5,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6883.png"
     },
     {
@@ -198,10 +198,10 @@
       "role": "TOP",
       "level": 1296,
       "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 174,
+      "lp": 18,
+      "wins": 175,
       "losses": 202,
-      "winRate": 46.3,
+      "winRate": 46.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5969.png"
     },
     {
@@ -388,11 +388,11 @@
       "name": "UIC Pjure",
       "role": "BOT",
       "level": 745,
-      "tier": "DIAMOND III",
-      "lp": 92,
-      "wins": 116,
+      "tier": "DIAMOND II",
+      "lp": 30,
+      "wins": 117,
       "losses": 109,
-      "winRate": 51.6,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5449.png"
     },
     {
@@ -450,7 +450,7 @@
       "wins": 166,
       "losses": 189,
       "winRate": 46.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6388.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6409.png"
     },
     {
       "name": "UIC Moonlxght",
@@ -547,10 +547,10 @@
       "role": "BOT",
       "level": 1405,
       "tier": "PLATINUM IV",
-      "lp": 64,
+      "lp": 43,
       "wins": 458,
-      "losses": 451,
-      "winRate": 50.4,
+      "losses": 452,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
     },
     {
@@ -749,7 +749,7 @@
     {
       "name": "TheEigeeen",
       "role": "SUP",
-      "level": 669,
+      "level": 670,
       "tier": "EMERALD III",
       "lp": 18,
       "wins": 72,
