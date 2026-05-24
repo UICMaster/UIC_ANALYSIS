@@ -3,11 +3,11 @@
     {
       "name": "UIC Speedy",
       "role": "TOP",
-      "level": 1171,
+      "level": 1172,
       "tier": "MASTER I",
-      "lp": 60,
-      "wins": 154,
-      "losses": 165,
+      "lp": 58,
+      "wins": 155,
+      "losses": 166,
       "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4835.png"
     },
@@ -197,11 +197,11 @@
       "name": "Reign",
       "role": "TOP",
       "level": 1297,
-      "tier": "DIAMOND IV",
-      "lp": 0,
+      "tier": "EMERALD I",
+      "lp": 75,
       "wins": 175,
-      "losses": 203,
-      "winRate": 46.3,
+      "losses": 204,
+      "winRate": 46.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5969.png"
     },
     {
@@ -363,7 +363,7 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3157.png"
     },
     {
-      "name": "Ðărkø",
+      "name": "UIC Ðărkø",
       "role": "JGL",
       "level": 793,
       "tier": "MASTER I",
@@ -446,9 +446,9 @@
       "role": "BOT",
       "level": 599,
       "tier": "DIAMOND III",
-      "lp": 7,
-      "wins": 166,
-      "losses": 189,
+      "lp": 24,
+      "wins": 167,
+      "losses": 190,
       "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6409.png"
     },
@@ -659,12 +659,12 @@
     {
       "name": "BlauerKlaus",
       "role": "JGL",
-      "level": 1149,
+      "level": 1150,
       "tier": "MASTER I",
-      "lp": 2,
+      "lp": 0,
       "wins": 85,
-      "losses": 76,
-      "winRate": 52.8,
+      "losses": 77,
+      "winRate": 52.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7123.png"
     },
     {
