@@ -196,12 +196,12 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1296,
+      "level": 1297,
       "tier": "DIAMOND IV",
-      "lp": 18,
+      "lp": 0,
       "wins": 175,
-      "losses": 202,
-      "winRate": 46.4,
+      "losses": 203,
+      "winRate": 46.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5969.png"
     },
     {
@@ -547,10 +547,10 @@
       "role": "BOT",
       "level": 1405,
       "tier": "PLATINUM IV",
-      "lp": 43,
-      "wins": 458,
+      "lp": 82,
+      "wins": 460,
       "losses": 452,
-      "winRate": 50.3,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
     },
     {
