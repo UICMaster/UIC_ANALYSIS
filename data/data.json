@@ -116,11 +116,11 @@
       "name": "Pferdemilch",
       "role": "BOT",
       "level": 848,
-      "tier": "PLATINUM I",
-      "lp": 93,
-      "wins": 50,
+      "tier": "EMERALD IV",
+      "lp": 12,
+      "wins": 51,
       "losses": 73,
-      "winRate": 40.7,
+      "winRate": 41.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6582.png"
     },
     {
@@ -198,10 +198,10 @@
       "role": "TOP",
       "level": 1297,
       "tier": "EMERALD I",
-      "lp": 31,
+      "lp": 9,
       "wins": 175,
-      "losses": 206,
-      "winRate": 45.9,
+      "losses": 207,
+      "winRate": 45.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5969.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 600,
       "tier": "DIAMOND III",
-      "lp": 59,
+      "lp": 36,
       "wins": 169,
-      "losses": 190,
-      "winRate": 47.1,
+      "losses": 191,
+      "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6409.png"
     },
     {
@@ -536,9 +536,9 @@
       "role": "MID",
       "level": 598,
       "tier": "EMERALD III",
-      "lp": 44,
-      "wins": 262,
-      "losses": 249,
+      "lp": 40,
+      "wins": 263,
+      "losses": 250,
       "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7027.png"
     },
