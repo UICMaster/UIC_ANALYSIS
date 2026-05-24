@@ -183,7 +183,7 @@
     {
       "name": "FirstBlo",
       "role": "SUP",
-      "level": 487,
+      "level": 488,
       "tier": "DIAMOND IV",
       "lp": 0,
       "wins": 86,
@@ -365,7 +365,7 @@
     {
       "name": "UIC Ðărkø",
       "role": "JGL",
-      "level": 793,
+      "level": 794,
       "tier": "MASTER I",
       "lp": 17,
       "wins": 34,
@@ -593,10 +593,10 @@
       "role": "TOP",
       "level": 585,
       "tier": "EMERALD IV",
-      "lp": 57,
+      "lp": 15,
       "wins": 67,
-      "losses": 74,
-      "winRate": 47.5,
+      "losses": 76,
+      "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3891.png"
     },
     {
