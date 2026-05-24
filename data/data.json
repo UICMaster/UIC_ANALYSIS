@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1171,
       "tier": "MASTER I",
-      "lp": 124,
-      "wins": 153,
+      "lp": 153,
+      "wins": 154,
       "losses": 162,
-      "winRate": 48.6,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4835.png"
     },
     {
@@ -152,10 +152,10 @@
       "role": "JGL",
       "level": 970,
       "tier": "EMERALD II",
-      "lp": 54,
+      "lp": 33,
       "wins": 84,
-      "losses": 84,
-      "winRate": 50,
+      "losses": 85,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4967.png"
     },
     {
@@ -536,9 +536,9 @@
       "role": "MID",
       "level": 597,
       "tier": "EMERALD III",
-      "lp": 74,
-      "wins": 260,
-      "losses": 246,
+      "lp": 70,
+      "wins": 261,
+      "losses": 247,
       "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7027.png"
     },
