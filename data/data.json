@@ -17,8 +17,8 @@
       "level": 1036,
       "tier": "MASTER I",
       "lp": 180,
-      "wins": 154,
-      "losses": 144,
+      "wins": 155,
+      "losses": 145,
       "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4380.png"
     },
@@ -117,10 +117,10 @@
       "role": "BOT",
       "level": 847,
       "tier": "EMERALD IV",
-      "lp": 4,
-      "wins": 48,
-      "losses": 70,
-      "winRate": 40.7,
+      "lp": 18,
+      "wins": 49,
+      "losses": 71,
+      "winRate": 40.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6582.png"
     },
     {
@@ -153,8 +153,8 @@
       "level": 970,
       "tier": "EMERALD II",
       "lp": 54,
-      "wins": 83,
-      "losses": 83,
+      "wins": 84,
+      "losses": 84,
       "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4967.png"
     },
@@ -207,7 +207,7 @@
     {
       "name": "UIC RealCrimes",
       "role": "JGL",
-      "level": 1044,
+      "level": 1045,
       "tier": "EMERALD I",
       "lp": 71,
       "wins": 41,
@@ -433,12 +433,12 @@
     {
       "name": "UIC Ayumu",
       "role": "MID",
-      "level": 596,
+      "level": 597,
       "tier": "EMERALD IV",
-      "lp": 11,
+      "lp": 0,
       "wins": 122,
-      "losses": 111,
-      "winRate": 52.4,
+      "losses": 112,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7127.png"
     },
     {
@@ -461,7 +461,7 @@
       "wins": 88,
       "losses": 77,
       "winRate": 53.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4068.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5956.png"
     },
     {
       "name": "zab77",
@@ -481,9 +481,9 @@
       "role": "TOP",
       "level": 872,
       "tier": "EMERALD II",
-      "lp": 27,
-      "wins": 55,
-      "losses": 54,
+      "lp": 29,
+      "wins": 56,
+      "losses": 55,
       "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7129.png"
     },
@@ -536,9 +536,9 @@
       "role": "MID",
       "level": 597,
       "tier": "EMERALD III",
-      "lp": 78,
-      "wins": 259,
-      "losses": 245,
+      "lp": 74,
+      "wins": 260,
+      "losses": 246,
       "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7027.png"
     },
@@ -547,9 +547,9 @@
       "role": "BOT",
       "level": 1405,
       "tier": "PLATINUM III",
-      "lp": 22,
+      "lp": 2,
       "wins": 462,
-      "losses": 452,
+      "losses": 453,
       "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5874.png"
     },
@@ -569,10 +569,10 @@
       "role": "SUP",
       "level": 385,
       "tier": "PLATINUM III",
-      "lp": 62,
-      "wins": 86,
-      "losses": 89,
-      "winRate": 49.1,
+      "lp": 81,
+      "wins": 88,
+      "losses": 90,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7099.png"
     },
     {
@@ -580,9 +580,9 @@
       "role": "SUP",
       "level": 576,
       "tier": "GOLD I",
-      "lp": 85,
-      "wins": 114,
-      "losses": 119,
+      "lp": 81,
+      "wins": 115,
+      "losses": 120,
       "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7064.png"
     }
