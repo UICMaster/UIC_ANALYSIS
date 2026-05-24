@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1172,
       "tier": "MASTER I",
-      "lp": 87,
-      "wins": 156,
+      "lp": 116,
+      "wins": 157,
       "losses": 167,
-      "winRate": 48.3,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4835.png"
     },
     {
@@ -434,11 +434,11 @@
       "name": "UIC Ayumu",
       "role": "MID",
       "level": 597,
-      "tier": "EMERALD IV",
-      "lp": 0,
+      "tier": "PLATINUM I",
+      "lp": 50,
       "wins": 122,
-      "losses": 112,
-      "winRate": 52.1,
+      "losses": 113,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7127.png"
     },
     {
@@ -536,16 +536,16 @@
       "role": "MID",
       "level": 598,
       "tier": "EMERALD III",
-      "lp": 40,
-      "wins": 263,
+      "lp": 59,
+      "wins": 264,
       "losses": 250,
-      "winRate": 51.3,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7027.png"
     },
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1405,
+      "level": 1406,
       "tier": "PLATINUM III",
       "lp": 2,
       "wins": 462,
@@ -591,12 +591,12 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 584,
+      "level": 585,
       "tier": "EMERALD IV",
       "lp": 57,
       "wins": 67,
-      "losses": 73,
-      "winRate": 47.9,
+      "losses": 74,
+      "winRate": 47.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3891.png"
     },
     {
