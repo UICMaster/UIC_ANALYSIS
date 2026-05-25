@@ -82,12 +82,12 @@
     {
       "name": "Stafferl",
       "role": "TOP",
-      "level": 846,
+      "level": 847,
       "tier": "EMERALD II",
-      "lp": 70,
+      "lp": 40,
       "wins": 8,
-      "losses": 15,
-      "winRate": 34.8,
+      "losses": 18,
+      "winRate": 30.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7011.png"
     },
     {
@@ -105,11 +105,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 994,
-      "tier": "DIAMOND IV",
-      "lp": 66,
-      "wins": 43,
+      "tier": "DIAMOND III",
+      "lp": 4,
+      "wins": 45,
       "losses": 62,
-      "winRate": 41,
+      "winRate": 42.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6284.png"
     },
     {
@@ -117,10 +117,10 @@
       "role": "BOT",
       "level": 848,
       "tier": "EMERALD IV",
-      "lp": 48,
-      "wins": 54,
+      "lp": 86,
+      "wins": 56,
       "losses": 74,
-      "winRate": 42.2,
+      "winRate": 43.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6582.png"
     },
     {
@@ -219,11 +219,11 @@
       "name": "UIC Landmine",
       "role": "MID",
       "level": 669,
-      "tier": "EMERALD II",
-      "lp": 81,
-      "wins": 59,
+      "tier": "EMERALD I",
+      "lp": 1,
+      "wins": 60,
       "losses": 67,
-      "winRate": 46.8,
+      "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/615.png"
     },
     {
@@ -277,10 +277,10 @@
       "role": "TOP",
       "level": 564,
       "tier": "MASTER I",
-      "lp": 210,
-      "wins": 290,
+      "lp": 241,
+      "wins": 291,
       "losses": 258,
-      "winRate": 52.9,
+      "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6640.png"
     },
     {
@@ -376,7 +376,7 @@
     {
       "name": "UIC Rellik",
       "role": "MID",
-      "level": 674,
+      "level": 675,
       "tier": "DIAMOND IV",
       "lp": 75,
       "wins": 123,
@@ -424,10 +424,10 @@
       "role": "JGL",
       "level": 1111,
       "tier": "DIAMOND I",
-      "lp": 35,
-      "wins": 194,
+      "lp": 54,
+      "wins": 195,
       "losses": 184,
-      "winRate": 51.3,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4675.png"
     },
     {
@@ -546,11 +546,11 @@
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1406,
-      "tier": "PLATINUM III",
-      "lp": 62,
-      "wins": 465,
+      "tier": "PLATINUM II",
+      "lp": 4,
+      "wins": 467,
       "losses": 453,
-      "winRate": 50.7,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5874.png"
     },
     {
@@ -580,10 +580,10 @@
       "role": "SUP",
       "level": 577,
       "tier": "GOLD I",
-      "lp": 58,
+      "lp": 36,
       "wins": 116,
-      "losses": 122,
-      "winRate": 48.7,
+      "losses": 123,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7064.png"
     }
   ],
@@ -650,10 +650,10 @@
       "role": "TOP",
       "level": 723,
       "tier": "PLATINUM I",
-      "lp": 49,
+      "lp": 28,
       "wins": 65,
-      "losses": 63,
-      "winRate": 50.8,
+      "losses": 64,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6490.png"
     },
     {
