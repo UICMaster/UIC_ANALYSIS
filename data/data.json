@@ -3,12 +3,12 @@
     {
       "name": "UIC Speedy",
       "role": "TOP",
-      "level": 1172,
+      "level": 1173,
       "tier": "MASTER I",
-      "lp": 50,
+      "lp": 19,
       "wins": 159,
-      "losses": 171,
-      "winRate": 48.2,
+      "losses": 172,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4835.png"
     },
     {
@@ -84,10 +84,10 @@
       "role": "TOP",
       "level": 846,
       "tier": "EMERALD II",
-      "lp": 50,
-      "wins": 7,
-      "losses": 14,
-      "winRate": 33.3,
+      "lp": 70,
+      "wins": 8,
+      "losses": 15,
+      "winRate": 34.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7011.png"
     },
     {
@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 994,
       "tier": "DIAMOND IV",
-      "lp": 68,
-      "wins": 42,
-      "losses": 61,
-      "winRate": 40.8,
+      "lp": 66,
+      "wins": 43,
+      "losses": 62,
+      "winRate": 41,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6284.png"
     },
     {
@@ -117,10 +117,10 @@
       "role": "BOT",
       "level": 848,
       "tier": "EMERALD IV",
-      "lp": 69,
+      "lp": 48,
       "wins": 54,
-      "losses": 73,
-      "winRate": 42.5,
+      "losses": 74,
+      "winRate": 42.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6582.png"
     },
     {
@@ -219,11 +219,11 @@
       "name": "UIC Landmine",
       "role": "MID",
       "level": 669,
-      "tier": "EMERALD I",
-      "lp": 23,
+      "tier": "EMERALD II",
+      "lp": 81,
       "wins": 59,
-      "losses": 65,
-      "winRate": 47.6,
+      "losses": 67,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/615.png"
     },
     {
@@ -536,9 +536,9 @@
       "role": "MID",
       "level": 599,
       "tier": "EMERALD IV",
-      "lp": 29,
-      "wins": 266,
-      "losses": 258,
+      "lp": 27,
+      "wins": 267,
+      "losses": 259,
       "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7027.png"
     },
@@ -547,10 +547,10 @@
       "role": "BOT",
       "level": 1406,
       "tier": "PLATINUM III",
-      "lp": 22,
-      "wins": 463,
+      "lp": 62,
+      "wins": 465,
       "losses": 453,
-      "winRate": 50.5,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5874.png"
     },
     {
@@ -593,10 +593,10 @@
       "role": "TOP",
       "level": 585,
       "tier": "EMERALD IV",
-      "lp": 15,
+      "lp": 0,
       "wins": 67,
-      "losses": 76,
-      "winRate": 46.9,
+      "losses": 78,
+      "winRate": 46.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3891.png"
     },
     {
@@ -650,10 +650,10 @@
       "role": "TOP",
       "level": 723,
       "tier": "PLATINUM I",
-      "lp": 29,
-      "wins": 64,
+      "lp": 49,
+      "wins": 65,
       "losses": 63,
-      "winRate": 50.4,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6490.png"
     },
     {
@@ -727,12 +727,12 @@
     {
       "name": "UIC Keygasza",
       "role": "MID",
-      "level": 476,
-      "tier": "EMERALD II",
-      "lp": 87,
-      "wins": 67,
+      "level": 477,
+      "tier": "EMERALD I",
+      "lp": 6,
+      "wins": 68,
       "losses": 96,
-      "winRate": 41.1,
+      "winRate": 41.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/1045.png"
     },
     {
