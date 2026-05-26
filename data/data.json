@@ -198,10 +198,10 @@
       "role": "TOP",
       "level": 1298,
       "tier": "EMERALD I",
-      "lp": 15,
-      "wins": 180,
+      "lp": 33,
+      "wins": 181,
       "losses": 212,
-      "winRate": 45.9,
+      "winRate": 46.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5969.png"
     },
     {
@@ -547,9 +547,9 @@
       "role": "BOT",
       "level": 1406,
       "tier": "PLATINUM III",
-      "lp": 85,
-      "wins": 467,
-      "losses": 454,
+      "lp": 87,
+      "wins": 468,
+      "losses": 455,
       "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5874.png"
     },
@@ -591,7 +591,7 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 585,
+      "level": 586,
       "tier": "EMERALD IV",
       "lp": 0,
       "wins": 67,
