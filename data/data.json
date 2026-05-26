@@ -220,10 +220,10 @@
       "role": "MID",
       "level": 669,
       "tier": "EMERALD I",
-      "lp": 1,
-      "wins": 60,
+      "lp": 20,
+      "wins": 61,
       "losses": 67,
-      "winRate": 47.2,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/615.png"
     },
     {
@@ -297,12 +297,12 @@
     {
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 909,
-      "tier": "MASTER I",
-      "lp": 0,
+      "level": 910,
+      "tier": "DIAMOND I",
+      "lp": 75,
       "wins": 146,
-      "losses": 161,
-      "winRate": 47.6,
+      "losses": 163,
+      "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4650.png"
     },
     {
@@ -422,7 +422,7 @@
     {
       "name": "Blauerlupos",
       "role": "JGL",
-      "level": 1111,
+      "level": 1112,
       "tier": "DIAMOND I",
       "lp": 33,
       "wins": 195,
@@ -592,11 +592,11 @@
       "name": "UIC Papi Δce",
       "role": "TOP",
       "level": 586,
-      "tier": "PLATINUM II",
-      "lp": 79,
-      "wins": 69,
+      "tier": "PLATINUM I",
+      "lp": 18,
+      "wins": 71,
       "losses": 84,
-      "winRate": 45.1,
+      "winRate": 45.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3891.png"
     },
     {
@@ -639,8 +639,8 @@
       "tier": "PLATINUM IV",
       "lp": 0,
       "wins": 67,
-      "losses": 82,
-      "winRate": 45,
+      "losses": 83,
+      "winRate": 44.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/932.png"
     }
   ],
@@ -649,11 +649,11 @@
       "name": "UIC ソニック",
       "role": "TOP",
       "level": 724,
-      "tier": "PLATINUM I",
-      "lp": 65,
-      "wins": 73,
+      "tier": "EMERALD IV",
+      "lp": 5,
+      "wins": 75,
       "losses": 70,
-      "winRate": 51,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6490.png"
     },
     {
