@@ -5,22 +5,22 @@
       "role": "TOP",
       "level": 1173,
       "tier": "MASTER I",
-      "lp": 19,
-      "wins": 159,
+      "lp": 77,
+      "wins": 161,
       "losses": 172,
-      "winRate": 48,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4835.png"
+      "winRate": 48.3,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4835.png"
     },
     {
       "name": "UIC Niki",
       "role": "JGL",
       "level": 1037,
       "tier": "MASTER I",
-      "lp": 180,
-      "wins": 157,
+      "lp": 242,
+      "wins": 159,
       "losses": 147,
-      "winRate": 51.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4380.png"
+      "winRate": 52,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
       "name": "UIC Shenycrane",
@@ -31,29 +31,29 @@
       "wins": 86,
       "losses": 83,
       "winRate": 50.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7094.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7094.png"
     },
     {
       "name": "UIC Giani",
       "role": "BOT",
-      "level": 733,
+      "level": 734,
       "tier": "DIAMOND I",
       "lp": 75,
       "wins": 73,
       "losses": 68,
       "winRate": 51.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7.png"
     },
     {
       "name": "UIC Baguetto",
       "role": "SUP",
-      "level": 1000,
+      "level": 1001,
       "tier": "DIAMOND I",
       "lp": 75,
       "wins": 123,
       "losses": 104,
       "winRate": 54.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4380.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
       "name": "Baumi",
@@ -64,18 +64,18 @@
       "wins": 398,
       "losses": 384,
       "winRate": 50.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3151.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3151.png"
     },
     {
       "name": "UIC FrozenHands",
       "role": "MID",
-      "level": 642,
+      "level": 643,
       "tier": "MASTER I",
       "lp": 70,
       "wins": 70,
       "losses": 61,
       "winRate": 53.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6811.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6811.png"
     }
   ],
   "eclipse": [
@@ -88,7 +88,7 @@
       "wins": 9,
       "losses": 18,
       "winRate": 33.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7011.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7011.png"
     },
     {
       "name": "UIC NairadAwsm",
@@ -99,18 +99,18 @@
       "wins": 68,
       "losses": 68,
       "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5982.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5982.png"
     },
     {
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 995,
       "tier": "DIAMOND IV",
-      "lp": 70,
-      "wins": 48,
-      "losses": 68,
-      "winRate": 41.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6284.png"
+      "lp": 66,
+      "wins": 49,
+      "losses": 69,
+      "winRate": 41.5,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6284.png"
     },
     {
       "name": "Pferdemilch",
@@ -121,7 +121,7 @@
       "wins": 56,
       "losses": 74,
       "winRate": 43.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6582.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6582.png"
     },
     {
       "name": "Autonamed",
@@ -132,7 +132,7 @@
       "wins": 5,
       "losses": 3,
       "winRate": 62.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/2074.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/2074.png"
     }
   ],
   "vakuum": [
@@ -145,7 +145,7 @@
       "wins": 23,
       "losses": 21,
       "winRate": 52.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4552.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4552.png"
     },
     {
       "name": "UIC Hunter",
@@ -156,7 +156,7 @@
       "wins": 85,
       "losses": 88,
       "winRate": 49.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4967.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4967.png"
     },
     {
       "name": "UIC Kaoxz",
@@ -167,7 +167,7 @@
       "wins": 85,
       "losses": 80,
       "winRate": 51.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7076.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7076.png"
     },
     {
       "name": "UIC Painfull",
@@ -178,7 +178,7 @@
       "wins": 87,
       "losses": 79,
       "winRate": 52.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6883.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6883.png"
     },
     {
       "name": "FirstBlo",
@@ -189,20 +189,20 @@
       "wins": 86,
       "losses": 78,
       "winRate": 52.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4655.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4655.png"
     }
   ],
   "spark": [
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1298,
+      "level": 1299,
       "tier": "EMERALD I",
-      "lp": 33,
-      "wins": 181,
-      "losses": 212,
-      "winRate": 46.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5969.png"
+      "lp": 48,
+      "wins": 183,
+      "losses": 213,
+      "winRate": 46.2,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5969.png"
     },
     {
       "name": "UIC RealCrimes",
@@ -213,7 +213,7 @@
       "wins": 43,
       "losses": 51,
       "winRate": 45.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/1453.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1453.png"
     },
     {
       "name": "UIC Landmine",
@@ -224,7 +224,7 @@
       "wins": 61,
       "losses": 67,
       "winRate": 47.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/615.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/615.png"
     },
     {
       "name": "UIC BissiBoy",
@@ -235,7 +235,7 @@
       "wins": 188,
       "losses": 202,
       "winRate": 48.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6883.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6883.png"
     },
     {
       "name": "UIC Haselmania",
@@ -246,7 +246,7 @@
       "wins": 58,
       "losses": 53,
       "winRate": 52.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/665.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/665.png"
     },
     {
       "name": "BrandMachtFeuFeu",
@@ -257,7 +257,7 @@
       "wins": 40,
       "losses": 46,
       "winRate": 46.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6794.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6794.png"
     },
     {
       "name": "UIC Taiga",
@@ -268,7 +268,7 @@
       "wins": 22,
       "losses": 14,
       "winRate": 61.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6795.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6795.png"
     }
   ],
   "phoenix": [
@@ -281,7 +281,7 @@
       "wins": 292,
       "losses": 259,
       "winRate": 53,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6640.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6640.png"
     },
     {
       "name": "UIC Exi",
@@ -292,7 +292,7 @@
       "wins": 175,
       "losses": 166,
       "winRate": 51.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/528.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/528.png"
     },
     {
       "name": "UIC Hayu",
@@ -303,7 +303,7 @@
       "wins": 147,
       "losses": 163,
       "winRate": 47.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4650.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4650.png"
     },
     {
       "name": "UIC AutumnLeaf",
@@ -314,7 +314,7 @@
       "wins": 125,
       "losses": 99,
       "winRate": 55.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6373.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6373.png"
     },
     {
       "name": "UIC Ryu Copeland",
@@ -325,7 +325,7 @@
       "wins": 74,
       "losses": 73,
       "winRate": 50.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6622.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6622.png"
     },
     {
       "name": "UIC Loonz",
@@ -336,7 +336,7 @@
       "wins": 73,
       "losses": 75,
       "winRate": 49.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4895.png"
     },
     {
       "name": "UIC Cerberus",
@@ -347,7 +347,7 @@
       "wins": 0,
       "losses": 0,
       "winRate": 0,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3015.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3015.png"
     }
   ],
   "cyber": [
@@ -355,12 +355,12 @@
       "name": "UIC DANY",
       "role": "TOP",
       "level": 545,
-      "tier": "MASTER I",
-      "lp": 0,
-      "wins": 91,
-      "losses": 70,
-      "winRate": 56.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3157.png"
+      "tier": "DIAMOND I",
+      "lp": 46,
+      "wins": 92,
+      "losses": 72,
+      "winRate": 56.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3157.png"
     },
     {
       "name": "UIC Ðărkø",
@@ -371,7 +371,7 @@
       "wins": 34,
       "losses": 27,
       "winRate": 55.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3840.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3840.png"
     },
     {
       "name": "UIC Rellik",
@@ -382,7 +382,7 @@
       "wins": 123,
       "losses": 100,
       "winRate": 55.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7084.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7084.png"
     },
     {
       "name": "UIC Pjure",
@@ -393,7 +393,7 @@
       "wins": 119,
       "losses": 109,
       "winRate": 52.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5449.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5449.png"
     },
     {
       "name": "UIC Ryu Panda",
@@ -404,7 +404,7 @@
       "wins": 0,
       "losses": 0,
       "winRate": 0,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6872.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6872.png"
     }
   ],
   "sakura": [
@@ -417,7 +417,7 @@
       "wins": 63,
       "losses": 66,
       "winRate": 48.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6693.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6693.png"
     },
     {
       "name": "Blauerlupos",
@@ -428,7 +428,7 @@
       "wins": 195,
       "losses": 185,
       "winRate": 51.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4675.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4675.png"
     },
     {
       "name": "UIC Ayumu",
@@ -439,7 +439,7 @@
       "wins": 125,
       "losses": 115,
       "winRate": 52.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7127.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7127.png"
     },
     {
       "name": "UIC SilentCarry",
@@ -450,18 +450,18 @@
       "wins": 174,
       "losses": 195,
       "winRate": 47.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6409.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6409.png"
     },
     {
       "name": "UIC Moonlxght",
       "role": "SUP",
       "level": 320,
       "tier": "DIAMOND I",
-      "lp": 34,
+      "lp": 14,
       "wins": 91,
-      "losses": 77,
-      "winRate": 54.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5956.png"
+      "losses": 78,
+      "winRate": 53.8,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5956.png"
     },
     {
       "name": "zab77",
@@ -472,7 +472,7 @@
       "wins": 0,
       "losses": 0,
       "winRate": 0,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6923.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6923.png"
     }
   ],
   "nova": [
@@ -485,7 +485,7 @@
       "wins": 56,
       "losses": 55,
       "winRate": 50.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7129.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7129.png"
     },
     {
       "name": "UIC Muh",
@@ -496,7 +496,7 @@
       "wins": 116,
       "losses": 119,
       "winRate": 49.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/781.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/781.png"
     },
     {
       "name": "UIC Rubix Qube",
@@ -507,18 +507,18 @@
       "wins": 185,
       "losses": 194,
       "winRate": 48.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3592.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3592.png"
     },
     {
       "name": "UIC Namorii",
       "role": "JGL",
-      "level": 959,
+      "level": 960,
       "tier": "DIAMOND IV",
       "lp": 0,
       "wins": 46,
       "losses": 43,
       "winRate": 51.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3791.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3791.png"
     },
     {
       "name": "UIC adedier",
@@ -529,29 +529,29 @@
       "wins": 93,
       "losses": 103,
       "winRate": 47.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4379.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4379.png"
     },
     {
       "name": "UIC GreatATuin",
       "role": "MID",
-      "level": 599,
+      "level": 600,
       "tier": "EMERALD IV",
-      "lp": 61,
-      "wins": 271,
-      "losses": 261,
-      "winRate": 50.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7027.png"
+      "lp": 98,
+      "wins": 274,
+      "losses": 262,
+      "winRate": 51.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7027.png"
     },
     {
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1407,
       "tier": "PLATINUM III",
-      "lp": 51,
-      "wins": 470,
-      "losses": 460,
+      "lp": 49,
+      "wins": 471,
+      "losses": 461,
       "winRate": 50.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5874.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5874.png"
     },
     {
       "name": "UIC Deavan",
@@ -562,7 +562,7 @@
       "wins": 147,
       "losses": 131,
       "winRate": 52.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6388.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6388.png"
     },
     {
       "name": "UIC Kaanto",
@@ -573,7 +573,7 @@
       "wins": 88,
       "losses": 91,
       "winRate": 49.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5454.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5454.png"
     },
     {
       "name": "UIC Excellent C",
@@ -584,7 +584,7 @@
       "wins": 118,
       "losses": 125,
       "winRate": 48.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7064.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7064.png"
     }
   ],
   "obsidian": [
@@ -597,7 +597,7 @@
       "wins": 74,
       "losses": 85,
       "winRate": 46.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3891.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3891.png"
     },
     {
       "name": "Leberkasleatschn",
@@ -608,7 +608,7 @@
       "wins": 96,
       "losses": 96,
       "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7126.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7126.png"
     },
     {
       "name": "OPEN SPOT",
@@ -630,7 +630,7 @@
       "wins": 103,
       "losses": 94,
       "winRate": 52.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6102.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6102.png"
     },
     {
       "name": "LordZash",
@@ -641,7 +641,7 @@
       "wins": 67,
       "losses": 83,
       "winRate": 44.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/932.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/932.png"
     }
   ],
   "ember": [
@@ -654,7 +654,7 @@
       "wins": 79,
       "losses": 73,
       "winRate": 52,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6490.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6490.png"
     },
     {
       "name": "BlauerKlaus",
@@ -665,7 +665,7 @@
       "wins": 85,
       "losses": 77,
       "winRate": 52.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7123.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7123.png"
     },
     {
       "name": "UIC Flare",
@@ -676,18 +676,18 @@
       "wins": 98,
       "losses": 92,
       "winRate": 51.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/1625.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1625.png"
     },
     {
       "name": "UIC Starboy",
       "role": "BOT",
-      "level": 847,
+      "level": 848,
       "tier": "MASTER I",
       "lp": 0,
       "wins": 344,
       "losses": 304,
       "winRate": 53.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4575.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4575.png"
     },
     {
       "name": "UIC Envy",
@@ -698,7 +698,7 @@
       "wins": 243,
       "losses": 229,
       "winRate": 51.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7100.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7100.png"
     }
   ],
   "abyss": [
@@ -711,7 +711,7 @@
       "wins": 38,
       "losses": 49,
       "winRate": 43.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3865.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3865.png"
     },
     {
       "name": "yShizuu",
@@ -722,7 +722,7 @@
       "wins": 148,
       "losses": 141,
       "winRate": 51.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6759.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6759.png"
     },
     {
       "name": "UIC Keygasza",
@@ -733,7 +733,7 @@
       "wins": 68,
       "losses": 96,
       "winRate": 41.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/1045.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1045.png"
     },
     {
       "name": "UIC M Character",
@@ -744,7 +744,7 @@
       "wins": 83,
       "losses": 92,
       "winRate": 47.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6330.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6330.png"
     },
     {
       "name": "TheEigeeen",
@@ -755,7 +755,7 @@
       "wins": 77,
       "losses": 91,
       "winRate": 45.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6037.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6037.png"
     }
   ]
 }
