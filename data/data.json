@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 910,
       "tier": "DIAMOND I",
-      "lp": 75,
-      "wins": 146,
+      "lp": 95,
+      "wins": 147,
       "losses": 163,
-      "winRate": 47.2,
+      "winRate": 47.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4650.png"
     },
     {
@@ -444,11 +444,11 @@
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 600,
+      "level": 601,
       "tier": "DIAMOND III",
-      "lp": 24,
-      "wins": 172,
-      "losses": 194,
+      "lp": 20,
+      "wins": 173,
+      "losses": 195,
       "winRate": 47,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6409.png"
     },
@@ -547,9 +547,9 @@
       "role": "BOT",
       "level": 1407,
       "tier": "PLATINUM II",
-      "lp": 29,
+      "lp": 10,
       "wins": 470,
-      "losses": 455,
+      "losses": 456,
       "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5874.png"
     },
@@ -591,12 +591,12 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 586,
+      "level": 587,
       "tier": "PLATINUM I",
-      "lp": 18,
-      "wins": 71,
-      "losses": 84,
-      "winRate": 45.8,
+      "lp": 58,
+      "wins": 74,
+      "losses": 85,
+      "winRate": 46.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3891.png"
     },
     {
