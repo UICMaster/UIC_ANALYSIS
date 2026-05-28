@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1038,
       "tier": "MASTER I",
-      "lp": 246,
+      "lp": 216,
       "wins": 162,
-      "losses": 150,
-      "winRate": 51.9,
+      "losses": 151,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
@@ -152,9 +152,9 @@
       "role": "JGL",
       "level": 971,
       "tier": "EMERALD II",
-      "lp": 7,
-      "wins": 87,
-      "losses": 89,
+      "lp": 6,
+      "wins": 88,
+      "losses": 90,
       "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4967.png"
     },
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 800,
       "tier": "MASTER I",
-      "lp": 236,
-      "wins": 175,
+      "lp": 267,
+      "wins": 176,
       "losses": 166,
-      "winRate": 51.3,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/528.png"
     },
     {
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 910,
       "tier": "MASTER I",
-      "lp": 15,
-      "wins": 148,
+      "lp": 45,
+      "wins": 149,
       "losses": 163,
-      "winRate": 47.6,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4650.png"
     },
     {
@@ -365,7 +365,7 @@
     {
       "name": "UIC Ðărkø",
       "role": "JGL",
-      "level": 794,
+      "level": 795,
       "tier": "MASTER I",
       "lp": 17,
       "wins": 34,
@@ -435,9 +435,9 @@
       "role": "MID",
       "level": 598,
       "tier": "PLATINUM I",
-      "lp": 60,
-      "wins": 125,
-      "losses": 115,
+      "lp": 56,
+      "wins": 126,
+      "losses": 116,
       "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7127.png"
     },
@@ -445,11 +445,11 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 602,
-      "tier": "DIAMOND IV",
-      "lp": 94,
-      "wins": 174,
+      "tier": "DIAMOND III",
+      "lp": 32,
+      "wins": 176,
       "losses": 197,
-      "winRate": 46.9,
+      "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6409.png"
     },
     {
@@ -457,11 +457,11 @@
       "role": "SUP",
       "level": 321,
       "tier": "DIAMOND II",
-      "lp": 94,
+      "lp": 74,
       "wins": 92,
-      "losses": 80,
-      "winRate": 53.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5956.png"
+      "losses": 81,
+      "winRate": 53.2,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4068.png"
     },
     {
       "name": "zab77",
@@ -547,16 +547,16 @@
       "role": "BOT",
       "level": 1408,
       "tier": "PLATINUM II",
-      "lp": 26,
-      "wins": 477,
-      "losses": 464,
-      "winRate": 50.7,
+      "lp": 3,
+      "wins": 478,
+      "losses": 466,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7132.png"
     },
     {
       "name": "UIC Deavan",
       "role": "BOT",
-      "level": 405,
+      "level": 406,
       "tier": "PLATINUM III",
       "lp": 46,
       "wins": 147,
@@ -567,13 +567,13 @@
     {
       "name": "UIC Kaanto",
       "role": "SUP",
-      "level": 385,
+      "level": 386,
       "tier": "PLATINUM III",
       "lp": 50,
-      "wins": 88,
-      "losses": 91,
+      "wins": 89,
+      "losses": 92,
       "winRate": 49.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5454.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4678.png"
     },
     {
       "name": "UIC Excellent C",
