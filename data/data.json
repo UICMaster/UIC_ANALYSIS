@@ -151,11 +151,11 @@
       "name": "UIC Hunter",
       "role": "JGL",
       "level": 971,
-      "tier": "EMERALD III",
-      "lp": 90,
-      "wins": 85,
-      "losses": 88,
-      "winRate": 49.1,
+      "tier": "EMERALD II",
+      "lp": 7,
+      "wins": 87,
+      "losses": 89,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4967.png"
     },
     {
@@ -277,9 +277,9 @@
       "role": "TOP",
       "level": 564,
       "tier": "MASTER I",
-      "lp": 242,
-      "wins": 292,
-      "losses": 259,
+      "lp": 243,
+      "wins": 293,
+      "losses": 260,
       "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6640.png"
     },
@@ -546,12 +546,12 @@
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1408,
-      "tier": "PLATINUM III",
-      "lp": 89,
-      "wins": 474,
-      "losses": 462,
-      "winRate": 50.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5874.png"
+      "tier": "PLATINUM II",
+      "lp": 26,
+      "wins": 477,
+      "losses": 464,
+      "winRate": 50.7,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7132.png"
     },
     {
       "name": "UIC Deavan",
@@ -593,10 +593,10 @@
       "role": "TOP",
       "level": 587,
       "tier": "PLATINUM I",
-      "lp": 97,
+      "lp": 76,
       "wins": 76,
-      "losses": 86,
-      "winRate": 46.9,
+      "losses": 87,
+      "winRate": 46.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3891.png"
     },
     {
@@ -694,10 +694,10 @@
       "role": "SUP",
       "level": 349,
       "tier": "PLATINUM I",
-      "lp": 50,
-      "wins": 243,
-      "losses": 229,
-      "winRate": 51.5,
+      "lp": 64,
+      "wins": 245,
+      "losses": 230,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7100.png"
     }
   ],
@@ -717,11 +717,11 @@
       "name": "yShizuu",
       "role": "JGL",
       "level": 499,
-      "tier": "MASTER I",
-      "lp": 0,
+      "tier": "DIAMOND I",
+      "lp": 75,
       "wins": 148,
-      "losses": 141,
-      "winRate": 51.2,
+      "losses": 142,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6759.png"
     },
     {
