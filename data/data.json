@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 995,
       "tier": "DIAMOND IV",
-      "lp": 66,
+      "lp": 44,
       "wins": 49,
-      "losses": 69,
-      "winRate": 41.5,
+      "losses": 70,
+      "winRate": 41.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6284.png"
     },
     {
@@ -387,7 +387,7 @@
     {
       "name": "UIC Pjure",
       "role": "BOT",
-      "level": 746,
+      "level": 747,
       "tier": "DIAMOND II",
       "lp": 68,
       "wins": 119,
@@ -569,10 +569,10 @@
       "role": "SUP",
       "level": 386,
       "tier": "PLATINUM III",
-      "lp": 50,
+      "lp": 30,
       "wins": 89,
-      "losses": 92,
-      "winRate": 49.2,
+      "losses": 93,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4678.png"
     },
     {
@@ -591,7 +591,7 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 587,
+      "level": 588,
       "tier": "PLATINUM I",
       "lp": 55,
       "wins": 76,
@@ -693,11 +693,11 @@
       "name": "UIC Envy",
       "role": "SUP",
       "level": 349,
-      "tier": "PLATINUM I",
-      "lp": 64,
-      "wins": 245,
-      "losses": 230,
-      "winRate": 51.6,
+      "tier": "EMERALD IV",
+      "lp": 18,
+      "wins": 248,
+      "losses": 231,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7100.png"
     }
   ],
