@@ -198,9 +198,9 @@
       "role": "TOP",
       "level": 1299,
       "tier": "EMERALD I",
-      "lp": 48,
-      "wins": 183,
-      "losses": 213,
+      "lp": 46,
+      "wins": 184,
+      "losses": 214,
       "winRate": 46.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5969.png"
     },
@@ -262,7 +262,7 @@
     {
       "name": "UIC Taiga",
       "role": "COH",
-      "level": 469,
+      "level": 470,
       "tier": "DIAMOND III",
       "lp": 65,
       "wins": 22,
@@ -433,7 +433,7 @@
     {
       "name": "UIC Ayumu",
       "role": "MID",
-      "level": 597,
+      "level": 598,
       "tier": "PLATINUM I",
       "lp": 60,
       "wins": 125,
@@ -545,10 +545,10 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1407,
+      "level": 1408,
       "tier": "PLATINUM III",
-      "lp": 69,
-      "wins": 472,
+      "lp": 89,
+      "wins": 473,
       "losses": 461,
       "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5874.png"
