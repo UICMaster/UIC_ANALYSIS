@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1038,
       "tier": "MASTER I",
-      "lp": 157,
-      "wins": 163,
+      "lp": 217,
+      "wins": 165,
       "losses": 154,
-      "winRate": 51.4,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
@@ -413,10 +413,10 @@
       "role": "TOP",
       "level": 924,
       "tier": "EMERALD I",
-      "lp": 41,
-      "wins": 63,
+      "lp": 61,
+      "wins": 64,
       "losses": 66,
-      "winRate": 48.8,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6693.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 603,
       "tier": "DIAMOND IV",
-      "lp": 20,
-      "wins": 179,
+      "lp": 40,
+      "wins": 180,
       "losses": 205,
-      "winRate": 46.6,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6409.png"
     },
     {
@@ -602,7 +602,7 @@
     {
       "name": "Leberkasleatschn",
       "role": "JGL",
-      "level": 461,
+      "level": 462,
       "tier": "GOLD II",
       "lp": 1,
       "wins": 96,
@@ -635,7 +635,7 @@
     {
       "name": "LordZash",
       "role": "SUP",
-      "level": 749,
+      "level": 750,
       "tier": "PLATINUM IV",
       "lp": 0,
       "wins": 67,
