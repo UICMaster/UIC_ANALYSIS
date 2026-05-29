@@ -49,10 +49,10 @@
       "role": "SUP",
       "level": 1001,
       "tier": "DIAMOND I",
-      "lp": 75,
+      "lp": 56,
       "wins": 123,
-      "losses": 104,
-      "winRate": 54.2,
+      "losses": 105,
+      "winRate": 53.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
@@ -240,12 +240,12 @@
     {
       "name": "UIC Haselmania",
       "role": "SUP",
-      "level": 606,
+      "level": 607,
       "tier": "DIAMOND I",
-      "lp": 75,
-      "wins": 58,
-      "losses": 53,
-      "winRate": 52.3,
+      "lp": 79,
+      "wins": 61,
+      "losses": 56,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/665.png"
     },
     {
@@ -457,10 +457,10 @@
       "role": "SUP",
       "level": 321,
       "tier": "DIAMOND II",
-      "lp": 74,
-      "wins": 92,
+      "lp": 94,
+      "wins": 93,
       "losses": 81,
-      "winRate": 53.2,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4068.png"
     },
     {
@@ -518,7 +518,7 @@
       "wins": 46,
       "losses": 43,
       "winRate": 51.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3791.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5373.png"
     },
     {
       "name": "UIC adedier",
@@ -545,11 +545,11 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1408,
-      "tier": "PLATINUM II",
-      "lp": 3,
-      "wins": 478,
-      "losses": 466,
+      "level": 1409,
+      "tier": "PLATINUM III",
+      "lp": 80,
+      "wins": 479,
+      "losses": 468,
       "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7132.png"
     },
@@ -661,10 +661,10 @@
       "role": "JGL",
       "level": 1150,
       "tier": "DIAMOND I",
-      "lp": 75,
-      "wins": 85,
-      "losses": 77,
-      "winRate": 52.5,
+      "lp": 52,
+      "wins": 86,
+      "losses": 79,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7123.png"
     },
     {
@@ -692,12 +692,12 @@
     {
       "name": "UIC Envy",
       "role": "SUP",
-      "level": 349,
-      "tier": "EMERALD IV",
-      "lp": 0,
-      "wins": 248,
-      "losses": 232,
-      "winRate": 51.7,
+      "level": 350,
+      "tier": "PLATINUM I",
+      "lp": 75,
+      "wins": 249,
+      "losses": 234,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7100.png"
     }
   ],
