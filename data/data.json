@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1038,
       "tier": "MASTER I",
-      "lp": 187,
+      "lp": 157,
       "wins": 163,
-      "losses": 153,
-      "winRate": 51.6,
+      "losses": 154,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 603,
       "tier": "DIAMOND IV",
-      "lp": 3,
-      "wins": 177,
-      "losses": 204,
-      "winRate": 46.5,
+      "lp": 20,
+      "wins": 179,
+      "losses": 205,
+      "winRate": 46.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6409.png"
     },
     {
@@ -485,7 +485,7 @@
       "wins": 58,
       "losses": 56,
       "winRate": 50.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1116.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5367.png"
     },
     {
       "name": "UIC Muh",
@@ -591,7 +591,7 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 588,
+      "level": 589,
       "tier": "PLATINUM I",
       "lp": 51,
       "wins": 79,
@@ -624,7 +624,7 @@
     {
       "name": "BlondiXE1",
       "role": "BOT",
-      "level": 432,
+      "level": 433,
       "tier": "SILVER I",
       "lp": 80,
       "wins": 103,
