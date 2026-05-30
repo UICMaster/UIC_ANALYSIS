@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 643,
       "tier": "MASTER I",
-      "lp": 100,
-      "wins": 72,
+      "lp": 130,
+      "wins": 73,
       "losses": 62,
-      "winRate": 53.7,
+      "winRate": 54.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6811.png"
     }
   ],
@@ -175,8 +175,8 @@
       "level": 802,
       "tier": "EMERALD I",
       "lp": 36,
-      "wins": 90,
-      "losses": 80,
+      "wins": 91,
+      "losses": 81,
       "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6883.png"
     },
@@ -198,9 +198,9 @@
       "role": "TOP",
       "level": 1299,
       "tier": "EMERALD I",
-      "lp": 42,
-      "wins": 186,
-      "losses": 216,
+      "lp": 40,
+      "wins": 187,
+      "losses": 217,
       "winRate": 46.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5969.png"
     },
@@ -211,8 +211,8 @@
       "tier": "DIAMOND IV",
       "lp": 0,
       "wins": 43,
-      "losses": 52,
-      "winRate": 45.3,
+      "losses": 53,
+      "winRate": 44.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1453.png"
     },
     {
@@ -231,10 +231,10 @@
       "role": "BOT",
       "level": 786,
       "tier": "DIAMOND III",
-      "lp": 87,
+      "lp": 66,
       "wins": 188,
-      "losses": 203,
-      "winRate": 48.1,
+      "losses": 204,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6883.png"
     },
     {
@@ -365,7 +365,7 @@
     {
       "name": "UIC Ðărkø",
       "role": "JGL",
-      "level": 795,
+      "level": 796,
       "tier": "MASTER I",
       "lp": 0,
       "wins": 34,
@@ -376,7 +376,7 @@
     {
       "name": "UIC Rellik",
       "role": "MID",
-      "level": 675,
+      "level": 676,
       "tier": "DIAMOND IV",
       "lp": 75,
       "wins": 123,
@@ -604,10 +604,10 @@
       "role": "JGL",
       "level": 462,
       "tier": "GOLD III",
-      "lp": 39,
-      "wins": 96,
+      "lp": 58,
+      "wins": 97,
       "losses": 99,
-      "winRate": 49.2,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7126.png"
     },
     {
@@ -624,12 +624,12 @@
     {
       "name": "BlondiXE1",
       "role": "BOT",
-      "level": 433,
+      "level": 434,
       "tier": "SILVER I",
-      "lp": 97,
+      "lp": 76,
       "wins": 105,
-      "losses": 95,
-      "winRate": 52.5,
+      "losses": 96,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6102.png"
     },
     {
@@ -707,10 +707,10 @@
       "role": "TOP",
       "level": 753,
       "tier": "DIAMOND IV",
-      "lp": 89,
+      "lp": 68,
       "wins": 43,
-      "losses": 50,
-      "winRate": 46.2,
+      "losses": 51,
+      "winRate": 45.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3865.png"
     },
     {
