@@ -3,11 +3,11 @@
     {
       "name": "UIC Speedy",
       "role": "TOP",
-      "level": 1173,
+      "level": 1174,
       "tier": "MASTER I",
-      "lp": 102,
-      "wins": 164,
-      "losses": 174,
+      "lp": 100,
+      "wins": 165,
+      "losses": 175,
       "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4835.png"
     },
@@ -173,11 +173,11 @@
       "name": "UIC Painfull",
       "role": "BOT",
       "level": 801,
-      "tier": "EMERALD II",
-      "lp": 96,
-      "wins": 87,
+      "tier": "EMERALD I",
+      "lp": 16,
+      "wins": 88,
       "losses": 79,
-      "winRate": 52.4,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6883.png"
     },
     {
@@ -319,7 +319,7 @@
     {
       "name": "UIC Ryu Copeland",
       "role": "SUP",
-      "level": 1001,
+      "level": 1002,
       "tier": "MASTER I",
       "lp": 17,
       "wins": 74,
@@ -457,10 +457,10 @@
       "role": "SUP",
       "level": 321,
       "tier": "DIAMOND I",
-      "lp": 93,
+      "lp": 72,
       "wins": 98,
-      "losses": 82,
-      "winRate": 54.4,
+      "losses": 83,
+      "winRate": 54.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4068.png"
     },
     {
@@ -479,7 +479,7 @@
     {
       "name": "UIC Kaetaya",
       "role": "TOP",
-      "level": 874,
+      "level": 875,
       "tier": "EMERALD II",
       "lp": 52,
       "wins": 58,
@@ -525,10 +525,10 @@
       "role": "MID",
       "level": 621,
       "tier": "PLATINUM IV",
-      "lp": 34,
-      "wins": 94,
+      "lp": 52,
+      "wins": 95,
       "losses": 103,
-      "winRate": 47.7,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4379.png"
     },
     {
@@ -558,10 +558,10 @@
       "role": "BOT",
       "level": 407,
       "tier": "PLATINUM III",
-      "lp": 24,
-      "wins": 147,
+      "lp": 60,
+      "wins": 149,
       "losses": 132,
-      "winRate": 52.7,
+      "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6388.png"
     },
     {
@@ -591,7 +591,7 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 589,
+      "level": 590,
       "tier": "PLATINUM I",
       "lp": 51,
       "wins": 80,
@@ -650,9 +650,9 @@
       "role": "TOP",
       "level": 725,
       "tier": "EMERALD IV",
-      "lp": 93,
-      "wins": 82,
-      "losses": 73,
+      "lp": 95,
+      "wins": 83,
+      "losses": 74,
       "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6490.png"
     },
@@ -672,10 +672,10 @@
       "role": "MID",
       "level": 643,
       "tier": "DIAMOND IV",
-      "lp": 54,
+      "lp": 33,
       "wins": 100,
-      "losses": 93,
-      "winRate": 51.8,
+      "losses": 94,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1625.png"
     },
     {
