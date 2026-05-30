@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 801,
       "tier": "MASTER I",
-      "lp": 360,
-      "wins": 179,
+      "lp": 391,
+      "wins": 180,
       "losses": 166,
-      "winRate": 51.9,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/528.png"
     },
     {
@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 849,
       "tier": "MASTER I",
-      "lp": 319,
-      "wins": 125,
+      "lp": 350,
+      "wins": 126,
       "losses": 99,
-      "winRate": 55.8,
+      "winRate": 56,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6373.png"
     },
     {
@@ -367,10 +367,10 @@
       "role": "JGL",
       "level": 795,
       "tier": "MASTER I",
-      "lp": 17,
+      "lp": 0,
       "wins": 34,
-      "losses": 27,
-      "winRate": 55.7,
+      "losses": 28,
+      "winRate": 54.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3840.png"
     },
     {
@@ -435,11 +435,11 @@
       "role": "MID",
       "level": 598,
       "tier": "PLATINUM I",
-      "lp": 30,
+      "lp": 8,
       "wins": 127,
-      "losses": 119,
-      "winRate": 51.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7127.png"
+      "losses": 120,
+      "winRate": 51.4,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7139.png"
     },
     {
       "name": "UIC SilentCarry",
