@@ -196,12 +196,12 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1299,
+      "level": 1300,
       "tier": "EMERALD I",
-      "lp": 40,
-      "wins": 187,
+      "lp": 59,
+      "wins": 188,
       "losses": 217,
-      "winRate": 46.3,
+      "winRate": 46.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5969.png"
     },
     {
@@ -231,10 +231,10 @@
       "role": "BOT",
       "level": 786,
       "tier": "DIAMOND III",
-      "lp": 66,
+      "lp": 24,
       "wins": 188,
-      "losses": 204,
-      "winRate": 48,
+      "losses": 206,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6883.png"
     },
     {
@@ -604,10 +604,10 @@
       "role": "JGL",
       "level": 462,
       "tier": "GOLD III",
-      "lp": 58,
-      "wins": 97,
+      "lp": 77,
+      "wins": 98,
       "losses": 99,
-      "winRate": 49.5,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7126.png"
     },
     {
@@ -626,10 +626,10 @@
       "role": "BOT",
       "level": 434,
       "tier": "SILVER I",
-      "lp": 76,
-      "wins": 105,
+      "lp": 95,
+      "wins": 106,
       "losses": 96,
-      "winRate": 52.2,
+      "winRate": 52.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6102.png"
     },
     {
@@ -707,10 +707,10 @@
       "role": "TOP",
       "level": 753,
       "tier": "DIAMOND IV",
-      "lp": 68,
+      "lp": 47,
       "wins": 43,
-      "losses": 51,
-      "winRate": 45.7,
+      "losses": 52,
+      "winRate": 45.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3865.png"
     },
     {
