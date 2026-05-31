@@ -202,12 +202,12 @@
       "wins": 190,
       "losses": 217,
       "winRate": 46.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5969.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3159.png"
     },
     {
       "name": "UIC RealCrimes",
       "role": "JGL",
-      "level": 1046,
+      "level": 1047,
       "tier": "DIAMOND IV",
       "lp": 17,
       "wins": 44,
@@ -605,8 +605,8 @@
       "level": 463,
       "tier": "GOLD III",
       "lp": 54,
-      "wins": 100,
-      "losses": 102,
+      "wins": 101,
+      "losses": 103,
       "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7126.png"
     },
@@ -626,10 +626,10 @@
       "role": "BOT",
       "level": 434,
       "tier": "SILVER I",
-      "lp": 53,
-      "wins": 106,
-      "losses": 98,
-      "winRate": 52,
+      "lp": 51,
+      "wins": 107,
+      "losses": 99,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6102.png"
     },
     {
