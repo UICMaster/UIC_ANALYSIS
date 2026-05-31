@@ -299,9 +299,9 @@
       "role": "MID",
       "level": 911,
       "tier": "MASTER I",
-      "lp": 77,
-      "wins": 151,
-      "losses": 164,
+      "lp": 78,
+      "wins": 152,
+      "losses": 165,
       "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4650.png"
     },
@@ -367,10 +367,10 @@
       "role": "JGL",
       "level": 796,
       "tier": "MASTER I",
-      "lp": 0,
-      "wins": 34,
+      "lp": 30,
+      "wins": 35,
       "losses": 30,
-      "winRate": 53.1,
+      "winRate": 53.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3840.png"
     },
     {
@@ -481,10 +481,10 @@
       "role": "TOP",
       "level": 875,
       "tier": "EMERALD II",
-      "lp": 52,
-      "wins": 58,
+      "lp": 73,
+      "wins": 59,
       "losses": 56,
-      "winRate": 50.9,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6700.png"
     },
     {
@@ -558,10 +558,10 @@
       "role": "BOT",
       "level": 408,
       "tier": "PLATINUM III",
-      "lp": 77,
-      "wins": 151,
-      "losses": 133,
-      "winRate": 53.2,
+      "lp": 75,
+      "wins": 152,
+      "losses": 134,
+      "winRate": 53.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6388.png"
     },
     {
@@ -604,10 +604,10 @@
       "role": "JGL",
       "level": 463,
       "tier": "GOLD III",
-      "lp": 74,
+      "lp": 54,
       "wins": 100,
-      "losses": 101,
-      "winRate": 49.8,
+      "losses": 102,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7126.png"
     },
     {
@@ -626,10 +626,10 @@
       "role": "BOT",
       "level": 434,
       "tier": "SILVER I",
-      "lp": 74,
+      "lp": 53,
       "wins": 106,
-      "losses": 97,
-      "winRate": 52.2,
+      "losses": 98,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6102.png"
     },
     {
@@ -716,7 +716,7 @@
     {
       "name": "yShizuu",
       "role": "JGL",
-      "level": 499,
+      "level": 500,
       "tier": "DIAMOND I",
       "lp": 54,
       "wins": 148,
