@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1039,
       "tier": "MASTER I",
-      "lp": 313,
-      "wins": 171,
-      "losses": 157,
-      "winRate": 52.1,
+      "lp": 286,
+      "wins": 172,
+      "losses": 159,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
@@ -115,7 +115,7 @@
     {
       "name": "Pferdemilch",
       "role": "BOT",
-      "level": 848,
+      "level": 849,
       "tier": "EMERALD IV",
       "lp": 86,
       "wins": 56,
@@ -151,11 +151,11 @@
       "name": "UIC Hunter",
       "role": "JGL",
       "level": 972,
-      "tier": "EMERALD II",
-      "lp": 86,
-      "wins": 92,
+      "tier": "EMERALD I",
+      "lp": 6,
+      "wins": 93,
       "losses": 90,
-      "winRate": 50.5,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4967.png"
     },
     {
@@ -172,12 +172,12 @@
     {
       "name": "UIC Painfull",
       "role": "BOT",
-      "level": 802,
+      "level": 803,
       "tier": "EMERALD I",
-      "lp": 36,
-      "wins": 92,
+      "lp": 96,
+      "wins": 95,
       "losses": 82,
-      "winRate": 52.9,
+      "winRate": 53.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6883.png"
     },
     {
@@ -275,7 +275,7 @@
     {
       "name": "UIC Kamo",
       "role": "TOP",
-      "level": 565,
+      "level": 566,
       "tier": "MASTER I",
       "lp": 367,
       "wins": 297,
@@ -319,7 +319,7 @@
     {
       "name": "UIC Ryu Copeland",
       "role": "SUP",
-      "level": 1002,
+      "level": 1003,
       "tier": "MASTER I",
       "lp": 19,
       "wins": 75,
@@ -455,7 +455,7 @@
     {
       "name": "UIC Moonlxght",
       "role": "SUP",
-      "level": 321,
+      "level": 322,
       "tier": "DIAMOND I",
       "lp": 91,
       "wins": 99,
@@ -485,7 +485,7 @@
       "wins": 58,
       "losses": 56,
       "winRate": 50.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7129.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6700.png"
     },
     {
       "name": "UIC Muh",
@@ -536,27 +536,27 @@
       "role": "MID",
       "level": 600,
       "tier": "EMERALD IV",
-      "lp": 34,
-      "wins": 275,
+      "lp": 74,
+      "wins": 277,
       "losses": 266,
-      "winRate": 50.8,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7027.png"
     },
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1410,
+      "level": 1411,
       "tier": "PLATINUM I",
-      "lp": 55,
+      "lp": 14,
       "wins": 491,
-      "losses": 472,
-      "winRate": 51,
+      "losses": 474,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7132.png"
     },
     {
       "name": "UIC Deavan",
       "role": "BOT",
-      "level": 407,
+      "level": 408,
       "tier": "PLATINUM III",
       "lp": 77,
       "wins": 151,
@@ -579,11 +579,11 @@
       "name": "UIC Excellent C",
       "role": "SUP",
       "level": 578,
-      "tier": "GOLD II",
-      "lp": 85,
-      "wins": 118,
+      "tier": "GOLD I",
+      "lp": 3,
+      "wins": 119,
       "losses": 127,
-      "winRate": 48.2,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7064.png"
     }
   ],
@@ -593,10 +593,10 @@
       "role": "TOP",
       "level": 590,
       "tier": "PLATINUM I",
-      "lp": 51,
-      "wins": 80,
-      "losses": 92,
-      "winRate": 46.5,
+      "lp": 50,
+      "wins": 81,
+      "losses": 93,
+      "winRate": 46.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4074.png"
     },
     {
@@ -604,10 +604,10 @@
       "role": "JGL",
       "level": 462,
       "tier": "GOLD III",
-      "lp": 56,
+      "lp": 35,
       "wins": 98,
-      "losses": 100,
-      "winRate": 49.5,
+      "losses": 101,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7126.png"
     },
     {
@@ -694,10 +694,10 @@
       "role": "SUP",
       "level": 350,
       "tier": "PLATINUM I",
-      "lp": 53,
+      "lp": 31,
       "wins": 249,
-      "losses": 235,
-      "winRate": 51.4,
+      "losses": 236,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7100.png"
     }
   ],
