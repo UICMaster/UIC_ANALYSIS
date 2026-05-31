@@ -435,10 +435,10 @@
       "role": "MID",
       "level": 599,
       "tier": "PLATINUM I",
-      "lp": 8,
-      "wins": 127,
+      "lp": 26,
+      "wins": 128,
       "losses": 120,
-      "winRate": 51.4,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7139.png"
     },
     {
@@ -448,8 +448,8 @@
       "tier": "DIAMOND III",
       "lp": 38,
       "wins": 186,
-      "losses": 208,
-      "winRate": 47.2,
+      "losses": 209,
+      "winRate": 47.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6409.png"
     },
     {
@@ -485,7 +485,7 @@
       "wins": 59,
       "losses": 56,
       "winRate": 51.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6700.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1116.png"
     },
     {
       "name": "UIC Muh",
@@ -558,10 +558,10 @@
       "role": "BOT",
       "level": 408,
       "tier": "PLATINUM III",
-      "lp": 73,
+      "lp": 52,
       "wins": 153,
-      "losses": 135,
-      "winRate": 53.1,
+      "losses": 136,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6388.png"
     },
     {
@@ -579,11 +579,11 @@
       "name": "UIC Excellent C",
       "role": "SUP",
       "level": 578,
-      "tier": "GOLD I",
-      "lp": 3,
+      "tier": "GOLD II",
+      "lp": 82,
       "wins": 119,
-      "losses": 127,
-      "winRate": 48.4,
+      "losses": 128,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7064.png"
     }
   ],
