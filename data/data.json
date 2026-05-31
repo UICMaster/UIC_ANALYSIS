@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1039,
       "tier": "MASTER I",
-      "lp": 286,
-      "wins": 172,
+      "lp": 317,
+      "wins": 173,
       "losses": 159,
-      "winRate": 52,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
@@ -83,11 +83,11 @@
       "name": "Stafferl",
       "role": "TOP",
       "level": 847,
-      "tier": "EMERALD II",
-      "lp": 70,
-      "wins": 9,
+      "tier": "EMERALD I",
+      "lp": 1,
+      "wins": 10,
       "losses": 18,
-      "winRate": 33.3,
+      "winRate": 35.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7011.png"
     },
     {
@@ -117,10 +117,10 @@
       "role": "BOT",
       "level": 849,
       "tier": "EMERALD IV",
-      "lp": 86,
+      "lp": 65,
       "wins": 56,
-      "losses": 74,
-      "winRate": 43.1,
+      "losses": 75,
+      "winRate": 42.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6582.png"
     },
     {
@@ -152,10 +152,10 @@
       "role": "JGL",
       "level": 972,
       "tier": "EMERALD I",
-      "lp": 6,
-      "wins": 93,
-      "losses": 90,
-      "winRate": 50.8,
+      "lp": 26,
+      "wins": 95,
+      "losses": 91,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4967.png"
     },
     {
@@ -173,11 +173,11 @@
       "name": "UIC Painfull",
       "role": "BOT",
       "level": 803,
-      "tier": "EMERALD I",
-      "lp": 96,
-      "wins": 95,
+      "tier": "DIAMOND IV",
+      "lp": 16,
+      "wins": 96,
       "losses": 82,
-      "winRate": 53.7,
+      "winRate": 53.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6883.png"
     },
     {
@@ -209,10 +209,10 @@
       "role": "JGL",
       "level": 1046,
       "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 43,
+      "lp": 17,
+      "wins": 44,
       "losses": 53,
-      "winRate": 44.8,
+      "winRate": 45.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1453.png"
     },
     {
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 806,
       "tier": "EMERALD III",
-      "lp": 18,
-      "wins": 73,
+      "lp": 38,
+      "wins": 74,
       "losses": 78,
-      "winRate": 48.3,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4895.png"
     },
     {
@@ -369,8 +369,8 @@
       "tier": "MASTER I",
       "lp": 0,
       "wins": 34,
-      "losses": 29,
-      "winRate": 54,
+      "losses": 30,
+      "winRate": 53.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3840.png"
     },
     {
@@ -444,11 +444,11 @@
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 604,
+      "level": 605,
       "tier": "DIAMOND III",
-      "lp": 19,
-      "wins": 185,
-      "losses": 207,
+      "lp": 38,
+      "wins": 186,
+      "losses": 208,
       "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6409.png"
     },
@@ -593,21 +593,21 @@
       "role": "TOP",
       "level": 590,
       "tier": "PLATINUM I",
-      "lp": 50,
-      "wins": 81,
-      "losses": 93,
+      "lp": 49,
+      "wins": 82,
+      "losses": 94,
       "winRate": 46.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4074.png"
     },
     {
       "name": "Leberkasleatschn",
       "role": "JGL",
-      "level": 462,
+      "level": 463,
       "tier": "GOLD III",
-      "lp": 35,
-      "wins": 98,
+      "lp": 74,
+      "wins": 100,
       "losses": 101,
-      "winRate": 49.2,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7126.png"
     },
     {
@@ -694,10 +694,10 @@
       "role": "SUP",
       "level": 350,
       "tier": "PLATINUM I",
-      "lp": 31,
+      "lp": 9,
       "wins": 249,
-      "losses": 236,
-      "winRate": 51.3,
+      "losses": 237,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7100.png"
     }
   ],
