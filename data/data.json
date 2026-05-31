@@ -183,7 +183,7 @@
     {
       "name": "FirstBlo",
       "role": "SUP",
-      "level": 489,
+      "level": 490,
       "tier": "DIAMOND IV",
       "lp": 0,
       "wins": 86,
@@ -707,10 +707,10 @@
       "role": "TOP",
       "level": 754,
       "tier": "DIAMOND IV",
-      "lp": 42,
+      "lp": 21,
       "wins": 45,
-      "losses": 54,
-      "winRate": 45.5,
+      "losses": 55,
+      "winRate": 45,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3865.png"
     },
     {
