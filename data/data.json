@@ -197,11 +197,11 @@
       "name": "Reign",
       "role": "TOP",
       "level": 1300,
-      "tier": "EMERALD I",
-      "lp": 59,
-      "wins": 188,
+      "tier": "DIAMOND IV",
+      "lp": 18,
+      "wins": 190,
       "losses": 217,
-      "winRate": 46.4,
+      "winRate": 46.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5969.png"
     },
     {
@@ -229,12 +229,12 @@
     {
       "name": "UIC BissiBoy",
       "role": "BOT",
-      "level": 786,
-      "tier": "DIAMOND III",
-      "lp": 24,
-      "wins": 188,
-      "losses": 206,
-      "winRate": 47.7,
+      "level": 787,
+      "tier": "DIAMOND IV",
+      "lp": 80,
+      "wins": 189,
+      "losses": 209,
+      "winRate": 47.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6883.png"
     },
     {
@@ -433,7 +433,7 @@
     {
       "name": "UIC Ayumu",
       "role": "MID",
-      "level": 598,
+      "level": 599,
       "tier": "PLATINUM I",
       "lp": 8,
       "wins": 127,
@@ -445,11 +445,11 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 604,
-      "tier": "DIAMOND IV",
-      "lp": 99,
-      "wins": 183,
-      "losses": 206,
-      "winRate": 47,
+      "tier": "DIAMOND III",
+      "lp": 19,
+      "wins": 185,
+      "losses": 207,
+      "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6409.png"
     },
     {
@@ -604,10 +604,10 @@
       "role": "JGL",
       "level": 462,
       "tier": "GOLD III",
-      "lp": 77,
+      "lp": 56,
       "wins": 98,
-      "losses": 99,
-      "winRate": 49.7,
+      "losses": 100,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7126.png"
     },
     {
@@ -626,10 +626,10 @@
       "role": "BOT",
       "level": 434,
       "tier": "SILVER I",
-      "lp": 95,
+      "lp": 74,
       "wins": 106,
-      "losses": 96,
-      "winRate": 52.5,
+      "losses": 97,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6102.png"
     },
     {
@@ -705,12 +705,12 @@
     {
       "name": "UIC Laserjet M47",
       "role": "TOP",
-      "level": 753,
+      "level": 754,
       "tier": "DIAMOND IV",
-      "lp": 47,
-      "wins": 43,
-      "losses": 52,
-      "winRate": 45.3,
+      "lp": 42,
+      "wins": 45,
+      "losses": 54,
+      "winRate": 45.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3865.png"
     },
     {
