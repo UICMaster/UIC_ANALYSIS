@@ -196,7 +196,7 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1301,
+      "level": 1302,
       "tier": "DIAMOND IV",
       "lp": 18,
       "wins": 190,
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 912,
       "tier": "MASTER I",
-      "lp": 50,
-      "wins": 153,
-      "losses": 167,
-      "winRate": 47.8,
+      "lp": 80,
+      "wins": 154,
+      "losses": 169,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4650.png"
     },
     {
@@ -537,8 +537,8 @@
       "level": 602,
       "tier": "EMERALD III",
       "lp": 12,
-      "wins": 283,
-      "losses": 270,
+      "wins": 285,
+      "losses": 272,
       "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7027.png"
     },
