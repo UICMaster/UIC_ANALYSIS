@@ -196,7 +196,7 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1300,
+      "level": 1301,
       "tier": "DIAMOND IV",
       "lp": 18,
       "wins": 190,
@@ -556,7 +556,7 @@
     {
       "name": "UIC Deavan",
       "role": "BOT",
-      "level": 408,
+      "level": 409,
       "tier": "PLATINUM III",
       "lp": 52,
       "wins": 153,
@@ -707,11 +707,11 @@
       "role": "TOP",
       "level": 754,
       "tier": "DIAMOND IV",
-      "lp": 21,
-      "wins": 45,
-      "losses": 55,
-      "winRate": 45,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3865.png"
+      "lp": 19,
+      "wins": 46,
+      "losses": 56,
+      "winRate": 45.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4793.png"
     },
     {
       "name": "yShizuu",
