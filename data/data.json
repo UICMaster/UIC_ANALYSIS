@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1174,
       "tier": "MASTER I",
-      "lp": 38,
-      "wins": 165,
-      "losses": 177,
-      "winRate": 48.2,
+      "lp": 65,
+      "wins": 167,
+      "losses": 178,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4835.png"
     },
     {
@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1040,
       "tier": "MASTER I",
-      "lp": 199,
+      "lp": 119,
       "wins": 173,
-      "losses": 163,
-      "winRate": 51.5,
+      "losses": 165,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
@@ -48,11 +48,11 @@
       "name": "UIC Baguetto",
       "role": "SUP",
       "level": 1002,
-      "tier": "DIAMOND I",
-      "lp": 92,
-      "wins": 129,
+      "tier": "MASTER I",
+      "lp": 13,
+      "wins": 130,
       "losses": 110,
-      "winRate": 54,
+      "winRate": 54.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
@@ -72,9 +72,9 @@
       "level": 644,
       "tier": "MASTER I",
       "lp": 190,
-      "wins": 76,
-      "losses": 63,
-      "winRate": 54.7,
+      "wins": 77,
+      "losses": 64,
+      "winRate": 54.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6811.png"
     }
   ],
@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 996,
       "tier": "DIAMOND IV",
-      "lp": 44,
-      "wins": 49,
-      "losses": 70,
-      "winRate": 41.2,
+      "lp": 58,
+      "wins": 51,
+      "losses": 71,
+      "winRate": 41.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6284.png"
     },
     {
@@ -218,7 +218,7 @@
     {
       "name": "UIC Landmine",
       "role": "MID",
-      "level": 669,
+      "level": 670,
       "tier": "EMERALD I",
       "lp": 20,
       "wins": 61,
@@ -240,7 +240,7 @@
     {
       "name": "UIC Haselmania",
       "role": "SUP",
-      "level": 607,
+      "level": 608,
       "tier": "MASTER I",
       "lp": 1,
       "wins": 62,
@@ -286,23 +286,23 @@
     {
       "name": "UIC Exi",
       "role": "JGL",
-      "level": 801,
+      "level": 802,
       "tier": "MASTER I",
-      "lp": 455,
-      "wins": 182,
-      "losses": 166,
+      "lp": 458,
+      "wins": 183,
+      "losses": 167,
       "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/528.png"
     },
     {
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 911,
+      "level": 912,
       "tier": "MASTER I",
-      "lp": 78,
-      "wins": 152,
-      "losses": 165,
-      "winRate": 47.9,
+      "lp": 50,
+      "wins": 153,
+      "losses": 167,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4650.png"
     },
     {
@@ -457,10 +457,10 @@
       "role": "SUP",
       "level": 322,
       "tier": "MASTER I",
-      "lp": 10,
+      "lp": 0,
       "wins": 100,
-      "losses": 83,
-      "winRate": 54.6,
+      "losses": 84,
+      "winRate": 54.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4068.png"
     },
     {
@@ -479,7 +479,7 @@
     {
       "name": "UIC Kaetaya",
       "role": "TOP",
-      "level": 875,
+      "level": 876,
       "tier": "EMERALD II",
       "lp": 73,
       "wins": 59,
@@ -524,11 +524,11 @@
       "name": "UIC adedier",
       "role": "MID",
       "level": 622,
-      "tier": "PLATINUM IV",
-      "lp": 89,
-      "wins": 97,
+      "tier": "PLATINUM III",
+      "lp": 8,
+      "wins": 98,
       "losses": 103,
-      "winRate": 48.5,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4379.png"
     },
     {
@@ -591,7 +591,7 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 590,
+      "level": 591,
       "tier": "PLATINUM I",
       "lp": 29,
       "wins": 82,
@@ -624,7 +624,7 @@
     {
       "name": "BlondiXE1",
       "role": "BOT",
-      "level": 434,
+      "level": 435,
       "tier": "SILVER I",
       "lp": 49,
       "wins": 108,
