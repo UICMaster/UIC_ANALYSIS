@@ -5,21 +5,21 @@
       "role": "TOP",
       "level": 1174,
       "tier": "MASTER I",
-      "lp": 69,
+      "lp": 38,
       "wins": 165,
-      "losses": 176,
-      "winRate": 48.4,
+      "losses": 177,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4835.png"
     },
     {
       "name": "UIC Niki",
       "role": "JGL",
-      "level": 1039,
+      "level": 1040,
       "tier": "MASTER I",
-      "lp": 259,
+      "lp": 199,
       "wins": 173,
-      "losses": 161,
-      "winRate": 51.8,
+      "losses": 163,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
@@ -47,12 +47,12 @@
     {
       "name": "UIC Baguetto",
       "role": "SUP",
-      "level": 1001,
+      "level": 1002,
       "tier": "DIAMOND I",
-      "lp": 45,
-      "wins": 125,
-      "losses": 108,
-      "winRate": 53.6,
+      "lp": 92,
+      "wins": 129,
+      "losses": 110,
+      "winRate": 54,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
@@ -69,7 +69,7 @@
     {
       "name": "UIC FrozenHands",
       "role": "MID",
-      "level": 643,
+      "level": 644,
       "tier": "MASTER I",
       "lp": 190,
       "wins": 76,
@@ -151,11 +151,11 @@
       "name": "UIC Hunter",
       "role": "JGL",
       "level": 972,
-      "tier": "EMERALD I",
-      "lp": 26,
+      "tier": "EMERALD II",
+      "lp": 86,
       "wins": 95,
-      "losses": 91,
-      "winRate": 51.1,
+      "losses": 93,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4967.png"
     },
     {
@@ -163,10 +163,10 @@
       "role": "MID",
       "level": 468,
       "tier": "DIAMOND IV",
-      "lp": 46,
+      "lp": 26,
       "wins": 85,
-      "losses": 80,
-      "winRate": 51.5,
+      "losses": 81,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7076.png"
     },
     {
@@ -277,10 +277,10 @@
       "role": "TOP",
       "level": 566,
       "tier": "MASTER I",
-      "lp": 367,
-      "wins": 297,
+      "lp": 398,
+      "wins": 298,
       "losses": 260,
-      "winRate": 53.3,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6640.png"
     },
     {
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 801,
       "tier": "MASTER I",
-      "lp": 391,
-      "wins": 180,
+      "lp": 455,
+      "wins": 182,
       "losses": 166,
-      "winRate": 52,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/528.png"
     },
     {
@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 850,
       "tier": "MASTER I",
-      "lp": 321,
-      "wins": 126,
+      "lp": 352,
+      "wins": 127,
       "losses": 100,
-      "winRate": 55.8,
+      "winRate": 55.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6373.png"
     },
     {
@@ -354,12 +354,12 @@
     {
       "name": "UIC DANY",
       "role": "TOP",
-      "level": 545,
+      "level": 546,
       "tier": "DIAMOND I",
-      "lp": 38,
-      "wins": 94,
-      "losses": 74,
-      "winRate": 56,
+      "lp": 34,
+      "wins": 95,
+      "losses": 76,
+      "winRate": 55.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3157.png"
     },
     {
@@ -387,7 +387,7 @@
     {
       "name": "UIC Pjure",
       "role": "BOT",
-      "level": 747,
+      "level": 748,
       "tier": "DIAMOND II",
       "lp": 68,
       "wins": 119,
@@ -411,7 +411,7 @@
     {
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 925,
+      "level": 926,
       "tier": "EMERALD I",
       "lp": 61,
       "wins": 64,
@@ -523,23 +523,23 @@
     {
       "name": "UIC adedier",
       "role": "MID",
-      "level": 621,
+      "level": 622,
       "tier": "PLATINUM IV",
-      "lp": 52,
-      "wins": 95,
+      "lp": 89,
+      "wins": 97,
       "losses": 103,
-      "winRate": 48,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4379.png"
     },
     {
       "name": "UIC GreatATuin",
       "role": "MID",
-      "level": 601,
-      "tier": "EMERALD IV",
-      "lp": 73,
-      "wins": 279,
-      "losses": 268,
-      "winRate": 51,
+      "level": 602,
+      "tier": "EMERALD III",
+      "lp": 12,
+      "wins": 283,
+      "losses": 270,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7027.png"
     },
     {
@@ -547,10 +547,10 @@
       "role": "BOT",
       "level": 1411,
       "tier": "PLATINUM I",
-      "lp": 14,
-      "wins": 491,
-      "losses": 474,
-      "winRate": 50.9,
+      "lp": 54,
+      "wins": 494,
+      "losses": 475,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7132.png"
     },
     {
@@ -578,12 +578,12 @@
     {
       "name": "UIC Excellent C",
       "role": "SUP",
-      "level": 578,
-      "tier": "GOLD II",
-      "lp": 82,
-      "wins": 119,
-      "losses": 128,
-      "winRate": 48.2,
+      "level": 579,
+      "tier": "GOLD I",
+      "lp": 38,
+      "wins": 123,
+      "losses": 129,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7064.png"
     }
   ],
@@ -593,10 +593,10 @@
       "role": "TOP",
       "level": 590,
       "tier": "PLATINUM I",
-      "lp": 49,
+      "lp": 29,
       "wins": 82,
-      "losses": 94,
-      "winRate": 46.6,
+      "losses": 95,
+      "winRate": 46.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4074.png"
     },
     {
@@ -648,12 +648,12 @@
     {
       "name": "UIC ソニック",
       "role": "TOP",
-      "level": 725,
+      "level": 726,
       "tier": "EMERALD IV",
-      "lp": 76,
-      "wins": 83,
-      "losses": 75,
-      "winRate": 52.5,
+      "lp": 63,
+      "wins": 86,
+      "losses": 80,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6490.png"
     },
     {
@@ -670,11 +670,11 @@
     {
       "name": "UIC Flare",
       "role": "MID",
-      "level": 643,
+      "level": 644,
       "tier": "DIAMOND IV",
-      "lp": 12,
-      "wins": 100,
-      "losses": 95,
+      "lp": 11,
+      "wins": 101,
+      "losses": 96,
       "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1625.png"
     },
@@ -682,22 +682,22 @@
       "name": "UIC Starboy",
       "role": "BOT",
       "level": 848,
-      "tier": "MASTER I",
-      "lp": 0,
+      "tier": "DIAMOND I",
+      "lp": 28,
       "wins": 344,
-      "losses": 306,
-      "winRate": 52.9,
+      "losses": 308,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4575.png"
     },
     {
       "name": "UIC Envy",
       "role": "SUP",
-      "level": 350,
-      "tier": "PLATINUM I",
-      "lp": 9,
-      "wins": 249,
-      "losses": 237,
-      "winRate": 51.2,
+      "level": 351,
+      "tier": "PLATINUM II",
+      "lp": 58,
+      "wins": 250,
+      "losses": 240,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7100.png"
     }
   ],
