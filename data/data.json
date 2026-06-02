@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1040,
       "tier": "MASTER I",
-      "lp": 150,
-      "wins": 176,
-      "losses": 167,
-      "winRate": 51.3,
+      "lp": 182,
+      "wins": 178,
+      "losses": 168,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 644,
       "tier": "MASTER I",
-      "lp": 140,
+      "lp": 80,
       "wins": 79,
-      "losses": 67,
-      "winRate": 54.1,
+      "losses": 69,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6811.png"
     }
   ],
@@ -139,7 +139,7 @@
     {
       "name": "VTennic",
       "role": "TOP",
-      "level": 487,
+      "level": 488,
       "tier": "DIAMOND III",
       "lp": 1,
       "wins": 23,
@@ -198,10 +198,10 @@
       "role": "TOP",
       "level": 1302,
       "tier": "DIAMOND IV",
-      "lp": 18,
+      "lp": 0,
       "wins": 190,
-      "losses": 217,
-      "winRate": 46.7,
+      "losses": 218,
+      "winRate": 46.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3159.png"
     },
     {
@@ -231,10 +231,10 @@
       "role": "BOT",
       "level": 788,
       "tier": "DIAMOND IV",
-      "lp": 51,
-      "wins": 193,
-      "losses": 214,
-      "winRate": 47.4,
+      "lp": 68,
+      "wins": 195,
+      "losses": 215,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1456.png"
     },
     {
@@ -262,12 +262,12 @@
     {
       "name": "UIC Taiga",
       "role": "COH",
-      "level": 470,
+      "level": 471,
       "tier": "DIAMOND III",
-      "lp": 65,
+      "lp": 55,
       "wins": 22,
-      "losses": 14,
-      "winRate": 61.1,
+      "losses": 15,
+      "winRate": 59.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6795.png"
     }
   ],
@@ -729,9 +729,9 @@
       "role": "MID",
       "level": 477,
       "tier": "EMERALD I",
-      "lp": 76,
-      "wins": 72,
-      "losses": 98,
+      "lp": 74,
+      "wins": 73,
+      "losses": 99,
       "winRate": 42.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1045.png"
     },
