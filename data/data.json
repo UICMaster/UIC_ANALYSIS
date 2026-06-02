@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1040,
       "tier": "MASTER I",
-      "lp": 180,
+      "lp": 150,
       "wins": 176,
-      "losses": 166,
-      "winRate": 51.5,
+      "losses": 167,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 644,
       "tier": "MASTER I",
-      "lp": 130,
-      "wins": 78,
+      "lp": 140,
+      "wins": 79,
       "losses": 67,
-      "winRate": 53.8,
+      "winRate": 54.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6811.png"
     }
   ],
@@ -82,7 +82,7 @@
     {
       "name": "Stafferl",
       "role": "TOP",
-      "level": 847,
+      "level": 848,
       "tier": "EMERALD I",
       "lp": 1,
       "wins": 10,
@@ -95,10 +95,10 @@
       "role": "JGL",
       "level": 295,
       "tier": "EMERALD III",
-      "lp": 43,
+      "lp": 1,
       "wins": 69,
-      "losses": 68,
-      "winRate": 50.4,
+      "losses": 70,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5982.png"
     },
     {
@@ -150,7 +150,7 @@
     {
       "name": "UIC Hunter",
       "role": "JGL",
-      "level": 972,
+      "level": 973,
       "tier": "EMERALD II",
       "lp": 66,
       "wins": 96,
@@ -229,12 +229,12 @@
     {
       "name": "UIC BissiBoy",
       "role": "BOT",
-      "level": 787,
+      "level": 788,
       "tier": "DIAMOND IV",
-      "lp": 76,
-      "wins": 191,
-      "losses": 211,
-      "winRate": 47.5,
+      "lp": 51,
+      "wins": 193,
+      "losses": 214,
+      "winRate": 47.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1456.png"
     },
     {
@@ -367,10 +367,10 @@
       "role": "JGL",
       "level": 796,
       "tier": "MASTER I",
-      "lp": 30,
-      "wins": 35,
+      "lp": 60,
+      "wins": 36,
       "losses": 30,
-      "winRate": 53.8,
+      "winRate": 54.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3840.png"
     },
     {
@@ -485,7 +485,7 @@
       "wins": 59,
       "losses": 56,
       "winRate": 51.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1116.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6700.png"
     },
     {
       "name": "UIC Muh",
@@ -514,10 +514,10 @@
       "role": "JGL",
       "level": 961,
       "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 46,
+      "lp": 19,
+      "wins": 47,
       "losses": 43,
-      "winRate": 51.7,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5373.png"
     },
     {
@@ -551,7 +551,7 @@
       "wins": 499,
       "losses": 480,
       "winRate": 51,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7132.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/907.png"
     },
     {
       "name": "UIC Deavan",
@@ -602,7 +602,7 @@
     {
       "name": "Leberkasleatschn",
       "role": "JGL",
-      "level": 463,
+      "level": 464,
       "tier": "GOLD III",
       "lp": 53,
       "wins": 102,
@@ -637,10 +637,10 @@
       "role": "SUP",
       "level": 751,
       "tier": "GOLD I",
-      "lp": 67,
-      "wins": 69,
-      "losses": 85,
-      "winRate": 44.8,
+      "lp": 84,
+      "wins": 71,
+      "losses": 86,
+      "winRate": 45.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/932.png"
     }
   ],
@@ -705,12 +705,12 @@
     {
       "name": "UIC Laserjet M47",
       "role": "TOP",
-      "level": 754,
+      "level": 755,
       "tier": "DIAMOND IV",
       "lp": 0,
       "wins": 47,
-      "losses": 58,
-      "winRate": 44.8,
+      "losses": 59,
+      "winRate": 44.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4793.png"
     },
     {
