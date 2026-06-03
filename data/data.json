@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1040,
       "tier": "MASTER I",
-      "lp": 182,
-      "wins": 178,
+      "lp": 213,
+      "wins": 179,
       "losses": 168,
-      "winRate": 51.4,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
@@ -27,10 +27,10 @@
       "role": "MID",
       "level": 639,
       "tier": "MASTER I",
-      "lp": 80,
-      "wins": 87,
+      "lp": 111,
+      "wins": 88,
       "losses": 83,
-      "winRate": 51.2,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7094.png"
     },
     {
@@ -49,10 +49,10 @@
       "role": "SUP",
       "level": 1003,
       "tier": "DIAMOND I",
-      "lp": 17,
-      "wins": 131,
-      "losses": 117,
-      "winRate": 52.8,
+      "lp": 1,
+      "wins": 132,
+      "losses": 120,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
@@ -161,7 +161,7 @@
     {
       "name": "UIC Kaoxz",
       "role": "MID",
-      "level": 468,
+      "level": 469,
       "tier": "DIAMOND IV",
       "lp": 26,
       "wins": 85,
@@ -230,11 +230,11 @@
       "name": "UIC BissiBoy",
       "role": "BOT",
       "level": 789,
-      "tier": "DIAMOND IV",
-      "lp": 40,
-      "wins": 199,
+      "tier": "DIAMOND III",
+      "lp": 1,
+      "wins": 202,
       "losses": 220,
-      "winRate": 47.5,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1456.png"
     },
     {
@@ -277,10 +277,10 @@
       "role": "TOP",
       "level": 566,
       "tier": "MASTER I",
-      "lp": 403,
-      "wins": 301,
+      "lp": 434,
+      "wins": 302,
       "losses": 264,
-      "winRate": 53.3,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6640.png"
     },
     {
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 913,
       "tier": "MASTER I",
-      "lp": 200,
-      "wins": 159,
+      "lp": 230,
+      "wins": 160,
       "losses": 170,
-      "winRate": 48.3,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4569.png"
     },
     {
@@ -683,10 +683,10 @@
       "role": "BOT",
       "level": 849,
       "tier": "DIAMOND I",
-      "lp": 28,
+      "lp": 6,
       "wins": 344,
-      "losses": 308,
-      "winRate": 52.8,
+      "losses": 309,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6872.png"
     },
     {
@@ -703,7 +703,7 @@
   ],
   "abyss": [
     {
-      "name": "UIC Laserjet M47",
+      "name": "myblondie",
       "role": "TOP",
       "level": 755,
       "tier": "DIAMOND IV",
@@ -711,7 +711,7 @@
       "wins": 47,
       "losses": 59,
       "winRate": 44.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4793.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6809.png"
     },
     {
       "name": "yShizuu",
