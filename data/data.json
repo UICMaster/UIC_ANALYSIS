@@ -49,10 +49,10 @@
       "role": "SUP",
       "level": 1002,
       "tier": "MASTER I",
-      "lp": 13,
-      "wins": 130,
-      "losses": 110,
-      "winRate": 54.2,
+      "lp": 30,
+      "wins": 131,
+      "losses": 111,
+      "winRate": 54.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 644,
       "tier": "MASTER I",
-      "lp": 80,
-      "wins": 79,
-      "losses": 69,
-      "winRate": 53.4,
+      "lp": 110,
+      "wins": 81,
+      "losses": 70,
+      "winRate": 53.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6811.png"
     }
   ],
@@ -95,10 +95,10 @@
       "role": "JGL",
       "level": 295,
       "tier": "EMERALD III",
-      "lp": 1,
-      "wins": 69,
+      "lp": 20,
+      "wins": 70,
       "losses": 70,
-      "winRate": 49.6,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5982.png"
     },
     {
@@ -242,10 +242,10 @@
       "role": "SUP",
       "level": 608,
       "tier": "MASTER I",
-      "lp": 1,
+      "lp": 0,
       "wins": 62,
-      "losses": 56,
-      "winRate": 52.5,
+      "losses": 57,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/665.png"
     },
     {
@@ -263,11 +263,11 @@
       "name": "UIC Taiga",
       "role": "COH",
       "level": 471,
-      "tier": "DIAMOND III",
-      "lp": 55,
-      "wins": 22,
+      "tier": "DIAMOND II",
+      "lp": 45,
+      "wins": 24,
       "losses": 15,
-      "winRate": 59.5,
+      "winRate": 61.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6795.png"
     }
   ],
@@ -277,9 +277,9 @@
       "role": "TOP",
       "level": 566,
       "tier": "MASTER I",
-      "lp": 400,
-      "wins": 299,
-      "losses": 262,
+      "lp": 403,
+      "wins": 301,
+      "losses": 264,
       "winRate": 53.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6640.png"
     },
@@ -297,12 +297,12 @@
     {
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 912,
+      "level": 913,
       "tier": "MASTER I",
-      "lp": 140,
-      "wins": 156,
-      "losses": 169,
-      "winRate": 48,
+      "lp": 170,
+      "wins": 158,
+      "losses": 170,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4569.png"
     },
     {
@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 850,
       "tier": "MASTER I",
-      "lp": 383,
-      "wins": 128,
+      "lp": 414,
+      "wins": 129,
       "losses": 101,
-      "winRate": 55.9,
+      "winRate": 56.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6373.png"
     },
     {
@@ -481,10 +481,10 @@
       "role": "TOP",
       "level": 876,
       "tier": "EMERALD II",
-      "lp": 73,
-      "wins": 59,
+      "lp": 94,
+      "wins": 60,
       "losses": 56,
-      "winRate": 51.3,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6700.png"
     },
     {
@@ -536,10 +536,10 @@
       "role": "MID",
       "level": 603,
       "tier": "EMERALD III",
-      "lp": 49,
-      "wins": 289,
+      "lp": 87,
+      "wins": 291,
       "losses": 275,
-      "winRate": 51.2,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7027.png"
     },
     {
@@ -547,9 +547,9 @@
       "role": "BOT",
       "level": 1412,
       "tier": "EMERALD IV",
-      "lp": 14,
+      "lp": 0,
       "wins": 502,
-      "losses": 480,
+      "losses": 481,
       "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/907.png"
     },
@@ -727,7 +727,7 @@
     {
       "name": "UIC Keygasza",
       "role": "MID",
-      "level": 477,
+      "level": 478,
       "tier": "EMERALD I",
       "lp": 74,
       "wins": 73,
