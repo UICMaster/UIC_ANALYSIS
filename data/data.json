@@ -275,12 +275,12 @@
     {
       "name": "UIC Kamo",
       "role": "TOP",
-      "level": 566,
+      "level": 567,
       "tier": "MASTER I",
-      "lp": 434,
-      "wins": 302,
-      "losses": 264,
-      "winRate": 53.4,
+      "lp": 378,
+      "wins": 304,
+      "losses": 268,
+      "winRate": 53.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6640.png"
     },
     {
@@ -288,9 +288,9 @@
       "role": "JGL",
       "level": 802,
       "tier": "MASTER I",
-      "lp": 371,
-      "wins": 183,
-      "losses": 170,
+      "lp": 373,
+      "wins": 184,
+      "losses": 171,
       "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/528.png"
     },
@@ -308,12 +308,12 @@
     {
       "name": "UIC AutumnLeaf",
       "role": "BOT",
-      "level": 850,
+      "level": 851,
       "tier": "MASTER I",
-      "lp": 414,
-      "wins": 129,
-      "losses": 101,
-      "winRate": 56.1,
+      "lp": 447,
+      "wins": 131,
+      "losses": 102,
+      "winRate": 56.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6373.png"
     },
     {
@@ -333,8 +333,8 @@
       "level": 806,
       "tier": "EMERALD III",
       "lp": 58,
-      "wins": 75,
-      "losses": 78,
+      "wins": 76,
+      "losses": 79,
       "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4895.png"
     },
@@ -389,10 +389,10 @@
       "role": "BOT",
       "level": 748,
       "tier": "DIAMOND II",
-      "lp": 68,
-      "wins": 119,
-      "losses": 109,
-      "winRate": 52.2,
+      "lp": 45,
+      "wins": 120,
+      "losses": 111,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5449.png"
     },
     {
@@ -435,10 +435,10 @@
       "role": "MID",
       "level": 599,
       "tier": "PLATINUM I",
-      "lp": 26,
+      "lp": 4,
       "wins": 128,
-      "losses": 120,
-      "winRate": 51.6,
+      "losses": 121,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7139.png"
     },
     {
@@ -457,10 +457,10 @@
       "role": "SUP",
       "level": 322,
       "tier": "MASTER I",
-      "lp": 59,
+      "lp": 29,
       "wins": 103,
-      "losses": 85,
-      "winRate": 54.8,
+      "losses": 86,
+      "winRate": 54.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4068.png"
     },
     {
@@ -547,10 +547,10 @@
       "role": "BOT",
       "level": 1413,
       "tier": "EMERALD IV",
-      "lp": 29,
-      "wins": 505,
-      "losses": 484,
-      "winRate": 51.1,
+      "lp": 4,
+      "wins": 506,
+      "losses": 486,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4238.png"
     },
     {
@@ -659,7 +659,7 @@
     {
       "name": "BlauerKlaus",
       "role": "JGL",
-      "level": 1151,
+      "level": 1152,
       "tier": "MASTER I",
       "lp": 9,
       "wins": 89,
