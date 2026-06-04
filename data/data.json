@@ -14,12 +14,12 @@
     {
       "name": "UIC Niki",
       "role": "JGL",
-      "level": 1040,
+      "level": 1041,
       "tier": "MASTER I",
-      "lp": 183,
-      "wins": 179,
+      "lp": 214,
+      "wins": 180,
       "losses": 169,
-      "winRate": 51.4,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 997,
       "tier": "DIAMOND IV",
-      "lp": 77,
-      "wins": 52,
-      "losses": 71,
-      "winRate": 42.3,
+      "lp": 75,
+      "wins": 53,
+      "losses": 72,
+      "winRate": 42.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6284.png"
     },
     {
@@ -231,10 +231,10 @@
       "role": "BOT",
       "level": 789,
       "tier": "DIAMOND IV",
-      "lp": 59,
+      "lp": 18,
       "wins": 202,
-      "losses": 222,
-      "winRate": 47.6,
+      "losses": 224,
+      "winRate": 47.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1456.png"
     },
     {
@@ -300,8 +300,8 @@
       "level": 914,
       "tier": "MASTER I",
       "lp": 200,
-      "wins": 163,
-      "losses": 174,
+      "wins": 164,
+      "losses": 175,
       "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4569.png"
     },
@@ -387,12 +387,12 @@
     {
       "name": "UIC Pjure",
       "role": "BOT",
-      "level": 748,
+      "level": 749,
       "tier": "DIAMOND II",
-      "lp": 62,
-      "wins": 122,
-      "losses": 112,
-      "winRate": 52.1,
+      "lp": 79,
+      "wins": 124,
+      "losses": 113,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5449.png"
     },
     {
@@ -592,11 +592,11 @@
       "name": "UIC Papi Δce",
       "role": "TOP",
       "level": 591,
-      "tier": "PLATINUM II",
-      "lp": 89,
-      "wins": 82,
+      "tier": "PLATINUM I",
+      "lp": 9,
+      "wins": 83,
       "losses": 97,
-      "winRate": 45.8,
+      "winRate": 46.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4074.png"
     },
     {
@@ -604,10 +604,10 @@
       "role": "JGL",
       "level": 464,
       "tier": "GOLD III",
-      "lp": 53,
+      "lp": 11,
       "wins": 102,
-      "losses": 104,
-      "winRate": 49.5,
+      "losses": 106,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7126.png"
     },
     {
