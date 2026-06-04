@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1040,
       "tier": "MASTER I",
-      "lp": 213,
+      "lp": 183,
       "wins": 179,
-      "losses": 168,
-      "winRate": 51.6,
+      "losses": 169,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
@@ -27,9 +27,9 @@
       "role": "MID",
       "level": 640,
       "tier": "MASTER I",
-      "lp": 116,
-      "wins": 92,
-      "losses": 87,
+      "lp": 146,
+      "wins": 93,
+      "losses": 88,
       "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7094.png"
     },
@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 997,
       "tier": "DIAMOND IV",
-      "lp": 58,
-      "wins": 51,
+      "lp": 77,
+      "wins": 52,
       "losses": 71,
-      "winRate": 41.8,
+      "winRate": 42.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6284.png"
     },
     {
@@ -172,7 +172,7 @@
     {
       "name": "UIC Painfull",
       "role": "BOT",
-      "level": 803,
+      "level": 804,
       "tier": "DIAMOND IV",
       "lp": 16,
       "wins": 96,
@@ -183,7 +183,7 @@
     {
       "name": "FirstBlo",
       "role": "SUP",
-      "level": 490,
+      "level": 491,
       "tier": "DIAMOND IV",
       "lp": 0,
       "wins": 86,
@@ -231,10 +231,10 @@
       "role": "BOT",
       "level": 789,
       "tier": "DIAMOND IV",
-      "lp": 80,
+      "lp": 59,
       "wins": 202,
-      "losses": 221,
-      "winRate": 47.8,
+      "losses": 222,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1456.png"
     },
     {
@@ -275,12 +275,12 @@
     {
       "name": "UIC Kamo",
       "role": "TOP",
-      "level": 567,
+      "level": 568,
       "tier": "MASTER I",
-      "lp": 168,
-      "wins": 305,
+      "lp": 228,
+      "wins": 307,
       "losses": 276,
-      "winRate": 52.5,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6640.png"
     },
     {
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 914,
       "tier": "MASTER I",
-      "lp": 230,
+      "lp": 200,
       "wins": 163,
-      "losses": 173,
-      "winRate": 48.5,
+      "losses": 174,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4569.png"
     },
     {
@@ -389,10 +389,10 @@
       "role": "BOT",
       "level": 748,
       "tier": "DIAMOND II",
-      "lp": 64,
-      "wins": 121,
-      "losses": 111,
-      "winRate": 52.2,
+      "lp": 62,
+      "wins": 122,
+      "losses": 112,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5449.png"
     },
     {
@@ -434,11 +434,11 @@
       "name": "UIC Ayumu",
       "role": "MID",
       "level": 600,
-      "tier": "PLATINUM II",
-      "lp": 82,
-      "wins": 128,
+      "tier": "PLATINUM I",
+      "lp": 1,
+      "wins": 129,
       "losses": 122,
-      "winRate": 51.2,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7139.png"
     },
     {
@@ -446,9 +446,9 @@
       "role": "BOT",
       "level": 606,
       "tier": "DIAMOND III",
-      "lp": 67,
-      "wins": 188,
-      "losses": 211,
+      "lp": 61,
+      "wins": 189,
+      "losses": 212,
       "winRate": 47.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6409.png"
     },
@@ -479,13 +479,13 @@
     {
       "name": "UIC Kaetaya",
       "role": "TOP",
-      "level": 876,
+      "level": 877,
       "tier": "EMERALD II",
-      "lp": 94,
+      "lp": 75,
       "wins": 60,
-      "losses": 56,
-      "winRate": 51.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/773.png"
+      "losses": 57,
+      "winRate": 51.3,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7129.png"
     },
     {
       "name": "UIC Muh",
