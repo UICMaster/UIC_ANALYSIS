@@ -300,8 +300,8 @@
       "level": 913,
       "tier": "MASTER I",
       "lp": 230,
-      "wins": 160,
-      "losses": 170,
+      "wins": 161,
+      "losses": 171,
       "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4569.png"
     },
@@ -466,7 +466,7 @@
     {
       "name": "zab77",
       "role": "TOP",
-      "level": 287,
+      "level": 288,
       "tier": "UNRANKED",
       "lp": 0,
       "wins": 0,
