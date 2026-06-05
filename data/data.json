@@ -60,7 +60,7 @@
       "role": "MID",
       "level": 1082,
       "tier": "MASTER I",
-      "lp": 764,
+      "lp": 689,
       "wins": 398,
       "losses": 384,
       "winRate": 50.9,
@@ -240,7 +240,7 @@
     {
       "name": "UIC Haselmania",
       "role": "SUP",
-      "level": 608,
+      "level": 609,
       "tier": "MASTER I",
       "lp": 0,
       "wins": 62,
@@ -277,10 +277,10 @@
       "role": "TOP",
       "level": 569,
       "tier": "MASTER I",
-      "lp": 77,
+      "lp": 46,
       "wins": 312,
-      "losses": 286,
-      "winRate": 52.2,
+      "losses": 287,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6640.png"
     },
     {
@@ -387,7 +387,7 @@
     {
       "name": "UIC Pjure",
       "role": "BOT",
-      "level": 749,
+      "level": 750,
       "tier": "DIAMOND I",
       "lp": 14,
       "wins": 127,
@@ -446,9 +446,9 @@
       "role": "BOT",
       "level": 607,
       "tier": "DIAMOND III",
-      "lp": 9,
-      "wins": 190,
-      "losses": 215,
+      "lp": 4,
+      "wins": 191,
+      "losses": 216,
       "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6409.png"
     },
