@@ -196,7 +196,7 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1302,
+      "level": 1303,
       "tier": "DIAMOND IV",
       "lp": 0,
       "wins": 190,
@@ -231,10 +231,10 @@
       "role": "BOT",
       "level": 790,
       "tier": "DIAMOND IV",
-      "lp": 95,
+      "lp": 74,
       "wins": 209,
-      "losses": 227,
-      "winRate": 47.9,
+      "losses": 228,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1456.png"
     },
     {
@@ -277,10 +277,10 @@
       "role": "TOP",
       "level": 569,
       "tier": "MASTER I",
-      "lp": 138,
+      "lp": 77,
       "wins": 312,
-      "losses": 284,
-      "winRate": 52.3,
+      "losses": 286,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6640.png"
     },
     {
@@ -297,12 +297,12 @@
     {
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 914,
+      "level": 915,
       "tier": "MASTER I",
-      "lp": 140,
-      "wins": 165,
-      "losses": 178,
-      "winRate": 48.1,
+      "lp": 110,
+      "wins": 166,
+      "losses": 180,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4569.png"
     },
     {
@@ -635,12 +635,12 @@
     {
       "name": "LordZash",
       "role": "SUP",
-      "level": 751,
-      "tier": "GOLD I",
-      "lp": 84,
-      "wins": 71,
+      "level": 752,
+      "tier": "PLATINUM IV",
+      "lp": 4,
+      "wins": 72,
       "losses": 86,
-      "winRate": 45.2,
+      "winRate": 45.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/932.png"
     }
   ],
