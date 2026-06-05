@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1041,
       "tier": "MASTER I",
-      "lp": 214,
+      "lp": 154,
       "wins": 180,
-      "losses": 169,
-      "winRate": 51.6,
+      "losses": 171,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
@@ -230,11 +230,11 @@
       "name": "UIC BissiBoy",
       "role": "BOT",
       "level": 790,
-      "tier": "DIAMOND IV",
-      "lp": 58,
-      "wins": 204,
-      "losses": 224,
-      "winRate": 47.7,
+      "tier": "DIAMOND III",
+      "lp": 17,
+      "wins": 208,
+      "losses": 225,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1456.png"
     },
     {
@@ -388,11 +388,11 @@
       "name": "UIC Pjure",
       "role": "BOT",
       "level": 749,
-      "tier": "DIAMOND II",
-      "lp": 76,
-      "wins": 125,
+      "tier": "DIAMOND I",
+      "lp": 14,
+      "wins": 127,
       "losses": 114,
-      "winRate": 52.3,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5449.png"
     },
     {
@@ -444,7 +444,7 @@
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 606,
+      "level": 607,
       "tier": "DIAMOND III",
       "lp": 61,
       "wins": 189,
@@ -604,10 +604,10 @@
       "role": "JGL",
       "level": 464,
       "tier": "GOLD III",
-      "lp": 10,
-      "wins": 103,
+      "lp": 30,
+      "wins": 104,
       "losses": 107,
-      "winRate": 49,
+      "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7126.png"
     },
     {
