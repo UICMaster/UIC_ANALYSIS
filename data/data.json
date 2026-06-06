@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 997,
       "tier": "DIAMOND IV",
-      "lp": 75,
+      "lp": 54,
       "wins": 53,
-      "losses": 72,
-      "winRate": 42.4,
+      "losses": 73,
+      "winRate": 42.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6284.png"
     },
     {
@@ -251,7 +251,7 @@
     {
       "name": "BrandMachtFeuFeu",
       "role": "TOP",
-      "level": 717,
+      "level": 718,
       "tier": "EMERALD I",
       "lp": 58,
       "wins": 40,
@@ -277,20 +277,20 @@
       "role": "TOP",
       "level": 569,
       "tier": "MASTER I",
-      "lp": 135,
+      "lp": 75,
       "wins": 316,
-      "losses": 288,
-      "winRate": 52.3,
+      "losses": 290,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6640.png"
     },
     {
       "name": "UIC Exi",
       "role": "JGL",
-      "level": 803,
+      "level": 804,
       "tier": "MASTER I",
-      "lp": 410,
-      "wins": 188,
-      "losses": 174,
+      "lp": 412,
+      "wins": 189,
+      "losses": 175,
       "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/528.png"
     },
@@ -413,10 +413,10 @@
       "role": "TOP",
       "level": 926,
       "tier": "EMERALD I",
-      "lp": 41,
+      "lp": 21,
       "wins": 64,
-      "losses": 67,
-      "winRate": 48.9,
+      "losses": 68,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6693.png"
     },
     {
@@ -445,11 +445,11 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 608,
-      "tier": "DIAMOND IV",
-      "lp": 75,
-      "wins": 192,
+      "tier": "DIAMOND III",
+      "lp": 9,
+      "wins": 194,
       "losses": 219,
-      "winRate": 46.7,
+      "winRate": 47,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6409.png"
     },
     {
@@ -481,10 +481,10 @@
       "role": "TOP",
       "level": 877,
       "tier": "EMERALD II",
-      "lp": 75,
-      "wins": 60,
+      "lp": 91,
+      "wins": 61,
       "losses": 57,
-      "winRate": 51.3,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7129.png"
     },
     {
@@ -514,10 +514,10 @@
       "role": "JGL",
       "level": 962,
       "tier": "DIAMOND IV",
-      "lp": 19,
-      "wins": 47,
+      "lp": 57,
+      "wins": 49,
       "losses": 43,
-      "winRate": 52.2,
+      "winRate": 53.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5373.png"
     },
     {
@@ -569,10 +569,10 @@
       "role": "SUP",
       "level": 387,
       "tier": "PLATINUM III",
-      "lp": 25,
+      "lp": 5,
       "wins": 93,
-      "losses": 97,
-      "winRate": 48.9,
+      "losses": 98,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4678.png"
     },
     {
@@ -635,7 +635,7 @@
     {
       "name": "LordZash",
       "role": "SUP",
-      "level": 752,
+      "level": 753,
       "tier": "PLATINUM IV",
       "lp": 4,
       "wins": 72,
