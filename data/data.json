@@ -207,7 +207,7 @@
     {
       "name": "UIC RealCrimes",
       "role": "JGL",
-      "level": 1047,
+      "level": 1048,
       "tier": "DIAMOND IV",
       "lp": 17,
       "wins": 44,
@@ -231,9 +231,9 @@
       "role": "BOT",
       "level": 791,
       "tier": "DIAMOND IV",
-      "lp": 9,
-      "wins": 210,
-      "losses": 232,
+      "lp": 7,
+      "wins": 211,
+      "losses": 233,
       "winRate": 47.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1456.png"
     },
@@ -300,9 +300,9 @@
       "level": 915,
       "tier": "MASTER I",
       "lp": 80,
-      "wins": 166,
-      "losses": 181,
-      "winRate": 47.8,
+      "wins": 167,
+      "losses": 182,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4569.png"
     },
     {
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 546,
       "tier": "DIAMOND I",
-      "lp": 7,
-      "wins": 96,
-      "losses": 78,
-      "winRate": 55.2,
+      "lp": 3,
+      "wins": 97,
+      "losses": 79,
+      "winRate": 55.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3157.png"
     },
     {
@@ -457,10 +457,10 @@
       "role": "SUP",
       "level": 324,
       "tier": "MASTER I",
-      "lp": 48,
-      "wins": 108,
+      "lp": 78,
+      "wins": 109,
       "losses": 90,
-      "winRate": 54.5,
+      "winRate": 54.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4068.png"
     },
     {
@@ -672,10 +672,10 @@
       "role": "MID",
       "level": 644,
       "tier": "EMERALD I",
-      "lp": 31,
-      "wins": 101,
+      "lp": 67,
+      "wins": 103,
       "losses": 101,
-      "winRate": 50,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1625.png"
     },
     {
