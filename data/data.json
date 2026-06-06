@@ -117,10 +117,10 @@
       "role": "BOT",
       "level": 849,
       "tier": "EMERALD IV",
-      "lp": 65,
-      "wins": 56,
+      "lp": 84,
+      "wins": 57,
       "losses": 75,
-      "winRate": 42.7,
+      "winRate": 43.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6582.png"
     },
     {
@@ -229,11 +229,11 @@
     {
       "name": "UIC BissiBoy",
       "role": "BOT",
-      "level": 790,
+      "level": 791,
       "tier": "DIAMOND IV",
-      "lp": 74,
-      "wins": 209,
-      "losses": 228,
+      "lp": 72,
+      "wins": 210,
+      "losses": 229,
       "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1456.png"
     },
@@ -277,10 +277,10 @@
       "role": "TOP",
       "level": 570,
       "tier": "MASTER I",
-      "lp": 195,
-      "wins": 319,
+      "lp": 225,
+      "wins": 320,
       "losses": 290,
-      "winRate": 52.4,
+      "winRate": 52.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6640.png"
     },
     {
@@ -411,7 +411,7 @@
     {
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 926,
+      "level": 927,
       "tier": "EMERALD I",
       "lp": 41,
       "wins": 65,
@@ -455,7 +455,7 @@
     {
       "name": "UIC Moonlxght",
       "role": "SUP",
-      "level": 323,
+      "level": 324,
       "tier": "MASTER I",
       "lp": 48,
       "wins": 108,
@@ -547,10 +547,10 @@
       "role": "BOT",
       "level": 1414,
       "tier": "PLATINUM I",
-      "lp": 71,
+      "lp": 27,
       "wins": 509,
-      "losses": 491,
-      "winRate": 50.9,
+      "losses": 493,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4238.png"
     },
     {
@@ -558,21 +558,21 @@
       "role": "BOT",
       "level": 410,
       "tier": "PLATINUM III",
-      "lp": 31,
+      "lp": 9,
       "wins": 153,
-      "losses": 137,
-      "winRate": 52.8,
+      "losses": 138,
+      "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6388.png"
     },
     {
       "name": "UIC Kaanto",
       "role": "SUP",
       "level": 387,
-      "tier": "PLATINUM III",
-      "lp": 5,
-      "wins": 94,
-      "losses": 99,
-      "winRate": 48.7,
+      "tier": "PLATINUM IV",
+      "lp": 82,
+      "wins": 95,
+      "losses": 101,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4678.png"
     },
     {
@@ -637,10 +637,10 @@
       "role": "SUP",
       "level": 753,
       "tier": "PLATINUM IV",
-      "lp": 4,
+      "lp": 0,
       "wins": 72,
-      "losses": 86,
-      "winRate": 45.6,
+      "losses": 87,
+      "winRate": 45.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/932.png"
     }
   ],
