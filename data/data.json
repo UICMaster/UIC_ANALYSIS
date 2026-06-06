@@ -152,10 +152,10 @@
       "role": "JGL",
       "level": 974,
       "tier": "EMERALD II",
-      "lp": 84,
+      "lp": 64,
       "wins": 100,
-      "losses": 98,
-      "winRate": 50.5,
+      "losses": 99,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4967.png"
     },
     {
@@ -231,10 +231,10 @@
       "role": "BOT",
       "level": 791,
       "tier": "DIAMOND IV",
-      "lp": 7,
-      "wins": 211,
-      "losses": 233,
-      "winRate": 47.5,
+      "lp": 24,
+      "wins": 213,
+      "losses": 234,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1456.png"
     },
     {
@@ -354,7 +354,7 @@
     {
       "name": "UIC DANY",
       "role": "TOP",
-      "level": 546,
+      "level": 547,
       "tier": "DIAMOND I",
       "lp": 3,
       "wins": 97,
@@ -417,7 +417,7 @@
       "wins": 65,
       "losses": 68,
       "winRate": 48.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6693.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4408.png"
     },
     {
       "name": "Blauerlupos",
@@ -514,10 +514,10 @@
       "role": "JGL",
       "level": 962,
       "tier": "DIAMOND IV",
-      "lp": 76,
-      "wins": 50,
+      "lp": 96,
+      "wins": 51,
       "losses": 43,
-      "winRate": 53.8,
+      "winRate": 54.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5373.png"
     },
     {
@@ -672,16 +672,16 @@
       "role": "MID",
       "level": 644,
       "tier": "EMERALD I",
-      "lp": 67,
+      "lp": 45,
       "wins": 103,
-      "losses": 101,
-      "winRate": 50.5,
+      "losses": 102,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1625.png"
     },
     {
       "name": "UIC Starboy",
       "role": "BOT",
-      "level": 850,
+      "level": 851,
       "tier": "DIAMOND II",
       "lp": 85,
       "wins": 344,
