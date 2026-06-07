@@ -3,12 +3,12 @@
     {
       "name": "UIC Speedy",
       "role": "TOP",
-      "level": 1174,
+      "level": 1175,
       "tier": "MASTER I",
-      "lp": 65,
-      "wins": 167,
+      "lp": 123,
+      "wins": 169,
       "losses": 178,
-      "winRate": 48.4,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4835.png"
     },
     {
@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 997,
       "tier": "DIAMOND IV",
-      "lp": 31,
-      "wins": 54,
+      "lp": 69,
+      "wins": 56,
       "losses": 75,
-      "winRate": 41.9,
+      "winRate": 42.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6284.png"
     },
     {
@@ -230,11 +230,11 @@
       "name": "UIC BissiBoy",
       "role": "BOT",
       "level": 792,
-      "tier": "EMERALD I",
-      "lp": 88,
-      "wins": 217,
+      "tier": "DIAMOND IV",
+      "lp": 66,
+      "wins": 221,
       "losses": 240,
-      "winRate": 47.5,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1456.png"
     },
     {
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 804,
       "tier": "MASTER I",
-      "lp": 383,
+      "lp": 354,
       "wins": 189,
-      "losses": 176,
-      "winRate": 51.8,
+      "losses": 177,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/528.png"
     },
     {
@@ -331,11 +331,11 @@
       "name": "UIC Loonz",
       "role": "COH",
       "level": 808,
-      "tier": "EMERALD II",
-      "lp": 38,
+      "tier": "EMERALD III",
+      "lp": 54,
       "wins": 81,
-      "losses": 81,
-      "winRate": 50,
+      "losses": 85,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4895.png"
     },
     {
@@ -434,11 +434,11 @@
       "name": "UIC Ayumu",
       "role": "MID",
       "level": 601,
-      "tier": "PLATINUM II",
-      "lp": 95,
-      "wins": 131,
-      "losses": 124,
-      "winRate": 51.4,
+      "tier": "PLATINUM I",
+      "lp": 12,
+      "wins": 133,
+      "losses": 125,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7139.png"
     },
     {
@@ -446,9 +446,9 @@
       "role": "BOT",
       "level": 608,
       "tier": "DIAMOND III",
-      "lp": 9,
-      "wins": 194,
-      "losses": 220,
+      "lp": 2,
+      "wins": 195,
+      "losses": 221,
       "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6409.png"
     },
@@ -591,12 +591,12 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 592,
-      "tier": "PLATINUM I",
-      "lp": 29,
+      "level": 593,
+      "tier": "PLATINUM II",
+      "lp": 89,
       "wins": 86,
-      "losses": 99,
-      "winRate": 46.5,
+      "losses": 101,
+      "winRate": 46,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4074.png"
     },
     {
@@ -635,7 +635,7 @@
     {
       "name": "LordZash",
       "role": "SUP",
-      "level": 753,
+      "level": 754,
       "tier": "PLATINUM IV",
       "lp": 0,
       "wins": 74,
@@ -659,7 +659,7 @@
     {
       "name": "BlauerKlaus",
       "role": "JGL",
-      "level": 1152,
+      "level": 1153,
       "tier": "MASTER I",
       "lp": 39,
       "wins": 90,
