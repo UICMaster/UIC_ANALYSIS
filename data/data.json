@@ -82,7 +82,7 @@
     {
       "name": "Stafferl",
       "role": "TOP",
-      "level": 848,
+      "level": 849,
       "tier": "EMERALD I",
       "lp": 1,
       "wins": 10,
@@ -196,11 +196,11 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1303,
+      "level": 1304,
       "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 190,
-      "losses": 218,
+      "lp": 18,
+      "wins": 191,
+      "losses": 219,
       "winRate": 46.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3159.png"
     },
@@ -229,12 +229,12 @@
     {
       "name": "UIC BissiBoy",
       "role": "BOT",
-      "level": 791,
-      "tier": "DIAMOND IV",
-      "lp": 64,
-      "wins": 215,
-      "losses": 235,
-      "winRate": 47.8,
+      "level": 792,
+      "tier": "EMERALD I",
+      "lp": 88,
+      "wins": 217,
+      "losses": 240,
+      "winRate": 47.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1456.png"
     },
     {
@@ -727,7 +727,7 @@
     {
       "name": "UIC Keygasza",
       "role": "MID",
-      "level": 478,
+      "level": 479,
       "tier": "EMERALD I",
       "lp": 52,
       "wins": 73,
@@ -749,7 +749,7 @@
     {
       "name": "TheEigeeen",
       "role": "SUP",
-      "level": 672,
+      "level": 673,
       "tier": "EMERALD II",
       "lp": 6,
       "wins": 79,
