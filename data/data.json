@@ -60,7 +60,7 @@
       "role": "MID",
       "level": 1082,
       "tier": "MASTER I",
-      "lp": 614,
+      "lp": 539,
       "wins": 398,
       "losses": 384,
       "winRate": 50.9,
@@ -82,7 +82,7 @@
     {
       "name": "Stafferl",
       "role": "TOP",
-      "level": 849,
+      "level": 850,
       "tier": "EMERALD I",
       "lp": 1,
       "wins": 10,
@@ -104,12 +104,12 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 997,
+      "level": 998,
       "tier": "DIAMOND IV",
-      "lp": 67,
-      "wins": 57,
-      "losses": 76,
-      "winRate": 42.9,
+      "lp": 65,
+      "wins": 58,
+      "losses": 77,
+      "winRate": 43,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6284.png"
     },
     {
@@ -525,10 +525,10 @@
       "role": "MID",
       "level": 623,
       "tier": "PLATINUM III",
-      "lp": 48,
+      "lp": 28,
       "wins": 103,
-      "losses": 106,
-      "winRate": 49.3,
+      "losses": 107,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4379.png"
     },
     {
