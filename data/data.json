@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 645,
       "tier": "MASTER I",
-      "lp": 237,
-      "wins": 89,
+      "lp": 299,
+      "wins": 90,
       "losses": 74,
-      "winRate": 54.6,
+      "winRate": 54.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6811.png"
     }
   ],
@@ -153,9 +153,9 @@
       "level": 974,
       "tier": "EMERALD II",
       "lp": 64,
-      "wins": 100,
-      "losses": 99,
-      "winRate": 50.3,
+      "wins": 101,
+      "losses": 100,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4967.png"
     },
     {
@@ -174,10 +174,10 @@
       "role": "BOT",
       "level": 804,
       "tier": "DIAMOND IV",
-      "lp": 16,
-      "wins": 96,
+      "lp": 37,
+      "wins": 97,
       "losses": 82,
-      "winRate": 53.9,
+      "winRate": 54.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6882.png"
     },
     {
@@ -185,10 +185,10 @@
       "role": "SUP",
       "level": 491,
       "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 86,
+      "lp": 21,
+      "wins": 87,
       "losses": 78,
-      "winRate": 52.4,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4655.png"
     }
   ],
@@ -230,11 +230,11 @@
       "name": "UIC BissiBoy",
       "role": "BOT",
       "level": 792,
-      "tier": "DIAMOND IV",
-      "lp": 66,
-      "wins": 221,
+      "tier": "DIAMOND III",
+      "lp": 6,
+      "wins": 223,
       "losses": 240,
-      "winRate": 47.9,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1456.png"
     },
     {
@@ -288,9 +288,9 @@
       "role": "JGL",
       "level": 804,
       "tier": "MASTER I",
-      "lp": 354,
-      "wins": 189,
-      "losses": 177,
+      "lp": 356,
+      "wins": 190,
+      "losses": 178,
       "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/528.png"
     },
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 808,
       "tier": "EMERALD III",
-      "lp": 54,
-      "wins": 81,
+      "lp": 92,
+      "wins": 83,
       "losses": 85,
-      "winRate": 48.8,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4895.png"
     },
     {
@@ -411,7 +411,7 @@
     {
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 927,
+      "level": 928,
       "tier": "EMERALD I",
       "lp": 41,
       "wins": 65,
@@ -422,34 +422,34 @@
     {
       "name": "Blauerlupos",
       "role": "JGL",
-      "level": 1112,
+      "level": 1113,
       "tier": "DIAMOND I",
-      "lp": 33,
-      "wins": 195,
-      "losses": 185,
-      "winRate": 51.3,
+      "lp": 71,
+      "wins": 197,
+      "losses": 186,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4675.png"
     },
     {
       "name": "UIC Ayumu",
       "role": "MID",
-      "level": 601,
+      "level": 602,
       "tier": "PLATINUM I",
-      "lp": 12,
-      "wins": 133,
+      "lp": 31,
+      "wins": 134,
       "losses": 125,
-      "winRate": 51.6,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7139.png"
     },
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 608,
-      "tier": "DIAMOND III",
-      "lp": 2,
+      "level": 609,
+      "tier": "DIAMOND IV",
+      "lp": 79,
       "wins": 195,
-      "losses": 221,
-      "winRate": 46.9,
+      "losses": 222,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6409.png"
     },
     {
@@ -641,7 +641,7 @@
       "wins": 74,
       "losses": 89,
       "winRate": 45.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/932.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3865.png"
     }
   ],
   "ember": [
