@@ -319,7 +319,7 @@
     {
       "name": "UIC Ryu Copeland",
       "role": "SUP",
-      "level": 1004,
+      "level": 1005,
       "tier": "MASTER I",
       "lp": 33,
       "wins": 77,
@@ -389,9 +389,9 @@
       "role": "BOT",
       "level": 750,
       "tier": "DIAMOND I",
-      "lp": 14,
-      "wins": 127,
-      "losses": 114,
+      "lp": 30,
+      "wins": 128,
+      "losses": 115,
       "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5449.png"
     },
@@ -547,9 +547,9 @@
       "role": "BOT",
       "level": 1415,
       "tier": "PLATINUM I",
-      "lp": 43,
+      "lp": 22,
       "wins": 511,
-      "losses": 494,
+      "losses": 495,
       "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4238.png"
     },
@@ -593,10 +593,10 @@
       "role": "TOP",
       "level": 592,
       "tier": "PLATINUM I",
-      "lp": 9,
-      "wins": 84,
+      "lp": 29,
+      "wins": 85,
       "losses": 98,
-      "winRate": 46.2,
+      "winRate": 46.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4074.png"
     },
     {
