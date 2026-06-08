@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 998,
       "tier": "DIAMOND IV",
-      "lp": 65,
-      "wins": 58,
-      "losses": 77,
-      "winRate": 43,
+      "lp": 82,
+      "wins": 59,
+      "losses": 78,
+      "winRate": 43.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6284.png"
     },
     {
@@ -444,11 +444,11 @@
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 609,
-      "tier": "DIAMOND III",
-      "lp": 6,
-      "wins": 198,
-      "losses": 225,
+      "level": 610,
+      "tier": "DIAMOND IV",
+      "lp": 90,
+      "wins": 200,
+      "losses": 227,
       "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6409.png"
     },
@@ -547,10 +547,10 @@
       "role": "BOT",
       "level": 1415,
       "tier": "PLATINUM I",
-      "lp": 15,
-      "wins": 513,
+      "lp": 33,
+      "wins": 514,
       "losses": 498,
-      "winRate": 50.7,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4238.png"
     },
     {
@@ -567,13 +567,13 @@
     {
       "name": "UIC Kaanto",
       "role": "SUP",
-      "level": 387,
+      "level": 388,
       "tier": "PLATINUM III",
-      "lp": 42,
-      "wins": 98,
-      "losses": 101,
-      "winRate": 49.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5368.png"
+      "lp": 22,
+      "wins": 99,
+      "losses": 103,
+      "winRate": 49,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7099.png"
     },
     {
       "name": "UIC Excellent C",
