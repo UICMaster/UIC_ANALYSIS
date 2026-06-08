@@ -95,10 +95,10 @@
       "role": "JGL",
       "level": 296,
       "tier": "EMERALD III",
-      "lp": 58,
-      "wins": 72,
+      "lp": 77,
+      "wins": 73,
       "losses": 70,
-      "winRate": 50.7,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5982.png"
     },
     {
@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 998,
       "tier": "DIAMOND IV",
-      "lp": 82,
-      "wins": 59,
-      "losses": 78,
-      "winRate": 43.1,
+      "lp": 97,
+      "wins": 61,
+      "losses": 79,
+      "winRate": 43.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6284.png"
     },
     {
@@ -220,10 +220,10 @@
       "role": "MID",
       "level": 670,
       "tier": "EMERALD I",
-      "lp": 20,
-      "wins": 61,
+      "lp": 39,
+      "wins": 62,
       "losses": 67,
-      "winRate": 47.7,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/615.png"
     },
     {
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 805,
       "tier": "MASTER I",
-      "lp": 387,
+      "lp": 358,
       "wins": 191,
-      "losses": 178,
-      "winRate": 51.8,
+      "losses": 179,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/528.png"
     },
     {
@@ -332,11 +332,11 @@
       "role": "COH",
       "level": 808,
       "tier": "EMERALD III",
-      "lp": 92,
-      "wins": 83,
-      "losses": 85,
+      "lp": 90,
+      "wins": 84,
+      "losses": 86,
       "winRate": 49.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4895.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1628.png"
     },
     {
       "name": "UIC Cerberus",
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 547,
       "tier": "DIAMOND I",
-      "lp": 3,
-      "wins": 97,
+      "lp": 21,
+      "wins": 98,
       "losses": 79,
-      "winRate": 55.1,
+      "winRate": 55.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3157.png"
     },
     {
@@ -545,12 +545,12 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1415,
-      "tier": "PLATINUM I",
-      "lp": 33,
-      "wins": 514,
-      "losses": 498,
-      "winRate": 50.8,
+      "level": 1416,
+      "tier": "PLATINUM II",
+      "lp": 59,
+      "wins": 516,
+      "losses": 503,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4238.png"
     },
     {
@@ -568,11 +568,11 @@
       "name": "UIC Kaanto",
       "role": "SUP",
       "level": 388,
-      "tier": "PLATINUM III",
-      "lp": 22,
-      "wins": 99,
-      "losses": 103,
-      "winRate": 49,
+      "tier": "PLATINUM IV",
+      "lp": 82,
+      "wins": 101,
+      "losses": 107,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7099.png"
     },
     {
