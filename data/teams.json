@@ -832,6 +832,76 @@
         "isCaptain": false
       },
       {
+        "gameName": "xd2",
+        "tagLine": "becky",
+        "role": "BOT",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "814199009362313218",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+            {
+        "gameName": "BARDIE3",
+        "tagLine": "0711",
+        "role": "SUP",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "189346815508742144",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "gameName": "Stark",
+        "tagLine": "f10",
+        "role": "",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "387711709789290498",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "gameName": "DPS WindSlash",
+        "tagLine": "EUW",
+        "role": "",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "137626769925734400",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "gameName": "DMG Symphonie",
+        "tagLine": "DONK",
+        "role": "",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "378982998823010305",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "gameName": "Kelle",
+        "tagLine": "Udyr",
+        "role": "",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "150954257820942337",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "gameName": "Webzy",
+        "tagLine": "Web",
+        "role": "",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "223494179269902336",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
         "gameName": "RD Dragonfly",
         "tagLine": "UIC",
         "role": "SUP",
