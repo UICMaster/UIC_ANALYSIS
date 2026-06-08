@@ -115,7 +115,7 @@
     {
       "name": "Pferdemilch",
       "role": "BOT",
-      "level": 849,
+      "level": 850,
       "tier": "EMERALD IV",
       "lp": 61,
       "wins": 58,
@@ -198,9 +198,9 @@
       "role": "TOP",
       "level": 1304,
       "tier": "DIAMOND IV",
-      "lp": 18,
-      "wins": 191,
-      "losses": 219,
+      "lp": 14,
+      "wins": 192,
+      "losses": 220,
       "winRate": 46.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3159.png"
     },
@@ -524,11 +524,11 @@
       "name": "UIC adedier",
       "role": "MID",
       "level": 623,
-      "tier": "PLATINUM III",
-      "lp": 28,
+      "tier": "PLATINUM IV",
+      "lp": 87,
       "wins": 103,
-      "losses": 107,
-      "winRate": 49,
+      "losses": 109,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4379.png"
     },
     {
