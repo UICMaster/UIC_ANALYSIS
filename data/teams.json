@@ -864,7 +864,7 @@
       {
         "gameName": "DPS WindSlash",
         "tagLine": "EUW",
-        "role": "",
+        "role": "TOP",
         "puuid": "",
         "trackStats": true,
         "discordId": "137626769925734400",
@@ -874,7 +874,7 @@
       {
         "gameName": "DMG Symphonie",
         "tagLine": "DONK",
-        "role": "",
+        "role": "MID",
         "puuid": "",
         "trackStats": true,
         "discordId": "378982998823010305",
@@ -884,7 +884,7 @@
       {
         "gameName": "Kelle",
         "tagLine": "Udyr",
-        "role": "",
+        "role": "JGL",
         "puuid": "",
         "trackStats": true,
         "discordId": "150954257820942337",
@@ -894,7 +894,7 @@
       {
         "gameName": "Webzy",
         "tagLine": "Web",
-        "role": "",
+        "role": "MNG",
         "puuid": "",
         "trackStats": true,
         "discordId": "223494179269902336",
