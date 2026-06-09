@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1042,
       "tier": "MASTER I",
-      "lp": 184,
+      "lp": 124,
       "wins": 181,
-      "losses": 171,
-      "winRate": 51.4,
+      "losses": 173,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
@@ -117,10 +117,10 @@
       "role": "BOT",
       "level": 850,
       "tier": "EMERALD IV",
-      "lp": 61,
+      "lp": 40,
       "wins": 58,
-      "losses": 77,
-      "winRate": 43,
+      "losses": 78,
+      "winRate": 42.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6582.png"
     },
     {
@@ -299,9 +299,9 @@
       "role": "MID",
       "level": 915,
       "tier": "MASTER I",
-      "lp": 50,
-      "wins": 167,
-      "losses": 184,
+      "lp": 49,
+      "wins": 168,
+      "losses": 185,
       "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4569.png"
     },
@@ -331,10 +331,10 @@
       "name": "UIC Loonz",
       "role": "COH",
       "level": 808,
-      "tier": "EMERALD III",
-      "lp": 90,
-      "wins": 84,
-      "losses": 86,
+      "tier": "EMERALD II",
+      "lp": 8,
+      "wins": 85,
+      "losses": 87,
       "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1628.png"
     },
@@ -445,11 +445,11 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 610,
-      "tier": "DIAMOND III",
-      "lp": 7,
+      "tier": "DIAMOND IV",
+      "lp": 83,
       "wins": 201,
-      "losses": 227,
-      "winRate": 47,
+      "losses": 228,
+      "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6409.png"
     },
     {
@@ -461,7 +461,7 @@
       "wins": 110,
       "losses": 90,
       "winRate": 55,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4068.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5956.png"
     },
     {
       "name": "zab77",
@@ -525,10 +525,10 @@
       "role": "MID",
       "level": 623,
       "tier": "PLATINUM IV",
-      "lp": 22,
-      "wins": 104,
+      "lp": 41,
+      "wins": 105,
       "losses": 113,
-      "winRate": 47.9,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4379.png"
     },
     {
@@ -558,10 +558,10 @@
       "role": "BOT",
       "level": 410,
       "tier": "PLATINUM III",
-      "lp": 28,
+      "lp": 7,
       "wins": 154,
-      "losses": 138,
-      "winRate": 52.7,
+      "losses": 139,
+      "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6388.png"
     },
     {
