@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 646,
       "tier": "MASTER I",
-      "lp": 332,
-      "wins": 92,
+      "lp": 363,
+      "wins": 93,
       "losses": 75,
-      "winRate": 55.1,
+      "winRate": 55.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6811.png"
     }
   ],
@@ -367,10 +367,10 @@
       "role": "JGL",
       "level": 798,
       "tier": "MASTER I",
-      "lp": 30,
+      "lp": 0,
       "wins": 38,
-      "losses": 33,
-      "winRate": 53.5,
+      "losses": 34,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3840.png"
     },
     {
@@ -424,10 +424,10 @@
       "role": "JGL",
       "level": 1113,
       "tier": "DIAMOND I",
-      "lp": 27,
+      "lp": 6,
       "wins": 197,
-      "losses": 188,
-      "winRate": 51.2,
+      "losses": 189,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4675.png"
     },
     {
@@ -444,11 +444,11 @@
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 610,
+      "level": 611,
       "tier": "DIAMOND IV",
-      "lp": 83,
-      "wins": 201,
-      "losses": 228,
+      "lp": 93,
+      "wins": 203,
+      "losses": 230,
       "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6409.png"
     },
@@ -547,21 +547,21 @@
       "role": "BOT",
       "level": 1417,
       "tier": "PLATINUM II",
-      "lp": 46,
+      "lp": 25,
       "wins": 520,
-      "losses": 507,
+      "losses": 508,
       "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4404.png"
     },
     {
       "name": "UIC Deavan",
       "role": "BOT",
-      "level": 410,
-      "tier": "PLATINUM III",
-      "lp": 7,
+      "level": 411,
+      "tier": "PLATINUM IV",
+      "lp": 85,
       "wins": 154,
-      "losses": 139,
-      "winRate": 52.6,
+      "losses": 140,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6388.png"
     },
     {
@@ -603,11 +603,11 @@
       "name": "Leberkasleatschn",
       "role": "JGL",
       "level": 465,
-      "tier": "GOLD III",
-      "lp": 90,
-      "wins": 107,
+      "tier": "GOLD II",
+      "lp": 10,
+      "wins": 108,
       "losses": 107,
-      "winRate": 50,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7126.png"
     },
     {
