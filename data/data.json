@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1042,
       "tier": "MASTER I",
-      "lp": 124,
-      "wins": 181,
+      "lp": 154,
+      "wins": 182,
       "losses": 173,
-      "winRate": 51.1,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4380.png"
     },
     {
@@ -117,10 +117,10 @@
       "role": "BOT",
       "level": 850,
       "tier": "EMERALD IV",
-      "lp": 40,
+      "lp": 19,
       "wins": 58,
-      "losses": 78,
-      "winRate": 42.6,
+      "losses": 79,
+      "winRate": 42.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6582.png"
     },
     {
@@ -152,10 +152,10 @@
       "role": "JGL",
       "level": 974,
       "tier": "EMERALD I",
-      "lp": 44,
+      "lp": 24,
       "wins": 105,
-      "losses": 100,
-      "winRate": 51.2,
+      "losses": 101,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4967.png"
     },
     {
@@ -196,12 +196,12 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1304,
-      "tier": "EMERALD II",
-      "lp": 87,
-      "wins": 192,
+      "level": 1305,
+      "tier": "EMERALD I",
+      "lp": 6,
+      "wins": 193,
       "losses": 225,
-      "winRate": 46,
+      "winRate": 46.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/3159.png"
     },
     {
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 915,
       "tier": "MASTER I",
-      "lp": 49,
+      "lp": 0,
       "wins": 168,
-      "losses": 185,
-      "winRate": 47.6,
+      "losses": 187,
+      "winRate": 47.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4569.png"
     },
     {
@@ -411,7 +411,7 @@
     {
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 928,
+      "level": 929,
       "tier": "EMERALD I",
       "lp": 41,
       "wins": 65,
@@ -457,10 +457,10 @@
       "role": "SUP",
       "level": 324,
       "tier": "MASTER I",
-      "lp": 108,
+      "lp": 18,
       "wins": 110,
-      "losses": 90,
-      "winRate": 55,
+      "losses": 93,
+      "winRate": 54.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5956.png"
     },
     {
@@ -479,13 +479,13 @@
     {
       "name": "UIC Kaetaya",
       "role": "TOP",
-      "level": 878,
+      "level": 879,
       "tier": "EMERALD I",
       "lp": 12,
       "wins": 62,
       "losses": 57,
       "winRate": 52.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4550.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6700.png"
     },
     {
       "name": "UIC Muh",
@@ -551,7 +551,7 @@
       "wins": 520,
       "losses": 507,
       "winRate": 50.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6806.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4404.png"
     },
     {
       "name": "UIC Deavan",
@@ -573,7 +573,7 @@
       "wins": 101,
       "losses": 107,
       "winRate": 48.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7099.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/5368.png"
     },
     {
       "name": "UIC Excellent C",
@@ -659,7 +659,7 @@
     {
       "name": "BlauerKlaus",
       "role": "JGL",
-      "level": 1153,
+      "level": 1154,
       "tier": "MASTER I",
       "lp": 9,
       "wins": 90,
