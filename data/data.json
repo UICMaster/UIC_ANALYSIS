@@ -104,12 +104,12 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 998,
+      "level": 999,
       "tier": "DIAMOND III",
-      "lp": 50,
-      "wins": 65,
-      "losses": 80,
-      "winRate": 44.8,
+      "lp": 48,
+      "wins": 66,
+      "losses": 81,
+      "winRate": 44.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6284.png"
     },
     {
@@ -525,10 +525,10 @@
       "role": "MID",
       "level": 623,
       "tier": "PLATINUM IV",
-      "lp": 43,
+      "lp": 22,
       "wins": 104,
-      "losses": 112,
-      "winRate": 48.1,
+      "losses": 113,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4379.png"
     },
     {
@@ -547,9 +547,9 @@
       "role": "BOT",
       "level": 1417,
       "tier": "PLATINUM II",
-      "lp": 30,
-      "wins": 518,
-      "losses": 506,
+      "lp": 46,
+      "wins": 520,
+      "losses": 507,
       "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6806.png"
     },
@@ -604,10 +604,10 @@
       "role": "JGL",
       "level": 465,
       "tier": "GOLD III",
-      "lp": 70,
-      "wins": 106,
+      "lp": 90,
+      "wins": 107,
       "losses": 107,
-      "winRate": 49.8,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/7126.png"
     },
     {
@@ -650,9 +650,9 @@
       "role": "TOP",
       "level": 726,
       "tier": "EMERALD IV",
-      "lp": 43,
-      "wins": 86,
-      "losses": 81,
+      "lp": 45,
+      "wins": 88,
+      "losses": 83,
       "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6490.png"
     },
@@ -683,10 +683,10 @@
       "role": "BOT",
       "level": 851,
       "tier": "DIAMOND II",
-      "lp": 85,
+      "lp": 64,
       "wins": 344,
-      "losses": 310,
-      "winRate": 52.6,
+      "losses": 311,
+      "winRate": 52.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4272.png"
     },
     {
