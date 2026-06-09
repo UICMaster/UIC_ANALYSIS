@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 998,
       "tier": "DIAMOND III",
-      "lp": 15,
-      "wins": 62,
-      "losses": 79,
-      "winRate": 44,
+      "lp": 50,
+      "wins": 65,
+      "losses": 80,
+      "winRate": 44.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6284.png"
     },
     {
@@ -445,11 +445,11 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 610,
-      "tier": "DIAMOND IV",
-      "lp": 90,
-      "wins": 200,
+      "tier": "DIAMOND III",
+      "lp": 7,
+      "wins": 201,
       "losses": 227,
-      "winRate": 46.8,
+      "winRate": 47,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6409.png"
     },
     {
@@ -525,10 +525,10 @@
       "role": "MID",
       "level": 623,
       "tier": "PLATINUM IV",
-      "lp": 24,
-      "wins": 103,
+      "lp": 43,
+      "wins": 104,
       "losses": 112,
-      "winRate": 47.9,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4379.png"
     },
     {
@@ -545,13 +545,13 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1416,
+      "level": 1417,
       "tier": "PLATINUM II",
-      "lp": 52,
+      "lp": 30,
       "wins": 518,
-      "losses": 505,
+      "losses": 506,
       "winRate": 50.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4238.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6806.png"
     },
     {
       "name": "UIC Deavan",
@@ -679,7 +679,7 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/1625.png"
     },
     {
-      "name": "UIC Starboy",
+      "name": "Starboy",
       "role": "BOT",
       "level": 851,
       "tier": "DIAMOND II",
@@ -687,7 +687,7 @@
       "wins": 344,
       "losses": 310,
       "winRate": 52.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/6872.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/profileicon/4272.png"
     },
     {
       "name": "UIC Envy",
