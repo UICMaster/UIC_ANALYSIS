@@ -60,7 +60,7 @@
       "role": "MID",
       "level": 1082,
       "tier": "MASTER I",
-      "lp": 314,
+      "lp": 239,
       "wins": 398,
       "losses": 384,
       "winRate": 50.9,
@@ -424,9 +424,9 @@
       "role": "JGL",
       "level": 1114,
       "tier": "DIAMOND I",
-      "lp": 9,
-      "wins": 202,
-      "losses": 194,
+      "lp": 26,
+      "wins": 203,
+      "losses": 195,
       "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6872.png"
     },
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 612,
       "tier": "DIAMOND III",
-      "lp": 86,
+      "lp": 38,
       "wins": 214,
-      "losses": 238,
-      "winRate": 47.3,
+      "losses": 240,
+      "winRate": 47.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6000.png"
     },
     {
@@ -457,10 +457,10 @@
       "role": "SUP",
       "level": 324,
       "tier": "MASTER I",
-      "lp": 78,
+      "lp": 48,
       "wins": 112,
-      "losses": 93,
-      "winRate": 54.6,
+      "losses": 94,
+      "winRate": 54.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/5956.png"
     },
     {
@@ -591,12 +591,12 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 593,
+      "level": 594,
       "tier": "PLATINUM II",
-      "lp": 62,
+      "lp": 20,
       "wins": 88,
-      "losses": 104,
-      "winRate": 45.8,
+      "losses": 106,
+      "winRate": 45.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4074.png"
     },
     {
@@ -727,7 +727,7 @@
     {
       "name": "UIC Keygasza",
       "role": "MID",
-      "level": 480,
+      "level": 481,
       "tier": "EMERALD I",
       "lp": 8,
       "wins": 73,
