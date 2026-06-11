@@ -534,11 +534,11 @@
     {
       "name": "UIC GreatATuin",
       "role": "MID",
-      "level": 604,
+      "level": 605,
       "tier": "EMERALD II",
-      "lp": 24,
-      "wins": 297,
-      "losses": 279,
+      "lp": 44,
+      "wins": 299,
+      "losses": 280,
       "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7027.png"
     },
@@ -546,9 +546,9 @@
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1418,
-      "tier": "PLATINUM II",
-      "lp": 98,
-      "wins": 526,
+      "tier": "PLATINUM I",
+      "lp": 18,
+      "wins": 527,
       "losses": 510,
       "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4404.png"
