@@ -82,7 +82,7 @@
     {
       "name": "Stafferl",
       "role": "TOP",
-      "level": 851,
+      "level": 852,
       "tier": "EMERALD I",
       "lp": 1,
       "wins": 10,
@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1000,
       "tier": "DIAMOND III",
-      "lp": 93,
-      "wins": 73,
-      "losses": 85,
-      "winRate": 46.2,
+      "lp": 73,
+      "wins": 74,
+      "losses": 87,
+      "winRate": 46,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
@@ -297,12 +297,12 @@
     {
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 915,
+      "level": 916,
       "tier": "DIAMOND I",
-      "lp": 94,
-      "wins": 169,
-      "losses": 188,
-      "winRate": 47.3,
+      "lp": 92,
+      "wins": 170,
+      "losses": 189,
+      "winRate": 47.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4569.png"
     },
     {
@@ -398,7 +398,7 @@
     {
       "name": "UIC Ryu Panda",
       "role": "SUP",
-      "level": 799,
+      "level": 800,
       "tier": "UNRANKED",
       "lp": 0,
       "wins": 0,
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 612,
       "tier": "DIAMOND IV",
-      "lp": 93,
+      "lp": 69,
       "wins": 209,
-      "losses": 237,
-      "winRate": 46.9,
+      "losses": 238,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6409.png"
     },
     {
@@ -535,21 +535,21 @@
       "name": "UIC GreatATuin",
       "role": "MID",
       "level": 605,
-      "tier": "EMERALD II",
-      "lp": 44,
-      "wins": 299,
-      "losses": 280,
-      "winRate": 51.6,
+      "tier": "EMERALD III",
+      "lp": 83,
+      "wins": 300,
+      "losses": 284,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7027.png"
     },
     {
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1418,
-      "tier": "PLATINUM I",
-      "lp": 18,
+      "tier": "PLATINUM II",
+      "lp": 98,
       "wins": 527,
-      "losses": 510,
+      "losses": 511,
       "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4404.png"
     },
@@ -602,12 +602,12 @@
     {
       "name": "Leberkasleatschn",
       "role": "JGL",
-      "level": 466,
-      "tier": "GOLD II",
-      "lp": 30,
+      "level": 467,
+      "tier": "GOLD III",
+      "lp": 3,
       "wins": 114,
-      "losses": 112,
-      "winRate": 50.4,
+      "losses": 118,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7126.png"
     },
     {
