@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1176,
       "tier": "MASTER I",
-      "lp": 78,
+      "lp": 47,
       "wins": 176,
-      "losses": 186,
-      "winRate": 48.6,
+      "losses": 187,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4077.png"
     },
     {
@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1001,
       "tier": "DIAMOND III",
-      "lp": 10,
-      "wins": 76,
+      "lp": 29,
+      "wins": 77,
       "losses": 93,
-      "winRate": 45,
+      "winRate": 45.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
@@ -150,7 +150,7 @@
     {
       "name": "UIC Hunter",
       "role": "JGL",
-      "level": 974,
+      "level": 975,
       "tier": "EMERALD I",
       "lp": 24,
       "wins": 105,
@@ -207,7 +207,7 @@
     {
       "name": "UIC RealCrimes",
       "role": "JGL",
-      "level": 1048,
+      "level": 1049,
       "tier": "DIAMOND IV",
       "lp": 17,
       "wins": 44,
@@ -231,10 +231,10 @@
       "role": "BOT",
       "level": 794,
       "tier": "DIAMOND III",
-      "lp": 87,
+      "lp": 28,
       "wins": 229,
-      "losses": 242,
-      "winRate": 48.6,
+      "losses": 245,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6379.png"
     },
     {
@@ -299,9 +299,9 @@
       "role": "MID",
       "level": 916,
       "tier": "DIAMOND I",
-      "lp": 71,
-      "wins": 170,
-      "losses": 190,
+      "lp": 69,
+      "wins": 171,
+      "losses": 191,
       "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4569.png"
     },
@@ -424,10 +424,10 @@
       "role": "JGL",
       "level": 1115,
       "tier": "DIAMOND II",
-      "lp": 62,
-      "wins": 206,
+      "lp": 80,
+      "wins": 207,
       "losses": 200,
-      "winRate": 50.7,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6872.png"
     },
     {
@@ -446,16 +446,16 @@
       "role": "BOT",
       "level": 613,
       "tier": "DIAMOND III",
-      "lp": 58,
-      "wins": 218,
+      "lp": 92,
+      "wins": 220,
       "losses": 242,
-      "winRate": 47.4,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6000.png"
     },
     {
       "name": "UIC Moonlxght",
       "role": "SUP",
-      "level": 324,
+      "level": 325,
       "tier": "MASTER I",
       "lp": 48,
       "wins": 112,
@@ -546,11 +546,11 @@
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1419,
-      "tier": "PLATINUM I",
-      "lp": 56,
+      "tier": "PLATINUM II",
+      "lp": 96,
       "wins": 534,
-      "losses": 515,
-      "winRate": 50.9,
+      "losses": 518,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4404.png"
     },
     {
@@ -635,7 +635,7 @@
     {
       "name": "LordZash",
       "role": "SUP",
-      "level": 754,
+      "level": 755,
       "tier": "PLATINUM IV",
       "lp": 0,
       "wins": 74,
@@ -651,8 +651,8 @@
       "level": 727,
       "tier": "EMERALD IV",
       "lp": 26,
-      "wins": 90,
-      "losses": 87,
+      "wins": 91,
+      "losses": 88,
       "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6490.png"
     },
@@ -692,11 +692,11 @@
     {
       "name": "UIC Envy",
       "role": "SUP",
-      "level": 353,
+      "level": 354,
       "tier": "PLATINUM III",
-      "lp": 84,
-      "wins": 253,
-      "losses": 246,
+      "lp": 82,
+      "wins": 254,
+      "losses": 247,
       "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7100.png"
     }
