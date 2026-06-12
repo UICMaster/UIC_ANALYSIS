@@ -422,12 +422,12 @@
     {
       "name": "Blauerlupos",
       "role": "JGL",
-      "level": 1114,
-      "tier": "DIAMOND I",
-      "lp": 26,
-      "wins": 203,
-      "losses": 195,
-      "winRate": 51,
+      "level": 1115,
+      "tier": "DIAMOND II",
+      "lp": 51,
+      "wins": 204,
+      "losses": 199,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6872.png"
     },
     {
@@ -444,11 +444,11 @@
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 612,
+      "level": 613,
       "tier": "DIAMOND III",
-      "lp": 38,
-      "wins": 214,
-      "losses": 240,
+      "lp": 30,
+      "wins": 215,
+      "losses": 241,
       "winRate": 47.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6000.png"
     },
@@ -592,12 +592,12 @@
       "name": "UIC Papi Δce",
       "role": "TOP",
       "level": 594,
-      "tier": "PLATINUM II",
-      "lp": 20,
+      "tier": "PLATINUM III",
+      "lp": 99,
       "wins": 88,
-      "losses": 106,
-      "winRate": 45.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4074.png"
+      "losses": 107,
+      "winRate": 45.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3891.png"
     },
     {
       "name": "Leberkasleatschn",
@@ -749,7 +749,7 @@
     {
       "name": "TheEigeeen",
       "role": "SUP",
-      "level": 674,
+      "level": 675,
       "tier": "EMERALD II",
       "lp": 21,
       "wins": 82,
