@@ -60,7 +60,7 @@
       "role": "MID",
       "level": 1082,
       "tier": "MASTER I",
-      "lp": 164,
+      "lp": 89,
       "wins": 398,
       "losses": 384,
       "winRate": 50.9,
@@ -82,7 +82,7 @@
     {
       "name": "Stafferl",
       "role": "TOP",
-      "level": 852,
+      "level": 853,
       "tier": "EMERALD I",
       "lp": 1,
       "wins": 10,
@@ -105,11 +105,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1001,
-      "tier": "DIAMOND IV",
-      "lp": 87,
-      "wins": 77,
+      "tier": "DIAMOND III",
+      "lp": 7,
+      "wins": 78,
       "losses": 95,
-      "winRate": 44.8,
+      "winRate": 45.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 917,
       "tier": "DIAMOND II",
-      "lp": 80,
+      "lp": 14,
       "wins": 175,
-      "losses": 199,
-      "winRate": 46.8,
+      "losses": 203,
+      "winRate": 46.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4569.png"
     },
     {
@@ -479,7 +479,7 @@
     {
       "name": "UIC Kaetaya",
       "role": "TOP",
-      "level": 879,
+      "level": 880,
       "tier": "EMERALD I",
       "lp": 12,
       "wins": 62,
@@ -593,10 +593,10 @@
       "role": "TOP",
       "level": 595,
       "tier": "PLATINUM III",
-      "lp": 46,
-      "wins": 91,
+      "lp": 64,
+      "wins": 92,
       "losses": 113,
-      "winRate": 44.6,
+      "winRate": 44.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3891.png"
     },
     {
