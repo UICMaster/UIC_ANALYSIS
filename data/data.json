@@ -3,23 +3,23 @@
     {
       "name": "UIC Speedy",
       "role": "TOP",
-      "level": 1176,
+      "level": 1177,
       "tier": "MASTER I",
-      "lp": 47,
-      "wins": 176,
+      "lp": 105,
+      "wins": 178,
       "losses": 187,
-      "winRate": 48.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4077.png"
+      "winRate": 48.8,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7026.png"
     },
     {
       "name": "UIC Niki",
       "role": "JGL",
       "level": 1043,
       "tier": "MASTER I",
-      "lp": 215,
-      "wins": 185,
+      "lp": 246,
+      "wins": 186,
       "losses": 174,
-      "winRate": 51.5,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4380.png"
     },
     {
@@ -308,12 +308,12 @@
     {
       "name": "UIC AutumnLeaf",
       "role": "BOT",
-      "level": 852,
+      "level": 853,
       "tier": "MASTER I",
-      "lp": 544,
+      "lp": 486,
       "wins": 136,
-      "losses": 104,
-      "winRate": 56.7,
+      "losses": 106,
+      "winRate": 56.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6373.png"
     },
     {
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 810,
       "tier": "EMERALD II",
-      "lp": 50,
-      "wins": 93,
-      "losses": 92,
-      "winRate": 50.3,
+      "lp": 27,
+      "wins": 94,
+      "losses": 94,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/1628.png"
     },
     {
@@ -435,10 +435,10 @@
       "role": "MID",
       "level": 603,
       "tier": "PLATINUM I",
-      "lp": 24,
-      "wins": 138,
+      "lp": 44,
+      "wins": 139,
       "losses": 129,
-      "winRate": 51.7,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7139.png"
     },
     {
