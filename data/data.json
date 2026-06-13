@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 647,
       "tier": "MASTER I",
-      "lp": 491,
-      "wins": 102,
+      "lp": 521,
+      "wins": 103,
       "losses": 83,
-      "winRate": 55.1,
+      "winRate": 55.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6811.png"
     }
   ],
@@ -105,11 +105,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1001,
-      "tier": "DIAMOND III",
-      "lp": 29,
+      "tier": "DIAMOND IV",
+      "lp": 87,
       "wins": 77,
-      "losses": 93,
-      "winRate": 45.3,
+      "losses": 95,
+      "winRate": 44.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
@@ -298,11 +298,11 @@
       "name": "UIC Hayu",
       "role": "MID",
       "level": 917,
-      "tier": "DIAMOND I",
-      "lp": 21,
+      "tier": "DIAMOND II",
+      "lp": 80,
       "wins": 175,
-      "losses": 197,
-      "winRate": 47,
+      "losses": 199,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4569.png"
     },
     {
@@ -593,10 +593,10 @@
       "role": "TOP",
       "level": 595,
       "tier": "PLATINUM III",
-      "lp": 49,
-      "wins": 90,
-      "losses": 111,
-      "winRate": 44.8,
+      "lp": 46,
+      "wins": 91,
+      "losses": 113,
+      "winRate": 44.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3891.png"
     },
     {
@@ -641,7 +641,7 @@
       "wins": 74,
       "losses": 89,
       "winRate": 45.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3865.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/2072.png"
     }
   ],
   "ember": [
@@ -659,7 +659,7 @@
     {
       "name": "BlauerKlaus",
       "role": "JGL",
-      "level": 1154,
+      "level": 1155,
       "tier": "MASTER I",
       "lp": 9,
       "wins": 90,
