@@ -73,8 +73,8 @@
       "tier": "MASTER I",
       "lp": 491,
       "wins": 102,
-      "losses": 82,
-      "winRate": 55.4,
+      "losses": 83,
+      "winRate": 55.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6811.png"
     }
   ],
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 811,
       "tier": "EMERALD II",
-      "lp": 59,
+      "lp": 37,
       "wins": 97,
-      "losses": 96,
-      "winRate": 50.3,
+      "losses": 97,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/1628.png"
     },
     {
@@ -593,10 +593,10 @@
       "role": "TOP",
       "level": 595,
       "tier": "PLATINUM III",
-      "lp": 34,
-      "wins": 88,
-      "losses": 110,
-      "winRate": 44.4,
+      "lp": 49,
+      "wins": 90,
+      "losses": 111,
+      "winRate": 44.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3891.png"
     },
     {
@@ -650,10 +650,10 @@
       "role": "TOP",
       "level": 727,
       "tier": "EMERALD IV",
-      "lp": 46,
-      "wins": 92,
+      "lp": 86,
+      "wins": 94,
       "losses": 88,
-      "winRate": 51.1,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6490.png"
     },
     {
@@ -672,10 +672,10 @@
       "role": "MID",
       "level": 645,
       "tier": "EMERALD I",
-      "lp": 76,
+      "lp": 54,
       "wins": 106,
-      "losses": 104,
-      "winRate": 50.5,
+      "losses": 105,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/1625.png"
     },
     {
