@@ -95,10 +95,10 @@
       "role": "JGL",
       "level": 296,
       "tier": "EMERALD III",
-      "lp": 76,
-      "wins": 74,
-      "losses": 71,
-      "winRate": 51,
+      "lp": 54,
+      "wins": 75,
+      "losses": 73,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/5982.png"
     },
     {
@@ -198,10 +198,10 @@
       "role": "TOP",
       "level": 1307,
       "tier": "EMERALD I",
-      "lp": 76,
-      "wins": 199,
+      "lp": 95,
+      "wins": 200,
       "losses": 228,
-      "winRate": 46.6,
+      "winRate": 46.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3159.png"
     },
     {
@@ -297,11 +297,11 @@
     {
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 916,
+      "level": 917,
       "tier": "DIAMOND I",
-      "lp": 2,
-      "wins": 173,
-      "losses": 196,
+      "lp": 1,
+      "wins": 174,
+      "losses": 197,
       "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4569.png"
     },
@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 853,
       "tier": "MASTER I",
-      "lp": 486,
-      "wins": 136,
-      "losses": 106,
-      "winRate": 56.2,
+      "lp": 488,
+      "wins": 137,
+      "losses": 107,
+      "winRate": 56.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6373.png"
     },
     {
@@ -547,10 +547,10 @@
       "role": "BOT",
       "level": 1420,
       "tier": "PLATINUM II",
-      "lp": 96,
+      "lp": 76,
       "wins": 537,
-      "losses": 521,
-      "winRate": 50.8,
+      "losses": 522,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4404.png"
     },
     {
@@ -591,12 +591,12 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 594,
+      "level": 595,
       "tier": "PLATINUM III",
-      "lp": 99,
+      "lp": 78,
       "wins": 88,
-      "losses": 107,
-      "winRate": 45.1,
+      "losses": 108,
+      "winRate": 44.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3891.png"
     },
     {
