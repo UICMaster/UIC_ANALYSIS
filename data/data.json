@@ -286,11 +286,11 @@
     {
       "name": "UIC Exi",
       "role": "JGL",
-      "level": 805,
+      "level": 806,
       "tier": "MASTER I",
-      "lp": 300,
-      "wins": 191,
-      "losses": 181,
+      "lp": 302,
+      "wins": 192,
+      "losses": 182,
       "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/528.png"
     },
@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 852,
       "tier": "MASTER I",
-      "lp": 573,
+      "lp": 544,
       "wins": 136,
-      "losses": 103,
-      "winRate": 56.9,
+      "losses": 104,
+      "winRate": 56.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6373.png"
     },
     {
@@ -411,12 +411,12 @@
     {
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 930,
+      "level": 931,
       "tier": "EMERALD I",
-      "lp": 41,
-      "wins": 65,
+      "lp": 81,
+      "wins": 67,
       "losses": 68,
-      "winRate": 48.9,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6693.png"
     },
     {
@@ -523,12 +523,12 @@
     {
       "name": "UIC adedier",
       "role": "MID",
-      "level": 623,
+      "level": 624,
       "tier": "PLATINUM IV",
-      "lp": 41,
-      "wins": 105,
+      "lp": 60,
+      "wins": 106,
       "losses": 113,
-      "winRate": 48.2,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4379.png"
     },
     {
