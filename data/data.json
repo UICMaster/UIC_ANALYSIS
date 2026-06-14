@@ -104,12 +104,12 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1001,
+      "level": 1002,
       "tier": "DIAMOND III",
-      "lp": 2,
-      "wins": 79,
+      "lp": 42,
+      "wins": 81,
       "losses": 96,
-      "winRate": 45.1,
+      "winRate": 45.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
@@ -172,7 +172,7 @@
     {
       "name": "UIC Painfull",
       "role": "BOT",
-      "level": 804,
+      "level": 805,
       "tier": "DIAMOND IV",
       "lp": 37,
       "wins": 97,
@@ -297,12 +297,12 @@
     {
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 917,
+      "level": 918,
       "tier": "DIAMOND II",
-      "lp": 32,
-      "wins": 176,
+      "lp": 70,
+      "wins": 178,
       "losses": 203,
-      "winRate": 46.4,
+      "winRate": 46.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4569.png"
     },
     {
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 811,
       "tier": "EMERALD II",
-      "lp": 37,
+      "lp": 15,
       "wins": 97,
-      "losses": 97,
-      "winRate": 50,
+      "losses": 98,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/1628.png"
     },
     {
@@ -393,7 +393,7 @@
       "wins": 128,
       "losses": 115,
       "winRate": 52.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/5449.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3891.png"
     },
     {
       "name": "UIC Ryu Panda",
@@ -417,7 +417,7 @@
       "wins": 67,
       "losses": 68,
       "winRate": 49.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6693.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6938.png"
     },
     {
       "name": "Blauerlupos",
