@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1043,
       "tier": "MASTER I",
-      "lp": 157,
-      "wins": 187,
+      "lp": 218,
+      "wins": 189,
       "losses": 178,
-      "winRate": 51.2,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4380.png"
     },
     {
@@ -60,7 +60,7 @@
       "role": "MID",
       "level": 1083,
       "tier": "MASTER I",
-      "lp": 89,
+      "lp": 14,
       "wins": 398,
       "losses": 384,
       "winRate": 50.9,
@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1003,
       "tier": "DIAMOND III",
-      "lp": 62,
+      "lp": 42,
       "wins": 85,
-      "losses": 100,
-      "winRate": 45.9,
+      "losses": 101,
+      "winRate": 45.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
@@ -198,10 +198,10 @@
       "role": "TOP",
       "level": 1308,
       "tier": "DIAMOND IV",
-      "lp": 15,
-      "wins": 201,
-      "losses": 228,
-      "winRate": 46.9,
+      "lp": 35,
+      "wins": 203,
+      "losses": 229,
+      "winRate": 47,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3159.png"
     },
     {
@@ -298,11 +298,11 @@
       "name": "UIC Hayu",
       "role": "MID",
       "level": 918,
-      "tier": "DIAMOND II",
-      "lp": 64,
-      "wins": 181,
-      "losses": 206,
-      "winRate": 46.8,
+      "tier": "DIAMOND I",
+      "lp": 1,
+      "wins": 183,
+      "losses": 207,
+      "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4569.png"
     },
     {
@@ -424,10 +424,10 @@
       "role": "JGL",
       "level": 1117,
       "tier": "DIAMOND III",
-      "lp": 50,
+      "lp": 29,
       "wins": 212,
-      "losses": 210,
-      "winRate": 50.2,
+      "losses": 211,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6872.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 614,
       "tier": "DIAMOND III",
-      "lp": 21,
-      "wins": 221,
+      "lp": 39,
+      "wins": 222,
       "losses": 246,
-      "winRate": 47.3,
+      "winRate": 47.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6000.png"
     },
     {
@@ -512,7 +512,7 @@
     {
       "name": "UIC Namorii",
       "role": "JGL",
-      "level": 963,
+      "level": 964,
       "tier": "DIAMOND III",
       "lp": 16,
       "wins": 52,
@@ -547,9 +547,9 @@
       "role": "BOT",
       "level": 1420,
       "tier": "PLATINUM III",
-      "lp": 93,
+      "lp": 72,
       "wins": 537,
-      "losses": 526,
+      "losses": 527,
       "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4404.png"
     },
@@ -649,11 +649,11 @@
       "name": "UIC ソニック",
       "role": "TOP",
       "level": 728,
-      "tier": "EMERALD IV",
-      "lp": 86,
-      "wins": 94,
+      "tier": "EMERALD III",
+      "lp": 6,
+      "wins": 95,
       "losses": 88,
-      "winRate": 51.6,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6490.png"
     },
     {
