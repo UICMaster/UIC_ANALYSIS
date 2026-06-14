@@ -58,7 +58,7 @@
     {
       "name": "Baumi",
       "role": "MID",
-      "level": 1082,
+      "level": 1083,
       "tier": "MASTER I",
       "lp": 89,
       "wins": 398,
@@ -69,7 +69,7 @@
     {
       "name": "UIC FrozenHands",
       "role": "MID",
-      "level": 647,
+      "level": 648,
       "tier": "MASTER I",
       "lp": 521,
       "wins": 103,
@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1002,
       "tier": "DIAMOND III",
-      "lp": 82,
-      "wins": 83,
-      "losses": 97,
-      "winRate": 46.1,
+      "lp": 62,
+      "wins": 84,
+      "losses": 99,
+      "winRate": 45.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
@@ -137,7 +137,7 @@
   ],
   "vakuum": [
     {
-      "name": "VTennic",
+      "name": "UIC VTennic",
       "role": "TOP",
       "level": 488,
       "tier": "DIAMOND III",
@@ -161,7 +161,7 @@
     {
       "name": "UIC Kaoxz",
       "role": "MID",
-      "level": 471,
+      "level": 472,
       "tier": "DIAMOND IV",
       "lp": 6,
       "wins": 85,
@@ -172,7 +172,7 @@
     {
       "name": "UIC Painfull",
       "role": "BOT",
-      "level": 805,
+      "level": 806,
       "tier": "DIAMOND IV",
       "lp": 37,
       "wins": 97,
@@ -197,11 +197,11 @@
       "name": "Reign",
       "role": "TOP",
       "level": 1307,
-      "tier": "EMERALD I",
-      "lp": 95,
-      "wins": 200,
+      "tier": "DIAMOND IV",
+      "lp": 15,
+      "wins": 201,
       "losses": 228,
-      "winRate": 46.7,
+      "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3159.png"
     },
     {
@@ -262,7 +262,7 @@
     {
       "name": "UIC Taiga",
       "role": "COH",
-      "level": 471,
+      "level": 472,
       "tier": "DIAMOND I",
       "lp": 4,
       "wins": 26,
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 918,
       "tier": "DIAMOND II",
-      "lp": 70,
-      "wins": 178,
-      "losses": 203,
-      "winRate": 46.7,
+      "lp": 47,
+      "wins": 179,
+      "losses": 205,
+      "winRate": 46.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4569.png"
     },
     {
@@ -424,10 +424,10 @@
       "role": "JGL",
       "level": 1117,
       "tier": "DIAMOND III",
-      "lp": 14,
-      "wins": 210,
+      "lp": 32,
+      "wins": 211,
       "losses": 210,
-      "winRate": 50,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6872.png"
     },
     {
