@@ -422,12 +422,12 @@
     {
       "name": "Blauerlupos",
       "role": "JGL",
-      "level": 1116,
-      "tier": "DIAMOND II",
-      "lp": 28,
-      "wins": 209,
-      "losses": 204,
-      "winRate": 50.6,
+      "level": 1117,
+      "tier": "DIAMOND III",
+      "lp": 80,
+      "wins": 210,
+      "losses": 207,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6872.png"
     },
     {
@@ -591,12 +591,12 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 595,
+      "level": 596,
       "tier": "PLATINUM III",
-      "lp": 82,
-      "wins": 93,
-      "losses": 113,
-      "winRate": 45.1,
+      "lp": 79,
+      "wins": 94,
+      "losses": 114,
+      "winRate": 45.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3891.png"
     },
     {
@@ -637,10 +637,10 @@
       "role": "SUP",
       "level": 755,
       "tier": "PLATINUM IV",
-      "lp": 0,
-      "wins": 74,
+      "lp": 19,
+      "wins": 75,
       "losses": 89,
-      "winRate": 45.4,
+      "winRate": 45.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/2072.png"
     }
   ],
