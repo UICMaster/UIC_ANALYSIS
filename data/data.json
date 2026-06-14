@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1043,
       "tier": "MASTER I",
-      "lp": 187,
+      "lp": 157,
       "wins": 187,
-      "losses": 177,
-      "winRate": 51.4,
+      "losses": 178,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4380.png"
     },
     {
@@ -104,11 +104,11 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1002,
+      "level": 1003,
       "tier": "DIAMOND III",
       "lp": 62,
-      "wins": 84,
-      "losses": 99,
+      "wins": 85,
+      "losses": 100,
       "winRate": 45.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
@@ -196,7 +196,7 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1307,
+      "level": 1308,
       "tier": "DIAMOND IV",
       "lp": 15,
       "wins": 201,
@@ -251,7 +251,7 @@
     {
       "name": "BrandMachtFeuFeu",
       "role": "TOP",
-      "level": 718,
+      "level": 719,
       "tier": "EMERALD I",
       "lp": 58,
       "wins": 40,
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 918,
       "tier": "DIAMOND II",
-      "lp": 47,
-      "wins": 179,
-      "losses": 205,
-      "winRate": 46.6,
+      "lp": 64,
+      "wins": 181,
+      "losses": 206,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4569.png"
     },
     {
@@ -424,21 +424,21 @@
       "role": "JGL",
       "level": 1117,
       "tier": "DIAMOND III",
-      "lp": 32,
-      "wins": 211,
+      "lp": 50,
+      "wins": 212,
       "losses": 210,
-      "winRate": 50.1,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6872.png"
     },
     {
       "name": "UIC Ayumu",
       "role": "MID",
       "level": 603,
-      "tier": "PLATINUM I",
-      "lp": 44,
-      "wins": 139,
+      "tier": "EMERALD IV",
+      "lp": 4,
+      "wins": 141,
       "losses": 129,
-      "winRate": 51.9,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7139.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 614,
       "tier": "DIAMOND III",
-      "lp": 43,
+      "lp": 21,
       "wins": 221,
-      "losses": 245,
-      "winRate": 47.4,
+      "losses": 246,
+      "winRate": 47.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6000.png"
     },
     {
@@ -479,7 +479,7 @@
     {
       "name": "UIC Kaetaya",
       "role": "TOP",
-      "level": 880,
+      "level": 881,
       "tier": "EMERALD I",
       "lp": 12,
       "wins": 62,
@@ -648,7 +648,7 @@
     {
       "name": "UIC ソニック",
       "role": "TOP",
-      "level": 727,
+      "level": 728,
       "tier": "EMERALD IV",
       "lp": 86,
       "wins": 94,
