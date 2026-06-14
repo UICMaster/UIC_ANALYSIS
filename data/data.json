@@ -75,7 +75,7 @@
       "wins": 103,
       "losses": 83,
       "winRate": 55.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6811.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7040.png"
     }
   ],
   "eclipse": [
@@ -106,9 +106,9 @@
       "role": "MID",
       "level": 1001,
       "tier": "DIAMOND III",
-      "lp": 7,
-      "wins": 78,
-      "losses": 95,
+      "lp": 2,
+      "wins": 79,
+      "losses": 96,
       "winRate": 45.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
@@ -424,10 +424,10 @@
       "role": "JGL",
       "level": 1117,
       "tier": "DIAMOND III",
-      "lp": 80,
+      "lp": 58,
       "wins": 210,
-      "losses": 207,
-      "winRate": 50.4,
+      "losses": 208,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6872.png"
     },
     {
@@ -718,10 +718,10 @@
       "role": "JGL",
       "level": 500,
       "tier": "DIAMOND I",
-      "lp": 54,
+      "lp": 34,
       "wins": 148,
-      "losses": 143,
-      "winRate": 50.9,
+      "losses": 144,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6759.png"
     },
     {
