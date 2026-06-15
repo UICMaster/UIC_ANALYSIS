@@ -16,20 +16,20 @@
       "role": "JGL",
       "level": 1043,
       "tier": "MASTER I",
-      "lp": 249,
-      "wins": 190,
+      "lp": 280,
+      "wins": 191,
       "losses": 178,
-      "winRate": 51.6,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4380.png"
     },
     {
       "name": "UIC Shenycrane",
       "role": "MID",
-      "level": 640,
+      "level": 641,
       "tier": "MASTER I",
-      "lp": 146,
-      "wins": 93,
-      "losses": 88,
+      "lp": 148,
+      "wins": 95,
+      "losses": 90,
       "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7094.png"
     },
@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1003,
       "tier": "DIAMOND III",
-      "lp": 82,
+      "lp": 62,
       "wins": 87,
-      "losses": 101,
-      "winRate": 46.3,
+      "losses": 102,
+      "winRate": 46,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
@@ -163,10 +163,10 @@
       "role": "MID",
       "level": 472,
       "tier": "DIAMOND IV",
-      "lp": 6,
-      "wins": 85,
+      "lp": 26,
+      "wins": 86,
       "losses": 82,
-      "winRate": 50.9,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7076.png"
     },
     {
@@ -264,10 +264,10 @@
       "role": "COH",
       "level": 472,
       "tier": "DIAMOND I",
-      "lp": 22,
-      "wins": 27,
+      "lp": 50,
+      "wins": 28,
       "losses": 16,
-      "winRate": 62.8,
+      "winRate": 63.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6795.png"
     }
   ],
@@ -299,9 +299,9 @@
       "role": "MID",
       "level": 919,
       "tier": "DIAMOND II",
-      "lp": 79,
-      "wins": 183,
-      "losses": 208,
+      "lp": 76,
+      "wins": 184,
+      "losses": 209,
       "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4569.png"
     },
@@ -321,10 +321,10 @@
       "role": "SUP",
       "level": 1008,
       "tier": "MASTER I",
-      "lp": 79,
-      "wins": 83,
+      "lp": 110,
+      "wins": 84,
       "losses": 82,
-      "winRate": 50.3,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6622.png"
     },
     {
@@ -360,7 +360,7 @@
       "wins": 100,
       "losses": 81,
       "winRate": 55.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3157.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4404.png"
     },
     {
       "name": "UIC Ðărkø",
@@ -376,7 +376,7 @@
     {
       "name": "UIC Rellik",
       "role": "MID",
-      "level": 677,
+      "level": 678,
       "tier": "DIAMOND IV",
       "lp": 75,
       "wins": 123,
@@ -445,11 +445,11 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 615,
-      "tier": "DIAMOND II",
-      "lp": 7,
+      "tier": "DIAMOND III",
+      "lp": 85,
       "wins": 227,
-      "losses": 247,
-      "winRate": 47.9,
+      "losses": 248,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6000.png"
     },
     {
@@ -537,8 +537,8 @@
       "level": 606,
       "tier": "EMERALD I",
       "lp": 3,
-      "wins": 307,
-      "losses": 285,
+      "wins": 308,
+      "losses": 286,
       "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7027.png"
     },
@@ -558,10 +558,10 @@
       "role": "BOT",
       "level": 412,
       "tier": "PLATINUM IV",
-      "lp": 19,
-      "wins": 154,
+      "lp": 37,
+      "wins": 155,
       "losses": 143,
-      "winRate": 51.9,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4640.png"
     },
     {
@@ -650,10 +650,10 @@
       "role": "TOP",
       "level": 728,
       "tier": "EMERALD III",
-      "lp": 6,
-      "wins": 95,
-      "losses": 88,
-      "winRate": 51.9,
+      "lp": 26,
+      "wins": 97,
+      "losses": 89,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6490.png"
     },
     {
