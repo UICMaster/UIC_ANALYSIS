@@ -59,8 +59,8 @@
       "name": "Baumi",
       "role": "MID",
       "level": 1083,
-      "tier": "MASTER I",
-      "lp": 14,
+      "tier": "DIAMOND I",
+      "lp": 75,
       "wins": 398,
       "losses": 384,
       "winRate": 50.9,
@@ -263,11 +263,11 @@
       "name": "UIC Taiga",
       "role": "COH",
       "level": 472,
-      "tier": "DIAMOND I",
-      "lp": 64,
-      "wins": 29,
+      "tier": "MASTER I",
+      "lp": 16,
+      "wins": 31,
       "losses": 17,
-      "winRate": 63,
+      "winRate": 64.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6795.png"
     }
   ],
@@ -424,10 +424,10 @@
       "role": "JGL",
       "level": 1118,
       "tier": "DIAMOND IV",
-      "lp": 83,
-      "wins": 213,
-      "losses": 215,
-      "winRate": 49.8,
+      "lp": 55,
+      "wins": 214,
+      "losses": 217,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6872.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 615,
       "tier": "DIAMOND II",
-      "lp": 42,
+      "lp": 21,
       "wins": 230,
-      "losses": 248,
-      "winRate": 48.1,
+      "losses": 249,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6000.png"
     },
     {
@@ -490,7 +490,7 @@
     {
       "name": "UIC Muh",
       "role": "TOP",
-      "level": 526,
+      "level": 527,
       "tier": "PLATINUM IV",
       "lp": 53,
       "wins": 118,
@@ -648,7 +648,7 @@
     {
       "name": "UIC ソニック",
       "role": "TOP",
-      "level": 728,
+      "level": 729,
       "tier": "EMERALD III",
       "lp": 46,
       "wins": 98,
