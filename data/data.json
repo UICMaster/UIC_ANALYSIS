@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1004,
       "tier": "DIAMOND III",
-      "lp": 62,
-      "wins": 90,
-      "losses": 105,
-      "winRate": 46.2,
+      "lp": 60,
+      "wins": 92,
+      "losses": 108,
+      "winRate": 46,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
@@ -196,12 +196,12 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1308,
-      "tier": "DIAMOND IV",
-      "lp": 75,
-      "wins": 206,
-      "losses": 230,
-      "winRate": 47.2,
+      "level": 1309,
+      "tier": "DIAMOND III",
+      "lp": 15,
+      "wins": 209,
+      "losses": 231,
+      "winRate": 47.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3159.png"
     },
     {
@@ -240,7 +240,7 @@
     {
       "name": "UIC Haselmania",
       "role": "SUP",
-      "level": 610,
+      "level": 611,
       "tier": "MASTER I",
       "lp": 0,
       "wins": 64,
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 919,
       "tier": "DIAMOND II",
-      "lp": 95,
+      "lp": 53,
       "wins": 185,
-      "losses": 209,
-      "winRate": 47,
+      "losses": 211,
+      "winRate": 46.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4569.png"
     },
     {
@@ -424,9 +424,9 @@
       "role": "JGL",
       "level": 1119,
       "tier": "DIAMOND IV",
-      "lp": 57,
-      "wins": 218,
-      "losses": 221,
+      "lp": 51,
+      "wins": 219,
+      "losses": 222,
       "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6872.png"
     },
@@ -435,10 +435,10 @@
       "role": "MID",
       "level": 603,
       "tier": "EMERALD IV",
-      "lp": 17,
+      "lp": 0,
       "wins": 142,
-      "losses": 131,
-      "winRate": 52,
+      "losses": 132,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7139.png"
     },
     {
@@ -458,9 +458,9 @@
       "level": 326,
       "tier": "MASTER I",
       "lp": 78,
-      "wins": 113,
-      "losses": 94,
-      "winRate": 54.6,
+      "wins": 114,
+      "losses": 95,
+      "winRate": 54.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/5956.png"
     },
     {
@@ -485,7 +485,7 @@
       "wins": 62,
       "losses": 57,
       "winRate": 52.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6340.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6945.png"
     },
     {
       "name": "UIC Muh",
@@ -661,10 +661,10 @@
       "role": "JGL",
       "level": 1156,
       "tier": "MASTER I",
-      "lp": 30,
-      "wins": 91,
+      "lp": 40,
+      "wins": 92,
       "losses": 81,
-      "winRate": 52.9,
+      "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7123.png"
     },
     {
@@ -718,10 +718,10 @@
       "role": "JGL",
       "level": 500,
       "tier": "DIAMOND I",
-      "lp": 34,
-      "wins": 148,
+      "lp": 54,
+      "wins": 149,
       "losses": 144,
-      "winRate": 50.7,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6759.png"
     },
     {
