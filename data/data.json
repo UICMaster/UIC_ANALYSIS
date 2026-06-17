@@ -422,12 +422,12 @@
     {
       "name": "Blauerlupos",
       "role": "JGL",
-      "level": 1119,
-      "tier": "DIAMOND IV",
-      "lp": 40,
-      "wins": 221,
+      "level": 1120,
+      "tier": "DIAMOND III",
+      "lp": 9,
+      "wins": 225,
       "losses": 225,
-      "winRate": 49.6,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6872.png"
     },
     {
@@ -547,11 +547,11 @@
       "role": "BOT",
       "level": 1421,
       "tier": "PLATINUM III",
-      "lp": 52,
-      "wins": 542,
+      "lp": 70,
+      "wins": 543,
       "losses": 533,
-      "winRate": 50.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4404.png"
+      "winRate": 50.5,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4511.png"
     },
     {
       "name": "UIC Deavan",
