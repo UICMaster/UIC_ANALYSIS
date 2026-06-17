@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1004,
       "tier": "DIAMOND III",
-      "lp": 60,
+      "lp": 18,
       "wins": 92,
-      "losses": 108,
-      "winRate": 46,
+      "losses": 110,
+      "winRate": 45.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 854,
       "tier": "MASTER I",
-      "lp": 523,
-      "wins": 140,
+      "lp": 554,
+      "wins": 141,
       "losses": 109,
-      "winRate": 56.2,
+      "winRate": 56.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6943.png"
     },
     {
@@ -567,12 +567,12 @@
     {
       "name": "UIC Kaanto",
       "role": "SUP",
-      "level": 388,
+      "level": 389,
       "tier": "PLATINUM IV",
-      "lp": 62,
+      "lp": 20,
       "wins": 101,
-      "losses": 108,
-      "winRate": 48.3,
+      "losses": 110,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/5368.png"
     },
     {
