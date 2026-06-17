@@ -104,12 +104,12 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1004,
+      "level": 1005,
       "tier": "DIAMOND III",
-      "lp": 18,
-      "wins": 92,
-      "losses": 110,
-      "winRate": 45.5,
+      "lp": 14,
+      "wins": 94,
+      "losses": 112,
+      "winRate": 45.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 807,
       "tier": "MASTER I",
-      "lp": 399,
-      "wins": 197,
+      "lp": 430,
+      "wins": 198,
       "losses": 185,
-      "winRate": 51.6,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/528.png"
     },
     {
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 548,
       "tier": "DIAMOND II",
-      "lp": 91,
+      "lp": 69,
       "wins": 100,
-      "losses": 82,
-      "winRate": 54.9,
+      "losses": 84,
+      "winRate": 54.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4404.png"
     },
     {
@@ -376,12 +376,12 @@
     {
       "name": "UIC Rellik",
       "role": "MID",
-      "level": 678,
+      "level": 679,
       "tier": "DIAMOND IV",
-      "lp": 10,
+      "lp": 0,
       "wins": 124,
-      "losses": 104,
-      "winRate": 54.4,
+      "losses": 106,
+      "winRate": 53.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7155.png"
     },
     {
@@ -490,12 +490,12 @@
     {
       "name": "UIC Muh",
       "role": "TOP",
-      "level": 527,
+      "level": 528,
       "tier": "PLATINUM IV",
-      "lp": 53,
-      "wins": 118,
-      "losses": 121,
-      "winRate": 49.4,
+      "lp": 73,
+      "wins": 120,
+      "losses": 122,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/781.png"
     },
     {
@@ -547,10 +547,10 @@
       "role": "BOT",
       "level": 1422,
       "tier": "PLATINUM III",
-      "lp": 68,
+      "lp": 47,
       "wins": 544,
-      "losses": 534,
-      "winRate": 50.5,
+      "losses": 535,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4511.png"
     },
     {
@@ -558,10 +558,10 @@
       "role": "BOT",
       "level": 412,
       "tier": "PLATINUM IV",
-      "lp": 37,
+      "lp": 15,
       "wins": 155,
-      "losses": 143,
-      "winRate": 52,
+      "losses": 144,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4640.png"
     },
     {
@@ -592,11 +592,11 @@
       "name": "UIC Papi Δce",
       "role": "TOP",
       "level": 596,
-      "tier": "PLATINUM III",
-      "lp": 95,
-      "wins": 96,
+      "tier": "PLATINUM II",
+      "lp": 14,
+      "wins": 97,
       "losses": 115,
-      "winRate": 45.5,
+      "winRate": 45.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3891.png"
     },
     {
@@ -650,10 +650,10 @@
       "role": "TOP",
       "level": 729,
       "tier": "EMERALD III",
-      "lp": 46,
-      "wins": 98,
+      "lp": 86,
+      "wins": 100,
       "losses": 89,
-      "winRate": 52.4,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6490.png"
     },
     {
@@ -661,10 +661,10 @@
       "role": "JGL",
       "level": 1156,
       "tier": "MASTER I",
-      "lp": 40,
+      "lp": 10,
       "wins": 92,
-      "losses": 81,
-      "winRate": 53.2,
+      "losses": 82,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7123.png"
     },
     {
@@ -718,10 +718,10 @@
       "role": "JGL",
       "level": 500,
       "tier": "DIAMOND I",
-      "lp": 54,
-      "wins": 149,
+      "lp": 74,
+      "wins": 150,
       "losses": 144,
-      "winRate": 50.9,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6759.png"
     },
     {
