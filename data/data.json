@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1044,
       "tier": "MASTER I",
-      "lp": 283,
+      "lp": 223,
       "wins": 193,
-      "losses": 180,
-      "winRate": 51.7,
+      "losses": 182,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4380.png"
     },
     {
@@ -36,13 +36,13 @@
     {
       "name": "UIC Giani",
       "role": "BOT",
-      "level": 735,
+      "level": 0,
       "tier": "DIAMOND I",
       "lp": 79,
       "wins": 74,
       "losses": 69,
       "winRate": 51.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7.png"
+      "icon": null
     },
     {
       "name": "UIC Baguetto",
@@ -354,13 +354,13 @@
     {
       "name": "UIC DANY",
       "role": "TOP",
-      "level": 548,
+      "level": 0,
       "tier": "DIAMOND II",
       "lp": 69,
       "wins": 100,
       "losses": 84,
       "winRate": 54.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4404.png"
+      "icon": null
     },
     {
       "name": "UIC Ðărkø",
@@ -411,23 +411,23 @@
     {
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 933,
+      "level": 0,
       "tier": "DIAMOND IV",
       "lp": 2,
       "wins": 68,
       "losses": 68,
       "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6938.png"
+      "icon": null
     },
     {
       "name": "Blauerlupos",
       "role": "JGL",
       "level": 1120,
       "tier": "DIAMOND IV",
-      "lp": 58,
+      "lp": 35,
       "wins": 226,
-      "losses": 228,
-      "winRate": 49.8,
+      "losses": 229,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6872.png"
     },
     {
@@ -547,9 +547,9 @@
       "role": "BOT",
       "level": 1422,
       "tier": "PLATINUM III",
-      "lp": 85,
-      "wins": 546,
-      "losses": 535,
+      "lp": 83,
+      "wins": 547,
+      "losses": 536,
       "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4511.png"
     },
@@ -719,8 +719,8 @@
       "level": 500,
       "tier": "DIAMOND I",
       "lp": 74,
-      "wins": 151,
-      "losses": 145,
+      "wins": 152,
+      "losses": 146,
       "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6759.png"
     },
