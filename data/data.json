@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1005,
       "tier": "DIAMOND III",
-      "lp": 12,
-      "wins": 95,
+      "lp": 31,
+      "wins": 96,
       "losses": 113,
-      "winRate": 45.7,
+      "winRate": 45.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
@@ -308,7 +308,7 @@
     {
       "name": "UIC AutumnLeaf",
       "role": "BOT",
-      "level": 854,
+      "level": 855,
       "tier": "MASTER I",
       "lp": 467,
       "wins": 141,
@@ -445,10 +445,10 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 617,
-      "tier": "DIAMOND II",
-      "lp": 13,
+      "tier": "DIAMOND III",
+      "lp": 92,
       "wins": 234,
-      "losses": 253,
+      "losses": 254,
       "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6000.png"
     },
@@ -514,10 +514,10 @@
       "role": "JGL",
       "level": 965,
       "tier": "DIAMOND III",
-      "lp": 16,
-      "wins": 52,
+      "lp": 76,
+      "wins": 55,
       "losses": 43,
-      "winRate": 54.7,
+      "winRate": 56.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/5373.png"
     },
     {
@@ -545,11 +545,11 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1422,
+      "level": 1423,
       "tier": "PLATINUM III",
-      "lp": 60,
-      "wins": 548,
-      "losses": 538,
+      "lp": 58,
+      "wins": 549,
+      "losses": 539,
       "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4511.png"
     },
@@ -716,12 +716,12 @@
     {
       "name": "yShizuu",
       "role": "JGL",
-      "level": 500,
+      "level": 501,
       "tier": "DIAMOND I",
-      "lp": 74,
-      "wins": 152,
-      "losses": 146,
-      "winRate": 51,
+      "lp": 54,
+      "wins": 154,
+      "losses": 149,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6759.png"
     },
     {
