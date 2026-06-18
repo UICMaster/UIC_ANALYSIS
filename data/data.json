@@ -321,10 +321,10 @@
       "role": "SUP",
       "level": 1008,
       "tier": "MASTER I",
-      "lp": 0,
-      "wins": 84,
+      "lp": 31,
+      "wins": 85,
       "losses": 87,
-      "winRate": 49.1,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6622.png"
     },
     {
@@ -424,10 +424,10 @@
       "role": "JGL",
       "level": 1121,
       "tier": "DIAMOND IV",
-      "lp": 21,
-      "wins": 229,
-      "losses": 232,
-      "winRate": 49.7,
+      "lp": 31,
+      "wins": 232,
+      "losses": 234,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6872.png"
     },
     {
@@ -547,9 +547,9 @@
       "role": "BOT",
       "level": 1422,
       "tier": "PLATINUM III",
-      "lp": 81,
+      "lp": 60,
       "wins": 548,
-      "losses": 537,
+      "losses": 538,
       "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4511.png"
     },
