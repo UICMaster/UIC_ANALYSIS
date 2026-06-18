@@ -18,8 +18,8 @@
       "tier": "MASTER I",
       "lp": 223,
       "wins": 193,
-      "losses": 182,
-      "winRate": 51.5,
+      "losses": 183,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4380.png"
     },
     {
@@ -82,7 +82,7 @@
     {
       "name": "Stafferl",
       "role": "TOP",
-      "level": 855,
+      "level": 856,
       "tier": "EMERALD I",
       "lp": 1,
       "wins": 10,
@@ -104,12 +104,12 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1005,
-      "tier": "DIAMOND III",
-      "lp": 89,
-      "wins": 101,
-      "losses": 115,
-      "winRate": 46.8,
+      "level": 1006,
+      "tier": "DIAMOND II",
+      "lp": 9,
+      "wins": 103,
+      "losses": 116,
+      "winRate": 47,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
@@ -140,11 +140,11 @@
       "name": "UIC VTennic",
       "role": "TOP",
       "level": 489,
-      "tier": "DIAMOND III",
-      "lp": 1,
+      "tier": "DIAMOND IV",
+      "lp": 87,
       "wins": 23,
-      "losses": 21,
-      "winRate": 52.3,
+      "losses": 22,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4552.png"
     },
     {
@@ -301,8 +301,8 @@
       "tier": "DIAMOND II",
       "lp": 7,
       "wins": 186,
-      "losses": 215,
-      "winRate": 46.4,
+      "losses": 216,
+      "winRate": 46.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4569.png"
     },
     {
@@ -422,12 +422,12 @@
     {
       "name": "Blauerlupos",
       "role": "JGL",
-      "level": 1121,
+      "level": 1122,
       "tier": "DIAMOND IV",
-      "lp": 31,
+      "lp": 4,
       "wins": 232,
-      "losses": 234,
-      "winRate": 49.8,
+      "losses": 235,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6872.png"
     },
     {
@@ -546,11 +546,11 @@
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1423,
-      "tier": "PLATINUM III",
-      "lp": 16,
+      "tier": "PLATINUM IV",
+      "lp": 95,
       "wins": 549,
-      "losses": 541,
-      "winRate": 50.4,
+      "losses": 542,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4511.png"
     },
     {
@@ -659,7 +659,7 @@
     {
       "name": "BlauerKlaus",
       "role": "JGL",
-      "level": 1156,
+      "level": 1157,
       "tier": "MASTER I",
       "lp": 0,
       "wins": 92,
