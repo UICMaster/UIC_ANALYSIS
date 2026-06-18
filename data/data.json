@@ -106,16 +106,16 @@
       "role": "MID",
       "level": 1005,
       "tier": "DIAMOND III",
-      "lp": 69,
-      "wins": 99,
-      "losses": 114,
-      "winRate": 46.5,
+      "lp": 89,
+      "wins": 101,
+      "losses": 115,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
       "name": "Pferdemilch",
       "role": "BOT",
-      "level": 851,
+      "level": 852,
       "tier": "EMERALD IV",
       "lp": 19,
       "wins": 58,
@@ -139,7 +139,7 @@
     {
       "name": "UIC VTennic",
       "role": "TOP",
-      "level": 488,
+      "level": 489,
       "tier": "DIAMOND III",
       "lp": 1,
       "wins": 23,
@@ -275,7 +275,7 @@
     {
       "name": "UIC Kamo",
       "role": "TOP",
-      "level": 570,
+      "level": 571,
       "tier": "MASTER I",
       "lp": 255,
       "wins": 323,
@@ -297,7 +297,7 @@
     {
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 919,
+      "level": 920,
       "tier": "DIAMOND II",
       "lp": 7,
       "wins": 186,
@@ -365,7 +365,7 @@
     {
       "name": "UIC Ðărkø",
       "role": "JGL",
-      "level": 799,
+      "level": 800,
       "tier": "DIAMOND I",
       "lp": 54,
       "wins": 41,
@@ -398,7 +398,7 @@
     {
       "name": "UIC Ryu Panda",
       "role": "SUP",
-      "level": 800,
+      "level": 801,
       "tier": "UNRANKED",
       "lp": 0,
       "wins": 0,
@@ -415,8 +415,8 @@
       "tier": "DIAMOND IV",
       "lp": 0,
       "wins": 68,
-      "losses": 69,
-      "winRate": 49.6,
+      "losses": 70,
+      "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6938.png"
     },
     {
@@ -536,32 +536,32 @@
       "role": "MID",
       "level": 607,
       "tier": "EMERALD II",
-      "lp": 41,
-      "wins": 309,
+      "lp": 60,
+      "wins": 310,
       "losses": 290,
-      "winRate": 51.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7027.png"
+      "winRate": 51.7,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3164.png"
     },
     {
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1423,
       "tier": "PLATINUM III",
-      "lp": 58,
+      "lp": 16,
       "wins": 549,
-      "losses": 539,
-      "winRate": 50.5,
+      "losses": 541,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4511.png"
     },
     {
       "name": "UIC Deavan",
       "role": "BOT",
       "level": 412,
-      "tier": "PLATINUM IV",
-      "lp": 0,
+      "tier": "GOLD I",
+      "lp": 45,
       "wins": 155,
-      "losses": 145,
-      "winRate": 51.7,
+      "losses": 146,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4640.png"
     },
     {
@@ -674,8 +674,8 @@
       "tier": "EMERALD I",
       "lp": 54,
       "wins": 106,
-      "losses": 105,
-      "winRate": 50.2,
+      "losses": 106,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/1625.png"
     },
     {
