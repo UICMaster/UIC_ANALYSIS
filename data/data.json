@@ -107,8 +107,8 @@
       "level": 1006,
       "tier": "DIAMOND II",
       "lp": 28,
-      "wins": 106,
-      "losses": 118,
+      "wins": 107,
+      "losses": 119,
       "winRate": 47.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
@@ -331,11 +331,11 @@
       "name": "UIC Loonz",
       "role": "COH",
       "level": 813,
-      "tier": "EMERALD III",
-      "lp": 97,
-      "wins": 110,
+      "tier": "EMERALD II",
+      "lp": 17,
+      "wins": 111,
       "losses": 111,
-      "winRate": 49.8,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/1628.png"
     },
     {
@@ -422,18 +422,18 @@
     {
       "name": "Blauerlupos",
       "role": "JGL",
-      "level": 1122,
+      "level": 1123,
       "tier": "DIAMOND IV",
-      "lp": 15,
-      "wins": 237,
-      "losses": 239,
+      "lp": 13,
+      "wins": 238,
+      "losses": 240,
       "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6872.png"
     },
     {
       "name": "UIC Ayumu",
       "role": "MID",
-      "level": 603,
+      "level": 604,
       "tier": "EMERALD IV",
       "lp": 0,
       "wins": 142,
@@ -558,10 +558,10 @@
       "role": "BOT",
       "level": 412,
       "tier": "GOLD I",
-      "lp": 45,
+      "lp": 23,
       "wins": 155,
-      "losses": 146,
-      "winRate": 51.5,
+      "losses": 147,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4640.png"
     },
     {
@@ -578,7 +578,7 @@
     {
       "name": "UIC Excellent C",
       "role": "SUP",
-      "level": 581,
+      "level": 582,
       "tier": "PLATINUM IV",
       "lp": 1,
       "wins": 130,
