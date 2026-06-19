@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 648,
       "tier": "MASTER I",
-      "lp": 491,
-      "wins": 105,
-      "losses": 86,
-      "winRate": 55,
+      "lp": 521,
+      "wins": 106,
+      "losses": 87,
+      "winRate": 54.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7040.png"
     }
   ],
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 813,
       "tier": "EMERALD II",
-      "lp": 2,
-      "wins": 107,
-      "losses": 108,
-      "winRate": 49.8,
+      "lp": 20,
+      "wins": 109,
+      "losses": 109,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/1628.png"
     },
     {
@@ -444,12 +444,12 @@
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 617,
+      "level": 618,
       "tier": "DIAMOND II",
-      "lp": 9,
-      "wins": 236,
+      "lp": 47,
+      "wins": 238,
       "losses": 255,
-      "winRate": 48.1,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6000.png"
     },
     {
@@ -491,11 +491,11 @@
       "name": "UIC Muh",
       "role": "TOP",
       "level": 528,
-      "tier": "PLATINUM IV",
-      "lp": 73,
-      "wins": 120,
+      "tier": "PLATINUM III",
+      "lp": 13,
+      "wins": 122,
       "losses": 122,
-      "winRate": 49.6,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/781.png"
     },
     {
@@ -661,10 +661,10 @@
       "role": "JGL",
       "level": 1157,
       "tier": "MASTER I",
-      "lp": 30,
+      "lp": 0,
       "wins": 93,
-      "losses": 83,
-      "winRate": 52.8,
+      "losses": 84,
+      "winRate": 52.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7123.png"
     },
     {
