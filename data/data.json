@@ -27,7 +27,7 @@
       "role": "MID",
       "level": 641,
       "tier": "MASTER I",
-      "lp": 148,
+      "lp": 73,
       "wins": 95,
       "losses": 90,
       "winRate": 51.4,
@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 648,
       "tier": "MASTER I",
-      "lp": 551,
-      "wins": 107,
+      "lp": 581,
+      "wins": 108,
       "losses": 87,
-      "winRate": 55.2,
+      "winRate": 55.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7040.png"
     }
   ],
@@ -104,12 +104,12 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1006,
+      "level": 1007,
       "tier": "DIAMOND II",
-      "lp": 28,
+      "lp": 8,
       "wins": 107,
-      "losses": 119,
-      "winRate": 47.3,
+      "losses": 120,
+      "winRate": 47.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
@@ -332,9 +332,9 @@
       "role": "COH",
       "level": 813,
       "tier": "EMERALD II",
-      "lp": 17,
-      "wins": 111,
-      "losses": 111,
+      "lp": 16,
+      "wins": 112,
+      "losses": 112,
       "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/1628.png"
     },
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 548,
       "tier": "DIAMOND II",
-      "lp": 43,
+      "lp": 21,
       "wins": 101,
-      "losses": 86,
-      "winRate": 54,
+      "losses": 87,
+      "winRate": 53.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4404.png"
     },
     {
@@ -376,12 +376,12 @@
     {
       "name": "UIC Rellik",
       "role": "MID",
-      "level": 679,
-      "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 124,
-      "losses": 106,
-      "winRate": 53.9,
+      "level": 680,
+      "tier": "EMERALD I",
+      "lp": 48,
+      "wins": 125,
+      "losses": 108,
+      "winRate": 53.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7155.png"
     },
     {
@@ -424,10 +424,10 @@
       "role": "JGL",
       "level": 1123,
       "tier": "DIAMOND IV",
-      "lp": 13,
+      "lp": 0,
       "wins": 238,
-      "losses": 240,
-      "winRate": 49.8,
+      "losses": 241,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6872.png"
     },
     {
@@ -523,7 +523,7 @@
     {
       "name": "UIC adedier",
       "role": "MID",
-      "level": 624,
+      "level": 625,
       "tier": "PLATINUM IV",
       "lp": 40,
       "wins": 107,
@@ -556,7 +556,7 @@
     {
       "name": "UIC Deavan",
       "role": "BOT",
-      "level": 412,
+      "level": 413,
       "tier": "GOLD I",
       "lp": 23,
       "wins": 155,
