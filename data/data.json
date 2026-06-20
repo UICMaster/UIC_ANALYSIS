@@ -183,7 +183,7 @@
     {
       "name": "UIC FirstBlo",
       "role": "SUP",
-      "level": 496,
+      "level": 497,
       "tier": "DIAMOND IV",
       "lp": 23,
       "wins": 88,
@@ -198,10 +198,10 @@
       "role": "TOP",
       "level": 1309,
       "tier": "DIAMOND III",
-      "lp": 16,
-      "wins": 210,
+      "lp": 37,
+      "wins": 211,
       "losses": 232,
-      "winRate": 47.5,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3159.png"
     },
     {
@@ -740,16 +740,16 @@
       "role": "BOT",
       "level": 646,
       "tier": "DIAMOND IV",
-      "lp": 25,
+      "lp": 4,
       "wins": 86,
-      "losses": 94,
-      "winRate": 47.8,
+      "losses": 95,
+      "winRate": 47.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6330.png"
     },
     {
       "name": "TheEigeeen",
       "role": "SUP",
-      "level": 675,
+      "level": 676,
       "tier": "EMERALD II",
       "lp": 21,
       "wins": 82,
