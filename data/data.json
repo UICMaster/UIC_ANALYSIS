@@ -3,12 +3,12 @@
     {
       "name": "UIC Speedy",
       "role": "TOP",
-      "level": 1177,
+      "level": 1178,
       "tier": "MASTER I",
-      "lp": 215,
-      "wins": 184,
+      "lp": 244,
+      "wins": 185,
       "losses": 190,
-      "winRate": 49.2,
+      "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7026.png"
     },
     {
@@ -69,12 +69,12 @@
     {
       "name": "UIC FrozenHands",
       "role": "MID",
-      "level": 648,
+      "level": 649,
       "tier": "MASTER I",
-      "lp": 581,
+      "lp": 491,
       "wins": 108,
-      "losses": 87,
-      "winRate": 55.4,
+      "losses": 90,
+      "winRate": 54.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7040.png"
     }
   ],
@@ -107,9 +107,9 @@
       "level": 1007,
       "tier": "DIAMOND II",
       "lp": 8,
-      "wins": 107,
-      "losses": 120,
-      "winRate": 47.1,
+      "wins": 108,
+      "losses": 122,
+      "winRate": 47,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
@@ -207,7 +207,7 @@
     {
       "name": "UIC RealCrimes",
       "role": "JGL",
-      "level": 1049,
+      "level": 1050,
       "tier": "DIAMOND IV",
       "lp": 17,
       "wins": 44,
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 808,
       "tier": "MASTER I",
-      "lp": 347,
+      "lp": 287,
       "wins": 200,
-      "losses": 190,
-      "winRate": 51.3,
+      "losses": 192,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/528.png"
     },
     {
@@ -332,11 +332,11 @@
       "role": "COH",
       "level": 814,
       "tier": "EMERALD II",
-      "lp": 14,
-      "wins": 113,
-      "losses": 114,
+      "lp": 10,
+      "wins": 115,
+      "losses": 116,
       "winRate": 49.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/1628.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3366.png"
     },
     {
       "name": "UIC Cerberus",
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 618,
       "tier": "DIAMOND II",
-      "lp": 47,
-      "wins": 238,
+      "lp": 66,
+      "wins": 239,
       "losses": 255,
-      "winRate": 48.3,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6000.png"
     },
     {
@@ -490,12 +490,12 @@
     {
       "name": "UIC Muh",
       "role": "TOP",
-      "level": 529,
-      "tier": "PLATINUM III",
-      "lp": 77,
-      "wins": 126,
-      "losses": 123,
-      "winRate": 50.6,
+      "level": 530,
+      "tier": "PLATINUM II",
+      "lp": 1,
+      "wins": 128,
+      "losses": 124,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/781.png"
     },
     {
@@ -570,9 +570,9 @@
       "level": 389,
       "tier": "PLATINUM IV",
       "lp": 35,
-      "wins": 104,
-      "losses": 112,
-      "winRate": 48.1,
+      "wins": 105,
+      "losses": 113,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/5368.png"
     },
     {
@@ -672,10 +672,10 @@
       "role": "MID",
       "level": 646,
       "tier": "EMERALD I",
-      "lp": 43,
-      "wins": 108,
+      "lp": 61,
+      "wins": 109,
       "losses": 108,
-      "winRate": 50,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/1625.png"
     },
     {
