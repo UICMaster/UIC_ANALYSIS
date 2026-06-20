@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 649,
       "tier": "MASTER I",
-      "lp": 491,
+      "lp": 461,
       "wins": 108,
-      "losses": 90,
-      "winRate": 54.5,
+      "losses": 91,
+      "winRate": 54.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7040.png"
     }
   ],
@@ -95,10 +95,10 @@
       "role": "JGL",
       "level": 297,
       "tier": "EMERALD III",
-      "lp": 94,
+      "lp": 74,
       "wins": 78,
-      "losses": 74,
-      "winRate": 51.3,
+      "losses": 75,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/5982.png"
     },
     {
@@ -106,9 +106,9 @@
       "role": "MID",
       "level": 1007,
       "tier": "DIAMOND II",
-      "lp": 8,
-      "wins": 108,
-      "losses": 122,
+      "lp": 6,
+      "wins": 109,
+      "losses": 123,
       "winRate": 47,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
@@ -152,10 +152,10 @@
       "role": "JGL",
       "level": 975,
       "tier": "EMERALD I",
-      "lp": 44,
+      "lp": 4,
       "wins": 108,
-      "losses": 103,
-      "winRate": 51.2,
+      "losses": 105,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4967.png"
     },
     {
@@ -331,11 +331,11 @@
       "name": "UIC Loonz",
       "role": "COH",
       "level": 814,
-      "tier": "EMERALD II",
-      "lp": 10,
+      "tier": "EMERALD III",
+      "lp": 89,
       "wins": 115,
-      "losses": 116,
-      "winRate": 49.8,
+      "losses": 117,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3366.png"
     },
     {
@@ -436,8 +436,8 @@
       "level": 604,
       "tier": "EMERALD IV",
       "lp": 0,
-      "wins": 142,
-      "losses": 132,
+      "wins": 143,
+      "losses": 133,
       "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7139.png"
     },
@@ -446,11 +446,11 @@
       "role": "BOT",
       "level": 618,
       "tier": "DIAMOND II",
-      "lp": 66,
+      "lp": 24,
       "wins": 239,
-      "losses": 255,
-      "winRate": 48.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6000.png"
+      "losses": 257,
+      "winRate": 48.2,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4413.png"
     },
     {
       "name": "UIC Moonlxght",
@@ -479,7 +479,7 @@
     {
       "name": "UIC Kaetaya",
       "role": "TOP",
-      "level": 881,
+      "level": 882,
       "tier": "EMERALD I",
       "lp": 12,
       "wins": 62,
@@ -492,10 +492,10 @@
       "role": "TOP",
       "level": 530,
       "tier": "PLATINUM II",
-      "lp": 1,
-      "wins": 128,
+      "lp": 67,
+      "wins": 131,
       "losses": 124,
-      "winRate": 50.8,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/781.png"
     },
     {
@@ -567,12 +567,12 @@
     {
       "name": "UIC Kaanto",
       "role": "SUP",
-      "level": 389,
+      "level": 390,
       "tier": "PLATINUM IV",
-      "lp": 35,
-      "wins": 105,
+      "lp": 75,
+      "wins": 107,
       "losses": 113,
-      "winRate": 48.2,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/5368.png"
     },
     {
