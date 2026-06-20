@@ -104,12 +104,12 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1007,
+      "level": 1008,
       "tier": "DIAMOND III",
-      "lp": 43,
-      "wins": 109,
-      "losses": 126,
-      "winRate": 46.4,
+      "lp": 1,
+      "wins": 110,
+      "losses": 129,
+      "winRate": 46,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
@@ -297,7 +297,7 @@
     {
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 920,
+      "level": 921,
       "tier": "DIAMOND II",
       "lp": 24,
       "wins": 187,
@@ -330,12 +330,12 @@
     {
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 814,
+      "level": 815,
       "tier": "EMERALD III",
-      "lp": 42,
-      "wins": 116,
-      "losses": 121,
-      "winRate": 48.9,
+      "lp": 58,
+      "wins": 118,
+      "losses": 122,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3366.png"
     },
     {
@@ -425,8 +425,8 @@
       "level": 1123,
       "tier": "DIAMOND IV",
       "lp": 0,
-      "wins": 241,
-      "losses": 244,
+      "wins": 242,
+      "losses": 245,
       "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6872.png"
     },
@@ -490,7 +490,7 @@
     {
       "name": "UIC Muh",
       "role": "TOP",
-      "level": 530,
+      "level": 531,
       "tier": "PLATINUM II",
       "lp": 93,
       "wins": 133,
@@ -546,12 +546,12 @@
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1425,
-      "tier": "PLATINUM III",
-      "lp": 73,
-      "wins": 560,
+      "tier": "PLATINUM II",
+      "lp": 13,
+      "wins": 562,
       "losses": 549,
-      "winRate": 50.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4511.png"
+      "winRate": 50.6,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7082.png"
     },
     {
       "name": "UIC Deavan",
