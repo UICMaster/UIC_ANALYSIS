@@ -286,12 +286,12 @@
     {
       "name": "UIC Exi",
       "role": "JGL",
-      "level": 807,
+      "level": 808,
       "tier": "MASTER I",
-      "lp": 405,
+      "lp": 347,
       "wins": 200,
-      "losses": 188,
-      "winRate": 51.5,
+      "losses": 190,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/528.png"
     },
     {
@@ -330,12 +330,12 @@
     {
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 813,
+      "level": 814,
       "tier": "EMERALD II",
-      "lp": 16,
-      "wins": 112,
-      "losses": 112,
-      "winRate": 50,
+      "lp": 14,
+      "wins": 113,
+      "losses": 114,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/1628.png"
     },
     {
@@ -378,10 +378,10 @@
       "role": "MID",
       "level": 680,
       "tier": "EMERALD I",
-      "lp": 67,
+      "lp": 25,
       "wins": 126,
-      "losses": 108,
-      "winRate": 53.8,
+      "losses": 110,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7155.png"
     },
     {
@@ -547,9 +547,9 @@
       "role": "BOT",
       "level": 1425,
       "tier": "PLATINUM III",
-      "lp": 93,
+      "lp": 73,
       "wins": 559,
-      "losses": 547,
+      "losses": 548,
       "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4511.png"
     },
@@ -569,9 +569,9 @@
       "role": "SUP",
       "level": 389,
       "tier": "PLATINUM IV",
-      "lp": 37,
-      "wins": 103,
-      "losses": 111,
+      "lp": 35,
+      "wins": 104,
+      "losses": 112,
       "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/5368.png"
     },
@@ -659,7 +659,7 @@
     {
       "name": "BlauerKlaus",
       "role": "JGL",
-      "level": 1157,
+      "level": 1158,
       "tier": "MASTER I",
       "lp": 0,
       "wins": 93,
@@ -672,10 +672,10 @@
       "role": "MID",
       "level": 646,
       "tier": "EMERALD I",
-      "lp": 25,
-      "wins": 107,
+      "lp": 43,
+      "wins": 108,
       "losses": 108,
-      "winRate": 49.8,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/1625.png"
     },
     {
