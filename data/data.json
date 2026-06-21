@@ -105,11 +105,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1008,
-      "tier": "DIAMOND IV",
-      "lp": 99,
-      "wins": 111,
+      "tier": "DIAMOND III",
+      "lp": 37,
+      "wins": 113,
       "losses": 131,
-      "winRate": 45.9,
+      "winRate": 46.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
@@ -150,12 +150,12 @@
     {
       "name": "UIC Hunter",
       "role": "JGL",
-      "level": 976,
+      "level": 977,
       "tier": "EMERALD II",
-      "lp": 64,
-      "wins": 110,
-      "losses": 109,
-      "winRate": 50.2,
+      "lp": 84,
+      "wins": 112,
+      "losses": 110,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4967.png"
     },
     {
@@ -207,7 +207,7 @@
     {
       "name": "UIC RealCrimes",
       "role": "JGL",
-      "level": 1050,
+      "level": 1051,
       "tier": "DIAMOND IV",
       "lp": 17,
       "wins": 44,
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 808,
       "tier": "MASTER I",
-      "lp": 348,
-      "wins": 203,
-      "losses": 193,
-      "winRate": 51.3,
+      "lp": 409,
+      "wins": 205,
+      "losses": 194,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/528.png"
     },
     {
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 815,
       "tier": "EMERALD III",
-      "lp": 50,
+      "lp": 8,
       "wins": 122,
-      "losses": 126,
-      "winRate": 49.2,
+      "losses": 128,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3366.png"
     },
     {
@@ -378,22 +378,22 @@
       "role": "MID",
       "level": 680,
       "tier": "EMERALD I",
-      "lp": 44,
-      "wins": 127,
-      "losses": 110,
-      "winRate": 53.6,
+      "lp": 61,
+      "wins": 129,
+      "losses": 111,
+      "winRate": 53.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7155.png"
     },
     {
       "name": "UIC Pjure",
       "role": "BOT",
-      "level": 753,
+      "level": 754,
       "tier": "DIAMOND I",
-      "lp": 30,
-      "wins": 128,
+      "lp": 48,
+      "wins": 129,
       "losses": 115,
-      "winRate": 52.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3891.png"
+      "winRate": 52.9,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/5726.png"
     },
     {
       "name": "UIC Ryu Panda",
@@ -413,10 +413,10 @@
       "role": "TOP",
       "level": 934,
       "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 68,
+      "lp": 38,
+      "wins": 69,
       "losses": 70,
-      "winRate": 49.3,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6938.png"
     },
     {
@@ -437,8 +437,8 @@
       "tier": "EMERALD IV",
       "lp": 17,
       "wins": 144,
-      "losses": 133,
-      "winRate": 52,
+      "losses": 134,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7139.png"
     },
     {
@@ -547,8 +547,8 @@
       "role": "BOT",
       "level": 1426,
       "tier": "PLATINUM II",
-      "lp": 14,
-      "wins": 564,
+      "lp": 34,
+      "wins": 565,
       "losses": 551,
       "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7082.png"
@@ -635,12 +635,12 @@
     {
       "name": "LordZash",
       "role": "SUP",
-      "level": 756,
+      "level": 757,
       "tier": "PLATINUM IV",
-      "lp": 39,
-      "wins": 76,
+      "lp": 99,
+      "wins": 79,
       "losses": 89,
-      "winRate": 46.1,
+      "winRate": 47,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/2072.png"
     }
   ],
