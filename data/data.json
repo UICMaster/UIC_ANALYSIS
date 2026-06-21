@@ -82,7 +82,7 @@
     {
       "name": "Stafferl",
       "role": "TOP",
-      "level": 856,
+      "level": 857,
       "tier": "EMERALD I",
       "lp": 1,
       "wins": 10,
@@ -161,7 +161,7 @@
     {
       "name": "UIC Kaoxz",
       "role": "MID",
-      "level": 472,
+      "level": 473,
       "tier": "DIAMOND IV",
       "lp": 26,
       "wins": 86,
@@ -424,9 +424,9 @@
       "role": "JGL",
       "level": 1124,
       "tier": "DIAMOND IV",
-      "lp": 56,
-      "wins": 245,
-      "losses": 245,
+      "lp": 52,
+      "wins": 247,
+      "losses": 247,
       "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6872.png"
     },
@@ -492,10 +492,10 @@
       "role": "TOP",
       "level": 531,
       "tier": "PLATINUM II",
-      "lp": 75,
-      "wins": 133,
+      "lp": 97,
+      "wins": 134,
       "losses": 126,
-      "winRate": 51.4,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/781.png"
     },
     {
@@ -568,11 +568,11 @@
       "name": "UIC Kaanto",
       "role": "SUP",
       "level": 390,
-      "tier": "PLATINUM IV",
-      "lp": 95,
-      "wins": 109,
+      "tier": "PLATINUM III",
+      "lp": 16,
+      "wins": 110,
       "losses": 114,
-      "winRate": 48.9,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/5368.png"
     },
     {
@@ -749,7 +749,7 @@
     {
       "name": "TheEigeeen",
       "role": "SUP",
-      "level": 676,
+      "level": 677,
       "tier": "EMERALD II",
       "lp": 21,
       "wins": 82,
