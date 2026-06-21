@@ -422,7 +422,7 @@
     {
       "name": "Blauerlupos",
       "role": "JGL",
-      "level": 1124,
+      "level": 1125,
       "tier": "DIAMOND IV",
       "lp": 90,
       "wins": 250,
@@ -740,10 +740,10 @@
       "role": "BOT",
       "level": 646,
       "tier": "DIAMOND IV",
-      "lp": 4,
+      "lp": 0,
       "wins": 86,
-      "losses": 95,
-      "winRate": 47.5,
+      "losses": 96,
+      "winRate": 47.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6330.png"
     },
     {
