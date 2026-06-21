@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1178,
       "tier": "MASTER I",
-      "lp": 244,
-      "wins": 185,
+      "lp": 273,
+      "wins": 186,
       "losses": 190,
-      "winRate": 49.3,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7026.png"
     },
     {
@@ -17,8 +17,8 @@
       "level": 1045,
       "tier": "MASTER I",
       "lp": 283,
-      "wins": 195,
-      "losses": 183,
+      "wins": 196,
+      "losses": 184,
       "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4380.png"
     },
@@ -105,11 +105,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1008,
-      "tier": "DIAMOND III",
-      "lp": 1,
-      "wins": 110,
-      "losses": 129,
-      "winRate": 46,
+      "tier": "DIAMOND IV",
+      "lp": 99,
+      "wins": 111,
+      "losses": 131,
+      "winRate": 45.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
@@ -152,10 +152,10 @@
       "role": "JGL",
       "level": 976,
       "tier": "EMERALD II",
-      "lp": 44,
-      "wins": 108,
-      "losses": 108,
-      "winRate": 50,
+      "lp": 64,
+      "wins": 110,
+      "losses": 109,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4967.png"
     },
     {
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 808,
       "tier": "MASTER I",
-      "lp": 287,
-      "wins": 200,
-      "losses": 192,
-      "winRate": 51,
+      "lp": 348,
+      "wins": 203,
+      "losses": 193,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/528.png"
     },
     {
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 815,
       "tier": "EMERALD III",
-      "lp": 35,
-      "wins": 119,
-      "losses": 124,
-      "winRate": 49,
+      "lp": 50,
+      "wins": 122,
+      "losses": 126,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3366.png"
     },
     {
@@ -378,10 +378,10 @@
       "role": "MID",
       "level": 680,
       "tier": "EMERALD I",
-      "lp": 25,
-      "wins": 126,
+      "lp": 44,
+      "wins": 127,
       "losses": 110,
-      "winRate": 53.4,
+      "winRate": 53.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7155.png"
     },
     {
@@ -411,7 +411,7 @@
     {
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 933,
+      "level": 934,
       "tier": "DIAMOND IV",
       "lp": 0,
       "wins": 68,
@@ -457,10 +457,10 @@
       "role": "SUP",
       "level": 326,
       "tier": "MASTER I",
-      "lp": 78,
-      "wins": 114,
+      "lp": 108,
+      "wins": 115,
       "losses": 95,
-      "winRate": 54.5,
+      "winRate": 54.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/5956.png"
     },
     {
@@ -558,20 +558,20 @@
       "role": "BOT",
       "level": 413,
       "tier": "GOLD I",
-      "lp": 15,
-      "wins": 157,
-      "losses": 149,
+      "lp": 12,
+      "wins": 158,
+      "losses": 150,
       "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4640.png"
     },
     {
       "name": "UIC Kaanto",
       "role": "SUP",
-      "level": 390,
+      "level": 391,
       "tier": "PLATINUM III",
-      "lp": 60,
-      "wins": 113,
-      "losses": 115,
+      "lp": 62,
+      "wins": 114,
+      "losses": 116,
       "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/5368.png"
     },
@@ -581,8 +581,8 @@
       "level": 582,
       "tier": "PLATINUM IV",
       "lp": 0,
-      "wins": 130,
-      "losses": 137,
+      "wins": 131,
+      "losses": 138,
       "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7064.png"
     }
@@ -637,10 +637,10 @@
       "role": "SUP",
       "level": 756,
       "tier": "PLATINUM IV",
-      "lp": 19,
-      "wins": 75,
+      "lp": 39,
+      "wins": 76,
       "losses": 89,
-      "winRate": 45.7,
+      "winRate": 46.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/2072.png"
     }
   ],
@@ -672,10 +672,10 @@
       "role": "MID",
       "level": 646,
       "tier": "EMERALD I",
-      "lp": 57,
+      "lp": 13,
       "wins": 110,
-      "losses": 109,
-      "winRate": 50.2,
+      "losses": 111,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/1625.png"
     },
     {
