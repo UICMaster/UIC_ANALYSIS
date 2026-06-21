@@ -286,12 +286,12 @@
     {
       "name": "UIC Exi",
       "role": "JGL",
-      "level": 808,
+      "level": 809,
       "tier": "MASTER I",
-      "lp": 379,
-      "wins": 206,
+      "lp": 409,
+      "wins": 207,
       "losses": 196,
-      "winRate": 51.2,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/528.png"
     },
     {
@@ -661,10 +661,10 @@
       "role": "JGL",
       "level": 1158,
       "tier": "MASTER I",
-      "lp": 0,
-      "wins": 93,
+      "lp": 30,
+      "wins": 94,
       "losses": 84,
-      "winRate": 52.5,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7123.png"
     },
     {
