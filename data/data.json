@@ -117,10 +117,10 @@
       "role": "BOT",
       "level": 852,
       "tier": "EMERALD IV",
-      "lp": 19,
+      "lp": 0,
       "wins": 58,
-      "losses": 79,
-      "winRate": 42.3,
+      "losses": 81,
+      "winRate": 41.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6582.png"
     },
     {
@@ -209,20 +209,20 @@
       "role": "JGL",
       "level": 1051,
       "tier": "DIAMOND IV",
-      "lp": 34,
-      "wins": 45,
-      "losses": 53,
-      "winRate": 45.9,
+      "lp": 30,
+      "wins": 46,
+      "losses": 54,
+      "winRate": 46,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/1453.png"
     },
     {
       "name": "UIC Landmine",
       "role": "MID",
-      "level": 670,
+      "level": 671,
       "tier": "EMERALD I",
-      "lp": 58,
-      "wins": 63,
-      "losses": 68,
+      "lp": 56,
+      "wins": 64,
+      "losses": 69,
       "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/615.png"
     },
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 808,
       "tier": "MASTER I",
-      "lp": 409,
+      "lp": 379,
       "wins": 206,
-      "losses": 195,
-      "winRate": 51.4,
+      "losses": 196,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/528.png"
     },
     {
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 921,
       "tier": "DIAMOND II",
-      "lp": 24,
-      "wins": 187,
+      "lp": 41,
+      "wins": 188,
       "losses": 216,
-      "winRate": 46.4,
+      "winRate": 46.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4569.png"
     },
     {
@@ -360,7 +360,7 @@
       "wins": 101,
       "losses": 88,
       "winRate": 53.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4404.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3157.png"
     },
     {
       "name": "UIC Ðărkø",
@@ -378,10 +378,10 @@
       "role": "MID",
       "level": 680,
       "tier": "EMERALD I",
-      "lp": 40,
-      "wins": 129,
+      "lp": 60,
+      "wins": 130,
       "losses": 112,
-      "winRate": 53.5,
+      "winRate": 53.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7155.png"
     },
     {
@@ -650,10 +650,10 @@
       "role": "TOP",
       "level": 729,
       "tier": "EMERALD III",
-      "lp": 66,
+      "lp": 46,
       "wins": 100,
-      "losses": 90,
-      "winRate": 52.6,
+      "losses": 91,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6490.png"
     },
     {
