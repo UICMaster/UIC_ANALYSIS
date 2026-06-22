@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1179,
       "tier": "MASTER I",
-      "lp": 238,
+      "lp": 207,
       "wins": 188,
-      "losses": 193,
-      "winRate": 49.3,
+      "losses": 194,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7026.png"
     },
     {
@@ -49,10 +49,10 @@
       "role": "SUP",
       "level": 1005,
       "tier": "DIAMOND I",
-      "lp": 1,
-      "wins": 133,
+      "lp": 41,
+      "wins": 135,
       "losses": 121,
-      "winRate": 52.4,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4380.png"
     },
     {
@@ -153,8 +153,8 @@
       "level": 977,
       "tier": "EMERALD II",
       "lp": 84,
-      "wins": 113,
-      "losses": 111,
+      "wins": 115,
+      "losses": 113,
       "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4967.png"
     },
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 809,
       "tier": "MASTER I",
-      "lp": 409,
+      "lp": 379,
       "wins": 207,
-      "losses": 196,
-      "winRate": 51.4,
+      "losses": 197,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/528.png"
     },
     {
@@ -331,11 +331,11 @@
       "name": "UIC Loonz",
       "role": "COH",
       "level": 816,
-      "tier": "EMERALD III",
-      "lp": 21,
+      "tier": "EMERALD IV",
+      "lp": 58,
       "wins": 126,
-      "losses": 131,
-      "winRate": 49,
+      "losses": 134,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3366.png"
     },
     {
@@ -379,10 +379,10 @@
       "level": 681,
       "tier": "EMERALD I",
       "lp": 60,
-      "wins": 130,
-      "losses": 112,
+      "wins": 131,
+      "losses": 113,
       "winRate": 53.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7155.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4830.png"
     },
     {
       "name": "UIC Pjure",
@@ -433,12 +433,12 @@
     {
       "name": "UIC Ayumu",
       "role": "MID",
-      "level": 604,
+      "level": 605,
       "tier": "EMERALD IV",
-      "lp": 34,
-      "wins": 145,
+      "lp": 51,
+      "wins": 146,
       "losses": 134,
-      "winRate": 52,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7139.png"
     },
     {
@@ -578,7 +578,7 @@
     {
       "name": "UIC Excellent C",
       "role": "SUP",
-      "level": 582,
+      "level": 583,
       "tier": "PLATINUM IV",
       "lp": 0,
       "wins": 131,
