@@ -82,7 +82,7 @@
     {
       "name": "Stafferl",
       "role": "TOP",
-      "level": 857,
+      "level": 858,
       "tier": "EMERALD I",
       "lp": 1,
       "wins": 10,
@@ -435,10 +435,10 @@
       "role": "MID",
       "level": 605,
       "tier": "EMERALD IV",
-      "lp": 51,
-      "wins": 146,
+      "lp": 85,
+      "wins": 147,
       "losses": 134,
-      "winRate": 52.1,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7139.png"
     },
     {
