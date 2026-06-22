@@ -308,7 +308,7 @@
     {
       "name": "UIC AutumnLeaf",
       "role": "BOT",
-      "level": 855,
+      "level": 856,
       "tier": "MASTER I",
       "lp": 467,
       "wins": 141,
@@ -445,11 +445,11 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 619,
-      "tier": "DIAMOND II",
-      "lp": 3,
+      "tier": "DIAMOND III",
+      "lp": 82,
       "wins": 239,
-      "losses": 258,
-      "winRate": 48.1,
+      "losses": 260,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4413.png"
     },
     {
@@ -536,21 +536,21 @@
       "role": "MID",
       "level": 608,
       "tier": "EMERALD II",
-      "lp": 60,
-      "wins": 310,
-      "losses": 290,
+      "lp": 80,
+      "wins": 312,
+      "losses": 291,
       "winRate": 51.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3164.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3553.png"
     },
     {
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1426,
       "tier": "PLATINUM III",
-      "lp": 94,
+      "lp": 53,
       "wins": 565,
-      "losses": 553,
-      "winRate": 50.5,
+      "losses": 555,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7082.png"
     },
     {
