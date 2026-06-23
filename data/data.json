@@ -5,9 +5,9 @@
       "role": "TOP",
       "level": 1179,
       "tier": "MASTER I",
-      "lp": 176,
-      "wins": 188,
-      "losses": 195,
+      "lp": 174,
+      "wins": 189,
+      "losses": 196,
       "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7026.png"
     },
@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1009,
       "tier": "DIAMOND III",
-      "lp": 44,
-      "wins": 117,
-      "losses": 135,
-      "winRate": 46.4,
+      "lp": 59,
+      "wins": 120,
+      "losses": 137,
+      "winRate": 46.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
@@ -496,7 +496,7 @@
       "wins": 135,
       "losses": 127,
       "winRate": 51.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/781.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7123.png"
     },
     {
       "name": "UIC Rubix Qube",
@@ -536,10 +536,10 @@
       "role": "MID",
       "level": 609,
       "tier": "EMERALD I",
-      "lp": 57,
+      "lp": 36,
       "wins": 319,
-      "losses": 295,
-      "winRate": 52,
+      "losses": 296,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3553.png"
     },
     {
@@ -556,7 +556,7 @@
     {
       "name": "UIC Deavan",
       "role": "BOT",
-      "level": 413,
+      "level": 414,
       "tier": "GOLD I",
       "lp": 12,
       "wins": 158,
@@ -636,11 +636,11 @@
       "name": "LordZash",
       "role": "SUP",
       "level": 757,
-      "tier": "PLATINUM IV",
-      "lp": 99,
-      "wins": 79,
+      "tier": "PLATINUM III",
+      "lp": 20,
+      "wins": 80,
       "losses": 89,
-      "winRate": 47,
+      "winRate": 47.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/2072.png"
     }
   ],
