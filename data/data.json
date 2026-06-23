@@ -3,13 +3,13 @@
     {
       "name": "UIC Speedy",
       "role": "TOP",
-      "level": 1179,
+      "level": 1180,
       "tier": "MASTER I",
-      "lp": 174,
+      "lp": 112,
       "wins": 189,
-      "losses": 196,
-      "winRate": 49.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7026.png"
+      "losses": 198,
+      "winRate": 48.8,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4380.png"
     },
     {
       "name": "UIC Niki",
@@ -108,8 +108,8 @@
       "tier": "DIAMOND III",
       "lp": 59,
       "wins": 120,
-      "losses": 137,
-      "winRate": 46.7,
+      "losses": 138,
+      "winRate": 46.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/6284.png"
     },
     {
@@ -150,12 +150,12 @@
     {
       "name": "UIC Hunter",
       "role": "JGL",
-      "level": 977,
+      "level": 978,
       "tier": "EMERALD II",
-      "lp": 84,
-      "wins": 115,
-      "losses": 113,
-      "winRate": 50.4,
+      "lp": 64,
+      "wins": 116,
+      "losses": 115,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4967.png"
     },
     {
@@ -319,7 +319,7 @@
     {
       "name": "UIC Ryu Copeland",
       "role": "SUP",
-      "level": 1008,
+      "level": 1009,
       "tier": "MASTER I",
       "lp": 32,
       "wins": 86,
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 816,
       "tier": "EMERALD IV",
-      "lp": 78,
-      "wins": 127,
-      "losses": 134,
-      "winRate": 48.7,
+      "lp": 97,
+      "wins": 129,
+      "losses": 135,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3366.png"
     },
     {
@@ -411,7 +411,7 @@
     {
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 934,
+      "level": 935,
       "tier": "DIAMOND IV",
       "lp": 56,
       "wins": 70,
@@ -424,10 +424,10 @@
       "role": "JGL",
       "level": 1126,
       "tier": "DIAMOND IV",
-      "lp": 27,
+      "lp": 6,
       "wins": 251,
-      "losses": 252,
-      "winRate": 49.9,
+      "losses": 253,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7143.png"
     },
     {
@@ -445,22 +445,22 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 620,
-      "tier": "DIAMOND III",
-      "lp": 76,
-      "wins": 240,
-      "losses": 262,
-      "winRate": 47.8,
+      "tier": "DIAMOND II",
+      "lp": 12,
+      "wins": 242,
+      "losses": 263,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4413.png"
     },
     {
       "name": "UIC Moonlxght",
       "role": "SUP",
-      "level": 326,
+      "level": 327,
       "tier": "MASTER I",
-      "lp": 138,
+      "lp": 78,
       "wins": 116,
-      "losses": 95,
-      "winRate": 55,
+      "losses": 97,
+      "winRate": 54.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/5956.png"
     },
     {
@@ -514,10 +514,10 @@
       "role": "JGL",
       "level": 966,
       "tier": "DIAMOND III",
-      "lp": 76,
-      "wins": 57,
+      "lp": 96,
+      "wins": 58,
       "losses": 45,
-      "winRate": 55.9,
+      "winRate": 56.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/5373.png"
     },
     {
@@ -536,9 +536,9 @@
       "role": "MID",
       "level": 609,
       "tier": "EMERALD I",
-      "lp": 36,
-      "wins": 319,
-      "losses": 296,
+      "lp": 34,
+      "wins": 320,
+      "losses": 297,
       "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3553.png"
     },
@@ -546,11 +546,11 @@
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1427,
-      "tier": "PLATINUM III",
-      "lp": 11,
+      "tier": "PLATINUM IV",
+      "lp": 89,
       "wins": 565,
-      "losses": 557,
-      "winRate": 50.4,
+      "losses": 558,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7082.png"
     },
     {
@@ -637,10 +637,10 @@
       "role": "SUP",
       "level": 757,
       "tier": "PLATINUM III",
-      "lp": 20,
-      "wins": 80,
+      "lp": 41,
+      "wins": 81,
       "losses": 89,
-      "winRate": 47.3,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/2072.png"
     }
   ],
@@ -659,12 +659,12 @@
     {
       "name": "BlauerKlaus",
       "role": "JGL",
-      "level": 1158,
+      "level": 1159,
       "tier": "MASTER I",
-      "lp": 60,
-      "wins": 95,
-      "losses": 84,
-      "winRate": 53.1,
+      "lp": 30,
+      "wins": 96,
+      "losses": 86,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7123.png"
     },
     {
