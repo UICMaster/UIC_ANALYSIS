@@ -36,7 +36,7 @@
     {
       "name": "UIC Giani",
       "role": "BOT",
-      "level": 735,
+      "level": 736,
       "tier": "DIAMOND I",
       "lp": 79,
       "wins": 74,
@@ -47,7 +47,7 @@
     {
       "name": "UIC Baguetto",
       "role": "SUP",
-      "level": 1005,
+      "level": 1006,
       "tier": "DIAMOND I",
       "lp": 41,
       "wins": 135,
@@ -58,7 +58,7 @@
     {
       "name": "Baumi",
       "role": "MID",
-      "level": 1083,
+      "level": 1084,
       "tier": "DIAMOND I",
       "lp": 75,
       "wins": 398,
@@ -331,11 +331,11 @@
       "name": "UIC Loonz",
       "role": "COH",
       "level": 816,
-      "tier": "EMERALD IV",
-      "lp": 97,
-      "wins": 129,
+      "tier": "EMERALD III",
+      "lp": 16,
+      "wins": 130,
       "losses": 135,
-      "winRate": 48.9,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3366.png"
     },
     {
@@ -424,9 +424,9 @@
       "role": "JGL",
       "level": 1126,
       "tier": "DIAMOND IV",
-      "lp": 6,
-      "wins": 251,
-      "losses": 253,
+      "lp": 19,
+      "wins": 252,
+      "losses": 254,
       "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/7143.png"
     },
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 620,
       "tier": "DIAMOND II",
-      "lp": 12,
-      "wins": 242,
+      "lp": 30,
+      "wins": 243,
       "losses": 263,
-      "winRate": 47.9,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/4413.png"
     },
     {
@@ -513,11 +513,11 @@
       "name": "UIC Namorii",
       "role": "JGL",
       "level": 966,
-      "tier": "DIAMOND III",
-      "lp": 96,
-      "wins": 58,
+      "tier": "DIAMOND II",
+      "lp": 16,
+      "wins": 59,
       "losses": 45,
-      "winRate": 56.3,
+      "winRate": 56.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/5373.png"
     },
     {
@@ -536,8 +536,8 @@
       "role": "MID",
       "level": 609,
       "tier": "EMERALD I",
-      "lp": 34,
-      "wins": 320,
+      "lp": 54,
+      "wins": 321,
       "losses": 297,
       "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/3553.png"
@@ -635,12 +635,12 @@
     {
       "name": "LordZash",
       "role": "SUP",
-      "level": 757,
+      "level": 758,
       "tier": "PLATINUM III",
       "lp": 41,
       "wins": 81,
-      "losses": 89,
-      "winRate": 47.6,
+      "losses": 90,
+      "winRate": 47.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/profileicon/2072.png"
     }
   ],
