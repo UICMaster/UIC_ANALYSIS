@@ -198,10 +198,10 @@
       "role": "TOP",
       "level": 1310,
       "tier": "DIAMOND III",
-      "lp": 58,
-      "wins": 212,
-      "losses": 232,
-      "winRate": 47.7,
+      "lp": 81,
+      "wins": 214,
+      "losses": 233,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6769.png"
     },
     {
@@ -422,11 +422,11 @@
     {
       "name": "Blauerlupos",
       "role": "JGL",
-      "level": 1126,
+      "level": 1127,
       "tier": "DIAMOND IV",
       "lp": 19,
-      "wins": 253,
-      "losses": 255,
+      "wins": 254,
+      "losses": 256,
       "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7143.png"
     },
@@ -434,11 +434,11 @@
       "name": "UIC Ayumu",
       "role": "MID",
       "level": 605,
-      "tier": "EMERALD IV",
-      "lp": 13,
+      "tier": "PLATINUM I",
+      "lp": 25,
       "wins": 147,
-      "losses": 137,
-      "winRate": 51.8,
+      "losses": 139,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7139.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 620,
       "tier": "DIAMOND II",
-      "lp": 30,
+      "lp": 8,
       "wins": 243,
-      "losses": 263,
-      "winRate": 48,
+      "losses": 264,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
