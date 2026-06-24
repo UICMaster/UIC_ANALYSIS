@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1010,
       "tier": "DIAMOND III",
-      "lp": 34,
-      "wins": 124,
+      "lp": 68,
+      "wins": 126,
       "losses": 144,
-      "winRate": 46.3,
+      "winRate": 46.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -151,11 +151,11 @@
       "name": "UIC Hunter",
       "role": "JGL",
       "level": 978,
-      "tier": "EMERALD II",
-      "lp": 64,
-      "wins": 116,
+      "tier": "EMERALD I",
+      "lp": 20,
+      "wins": 119,
       "losses": 117,
-      "winRate": 49.8,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4967.png"
     },
     {
@@ -183,12 +183,12 @@
     {
       "name": "UIC FirstBlo",
       "role": "SUP",
-      "level": 497,
+      "level": 498,
       "tier": "DIAMOND IV",
-      "lp": 25,
-      "wins": 89,
+      "lp": 85,
+      "wins": 92,
       "losses": 81,
-      "winRate": 52.4,
+      "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4655.png"
     }
   ],
@@ -196,12 +196,12 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1310,
+      "level": 1311,
       "tier": "DIAMOND II",
-      "lp": 46,
-      "wins": 218,
-      "losses": 234,
-      "winRate": 48.2,
+      "lp": 29,
+      "wins": 219,
+      "losses": 236,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6769.png"
     },
     {
@@ -240,7 +240,7 @@
     {
       "name": "UIC Haselmania",
       "role": "SUP",
-      "level": 611,
+      "level": 612,
       "tier": "DIAMOND I",
       "lp": 75,
       "wins": 64,
@@ -424,9 +424,9 @@
       "role": "JGL",
       "level": 1129,
       "tier": "EMERALD II",
-      "lp": 94,
-      "wins": 262,
-      "losses": 269,
+      "lp": 92,
+      "wins": 263,
+      "losses": 270,
       "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
