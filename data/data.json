@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1046,
       "tier": "MASTER I",
-      "lp": 223,
-      "wins": 198,
+      "lp": 253,
+      "wins": 199,
       "losses": 188,
-      "winRate": 51.3,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4380.png"
     },
     {
@@ -82,7 +82,7 @@
     {
       "name": "Stafferl",
       "role": "TOP",
-      "level": 858,
+      "level": 859,
       "tier": "EMERALD I",
       "lp": 1,
       "wins": 10,
@@ -197,11 +197,11 @@
       "name": "Reign",
       "role": "TOP",
       "level": 1310,
-      "tier": "DIAMOND III",
-      "lp": 81,
-      "wins": 214,
+      "tier": "DIAMOND II",
+      "lp": 2,
+      "wins": 215,
       "losses": 233,
-      "winRate": 47.9,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6769.png"
     },
     {
@@ -424,10 +424,10 @@
       "role": "JGL",
       "level": 1127,
       "tier": "DIAMOND IV",
-      "lp": 19,
-      "wins": 254,
-      "losses": 256,
-      "winRate": 49.8,
+      "lp": 0,
+      "wins": 255,
+      "losses": 259,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7143.png"
     },
     {
