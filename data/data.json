@@ -58,7 +58,7 @@
     {
       "name": "Baumi",
       "role": "MID",
-      "level": 1084,
+      "level": 1085,
       "tier": "DIAMOND I",
       "lp": 75,
       "wins": 398,
@@ -106,21 +106,21 @@
       "role": "MID",
       "level": 1011,
       "tier": "DIAMOND III",
-      "lp": 51,
-      "wins": 130,
-      "losses": 148,
-      "winRate": 46.8,
+      "lp": 65,
+      "wins": 132,
+      "losses": 149,
+      "winRate": 47,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
       "name": "Pferdemilch",
       "role": "BOT",
       "level": 852,
-      "tier": "EMERALD IV",
-      "lp": 0,
-      "wins": 58,
-      "losses": 81,
-      "winRate": 41.7,
+      "tier": "PLATINUM I",
+      "lp": 69,
+      "wins": 59,
+      "losses": 82,
+      "winRate": 41.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6582.png"
     },
     {
@@ -197,11 +197,11 @@
       "name": "Reign",
       "role": "TOP",
       "level": 1311,
-      "tier": "DIAMOND II",
-      "lp": 13,
-      "wins": 221,
-      "losses": 239,
-      "winRate": 48,
+      "tier": "DIAMOND III",
+      "lp": 73,
+      "wins": 222,
+      "losses": 242,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6769.png"
     },
     {
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 809,
       "tier": "MASTER I",
-      "lp": 409,
+      "lp": 379,
       "wins": 208,
-      "losses": 197,
-      "winRate": 51.4,
+      "losses": 198,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/528.png"
     },
     {
@@ -330,12 +330,12 @@
     {
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 817,
-      "tier": "EMERALD III",
-      "lp": 91,
-      "wins": 137,
+      "level": 818,
+      "tier": "EMERALD II",
+      "lp": 51,
+      "wins": 140,
       "losses": 138,
-      "winRate": 49.8,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3366.png"
     },
     {
@@ -490,7 +490,7 @@
     {
       "name": "UIC Muh",
       "role": "TOP",
-      "level": 531,
+      "level": 532,
       "tier": "PLATINUM I",
       "lp": 1,
       "wins": 135,
@@ -515,9 +515,9 @@
       "level": 966,
       "tier": "DIAMOND II",
       "lp": 16,
-      "wins": 59,
-      "losses": 45,
-      "winRate": 56.7,
+      "wins": 60,
+      "losses": 46,
+      "winRate": 56.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/5373.png"
     },
     {
@@ -536,9 +536,9 @@
       "role": "MID",
       "level": 611,
       "tier": "EMERALD I",
-      "lp": 26,
-      "wins": 327,
-      "losses": 304,
+      "lp": 25,
+      "wins": 328,
+      "losses": 305,
       "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3553.png"
     },
@@ -569,10 +569,10 @@
       "role": "SUP",
       "level": 391,
       "tier": "PLATINUM II",
-      "lp": 26,
+      "lp": 8,
       "wins": 117,
-      "losses": 116,
-      "winRate": 50.2,
+      "losses": 117,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/5368.png"
     },
     {
@@ -637,10 +637,10 @@
       "role": "SUP",
       "level": 759,
       "tier": "PLATINUM III",
-      "lp": 41,
-      "wins": 82,
-      "losses": 91,
-      "winRate": 47.4,
+      "lp": 19,
+      "wins": 83,
+      "losses": 94,
+      "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/2072.png"
     }
   ],
