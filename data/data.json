@@ -167,7 +167,7 @@
       "wins": 86,
       "losses": 83,
       "winRate": 50.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7076.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/1295.png"
     },
     {
       "name": "UIC Painfull",
@@ -198,10 +198,10 @@
       "role": "TOP",
       "level": 1311,
       "tier": "DIAMOND II",
-      "lp": 29,
-      "wins": 219,
-      "losses": 236,
-      "winRate": 48.1,
+      "lp": 52,
+      "wins": 221,
+      "losses": 237,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6769.png"
     },
     {
@@ -422,11 +422,11 @@
     {
       "name": "Blauerlupos",
       "role": "JGL",
-      "level": 1129,
+      "level": 1130,
       "tier": "EMERALD II",
-      "lp": 92,
+      "lp": 71,
       "wins": 263,
-      "losses": 270,
+      "losses": 271,
       "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
