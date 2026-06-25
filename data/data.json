@@ -196,12 +196,12 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1311,
-      "tier": "DIAMOND II",
-      "lp": 15,
+      "level": 1312,
+      "tier": "DIAMOND III",
+      "lp": 76,
       "wins": 224,
-      "losses": 242,
-      "winRate": 48.1,
+      "losses": 244,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6769.png"
     },
     {
@@ -321,10 +321,10 @@
       "role": "SUP",
       "level": 1010,
       "tier": "MASTER I",
-      "lp": 124,
-      "wins": 91,
+      "lp": 184,
+      "wins": 93,
       "losses": 92,
-      "winRate": 49.7,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6622.png"
     },
     {
@@ -424,9 +424,9 @@
       "role": "JGL",
       "level": 1131,
       "tier": "EMERALD I",
-      "lp": 21,
-      "wins": 270,
-      "losses": 275,
+      "lp": 1,
+      "wins": 271,
+      "losses": 277,
       "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
@@ -525,10 +525,10 @@
       "role": "MID",
       "level": 626,
       "tier": "PLATINUM III",
-      "lp": 42,
+      "lp": 23,
       "wins": 113,
-      "losses": 116,
-      "winRate": 49.3,
+      "losses": 117,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4379.png"
     },
     {
@@ -557,11 +557,11 @@
       "name": "UIC Deavan",
       "role": "BOT",
       "level": 416,
-      "tier": "GOLD II",
-      "lp": 99,
-      "wins": 161,
-      "losses": 154,
-      "winRate": 51.1,
+      "tier": "GOLD I",
+      "lp": 13,
+      "wins": 163,
+      "losses": 155,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4640.png"
     },
     {
