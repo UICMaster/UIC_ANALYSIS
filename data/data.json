@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1011,
       "tier": "DIAMOND III",
-      "lp": 65,
+      "lp": 43,
       "wins": 132,
-      "losses": 149,
-      "winRate": 47,
+      "losses": 150,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -117,10 +117,10 @@
       "role": "BOT",
       "level": 852,
       "tier": "PLATINUM I",
-      "lp": 69,
+      "lp": 48,
       "wins": 59,
-      "losses": 82,
-      "winRate": 41.8,
+      "losses": 83,
+      "winRate": 41.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6582.png"
     },
     {
@@ -197,11 +197,11 @@
       "name": "Reign",
       "role": "TOP",
       "level": 1311,
-      "tier": "DIAMOND III",
-      "lp": 73,
-      "wins": 222,
+      "tier": "DIAMOND II",
+      "lp": 15,
+      "wins": 224,
       "losses": 242,
-      "winRate": 47.8,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6769.png"
     },
     {
@@ -424,10 +424,10 @@
       "role": "JGL",
       "level": 1131,
       "tier": "EMERALD I",
-      "lp": 41,
+      "lp": 21,
       "wins": 270,
-      "losses": 274,
-      "winRate": 49.6,
+      "losses": 275,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
     {
@@ -556,23 +556,23 @@
     {
       "name": "UIC Deavan",
       "role": "BOT",
-      "level": 415,
+      "level": 416,
       "tier": "GOLD II",
-      "lp": 82,
-      "wins": 160,
+      "lp": 99,
+      "wins": 161,
       "losses": 154,
-      "winRate": 51,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4640.png"
     },
     {
       "name": "UIC Kaanto",
       "role": "SUP",
       "level": 391,
-      "tier": "PLATINUM II",
-      "lp": 8,
+      "tier": "PLATINUM III",
+      "lp": 89,
       "wins": 117,
-      "losses": 117,
-      "winRate": 50,
+      "losses": 118,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/5368.png"
     },
     {
@@ -637,10 +637,10 @@
       "role": "SUP",
       "level": 759,
       "tier": "PLATINUM III",
-      "lp": 19,
-      "wins": 83,
-      "losses": 94,
-      "winRate": 46.9,
+      "lp": 36,
+      "wins": 85,
+      "losses": 95,
+      "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/2072.png"
     }
   ],
@@ -749,7 +749,7 @@
     {
       "name": "TheEigeeen",
       "role": "SUP",
-      "level": 678,
+      "level": 679,
       "tier": "EMERALD II",
       "lp": 21,
       "wins": 82,
