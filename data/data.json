@@ -82,7 +82,7 @@
     {
       "name": "Stafferl",
       "role": "TOP",
-      "level": 859,
+      "level": 860,
       "tier": "EMERALD I",
       "lp": 1,
       "wins": 10,
@@ -161,7 +161,7 @@
     {
       "name": "UIC Kaoxz",
       "role": "MID",
-      "level": 473,
+      "level": 474,
       "tier": "DIAMOND IV",
       "lp": 6,
       "wins": 86,
@@ -184,11 +184,11 @@
       "name": "UIC FirstBlo",
       "role": "SUP",
       "level": 498,
-      "tier": "DIAMOND IV",
-      "lp": 85,
-      "wins": 92,
+      "tier": "DIAMOND III",
+      "lp": 44,
+      "wins": 94,
       "losses": 81,
-      "winRate": 53.2,
+      "winRate": 53.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4655.png"
     }
   ],
@@ -198,10 +198,10 @@
       "role": "TOP",
       "level": 1311,
       "tier": "DIAMOND II",
-      "lp": 52,
+      "lp": 13,
       "wins": 221,
-      "losses": 237,
-      "winRate": 48.3,
+      "losses": 239,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6769.png"
     },
     {
@@ -547,9 +547,9 @@
       "role": "BOT",
       "level": 1427,
       "tier": "PLATINUM IV",
-      "lp": 89,
-      "wins": 565,
-      "losses": 558,
+      "lp": 83,
+      "wins": 567,
+      "losses": 560,
       "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7082.png"
     },
