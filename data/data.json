@@ -49,10 +49,10 @@
       "role": "SUP",
       "level": 1006,
       "tier": "DIAMOND II",
-      "lp": 61,
+      "lp": 19,
       "wins": 136,
-      "losses": 126,
-      "winRate": 51.9,
+      "losses": 128,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4380.png"
     },
     {
@@ -150,12 +150,12 @@
     {
       "name": "UIC Hunter",
       "role": "JGL",
-      "level": 978,
+      "level": 979,
       "tier": "EMERALD I",
-      "lp": 20,
-      "wins": 119,
+      "lp": 58,
+      "wins": 121,
       "losses": 117,
-      "winRate": 50.4,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4967.png"
     },
     {
@@ -185,10 +185,10 @@
       "role": "SUP",
       "level": 498,
       "tier": "DIAMOND III",
-      "lp": 44,
-      "wins": 94,
+      "lp": 64,
+      "wins": 95,
       "losses": 81,
-      "winRate": 53.7,
+      "winRate": 54,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4655.png"
     }
   ],
@@ -251,7 +251,7 @@
     {
       "name": "BrandMachtFeuFeu",
       "role": "TOP",
-      "level": 719,
+      "level": 720,
       "tier": "EMERALD I",
       "lp": 58,
       "wins": 40,
@@ -331,11 +331,11 @@
       "name": "UIC Loonz",
       "role": "COH",
       "level": 817,
-      "tier": "EMERALD III",
-      "lp": 72,
-      "wins": 134,
+      "tier": "EMERALD II",
+      "lp": 12,
+      "wins": 136,
       "losses": 136,
-      "winRate": 49.6,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3366.png"
     },
     {
@@ -422,11 +422,11 @@
     {
       "name": "Blauerlupos",
       "role": "JGL",
-      "level": 1130,
-      "tier": "EMERALD II",
-      "lp": 87,
-      "wins": 266,
-      "losses": 273,
+      "level": 1131,
+      "tier": "EMERALD I",
+      "lp": 6,
+      "wins": 268,
+      "losses": 274,
       "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
@@ -444,12 +444,12 @@
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 620,
+      "level": 621,
       "tier": "DIAMOND III",
-      "lp": 64,
-      "wins": 243,
-      "losses": 266,
-      "winRate": 47.7,
+      "lp": 78,
+      "wins": 245,
+      "losses": 267,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
@@ -457,10 +457,10 @@
       "role": "SUP",
       "level": 327,
       "tier": "MASTER I",
-      "lp": 78,
+      "lp": 48,
       "wins": 116,
-      "losses": 97,
-      "winRate": 54.5,
+      "losses": 98,
+      "winRate": 54.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/5956.png"
     },
     {
@@ -534,12 +534,12 @@
     {
       "name": "UIC GreatATuin",
       "role": "MID",
-      "level": 610,
+      "level": 611,
       "tier": "EMERALD I",
-      "lp": 9,
-      "wins": 324,
+      "lp": 47,
+      "wins": 326,
       "losses": 302,
-      "winRate": 51.8,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3553.png"
     },
     {
