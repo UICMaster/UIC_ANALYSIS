@@ -47,12 +47,12 @@
     {
       "name": "UIC Baguetto",
       "role": "SUP",
-      "level": 1006,
-      "tier": "DIAMOND II",
-      "lp": 19,
+      "level": 1007,
+      "tier": "DIAMOND III",
+      "lp": 77,
       "wins": 136,
-      "losses": 128,
-      "winRate": 51.5,
+      "losses": 130,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4380.png"
     },
     {
@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1011,
       "tier": "DIAMOND III",
-      "lp": 37,
-      "wins": 128,
-      "losses": 147,
-      "winRate": 46.5,
+      "lp": 51,
+      "wins": 130,
+      "losses": 148,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -152,10 +152,10 @@
       "role": "JGL",
       "level": 979,
       "tier": "EMERALD I",
-      "lp": 58,
-      "wins": 121,
-      "losses": 117,
-      "winRate": 50.8,
+      "lp": 35,
+      "wins": 122,
+      "losses": 119,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4967.png"
     },
     {
@@ -167,7 +167,7 @@
       "wins": 86,
       "losses": 83,
       "winRate": 50.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/1295.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7076.png"
     },
     {
       "name": "UIC Painfull",
@@ -185,10 +185,10 @@
       "role": "SUP",
       "level": 498,
       "tier": "DIAMOND III",
-      "lp": 64,
-      "wins": 95,
-      "losses": 81,
-      "winRate": 54,
+      "lp": 24,
+      "wins": 96,
+      "losses": 84,
+      "winRate": 53.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4655.png"
     }
   ],
@@ -308,7 +308,7 @@
     {
       "name": "UIC AutumnLeaf",
       "role": "BOT",
-      "level": 856,
+      "level": 857,
       "tier": "MASTER I",
       "lp": 407,
       "wins": 141,
@@ -319,23 +319,23 @@
     {
       "name": "UIC Ryu Copeland",
       "role": "SUP",
-      "level": 1009,
+      "level": 1010,
       "tier": "MASTER I",
-      "lp": 94,
-      "wins": 89,
-      "losses": 91,
-      "winRate": 49.4,
+      "lp": 124,
+      "wins": 91,
+      "losses": 92,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6622.png"
     },
     {
       "name": "UIC Loonz",
       "role": "COH",
       "level": 817,
-      "tier": "EMERALD II",
-      "lp": 12,
-      "wins": 136,
-      "losses": 136,
-      "winRate": 50,
+      "tier": "EMERALD III",
+      "lp": 91,
+      "wins": 137,
+      "losses": 138,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3366.png"
     },
     {
@@ -424,10 +424,10 @@
       "role": "JGL",
       "level": 1131,
       "tier": "EMERALD I",
-      "lp": 6,
-      "wins": 268,
+      "lp": 41,
+      "wins": 270,
       "losses": 274,
-      "winRate": 49.4,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 621,
       "tier": "DIAMOND III",
-      "lp": 78,
+      "lp": 56,
       "wins": 245,
-      "losses": 267,
-      "winRate": 47.9,
+      "losses": 268,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
@@ -457,10 +457,10 @@
       "role": "SUP",
       "level": 327,
       "tier": "MASTER I",
-      "lp": 48,
-      "wins": 116,
+      "lp": 78,
+      "wins": 117,
       "losses": 98,
-      "winRate": 54.2,
+      "winRate": 54.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/5956.png"
     },
     {
@@ -536,10 +536,10 @@
       "role": "MID",
       "level": 611,
       "tier": "EMERALD I",
-      "lp": 47,
-      "wins": 326,
-      "losses": 302,
-      "winRate": 51.9,
+      "lp": 26,
+      "wins": 327,
+      "losses": 304,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3553.png"
     },
     {
@@ -560,8 +560,8 @@
       "tier": "GOLD II",
       "lp": 82,
       "wins": 160,
-      "losses": 153,
-      "winRate": 51.1,
+      "losses": 154,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4640.png"
     },
     {
@@ -635,11 +635,11 @@
     {
       "name": "LordZash",
       "role": "SUP",
-      "level": 758,
+      "level": 759,
       "tier": "PLATINUM III",
       "lp": 41,
-      "wins": 81,
-      "losses": 90,
+      "wins": 82,
+      "losses": 91,
       "winRate": 47.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/2072.png"
     }
