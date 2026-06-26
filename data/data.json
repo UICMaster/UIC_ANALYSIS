@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1012,
       "tier": "DIAMOND III",
-      "lp": 34,
-      "wins": 135,
-      "losses": 154,
-      "winRate": 46.7,
+      "lp": 30,
+      "wins": 136,
+      "losses": 156,
+      "winRate": 46.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -152,10 +152,10 @@
       "role": "JGL",
       "level": 979,
       "tier": "EMERALD I",
-      "lp": 35,
-      "wins": 122,
-      "losses": 119,
-      "winRate": 50.6,
+      "lp": 52,
+      "wins": 124,
+      "losses": 120,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4967.png"
     },
     {
@@ -198,10 +198,10 @@
       "role": "TOP",
       "level": 1312,
       "tier": "DIAMOND III",
-      "lp": 76,
+      "lp": 36,
       "wins": 227,
-      "losses": 247,
-      "winRate": 47.9,
+      "losses": 249,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6769.png"
     },
     {
@@ -220,9 +220,9 @@
       "role": "MID",
       "level": 671,
       "tier": "EMERALD I",
-      "lp": 56,
-      "wins": 64,
-      "losses": 69,
+      "lp": 54,
+      "wins": 65,
+      "losses": 70,
       "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/615.png"
     },
@@ -422,12 +422,12 @@
     {
       "name": "Blauerlupos",
       "role": "JGL",
-      "level": 1132,
+      "level": 1133,
       "tier": "EMERALD I",
-      "lp": 61,
+      "lp": 41,
       "wins": 277,
-      "losses": 280,
-      "winRate": 49.7,
+      "losses": 281,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
     {
@@ -635,12 +635,12 @@
     {
       "name": "LordZash",
       "role": "SUP",
-      "level": 760,
+      "level": 761,
       "tier": "PLATINUM III",
-      "lp": 74,
-      "wins": 90,
+      "lp": 94,
+      "wins": 91,
       "losses": 98,
-      "winRate": 47.9,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6378.png"
     }
   ],
