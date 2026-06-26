@@ -58,7 +58,7 @@
     {
       "name": "Baumi",
       "role": "MID",
-      "level": 1085,
+      "level": 1086,
       "tier": "DIAMOND I",
       "lp": 75,
       "wins": 398,
@@ -104,7 +104,7 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1012,
+      "level": 1013,
       "tier": "DIAMOND III",
       "lp": 30,
       "wins": 136,
@@ -424,11 +424,11 @@
       "role": "JGL",
       "level": 1133,
       "tier": "EMERALD I",
-      "lp": 41,
-      "wins": 277,
+      "lp": 81,
+      "wins": 279,
       "losses": 281,
-      "winRate": 49.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
+      "winRate": 49.8,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6331.png"
     },
     {
       "name": "UIC Ayumu",
