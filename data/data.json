@@ -14,7 +14,7 @@
     {
       "name": "UIC Niki",
       "role": "JGL",
-      "level": 1047,
+      "level": 1048,
       "tier": "MASTER I",
       "lp": 193,
       "wins": 200,
@@ -115,12 +115,12 @@
     {
       "name": "Pferdemilch",
       "role": "BOT",
-      "level": 852,
+      "level": 853,
       "tier": "PLATINUM I",
-      "lp": 48,
+      "lp": 27,
       "wins": 59,
-      "losses": 83,
-      "winRate": 41.5,
+      "losses": 84,
+      "winRate": 41.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6582.png"
     },
     {
@@ -150,12 +150,12 @@
     {
       "name": "UIC Hunter",
       "role": "JGL",
-      "level": 979,
+      "level": 980,
       "tier": "EMERALD I",
-      "lp": 52,
-      "wins": 124,
-      "losses": 120,
-      "winRate": 50.8,
+      "lp": 71,
+      "wins": 126,
+      "losses": 121,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4967.png"
     },
     {
@@ -198,10 +198,10 @@
       "role": "TOP",
       "level": 1312,
       "tier": "DIAMOND III",
-      "lp": 36,
+      "lp": 16,
       "wins": 227,
-      "losses": 249,
-      "winRate": 47.7,
+      "losses": 250,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6769.png"
     },
     {
@@ -220,10 +220,10 @@
       "role": "MID",
       "level": 671,
       "tier": "EMERALD I",
-      "lp": 54,
+      "lp": 33,
       "wins": 65,
-      "losses": 70,
-      "winRate": 48.1,
+      "losses": 71,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/615.png"
     },
     {
@@ -286,7 +286,7 @@
     {
       "name": "UIC Exi",
       "role": "JGL",
-      "level": 809,
+      "level": 810,
       "tier": "MASTER I",
       "lp": 379,
       "wins": 208,
@@ -398,7 +398,7 @@
     {
       "name": "UIC Ryu Panda",
       "role": "SUP",
-      "level": 801,
+      "level": 802,
       "tier": "UNRANKED",
       "lp": 0,
       "wins": 0,
@@ -455,7 +455,7 @@
     {
       "name": "UIC Moonlxght",
       "role": "SUP",
-      "level": 327,
+      "level": 328,
       "tier": "MASTER I",
       "lp": 78,
       "wins": 117,
@@ -547,21 +547,21 @@
       "role": "BOT",
       "level": 1429,
       "tier": "PLATINUM IV",
-      "lp": 27,
-      "wins": 571,
+      "lp": 46,
+      "wins": 572,
       "losses": 566,
-      "winRate": 50.2,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7082.png"
     },
     {
       "name": "UIC Deavan",
       "role": "BOT",
-      "level": 416,
+      "level": 417,
       "tier": "GOLD I",
-      "lp": 88,
+      "lp": 67,
       "wins": 167,
-      "losses": 155,
-      "winRate": 51.9,
+      "losses": 156,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4640.png"
     },
     {
@@ -661,10 +661,10 @@
       "role": "JGL",
       "level": 1160,
       "tier": "MASTER I",
-      "lp": 90,
-      "wins": 98,
+      "lp": 120,
+      "wins": 99,
       "losses": 86,
-      "winRate": 53.3,
+      "winRate": 53.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7123.png"
     },
     {
