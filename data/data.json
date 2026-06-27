@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1014,
       "tier": "DIAMOND IV",
-      "lp": 4,
+      "lp": 0,
       "wins": 140,
-      "losses": 165,
-      "winRate": 45.9,
+      "losses": 166,
+      "winRate": 45.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 810,
       "tier": "MASTER I",
-      "lp": 409,
-      "wins": 211,
+      "lp": 439,
+      "wins": 212,
       "losses": 201,
-      "winRate": 51.2,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/528.png"
     },
     {
@@ -308,7 +308,7 @@
     {
       "name": "UIC AutumnLeaf",
       "role": "BOT",
-      "level": 857,
+      "level": 858,
       "tier": "MASTER I",
       "lp": 467,
       "wins": 143,
@@ -354,7 +354,7 @@
     {
       "name": "UIC DANY",
       "role": "TOP",
-      "level": 548,
+      "level": 549,
       "tier": "DIAMOND III",
       "lp": 99,
       "wins": 101,
@@ -545,12 +545,12 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1429,
+      "level": 1430,
       "tier": "PLATINUM IV",
-      "lp": 21,
+      "lp": 0,
       "wins": 574,
-      "losses": 569,
-      "winRate": 50.2,
+      "losses": 571,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7082.png"
     },
     {
@@ -659,7 +659,7 @@
     {
       "name": "BlauerKlaus",
       "role": "JGL",
-      "level": 1160,
+      "level": 1161,
       "tier": "MASTER I",
       "lp": 120,
       "wins": 99,
@@ -717,11 +717,11 @@
       "name": "yShizuu",
       "role": "JGL",
       "level": 504,
-      "tier": "DIAMOND II",
-      "lp": 94,
-      "wins": 165,
+      "tier": "DIAMOND I",
+      "lp": 14,
+      "wins": 166,
       "losses": 163,
-      "winRate": 50.3,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6759.png"
     },
     {
