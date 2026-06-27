@@ -275,12 +275,12 @@
     {
       "name": "UIC Kamo",
       "role": "TOP",
-      "level": 571,
+      "level": 572,
       "tier": "MASTER I",
-      "lp": 256,
-      "wins": 326,
+      "lp": 286,
+      "wins": 327,
       "losses": 296,
-      "winRate": 52.4,
+      "winRate": 52.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6640.png"
     },
     {
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 810,
       "tier": "MASTER I",
-      "lp": 379,
-      "wins": 208,
+      "lp": 409,
+      "wins": 209,
       "losses": 198,
-      "winRate": 51.2,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/528.png"
     },
     {
@@ -547,8 +547,8 @@
       "role": "BOT",
       "level": 1429,
       "tier": "PLATINUM IV",
-      "lp": 46,
-      "wins": 572,
+      "lp": 65,
+      "wins": 573,
       "losses": 566,
       "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7082.png"
