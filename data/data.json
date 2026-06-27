@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1014,
       "tier": "EMERALD I",
-      "lp": 86,
+      "lp": 64,
       "wins": 142,
-      "losses": 167,
-      "winRate": 46,
+      "losses": 168,
+      "winRate": 45.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -152,10 +152,10 @@
       "role": "JGL",
       "level": 981,
       "tier": "DIAMOND IV",
-      "lp": 23,
+      "lp": 2,
       "wins": 133,
-      "losses": 126,
-      "winRate": 51.4,
+      "losses": 127,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4967.png"
     },
     {
@@ -183,12 +183,12 @@
     {
       "name": "UIC FirstBlo",
       "role": "SUP",
-      "level": 498,
-      "tier": "DIAMOND IV",
-      "lp": 82,
-      "wins": 96,
+      "level": 499,
+      "tier": "DIAMOND III",
+      "lp": 1,
+      "wins": 97,
       "losses": 86,
-      "winRate": 52.7,
+      "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4655.png"
     }
   ],
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 819,
       "tier": "EMERALD II",
-      "lp": 70,
-      "wins": 147,
+      "lp": 90,
+      "wins": 148,
       "losses": 144,
-      "winRate": 50.5,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3366.png"
     },
     {
@@ -718,10 +718,10 @@
       "role": "JGL",
       "level": 504,
       "tier": "DIAMOND I",
-      "lp": 14,
-      "wins": 166,
+      "lp": 34,
+      "wins": 167,
       "losses": 163,
-      "winRate": 50.5,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6759.png"
     },
     {
