@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1015,
       "tier": "EMERALD I",
-      "lp": 36,
-      "wins": 144,
-      "losses": 171,
-      "winRate": 45.7,
+      "lp": 12,
+      "wins": 145,
+      "losses": 173,
+      "winRate": 45.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -172,7 +172,7 @@
     {
       "name": "UIC Painfull",
       "role": "BOT",
-      "level": 806,
+      "level": 807,
       "tier": "DIAMOND IV",
       "lp": 37,
       "wins": 97,
@@ -198,10 +198,10 @@
       "role": "TOP",
       "level": 1314,
       "tier": "DIAMOND II",
-      "lp": 39,
-      "wins": 238,
-      "losses": 255,
-      "winRate": 48.3,
+      "lp": 38,
+      "wins": 239,
+      "losses": 257,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6769.png"
     },
     {
@@ -444,7 +444,7 @@
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 621,
+      "level": 622,
       "tier": "DIAMOND III",
       "lp": 26,
       "wins": 247,
@@ -592,11 +592,11 @@
       "name": "UIC Papi Δce",
       "role": "TOP",
       "level": 599,
-      "tier": "PLATINUM II",
-      "lp": 6,
+      "tier": "PLATINUM III",
+      "lp": 85,
       "wins": 101,
-      "losses": 119,
-      "winRate": 45.9,
+      "losses": 120,
+      "winRate": 45.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3891.png"
     },
     {
@@ -718,10 +718,10 @@
       "role": "JGL",
       "level": 504,
       "tier": "DIAMOND I",
-      "lp": 34,
-      "wins": 167,
+      "lp": 54,
+      "wins": 168,
       "losses": 163,
-      "winRate": 50.6,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6759.png"
     },
     {
