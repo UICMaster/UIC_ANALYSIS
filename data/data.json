@@ -152,10 +152,10 @@
       "role": "JGL",
       "level": 982,
       "tier": "DIAMOND IV",
-      "lp": 20,
-      "wins": 137,
+      "lp": 40,
+      "wins": 138,
       "losses": 130,
-      "winRate": 51.3,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4967.png"
     },
     {
@@ -196,12 +196,12 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1313,
+      "level": 1314,
       "tier": "DIAMOND II",
-      "lp": 19,
-      "wins": 235,
+      "lp": 39,
+      "wins": 236,
       "losses": 253,
-      "winRate": 48.2,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6769.png"
     },
     {
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 820,
       "tier": "EMERALD II",
-      "lp": 91,
+      "lp": 70,
       "wins": 152,
-      "losses": 149,
-      "winRate": 50.5,
+      "losses": 151,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3366.png"
     },
     {
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 549,
       "tier": "DIAMOND II",
-      "lp": 73,
+      "lp": 51,
       "wins": 105,
-      "losses": 89,
-      "winRate": 54.1,
+      "losses": 90,
+      "winRate": 53.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3157.png"
     },
     {
@@ -387,7 +387,7 @@
     {
       "name": "UIC Pjure",
       "role": "BOT",
-      "level": 754,
+      "level": 755,
       "tier": "DIAMOND I",
       "lp": 48,
       "wins": 129,
@@ -567,11 +567,11 @@
     {
       "name": "UIC Kaanto",
       "role": "SUP",
-      "level": 392,
+      "level": 393,
       "tier": "PLATINUM III",
-      "lp": 91,
-      "wins": 123,
-      "losses": 125,
+      "lp": 86,
+      "wins": 124,
+      "losses": 126,
       "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/5368.png"
     },
@@ -676,7 +676,7 @@
       "wins": 110,
       "losses": 113,
       "winRate": 49.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/1625.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/626.png"
     },
     {
       "name": "Starboy",
