@@ -82,7 +82,7 @@
     {
       "name": "Stafferl",
       "role": "TOP",
-      "level": 860,
+      "level": 861,
       "tier": "EMERALD I",
       "lp": 1,
       "wins": 10,
@@ -117,10 +117,10 @@
       "role": "BOT",
       "level": 853,
       "tier": "PLATINUM I",
-      "lp": 65,
+      "lp": 44,
       "wins": 61,
-      "losses": 84,
-      "winRate": 42.1,
+      "losses": 85,
+      "winRate": 41.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6582.png"
     },
     {
@@ -152,10 +152,10 @@
       "role": "JGL",
       "level": 982,
       "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 136,
+      "lp": 20,
+      "wins": 137,
       "losses": 130,
-      "winRate": 51.1,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4967.png"
     },
     {
@@ -319,7 +319,7 @@
     {
       "name": "UIC Ryu Copeland",
       "role": "SUP",
-      "level": 1011,
+      "level": 1012,
       "tier": "MASTER I",
       "lp": 462,
       "wins": 104,
@@ -332,9 +332,9 @@
       "role": "COH",
       "level": 820,
       "tier": "EMERALD II",
-      "lp": 71,
-      "wins": 150,
-      "losses": 147,
+      "lp": 91,
+      "wins": 152,
+      "losses": 149,
       "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3366.png"
     },
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 549,
       "tier": "DIAMOND II",
-      "lp": 55,
-      "wins": 104,
-      "losses": 88,
-      "winRate": 54.2,
+      "lp": 73,
+      "wins": 105,
+      "losses": 89,
+      "winRate": 54.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3157.png"
     },
     {
@@ -412,11 +412,11 @@
       "name": "UIC lightfire",
       "role": "TOP",
       "level": 937,
-      "tier": "DIAMOND IV",
-      "lp": 88,
-      "wins": 74,
+      "tier": "DIAMOND III",
+      "lp": 26,
+      "wins": 76,
       "losses": 72,
-      "winRate": 50.7,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6938.png"
     },
     {
@@ -545,12 +545,12 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1430,
+      "level": 1431,
       "tier": "PLATINUM IV",
-      "lp": 49,
+      "lp": 28,
       "wins": 580,
-      "losses": 574,
-      "winRate": 50.3,
+      "losses": 575,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7082.png"
     },
     {
@@ -569,10 +569,10 @@
       "role": "SUP",
       "level": 392,
       "tier": "PLATINUM III",
-      "lp": 71,
-      "wins": 121,
-      "losses": 124,
-      "winRate": 49.4,
+      "lp": 91,
+      "wins": 123,
+      "losses": 125,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/5368.png"
     },
     {
@@ -604,9 +604,9 @@
       "role": "JGL",
       "level": 469,
       "tier": "GOLD III",
-      "lp": 83,
-      "wins": 123,
-      "losses": 123,
+      "lp": 81,
+      "wins": 124,
+      "losses": 124,
       "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/1211.png"
     },
@@ -624,12 +624,12 @@
     {
       "name": "BlondiXE1",
       "role": "BOT",
-      "level": 436,
+      "level": 437,
       "tier": "SILVER I",
-      "lp": 47,
-      "wins": 109,
-      "losses": 101,
-      "winRate": 51.9,
+      "lp": 24,
+      "wins": 110,
+      "losses": 103,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6102.png"
     },
     {
@@ -637,10 +637,10 @@
       "role": "SUP",
       "level": 764,
       "tier": "PLATINUM II",
-      "lp": 54,
+      "lp": 34,
       "wins": 97,
-      "losses": 101,
-      "winRate": 49,
+      "losses": 102,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6378.png"
     }
   ],
