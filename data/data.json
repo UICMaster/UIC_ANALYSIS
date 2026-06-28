@@ -141,7 +141,7 @@
       "role": "TOP",
       "level": 489,
       "tier": "DIAMOND IV",
-      "lp": 87,
+      "lp": 37,
       "wins": 23,
       "losses": 22,
       "winRate": 51.1,
@@ -152,10 +152,10 @@
       "role": "JGL",
       "level": 981,
       "tier": "DIAMOND IV",
-      "lp": 2,
-      "wins": 133,
+      "lp": 21,
+      "wins": 134,
       "losses": 127,
-      "winRate": 51.2,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4967.png"
     },
     {
@@ -184,11 +184,11 @@
       "name": "UIC FirstBlo",
       "role": "SUP",
       "level": 499,
-      "tier": "DIAMOND III",
-      "lp": 1,
+      "tier": "DIAMOND IV",
+      "lp": 59,
       "wins": 97,
-      "losses": 86,
-      "winRate": 53,
+      "losses": 88,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4655.png"
     }
   ],
@@ -198,10 +198,10 @@
       "role": "TOP",
       "level": 1313,
       "tier": "DIAMOND III",
-      "lp": 76,
-      "wins": 230,
+      "lp": 96,
+      "wins": 231,
       "losses": 250,
-      "winRate": 47.9,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6769.png"
     },
     {
@@ -355,11 +355,11 @@
       "name": "UIC DANY",
       "role": "TOP",
       "level": 549,
-      "tier": "DIAMOND III",
-      "lp": 99,
-      "wins": 101,
+      "tier": "DIAMOND II",
+      "lp": 55,
+      "wins": 104,
       "losses": 88,
-      "winRate": 53.4,
+      "winRate": 54.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3157.png"
     },
     {
@@ -523,7 +523,7 @@
     {
       "name": "UIC adedier",
       "role": "MID",
-      "level": 627,
+      "level": 628,
       "tier": "PLATINUM III",
       "lp": 3,
       "wins": 114,
@@ -635,7 +635,7 @@
     {
       "name": "LordZash",
       "role": "SUP",
-      "level": 762,
+      "level": 763,
       "tier": "PLATINUM II",
       "lp": 14,
       "wins": 93,
