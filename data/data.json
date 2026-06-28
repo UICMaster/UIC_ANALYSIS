@@ -197,11 +197,11 @@
       "name": "Reign",
       "role": "TOP",
       "level": 1313,
-      "tier": "DIAMOND III",
-      "lp": 96,
-      "wins": 231,
-      "losses": 250,
-      "winRate": 48,
+      "tier": "DIAMOND II",
+      "lp": 19,
+      "wins": 235,
+      "losses": 253,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6769.png"
     },
     {
@@ -727,7 +727,7 @@
     {
       "name": "UIC Keygasza",
       "role": "MID",
-      "level": 482,
+      "level": 483,
       "tier": "EMERALD I",
       "lp": 8,
       "wins": 73,
@@ -749,7 +749,7 @@
     {
       "name": "TheEigeeen",
       "role": "SUP",
-      "level": 679,
+      "level": 680,
       "tier": "EMERALD II",
       "lp": 21,
       "wins": 82,
