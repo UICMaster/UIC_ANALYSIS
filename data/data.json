@@ -106,21 +106,21 @@
       "role": "MID",
       "level": 1015,
       "tier": "EMERALD I",
-      "lp": 38,
-      "wins": 143,
-      "losses": 170,
+      "lp": 36,
+      "wins": 144,
+      "losses": 171,
       "winRate": 45.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
       "name": "Pferdemilch",
       "role": "BOT",
-      "level": 853,
+      "level": 854,
       "tier": "PLATINUM I",
-      "lp": 44,
-      "wins": 61,
+      "lp": 63,
+      "wins": 62,
       "losses": 85,
-      "winRate": 41.8,
+      "winRate": 42.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6582.png"
     },
     {
@@ -161,7 +161,7 @@
     {
       "name": "UIC Kaoxz",
       "role": "MID",
-      "level": 474,
+      "level": 475,
       "tier": "DIAMOND IV",
       "lp": 6,
       "wins": 86,
@@ -199,8 +199,8 @@
       "level": 1314,
       "tier": "DIAMOND II",
       "lp": 39,
-      "wins": 237,
-      "losses": 254,
+      "wins": 238,
+      "losses": 255,
       "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6769.png"
     },
@@ -286,7 +286,7 @@
     {
       "name": "UIC Exi",
       "role": "JGL",
-      "level": 810,
+      "level": 811,
       "tier": "MASTER I",
       "lp": 469,
       "wins": 213,
@@ -308,7 +308,7 @@
     {
       "name": "UIC AutumnLeaf",
       "role": "BOT",
-      "level": 858,
+      "level": 859,
       "tier": "MASTER I",
       "lp": 497,
       "wins": 144,
@@ -455,12 +455,12 @@
     {
       "name": "UIC Moonlxght",
       "role": "SUP",
-      "level": 328,
+      "level": 329,
       "tier": "MASTER I",
-      "lp": 108,
-      "wins": 118,
+      "lp": 138,
+      "wins": 119,
       "losses": 98,
-      "winRate": 54.6,
+      "winRate": 54.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/5956.png"
     },
     {
@@ -570,8 +570,8 @@
       "level": 393,
       "tier": "PLATINUM III",
       "lp": 86,
-      "wins": 124,
-      "losses": 126,
+      "wins": 125,
+      "losses": 127,
       "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/5368.png"
     },
@@ -591,11 +591,11 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 598,
+      "level": 599,
       "tier": "PLATINUM II",
-      "lp": 8,
-      "wins": 100,
-      "losses": 118,
+      "lp": 6,
+      "wins": 101,
+      "losses": 119,
       "winRate": 45.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3891.png"
     },
