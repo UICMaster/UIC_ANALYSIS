@@ -104,23 +104,23 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1015,
+      "level": 1016,
       "tier": "EMERALD I",
-      "lp": 12,
-      "wins": 145,
-      "losses": 173,
-      "winRate": 45.6,
+      "lp": 45,
+      "wins": 148,
+      "losses": 175,
+      "winRate": 45.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
       "name": "Pferdemilch",
       "role": "BOT",
       "level": 854,
-      "tier": "PLATINUM I",
-      "lp": 63,
-      "wins": 62,
+      "tier": "EMERALD IV",
+      "lp": 1,
+      "wins": 64,
       "losses": 85,
-      "winRate": 42.2,
+      "winRate": 43,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6582.png"
     },
     {
@@ -278,8 +278,8 @@
       "level": 572,
       "tier": "MASTER I",
       "lp": 316,
-      "wins": 328,
-      "losses": 296,
+      "wins": 329,
+      "losses": 297,
       "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6640.png"
     },
@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 859,
       "tier": "MASTER I",
-      "lp": 497,
-      "wins": 144,
+      "lp": 527,
+      "wins": 145,
       "losses": 115,
-      "winRate": 55.6,
+      "winRate": 55.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6943.png"
     },
     {
@@ -547,11 +547,11 @@
       "role": "BOT",
       "level": 1431,
       "tier": "PLATINUM IV",
-      "lp": 45,
-      "wins": 582,
-      "losses": 576,
+      "lp": 43,
+      "wins": 583,
+      "losses": 577,
       "winRate": 50.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6881.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6715.png"
     },
     {
       "name": "UIC Deavan",
@@ -604,10 +604,10 @@
       "role": "JGL",
       "level": 469,
       "tier": "GOLD III",
-      "lp": 81,
+      "lp": 17,
       "wins": 124,
-      "losses": 124,
-      "winRate": 50,
+      "losses": 127,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/1211.png"
     },
     {
@@ -687,7 +687,7 @@
       "wins": 346,
       "losses": 312,
       "winRate": 52.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7147.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/1297.png"
     },
     {
       "name": "UIC Envy",
@@ -718,10 +718,10 @@
       "role": "JGL",
       "level": 504,
       "tier": "DIAMOND I",
-      "lp": 33,
-      "wins": 168,
+      "lp": 71,
+      "wins": 170,
       "losses": 164,
-      "winRate": 50.6,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6759.png"
     },
     {
