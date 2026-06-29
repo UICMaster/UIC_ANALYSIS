@@ -105,11 +105,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1016,
-      "tier": "EMERALD I",
-      "lp": 23,
-      "wins": 148,
+      "tier": "DIAMOND IV",
+      "lp": 15,
+      "wins": 152,
       "losses": 176,
-      "winRate": 45.7,
+      "winRate": 46.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -154,8 +154,8 @@
       "tier": "DIAMOND IV",
       "lp": 0,
       "wins": 139,
-      "losses": 133,
-      "winRate": 51.1,
+      "losses": 134,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4967.png"
     },
     {
@@ -198,9 +198,9 @@
       "role": "TOP",
       "level": 1315,
       "tier": "DIAMOND I",
-      "lp": 29,
-      "wins": 246,
-      "losses": 261,
+      "lp": 25,
+      "wins": 247,
+      "losses": 262,
       "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6769.png"
     },
@@ -424,10 +424,10 @@
       "role": "JGL",
       "level": 1135,
       "tier": "DIAMOND IV",
-      "lp": 17,
-      "wins": 282,
+      "lp": 36,
+      "wins": 283,
       "losses": 283,
-      "winRate": 49.9,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
     {
@@ -479,7 +479,7 @@
     {
       "name": "UIC Kaetaya",
       "role": "TOP",
-      "level": 883,
+      "level": 884,
       "tier": "EMERALD I",
       "lp": 33,
       "wins": 63,
@@ -536,9 +536,9 @@
       "role": "MID",
       "level": 612,
       "tier": "EMERALD II",
-      "lp": 79,
-      "wins": 330,
-      "losses": 310,
+      "lp": 77,
+      "wins": 331,
+      "losses": 311,
       "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/23.png"
     },
@@ -547,10 +547,10 @@
       "role": "BOT",
       "level": 1432,
       "tier": "PLATINUM IV",
-      "lp": 18,
+      "lp": 0,
       "wins": 585,
-      "losses": 581,
-      "winRate": 50.2,
+      "losses": 582,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6715.png"
     },
     {
@@ -603,11 +603,11 @@
       "name": "Leberkasleatschn",
       "role": "JGL",
       "level": 470,
-      "tier": "GOLD IV",
-      "lp": 23,
-      "wins": 125,
-      "losses": 132,
-      "winRate": 48.6,
+      "tier": "SILVER I",
+      "lp": 43,
+      "wins": 126,
+      "losses": 134,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/1211.png"
     },
     {
@@ -661,10 +661,10 @@
       "role": "JGL",
       "level": 1161,
       "tier": "MASTER I",
-      "lp": 120,
+      "lp": 90,
       "wins": 100,
-      "losses": 87,
-      "winRate": 53.5,
+      "losses": 88,
+      "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7123.png"
     },
     {
@@ -672,10 +672,10 @@
       "role": "MID",
       "level": 646,
       "tier": "EMERALD II",
-      "lp": 69,
-      "wins": 110,
+      "lp": 87,
+      "wins": 111,
       "losses": 113,
-      "winRate": 49.3,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/626.png"
     },
     {
@@ -749,7 +749,7 @@
     {
       "name": "TheEigeeen",
       "role": "SUP",
-      "level": 680,
+      "level": 681,
       "tier": "EMERALD III",
       "lp": 98,
       "wins": 83,
