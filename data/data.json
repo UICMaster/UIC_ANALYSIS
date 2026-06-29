@@ -424,10 +424,10 @@
       "role": "JGL",
       "level": 1134,
       "tier": "DIAMOND IV",
-      "lp": 19,
-      "wins": 281,
+      "lp": 38,
+      "wins": 282,
       "losses": 282,
-      "winRate": 49.9,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
     {
@@ -445,11 +445,11 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 622,
-      "tier": "DIAMOND III",
-      "lp": 24,
+      "tier": "DIAMOND IV",
+      "lp": 82,
       "wins": 248,
-      "losses": 272,
-      "winRate": 47.7,
+      "losses": 274,
+      "winRate": 47.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
@@ -547,11 +547,11 @@
       "role": "BOT",
       "level": 1431,
       "tier": "PLATINUM IV",
-      "lp": 28,
-      "wins": 580,
-      "losses": 575,
-      "winRate": 50.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6241.png"
+      "lp": 45,
+      "wins": 582,
+      "losses": 576,
+      "winRate": 50.3,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6881.png"
     },
     {
       "name": "UIC Deavan",
@@ -718,10 +718,10 @@
       "role": "JGL",
       "level": 504,
       "tier": "DIAMOND I",
-      "lp": 54,
+      "lp": 33,
       "wins": 168,
-      "losses": 163,
-      "winRate": 50.8,
+      "losses": 164,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6759.png"
     },
     {
