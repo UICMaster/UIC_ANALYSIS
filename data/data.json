@@ -4,11 +4,11 @@
       "name": "UIC Speedy",
       "role": "TOP",
       "level": 1181,
-      "tier": "MASTER I",
-      "lp": 29,
+      "tier": "DIAMOND I",
+      "lp": 25,
       "wins": 193,
-      "losses": 207,
-      "winRate": 48.3,
+      "losses": 209,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4380.png"
     },
     {
@@ -183,12 +183,12 @@
     {
       "name": "UIC FirstBlo",
       "role": "SUP",
-      "level": 499,
+      "level": 500,
       "tier": "DIAMOND III",
-      "lp": 37,
-      "wins": 101,
+      "lp": 57,
+      "wins": 102,
       "losses": 88,
-      "winRate": 53.4,
+      "winRate": 53.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4655.png"
     }
   ],
@@ -231,10 +231,10 @@
       "role": "BOT",
       "level": 796,
       "tier": "DIAMOND III",
-      "lp": 65,
+      "lp": 45,
       "wins": 236,
-      "losses": 251,
-      "winRate": 48.5,
+      "losses": 252,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6379.png"
     },
     {
@@ -263,8 +263,8 @@
       "name": "UIC Taiga",
       "role": "COH",
       "level": 472,
-      "tier": "MASTER I",
-      "lp": 16,
+      "tier": "DIAMOND I",
+      "lp": 75,
       "wins": 31,
       "losses": 17,
       "winRate": 64.6,
@@ -534,12 +534,12 @@
     {
       "name": "UIC GreatATuin",
       "role": "MID",
-      "level": 613,
-      "tier": "EMERALD III",
-      "lp": 85,
-      "wins": 335,
-      "losses": 319,
-      "winRate": 51.2,
+      "level": 614,
+      "tier": "EMERALD II",
+      "lp": 2,
+      "wins": 337,
+      "losses": 320,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/23.png"
     },
     {
