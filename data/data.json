@@ -105,11 +105,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1016,
-      "tier": "DIAMOND IV",
-      "lp": 33,
+      "tier": "EMERALD I",
+      "lp": 50,
       "wins": 153,
-      "losses": 176,
-      "winRate": 46.5,
+      "losses": 179,
+      "winRate": 46.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -277,10 +277,10 @@
       "role": "TOP",
       "level": 572,
       "tier": "MASTER I",
-      "lp": 376,
-      "wins": 332,
+      "lp": 406,
+      "wins": 333,
       "losses": 298,
-      "winRate": 52.7,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6640.png"
     },
     {
@@ -424,10 +424,10 @@
       "role": "JGL",
       "level": 1135,
       "tier": "DIAMOND IV",
-      "lp": 36,
+      "lp": 15,
       "wins": 283,
-      "losses": 283,
-      "winRate": 50,
+      "losses": 284,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
     {
@@ -435,9 +435,9 @@
       "role": "MID",
       "level": 607,
       "tier": "PLATINUM II",
-      "lp": 75,
-      "wins": 149,
-      "losses": 143,
+      "lp": 73,
+      "wins": 150,
+      "losses": 144,
       "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7166.png"
     },
@@ -534,22 +534,22 @@
     {
       "name": "UIC GreatATuin",
       "role": "MID",
-      "level": 612,
+      "level": 613,
       "tier": "EMERALD II",
-      "lp": 94,
+      "lp": 10,
       "wins": 333,
-      "losses": 312,
-      "winRate": 51.6,
+      "losses": 316,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/23.png"
     },
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1432,
-      "tier": "PLATINUM IV",
-      "lp": 0,
-      "wins": 588,
-      "losses": 585,
+      "level": 1433,
+      "tier": "GOLD I",
+      "lp": 71,
+      "wins": 589,
+      "losses": 587,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6715.png"
     },
@@ -604,10 +604,10 @@
       "role": "JGL",
       "level": 470,
       "tier": "SILVER I",
-      "lp": 62,
-      "wins": 127,
+      "lp": 81,
+      "wins": 128,
       "losses": 134,
-      "winRate": 48.7,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/1211.png"
     },
     {
@@ -681,13 +681,13 @@
     {
       "name": "Starboy",
       "role": "BOT",
-      "level": 852,
+      "level": 853,
       "tier": "DIAMOND II",
-      "lp": 80,
-      "wins": 346,
+      "lp": 99,
+      "wins": 347,
       "losses": 312,
-      "winRate": 52.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/1297.png"
+      "winRate": 52.7,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6250.png"
     },
     {
       "name": "UIC Envy",
