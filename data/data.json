@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1181,
       "tier": "MASTER I",
-      "lp": 94,
+      "lp": 62,
       "wins": 193,
-      "losses": 205,
-      "winRate": 48.5,
+      "losses": 206,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4380.png"
     },
     {
@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1017,
       "tier": "EMERALD I",
-      "lp": 63,
-      "wins": 156,
-      "losses": 181,
-      "winRate": 46.3,
+      "lp": 19,
+      "wins": 157,
+      "losses": 184,
+      "winRate": 46,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -231,10 +231,10 @@
       "role": "BOT",
       "level": 796,
       "tier": "DIAMOND III",
-      "lp": 85,
+      "lp": 65,
       "wins": 236,
-      "losses": 250,
-      "winRate": 48.6,
+      "losses": 251,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6379.png"
     },
     {
@@ -435,10 +435,10 @@
       "role": "MID",
       "level": 607,
       "tier": "PLATINUM II",
-      "lp": 73,
+      "lp": 52,
       "wins": 150,
-      "losses": 144,
-      "winRate": 51,
+      "losses": 145,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7166.png"
     },
     {
@@ -592,11 +592,11 @@
       "name": "UIC Papi Δce",
       "role": "TOP",
       "level": 599,
-      "tier": "PLATINUM III",
-      "lp": 85,
-      "wins": 101,
+      "tier": "PLATINUM II",
+      "lp": 4,
+      "wins": 102,
       "losses": 120,
-      "winRate": 45.7,
+      "winRate": 45.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3891.png"
     },
     {
@@ -670,12 +670,12 @@
     {
       "name": "UIC Flare",
       "role": "MID",
-      "level": 646,
-      "tier": "EMERALD I",
-      "lp": 5,
+      "level": 647,
+      "tier": "EMERALD II",
+      "lp": 83,
       "wins": 112,
-      "losses": 113,
-      "winRate": 49.8,
+      "losses": 114,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/626.png"
     },
     {
@@ -706,11 +706,11 @@
       "name": "myblondie",
       "role": "TOP",
       "level": 757,
-      "tier": "DIAMOND IV",
-      "lp": 0,
+      "tier": "EMERALD I",
+      "lp": 50,
       "wins": 47,
-      "losses": 59,
-      "winRate": 44.3,
+      "losses": 60,
+      "winRate": 43.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6809.png"
     },
     {
