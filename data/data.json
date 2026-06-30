@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1181,
       "tier": "MASTER I",
-      "lp": 62,
+      "lp": 29,
       "wins": 193,
-      "losses": 206,
-      "winRate": 48.4,
+      "losses": 207,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4380.png"
     },
     {
@@ -277,10 +277,10 @@
       "role": "TOP",
       "level": 573,
       "tier": "MASTER I",
-      "lp": 316,
+      "lp": 286,
       "wins": 335,
-      "losses": 303,
-      "winRate": 52.5,
+      "losses": 304,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6640.png"
     },
     {
@@ -512,7 +512,7 @@
     {
       "name": "UIC Namorii",
       "role": "JGL",
-      "level": 967,
+      "level": 968,
       "tier": "DIAMOND II",
       "lp": 16,
       "wins": 60,
@@ -593,10 +593,10 @@
       "role": "TOP",
       "level": 599,
       "tier": "PLATINUM II",
-      "lp": 4,
-      "wins": 102,
-      "losses": 120,
-      "winRate": 45.9,
+      "lp": 2,
+      "wins": 103,
+      "losses": 121,
+      "winRate": 46,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3891.png"
     },
     {
@@ -659,7 +659,7 @@
     {
       "name": "BlauerKlaus",
       "role": "JGL",
-      "level": 1161,
+      "level": 1162,
       "tier": "MASTER I",
       "lp": 60,
       "wins": 100,
