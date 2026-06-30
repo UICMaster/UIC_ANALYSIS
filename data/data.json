@@ -197,11 +197,11 @@
       "name": "Reign",
       "role": "TOP",
       "level": 1315,
-      "tier": "DIAMOND I",
-      "lp": 81,
-      "wins": 250,
+      "tier": "MASTER I",
+      "lp": 1,
+      "wins": 251,
       "losses": 262,
-      "winRate": 48.8,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6769.png"
     },
     {
@@ -444,12 +444,12 @@
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 622,
+      "level": 623,
       "tier": "DIAMOND IV",
-      "lp": 15,
-      "wins": 248,
-      "losses": 278,
-      "winRate": 47.1,
+      "lp": 2,
+      "wins": 252,
+      "losses": 281,
+      "winRate": 47.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
@@ -523,12 +523,12 @@
     {
       "name": "UIC adedier",
       "role": "MID",
-      "level": 628,
+      "level": 629,
       "tier": "PLATINUM III",
-      "lp": 3,
-      "wins": 117,
+      "lp": 23,
+      "wins": 118,
       "losses": 122,
-      "winRate": 49,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4379.png"
     },
     {
@@ -548,8 +548,8 @@
       "level": 1432,
       "tier": "PLATINUM IV",
       "lp": 0,
-      "wins": 585,
-      "losses": 582,
+      "wins": 586,
+      "losses": 583,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6715.png"
     },
@@ -637,9 +637,9 @@
       "role": "SUP",
       "level": 764,
       "tier": "PLATINUM II",
-      "lp": 96,
-      "wins": 100,
-      "losses": 102,
+      "lp": 98,
+      "wins": 101,
+      "losses": 103,
       "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6378.png"
     }
