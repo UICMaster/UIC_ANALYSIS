@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1016,
       "tier": "DIAMOND IV",
-      "lp": 15,
-      "wins": 152,
+      "lp": 33,
+      "wins": 153,
       "losses": 176,
-      "winRate": 46.3,
+      "winRate": 46.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -196,7 +196,7 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1315,
+      "level": 1316,
       "tier": "MASTER I",
       "lp": 1,
       "wins": 251,
@@ -525,10 +525,10 @@
       "role": "MID",
       "level": 629,
       "tier": "PLATINUM III",
-      "lp": 23,
-      "wins": 118,
-      "losses": 122,
-      "winRate": 49.2,
+      "lp": 43,
+      "wins": 120,
+      "losses": 123,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4379.png"
     },
     {
@@ -536,8 +536,8 @@
       "role": "MID",
       "level": 612,
       "tier": "EMERALD II",
-      "lp": 75,
-      "wins": 332,
+      "lp": 94,
+      "wins": 333,
       "losses": 312,
       "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/23.png"
@@ -548,8 +548,8 @@
       "level": 1432,
       "tier": "PLATINUM IV",
       "lp": 0,
-      "wins": 586,
-      "losses": 583,
+      "wins": 588,
+      "losses": 585,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6715.png"
     },
@@ -604,10 +604,10 @@
       "role": "JGL",
       "level": 470,
       "tier": "SILVER I",
-      "lp": 43,
-      "wins": 126,
+      "lp": 62,
+      "wins": 127,
       "losses": 134,
-      "winRate": 48.5,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/1211.png"
     },
     {
@@ -720,8 +720,8 @@
       "tier": "DIAMOND I",
       "lp": 49,
       "wins": 171,
-      "losses": 166,
-      "winRate": 50.7,
+      "losses": 167,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6759.png"
     },
     {
