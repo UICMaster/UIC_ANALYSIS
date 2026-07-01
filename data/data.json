@@ -104,12 +104,12 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1017,
+      "level": 1018,
       "tier": "EMERALD II",
-      "lp": 96,
-      "wins": 158,
-      "losses": 186,
-      "winRate": 45.9,
+      "lp": 71,
+      "wins": 160,
+      "losses": 189,
+      "winRate": 45.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -207,7 +207,7 @@
     {
       "name": "UIC RealCrimes",
       "role": "JGL",
-      "level": 1053,
+      "level": 1054,
       "tier": "DIAMOND IV",
       "lp": 30,
       "wins": 46,
@@ -424,10 +424,10 @@
       "role": "JGL",
       "level": 1135,
       "tier": "DIAMOND IV",
-      "lp": 35,
-      "wins": 284,
+      "lp": 55,
+      "wins": 285,
       "losses": 284,
-      "winRate": 50,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
     {
@@ -535,11 +535,11 @@
       "name": "UIC GreatATuin",
       "role": "MID",
       "level": 614,
-      "tier": "EMERALD III",
-      "lp": 81,
-      "wins": 337,
-      "losses": 321,
-      "winRate": 51.2,
+      "tier": "EMERALD II",
+      "lp": 72,
+      "wins": 342,
+      "losses": 323,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/23.png"
     },
     {
@@ -547,9 +547,9 @@
       "role": "BOT",
       "level": 1433,
       "tier": "GOLD I",
-      "lp": 63,
-      "wins": 591,
-      "losses": 589,
+      "lp": 78,
+      "wins": 593,
+      "losses": 590,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6715.png"
     },
@@ -602,12 +602,12 @@
     {
       "name": "Leberkasleatschn",
       "role": "JGL",
-      "level": 470,
+      "level": 471,
       "tier": "SILVER I",
-      "lp": 81,
-      "wins": 128,
-      "losses": 134,
-      "winRate": 48.9,
+      "lp": 9,
+      "wins": 129,
+      "losses": 138,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/1211.png"
     },
     {
