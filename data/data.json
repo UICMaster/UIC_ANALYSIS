@@ -105,11 +105,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1018,
-      "tier": "EMERALD I",
-      "lp": 26,
-      "wins": 164,
+      "tier": "DIAMOND IV",
+      "lp": 6,
+      "wins": 168,
       "losses": 190,
-      "winRate": 46.3,
+      "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -183,12 +183,12 @@
     {
       "name": "UIC FirstBlo",
       "role": "SUP",
-      "level": 500,
+      "level": 501,
       "tier": "DIAMOND II",
-      "lp": 58,
-      "wins": 108,
-      "losses": 89,
-      "winRate": 54.8,
+      "lp": 60,
+      "wins": 110,
+      "losses": 91,
+      "winRate": 54.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4655.png"
     }
   ],
@@ -277,10 +277,10 @@
       "role": "TOP",
       "level": 573,
       "tier": "MASTER I",
-      "lp": 286,
-      "wins": 335,
-      "losses": 304,
-      "winRate": 52.4,
+      "lp": 256,
+      "wins": 336,
+      "losses": 306,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6640.png"
     },
     {
@@ -332,9 +332,9 @@
       "role": "COH",
       "level": 821,
       "tier": "EMERALD I",
-      "lp": 42,
-      "wins": 157,
-      "losses": 153,
+      "lp": 40,
+      "wins": 158,
+      "losses": 154,
       "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3366.png"
     },
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 550,
       "tier": "DIAMOND II",
-      "lp": 17,
-      "wins": 108,
-      "losses": 94,
-      "winRate": 53.5,
+      "lp": 14,
+      "wins": 109,
+      "losses": 95,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3157.png"
     },
     {
@@ -378,10 +378,10 @@
       "role": "MID",
       "level": 682,
       "tier": "EMERALD I",
-      "lp": 39,
+      "lp": 18,
       "wins": 135,
-      "losses": 118,
-      "winRate": 53.4,
+      "losses": 120,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4830.png"
     },
     {
@@ -457,10 +457,10 @@
       "role": "SUP",
       "level": 329,
       "tier": "MASTER I",
-      "lp": 108,
+      "lp": 48,
       "wins": 119,
-      "losses": 99,
-      "winRate": 54.6,
+      "losses": 101,
+      "winRate": 54.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/5956.png"
     },
     {
@@ -547,10 +547,10 @@
       "role": "BOT",
       "level": 1434,
       "tier": "GOLD I",
-      "lp": 53,
+      "lp": 11,
       "wins": 595,
-      "losses": 593,
-      "winRate": 50.1,
+      "losses": 595,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6715.png"
     },
     {
@@ -661,10 +661,10 @@
       "role": "JGL",
       "level": 1162,
       "tier": "MASTER I",
-      "lp": 60,
-      "wins": 100,
+      "lp": 90,
+      "wins": 101,
       "losses": 89,
-      "winRate": 52.9,
+      "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7123.png"
     },
     {
@@ -705,7 +705,7 @@
     {
       "name": "myblondie",
       "role": "TOP",
-      "level": 757,
+      "level": 758,
       "tier": "EMERALD I",
       "lp": 50,
       "wins": 47,
@@ -718,10 +718,10 @@
       "role": "JGL",
       "level": 505,
       "tier": "DIAMOND I",
-      "lp": 49,
-      "wins": 171,
-      "losses": 167,
-      "winRate": 50.6,
+      "lp": 44,
+      "wins": 172,
+      "losses": 169,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6759.png"
     },
     {
