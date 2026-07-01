@@ -105,11 +105,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1018,
-      "tier": "EMERALD II",
-      "lp": 71,
-      "wins": 160,
-      "losses": 189,
-      "winRate": 45.8,
+      "tier": "EMERALD I",
+      "lp": 26,
+      "wins": 164,
+      "losses": 190,
+      "winRate": 46.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -185,10 +185,10 @@
       "role": "SUP",
       "level": 500,
       "tier": "DIAMOND II",
-      "lp": 37,
-      "wins": 107,
+      "lp": 58,
+      "wins": 108,
       "losses": 89,
-      "winRate": 54.6,
+      "winRate": 54.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4655.png"
     }
   ],
@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 859,
       "tier": "MASTER I",
-      "lp": 527,
-      "wins": 145,
+      "lp": 557,
+      "wins": 146,
       "losses": 115,
-      "winRate": 55.8,
+      "winRate": 55.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6943.png"
     },
     {
@@ -378,10 +378,10 @@
       "role": "MID",
       "level": 682,
       "tier": "EMERALD I",
-      "lp": 79,
+      "lp": 39,
       "wins": 135,
-      "losses": 116,
-      "winRate": 53.8,
+      "losses": 118,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4830.png"
     },
     {
@@ -411,23 +411,23 @@
     {
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 937,
+      "level": 938,
       "tier": "DIAMOND III",
-      "lp": 26,
+      "lp": 4,
       "wins": 76,
-      "losses": 72,
-      "winRate": 51.4,
+      "losses": 74,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6938.png"
     },
     {
       "name": "Blauerlupos",
       "role": "JGL",
-      "level": 1135,
+      "level": 1136,
       "tier": "DIAMOND IV",
-      "lp": 55,
+      "lp": 33,
       "wins": 285,
-      "losses": 284,
-      "winRate": 50.1,
+      "losses": 286,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
     {
@@ -545,11 +545,11 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1433,
+      "level": 1434,
       "tier": "GOLD I",
-      "lp": 78,
-      "wins": 593,
-      "losses": 590,
+      "lp": 53,
+      "wins": 595,
+      "losses": 593,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6715.png"
     },
@@ -604,10 +604,10 @@
       "role": "JGL",
       "level": 471,
       "tier": "SILVER I",
-      "lp": 9,
-      "wins": 129,
+      "lp": 47,
+      "wins": 131,
       "losses": 138,
-      "winRate": 48.3,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/1211.png"
     },
     {
@@ -687,7 +687,7 @@
       "wins": 347,
       "losses": 312,
       "winRate": 52.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6250.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7143.png"
     },
     {
       "name": "UIC Envy",
