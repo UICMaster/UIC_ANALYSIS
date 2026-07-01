@@ -184,11 +184,11 @@
       "name": "UIC FirstBlo",
       "role": "SUP",
       "level": 500,
-      "tier": "DIAMOND III",
-      "lp": 57,
-      "wins": 102,
-      "losses": 88,
-      "winRate": 53.7,
+      "tier": "DIAMOND II",
+      "lp": 37,
+      "wins": 107,
+      "losses": 89,
+      "winRate": 54.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4655.png"
     }
   ],
@@ -231,10 +231,10 @@
       "role": "BOT",
       "level": 796,
       "tier": "DIAMOND III",
-      "lp": 45,
+      "lp": 24,
       "wins": 236,
-      "losses": 252,
-      "winRate": 48.4,
+      "losses": 253,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6379.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 623,
       "tier": "DIAMOND IV",
-      "lp": 40,
-      "wins": 254,
-      "losses": 281,
-      "winRate": 47.5,
+      "lp": 57,
+      "wins": 256,
+      "losses": 282,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
@@ -535,11 +535,11 @@
       "name": "UIC GreatATuin",
       "role": "MID",
       "level": 614,
-      "tier": "EMERALD II",
-      "lp": 2,
+      "tier": "EMERALD III",
+      "lp": 81,
       "wins": 337,
-      "losses": 320,
-      "winRate": 51.3,
+      "losses": 321,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/23.png"
     },
     {
