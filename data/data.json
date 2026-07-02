@@ -104,11 +104,11 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1019,
+      "level": 1020,
       "tier": "DIAMOND IV",
-      "lp": 5,
-      "wins": 174,
-      "losses": 197,
+      "lp": 19,
+      "wins": 175,
+      "losses": 198,
       "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 821,
       "tier": "EMERALD I",
-      "lp": 39,
-      "wins": 160,
-      "losses": 156,
-      "winRate": 50.6,
+      "lp": 16,
+      "wins": 161,
+      "losses": 158,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3366.png"
     },
     {
@@ -377,11 +377,11 @@
       "name": "UIC Rellik",
       "role": "MID",
       "level": 682,
-      "tier": "EMERALD II",
-      "lp": 93,
-      "wins": 137,
+      "tier": "EMERALD I",
+      "lp": 12,
+      "wins": 138,
       "losses": 123,
-      "winRate": 52.7,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4830.png"
     },
     {
@@ -481,21 +481,21 @@
       "role": "TOP",
       "level": 884,
       "tier": "EMERALD I",
-      "lp": 33,
-      "wins": 63,
+      "lp": 54,
+      "wins": 64,
       "losses": 57,
-      "winRate": 52.5,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7164.png"
     },
     {
       "name": "UIC Muh",
       "role": "TOP",
       "level": 532,
-      "tier": "PLATINUM I",
-      "lp": 5,
+      "tier": "PLATINUM II",
+      "lp": 86,
       "wins": 136,
-      "losses": 128,
-      "winRate": 51.5,
+      "losses": 129,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7123.png"
     },
     {
@@ -523,12 +523,12 @@
     {
       "name": "UIC adedier",
       "role": "MID",
-      "level": 629,
+      "level": 630,
       "tier": "PLATINUM III",
-      "lp": 23,
+      "lp": 3,
       "wins": 122,
-      "losses": 126,
-      "winRate": 49.2,
+      "losses": 127,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4379.png"
     },
     {
@@ -551,7 +551,7 @@
       "wins": 601,
       "losses": 602,
       "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6868.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6004.png"
     },
     {
       "name": "UIC Deavan",
@@ -591,23 +591,23 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 599,
-      "tier": "PLATINUM III",
-      "lp": 81,
-      "wins": 103,
+      "level": 600,
+      "tier": "PLATINUM II",
+      "lp": 21,
+      "wins": 105,
       "losses": 122,
-      "winRate": 45.8,
+      "winRate": 46.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3891.png"
     },
     {
       "name": "Leberkasleatschn",
       "role": "JGL",
       "level": 472,
-      "tier": "SILVER I",
-      "lp": 89,
-      "wins": 139,
+      "tier": "GOLD IV",
+      "lp": 9,
+      "wins": 140,
       "losses": 144,
-      "winRate": 49.1,
+      "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3539.png"
     },
     {
@@ -635,11 +635,11 @@
     {
       "name": "LordZash",
       "role": "SUP",
-      "level": 764,
+      "level": 765,
       "tier": "PLATINUM II",
-      "lp": 98,
-      "wins": 101,
-      "losses": 103,
+      "lp": 99,
+      "wins": 103,
+      "losses": 105,
       "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6378.png"
     }
@@ -659,12 +659,12 @@
     {
       "name": "BlauerKlaus",
       "role": "JGL",
-      "level": 1162,
+      "level": 1163,
       "tier": "MASTER I",
-      "lp": 90,
-      "wins": 101,
+      "lp": 120,
+      "wins": 102,
       "losses": 89,
-      "winRate": 53.2,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7123.png"
     },
     {
