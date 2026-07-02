@@ -184,11 +184,11 @@
       "name": "UIC FirstBlo",
       "role": "SUP",
       "level": 502,
-      "tier": "DIAMOND I",
-      "lp": 86,
-      "wins": 117,
+      "tier": "MASTER I",
+      "lp": 6,
+      "wins": 118,
       "losses": 93,
-      "winRate": 55.7,
+      "winRate": 55.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4655.png"
     }
   ],
@@ -445,11 +445,11 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 623,
-      "tier": "DIAMOND IV",
-      "lp": 75,
-      "wins": 258,
+      "tier": "DIAMOND III",
+      "lp": 15,
+      "wins": 260,
       "losses": 283,
-      "winRate": 47.7,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
