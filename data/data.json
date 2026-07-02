@@ -107,8 +107,8 @@
       "level": 1019,
       "tier": "DIAMOND IV",
       "lp": 0,
-      "wins": 169,
-      "losses": 194,
+      "wins": 170,
+      "losses": 195,
       "winRate": 46.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
@@ -444,11 +444,11 @@
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 623,
+      "level": 624,
       "tier": "DIAMOND III",
       "lp": 15,
-      "wins": 260,
-      "losses": 283,
+      "wins": 261,
+      "losses": 284,
       "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
@@ -545,11 +545,11 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1434,
+      "level": 1435,
       "tier": "GOLD II",
-      "lp": 67,
-      "wins": 596,
-      "losses": 598,
+      "lp": 65,
+      "wins": 597,
+      "losses": 599,
       "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7152.png"
     },
