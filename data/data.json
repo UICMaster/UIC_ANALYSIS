@@ -105,11 +105,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1019,
-      "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 170,
-      "losses": 195,
-      "winRate": 46.6,
+      "tier": "EMERALD I",
+      "lp": 86,
+      "wins": 173,
+      "losses": 197,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -152,10 +152,10 @@
       "role": "JGL",
       "level": 983,
       "tier": "DIAMOND IV",
-      "lp": 19,
-      "wins": 140,
+      "lp": 57,
+      "wins": 141,
       "losses": 134,
-      "winRate": 51.1,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4967.png"
     },
     {
@@ -547,10 +547,10 @@
       "role": "BOT",
       "level": 1435,
       "tier": "GOLD II",
-      "lp": 65,
-      "wins": 597,
+      "lp": 84,
+      "wins": 598,
       "losses": 599,
-      "winRate": 49.9,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7152.png"
     },
     {
@@ -602,13 +602,13 @@
     {
       "name": "Leberkasleatschn",
       "role": "JGL",
-      "level": 471,
+      "level": 472,
       "tier": "SILVER I",
-      "lp": 41,
-      "wins": 133,
-      "losses": 141,
-      "winRate": 48.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/1211.png"
+      "lp": 53,
+      "wins": 136,
+      "losses": 143,
+      "winRate": 48.7,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3539.png"
     },
     {
       "name": "OPEN SPOT",
