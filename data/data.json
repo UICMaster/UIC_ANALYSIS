@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 859,
       "tier": "MASTER I",
-      "lp": 557,
+      "lp": 467,
       "wins": 146,
-      "losses": 115,
-      "winRate": 55.9,
+      "losses": 118,
+      "winRate": 55.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6943.png"
     },
     {
@@ -377,11 +377,11 @@
       "name": "UIC Rellik",
       "role": "MID",
       "level": 682,
-      "tier": "EMERALD II",
-      "lp": 97,
-      "wins": 135,
-      "losses": 121,
-      "winRate": 52.7,
+      "tier": "EMERALD I",
+      "lp": 14,
+      "wins": 137,
+      "losses": 122,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4830.png"
     },
     {
@@ -424,9 +424,9 @@
       "role": "JGL",
       "level": 1136,
       "tier": "DIAMOND IV",
-      "lp": 33,
-      "wins": 285,
-      "losses": 286,
+      "lp": 51,
+      "wins": 286,
+      "losses": 287,
       "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 624,
       "tier": "DIAMOND III",
-      "lp": 15,
-      "wins": 261,
+      "lp": 55,
+      "wins": 263,
       "losses": 284,
-      "winRate": 47.9,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
@@ -492,10 +492,10 @@
       "role": "TOP",
       "level": 532,
       "tier": "PLATINUM I",
-      "lp": 1,
-      "wins": 135,
+      "lp": 23,
+      "wins": 136,
       "losses": 127,
-      "winRate": 51.5,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7123.png"
     },
     {
@@ -525,21 +525,21 @@
       "role": "MID",
       "level": 629,
       "tier": "PLATINUM III",
-      "lp": 23,
+      "lp": 3,
       "wins": 121,
-      "losses": 125,
-      "winRate": 49.2,
+      "losses": 126,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4379.png"
     },
     {
       "name": "UIC GreatATuin",
       "role": "MID",
       "level": 615,
-      "tier": "EMERALD II",
-      "lp": 86,
-      "wins": 344,
+      "tier": "EMERALD I",
+      "lp": 41,
+      "wins": 347,
       "losses": 324,
-      "winRate": 51.5,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/23.png"
     },
     {
@@ -548,10 +548,10 @@
       "level": 1435,
       "tier": "GOLD I",
       "lp": 3,
-      "wins": 600,
-      "losses": 600,
+      "wins": 601,
+      "losses": 601,
       "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7152.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6868.png"
     },
     {
       "name": "UIC Deavan",
@@ -604,9 +604,9 @@
       "role": "JGL",
       "level": 472,
       "tier": "SILVER I",
-      "lp": 72,
-      "wins": 137,
-      "losses": 143,
+      "lp": 70,
+      "wins": 138,
+      "losses": 144,
       "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3539.png"
     },
