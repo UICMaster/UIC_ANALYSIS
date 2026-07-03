@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1052,
       "tier": "MASTER I",
-      "lp": 133,
-      "wins": 208,
+      "lp": 163,
+      "wins": 209,
       "losses": 202,
-      "winRate": 50.7,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4380.png"
     },
     {
@@ -105,11 +105,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1021,
-      "tier": "DIAMOND IV",
-      "lp": 65,
-      "wins": 182,
+      "tier": "DIAMOND III",
+      "lp": 3,
+      "wins": 184,
       "losses": 203,
-      "winRate": 47.3,
+      "winRate": 47.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -185,10 +185,10 @@
       "role": "SUP",
       "level": 503,
       "tier": "MASTER I",
-      "lp": 221,
-      "wins": 124,
-      "losses": 93,
-      "winRate": 57.1,
+      "lp": 196,
+      "wins": 126,
+      "losses": 96,
+      "winRate": 56.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4655.png"
     }
   ],
@@ -330,12 +330,12 @@
     {
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 821,
+      "level": 822,
       "tier": "EMERALD I",
-      "lp": 16,
-      "wins": 161,
-      "losses": 158,
-      "winRate": 50.5,
+      "lp": 32,
+      "wins": 163,
+      "losses": 159,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3366.png"
     },
     {
@@ -424,10 +424,10 @@
       "role": "JGL",
       "level": 1136,
       "tier": "DIAMOND IV",
-      "lp": 87,
+      "lp": 65,
       "wins": 288,
-      "losses": 287,
-      "winRate": 50.1,
+      "losses": 288,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
     {
@@ -445,11 +445,11 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 624,
-      "tier": "DIAMOND III",
-      "lp": 76,
-      "wins": 266,
+      "tier": "DIAMOND II",
+      "lp": 18,
+      "wins": 268,
       "losses": 286,
-      "winRate": 48.2,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
@@ -536,9 +536,9 @@
       "role": "MID",
       "level": 616,
       "tier": "EMERALD I",
-      "lp": 31,
-      "wins": 352,
-      "losses": 329,
+      "lp": 29,
+      "wins": 353,
+      "losses": 330,
       "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/23.png"
     },
@@ -547,9 +547,9 @@
       "role": "BOT",
       "level": 1436,
       "tier": "GOLD I",
-      "lp": 23,
+      "lp": 3,
       "wins": 603,
-      "losses": 602,
+      "losses": 603,
       "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6004.png"
     },
@@ -558,10 +558,10 @@
       "role": "BOT",
       "level": 419,
       "tier": "PLATINUM IV",
-      "lp": 25,
+      "lp": 0,
       "wins": 173,
-      "losses": 159,
-      "winRate": 52.1,
+      "losses": 162,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4640.png"
     },
     {
