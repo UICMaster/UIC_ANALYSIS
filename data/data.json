@@ -104,12 +104,12 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1020,
+      "level": 1021,
       "tier": "DIAMOND IV",
-      "lp": 72,
-      "wins": 179,
-      "losses": 200,
-      "winRate": 47.2,
+      "lp": 48,
+      "wins": 180,
+      "losses": 202,
+      "winRate": 47.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -152,10 +152,10 @@
       "role": "JGL",
       "level": 983,
       "tier": "DIAMOND IV",
-      "lp": 49,
+      "lp": 5,
       "wins": 143,
-      "losses": 136,
-      "winRate": 51.3,
+      "losses": 138,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4967.png"
     },
     {
@@ -535,11 +535,11 @@
       "name": "UIC GreatATuin",
       "role": "MID",
       "level": 615,
-      "tier": "EMERALD I",
-      "lp": 35,
+      "tier": "EMERALD II",
+      "lp": 93,
       "wins": 350,
-      "losses": 327,
-      "winRate": 51.7,
+      "losses": 329,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/23.png"
     },
     {
