@@ -106,9 +106,9 @@
       "role": "MID",
       "level": 1022,
       "tier": "DIAMOND IV",
-      "lp": 15,
-      "wins": 186,
-      "losses": 209,
+      "lp": 13,
+      "wins": 187,
+      "losses": 210,
       "winRate": 47.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
@@ -209,10 +209,10 @@
       "role": "JGL",
       "level": 1055,
       "tier": "DIAMOND IV",
-      "lp": 30,
+      "lp": 0,
       "wins": 46,
-      "losses": 54,
-      "winRate": 46,
+      "losses": 56,
+      "winRate": 45.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/1453.png"
     },
     {
@@ -545,23 +545,23 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1436,
+      "level": 1437,
       "tier": "GOLD II",
-      "lp": 35,
+      "lp": 14,
       "wins": 606,
-      "losses": 609,
-      "winRate": 49.9,
+      "losses": 610,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4225.png"
     },
     {
       "name": "UIC Deavan",
       "role": "BOT",
-      "level": 420,
+      "level": 421,
       "tier": "PLATINUM III",
-      "lp": 32,
-      "wins": 183,
+      "lp": 73,
+      "wins": 185,
       "losses": 165,
-      "winRate": 52.6,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4640.png"
     },
     {
