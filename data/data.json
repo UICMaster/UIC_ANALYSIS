@@ -104,12 +104,12 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1021,
+      "level": 1022,
       "tier": "DIAMOND IV",
-      "lp": 78,
+      "lp": 36,
       "wins": 186,
-      "losses": 206,
-      "winRate": 47.4,
+      "losses": 208,
+      "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -330,12 +330,12 @@
     {
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 822,
+      "level": 823,
       "tier": "EMERALD I",
-      "lp": 62,
-      "wins": 169,
+      "lp": 81,
+      "wins": 170,
       "losses": 163,
-      "winRate": 50.9,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3366.png"
     },
     {
@@ -435,10 +435,10 @@
       "role": "MID",
       "level": 607,
       "tier": "PLATINUM II",
-      "lp": 70,
+      "lp": 49,
       "wins": 151,
-      "losses": 145,
-      "winRate": 51,
+      "losses": 146,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7166.png"
     },
     {
@@ -547,21 +547,21 @@
       "role": "BOT",
       "level": 1436,
       "tier": "GOLD II",
-      "lp": 16,
-      "wins": 605,
+      "lp": 35,
+      "wins": 606,
       "losses": 609,
-      "winRate": 49.8,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4225.png"
     },
     {
       "name": "UIC Deavan",
       "role": "BOT",
       "level": 420,
-      "tier": "PLATINUM IV",
-      "lp": 52,
-      "wins": 178,
+      "tier": "PLATINUM III",
+      "lp": 12,
+      "wins": 181,
       "losses": 164,
-      "winRate": 52,
+      "winRate": 52.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4640.png"
     },
     {
@@ -569,11 +569,11 @@
       "role": "SUP",
       "level": 393,
       "tier": "PLATINUM II",
-      "lp": 9,
-      "wins": 127,
+      "lp": 30,
+      "wins": 128,
       "losses": 128,
-      "winRate": 49.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/5368.png"
+      "winRate": 50,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7099.png"
     },
     {
       "name": "UIC Excellent C",
@@ -672,9 +672,9 @@
       "role": "MID",
       "level": 647,
       "tier": "EMERALD I",
-      "lp": 39,
-      "wins": 115,
-      "losses": 115,
+      "lp": 35,
+      "wins": 116,
+      "losses": 116,
       "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/626.png"
     },
