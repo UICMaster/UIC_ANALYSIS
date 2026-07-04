@@ -108,8 +108,8 @@
       "tier": "EMERALD I",
       "lp": 73,
       "wins": 188,
-      "losses": 213,
-      "winRate": 46.9,
+      "losses": 214,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -240,7 +240,7 @@
     {
       "name": "UIC Haselmania",
       "role": "SUP",
-      "level": 612,
+      "level": 613,
       "tier": "DIAMOND I",
       "lp": 75,
       "wins": 64,
