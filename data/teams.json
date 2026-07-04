@@ -882,6 +882,16 @@
         "isCaptain": false
       },
       {
+        "gameName": "PeaPuffer",
+        "tagLine": "efe",
+        "role": "SUP",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "611304700779692135",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
         "gameName": "Kelle",
         "tagLine": "Udyr",
         "role": "JGL",
