@@ -105,11 +105,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1021,
-      "tier": "DIAMOND III",
-      "lp": 22,
+      "tier": "DIAMOND IV",
+      "lp": 59,
       "wins": 185,
-      "losses": 203,
-      "winRate": 47.7,
+      "losses": 206,
+      "winRate": 47.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -444,12 +444,12 @@
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 625,
+      "level": 626,
       "tier": "DIAMOND II",
       "lp": 78,
       "wins": 271,
-      "losses": 287,
-      "winRate": 48.6,
+      "losses": 288,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
@@ -535,11 +535,11 @@
       "name": "UIC GreatATuin",
       "role": "MID",
       "level": 616,
-      "tier": "EMERALD I",
-      "lp": 8,
+      "tier": "EMERALD II",
+      "lp": 87,
       "wins": 353,
-      "losses": 331,
-      "winRate": 51.6,
+      "losses": 332,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/23.png"
     },
     {
@@ -718,10 +718,10 @@
       "role": "JGL",
       "level": 505,
       "tier": "DIAMOND I",
-      "lp": 58,
-      "wins": 174,
+      "lp": 76,
+      "wins": 175,
       "losses": 170,
-      "winRate": 50.6,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6759.png"
     },
     {
