@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1022,
       "tier": "EMERALD I",
-      "lp": 73,
+      "lp": 50,
       "wins": 188,
-      "losses": 214,
-      "winRate": 46.8,
+      "losses": 215,
+      "winRate": 46.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -196,7 +196,7 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1316,
+      "level": 1317,
       "tier": "MASTER I",
       "lp": 1,
       "wins": 251,
@@ -354,12 +354,12 @@
     {
       "name": "UIC DANY",
       "role": "TOP",
-      "level": 550,
+      "level": 551,
       "tier": "DIAMOND II",
-      "lp": 52,
+      "lp": 31,
       "wins": 111,
-      "losses": 95,
-      "winRate": 53.9,
+      "losses": 96,
+      "winRate": 53.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3157.png"
     },
     {
