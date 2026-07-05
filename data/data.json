@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1023,
       "tier": "EMERALD I",
-      "lp": 88,
+      "lp": 46,
       "wins": 196,
-      "losses": 220,
-      "winRate": 47.1,
+      "losses": 222,
+      "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 812,
       "tier": "MASTER I",
-      "lp": 439,
+      "lp": 409,
       "wins": 217,
-      "losses": 206,
-      "winRate": 51.3,
+      "losses": 207,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/528.png"
     },
     {
@@ -445,11 +445,11 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 626,
-      "tier": "DIAMOND II",
-      "lp": 97,
-      "wins": 272,
+      "tier": "DIAMOND I",
+      "lp": 17,
+      "wins": 273,
       "losses": 288,
-      "winRate": 48.6,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
@@ -481,9 +481,9 @@
       "role": "TOP",
       "level": 885,
       "tier": "EMERALD I",
-      "lp": 77,
-      "wins": 66,
-      "losses": 58,
+      "lp": 79,
+      "wins": 67,
+      "losses": 59,
       "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7129.png"
     },
@@ -536,9 +536,9 @@
       "role": "MID",
       "level": 617,
       "tier": "EMERALD I",
-      "lp": 4,
-      "wins": 356,
-      "losses": 334,
+      "lp": 3,
+      "wins": 357,
+      "losses": 335,
       "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/23.png"
     },
@@ -547,8 +547,8 @@
       "role": "BOT",
       "level": 1437,
       "tier": "GOLD III",
-      "lp": 70,
-      "wins": 607,
+      "lp": 89,
+      "wins": 608,
       "losses": 613,
       "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4374.png"
@@ -558,10 +558,10 @@
       "role": "BOT",
       "level": 421,
       "tier": "PLATINUM III",
-      "lp": 76,
-      "wins": 187,
+      "lp": 97,
+      "wins": 188,
       "losses": 167,
-      "winRate": 52.8,
+      "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4640.png"
     },
     {
@@ -569,10 +569,10 @@
       "role": "SUP",
       "level": 394,
       "tier": "PLATINUM III",
-      "lp": 72,
+      "lp": 52,
       "wins": 129,
-      "losses": 132,
-      "winRate": 49.4,
+      "losses": 133,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7099.png"
     },
     {
