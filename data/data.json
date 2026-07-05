@@ -47,7 +47,7 @@
     {
       "name": "UIC Baguetto",
       "role": "SUP",
-      "level": 1010,
+      "level": 1011,
       "tier": "DIAMOND II",
       "lp": 51,
       "wins": 145,
@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 652,
       "tier": "MASTER I",
-      "lp": 305,
-      "wins": 109,
+      "lp": 334,
+      "wins": 110,
       "losses": 97,
-      "winRate": 52.9,
+      "winRate": 53.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7040.png"
     }
   ],
@@ -105,11 +105,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1024,
-      "tier": "EMERALD I",
-      "lp": 82,
-      "wins": 199,
+      "tier": "DIAMOND IV",
+      "lp": 20,
+      "wins": 200,
       "losses": 223,
-      "winRate": 47.2,
+      "winRate": 47.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -174,10 +174,10 @@
       "role": "BOT",
       "level": 807,
       "tier": "DIAMOND IV",
-      "lp": 59,
+      "lp": 39,
       "wins": 100,
-      "losses": 84,
-      "winRate": 54.3,
+      "losses": 85,
+      "winRate": 54.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6882.png"
     },
     {
@@ -229,7 +229,7 @@
     {
       "name": "UIC BissiBoy",
       "role": "BOT",
-      "level": 796,
+      "level": 797,
       "tier": "DIAMOND II",
       "lp": 4,
       "wins": 240,
@@ -275,11 +275,11 @@
     {
       "name": "UIC Kamo",
       "role": "TOP",
-      "level": 573,
+      "level": 574,
       "tier": "MASTER I",
       "lp": 256,
-      "wins": 337,
-      "losses": 307,
+      "wins": 338,
+      "losses": 308,
       "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6640.png"
     },
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 626,
       "tier": "DIAMOND I",
-      "lp": 36,
+      "lp": 15,
       "wins": 274,
-      "losses": 288,
-      "winRate": 48.8,
+      "losses": 289,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
@@ -459,8 +459,8 @@
       "tier": "MASTER I",
       "lp": 120,
       "wins": 123,
-      "losses": 103,
-      "winRate": 54.4,
+      "losses": 104,
+      "winRate": 54.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/5956.png"
     },
     {
@@ -485,7 +485,7 @@
       "wins": 67,
       "losses": 59,
       "winRate": 53.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6404.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6945.png"
     },
     {
       "name": "UIC Muh",
@@ -569,10 +569,10 @@
       "role": "SUP",
       "level": 394,
       "tier": "PLATINUM III",
-      "lp": 72,
+      "lp": 52,
       "wins": 130,
-      "losses": 133,
-      "winRate": 49.4,
+      "losses": 134,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7099.png"
     },
     {
@@ -749,7 +749,7 @@
     {
       "name": "TheEigeeen",
       "role": "SUP",
-      "level": 681,
+      "level": 682,
       "tier": "EMERALD III",
       "lp": 98,
       "wins": 83,
