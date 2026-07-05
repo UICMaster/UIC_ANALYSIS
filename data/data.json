@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 651,
       "tier": "MASTER I",
-      "lp": 400,
+      "lp": 369,
       "wins": 108,
-      "losses": 93,
-      "winRate": 53.7,
+      "losses": 94,
+      "winRate": 53.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7040.png"
     }
   ],
@@ -106,9 +106,9 @@
       "role": "MID",
       "level": 1023,
       "tier": "EMERALD I",
-      "lp": 64,
-      "wins": 190,
-      "losses": 216,
+      "lp": 56,
+      "wins": 192,
+      "losses": 218,
       "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
@@ -174,10 +174,10 @@
       "role": "BOT",
       "level": 807,
       "tier": "DIAMOND IV",
-      "lp": 37,
+      "lp": 17,
       "wins": 97,
-      "losses": 82,
-      "winRate": 54.2,
+      "losses": 83,
+      "winRate": 53.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6882.png"
     },
     {
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 811,
       "tier": "MASTER I",
-      "lp": 559,
+      "lp": 499,
       "wins": 217,
-      "losses": 202,
-      "winRate": 51.8,
+      "losses": 204,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/528.png"
     },
     {
@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 860,
       "tier": "MASTER I",
-      "lp": 467,
+      "lp": 407,
       "wins": 146,
-      "losses": 118,
-      "winRate": 55.3,
+      "losses": 120,
+      "winRate": 54.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6943.png"
     },
     {
@@ -536,10 +536,10 @@
       "role": "MID",
       "level": 616,
       "tier": "EMERALD I",
-      "lp": 5,
-      "wins": 355,
+      "lp": 25,
+      "wins": 356,
       "losses": 333,
-      "winRate": 51.6,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/23.png"
     },
     {
@@ -547,9 +547,9 @@
       "role": "BOT",
       "level": 1437,
       "tier": "GOLD III",
-      "lp": 72,
-      "wins": 606,
-      "losses": 612,
+      "lp": 70,
+      "wins": 607,
+      "losses": 613,
       "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4374.png"
     },
@@ -671,11 +671,11 @@
       "name": "UIC Flare",
       "role": "MID",
       "level": 647,
-      "tier": "EMERALD II",
-      "lp": 91,
-      "wins": 116,
+      "tier": "EMERALD I",
+      "lp": 9,
+      "wins": 117,
       "losses": 118,
-      "winRate": 49.6,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/626.png"
     },
     {
