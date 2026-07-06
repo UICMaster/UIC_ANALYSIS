@@ -105,11 +105,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1024,
-      "tier": "EMERALD I",
-      "lp": 94,
-      "wins": 202,
+      "tier": "DIAMOND IV",
+      "lp": 13,
+      "wins": 203,
       "losses": 226,
-      "winRate": 47.2,
+      "winRate": 47.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -387,7 +387,7 @@
     {
       "name": "UIC Pjure",
       "role": "BOT",
-      "level": 756,
+      "level": 757,
       "tier": "DIAMOND I",
       "lp": 65,
       "wins": 130,
@@ -545,23 +545,23 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1437,
+      "level": 1438,
       "tier": "GOLD III",
-      "lp": 82,
+      "lp": 61,
       "wins": 611,
-      "losses": 616,
+      "losses": 617,
       "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4374.png"
     },
     {
       "name": "UIC Deavan",
       "role": "BOT",
-      "level": 422,
-      "tier": "PLATINUM II",
-      "lp": 15,
+      "level": 423,
+      "tier": "PLATINUM III",
+      "lp": 96,
       "wins": 195,
-      "losses": 174,
-      "winRate": 52.8,
+      "losses": 175,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4640.png"
     },
     {
