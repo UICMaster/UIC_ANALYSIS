@@ -105,10 +105,10 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1024,
-      "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 201,
-      "losses": 225,
+      "tier": "EMERALD I",
+      "lp": 94,
+      "wins": 202,
+      "losses": 226,
       "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 812,
       "tier": "MASTER I",
-      "lp": 409,
-      "wins": 218,
-      "losses": 208,
-      "winRate": 51.2,
+      "lp": 379,
+      "wins": 219,
+      "losses": 210,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/528.png"
     },
     {
@@ -308,7 +308,7 @@
     {
       "name": "UIC AutumnLeaf",
       "role": "BOT",
-      "level": 860,
+      "level": 861,
       "tier": "MASTER I",
       "lp": 377,
       "wins": 146,
@@ -435,10 +435,10 @@
       "role": "MID",
       "level": 608,
       "tier": "PLATINUM II",
-      "lp": 27,
-      "wins": 151,
+      "lp": 45,
+      "wins": 152,
       "losses": 147,
-      "winRate": 50.7,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7166.png"
     },
     {
@@ -455,12 +455,12 @@
     {
       "name": "UIC Moonlxght",
       "role": "SUP",
-      "level": 330,
+      "level": 331,
       "tier": "MASTER I",
-      "lp": 90,
-      "wins": 123,
+      "lp": 120,
+      "wins": 124,
       "losses": 105,
-      "winRate": 53.9,
+      "winRate": 54.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/5956.png"
     },
     {
@@ -547,9 +547,9 @@
       "role": "BOT",
       "level": 1437,
       "tier": "GOLD III",
-      "lp": 66,
-      "wins": 609,
-      "losses": 615,
+      "lp": 82,
+      "wins": 611,
+      "losses": 616,
       "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4374.png"
     },
@@ -569,10 +569,10 @@
       "role": "SUP",
       "level": 395,
       "tier": "PLATINUM IV",
-      "lp": 43,
+      "lp": 21,
       "wins": 131,
-      "losses": 140,
-      "winRate": 48.3,
+      "losses": 141,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7099.png"
     },
     {
@@ -671,11 +671,11 @@
       "name": "UIC Flare",
       "role": "MID",
       "level": 648,
-      "tier": "EMERALD I",
-      "lp": 5,
+      "tier": "EMERALD II",
+      "lp": 83,
       "wins": 118,
-      "losses": 119,
-      "winRate": 49.8,
+      "losses": 120,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/626.png"
     },
     {
