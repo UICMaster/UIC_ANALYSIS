@@ -71,9 +71,9 @@
       "role": "MID",
       "level": 652,
       "tier": "MASTER I",
-      "lp": 334,
-      "wins": 110,
-      "losses": 97,
+      "lp": 332,
+      "wins": 111,
+      "losses": 98,
       "winRate": 53.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7040.png"
     }
@@ -115,12 +115,12 @@
     {
       "name": "Pferdemilch",
       "role": "BOT",
-      "level": 855,
+      "level": 856,
       "tier": "PLATINUM I",
-      "lp": 50,
-      "wins": 64,
-      "losses": 88,
-      "winRate": 42.1,
+      "lp": 67,
+      "wins": 66,
+      "losses": 89,
+      "winRate": 42.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6582.png"
     },
     {
@@ -163,10 +163,10 @@
       "role": "MID",
       "level": 476,
       "tier": "DIAMOND IV",
-      "lp": 26,
-      "wins": 87,
+      "lp": 46,
+      "wins": 88,
       "losses": 83,
-      "winRate": 51.2,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7076.png"
     },
     {
@@ -289,8 +289,8 @@
       "level": 812,
       "tier": "MASTER I",
       "lp": 409,
-      "wins": 217,
-      "losses": 207,
+      "wins": 218,
+      "losses": 208,
       "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/528.png"
     },
@@ -354,12 +354,12 @@
     {
       "name": "UIC DANY",
       "role": "TOP",
-      "level": 551,
+      "level": 552,
       "tier": "DIAMOND II",
-      "lp": 69,
-      "wins": 113,
-      "losses": 96,
-      "winRate": 54.1,
+      "lp": 43,
+      "wins": 114,
+      "losses": 99,
+      "winRate": 53.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3157.png"
     },
     {
@@ -490,7 +490,7 @@
     {
       "name": "UIC Muh",
       "role": "TOP",
-      "level": 533,
+      "level": 534,
       "tier": "PLATINUM II",
       "lp": 75,
       "wins": 142,
@@ -514,10 +514,10 @@
       "role": "JGL",
       "level": 969,
       "tier": "DIAMOND II",
-      "lp": 21,
+      "lp": 1,
       "wins": 63,
-      "losses": 49,
-      "winRate": 56.3,
+      "losses": 50,
+      "winRate": 55.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/5373.png"
     },
     {
@@ -578,7 +578,7 @@
     {
       "name": "UIC Excellent C",
       "role": "SUP",
-      "level": 583,
+      "level": 584,
       "tier": "GOLD I",
       "lp": 20,
       "wins": 133,
