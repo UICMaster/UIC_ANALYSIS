@@ -352,12 +352,12 @@
     "survivability": 59
   },
   "Y27tgfcpaY7E5jwQDrHnYrw71QzdsPlpMrYcHTmUo61AaBME1GLKFLN7GaNefXqBtMg8E1HvLlY_fw": {
-    "lastMatchId": "EUW1_7909946352",
-    "ovr": 47,
-    "laning": 51,
-    "combat": 40,
+    "lastMatchId": "EUW1_7910158586",
+    "ovr": 45,
+    "laning": 49,
+    "combat": 36,
     "macro": 43,
-    "survivability": 66
+    "survivability": 62
   },
   "uVGgqcmuaXrYi92uXuEEC-2rvlURdQocHnDyf2FltobnHfV20Vz-blNuCm_iM1uIQ3o_EiJ0eEDiBQ": {
     "lastMatchId": "EUW1_7910038718",
@@ -571,20 +571,20 @@
     "survivability": 67
   },
   "bnev2BnjXI1WXYvVqE3qPhAL2gcTVCY1fqGwZGYvrBMvLjWgM9xdlpHLumh8HNS-3F-ue_gG9WSrNA": {
-    "lastMatchId": "EUW1_7910083195",
-    "ovr": 49,
-    "laning": 46,
+    "lastMatchId": "EUW1_7910148908",
+    "ovr": 50,
+    "laning": 41,
     "combat": 75,
-    "macro": 42,
-    "survivability": 50
+    "macro": 43,
+    "survivability": 55
   },
   "61_1puNqC6rGyhhHAkKghn48L5xcuYr4SolEzlbQWutYgwUBJ6zZYKP8b01i56h7IzMEFsti0zWv2A": {
-    "lastMatchId": "EUW1_7910090214",
+    "lastMatchId": "EUW1_7910155523",
     "ovr": 54,
-    "laning": 50,
-    "combat": 55,
-    "macro": 39,
-    "survivability": 77
+    "laning": 49,
+    "combat": 56,
+    "macro": 38,
+    "survivability": 75
   },
   "W7bqtrFrBq947ERqT58UuWZMUuV73E4ZlgdNJzsWc-PkvAdcQsJnHZMe7meHTMADVkZ_DJDAGWFDmw": {
     "lastMatchId": "EUW1_7909297402",
@@ -619,11 +619,11 @@
     "survivability": 55
   },
   "fbGUOApCfckQft52lWA-J9iR6G5u-DjzSLTlX1ss4UFiNnAUGtlzt8YAqnLkQJQWNWgMn-MeMy48dg": {
-    "lastMatchId": "EUW1_7910088470",
+    "lastMatchId": "EUW1_7910117542",
     "ovr": 50,
     "laning": 51,
-    "combat": 64,
-    "macro": 41,
-    "survivability": 64
+    "combat": 62,
+    "macro": 40,
+    "survivability": 63
   }
 }
