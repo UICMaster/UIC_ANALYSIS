@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 861,
       "tier": "MASTER I",
-      "lp": 377,
-      "wins": 146,
+      "lp": 407,
+      "wins": 147,
       "losses": 121,
-      "winRate": 54.7,
+      "winRate": 54.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6943.png"
     },
     {
@@ -413,10 +413,10 @@
       "role": "TOP",
       "level": 940,
       "tier": "DIAMOND III",
-      "lp": 47,
-      "wins": 81,
-      "losses": 77,
-      "winRate": 51.3,
+      "lp": 43,
+      "wins": 82,
+      "losses": 78,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6938.png"
     },
     {
@@ -446,9 +446,9 @@
       "role": "BOT",
       "level": 627,
       "tier": "DIAMOND I",
-      "lp": 60,
-      "wins": 280,
-      "losses": 293,
+      "lp": 57,
+      "wins": 281,
+      "losses": 294,
       "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
@@ -532,7 +532,7 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4379.png"
     },
     {
-      "name": "UIC GreatATuin",
+      "name": "UIC GroßATuin",
       "role": "MID",
       "level": 617,
       "tier": "EMERALD I",
@@ -579,11 +579,11 @@
       "name": "UIC Excellent C",
       "role": "SUP",
       "level": 584,
-      "tier": "GOLD I",
-      "lp": 20,
+      "tier": "GOLD II",
+      "lp": 98,
       "wins": 133,
-      "losses": 142,
-      "winRate": 48.4,
+      "losses": 143,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7064.png"
     }
   ],
