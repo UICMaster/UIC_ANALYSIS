@@ -413,10 +413,10 @@
       "role": "TOP",
       "level": 941,
       "tier": "DIAMOND III",
-      "lp": 51,
+      "lp": 30,
       "wins": 86,
-      "losses": 81,
-      "winRate": 51.5,
+      "losses": 82,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6938.png"
     },
     {
@@ -424,10 +424,10 @@
       "role": "JGL",
       "level": 1139,
       "tier": "DIAMOND II",
-      "lp": 48,
+      "lp": 27,
       "wins": 300,
-      "losses": 291,
-      "winRate": 50.8,
+      "losses": 292,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
     {
@@ -546,11 +546,11 @@
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1438,
-      "tier": "GOLD III",
-      "lp": 99,
-      "wins": 614,
+      "tier": "GOLD II",
+      "lp": 18,
+      "wins": 615,
       "losses": 618,
-      "winRate": 49.8,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4374.png"
     },
     {
@@ -558,9 +558,9 @@
       "role": "BOT",
       "level": 423,
       "tier": "PLATINUM II",
-      "lp": 65,
-      "wins": 201,
-      "losses": 178,
+      "lp": 67,
+      "wins": 202,
+      "losses": 179,
       "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4640.png"
     },
