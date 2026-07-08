@@ -251,7 +251,7 @@
     {
       "name": "BrandMachtFeuFeu",
       "role": "TOP",
-      "level": 720,
+      "level": 721,
       "tier": "EMERALD I",
       "lp": 58,
       "wins": 40,
@@ -298,11 +298,11 @@
       "name": "UIC Hayu",
       "role": "MID",
       "level": 923,
-      "tier": "DIAMOND II",
-      "lp": 17,
+      "tier": "DIAMOND III",
+      "lp": 73,
       "wins": 194,
-      "losses": 222,
-      "winRate": 46.6,
+      "losses": 224,
+      "winRate": 46.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4569.png"
     },
     {
@@ -411,7 +411,7 @@
     {
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 941,
+      "level": 942,
       "tier": "DIAMOND III",
       "lp": 47,
       "wins": 88,
@@ -492,10 +492,10 @@
       "role": "TOP",
       "level": 534,
       "tier": "PLATINUM II",
-      "lp": 54,
+      "lp": 12,
       "wins": 144,
-      "losses": 140,
-      "winRate": 50.7,
+      "losses": 142,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7123.png"
     },
     {
@@ -551,17 +551,17 @@
       "wins": 618,
       "losses": 620,
       "winRate": 49.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4374.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7147.png"
     },
     {
       "name": "UIC Deavan",
       "role": "BOT",
       "level": 424,
       "tier": "PLATINUM I",
-      "lp": 11,
-      "wins": 206,
-      "losses": 183,
-      "winRate": 53,
+      "lp": 10,
+      "wins": 207,
+      "losses": 184,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4640.png"
     },
     {
