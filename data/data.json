@@ -82,7 +82,7 @@
     {
       "name": "Stafferl",
       "role": "TOP",
-      "level": 862,
+      "level": 863,
       "tier": "EMERALD I",
       "lp": 1,
       "wins": 10,
@@ -277,10 +277,10 @@
       "role": "TOP",
       "level": 575,
       "tier": "MASTER I",
-      "lp": 266,
+      "lp": 236,
       "wins": 345,
-      "losses": 315,
-      "winRate": 52.3,
+      "losses": 316,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6640.png"
     },
     {
@@ -547,21 +547,21 @@
       "role": "BOT",
       "level": 1438,
       "tier": "GOLD II",
-      "lp": 38,
-      "wins": 616,
+      "lp": 58,
+      "wins": 617,
       "losses": 618,
-      "winRate": 49.9,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4374.png"
     },
     {
       "name": "UIC Deavan",
       "role": "BOT",
-      "level": 423,
+      "level": 424,
       "tier": "PLATINUM II",
-      "lp": 67,
+      "lp": 48,
       "wins": 202,
-      "losses": 179,
-      "winRate": 53,
+      "losses": 180,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4640.png"
     },
     {
@@ -571,8 +571,8 @@
       "tier": "PLATINUM IV",
       "lp": 58,
       "wins": 133,
-      "losses": 141,
-      "winRate": 48.5,
+      "losses": 142,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7099.png"
     },
     {
