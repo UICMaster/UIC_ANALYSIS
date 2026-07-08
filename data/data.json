@@ -297,11 +297,11 @@
     {
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 923,
+      "level": 924,
       "tier": "DIAMOND III",
-      "lp": 48,
-      "wins": 195,
-      "losses": 226,
+      "lp": 46,
+      "wins": 196,
+      "losses": 227,
       "winRate": 46.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4569.png"
     },
@@ -512,7 +512,7 @@
     {
       "name": "UIC Namorii",
       "role": "JGL",
-      "level": 969,
+      "level": 970,
       "tier": "DIAMOND II",
       "lp": 1,
       "wins": 63,
@@ -556,11 +556,11 @@
     {
       "name": "UIC Deavan",
       "role": "BOT",
-      "level": 424,
+      "level": 425,
       "tier": "PLATINUM I",
-      "lp": 9,
-      "wins": 208,
-      "losses": 185,
+      "lp": 8,
+      "wins": 209,
+      "losses": 186,
       "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4640.png"
     },
@@ -592,11 +592,11 @@
       "name": "UIC Papi Δce",
       "role": "TOP",
       "level": 601,
-      "tier": "PLATINUM II",
-      "lp": 36,
-      "wins": 108,
+      "tier": "PLATINUM I",
+      "lp": 13,
+      "wins": 112,
       "losses": 125,
-      "winRate": 46.4,
+      "winRate": 47.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3891.png"
     },
     {
