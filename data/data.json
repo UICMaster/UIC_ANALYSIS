@@ -275,12 +275,12 @@
     {
       "name": "UIC Kamo",
       "role": "TOP",
-      "level": 575,
+      "level": 576,
       "tier": "MASTER I",
-      "lp": 204,
-      "wins": 346,
+      "lp": 233,
+      "wins": 347,
       "losses": 319,
-      "winRate": 52,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6640.png"
     },
     {
@@ -413,10 +413,10 @@
       "role": "TOP",
       "level": 942,
       "tier": "DIAMOND III",
-      "lp": 47,
-      "wins": 88,
+      "lp": 66,
+      "wins": 89,
       "losses": 83,
-      "winRate": 51.5,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6938.png"
     },
     {
@@ -569,10 +569,10 @@
       "role": "SUP",
       "level": 395,
       "tier": "PLATINUM IV",
-      "lp": 53,
+      "lp": 9,
       "wins": 134,
-      "losses": 144,
-      "winRate": 48.2,
+      "losses": 146,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7099.png"
     },
     {
