@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 653,
       "tier": "MASTER I",
-      "lp": 208,
+      "lp": 177,
       "wins": 111,
-      "losses": 102,
-      "winRate": 52.1,
+      "losses": 103,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7040.png"
     }
   ],
@@ -220,10 +220,10 @@
       "role": "MID",
       "level": 673,
       "tier": "EMERALD I",
-      "lp": 2,
-      "wins": 70,
+      "lp": 40,
+      "wins": 72,
       "losses": 77,
-      "winRate": 47.6,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/615.png"
     },
     {
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 552,
       "tier": "DIAMOND II",
-      "lp": 71,
+      "lp": 49,
       "wins": 117,
-      "losses": 101,
-      "winRate": 53.7,
+      "losses": 102,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3157.png"
     },
     {
@@ -490,7 +490,7 @@
     {
       "name": "UIC Muh",
       "role": "TOP",
-      "level": 534,
+      "level": 535,
       "tier": "PLATINUM II",
       "lp": 10,
       "wins": 145,
@@ -545,11 +545,11 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1439,
+      "level": 1440,
       "tier": "GOLD I",
-      "lp": 24,
-      "wins": 624,
-      "losses": 622,
+      "lp": 49,
+      "wins": 626,
+      "losses": 623,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7147.png"
     },
@@ -569,10 +569,10 @@
       "role": "SUP",
       "level": 396,
       "tier": "PLATINUM IV",
-      "lp": 17,
-      "wins": 136,
+      "lp": 35,
+      "wins": 137,
       "losses": 148,
-      "winRate": 47.9,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7099.png"
     },
     {
