@@ -444,7 +444,7 @@
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 628,
+      "level": 629,
       "tier": "DIAMOND I",
       "lp": 55,
       "wins": 287,
@@ -557,11 +557,11 @@
       "name": "UIC Deavan",
       "role": "BOT",
       "level": 425,
-      "tier": "PLATINUM II",
-      "lp": 87,
-      "wins": 209,
+      "tier": "PLATINUM I",
+      "lp": 7,
+      "wins": 210,
       "losses": 187,
-      "winRate": 52.8,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4640.png"
     },
     {
