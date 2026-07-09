@@ -95,10 +95,10 @@
       "role": "JGL",
       "level": 298,
       "tier": "EMERALD III",
-      "lp": 93,
+      "lp": 73,
       "wins": 81,
-      "losses": 77,
-      "winRate": 51.3,
+      "losses": 78,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/5982.png"
     },
     {
@@ -218,12 +218,12 @@
     {
       "name": "UIC Landmine",
       "role": "MID",
-      "level": 672,
+      "level": 673,
       "tier": "EMERALD I",
-      "lp": 23,
+      "lp": 2,
       "wins": 70,
-      "losses": 76,
-      "winRate": 47.9,
+      "losses": 77,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/615.png"
     },
     {
@@ -330,7 +330,7 @@
     {
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 823,
+      "level": 824,
       "tier": "DIAMOND IV",
       "lp": 1,
       "wins": 171,
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 552,
       "tier": "DIAMOND II",
-      "lp": 35,
-      "wins": 116,
+      "lp": 71,
+      "wins": 117,
       "losses": 101,
-      "winRate": 53.5,
+      "winRate": 53.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3157.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 628,
       "tier": "DIAMOND I",
-      "lp": 60,
-      "wins": 286,
+      "lp": 78,
+      "wins": 287,
       "losses": 299,
-      "winRate": 48.9,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
@@ -492,9 +492,9 @@
       "role": "TOP",
       "level": 534,
       "tier": "PLATINUM II",
-      "lp": 12,
-      "wins": 144,
-      "losses": 142,
+      "lp": 10,
+      "wins": 145,
+      "losses": 143,
       "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7123.png"
     },
@@ -547,9 +547,9 @@
       "role": "BOT",
       "level": 1439,
       "tier": "GOLD I",
-      "lp": 22,
-      "wins": 623,
-      "losses": 621,
+      "lp": 24,
+      "wins": 624,
+      "losses": 622,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7147.png"
     },
@@ -567,11 +567,11 @@
     {
       "name": "UIC Kaanto",
       "role": "SUP",
-      "level": 395,
+      "level": 396,
       "tier": "PLATINUM IV",
-      "lp": 5,
-      "wins": 135,
-      "losses": 147,
+      "lp": 17,
+      "wins": 136,
+      "losses": 148,
       "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7099.png"
     },
@@ -592,11 +592,11 @@
       "name": "UIC Papi Δce",
       "role": "TOP",
       "level": 602,
-      "tier": "PLATINUM II",
-      "lp": 51,
-      "wins": 113,
+      "tier": "PLATINUM I",
+      "lp": 29,
+      "wins": 116,
       "losses": 129,
-      "winRate": 46.7,
+      "winRate": 47.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3891.png"
     },
     {
@@ -749,7 +749,7 @@
     {
       "name": "TheEigeeen",
       "role": "SUP",
-      "level": 683,
+      "level": 684,
       "tier": "EMERALD III",
       "lp": 98,
       "wins": 83,
