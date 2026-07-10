@@ -27,10 +27,10 @@
       "role": "MID",
       "level": 642,
       "tier": "DIAMOND I",
-      "lp": 75,
-      "wins": 95,
+      "lp": 99,
+      "wins": 96,
       "losses": 90,
-      "winRate": 51.4,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7094.png"
     },
     {
@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 653,
       "tier": "MASTER I",
-      "lp": 177,
-      "wins": 111,
+      "lp": 235,
+      "wins": 113,
       "losses": 103,
-      "winRate": 51.9,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7040.png"
     }
   ],
@@ -445,11 +445,11 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 629,
-      "tier": "DIAMOND I",
-      "lp": 69,
-      "wins": 289,
+      "tier": "MASTER I",
+      "lp": 5,
+      "wins": 290,
       "losses": 301,
-      "winRate": 49,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
@@ -546,11 +546,11 @@
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1440,
-      "tier": "GOLD I",
-      "lp": 93,
-      "wins": 628,
+      "tier": "PLATINUM IV",
+      "lp": 37,
+      "wins": 630,
       "losses": 623,
-      "winRate": 50.2,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7147.png"
     },
     {
@@ -558,10 +558,10 @@
       "role": "BOT",
       "level": 425,
       "tier": "PLATINUM I",
-      "lp": 7,
-      "wins": 210,
+      "lp": 47,
+      "wins": 212,
       "losses": 187,
-      "winRate": 52.9,
+      "winRate": 53.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4640.png"
     },
     {
@@ -661,10 +661,10 @@
       "role": "JGL",
       "level": 1164,
       "tier": "MASTER I",
-      "lp": 60,
+      "lp": 0,
       "wins": 104,
-      "losses": 93,
-      "winRate": 52.8,
+      "losses": 95,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7123.png"
     },
     {
