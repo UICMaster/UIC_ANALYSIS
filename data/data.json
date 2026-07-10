@@ -27,10 +27,10 @@
       "role": "MID",
       "level": 642,
       "tier": "MASTER I",
-      "lp": 22,
-      "wins": 97,
-      "losses": 90,
-      "winRate": 51.9,
+      "lp": 31,
+      "wins": 98,
+      "losses": 92,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7094.png"
     },
     {
@@ -413,10 +413,10 @@
       "role": "TOP",
       "level": 942,
       "tier": "DIAMOND III",
-      "lp": 64,
-      "wins": 90,
+      "lp": 83,
+      "wins": 91,
       "losses": 84,
-      "winRate": 51.7,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6938.png"
     },
     {
@@ -424,8 +424,8 @@
       "role": "JGL",
       "level": 1140,
       "tier": "DIAMOND II",
-      "lp": 19,
-      "wins": 304,
+      "lp": 38,
+      "wins": 305,
       "losses": 296,
       "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
@@ -558,10 +558,10 @@
       "role": "BOT",
       "level": 426,
       "tier": "PLATINUM I",
-      "lp": 43,
+      "lp": 1,
       "wins": 214,
-      "losses": 189,
-      "winRate": 53.1,
+      "losses": 191,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4640.png"
     },
     {
@@ -569,10 +569,10 @@
       "role": "SUP",
       "level": 396,
       "tier": "PLATINUM IV",
-      "lp": 45,
-      "wins": 140,
+      "lp": 63,
+      "wins": 141,
       "losses": 150,
-      "winRate": 48.3,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7099.png"
     },
     {
@@ -659,7 +659,7 @@
     {
       "name": "BlauerKlaus",
       "role": "JGL",
-      "level": 1164,
+      "level": 1165,
       "tier": "MASTER I",
       "lp": 0,
       "wins": 104,
