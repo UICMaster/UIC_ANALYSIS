@@ -95,10 +95,10 @@
       "role": "JGL",
       "level": 298,
       "tier": "EMERALD III",
-      "lp": 73,
-      "wins": 81,
+      "lp": 93,
+      "wins": 82,
       "losses": 78,
-      "winRate": 50.9,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/5982.png"
     },
     {
@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 1025,
       "tier": "DIAMOND III",
-      "lp": 27,
-      "wins": 209,
+      "lp": 63,
+      "wins": 211,
       "losses": 227,
-      "winRate": 47.9,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -277,10 +277,10 @@
       "role": "TOP",
       "level": 576,
       "tier": "MASTER I",
-      "lp": 78,
-      "wins": 347,
-      "losses": 324,
-      "winRate": 51.7,
+      "lp": 44,
+      "wins": 348,
+      "losses": 327,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6640.png"
     },
     {
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 814,
       "tier": "MASTER I",
-      "lp": 348,
-      "wins": 225,
+      "lp": 378,
+      "wins": 226,
       "losses": 217,
-      "winRate": 50.9,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/528.png"
     },
     {
@@ -376,12 +376,12 @@
     {
       "name": "UIC Rellik",
       "role": "MID",
-      "level": 685,
-      "tier": "DIAMOND IV",
-      "lp": 0,
+      "level": 686,
+      "tier": "EMERALD I",
+      "lp": 75,
       "wins": 144,
-      "losses": 127,
-      "winRate": 53.1,
+      "losses": 128,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4830.png"
     },
     {
