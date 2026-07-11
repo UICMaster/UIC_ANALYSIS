@@ -3,11 +3,11 @@
     {
       "name": "UIC Speedy",
       "role": "TOP",
-      "level": 1181,
+      "level": 1182,
       "tier": "DIAMOND I",
-      "lp": 1,
-      "wins": 193,
-      "losses": 210,
+      "lp": 11,
+      "wins": 194,
+      "losses": 211,
       "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4380.png"
     },
@@ -174,10 +174,10 @@
       "role": "BOT",
       "level": 807,
       "tier": "DIAMOND IV",
-      "lp": 60,
+      "lp": 40,
       "wins": 101,
-      "losses": 85,
-      "winRate": 54.3,
+      "losses": 86,
+      "winRate": 54,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6882.png"
     },
     {
@@ -298,11 +298,11 @@
       "name": "UIC Hayu",
       "role": "MID",
       "level": 925,
-      "tier": "DIAMOND III",
-      "lp": 82,
-      "wins": 201,
+      "tier": "DIAMOND II",
+      "lp": 2,
+      "wins": 202,
       "losses": 230,
-      "winRate": 46.6,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4569.png"
     },
     {
@@ -492,10 +492,10 @@
       "role": "TOP",
       "level": 535,
       "tier": "PLATINUM III",
-      "lp": 45,
+      "lp": 1,
       "wins": 146,
-      "losses": 147,
-      "winRate": 49.8,
+      "losses": 149,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7123.png"
     },
     {
@@ -683,10 +683,10 @@
       "role": "BOT",
       "level": 854,
       "tier": "DIAMOND II",
-      "lp": 76,
+      "lp": 55,
       "wins": 348,
-      "losses": 314,
-      "winRate": 52.6,
+      "losses": 315,
+      "winRate": 52.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/5714.png"
     },
     {
