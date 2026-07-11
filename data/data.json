@@ -25,7 +25,7 @@
     {
       "name": "UIC Shenycrane",
       "role": "MID",
-      "level": 642,
+      "level": 643,
       "tier": "MASTER I",
       "lp": 62,
       "wins": 99,
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 924,
       "tier": "DIAMOND III",
-      "lp": 65,
-      "wins": 197,
+      "lp": 84,
+      "wins": 198,
       "losses": 227,
-      "winRate": 46.5,
+      "winRate": 46.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4569.png"
     },
     {
