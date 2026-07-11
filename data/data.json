@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1181,
       "tier": "DIAMOND I",
-      "lp": 25,
+      "lp": 1,
       "wins": 193,
-      "losses": 209,
-      "winRate": 48,
+      "losses": 210,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4380.png"
     },
     {
@@ -36,7 +36,7 @@
     {
       "name": "UIC Giani",
       "role": "BOT",
-      "level": 738,
+      "level": 739,
       "tier": "MASTER I",
       "lp": 1,
       "wins": 75,
@@ -174,10 +174,10 @@
       "role": "BOT",
       "level": 807,
       "tier": "DIAMOND IV",
-      "lp": 39,
-      "wins": 100,
+      "lp": 60,
+      "wins": 101,
       "losses": 85,
-      "winRate": 54.1,
+      "winRate": 54.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6882.png"
     },
     {
@@ -298,11 +298,11 @@
       "name": "UIC Hayu",
       "role": "MID",
       "level": 925,
-      "tier": "DIAMOND II",
-      "lp": 23,
+      "tier": "DIAMOND III",
+      "lp": 82,
       "wins": 201,
-      "losses": 228,
-      "winRate": 46.9,
+      "losses": 230,
+      "winRate": 46.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4569.png"
     },
     {
@@ -412,11 +412,11 @@
       "name": "UIC lightfire",
       "role": "TOP",
       "level": 943,
-      "tier": "DIAMOND II",
-      "lp": 1,
+      "tier": "DIAMOND III",
+      "lp": 80,
       "wins": 93,
-      "losses": 85,
-      "winRate": 52.2,
+      "losses": 86,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6938.png"
     },
     {
@@ -424,9 +424,9 @@
       "role": "JGL",
       "level": 1141,
       "tier": "DIAMOND II",
-      "lp": 55,
+      "lp": 34,
       "wins": 307,
-      "losses": 298,
+      "losses": 299,
       "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
@@ -461,7 +461,7 @@
       "wins": 126,
       "losses": 106,
       "winRate": 54.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/5956.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/1636.png"
     },
     {
       "name": "zab77",
@@ -569,10 +569,10 @@
       "role": "SUP",
       "level": 396,
       "tier": "PLATINUM IV",
-      "lp": 60,
+      "lp": 39,
       "wins": 142,
-      "losses": 151,
-      "winRate": 48.5,
+      "losses": 152,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7099.png"
     },
     {
@@ -580,10 +580,10 @@
       "role": "SUP",
       "level": 584,
       "tier": "GOLD II",
-      "lp": 76,
+      "lp": 53,
       "wins": 133,
-      "losses": 144,
-      "winRate": 48,
+      "losses": 145,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7064.png"
     }
   ],
