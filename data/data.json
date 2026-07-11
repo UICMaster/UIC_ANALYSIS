@@ -105,11 +105,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1025,
-      "tier": "DIAMOND IV",
-      "lp": 70,
-      "wins": 206,
+      "tier": "DIAMOND III",
+      "lp": 8,
+      "wins": 208,
       "losses": 226,
-      "winRate": 47.7,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -277,21 +277,21 @@
       "role": "TOP",
       "level": 576,
       "tier": "MASTER I",
-      "lp": 233,
+      "lp": 171,
       "wins": 347,
-      "losses": 319,
-      "winRate": 52.1,
+      "losses": 321,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6640.png"
     },
     {
       "name": "UIC Exi",
       "role": "JGL",
-      "level": 813,
+      "level": 814,
       "tier": "MASTER I",
-      "lp": 409,
-      "wins": 223,
-      "losses": 213,
-      "winRate": 51.1,
+      "lp": 379,
+      "wins": 224,
+      "losses": 215,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/528.png"
     },
     {
@@ -593,10 +593,10 @@
       "role": "TOP",
       "level": 603,
       "tier": "PLATINUM I",
-      "lp": 29,
+      "lp": 8,
       "wins": 116,
-      "losses": 129,
-      "winRate": 47.3,
+      "losses": 130,
+      "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3891.png"
     },
     {
@@ -672,10 +672,10 @@
       "role": "MID",
       "level": 648,
       "tier": "EMERALD I",
-      "lp": 2,
-      "wins": 119,
+      "lp": 21,
+      "wins": 120,
       "losses": 120,
-      "winRate": 49.8,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/626.png"
     },
     {
