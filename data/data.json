@@ -356,9 +356,9 @@
       "role": "TOP",
       "level": 552,
       "tier": "DIAMOND II",
-      "lp": 27,
-      "wins": 117,
-      "losses": 103,
+      "lp": 23,
+      "wins": 118,
+      "losses": 104,
       "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3157.png"
     },
@@ -491,11 +491,11 @@
       "name": "UIC Muh",
       "role": "TOP",
       "level": 536,
-      "tier": "PLATINUM IV",
-      "lp": 97,
-      "wins": 147,
+      "tier": "PLATINUM III",
+      "lp": 33,
+      "wins": 149,
       "losses": 150,
-      "winRate": 49.5,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7123.png"
     },
     {
@@ -558,10 +558,10 @@
       "role": "BOT",
       "level": 427,
       "tier": "PLATINUM II",
-      "lp": 30,
+      "lp": 8,
       "wins": 216,
-      "losses": 196,
-      "winRate": 52.4,
+      "losses": 197,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4640.png"
     },
     {
