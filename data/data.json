@@ -104,12 +104,12 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1025,
-      "tier": "DIAMOND III",
-      "lp": 82,
-      "wins": 212,
+      "level": 1026,
+      "tier": "DIAMOND II",
+      "lp": 1,
+      "wins": 213,
       "losses": 227,
-      "winRate": 48.3,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -277,10 +277,10 @@
       "role": "TOP",
       "level": 576,
       "tier": "MASTER I",
-      "lp": 130,
+      "lp": 98,
       "wins": 350,
-      "losses": 327,
-      "winRate": 51.7,
+      "losses": 328,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6640.png"
     },
     {
@@ -297,12 +297,12 @@
     {
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 924,
+      "level": 925,
       "tier": "DIAMOND II",
-      "lp": 3,
-      "wins": 200,
+      "lp": 23,
+      "wins": 201,
       "losses": 228,
-      "winRate": 46.7,
+      "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4569.png"
     },
     {
@@ -424,10 +424,10 @@
       "role": "JGL",
       "level": 1141,
       "tier": "DIAMOND II",
-      "lp": 76,
+      "lp": 55,
       "wins": 307,
-      "losses": 297,
-      "winRate": 50.8,
+      "losses": 298,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
     {
@@ -435,21 +435,21 @@
       "role": "MID",
       "level": 609,
       "tier": "PLATINUM II",
-      "lp": 19,
-      "wins": 153,
+      "lp": 37,
+      "wins": 154,
       "losses": 149,
-      "winRate": 50.7,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7166.png"
     },
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 630,
-      "tier": "MASTER I",
-      "lp": 0,
+      "tier": "DIAMOND I",
+      "lp": 50,
       "wins": 291,
-      "losses": 303,
-      "winRate": 49,
+      "losses": 304,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
@@ -580,10 +580,10 @@
       "role": "SUP",
       "level": 584,
       "tier": "GOLD II",
-      "lp": 98,
+      "lp": 76,
       "wins": 133,
-      "losses": 143,
-      "winRate": 48.2,
+      "losses": 144,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7064.png"
     }
   ],
@@ -749,7 +749,7 @@
     {
       "name": "TheEigeeen",
       "role": "SUP",
-      "level": 685,
+      "level": 686,
       "tier": "EMERALD III",
       "lp": 98,
       "wins": 83,
