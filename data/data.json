@@ -5,9 +5,9 @@
       "role": "TOP",
       "level": 1182,
       "tier": "DIAMOND I",
-      "lp": 4,
-      "wins": 195,
-      "losses": 212,
+      "lp": 15,
+      "wins": 196,
+      "losses": 213,
       "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4380.png"
     },
@@ -173,10 +173,10 @@
       "name": "UIC Painfull",
       "role": "BOT",
       "level": 808,
-      "tier": "DIAMOND IV",
-      "lp": 81,
-      "wins": 103,
-      "losses": 86,
+      "tier": "DIAMOND III",
+      "lp": 1,
+      "wins": 104,
+      "losses": 87,
       "winRate": 54.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6882.png"
     },
@@ -461,7 +461,7 @@
       "wins": 126,
       "losses": 106,
       "winRate": 54.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/1636.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4793.png"
     },
     {
       "name": "zab77",
@@ -545,7 +545,7 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1441,
+      "level": 1442,
       "tier": "PLATINUM III",
       "lp": 45,
       "wins": 637,
