@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 813,
       "tier": "MASTER I",
-      "lp": 499,
+      "lp": 409,
       "wins": 223,
-      "losses": 210,
-      "winRate": 51.5,
+      "losses": 213,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/528.png"
     },
     {
@@ -411,7 +411,7 @@
     {
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 942,
+      "level": 943,
       "tier": "DIAMOND II",
       "lp": 1,
       "wins": 93,
@@ -547,8 +547,8 @@
       "role": "BOT",
       "level": 1441,
       "tier": "PLATINUM III",
-      "lp": 23,
-      "wins": 636,
+      "lp": 45,
+      "wins": 637,
       "losses": 626,
       "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7147.png"
@@ -591,7 +591,7 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 602,
+      "level": 603,
       "tier": "PLATINUM I",
       "lp": 29,
       "wins": 116,
@@ -671,11 +671,11 @@
       "name": "UIC Flare",
       "role": "MID",
       "level": 648,
-      "tier": "EMERALD II",
-      "lp": 83,
-      "wins": 118,
+      "tier": "EMERALD I",
+      "lp": 2,
+      "wins": 119,
       "losses": 120,
-      "winRate": 49.6,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/626.png"
     },
     {
