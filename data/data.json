@@ -161,7 +161,7 @@
     {
       "name": "Stafferl",
       "role": "TOP",
-      "level": 863,
+      "level": 864,
       "tier": "EMERALD I",
       "lp": 1,
       "wins": 10,
@@ -626,9 +626,9 @@
       "role": "BOT",
       "level": 1442,
       "tier": "PLATINUM III",
-      "lp": 45,
+      "lp": 27,
       "wins": 637,
-      "losses": 626,
+      "losses": 627,
       "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7147.png"
     },
