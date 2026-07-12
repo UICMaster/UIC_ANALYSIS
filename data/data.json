@@ -107,8 +107,8 @@
       "level": 1027,
       "tier": "DIAMOND II",
       "lp": 53,
-      "wins": 219,
-      "losses": 230,
+      "wins": 220,
+      "losses": 231,
       "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
@@ -275,7 +275,7 @@
     {
       "name": "UIC Kamo",
       "role": "TOP",
-      "level": 576,
+      "level": 577,
       "tier": "MASTER I",
       "lp": 98,
       "wins": 350,
@@ -670,12 +670,12 @@
     {
       "name": "UIC Flare",
       "role": "MID",
-      "level": 648,
+      "level": 649,
       "tier": "EMERALD I",
-      "lp": 34,
+      "lp": 12,
       "wins": 123,
-      "losses": 122,
-      "winRate": 50.2,
+      "losses": 123,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/626.png"
     },
     {
