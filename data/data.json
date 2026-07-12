@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 797,
       "tier": "DIAMOND II",
-      "lp": 4,
-      "wins": 240,
+      "lp": 24,
+      "wins": 241,
       "losses": 253,
-      "winRate": 48.7,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6379.png"
     },
     {
@@ -492,10 +492,10 @@
       "role": "TOP",
       "level": 943,
       "tier": "DIAMOND III",
-      "lp": 59,
-      "wins": 93,
+      "lp": 78,
+      "wins": 94,
       "losses": 87,
-      "winRate": 51.7,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6938.png"
     },
     {
@@ -503,10 +503,10 @@
       "role": "JGL",
       "level": 1141,
       "tier": "DIAMOND II",
-      "lp": 13,
-      "wins": 307,
+      "lp": 32,
+      "wins": 308,
       "losses": 300,
-      "winRate": 50.6,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
     {
@@ -523,7 +523,7 @@
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 630,
+      "level": 631,
       "tier": "DIAMOND I",
       "lp": 24,
       "wins": 292,
