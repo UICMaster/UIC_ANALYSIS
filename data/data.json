@@ -47,7 +47,7 @@
     {
       "name": "UIC Baguetto",
       "role": "SUP",
-      "level": 1011,
+      "level": 1012,
       "tier": "DIAMOND III",
       "lp": 91,
       "wins": 145,
@@ -78,6 +78,85 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7040.png"
     }
   ],
+  "angels": [
+    {
+      "name": "DPS WindSlash",
+      "role": "TOP",
+      "level": 257,
+      "tier": "MASTER I",
+      "lp": 960,
+      "wins": 133,
+      "losses": 104,
+      "winRate": 56.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/28.png"
+    },
+    {
+      "name": "Stark",
+      "role": "JGL",
+      "level": 290,
+      "tier": "MASTER I",
+      "lp": 1658,
+      "wins": 270,
+      "losses": 238,
+      "winRate": 53.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4302.png"
+    },
+    {
+      "name": "DMG Symphonie",
+      "role": "MID",
+      "level": 760,
+      "tier": "GRANDMASTER I",
+      "lp": 1832,
+      "wins": 407,
+      "losses": 350,
+      "winRate": 53.8,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4418.png"
+    },
+    {
+      "name": "ONE QUESTION",
+      "role": "BOT",
+      "level": 178,
+      "tier": "MASTER I",
+      "lp": 1148,
+      "wins": 482,
+      "losses": 448,
+      "winRate": 51.8,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4473.png"
+    },
+    {
+      "name": "BARDIE3",
+      "role": "SUP",
+      "level": 728,
+      "tier": "GRANDMASTER I",
+      "lp": 1994,
+      "wins": 235,
+      "losses": 193,
+      "winRate": 54.9,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6943.png"
+    },
+    {
+      "name": "Kelle",
+      "role": "MNG",
+      "level": 54,
+      "tier": "DIAMOND III",
+      "lp": 42,
+      "wins": 37,
+      "losses": 37,
+      "winRate": 50,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/29.png"
+    },
+    {
+      "name": "Webzy",
+      "role": "COH",
+      "level": 1151,
+      "tier": "EMERALD III",
+      "lp": 52,
+      "wins": 215,
+      "losses": 234,
+      "winRate": 47.9,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7084.png"
+    }
+  ],
   "eclipse": [
     {
       "name": "Stafferl",
@@ -106,10 +185,10 @@
       "role": "MID",
       "level": 1027,
       "tier": "DIAMOND II",
-      "lp": 53,
+      "lp": 33,
       "wins": 220,
-      "losses": 231,
-      "winRate": 48.8,
+      "losses": 232,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
