@@ -354,12 +354,12 @@
     {
       "name": "UIC DANY",
       "role": "TOP",
-      "level": 552,
+      "level": 553,
       "tier": "DIAMOND II",
-      "lp": 23,
+      "lp": 1,
       "wins": 118,
-      "losses": 104,
-      "winRate": 53.2,
+      "losses": 105,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3157.png"
     },
     {
@@ -387,7 +387,7 @@
     {
       "name": "UIC Pjure",
       "role": "BOT",
-      "level": 758,
+      "level": 759,
       "tier": "DIAMOND I",
       "lp": 65,
       "wins": 130,
@@ -491,11 +491,11 @@
       "name": "UIC Muh",
       "role": "TOP",
       "level": 536,
-      "tier": "PLATINUM III",
-      "lp": 33,
+      "tier": "PLATINUM IV",
+      "lp": 89,
       "wins": 149,
-      "losses": 150,
-      "winRate": 49.8,
+      "losses": 152,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7123.png"
     },
     {
