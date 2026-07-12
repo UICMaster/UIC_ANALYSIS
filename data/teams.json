@@ -76,6 +76,83 @@
       }
     ]
   },
+  "angels": {
+    "primeLeagueId": "203186",
+    "teamDisplay": "UIC Angels",
+    "tier": "Division 4",
+    "roster": [
+      {
+        "gameName": "DPS WindSlash",
+        "tagLine": "EUW",
+        "role": "TOP",
+        "puuid": "W7bqtrFrBq947ERqT58UuWZMUuV73E4ZlgdNJzsWc-PkvAdcQsJnHZMe7meHTMADVkZ_DJDAGWFDmw",
+        "trackStats": true,
+        "discordId": "137626769925734400",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "gameName": "Stark",
+        "tagLine": "F10",
+        "role": "JGL",
+        "puuid": "61_1puNqC6rGyhhHAkKghn48L5xcuYr4SolEzlbQWutYgwUBJ6zZYKP8b01i56h7IzMEFsti0zWv2A",
+        "trackStats": true,
+        "discordId": "387711709789290498",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "gameName": "DMG Symphonie",
+        "tagLine": "DONK",
+        "role": "MID",
+        "puuid": "aScB44VprT6K0egqbwEHdl4ggfxK45LOunlJ8rmt4HdHW_whCT-7mJRMRpgvEJsgVOeUnU5O956hZw",
+        "trackStats": true,
+        "discordId": "378982998823010305",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "gameName": "ONE QUESTION",
+        "tagLine": "0441",
+        "role": "BOT",
+        "puuid": "qxurOdmnnXbc2XkELyFCpH7GDe89kFfzlFHfG46tYCnOWI7gpQJdHd_rwfcUP3haPtvqgOV7bTb5BA",
+        "trackStats": true,
+        "discordId": "814199009362313218",
+        "rosterStatus": "starter",
+        "isCaptain": true
+      },
+      {
+        "gameName": "BARDIE3",
+        "tagLine": "0711",
+        "role": "SUP",
+        "puuid": "bnev2BnjXI1WXYvVqE3qPhAL2gcTVCY1fqGwZGYvrBMvLjWgM9xdlpHLumh8HNS-3F-ue_gG9WSrNA",
+        "trackStats": true,
+        "discordId": "189346815508742144",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "gameName": "Kelle",
+        "tagLine": "Udyr",
+        "role": "MNG",
+        "puuid": "wbiAB5JxeAW3EDI5VrgbY6Vo1Y-00QMZ8FOtKe84kwyqQnagyUSTOrpYUG6QJOpwUAwBPDNKbSS8rA",
+        "trackStats": true,
+        "discordId": "150954257820942337",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "gameName": "Webzy",
+        "tagLine": "Web",
+        "role": "COH",
+        "puuid": "HK1Vsy2E416HHGNCDWezZC4hRN0Us7c_TXRH8Ypo19FIk3p2aji4qhQ8V6h6Ad_54BICmAKIj79XHQ",
+        "trackStats": true,
+        "discordId": "223494179269902336",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      }
+    ]
+  },
   "eclipse": {
     "primeLeagueId": "208131",
     "teamDisplay": "UIC Eclipse",
@@ -832,82 +909,12 @@
         "isCaptain": false
       },
       {
-        "gameName": "ONE QUESTION",
-        "tagLine": "0441",
-        "role": "BOT",
-        "puuid": "qxurOdmnnXbc2XkELyFCpH7GDe89kFfzlFHfG46tYCnOWI7gpQJdHd_rwfcUP3haPtvqgOV7bTb5BA",
-        "trackStats": true,
-        "discordId": "814199009362313218",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "gameName": "BARDIE3",
-        "tagLine": "0711",
-        "role": "SUP",
-        "puuid": "bnev2BnjXI1WXYvVqE3qPhAL2gcTVCY1fqGwZGYvrBMvLjWgM9xdlpHLumh8HNS-3F-ue_gG9WSrNA",
-        "trackStats": true,
-        "discordId": "189346815508742144",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "gameName": "Stark",
-        "tagLine": "F10",
-        "role": "JGL",
-        "puuid": "61_1puNqC6rGyhhHAkKghn48L5xcuYr4SolEzlbQWutYgwUBJ6zZYKP8b01i56h7IzMEFsti0zWv2A",
-        "trackStats": true,
-        "discordId": "387711709789290498",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "gameName": "DPS WindSlash",
-        "tagLine": "EUW",
-        "role": "TOP",
-        "puuid": "W7bqtrFrBq947ERqT58UuWZMUuV73E4ZlgdNJzsWc-PkvAdcQsJnHZMe7meHTMADVkZ_DJDAGWFDmw",
-        "trackStats": true,
-        "discordId": "137626769925734400",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "gameName": "DMG Symphonie",
-        "tagLine": "DONK",
-        "role": "MID",
-        "puuid": "aScB44VprT6K0egqbwEHdl4ggfxK45LOunlJ8rmt4HdHW_whCT-7mJRMRpgvEJsgVOeUnU5O956hZw",
-        "trackStats": true,
-        "discordId": "378982998823010305",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
         "gameName": "PeaPuffer",
         "tagLine": "Efe",
         "role": "SUP",
         "puuid": "fbGUOApCfckQft52lWA-J9iR6G5u-DjzSLTlX1ss4UFiNnAUGtlzt8YAqnLkQJQWNWgMn-MeMy48dg",
         "trackStats": true,
         "discordId": "611304700779692135",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "gameName": "Kelle",
-        "tagLine": "Udyr",
-        "role": "JGL",
-        "puuid": "wbiAB5JxeAW3EDI5VrgbY6Vo1Y-00QMZ8FOtKe84kwyqQnagyUSTOrpYUG6QJOpwUAwBPDNKbSS8rA",
-        "trackStats": true,
-        "discordId": "150954257820942337",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "gameName": "Webzy",
-        "tagLine": "Web",
-        "role": "SUP",
-        "puuid": "HK1Vsy2E416HHGNCDWezZC4hRN0Us7c_TXRH8Ypo19FIk3p2aji4qhQ8V6h6Ad_54BICmAKIj79XHQ",
-        "trackStats": true,
-        "discordId": "223494179269902336",
         "rosterStatus": "starter",
         "isCaptain": false
       },
