@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 760,
       "tier": "GRANDMASTER I",
-      "lp": 1787,
+      "lp": 1752,
       "wins": 408,
-      "losses": 353,
-      "winRate": 53.6,
+      "losses": 354,
+      "winRate": 53.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4418.png"
     },
     {
@@ -377,11 +377,11 @@
       "name": "UIC Hayu",
       "role": "MID",
       "level": 926,
-      "tier": "DIAMOND III",
-      "lp": 81,
-      "wins": 203,
+      "tier": "DIAMOND II",
+      "lp": 21,
+      "wins": 205,
       "losses": 232,
-      "winRate": 46.7,
+      "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4569.png"
     },
     {
@@ -503,10 +503,10 @@
       "role": "JGL",
       "level": 1142,
       "tier": "DIAMOND III",
-      "lp": 42,
+      "lp": 21,
       "wins": 311,
-      "losses": 307,
-      "winRate": 50.3,
+      "losses": 308,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
     {
@@ -670,7 +670,7 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 603,
+      "level": 604,
       "tier": "PLATINUM II",
       "lp": 45,
       "wins": 116,
