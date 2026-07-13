@@ -69,12 +69,12 @@
     {
       "name": "UIC FrozenHands",
       "role": "MID",
-      "level": 655,
+      "level": 656,
       "tier": "MASTER I",
-      "lp": 260,
-      "wins": 116,
-      "losses": 105,
-      "winRate": 52.5,
+      "lp": 267,
+      "wins": 118,
+      "losses": 107,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7040.png"
     }
   ],
@@ -183,12 +183,12 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1027,
+      "level": 1028,
       "tier": "DIAMOND III",
-      "lp": 68,
+      "lp": 26,
       "wins": 221,
-      "losses": 236,
-      "winRate": 48.4,
+      "losses": 238,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -242,10 +242,10 @@
       "role": "MID",
       "level": 478,
       "tier": "DIAMOND IV",
-      "lp": 46,
+      "lp": 26,
       "wins": 88,
-      "losses": 83,
-      "winRate": 51.5,
+      "losses": 84,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7076.png"
     },
     {
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 577,
       "tier": "MASTER I",
-      "lp": 98,
+      "lp": 66,
       "wins": 350,
-      "losses": 328,
-      "winRate": 51.6,
+      "losses": 329,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6640.png"
     },
     {
@@ -367,10 +367,10 @@
       "role": "JGL",
       "level": 815,
       "tier": "MASTER I",
-      "lp": 429,
-      "wins": 231,
+      "lp": 458,
+      "wins": 232,
       "losses": 222,
-      "winRate": 51,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/528.png"
     },
     {
@@ -387,7 +387,7 @@
     {
       "name": "UIC AutumnLeaf",
       "role": "BOT",
-      "level": 862,
+      "level": 863,
       "tier": "MASTER I",
       "lp": 467,
       "wins": 149,
@@ -400,16 +400,16 @@
       "role": "SUP",
       "level": 1015,
       "tier": "MASTER I",
-      "lp": 496,
-      "wins": 107,
+      "lp": 558,
+      "wins": 109,
       "losses": 97,
-      "winRate": 52.5,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6622.png"
     },
     {
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 824,
+      "level": 825,
       "tier": "DIAMOND IV",
       "lp": 1,
       "wins": 171,
@@ -525,10 +525,10 @@
       "role": "BOT",
       "level": 631,
       "tier": "DIAMOND I",
-      "lp": 24,
-      "wins": 292,
+      "lp": 60,
+      "wins": 294,
       "losses": 306,
-      "winRate": 48.8,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
@@ -571,9 +571,9 @@
       "role": "TOP",
       "level": 537,
       "tier": "PLATINUM III",
-      "lp": 60,
-      "wins": 154,
-      "losses": 153,
+      "lp": 58,
+      "wins": 155,
+      "losses": 154,
       "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7123.png"
     },
@@ -624,11 +624,11 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1442,
+      "level": 1443,
       "tier": "PLATINUM III",
-      "lp": 13,
-      "wins": 638,
-      "losses": 629,
+      "lp": 19,
+      "wins": 640,
+      "losses": 631,
       "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7147.png"
     },
@@ -659,10 +659,10 @@
       "role": "SUP",
       "level": 584,
       "tier": "GOLD II",
-      "lp": 61,
+      "lp": 16,
       "wins": 135,
-      "losses": 146,
-      "winRate": 48,
+      "losses": 148,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7064.png"
     }
   ],
