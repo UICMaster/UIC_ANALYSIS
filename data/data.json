@@ -124,15 +124,15 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4473.png"
     },
     {
-      "name": "BARDIE3",
+      "name": "UIC Bardie3",
       "role": "SUP",
       "level": 729,
       "tier": "GRANDMASTER I",
-      "lp": 2081,
+      "lp": 2049,
       "wins": 238,
-      "losses": 193,
-      "winRate": 55.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6943.png"
+      "losses": 194,
+      "winRate": 55.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4419.png"
     },
     {
       "name": "Kelle",
@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1028,
       "tier": "DIAMOND III",
-      "lp": 45,
+      "lp": 24,
       "wins": 222,
-      "losses": 238,
-      "winRate": 48.3,
+      "losses": 240,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -354,12 +354,12 @@
     {
       "name": "UIC Kamo",
       "role": "TOP",
-      "level": 577,
+      "level": 578,
       "tier": "MASTER I",
-      "lp": 0,
-      "wins": 350,
+      "lp": 82,
+      "wins": 353,
       "losses": 332,
-      "winRate": 51.3,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6640.png"
     },
     {
@@ -367,10 +367,10 @@
       "role": "JGL",
       "level": 816,
       "tier": "MASTER I",
-      "lp": 396,
-      "wins": 232,
+      "lp": 425,
+      "wins": 233,
       "losses": 224,
-      "winRate": 50.9,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/528.png"
     },
     {
@@ -455,12 +455,12 @@
     {
       "name": "UIC Rellik",
       "role": "MID",
-      "level": 686,
-      "tier": "DIAMOND IV",
-      "lp": 17,
+      "level": 687,
+      "tier": "EMERALD I",
+      "lp": 50,
       "wins": 149,
-      "losses": 132,
-      "winRate": 53,
+      "losses": 134,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4830.png"
     },
     {
@@ -503,10 +503,10 @@
       "role": "JGL",
       "level": 1142,
       "tier": "DIAMOND II",
-      "lp": 28,
+      "lp": 7,
       "wins": 310,
-      "losses": 302,
-      "winRate": 50.7,
+      "losses": 303,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
     {
@@ -527,8 +527,8 @@
       "tier": "DIAMOND I",
       "lp": 60,
       "wins": 294,
-      "losses": 306,
-      "winRate": 49,
+      "losses": 307,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
@@ -626,10 +626,10 @@
       "role": "BOT",
       "level": 1443,
       "tier": "PLATINUM III",
-      "lp": 19,
+      "lp": 0,
       "wins": 640,
-      "losses": 631,
-      "winRate": 50.4,
+      "losses": 632,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7147.png"
     },
     {
@@ -751,10 +751,10 @@
       "role": "MID",
       "level": 649,
       "tier": "EMERALD I",
-      "lp": 12,
-      "wins": 123,
+      "lp": 31,
+      "wins": 124,
       "losses": 123,
-      "winRate": 50,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/626.png"
     },
     {
@@ -828,7 +828,7 @@
     {
       "name": "TheEigeeen",
       "role": "SUP",
-      "level": 686,
+      "level": 687,
       "tier": "EMERALD III",
       "lp": 98,
       "wins": 83,
