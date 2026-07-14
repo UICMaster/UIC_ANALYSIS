@@ -126,12 +126,12 @@
     {
       "name": "UIC Bardie3",
       "role": "SUP",
-      "level": 729,
+      "level": 730,
       "tier": "GRANDMASTER I",
-      "lp": 2069,
+      "lp": 2037,
       "wins": 240,
-      "losses": 196,
-      "winRate": 55,
+      "losses": 197,
+      "winRate": 54.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4419.png"
     },
     {
@@ -378,10 +378,10 @@
       "role": "MID",
       "level": 926,
       "tier": "DIAMOND II",
-      "lp": 21,
-      "wins": 205,
+      "lp": 61,
+      "wins": 207,
       "losses": 232,
-      "winRate": 46.9,
+      "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4569.png"
     },
     {
@@ -501,12 +501,12 @@
     {
       "name": "Blauerlupos",
       "role": "JGL",
-      "level": 1142,
+      "level": 1143,
       "tier": "DIAMOND III",
-      "lp": 21,
-      "wins": 311,
-      "losses": 308,
-      "winRate": 50.2,
+      "lp": 57,
+      "wins": 314,
+      "losses": 309,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/3382.png"
     },
     {
@@ -524,11 +524,11 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 631,
-      "tier": "DIAMOND I",
-      "lp": 71,
-      "wins": 296,
+      "tier": "MASTER I",
+      "lp": 5,
+      "wins": 298,
       "losses": 308,
-      "winRate": 49,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
