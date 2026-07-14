@@ -9,7 +9,7 @@
       "wins": 197,
       "losses": 222,
       "winRate": 47,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7143.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4077.png"
     },
     {
       "name": "UIC Niki",
@@ -73,8 +73,8 @@
       "tier": "MASTER I",
       "lp": 267,
       "wins": 118,
-      "losses": 107,
-      "winRate": 52.4,
+      "losses": 108,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7040.png"
     }
   ],
@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1029,
       "tier": "DIAMOND IV",
-      "lp": 47,
+      "lp": 3,
       "wins": 226,
-      "losses": 247,
-      "winRate": 47.8,
+      "losses": 249,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -262,12 +262,12 @@
     {
       "name": "UIC FirstBlo",
       "role": "SUP",
-      "level": 504,
+      "level": 505,
       "tier": "MASTER I",
-      "lp": 198,
-      "wins": 127,
-      "losses": 97,
-      "winRate": 56.7,
+      "lp": 231,
+      "wins": 129,
+      "losses": 98,
+      "winRate": 56.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4655.png"
     }
   ],
@@ -277,10 +277,10 @@
       "role": "TOP",
       "level": 1318,
       "tier": "MASTER I",
-      "lp": 28,
-      "wins": 252,
+      "lp": 57,
+      "wins": 253,
       "losses": 264,
-      "winRate": 48.8,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6769.png"
     },
     {
@@ -523,12 +523,12 @@
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 631,
+      "level": 632,
       "tier": "MASTER I",
       "lp": 0,
       "wins": 298,
-      "losses": 309,
-      "winRate": 49.1,
+      "losses": 310,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
@@ -603,11 +603,11 @@
       "name": "UIC adedier",
       "role": "MID",
       "level": 631,
-      "tier": "PLATINUM III",
-      "lp": 85,
-      "wins": 125,
+      "tier": "PLATINUM II",
+      "lp": 5,
+      "wins": 126,
       "losses": 127,
-      "winRate": 49.6,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4379.png"
     },
     {
@@ -626,10 +626,10 @@
       "role": "BOT",
       "level": 1443,
       "tier": "PLATINUM IV",
-      "lp": 41,
+      "lp": 1,
       "wins": 640,
-      "losses": 635,
-      "winRate": 50.2,
+      "losses": 637,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7147.png"
     },
     {
@@ -637,21 +637,21 @@
       "role": "BOT",
       "level": 428,
       "tier": "PLATINUM III",
-      "lp": 97,
+      "lp": 75,
       "wins": 219,
-      "losses": 200,
-      "winRate": 52.3,
+      "losses": 201,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4640.png"
     },
     {
       "name": "UIC Kaanto",
       "role": "SUP",
       "level": 397,
-      "tier": "PLATINUM IV",
-      "lp": 76,
-      "wins": 144,
+      "tier": "PLATINUM III",
+      "lp": 35,
+      "wins": 147,
       "losses": 152,
-      "winRate": 48.6,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7099.png"
     },
     {
