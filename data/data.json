@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 761,
       "tier": "GRANDMASTER I",
-      "lp": 1842,
-      "wins": 412,
+      "lp": 1867,
+      "wins": 413,
       "losses": 355,
-      "winRate": 53.7,
+      "winRate": 53.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4418.png"
     },
     {
@@ -128,10 +128,10 @@
       "role": "SUP",
       "level": 730,
       "tier": "GRANDMASTER I",
-      "lp": 2118,
-      "wins": 243,
+      "lp": 2147,
+      "wins": 244,
       "losses": 198,
-      "winRate": 55.1,
+      "winRate": 55.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4419.png"
     },
     {
@@ -503,9 +503,9 @@
       "role": "JGL",
       "level": 1144,
       "tier": "DIAMOND IV",
-      "lp": 50,
-      "wins": 315,
-      "losses": 315,
+      "lp": 48,
+      "wins": 316,
+      "losses": 316,
       "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3382.png"
     },
