@@ -106,8 +106,8 @@
       "role": "MID",
       "level": 761,
       "tier": "GRANDMASTER I",
-      "lp": 1867,
-      "wins": 413,
+      "lp": 1917,
+      "wins": 414,
       "losses": 355,
       "winRate": 53.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4418.png"
@@ -503,10 +503,10 @@
       "role": "JGL",
       "level": 1144,
       "tier": "DIAMOND IV",
-      "lp": 48,
+      "lp": 27,
       "wins": 316,
-      "losses": 316,
-      "winRate": 50,
+      "losses": 317,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3382.png"
     },
     {
@@ -624,7 +624,7 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1443,
+      "level": 1444,
       "tier": "PLATINUM IV",
       "lp": 0,
       "wins": 640,
