@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 760,
       "tier": "GRANDMASTER I",
-      "lp": 1752,
-      "wins": 408,
-      "losses": 354,
-      "winRate": 53.5,
+      "lp": 1767,
+      "wins": 410,
+      "losses": 355,
+      "winRate": 53.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4418.png"
     },
     {
@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1029,
       "tier": "DIAMOND IV",
-      "lp": 91,
-      "wins": 225,
-      "losses": 244,
-      "winRate": 48,
+      "lp": 68,
+      "wins": 226,
+      "losses": 246,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -277,10 +277,10 @@
       "role": "TOP",
       "level": 1317,
       "tier": "MASTER I",
-      "lp": 1,
-      "wins": 251,
-      "losses": 262,
-      "winRate": 48.9,
+      "lp": 28,
+      "wins": 252,
+      "losses": 264,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6769.png"
     },
     {
@@ -389,10 +389,10 @@
       "role": "BOT",
       "level": 863,
       "tier": "MASTER I",
-      "lp": 467,
-      "wins": 150,
+      "lp": 497,
+      "wins": 151,
       "losses": 122,
-      "winRate": 55.1,
+      "winRate": 55.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6943.png"
     },
     {
@@ -532,7 +532,7 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
-      "name": "UIC Moonlxght",
+      "name": "Moonlxght",
       "role": "SUP",
       "level": 333,
       "tier": "MASTER I",
@@ -570,11 +570,11 @@
       "name": "UIC Muh",
       "role": "TOP",
       "level": 537,
-      "tier": "PLATINUM III",
-      "lp": 16,
+      "tier": "PLATINUM IV",
+      "lp": 95,
       "wins": 155,
-      "losses": 156,
-      "winRate": 49.8,
+      "losses": 157,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7123.png"
     },
     {
@@ -626,9 +626,9 @@
       "role": "BOT",
       "level": 1443,
       "tier": "PLATINUM IV",
-      "lp": 61,
+      "lp": 41,
       "wins": 640,
-      "losses": 634,
+      "losses": 635,
       "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7147.png"
     },
