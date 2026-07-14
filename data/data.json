@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1029,
       "tier": "DIAMOND IV",
-      "lp": 68,
+      "lp": 47,
       "wins": 226,
-      "losses": 246,
-      "winRate": 47.9,
+      "losses": 247,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
     {
@@ -275,7 +275,7 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1317,
+      "level": 1318,
       "tier": "MASTER I",
       "lp": 28,
       "wins": 252,
@@ -525,10 +525,10 @@
       "role": "BOT",
       "level": 631,
       "tier": "MASTER I",
-      "lp": 5,
+      "lp": 0,
       "wins": 298,
-      "losses": 308,
-      "winRate": 49.2,
+      "losses": 309,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/4413.png"
     },
     {
