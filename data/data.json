@@ -183,11 +183,11 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1028,
+      "level": 1029,
       "tier": "DIAMOND IV",
-      "lp": 98,
-      "wins": 223,
-      "losses": 242,
+      "lp": 91,
+      "wins": 225,
+      "losses": 244,
       "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6284.png"
     },
@@ -390,9 +390,9 @@
       "level": 863,
       "tier": "MASTER I",
       "lp": 467,
-      "wins": 149,
-      "losses": 121,
-      "winRate": 55.2,
+      "wins": 150,
+      "losses": 122,
+      "winRate": 55.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/6943.png"
     },
     {
@@ -571,10 +571,10 @@
       "role": "TOP",
       "level": 537,
       "tier": "PLATINUM III",
-      "lp": 58,
+      "lp": 16,
       "wins": 155,
-      "losses": 154,
-      "winRate": 50.2,
+      "losses": 156,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7123.png"
     },
     {
@@ -625,11 +625,11 @@
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1443,
-      "tier": "PLATINUM III",
-      "lp": 0,
+      "tier": "PLATINUM IV",
+      "lp": 61,
       "wins": 640,
-      "losses": 632,
-      "winRate": 50.3,
+      "losses": 634,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/7147.png"
     },
     {
