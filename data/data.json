@@ -38,10 +38,10 @@
       "role": "BOT",
       "level": 739,
       "tier": "DIAMOND I",
-      "lp": 75,
-      "wins": 75,
+      "lp": 98,
+      "wins": 76,
       "losses": 69,
-      "winRate": 52.1,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7.png"
     },
     {
@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 656,
       "tier": "MASTER I",
-      "lp": 296,
-      "wins": 119,
+      "lp": 354,
+      "wins": 121,
       "losses": 108,
-      "winRate": 52.4,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7040.png"
     }
   ],
@@ -117,9 +117,9 @@
       "role": "BOT",
       "level": 178,
       "tier": "MASTER I",
-      "lp": 1148,
+      "lp": 1115,
       "wins": 482,
-      "losses": 448,
+      "losses": 449,
       "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4473.png"
     },
@@ -148,12 +148,12 @@
     {
       "name": "Webzy",
       "role": "COH",
-      "level": 1151,
+      "level": 1152,
       "tier": "EMERALD II",
       "lp": 9,
       "wins": 218,
-      "losses": 234,
-      "winRate": 48.2,
+      "losses": 235,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7084.png"
     }
   ],
@@ -184,10 +184,10 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1031,
-      "tier": "DIAMOND III",
-      "lp": 3,
-      "wins": 235,
-      "losses": 254,
+      "tier": "DIAMOND IV",
+      "lp": 99,
+      "wins": 236,
+      "losses": 255,
       "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
@@ -240,7 +240,7 @@
     {
       "name": "UIC Kaoxz",
       "role": "MID",
-      "level": 478,
+      "level": 479,
       "tier": "DIAMOND IV",
       "lp": 26,
       "wins": 88,
@@ -648,20 +648,20 @@
       "role": "SUP",
       "level": 397,
       "tier": "PLATINUM III",
-      "lp": 35,
-      "wins": 148,
+      "lp": 55,
+      "wins": 149,
       "losses": 153,
-      "winRate": 49.2,
+      "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7099.png"
     },
     {
       "name": "UIC Excellent C",
       "role": "SUP",
-      "level": 585,
+      "level": 586,
       "tier": "GOLD III",
-      "lp": 81,
-      "wins": 138,
-      "losses": 152,
+      "lp": 73,
+      "wins": 140,
+      "losses": 154,
       "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7064.png"
     }
@@ -760,12 +760,12 @@
     {
       "name": "Starboy",
       "role": "BOT",
-      "level": 854,
+      "level": 855,
       "tier": "DIAMOND II",
-      "lp": 55,
+      "lp": 11,
       "wins": 348,
-      "losses": 315,
-      "winRate": 52.5,
+      "losses": 317,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5714.png"
     },
     {
