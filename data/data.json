@@ -104,12 +104,12 @@
     {
       "name": "DMG Symphonie",
       "role": "MID",
-      "level": 761,
+      "level": 762,
       "tier": "GRANDMASTER I",
-      "lp": 1947,
+      "lp": 1912,
       "wins": 418,
-      "losses": 358,
-      "winRate": 53.9,
+      "losses": 359,
+      "winRate": 53.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4418.png"
     },
     {
@@ -490,7 +490,7 @@
     {
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 944,
+      "level": 945,
       "tier": "DIAMOND III",
       "lp": 8,
       "wins": 97,
@@ -571,10 +571,10 @@
       "role": "TOP",
       "level": 537,
       "tier": "PLATINUM IV",
-      "lp": 93,
+      "lp": 72,
       "wins": 156,
-      "losses": 158,
-      "winRate": 49.7,
+      "losses": 159,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7123.png"
     },
     {
@@ -626,8 +626,8 @@
       "role": "BOT",
       "level": 1444,
       "tier": "PLATINUM IV",
-      "lp": 0,
-      "wins": 640,
+      "lp": 19,
+      "wins": 641,
       "losses": 638,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7143.png"
