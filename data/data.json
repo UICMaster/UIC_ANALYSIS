@@ -60,10 +60,10 @@
       "role": "MID",
       "level": 1088,
       "tier": "DIAMOND I",
-      "lp": 75,
+      "lp": 65,
       "wins": 399,
-      "losses": 384,
-      "winRate": 51,
+      "losses": 385,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3151.png"
     },
     {
@@ -149,11 +149,11 @@
       "name": "Webzy",
       "role": "COH",
       "level": 1151,
-      "tier": "EMERALD III",
-      "lp": 90,
-      "wins": 217,
+      "tier": "EMERALD II",
+      "lp": 9,
+      "wins": 218,
       "losses": 234,
-      "winRate": 48.1,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7084.png"
     }
   ],
@@ -187,8 +187,8 @@
       "tier": "DIAMOND III",
       "lp": 3,
       "wins": 235,
-      "losses": 253,
-      "winRate": 48.2,
+      "losses": 254,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -277,9 +277,9 @@
       "role": "TOP",
       "level": 1318,
       "tier": "MASTER I",
-      "lp": 57,
-      "wins": 253,
-      "losses": 264,
+      "lp": 55,
+      "wins": 254,
+      "losses": 265,
       "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6769.png"
     },
@@ -648,21 +648,21 @@
       "role": "SUP",
       "level": 397,
       "tier": "PLATINUM III",
-      "lp": 15,
-      "wins": 147,
+      "lp": 35,
+      "wins": 148,
       "losses": 153,
-      "winRate": 49,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7099.png"
     },
     {
       "name": "UIC Excellent C",
       "role": "SUP",
       "level": 585,
-      "tier": "GOLD II",
-      "lp": 7,
-      "wins": 137,
-      "losses": 150,
-      "winRate": 47.7,
+      "tier": "GOLD III",
+      "lp": 81,
+      "wins": 138,
+      "losses": 152,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7064.png"
     }
   ],
