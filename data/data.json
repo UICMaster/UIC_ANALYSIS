@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 761,
       "tier": "GRANDMASTER I",
-      "lp": 1922,
-      "wins": 417,
+      "lp": 1947,
+      "wins": 418,
       "losses": 358,
-      "winRate": 53.8,
+      "winRate": 53.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4418.png"
     },
     {
@@ -128,10 +128,10 @@
       "role": "SUP",
       "level": 731,
       "tier": "GRANDMASTER I",
-      "lp": 2176,
-      "wins": 245,
+      "lp": 2205,
+      "wins": 246,
       "losses": 198,
-      "winRate": 55.3,
+      "winRate": 55.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4419.png"
     },
     {
@@ -378,11 +378,11 @@
       "role": "MID",
       "level": 927,
       "tier": "DIAMOND II",
-      "lp": 81,
+      "lp": 40,
       "wins": 210,
-      "losses": 234,
-      "winRate": 47.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4569.png"
+      "losses": 236,
+      "winRate": 47.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5954.png"
     },
     {
       "name": "UIC AutumnLeaf",
@@ -457,10 +457,10 @@
       "role": "MID",
       "level": 688,
       "tier": "EMERALD II",
-      "lp": 73,
+      "lp": 51,
       "wins": 152,
-      "losses": 140,
-      "winRate": 52.1,
+      "losses": 141,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4830.png"
     },
     {
@@ -496,7 +496,7 @@
       "wins": 97,
       "losses": 94,
       "winRate": 50.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6938.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7169.png"
     },
     {
       "name": "Blauerlupos",
@@ -518,7 +518,7 @@
       "wins": 154,
       "losses": 151,
       "winRate": 50.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7166.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7170.png"
     },
     {
       "name": "UIC SilentCarry",
@@ -570,11 +570,11 @@
       "name": "UIC Muh",
       "role": "TOP",
       "level": 537,
-      "tier": "PLATINUM III",
-      "lp": 14,
+      "tier": "PLATINUM IV",
+      "lp": 93,
       "wins": 156,
-      "losses": 157,
-      "winRate": 49.8,
+      "losses": 158,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7123.png"
     },
     {
