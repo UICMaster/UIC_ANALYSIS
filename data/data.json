@@ -3,7 +3,7 @@
     {
       "name": "UIC Speedy",
       "role": "TOP",
-      "level": 1183,
+      "level": 1184,
       "tier": "DIAMOND III",
       "lp": 12,
       "wins": 200,
@@ -184,11 +184,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1031,
-      "tier": "DIAMOND IV",
-      "lp": 99,
-      "wins": 236,
-      "losses": 255,
-      "winRate": 48.1,
+      "tier": "DIAMOND III",
+      "lp": 31,
+      "wins": 238,
+      "losses": 256,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 1059,
       "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 46,
+      "lp": 17,
+      "wins": 47,
       "losses": 56,
-      "winRate": 45.1,
+      "winRate": 45.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/1453.png"
     },
     {
@@ -457,10 +457,10 @@
       "role": "MID",
       "level": 687,
       "tier": "EMERALD II",
-      "lp": 98,
+      "lp": 76,
       "wins": 151,
-      "losses": 138,
-      "winRate": 52.2,
+      "losses": 139,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4830.png"
     },
     {
@@ -503,10 +503,10 @@
       "role": "JGL",
       "level": 1144,
       "tier": "DIAMOND IV",
-      "lp": 46,
+      "lp": 21,
       "wins": 318,
-      "losses": 318,
-      "winRate": 50,
+      "losses": 319,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3382.png"
     },
     {
@@ -659,9 +659,9 @@
       "role": "SUP",
       "level": 586,
       "tier": "GOLD III",
-      "lp": 73,
-      "wins": 140,
-      "losses": 154,
+      "lp": 69,
+      "wins": 141,
+      "losses": 155,
       "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7064.png"
     }
