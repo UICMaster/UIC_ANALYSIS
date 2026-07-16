@@ -48,22 +48,22 @@
       "name": "UIC Baguetto",
       "role": "SUP",
       "level": 1012,
-      "tier": "DIAMOND III",
-      "lp": 91,
-      "wins": 145,
+      "tier": "DIAMOND II",
+      "lp": 11,
+      "wins": 146,
       "losses": 138,
-      "winRate": 51.2,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
     {
       "name": "Baumi",
       "role": "MID",
       "level": 1088,
-      "tier": "DIAMOND I",
-      "lp": 65,
-      "wins": 399,
-      "losses": 385,
-      "winRate": 50.9,
+      "tier": "MASTER I",
+      "lp": 15,
+      "wins": 401,
+      "losses": 386,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3151.png"
     },
     {
@@ -113,7 +113,7 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4418.png"
     },
     {
-      "name": "ONE QUESTION",
+      "name": "UIC Stevie",
       "role": "BOT",
       "level": 178,
       "tier": "MASTER I",
@@ -185,9 +185,9 @@
       "role": "MID",
       "level": 1032,
       "tier": "DIAMOND IV",
-      "lp": 97,
-      "wins": 241,
-      "losses": 260,
+      "lp": 90,
+      "wins": 243,
+      "losses": 262,
       "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 578,
       "tier": "MASTER I",
-      "lp": 18,
-      "wins": 353,
-      "losses": 334,
-      "winRate": 51.4,
+      "lp": 0,
+      "wins": 354,
+      "losses": 336,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6640.png"
     },
     {
@@ -492,11 +492,11 @@
       "role": "TOP",
       "level": 945,
       "tier": "DIAMOND III",
-      "lp": 8,
-      "wins": 97,
-      "losses": 94,
-      "winRate": 50.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7169.png"
+      "lp": 44,
+      "wins": 100,
+      "losses": 95,
+      "winRate": 51.3,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6938.png"
     },
     {
       "name": "Blauerlupos",
@@ -659,10 +659,10 @@
       "role": "SUP",
       "level": 586,
       "tier": "GOLD III",
-      "lp": 47,
-      "wins": 141,
+      "lp": 65,
+      "wins": 142,
       "losses": 156,
-      "winRate": 47.5,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7064.png"
     }
   ],
