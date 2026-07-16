@@ -93,12 +93,12 @@
     {
       "name": "Stark",
       "role": "JGL",
-      "level": 290,
+      "level": 291,
       "tier": "MASTER I",
-      "lp": 1658,
-      "wins": 270,
-      "losses": 238,
-      "winRate": 53.1,
+      "lp": 1641,
+      "wins": 271,
+      "losses": 241,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4302.png"
     },
     {
@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 762,
       "tier": "GRANDMASTER I",
-      "lp": 1912,
-      "wins": 418,
-      "losses": 359,
-      "winRate": 53.8,
+      "lp": 1867,
+      "wins": 419,
+      "losses": 361,
+      "winRate": 53.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4418.png"
     },
     {
@@ -128,9 +128,9 @@
       "role": "SUP",
       "level": 731,
       "tier": "GRANDMASTER I",
-      "lp": 2205,
-      "wins": 246,
-      "losses": 198,
+      "lp": 2203,
+      "wins": 247,
+      "losses": 199,
       "winRate": 55.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4419.png"
     },
@@ -275,7 +275,7 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1318,
+      "level": 1319,
       "tier": "MASTER I",
       "lp": 55,
       "wins": 254,
@@ -503,10 +503,10 @@
       "role": "JGL",
       "level": 1144,
       "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 318,
+      "lp": 38,
+      "wins": 320,
       "losses": 321,
-      "winRate": 49.8,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3382.png"
     },
     {
@@ -527,8 +527,8 @@
       "tier": "MASTER I",
       "lp": 0,
       "wins": 298,
-      "losses": 310,
-      "winRate": 49,
+      "losses": 311,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7172.png"
     },
     {
@@ -569,12 +569,12 @@
     {
       "name": "UIC Muh",
       "role": "TOP",
-      "level": 537,
-      "tier": "PLATINUM IV",
-      "lp": 72,
-      "wins": 156,
-      "losses": 159,
-      "winRate": 49.5,
+      "level": 538,
+      "tier": "PLATINUM III",
+      "lp": 9,
+      "wins": 159,
+      "losses": 160,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7123.png"
     },
     {
@@ -626,9 +626,9 @@
       "role": "BOT",
       "level": 1444,
       "tier": "PLATINUM IV",
-      "lp": 19,
-      "wins": 641,
-      "losses": 638,
+      "lp": 0,
+      "wins": 642,
+      "losses": 640,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7143.png"
     },
