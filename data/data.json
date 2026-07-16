@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1184,
       "tier": "DIAMOND III",
-      "lp": 79,
-      "wins": 204,
+      "lp": 96,
+      "wins": 205,
       "losses": 225,
-      "winRate": 47.6,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4077.png"
     },
     {
@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 657,
       "tier": "MASTER I",
-      "lp": 412,
-      "wins": 123,
+      "lp": 441,
+      "wins": 124,
       "losses": 108,
-      "winRate": 53.2,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7040.png"
     }
   ],
@@ -128,10 +128,10 @@
       "role": "SUP",
       "level": 732,
       "tier": "GRANDMASTER I",
-      "lp": 2170,
-      "wins": 248,
+      "lp": 2199,
+      "wins": 249,
       "losses": 201,
-      "winRate": 55.2,
+      "winRate": 55.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4419.png"
     },
     {
@@ -172,7 +172,7 @@
     {
       "name": "UIC NairadAwsm",
       "role": "JGL",
-      "level": 298,
+      "level": 299,
       "tier": "EMERALD III",
       "lp": 52,
       "wins": 83,
@@ -219,21 +219,21 @@
       "name": "UIC VTennic",
       "role": "TOP",
       "level": 489,
-      "tier": "EMERALD I",
-      "lp": 75,
-      "wins": 23,
-      "losses": 22,
+      "tier": "DIAMOND IV",
+      "lp": 0,
+      "wins": 24,
+      "losses": 23,
       "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4552.png"
     },
     {
       "name": "UIC Hunter",
       "role": "JGL",
-      "level": 985,
+      "level": 986,
       "tier": "DIAMOND IV",
-      "lp": 10,
-      "wins": 150,
-      "losses": 144,
+      "lp": 8,
+      "wins": 151,
+      "losses": 145,
       "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4967.png"
     },
@@ -286,7 +286,7 @@
     {
       "name": "UIC RealCrimes",
       "role": "JGL",
-      "level": 1059,
+      "level": 1060,
       "tier": "DIAMOND IV",
       "lp": 34,
       "wins": 48,
@@ -354,12 +354,12 @@
     {
       "name": "UIC Kamo",
       "role": "TOP",
-      "level": 579,
+      "level": 580,
       "tier": "MASTER I",
-      "lp": 86,
-      "wins": 362,
+      "lp": 174,
+      "wins": 365,
       "losses": 338,
-      "winRate": 51.7,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6640.png"
     },
     {
@@ -367,10 +367,10 @@
       "role": "JGL",
       "level": 816,
       "tier": "MASTER I",
-      "lp": 394,
+      "lp": 363,
       "wins": 233,
-      "losses": 225,
-      "winRate": 50.9,
+      "losses": 226,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/528.png"
     },
     {
@@ -411,10 +411,10 @@
       "role": "COH",
       "level": 826,
       "tier": "DIAMOND IV",
-      "lp": 19,
-      "wins": 172,
-      "losses": 164,
-      "winRate": 51.2,
+      "lp": 36,
+      "wins": 174,
+      "losses": 165,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3366.png"
     },
     {
@@ -569,12 +569,12 @@
     {
       "name": "UIC Muh",
       "role": "TOP",
-      "level": 538,
-      "tier": "PLATINUM III",
-      "lp": 9,
-      "wins": 162,
-      "losses": 163,
-      "winRate": 49.8,
+      "level": 539,
+      "tier": "PLATINUM IV",
+      "lp": 87,
+      "wins": 163,
+      "losses": 165,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7123.png"
     },
     {
@@ -659,10 +659,10 @@
       "role": "SUP",
       "level": 587,
       "tier": "GOLD III",
-      "lp": 89,
-      "wins": 146,
-      "losses": 159,
-      "winRate": 47.9,
+      "lp": 63,
+      "wins": 147,
+      "losses": 161,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7064.png"
     }
   ],
