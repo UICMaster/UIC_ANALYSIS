@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1184,
       "tier": "DIAMOND III",
-      "lp": 45,
-      "wins": 202,
+      "lp": 79,
+      "wins": 204,
       "losses": 225,
-      "winRate": 47.3,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4077.png"
     },
     {
@@ -60,10 +60,10 @@
       "role": "MID",
       "level": 1089,
       "tier": "MASTER I",
-      "lp": 8,
-      "wins": 403,
+      "lp": 42,
+      "wins": 404,
       "losses": 392,
-      "winRate": 50.7,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3151.png"
     },
     {
@@ -150,10 +150,10 @@
       "role": "COH",
       "level": 1152,
       "tier": "EMERALD II",
-      "lp": 28,
+      "lp": 6,
       "wins": 219,
-      "losses": 235,
-      "winRate": 48.2,
+      "losses": 236,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7084.png"
     }
   ],
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 579,
       "tier": "MASTER I",
-      "lp": 0,
-      "wins": 359,
+      "lp": 86,
+      "wins": 362,
       "losses": 338,
-      "winRate": 51.5,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6640.png"
     },
     {
@@ -389,10 +389,10 @@
       "role": "BOT",
       "level": 864,
       "tier": "MASTER I",
-      "lp": 467,
+      "lp": 437,
       "wins": 152,
-      "losses": 125,
-      "winRate": 54.9,
+      "losses": 126,
+      "winRate": 54.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6943.png"
     },
     {
@@ -409,11 +409,11 @@
     {
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 825,
+      "level": 826,
       "tier": "DIAMOND IV",
-      "lp": 1,
-      "wins": 171,
-      "losses": 163,
+      "lp": 19,
+      "wins": 172,
+      "losses": 164,
       "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3366.png"
     },
@@ -571,10 +571,10 @@
       "role": "TOP",
       "level": 538,
       "tier": "PLATINUM III",
-      "lp": 29,
+      "lp": 9,
       "wins": 162,
-      "losses": 162,
-      "winRate": 50,
+      "losses": 163,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7123.png"
     },
     {
@@ -658,11 +658,11 @@
       "name": "UIC Excellent C",
       "role": "SUP",
       "level": 587,
-      "tier": "GOLD II",
-      "lp": 11,
+      "tier": "GOLD III",
+      "lp": 89,
       "wins": 146,
-      "losses": 158,
-      "winRate": 48,
+      "losses": 159,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7064.png"
     }
   ],
