@@ -47,23 +47,23 @@
     {
       "name": "UIC Baguetto",
       "role": "SUP",
-      "level": 1012,
-      "tier": "DIAMOND III",
-      "lp": 91,
-      "wins": 146,
-      "losses": 139,
-      "winRate": 51.2,
+      "level": 1013,
+      "tier": "DIAMOND II",
+      "lp": 11,
+      "wins": 148,
+      "losses": 140,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
     {
       "name": "Baumi",
       "role": "MID",
-      "level": 1088,
+      "level": 1089,
       "tier": "MASTER I",
       "lp": 0,
-      "wins": 401,
-      "losses": 388,
-      "winRate": 50.8,
+      "wins": 402,
+      "losses": 391,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3151.png"
     },
     {
@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 657,
       "tier": "MASTER I",
-      "lp": 354,
-      "wins": 121,
+      "lp": 412,
+      "wins": 123,
       "losses": 108,
-      "winRate": 52.8,
+      "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7040.png"
     }
   ],
@@ -95,10 +95,10 @@
       "role": "JGL",
       "level": 291,
       "tier": "MASTER I",
-      "lp": 1692,
-      "wins": 273,
+      "lp": 1744,
+      "wins": 275,
       "losses": 241,
-      "winRate": 53.1,
+      "winRate": 53.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4302.png"
     },
     {
@@ -183,11 +183,11 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1032,
+      "level": 1033,
       "tier": "DIAMOND III",
-      "lp": 28,
-      "wins": 245,
-      "losses": 262,
+      "lp": 25,
+      "wins": 246,
+      "losses": 263,
       "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
@@ -355,11 +355,11 @@
       "name": "UIC Kamo",
       "role": "TOP",
       "level": 579,
-      "tier": "DIAMOND I",
-      "lp": 42,
-      "wins": 355,
+      "tier": "MASTER I",
+      "lp": 10,
+      "wins": 359,
       "losses": 337,
-      "winRate": 51.3,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6640.png"
     },
     {
@@ -496,7 +496,7 @@
       "wins": 101,
       "losses": 95,
       "winRate": 51.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6938.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7169.png"
     },
     {
       "name": "Blauerlupos",
@@ -512,23 +512,23 @@
     {
       "name": "UIC Ayumu",
       "role": "MID",
-      "level": 609,
+      "level": 610,
       "tier": "PLATINUM III",
-      "lp": 94,
+      "lp": 72,
       "wins": 154,
-      "losses": 151,
-      "winRate": 50.5,
+      "losses": 152,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7170.png"
     },
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 632,
-      "tier": "MASTER I",
-      "lp": 0,
+      "tier": "DIAMOND I",
+      "lp": 3,
       "wins": 298,
-      "losses": 311,
-      "winRate": 48.9,
+      "losses": 313,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7172.png"
     },
     {
@@ -572,8 +572,8 @@
       "level": 538,
       "tier": "PLATINUM IV",
       "lp": 89,
-      "wins": 159,
-      "losses": 161,
+      "wins": 160,
+      "losses": 162,
       "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7123.png"
     },
@@ -602,7 +602,7 @@
     {
       "name": "UIC adedier",
       "role": "MID",
-      "level": 631,
+      "level": 632,
       "tier": "PLATINUM II",
       "lp": 45,
       "wins": 128,
@@ -659,9 +659,9 @@
       "role": "SUP",
       "level": 586,
       "tier": "GOLD III",
-      "lp": 65,
-      "wins": 142,
-      "losses": 156,
+      "lp": 75,
+      "wins": 144,
+      "losses": 158,
       "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7064.png"
     }
