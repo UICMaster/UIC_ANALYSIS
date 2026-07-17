@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 762,
       "tier": "GRANDMASTER I",
-      "lp": 1882,
+      "lp": 1847,
       "wins": 421,
-      "losses": 362,
-      "winRate": 53.8,
+      "losses": 363,
+      "winRate": 53.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4418.png"
     },
     {
@@ -126,12 +126,12 @@
     {
       "name": "UIC Bardie3",
       "role": "SUP",
-      "level": 732,
+      "level": 733,
       "tier": "GRANDMASTER I",
-      "lp": 2197,
-      "wins": 252,
-      "losses": 204,
-      "winRate": 55.3,
+      "lp": 2164,
+      "wins": 253,
+      "losses": 207,
+      "winRate": 55,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4419.png"
     },
     {
@@ -525,10 +525,10 @@
       "role": "BOT",
       "level": 632,
       "tier": "DIAMOND I",
-      "lp": 3,
-      "wins": 298,
-      "losses": 313,
-      "winRate": 48.8,
+      "lp": 17,
+      "wins": 300,
+      "losses": 314,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7172.png"
     },
     {
@@ -624,7 +624,7 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1444,
+      "level": 1445,
       "tier": "PLATINUM IV",
       "lp": 0,
       "wins": 642,
@@ -828,7 +828,7 @@
     {
       "name": "TheEigeeen",
       "role": "SUP",
-      "level": 687,
+      "level": 688,
       "tier": "EMERALD III",
       "lp": 98,
       "wins": 83,
