@@ -128,10 +128,10 @@
       "role": "SUP",
       "level": 733,
       "tier": "GRANDMASTER I",
-      "lp": 2191,
+      "lp": 2129,
       "wins": 255,
-      "losses": 208,
-      "winRate": 55.1,
+      "losses": 210,
+      "winRate": 54.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4419.png"
     },
     {
@@ -330,7 +330,7 @@
     {
       "name": "McOffensive",
       "role": "TOP",
-      "level": 723,
+      "level": 724,
       "tier": "EMERALD I",
       "lp": 58,
       "wins": 40,
@@ -378,10 +378,10 @@
       "role": "MID",
       "level": 927,
       "tier": "DIAMOND II",
-      "lp": 40,
-      "wins": 210,
+      "lp": 80,
+      "wins": 212,
       "losses": 236,
-      "winRate": 47.1,
+      "winRate": 47.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5954.png"
     },
     {
@@ -434,11 +434,11 @@
       "name": "UIC DANY",
       "role": "TOP",
       "level": 553,
-      "tier": "DIAMOND II",
-      "lp": 1,
+      "tier": "DIAMOND III",
+      "lp": 79,
       "wins": 118,
-      "losses": 105,
-      "winRate": 52.9,
+      "losses": 106,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3157.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "JGL",
       "level": 804,
       "tier": "DIAMOND I",
-      "lp": 99,
+      "lp": 78,
       "wins": 45,
-      "losses": 42,
-      "winRate": 51.7,
+      "losses": 43,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3840.png"
     },
     {
@@ -468,10 +468,10 @@
       "role": "BOT",
       "level": 761,
       "tier": "DIAMOND I",
-      "lp": 80,
+      "lp": 58,
       "wins": 135,
-      "losses": 119,
-      "winRate": 53.1,
+      "losses": 120,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5726.png"
     },
     {
@@ -564,7 +564,7 @@
       "wins": 68,
       "losses": 59,
       "winRate": 53.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6700.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7129.png"
     },
     {
       "name": "UIC Muh",
@@ -591,12 +591,12 @@
     {
       "name": "UIC Namorii",
       "role": "JGL",
-      "level": 970,
+      "level": 971,
       "tier": "DIAMOND III",
-      "lp": 61,
-      "wins": 63,
+      "lp": 81,
+      "wins": 64,
       "losses": 52,
-      "winRate": 54.8,
+      "winRate": 55.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5373.png"
     },
     {
@@ -630,7 +630,7 @@
       "wins": 643,
       "losses": 643,
       "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7143.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7157.png"
     },
     {
       "name": "UIC Deavan",
