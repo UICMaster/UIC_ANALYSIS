@@ -7,8 +7,8 @@
       "tier": "DIAMOND III",
       "lp": 96,
       "wins": 205,
-      "losses": 225,
-      "winRate": 47.7,
+      "losses": 226,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4077.png"
     },
     {
@@ -128,10 +128,10 @@
       "role": "SUP",
       "level": 733,
       "tier": "GRANDMASTER I",
-      "lp": 2164,
-      "wins": 253,
+      "lp": 2193,
+      "wins": 254,
       "losses": 207,
-      "winRate": 55,
+      "winRate": 55.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4419.png"
     },
     {
@@ -185,9 +185,9 @@
       "role": "MID",
       "level": 1034,
       "tier": "DIAMOND IV",
-      "lp": 36,
-      "wins": 252,
-      "losses": 273,
+      "lp": 34,
+      "wins": 253,
+      "losses": 274,
       "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
@@ -257,7 +257,7 @@
       "wins": 104,
       "losses": 87,
       "winRate": 54.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6882.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7167.png"
     },
     {
       "name": "UIC FirstBlo",
@@ -367,10 +367,10 @@
       "role": "JGL",
       "level": 816,
       "tier": "MASTER I",
-      "lp": 390,
+      "lp": 328,
       "wins": 235,
-      "losses": 227,
-      "winRate": 50.9,
+      "losses": 229,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/528.png"
     },
     {
@@ -564,7 +564,7 @@
       "wins": 68,
       "losses": 59,
       "winRate": 53.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6022.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7129.png"
     },
     {
       "name": "UIC Muh",
@@ -604,10 +604,10 @@
       "role": "MID",
       "level": 632,
       "tier": "PLATINUM II",
-      "lp": 45,
-      "wins": 128,
+      "lp": 87,
+      "wins": 130,
       "losses": 127,
-      "winRate": 50.2,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4379.png"
     },
     {
