@@ -16,7 +16,7 @@
       "role": "JGL",
       "level": 1053,
       "tier": "MASTER I",
-      "lp": 223,
+      "lp": 148,
       "wins": 211,
       "losses": 202,
       "winRate": 51.1,
@@ -84,7 +84,7 @@
       "role": "TOP",
       "level": 257,
       "tier": "MASTER I",
-      "lp": 960,
+      "lp": 885,
       "wins": 133,
       "losses": 104,
       "winRate": 56.1,
@@ -102,7 +102,7 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4302.png"
     },
     {
-      "name": "DMG Symphonie",
+      "name": "UIC Symphonie",
       "role": "MID",
       "level": 762,
       "tier": "GRANDMASTER I",
@@ -128,10 +128,10 @@
       "role": "SUP",
       "level": 733,
       "tier": "GRANDMASTER I",
-      "lp": 2098,
-      "wins": 255,
+      "lp": 2156,
+      "wins": 256,
       "losses": 211,
-      "winRate": 54.7,
+      "winRate": 54.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4419.png"
     },
     {
@@ -377,11 +377,11 @@
       "name": "UIC Hayu",
       "role": "MID",
       "level": 928,
-      "tier": "DIAMOND II",
-      "lp": 60,
+      "tier": "DIAMOND III",
+      "lp": 98,
       "wins": 212,
-      "losses": 237,
-      "winRate": 47.2,
+      "losses": 240,
+      "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5954.png"
     },
     {
@@ -433,7 +433,7 @@
     {
       "name": "UIC DANY",
       "role": "TOP",
-      "level": 553,
+      "level": 554,
       "tier": "DIAMOND III",
       "lp": 79,
       "wins": 118,
@@ -446,10 +446,10 @@
       "role": "JGL",
       "level": 804,
       "tier": "DIAMOND I",
-      "lp": 58,
+      "lp": 38,
       "wins": 45,
-      "losses": 44,
-      "winRate": 50.6,
+      "losses": 45,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3840.png"
     },
     {
@@ -468,10 +468,10 @@
       "role": "BOT",
       "level": 761,
       "tier": "DIAMOND I",
-      "lp": 36,
+      "lp": 14,
       "wins": 135,
-      "losses": 121,
-      "winRate": 52.7,
+      "losses": 122,
+      "winRate": 52.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5726.png"
     },
     {
@@ -523,7 +523,7 @@
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 632,
+      "level": 633,
       "tier": "DIAMOND II",
       "lp": 95,
       "wins": 300,
