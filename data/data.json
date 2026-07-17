@@ -183,12 +183,12 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1033,
+      "level": 1034,
       "tier": "DIAMOND IV",
-      "lp": 89,
-      "wins": 249,
-      "losses": 268,
-      "winRate": 48.2,
+      "lp": 63,
+      "wins": 250,
+      "losses": 270,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -389,10 +389,10 @@
       "role": "BOT",
       "level": 864,
       "tier": "MASTER I",
-      "lp": 437,
-      "wins": 152,
+      "lp": 467,
+      "wins": 153,
       "losses": 126,
-      "winRate": 54.7,
+      "winRate": 54.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6943.png"
     },
     {
@@ -626,9 +626,9 @@
       "role": "BOT",
       "level": 1445,
       "tier": "GOLD I",
-      "lp": 69,
+      "lp": 48,
       "wins": 643,
-      "losses": 642,
+      "losses": 643,
       "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7143.png"
     },
@@ -672,10 +672,10 @@
       "role": "TOP",
       "level": 604,
       "tier": "PLATINUM II",
-      "lp": 62,
-      "wins": 118,
-      "losses": 134,
-      "winRate": 46.8,
+      "lp": 39,
+      "wins": 119,
+      "losses": 136,
+      "winRate": 46.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3891.png"
     },
     {
