@@ -48,11 +48,11 @@
       "name": "UIC Baguetto",
       "role": "SUP",
       "level": 1013,
-      "tier": "DIAMOND III",
-      "lp": 91,
-      "wins": 148,
-      "losses": 141,
-      "winRate": 51.2,
+      "tier": "DIAMOND II",
+      "lp": 11,
+      "wins": 150,
+      "losses": 142,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
     {
@@ -60,9 +60,9 @@
       "role": "MID",
       "level": 1089,
       "tier": "MASTER I",
-      "lp": 42,
-      "wins": 404,
-      "losses": 392,
+      "lp": 50,
+      "wins": 405,
+      "losses": 393,
       "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3151.png"
     },
@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 657,
       "tier": "MASTER I",
-      "lp": 441,
-      "wins": 124,
+      "lp": 470,
+      "wins": 125,
       "losses": 108,
-      "winRate": 53.4,
+      "winRate": 53.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7040.png"
     }
   ],
@@ -106,10 +106,10 @@
       "role": "MID",
       "level": 762,
       "tier": "GRANDMASTER I",
-      "lp": 1847,
+      "lp": 1812,
       "wins": 421,
-      "losses": 363,
-      "winRate": 53.7,
+      "losses": 364,
+      "winRate": 53.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4418.png"
     },
     {
@@ -149,11 +149,11 @@
       "name": "Webzy",
       "role": "COH",
       "level": 1152,
-      "tier": "EMERALD II",
-      "lp": 6,
+      "tier": "EMERALD III",
+      "lp": 84,
       "wins": 219,
-      "losses": 236,
-      "winRate": 48.1,
+      "losses": 237,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7084.png"
     }
   ],
@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1034,
       "tier": "DIAMOND IV",
-      "lp": 63,
-      "wins": 250,
-      "losses": 270,
-      "winRate": 48.1,
+      "lp": 38,
+      "wins": 251,
+      "losses": 272,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -389,10 +389,10 @@
       "role": "BOT",
       "level": 864,
       "tier": "MASTER I",
-      "lp": 467,
+      "lp": 407,
       "wins": 153,
-      "losses": 126,
-      "winRate": 54.8,
+      "losses": 128,
+      "winRate": 54.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6943.png"
     },
     {
@@ -649,8 +649,8 @@
       "level": 397,
       "tier": "PLATINUM III",
       "lp": 55,
-      "wins": 149,
-      "losses": 153,
+      "wins": 150,
+      "losses": 154,
       "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7099.png"
     },
