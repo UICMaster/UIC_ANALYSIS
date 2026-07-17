@@ -49,10 +49,10 @@
       "role": "SUP",
       "level": 1013,
       "tier": "DIAMOND II",
-      "lp": 51,
-      "wins": 152,
+      "lp": 71,
+      "wins": 153,
       "losses": 142,
-      "winRate": 51.7,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
     {
@@ -161,7 +161,7 @@
     {
       "name": "Stafferl",
       "role": "TOP",
-      "level": 864,
+      "level": 865,
       "tier": "EMERALD II",
       "lp": 91,
       "wins": 10,
@@ -367,9 +367,9 @@
       "role": "JGL",
       "level": 816,
       "tier": "MASTER I",
-      "lp": 392,
-      "wins": 234,
-      "losses": 226,
+      "lp": 390,
+      "wins": 235,
+      "losses": 227,
       "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/528.png"
     },
