@@ -104,11 +104,11 @@
     {
       "name": "UIC Symphonie",
       "role": "MID",
-      "level": 762,
+      "level": 763,
       "tier": "GRANDMASTER I",
-      "lp": 1812,
-      "wins": 421,
-      "losses": 364,
+      "lp": 1827,
+      "wins": 422,
+      "losses": 365,
       "winRate": 53.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4418.png"
     },
@@ -275,7 +275,7 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1319,
+      "level": 1320,
       "tier": "MASTER I",
       "lp": 55,
       "wins": 254,
@@ -378,10 +378,10 @@
       "role": "MID",
       "level": 928,
       "tier": "DIAMOND III",
-      "lp": 98,
+      "lp": 77,
       "wins": 212,
-      "losses": 240,
-      "winRate": 46.9,
+      "losses": 241,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5954.png"
     },
     {
@@ -444,12 +444,12 @@
     {
       "name": "UIC Ðărkø",
       "role": "JGL",
-      "level": 804,
+      "level": 805,
       "tier": "DIAMOND I",
-      "lp": 38,
-      "wins": 45,
+      "lp": 58,
+      "wins": 46,
       "losses": 45,
-      "winRate": 50,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3840.png"
     },
     {
@@ -461,17 +461,17 @@
       "wins": 152,
       "losses": 141,
       "winRate": 51.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4830.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     },
     {
       "name": "UIC Pjure",
       "role": "BOT",
       "level": 761,
       "tier": "DIAMOND I",
-      "lp": 14,
-      "wins": 135,
+      "lp": 32,
+      "wins": 136,
       "losses": 122,
-      "winRate": 52.5,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5726.png"
     },
     {
