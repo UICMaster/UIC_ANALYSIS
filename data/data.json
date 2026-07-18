@@ -185,9 +185,9 @@
       "role": "MID",
       "level": 1035,
       "tier": "DIAMOND IV",
-      "lp": 68,
-      "wins": 257,
-      "losses": 276,
+      "lp": 66,
+      "wins": 258,
+      "losses": 277,
       "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
@@ -365,12 +365,12 @@
     {
       "name": "UIC Exi",
       "role": "JGL",
-      "level": 816,
+      "level": 817,
       "tier": "MASTER I",
-      "lp": 357,
-      "wins": 236,
-      "losses": 229,
-      "winRate": 50.8,
+      "lp": 324,
+      "wins": 237,
+      "losses": 231,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/528.png"
     },
     {
@@ -538,8 +538,8 @@
       "tier": "MASTER I",
       "lp": 180,
       "wins": 128,
-      "losses": 107,
-      "winRate": 54.5,
+      "losses": 108,
+      "winRate": 54.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4793.png"
     },
     {
@@ -648,10 +648,10 @@
       "role": "SUP",
       "level": 398,
       "tier": "PLATINUM III",
-      "lp": 37,
-      "wins": 151,
+      "lp": 77,
+      "wins": 153,
       "losses": 156,
-      "winRate": 49.2,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7099.png"
     },
     {
@@ -659,10 +659,10 @@
       "role": "SUP",
       "level": 587,
       "tier": "GOLD III",
-      "lp": 63,
+      "lp": 41,
       "wins": 147,
-      "losses": 161,
-      "winRate": 47.7,
+      "losses": 162,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7064.png"
     }
   ],
@@ -751,10 +751,10 @@
       "role": "MID",
       "level": 649,
       "tier": "EMERALD II",
-      "lp": 66,
+      "lp": 45,
       "wins": 125,
-      "losses": 127,
-      "winRate": 49.6,
+      "losses": 128,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/626.png"
     },
     {
