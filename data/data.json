@@ -84,7 +84,7 @@
       "role": "TOP",
       "level": 257,
       "tier": "MASTER I",
-      "lp": 885,
+      "lp": 810,
       "wins": 133,
       "losses": 104,
       "winRate": 56.1,
@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1037,
       "tier": "DIAMOND IV",
-      "lp": 58,
-      "wins": 266,
+      "lp": 77,
+      "wins": 267,
       "losses": 286,
-      "winRate": 48.2,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -657,7 +657,7 @@
     {
       "name": "UIC Excellent C",
       "role": "SUP",
-      "level": 587,
+      "level": 588,
       "tier": "GOLD II",
       "lp": 15,
       "wins": 151,
@@ -751,9 +751,9 @@
       "role": "MID",
       "level": 649,
       "tier": "EMERALD II",
-      "lp": 65,
-      "wins": 126,
-      "losses": 128,
+      "lp": 64,
+      "wins": 127,
+      "losses": 129,
       "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/626.png"
     },
@@ -830,9 +830,9 @@
       "role": "SUP",
       "level": 688,
       "tier": "EMERALD II",
-      "lp": 17,
-      "wins": 84,
-      "losses": 96,
+      "lp": 15,
+      "wins": 85,
+      "losses": 97,
       "winRate": 46.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6037.png"
     }
