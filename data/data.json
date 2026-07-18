@@ -47,7 +47,7 @@
     {
       "name": "UIC Baguetto",
       "role": "SUP",
-      "level": 1013,
+      "level": 1014,
       "tier": "DIAMOND I",
       "lp": 13,
       "wins": 155,
@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 658,
       "tier": "MASTER I",
-      "lp": 495,
+      "lp": 464,
       "wins": 128,
-      "losses": 110,
-      "winRate": 53.8,
+      "losses": 111,
+      "winRate": 53.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     }
   ],
@@ -126,12 +126,12 @@
     {
       "name": "UIC Bardie3",
       "role": "SUP",
-      "level": 733,
+      "level": 734,
       "tier": "GRANDMASTER I",
-      "lp": 2185,
+      "lp": 2123,
       "wins": 257,
-      "losses": 211,
-      "winRate": 54.9,
+      "losses": 213,
+      "winRate": 54.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4419.png"
     },
     {
@@ -378,10 +378,10 @@
       "role": "MID",
       "level": 928,
       "tier": "DIAMOND III",
-      "lp": 77,
-      "wins": 212,
+      "lp": 96,
+      "wins": 213,
       "losses": 241,
-      "winRate": 46.8,
+      "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5954.png"
     },
     {
