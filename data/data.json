@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1185,
       "tier": "DIAMOND III",
-      "lp": 76,
-      "wins": 208,
-      "losses": 229,
-      "winRate": 47.6,
+      "lp": 87,
+      "wins": 210,
+      "losses": 230,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4077.png"
     },
     {
@@ -60,10 +60,10 @@
       "role": "MID",
       "level": 1090,
       "tier": "MASTER I",
-      "lp": 126,
+      "lp": 100,
       "wins": 408,
-      "losses": 394,
-      "winRate": 50.9,
+      "losses": 395,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3151.png"
     },
     {
@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1036,
       "tier": "DIAMOND IV",
-      "lp": 45,
-      "wins": 258,
+      "lp": 85,
+      "wins": 260,
       "losses": 278,
-      "winRate": 48.1,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 1060,
       "tier": "DIAMOND IV",
-      "lp": 11,
-      "wins": 48,
+      "lp": 29,
+      "wins": 49,
       "losses": 57,
-      "winRate": 45.7,
+      "winRate": 46.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/1453.png"
     },
     {
@@ -411,9 +411,9 @@
       "role": "COH",
       "level": 827,
       "tier": "DIAMOND IV",
-      "lp": 36,
-      "wins": 174,
-      "losses": 165,
+      "lp": 34,
+      "wins": 175,
+      "losses": 166,
       "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3366.png"
     },
@@ -466,7 +466,7 @@
     {
       "name": "UIC Pjure",
       "role": "BOT",
-      "level": 761,
+      "level": 762,
       "tier": "DIAMOND I",
       "lp": 32,
       "wins": 136,
@@ -571,10 +571,10 @@
       "role": "TOP",
       "level": 539,
       "tier": "PLATINUM IV",
-      "lp": 85,
+      "lp": 64,
       "wins": 164,
-      "losses": 166,
-      "winRate": 49.7,
+      "losses": 167,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7123.png"
     },
     {
@@ -593,10 +593,10 @@
       "role": "JGL",
       "level": 971,
       "tier": "DIAMOND III",
-      "lp": 61,
-      "wins": 65,
-      "losses": 54,
-      "winRate": 54.6,
+      "lp": 82,
+      "wins": 67,
+      "losses": 55,
+      "winRate": 54.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5373.png"
     },
     {
@@ -615,10 +615,10 @@
       "role": "MID",
       "level": 619,
       "tier": "DIAMOND IV",
-      "lp": 13,
-      "wins": 366,
-      "losses": 339,
-      "winRate": 51.9,
+      "lp": 31,
+      "wins": 368,
+      "losses": 340,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/23.png"
     },
     {
@@ -658,11 +658,11 @@
       "name": "UIC Excellent C",
       "role": "SUP",
       "level": 587,
-      "tier": "GOLD III",
-      "lp": 96,
-      "wins": 150,
+      "tier": "GOLD II",
+      "lp": 15,
+      "wins": 151,
       "losses": 162,
-      "winRate": 48.1,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7064.png"
     }
   ],
