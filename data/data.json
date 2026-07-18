@@ -58,7 +58,7 @@
     {
       "name": "Baumi",
       "role": "MID",
-      "level": 1090,
+      "level": 1091,
       "tier": "MASTER I",
       "lp": 142,
       "wins": 410,
@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 658,
       "tier": "MASTER I",
-      "lp": 466,
-      "wins": 127,
+      "lp": 495,
+      "wins": 128,
       "losses": 110,
-      "winRate": 53.6,
+      "winRate": 53.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     }
   ],
@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1036,
       "tier": "DIAMOND IV",
-      "lp": 42,
-      "wins": 261,
+      "lp": 82,
+      "wins": 263,
       "losses": 281,
-      "winRate": 48.2,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -367,10 +367,10 @@
       "role": "JGL",
       "level": 817,
       "tier": "MASTER I",
-      "lp": 324,
+      "lp": 293,
       "wins": 237,
-      "losses": 231,
-      "winRate": 50.6,
+      "losses": 232,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/528.png"
     },
     {
@@ -409,7 +409,7 @@
     {
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 827,
+      "level": 828,
       "tier": "DIAMOND IV",
       "lp": 34,
       "wins": 175,
@@ -435,10 +435,10 @@
       "role": "TOP",
       "level": 554,
       "tier": "DIAMOND III",
-      "lp": 53,
-      "wins": 119,
+      "lp": 71,
+      "wins": 120,
       "losses": 108,
-      "winRate": 52.4,
+      "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3157.png"
     },
     {
