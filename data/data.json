@@ -5,9 +5,9 @@
       "role": "TOP",
       "level": 1185,
       "tier": "DIAMOND III",
-      "lp": 87,
-      "wins": 210,
-      "losses": 230,
+      "lp": 82,
+      "wins": 211,
+      "losses": 231,
       "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4077.png"
     },
@@ -49,10 +49,10 @@
       "role": "SUP",
       "level": 1013,
       "tier": "DIAMOND II",
-      "lp": 71,
-      "wins": 153,
+      "lp": 92,
+      "wins": 154,
       "losses": 142,
-      "winRate": 51.9,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
     {
@@ -60,10 +60,10 @@
       "role": "MID",
       "level": 1090,
       "tier": "MASTER I",
-      "lp": 100,
-      "wins": 408,
+      "lp": 134,
+      "wins": 409,
       "losses": 395,
-      "winRate": 50.8,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3151.png"
     },
     {
@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1036,
       "tier": "DIAMOND IV",
-      "lp": 85,
+      "lp": 64,
       "wins": 260,
-      "losses": 278,
-      "winRate": 48.3,
+      "losses": 279,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "JGL",
       "level": 805,
       "tier": "DIAMOND I",
-      "lp": 58,
-      "wins": 46,
+      "lp": 78,
+      "wins": 47,
       "losses": 45,
-      "winRate": 50.5,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3840.png"
     },
     {
@@ -468,10 +468,10 @@
       "role": "BOT",
       "level": 762,
       "tier": "DIAMOND I",
-      "lp": 32,
-      "wins": 136,
+      "lp": 50,
+      "wins": 137,
       "losses": 122,
-      "winRate": 52.7,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5726.png"
     },
     {
@@ -569,12 +569,12 @@
     {
       "name": "UIC Muh",
       "role": "TOP",
-      "level": 539,
+      "level": 540,
       "tier": "PLATINUM IV",
-      "lp": 64,
+      "lp": 43,
       "wins": 164,
-      "losses": 167,
-      "winRate": 49.5,
+      "losses": 169,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7123.png"
     },
     {
@@ -592,11 +592,11 @@
       "name": "UIC Namorii",
       "role": "JGL",
       "level": 971,
-      "tier": "DIAMOND III",
-      "lp": 82,
-      "wins": 67,
+      "tier": "DIAMOND II",
+      "lp": 3,
+      "wins": 68,
       "losses": 55,
-      "winRate": 54.9,
+      "winRate": 55.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5373.png"
     },
     {
@@ -615,8 +615,8 @@
       "role": "MID",
       "level": 619,
       "tier": "DIAMOND IV",
-      "lp": 31,
-      "wins": 368,
+      "lp": 51,
+      "wins": 369,
       "losses": 340,
       "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/23.png"
