@@ -5,9 +5,9 @@
       "role": "TOP",
       "level": 1185,
       "tier": "DIAMOND III",
-      "lp": 83,
-      "wins": 207,
-      "losses": 228,
+      "lp": 76,
+      "wins": 208,
+      "losses": 229,
       "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4077.png"
     },
@@ -69,13 +69,13 @@
     {
       "name": "UIC FrozenHands",
       "role": "MID",
-      "level": 657,
+      "level": 658,
       "tier": "MASTER I",
       "lp": 497,
       "wins": 127,
       "losses": 109,
       "winRate": 53.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7040.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     }
   ],
   "angels": [
@@ -183,12 +183,12 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1035,
+      "level": 1036,
       "tier": "DIAMOND IV",
-      "lp": 66,
+      "lp": 45,
       "wins": 258,
-      "losses": 277,
-      "winRate": 48.2,
+      "losses": 278,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 1060,
       "tier": "DIAMOND IV",
-      "lp": 34,
+      "lp": 11,
       "wins": 48,
-      "losses": 56,
-      "winRate": 46.2,
+      "losses": 57,
+      "winRate": 45.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/1453.png"
     },
     {
@@ -387,7 +387,7 @@
     {
       "name": "UIC AutumnLeaf",
       "role": "BOT",
-      "level": 864,
+      "level": 865,
       "tier": "MASTER I",
       "lp": 407,
       "wins": 153,
@@ -592,11 +592,11 @@
       "name": "UIC Namorii",
       "role": "JGL",
       "level": 971,
-      "tier": "DIAMOND II",
-      "lp": 1,
+      "tier": "DIAMOND III",
+      "lp": 61,
       "wins": 65,
-      "losses": 52,
-      "winRate": 55.6,
+      "losses": 54,
+      "winRate": 54.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5373.png"
     },
     {
@@ -615,10 +615,10 @@
       "role": "MID",
       "level": 619,
       "tier": "DIAMOND IV",
-      "lp": 34,
+      "lp": 13,
       "wins": 366,
-      "losses": 338,
-      "winRate": 52,
+      "losses": 339,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/23.png"
     },
     {
@@ -659,10 +659,10 @@
       "role": "SUP",
       "level": 587,
       "tier": "GOLD III",
-      "lp": 41,
-      "wins": 147,
+      "lp": 96,
+      "wins": 150,
       "losses": 162,
-      "winRate": 47.6,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7064.png"
     }
   ],
