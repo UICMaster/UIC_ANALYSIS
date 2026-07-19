@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1187,
       "tier": "DIAMOND III",
-      "lp": 87,
+      "lp": 65,
       "wins": 215,
-      "losses": 234,
-      "winRate": 47.9,
+      "losses": 235,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4835.png"
     },
     {
@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1054,
       "tier": "MASTER I",
-      "lp": 210,
-      "wins": 214,
+      "lp": 241,
+      "wins": 215,
       "losses": 203,
-      "winRate": 51.3,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
     {
@@ -117,9 +117,9 @@
       "role": "BOT",
       "level": 178,
       "tier": "MASTER I",
-      "lp": 1115,
+      "lp": 1081,
       "wins": 482,
-      "losses": 450,
+      "losses": 451,
       "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4473.png"
     },
@@ -184,11 +184,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1038,
-      "tier": "DIAMOND IV",
-      "lp": 67,
-      "wins": 272,
+      "tier": "DIAMOND III",
+      "lp": 7,
+      "wins": 274,
       "losses": 291,
-      "winRate": 48.3,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -367,10 +367,10 @@
       "role": "JGL",
       "level": 818,
       "tier": "MASTER I",
-      "lp": 466,
+      "lp": 435,
       "wins": 244,
-      "losses": 234,
-      "winRate": 51,
+      "losses": 235,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/528.png"
     },
     {
@@ -468,10 +468,10 @@
       "role": "BOT",
       "level": 763,
       "tier": "DIAMOND I",
-      "lp": 60,
+      "lp": 38,
       "wins": 140,
-      "losses": 124,
-      "winRate": 53,
+      "losses": 125,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5726.png"
     },
     {
@@ -637,10 +637,10 @@
       "role": "BOT",
       "level": 430,
       "tier": "PLATINUM III",
-      "lp": 53,
-      "wins": 219,
+      "lp": 71,
+      "wins": 220,
       "losses": 202,
-      "winRate": 52,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7172.png"
     },
     {
