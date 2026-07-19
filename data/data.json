@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1187,
       "tier": "DIAMOND II",
-      "lp": 1,
-      "wins": 217,
+      "lp": 15,
+      "wins": 218,
       "losses": 235,
-      "winRate": 48,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4835.png"
     },
     {
@@ -117,9 +117,9 @@
       "role": "BOT",
       "level": 178,
       "tier": "MASTER I",
-      "lp": 1047,
-      "wins": 482,
-      "losses": 452,
+      "lp": 1073,
+      "wins": 483,
+      "losses": 453,
       "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4473.png"
     },
@@ -184,11 +184,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1038,
-      "tier": "DIAMOND IV",
-      "lp": 86,
-      "wins": 274,
+      "tier": "DIAMOND III",
+      "lp": 6,
+      "wins": 275,
       "losses": 292,
-      "winRate": 48.4,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -378,10 +378,10 @@
       "role": "MID",
       "level": 929,
       "tier": "DIAMOND III",
-      "lp": 92,
+      "lp": 50,
       "wins": 215,
-      "losses": 243,
-      "winRate": 46.9,
+      "losses": 245,
+      "winRate": 46.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5954.png"
     },
     {
@@ -468,10 +468,10 @@
       "role": "BOT",
       "level": 763,
       "tier": "DIAMOND I",
-      "lp": 76,
+      "lp": 54,
       "wins": 141,
-      "losses": 125,
-      "winRate": 53,
+      "losses": 126,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5726.png"
     },
     {
@@ -564,7 +564,7 @@
       "wins": 71,
       "losses": 59,
       "winRate": 54.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7129.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6340.png"
     },
     {
       "name": "UIC Muh",
@@ -683,10 +683,10 @@
       "role": "JGL",
       "level": 473,
       "tier": "GOLD IV",
-      "lp": 29,
-      "wins": 141,
+      "lp": 49,
+      "wins": 142,
       "losses": 144,
-      "winRate": 49.5,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3539.png"
     },
     {
@@ -797,10 +797,10 @@
       "role": "JGL",
       "level": 506,
       "tier": "DIAMOND I",
-      "lp": 5,
-      "wins": 177,
+      "lp": 45,
+      "wins": 179,
       "losses": 173,
-      "winRate": 50.6,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6759.png"
     },
     {
