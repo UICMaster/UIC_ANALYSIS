@@ -4,11 +4,11 @@
       "name": "UIC Speedy",
       "role": "TOP",
       "level": 1187,
-      "tier": "DIAMOND III",
-      "lp": 65,
-      "wins": 215,
+      "tier": "DIAMOND II",
+      "lp": 1,
+      "wins": 217,
       "losses": 235,
-      "winRate": 47.8,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4835.png"
     },
     {
@@ -117,10 +117,10 @@
       "role": "BOT",
       "level": 178,
       "tier": "MASTER I",
-      "lp": 1081,
+      "lp": 1047,
       "wins": 482,
-      "losses": 451,
-      "winRate": 51.7,
+      "losses": 452,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4473.png"
     },
     {
@@ -184,11 +184,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1038,
-      "tier": "DIAMOND III",
-      "lp": 7,
+      "tier": "DIAMOND IV",
+      "lp": 86,
       "wins": 274,
-      "losses": 291,
-      "winRate": 48.5,
+      "losses": 292,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -376,12 +376,12 @@
     {
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 928,
+      "level": 929,
       "tier": "DIAMOND III",
-      "lp": 73,
-      "wins": 214,
+      "lp": 92,
+      "wins": 215,
       "losses": 243,
-      "winRate": 46.8,
+      "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5954.png"
     },
     {
@@ -468,10 +468,10 @@
       "role": "BOT",
       "level": 763,
       "tier": "DIAMOND I",
-      "lp": 38,
-      "wins": 140,
+      "lp": 76,
+      "wins": 141,
       "losses": 125,
-      "winRate": 52.8,
+      "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5726.png"
     },
     {
@@ -657,7 +657,7 @@
     {
       "name": "UIC Excellent C",
       "role": "SUP",
-      "level": 588,
+      "level": 589,
       "tier": "GOLD II",
       "lp": 15,
       "wins": 151,
@@ -683,10 +683,10 @@
       "role": "JGL",
       "level": 473,
       "tier": "GOLD IV",
-      "lp": 9,
-      "wins": 140,
+      "lp": 29,
+      "wins": 141,
       "losses": 144,
-      "winRate": 49.3,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3539.png"
     },
     {
@@ -797,10 +797,10 @@
       "role": "JGL",
       "level": 506,
       "tier": "DIAMOND I",
-      "lp": 25,
+      "lp": 5,
       "wins": 177,
-      "losses": 172,
-      "winRate": 50.7,
+      "losses": 173,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6759.png"
     },
     {
@@ -828,7 +828,7 @@
     {
       "name": "TheEigeeen",
       "role": "SUP",
-      "level": 688,
+      "level": 689,
       "tier": "EMERALD II",
       "lp": 15,
       "wins": 85,
