@@ -128,10 +128,10 @@
       "role": "SUP",
       "level": 735,
       "tier": "GRANDMASTER I",
-      "lp": 2141,
-      "wins": 261,
+      "lp": 2169,
+      "wins": 262,
       "losses": 218,
-      "winRate": 54.5,
+      "winRate": 54.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4419.png"
     },
     {
@@ -262,12 +262,12 @@
     {
       "name": "UIC FirstBlo",
       "role": "SUP",
-      "level": 505,
+      "level": 506,
       "tier": "MASTER I",
-      "lp": 237,
-      "wins": 132,
-      "losses": 101,
-      "winRate": 56.7,
+      "lp": 239,
+      "wins": 133,
+      "losses": 102,
+      "winRate": 56.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4655.png"
     }
   ],
@@ -321,7 +321,7 @@
       "role": "SUP",
       "level": 613,
       "tier": "DIAMOND I",
-      "lp": 75,
+      "lp": 25,
       "wins": 64,
       "losses": 59,
       "winRate": 52,
@@ -564,7 +564,7 @@
       "wins": 71,
       "losses": 59,
       "winRate": 54.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5917.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6340.png"
     },
     {
       "name": "UIC Muh",
