@@ -128,9 +128,9 @@
       "role": "SUP",
       "level": 734,
       "tier": "GRANDMASTER I",
-      "lp": 2181,
-      "wins": 258,
-      "losses": 213,
+      "lp": 2179,
+      "wins": 259,
+      "losses": 214,
       "winRate": 54.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4419.png"
     },
@@ -635,7 +635,7 @@
     {
       "name": "UIC Deavan",
       "role": "BOT",
-      "level": 429,
+      "level": 430,
       "tier": "PLATINUM III",
       "lp": 53,
       "wins": 219,
