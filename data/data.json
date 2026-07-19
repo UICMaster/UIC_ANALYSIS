@@ -149,11 +149,11 @@
       "name": "Webzy",
       "role": "COH",
       "level": 1152,
-      "tier": "EMERALD III",
-      "lp": 84,
-      "wins": 219,
+      "tier": "EMERALD II",
+      "lp": 21,
+      "wins": 221,
       "losses": 237,
-      "winRate": 48,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7084.png"
     }
   ],
@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1037,
       "tier": "DIAMOND IV",
-      "lp": 77,
-      "wins": 267,
-      "losses": 286,
-      "winRate": 48.3,
+      "lp": 54,
+      "wins": 268,
+      "losses": 288,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -367,10 +367,10 @@
       "role": "JGL",
       "level": 817,
       "tier": "MASTER I",
-      "lp": 320,
-      "wins": 239,
+      "lp": 349,
+      "wins": 240,
       "losses": 234,
-      "winRate": 50.5,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/528.png"
     },
     {
@@ -411,10 +411,10 @@
       "role": "COH",
       "level": 828,
       "tier": "DIAMOND IV",
-      "lp": 34,
-      "wins": 175,
+      "lp": 53,
+      "wins": 176,
       "losses": 166,
-      "winRate": 51.3,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3366.png"
     },
     {
@@ -670,7 +670,7 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 604,
+      "level": 605,
       "tier": "PLATINUM II",
       "lp": 39,
       "wins": 119,
