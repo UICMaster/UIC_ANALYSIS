@@ -4,11 +4,11 @@
       "name": "UIC Speedy",
       "role": "TOP",
       "level": 1186,
-      "tier": "DIAMOND II",
-      "lp": 1,
+      "tier": "DIAMOND III",
+      "lp": 79,
       "wins": 212,
-      "losses": 231,
-      "winRate": 47.9,
+      "losses": 232,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4835.png"
     },
     {
@@ -185,9 +185,9 @@
       "role": "MID",
       "level": 1037,
       "tier": "DIAMOND IV",
-      "lp": 54,
-      "wins": 268,
-      "losses": 288,
+      "lp": 52,
+      "wins": 269,
+      "losses": 289,
       "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
@@ -398,7 +398,7 @@
     {
       "name": "UIC Ryu Copeland",
       "role": "SUP",
-      "level": 1015,
+      "level": 1016,
       "tier": "MASTER I",
       "lp": 558,
       "wins": 109,
@@ -536,10 +536,10 @@
       "role": "SUP",
       "level": 333,
       "tier": "MASTER I",
-      "lp": 180,
+      "lp": 120,
       "wins": 128,
-      "losses": 108,
-      "winRate": 54.2,
+      "losses": 110,
+      "winRate": 53.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4793.png"
     },
     {
@@ -648,10 +648,10 @@
       "role": "SUP",
       "level": 398,
       "tier": "PLATINUM II",
-      "lp": 21,
+      "lp": 2,
       "wins": 157,
-      "losses": 158,
-      "winRate": 49.8,
+      "losses": 159,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7099.png"
     },
     {
