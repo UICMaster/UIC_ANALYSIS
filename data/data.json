@@ -128,10 +128,10 @@
       "role": "SUP",
       "level": 735,
       "tier": "GRANDMASTER I",
-      "lp": 2169,
-      "wins": 262,
+      "lp": 2197,
+      "wins": 263,
       "losses": 218,
-      "winRate": 54.6,
+      "winRate": 54.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4419.png"
     },
     {
@@ -275,7 +275,7 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1320,
+      "level": 1321,
       "tier": "MASTER I",
       "lp": 55,
       "wins": 254,
