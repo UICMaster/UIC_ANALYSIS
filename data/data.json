@@ -95,9 +95,9 @@
       "role": "JGL",
       "level": 292,
       "tier": "GRANDMASTER I",
-      "lp": 1674,
-      "wins": 277,
-      "losses": 244,
+      "lp": 1692,
+      "wins": 279,
+      "losses": 245,
       "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4302.png"
     },
@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1040,
       "tier": "DIAMOND II",
-      "lp": 41,
-      "wins": 284,
+      "lp": 60,
+      "wins": 285,
       "losses": 296,
-      "winRate": 49,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -218,7 +218,7 @@
     {
       "name": "UIC VTennic",
       "role": "TOP",
-      "level": 489,
+      "level": 490,
       "tier": "DIAMOND IV",
       "lp": 0,
       "wins": 24,
@@ -330,7 +330,7 @@
     {
       "name": "McOffensive",
       "role": "TOP",
-      "level": 725,
+      "level": 726,
       "tier": "EMERALD I",
       "lp": 58,
       "wins": 40,
@@ -378,9 +378,9 @@
       "role": "MID",
       "level": 930,
       "tier": "DIAMOND II",
-      "lp": 5,
-      "wins": 219,
-      "losses": 246,
+      "lp": 3,
+      "wins": 220,
+      "losses": 247,
       "winRate": 47.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5954.png"
     },
@@ -514,10 +514,10 @@
       "role": "MID",
       "level": 610,
       "tier": "PLATINUM III",
-      "lp": 72,
-      "wins": 154,
+      "lp": 90,
+      "wins": 155,
       "losses": 152,
-      "winRate": 50.3,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     },
     {
@@ -527,8 +527,8 @@
       "tier": "DIAMOND II",
       "lp": 86,
       "wins": 301,
-      "losses": 317,
-      "winRate": 48.7,
+      "losses": 318,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7172.png"
     },
     {
@@ -558,7 +558,7 @@
     {
       "name": "UIC Kaetaya",
       "role": "TOP",
-      "level": 886,
+      "level": 887,
       "tier": "DIAMOND IV",
       "lp": 65,
       "wins": 71,
@@ -615,10 +615,10 @@
       "role": "MID",
       "level": 621,
       "tier": "DIAMOND III",
-      "lp": 14,
-      "wins": 373,
+      "lp": 35,
+      "wins": 374,
       "losses": 341,
-      "winRate": 52.2,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/23.png"
     },
     {
@@ -647,11 +647,11 @@
       "name": "UIC Kaanto",
       "role": "SUP",
       "level": 399,
-      "tier": "PLATINUM IV",
-      "lp": 97,
-      "wins": 158,
+      "tier": "PLATINUM III",
+      "lp": 16,
+      "wins": 159,
       "losses": 165,
-      "winRate": 48.9,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7099.png"
     },
     {
@@ -683,10 +683,10 @@
       "role": "JGL",
       "level": 473,
       "tier": "GOLD IV",
-      "lp": 9,
-      "wins": 142,
+      "lp": 29,
+      "wins": 143,
       "losses": 146,
-      "winRate": 49.3,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3539.png"
     },
     {
@@ -738,7 +738,7 @@
     {
       "name": "BlauerKlaus",
       "role": "JGL",
-      "level": 1167,
+      "level": 1168,
       "tier": "MASTER I",
       "lp": 15,
       "wins": 107,
