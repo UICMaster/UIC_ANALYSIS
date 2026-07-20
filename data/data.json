@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 658,
       "tier": "MASTER I",
-      "lp": 493,
-      "wins": 129,
+      "lp": 522,
+      "wins": 130,
       "losses": 111,
-      "winRate": 53.8,
+      "winRate": 53.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     }
   ],
@@ -95,10 +95,10 @@
       "role": "JGL",
       "level": 291,
       "tier": "GRANDMASTER I",
-      "lp": 1744,
+      "lp": 1676,
       "wins": 275,
-      "losses": 241,
-      "winRate": 53.3,
+      "losses": 243,
+      "winRate": 53.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4302.png"
     },
     {
@@ -117,11 +117,11 @@
       "role": "BOT",
       "level": 178,
       "tier": "MASTER I",
-      "lp": 1039,
+      "lp": 1005,
       "wins": 483,
-      "losses": 454,
+      "losses": 455,
       "winRate": 51.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4473.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/1455.png"
     },
     {
       "name": "UIC Bardie3",
@@ -183,12 +183,12 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1039,
-      "tier": "DIAMOND III",
-      "lp": 41,
-      "wins": 280,
+      "level": 1040,
+      "tier": "DIAMOND II",
+      "lp": 1,
+      "wins": 283,
       "losses": 296,
-      "winRate": 48.6,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -242,10 +242,10 @@
       "role": "MID",
       "level": 481,
       "tier": "DIAMOND IV",
-      "lp": 26,
-      "wins": 88,
+      "lp": 46,
+      "wins": 89,
       "losses": 84,
-      "winRate": 51.2,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7076.png"
     },
     {
@@ -277,9 +277,9 @@
       "role": "TOP",
       "level": 1321,
       "tier": "MASTER I",
-      "lp": 55,
-      "wins": 254,
-      "losses": 265,
+      "lp": 53,
+      "wins": 255,
+      "losses": 266,
       "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     },
@@ -367,10 +367,10 @@
       "role": "JGL",
       "level": 818,
       "tier": "MASTER I",
-      "lp": 435,
-      "wins": 244,
-      "losses": 235,
-      "winRate": 50.9,
+      "lp": 463,
+      "wins": 246,
+      "losses": 236,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/528.png"
     },
     {
@@ -411,10 +411,10 @@
       "role": "COH",
       "level": 828,
       "tier": "DIAMOND IV",
-      "lp": 53,
+      "lp": 32,
       "wins": 176,
-      "losses": 166,
-      "winRate": 51.5,
+      "losses": 167,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3366.png"
     },
     {
@@ -614,9 +614,9 @@
       "name": "UIC GroßATuin",
       "role": "MID",
       "level": 621,
-      "tier": "DIAMOND IV",
-      "lp": 93,
-      "wins": 372,
+      "tier": "DIAMOND III",
+      "lp": 14,
+      "wins": 373,
       "losses": 341,
       "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/23.png"
@@ -637,9 +637,9 @@
       "role": "BOT",
       "level": 430,
       "tier": "PLATINUM III",
-      "lp": 71,
-      "wins": 220,
-      "losses": 202,
+      "lp": 67,
+      "wins": 221,
+      "losses": 203,
       "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7172.png"
     },
@@ -647,11 +647,11 @@
       "name": "UIC Kaanto",
       "role": "SUP",
       "level": 399,
-      "tier": "PLATINUM III",
-      "lp": 41,
+      "tier": "PLATINUM IV",
+      "lp": 99,
       "wins": 157,
-      "losses": 162,
-      "winRate": 49.2,
+      "losses": 164,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7099.png"
     },
     {
@@ -752,8 +752,8 @@
       "level": 650,
       "tier": "EMERALD II",
       "lp": 64,
-      "wins": 127,
-      "losses": 129,
+      "wins": 128,
+      "losses": 130,
       "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/626.png"
     },
