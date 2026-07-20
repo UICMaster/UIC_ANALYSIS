@@ -69,7 +69,7 @@
     {
       "name": "UIC FrozenHands",
       "role": "MID",
-      "level": 658,
+      "level": 659,
       "tier": "MASTER I",
       "lp": 522,
       "wins": 130,
@@ -95,9 +95,9 @@
       "role": "JGL",
       "level": 292,
       "tier": "GRANDMASTER I",
-      "lp": 1692,
-      "wins": 279,
-      "losses": 245,
+      "lp": 1710,
+      "wins": 280,
+      "losses": 246,
       "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4302.png"
     },
@@ -184,11 +184,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1040,
-      "tier": "DIAMOND II",
-      "lp": 60,
-      "wins": 285,
+      "tier": "DIAMOND I",
+      "lp": 1,
+      "wins": 287,
       "losses": 296,
-      "winRate": 49.1,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -380,8 +380,8 @@
       "tier": "DIAMOND II",
       "lp": 3,
       "wins": 220,
-      "losses": 247,
-      "winRate": 47.1,
+      "losses": 248,
+      "winRate": 47,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5954.png"
     },
     {
@@ -400,10 +400,10 @@
       "role": "SUP",
       "level": 1016,
       "tier": "MASTER I",
-      "lp": 589,
-      "wins": 110,
+      "lp": 620,
+      "wins": 111,
       "losses": 97,
-      "winRate": 53.1,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6622.png"
     },
     {
@@ -797,10 +797,10 @@
       "role": "JGL",
       "level": 506,
       "tier": "DIAMOND I",
-      "lp": 45,
-      "wins": 179,
+      "lp": 65,
+      "wins": 180,
       "losses": 173,
-      "winRate": 50.9,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6759.png"
     },
     {
