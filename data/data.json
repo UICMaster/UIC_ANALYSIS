@@ -524,11 +524,11 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 634,
-      "tier": "DIAMOND I",
-      "lp": 3,
+      "tier": "DIAMOND II",
+      "lp": 57,
       "wins": 302,
-      "losses": 318,
-      "winRate": 48.7,
+      "losses": 320,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7172.png"
     },
     {
@@ -571,10 +571,10 @@
       "role": "TOP",
       "level": 541,
       "tier": "PLATINUM IV",
-      "lp": 78,
+      "lp": 57,
       "wins": 167,
-      "losses": 170,
-      "winRate": 49.6,
+      "losses": 171,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7123.png"
     },
     {
