@@ -150,10 +150,10 @@
       "role": "COH",
       "level": 1152,
       "tier": "EMERALD II",
-      "lp": 21,
-      "wins": 221,
+      "lp": 40,
+      "wins": 222,
       "losses": 237,
-      "winRate": 48.3,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7084.png"
     }
   ],
@@ -183,11 +183,11 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1040,
+      "level": 1041,
       "tier": "DIAMOND I",
       "lp": 1,
-      "wins": 289,
-      "losses": 298,
+      "wins": 291,
+      "losses": 300,
       "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
@@ -354,22 +354,22 @@
     {
       "name": "UIC Kamo",
       "role": "TOP",
-      "level": 580,
+      "level": 581,
       "tier": "MASTER I",
-      "lp": 174,
+      "lp": 144,
       "wins": 366,
-      "losses": 339,
-      "winRate": 51.9,
+      "losses": 340,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6640.png"
     },
     {
       "name": "UIC Exi",
       "role": "JGL",
-      "level": 818,
+      "level": 819,
       "tier": "MASTER I",
-      "lp": 432,
-      "wins": 246,
-      "losses": 237,
+      "lp": 430,
+      "wins": 247,
+      "losses": 238,
       "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/528.png"
     },
@@ -490,12 +490,12 @@
     {
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 947,
-      "tier": "DIAMOND III",
-      "lp": 72,
-      "wins": 105,
+      "level": 948,
+      "tier": "DIAMOND II",
+      "lp": 52,
+      "wins": 109,
       "losses": 98,
-      "winRate": 51.7,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7169.png"
     },
     {
@@ -525,10 +525,10 @@
       "role": "BOT",
       "level": 634,
       "tier": "DIAMOND I",
-      "lp": 9,
-      "wins": 305,
+      "lp": 27,
+      "wins": 306,
       "losses": 320,
-      "winRate": 48.8,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7172.png"
     },
     {
@@ -626,10 +626,10 @@
       "role": "BOT",
       "level": 1447,
       "tier": "GOLD II",
-      "lp": 57,
-      "wins": 649,
+      "lp": 75,
+      "wins": 650,
       "losses": 653,
-      "winRate": 49.8,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7157.png"
     },
     {
