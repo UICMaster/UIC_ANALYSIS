@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1040,
       "tier": "DIAMOND I",
-      "lp": 21,
-      "wins": 288,
-      "losses": 296,
-      "winRate": 49.3,
+      "lp": 1,
+      "wins": 289,
+      "losses": 298,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -367,10 +367,10 @@
       "role": "JGL",
       "level": 818,
       "tier": "MASTER I",
-      "lp": 463,
+      "lp": 432,
       "wins": 246,
-      "losses": 236,
-      "winRate": 51,
+      "losses": 237,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/528.png"
     },
     {
@@ -492,10 +492,10 @@
       "role": "TOP",
       "level": 947,
       "tier": "DIAMOND III",
-      "lp": 38,
-      "wins": 103,
+      "lp": 72,
+      "wins": 105,
       "losses": 98,
-      "winRate": 51.2,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7169.png"
     },
     {
@@ -513,22 +513,22 @@
       "name": "UIC Ayumu",
       "role": "MID",
       "level": 610,
-      "tier": "PLATINUM III",
-      "lp": 90,
-      "wins": 155,
+      "tier": "PLATINUM II",
+      "lp": 8,
+      "wins": 156,
       "losses": 152,
-      "winRate": 50.5,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     },
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 634,
-      "tier": "DIAMOND II",
-      "lp": 74,
-      "wins": 303,
+      "tier": "DIAMOND I",
+      "lp": 9,
+      "wins": 305,
       "losses": 320,
-      "winRate": 48.6,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7172.png"
     },
     {
@@ -626,10 +626,10 @@
       "role": "BOT",
       "level": 1447,
       "tier": "GOLD II",
-      "lp": 79,
+      "lp": 57,
       "wins": 649,
-      "losses": 652,
-      "winRate": 49.9,
+      "losses": 653,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7157.png"
     },
     {
@@ -795,12 +795,12 @@
     {
       "name": "yShizuu",
       "role": "JGL",
-      "level": 506,
+      "level": 507,
       "tier": "DIAMOND I",
-      "lp": 65,
+      "lp": 45,
       "wins": 180,
-      "losses": 173,
-      "winRate": 51,
+      "losses": 174,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6759.png"
     },
     {
