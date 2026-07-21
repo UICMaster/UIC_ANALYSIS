@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1054,
       "tier": "MASTER I",
-      "lp": 241,
-      "wins": 215,
+      "lp": 272,
+      "wins": 216,
       "losses": 203,
-      "winRate": 51.4,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
     {
@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 659,
       "tier": "MASTER I",
-      "lp": 522,
-      "wins": 130,
+      "lp": 551,
+      "wins": 131,
       "losses": 111,
-      "winRate": 53.9,
+      "winRate": 54.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     }
   ],
@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1041,
       "tier": "DIAMOND I",
-      "lp": 0,
-      "wins": 292,
+      "lp": 57,
+      "wins": 295,
       "losses": 302,
-      "winRate": 49.2,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 581,
       "tier": "MASTER I",
-      "lp": 144,
+      "lp": 84,
       "wins": 368,
-      "losses": 342,
-      "winRate": 51.8,
+      "losses": 345,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6640.png"
     },
     {
@@ -367,10 +367,10 @@
       "role": "JGL",
       "level": 819,
       "tier": "MASTER I",
-      "lp": 368,
-      "wins": 247,
+      "lp": 397,
+      "wins": 248,
       "losses": 241,
-      "winRate": 50.6,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/528.png"
     },
     {
@@ -411,10 +411,10 @@
       "role": "COH",
       "level": 829,
       "tier": "DIAMOND IV",
-      "lp": 49,
-      "wins": 178,
+      "lp": 69,
+      "wins": 179,
       "losses": 168,
-      "winRate": 51.4,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3366.png"
     },
     {
@@ -493,8 +493,8 @@
       "level": 948,
       "tier": "DIAMOND II",
       "lp": 32,
-      "wins": 109,
-      "losses": 99,
+      "wins": 110,
+      "losses": 100,
       "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7169.png"
     },
@@ -602,7 +602,7 @@
     {
       "name": "UIC adedier",
       "role": "MID",
-      "level": 632,
+      "level": 633,
       "tier": "PLATINUM II",
       "lp": 68,
       "wins": 130,
@@ -635,12 +635,12 @@
     {
       "name": "UIC Deavan",
       "role": "BOT",
-      "level": 430,
+      "level": 431,
       "tier": "PLATINUM III",
-      "lp": 67,
-      "wins": 221,
+      "lp": 85,
+      "wins": 222,
       "losses": 203,
-      "winRate": 52.1,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7172.png"
     },
     {
@@ -749,7 +749,7 @@
     {
       "name": "UIC Flare",
       "role": "MID",
-      "level": 650,
+      "level": 651,
       "tier": "EMERALD II",
       "lp": 64,
       "wins": 129,
