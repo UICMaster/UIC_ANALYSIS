@@ -14,12 +14,12 @@
     {
       "name": "UIC Niki",
       "role": "JGL",
-      "level": 1054,
+      "level": 1055,
       "tier": "MASTER I",
-      "lp": 303,
+      "lp": 273,
       "wins": 217,
-      "losses": 203,
-      "winRate": 51.7,
+      "losses": 204,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
     {
@@ -27,10 +27,10 @@
       "role": "MID",
       "level": 643,
       "tier": "MASTER I",
-      "lp": 62,
+      "lp": 33,
       "wins": 99,
-      "losses": 92,
-      "winRate": 51.8,
+      "losses": 93,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7094.png"
     },
     {
@@ -60,10 +60,10 @@
       "role": "MID",
       "level": 1091,
       "tier": "MASTER I",
-      "lp": 142,
+      "lp": 89,
       "wins": 410,
-      "losses": 396,
-      "winRate": 50.9,
+      "losses": 398,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3151.png"
     },
     {
@@ -128,10 +128,10 @@
       "role": "SUP",
       "level": 735,
       "tier": "GRANDMASTER I",
-      "lp": 2253,
+      "lp": 2221,
       "wins": 265,
-      "losses": 218,
-      "winRate": 54.9,
+      "losses": 219,
+      "winRate": 54.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4419.png"
     },
     {
@@ -183,12 +183,12 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1041,
-      "tier": "DIAMOND I",
-      "lp": 50,
-      "wins": 297,
+      "level": 1042,
+      "tier": "MASTER I",
+      "lp": 7,
+      "wins": 300,
       "losses": 304,
-      "winRate": 49.4,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 582,
       "tier": "MASTER I",
-      "lp": 114,
+      "lp": 84,
       "wins": 371,
-      "losses": 347,
-      "winRate": 51.7,
+      "losses": 348,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6640.png"
     },
     {
@@ -376,12 +376,12 @@
     {
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 930,
+      "level": 931,
       "tier": "DIAMOND III",
-      "lp": 78,
+      "lp": 57,
       "wins": 222,
-      "losses": 251,
-      "winRate": 46.9,
+      "losses": 252,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5954.png"
     },
     {
@@ -400,10 +400,10 @@
       "role": "SUP",
       "level": 1016,
       "tier": "MASTER I",
-      "lp": 591,
-      "wins": 111,
+      "lp": 622,
+      "wins": 112,
       "losses": 98,
-      "winRate": 53.1,
+      "winRate": 53.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6622.png"
     },
     {
@@ -466,7 +466,7 @@
     {
       "name": "UIC Pjure",
       "role": "BOT",
-      "level": 763,
+      "level": 764,
       "tier": "DIAMOND I",
       "lp": 66,
       "wins": 144,
@@ -636,11 +636,11 @@
       "name": "UIC Deavan",
       "role": "BOT",
       "level": 431,
-      "tier": "PLATINUM III",
-      "lp": 85,
-      "wins": 222,
+      "tier": "PLATINUM II",
+      "lp": 3,
+      "wins": 223,
       "losses": 203,
-      "winRate": 52.2,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7172.png"
     },
     {
