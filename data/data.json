@@ -185,9 +185,9 @@
       "role": "MID",
       "level": 1041,
       "tier": "DIAMOND I",
-      "lp": 57,
-      "wins": 295,
-      "losses": 302,
+      "lp": 50,
+      "wins": 297,
+      "losses": 304,
       "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
@@ -354,11 +354,11 @@
     {
       "name": "UIC Kamo",
       "role": "TOP",
-      "level": 581,
+      "level": 582,
       "tier": "MASTER I",
-      "lp": 144,
-      "wins": 370,
-      "losses": 345,
+      "lp": 114,
+      "wins": 371,
+      "losses": 347,
       "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6640.png"
     },
@@ -377,11 +377,11 @@
       "name": "UIC Hayu",
       "role": "MID",
       "level": 930,
-      "tier": "DIAMOND II",
-      "lp": 1,
-      "wins": 221,
-      "losses": 249,
-      "winRate": 47,
+      "tier": "DIAMOND III",
+      "lp": 78,
+      "wins": 222,
+      "losses": 251,
+      "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5954.png"
     },
     {
@@ -564,7 +564,7 @@
       "wins": 71,
       "losses": 59,
       "winRate": 54.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6700.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6340.png"
     },
     {
       "name": "UIC Muh",
@@ -797,10 +797,10 @@
       "role": "JGL",
       "level": 507,
       "tier": "DIAMOND I",
-      "lp": 65,
-      "wins": 181,
-      "losses": 175,
-      "winRate": 50.8,
+      "lp": 42,
+      "wins": 182,
+      "losses": 177,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6759.png"
     },
     {
