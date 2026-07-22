@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1188,
       "tier": "DIAMOND II",
-      "lp": 11,
-      "wins": 220,
+      "lp": 30,
+      "wins": 221,
       "losses": 237,
-      "winRate": 48.1,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4835.png"
     },
     {
@@ -16,21 +16,21 @@
       "role": "JGL",
       "level": 1055,
       "tier": "MASTER I",
-      "lp": 333,
+      "lp": 273,
       "wins": 221,
-      "losses": 207,
-      "winRate": 51.6,
+      "losses": 210,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
     {
       "name": "UIC Shenycrane",
       "role": "MID",
-      "level": 643,
+      "level": 644,
       "tier": "MASTER I",
-      "lp": 95,
+      "lp": 0,
       "wins": 101,
-      "losses": 93,
-      "winRate": 52.1,
+      "losses": 97,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7094.png"
     },
     {
@@ -97,8 +97,8 @@
       "tier": "GRANDMASTER I",
       "lp": 1912,
       "wins": 291,
-      "losses": 250,
-      "winRate": 53.8,
+      "losses": 251,
+      "winRate": 53.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4302.png"
     },
     {
@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1043,
       "tier": "MASTER I",
-      "lp": 41,
-      "wins": 306,
-      "losses": 310,
-      "winRate": 49.7,
+      "lp": 70,
+      "wins": 308,
+      "losses": 311,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -377,11 +377,11 @@
       "name": "UIC Hayu",
       "role": "MID",
       "level": 931,
-      "tier": "DIAMOND III",
-      "lp": 57,
-      "wins": 222,
+      "tier": "DIAMOND II",
+      "lp": 13,
+      "wins": 224,
       "losses": 252,
-      "winRate": 46.8,
+      "winRate": 47.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5954.png"
     },
     {
@@ -411,10 +411,10 @@
       "role": "COH",
       "level": 830,
       "tier": "DIAMOND III",
-      "lp": 9,
-      "wins": 182,
+      "lp": 29,
+      "wins": 183,
       "losses": 169,
-      "winRate": 51.9,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3366.png"
     },
     {
@@ -435,10 +435,10 @@
       "role": "TOP",
       "level": 554,
       "tier": "DIAMOND III",
-      "lp": 49,
+      "lp": 5,
       "wins": 120,
-      "losses": 109,
-      "winRate": 52.4,
+      "losses": 111,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3157.png"
     },
     {
@@ -467,11 +467,11 @@
       "name": "UIC Pjure",
       "role": "BOT",
       "level": 764,
-      "tier": "DIAMOND I",
-      "lp": 63,
-      "wins": 145,
+      "tier": "MASTER I",
+      "lp": 1,
+      "wins": 146,
       "losses": 129,
-      "winRate": 52.9,
+      "winRate": 53.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5726.png"
     },
     {
