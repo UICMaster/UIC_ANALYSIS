@@ -17,8 +17,8 @@
       "level": 1055,
       "tier": "MASTER I",
       "lp": 303,
-      "wins": 218,
-      "losses": 205,
+      "wins": 219,
+      "losses": 206,
       "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
@@ -95,10 +95,10 @@
       "role": "JGL",
       "level": 293,
       "tier": "GRANDMASTER I",
-      "lp": 1809,
-      "wins": 287,
+      "lp": 1860,
+      "wins": 289,
       "losses": 250,
-      "winRate": 53.4,
+      "winRate": 53.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4302.png"
     },
     {
@@ -183,12 +183,12 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1042,
+      "level": 1043,
       "tier": "MASTER I",
-      "lp": 13,
-      "wins": 304,
+      "lp": 72,
+      "wins": 306,
       "losses": 309,
-      "winRate": 49.6,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -468,10 +468,10 @@
       "role": "BOT",
       "level": 764,
       "tier": "DIAMOND I",
-      "lp": 44,
-      "wins": 144,
+      "lp": 63,
+      "wins": 145,
       "losses": 129,
-      "winRate": 52.7,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5726.png"
     },
     {
@@ -492,10 +492,10 @@
       "role": "TOP",
       "level": 948,
       "tier": "DIAMOND II",
-      "lp": 32,
-      "wins": 112,
+      "lp": 52,
+      "wins": 113,
       "losses": 102,
-      "winRate": 52.3,
+      "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7169.png"
     },
     {
@@ -512,7 +512,7 @@
     {
       "name": "UIC Ayumu",
       "role": "MID",
-      "level": 610,
+      "level": 611,
       "tier": "PLATINUM II",
       "lp": 26,
       "wins": 157,
@@ -525,10 +525,10 @@
       "role": "BOT",
       "level": 635,
       "tier": "DIAMOND I",
-      "lp": 4,
-      "wins": 306,
+      "lp": 21,
+      "wins": 307,
       "losses": 322,
-      "winRate": 48.7,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7172.png"
     },
     {
@@ -648,10 +648,10 @@
       "role": "SUP",
       "level": 400,
       "tier": "PLATINUM III",
-      "lp": 53,
+      "lp": 33,
       "wins": 162,
-      "losses": 166,
-      "winRate": 49.4,
+      "losses": 167,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7099.png"
     },
     {
@@ -659,10 +659,10 @@
       "role": "SUP",
       "level": 589,
       "tier": "GOLD III",
-      "lp": 92,
+      "lp": 71,
       "wins": 152,
-      "losses": 164,
-      "winRate": 48.1,
+      "losses": 165,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7064.png"
     }
   ],
