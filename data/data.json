@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1055,
       "tier": "MASTER I",
-      "lp": 303,
-      "wins": 219,
+      "lp": 333,
+      "wins": 220,
       "losses": 206,
-      "winRate": 51.5,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
     {
@@ -36,7 +36,7 @@
     {
       "name": "UIC Giani",
       "role": "BOT",
-      "level": 740,
+      "level": 741,
       "tier": "DIAMOND I",
       "lp": 98,
       "wins": 76,
@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 659,
       "tier": "MASTER I",
-      "lp": 551,
-      "wins": 131,
+      "lp": 609,
+      "wins": 133,
       "losses": 111,
-      "winRate": 54.1,
+      "winRate": 54.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     }
   ],
@@ -95,10 +95,10 @@
       "role": "JGL",
       "level": 293,
       "tier": "GRANDMASTER I",
-      "lp": 1860,
-      "wins": 289,
+      "lp": 1912,
+      "wins": 291,
       "losses": 250,
-      "winRate": 53.6,
+      "winRate": 53.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4302.png"
     },
     {
@@ -148,12 +148,12 @@
     {
       "name": "Webzy",
       "role": "COH",
-      "level": 1152,
+      "level": 1153,
       "tier": "EMERALD II",
-      "lp": 19,
-      "wins": 222,
+      "lp": 38,
+      "wins": 223,
       "losses": 238,
-      "winRate": 48.3,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7084.png"
     }
   ],
@@ -277,9 +277,9 @@
       "role": "TOP",
       "level": 1321,
       "tier": "MASTER I",
-      "lp": 53,
-      "wins": 255,
-      "losses": 266,
+      "lp": 51,
+      "wins": 256,
+      "losses": 267,
       "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     },
@@ -398,12 +398,12 @@
     {
       "name": "UIC Ryu Copeland",
       "role": "SUP",
-      "level": 1016,
+      "level": 1017,
       "tier": "MASTER I",
-      "lp": 622,
-      "wins": 112,
+      "lp": 653,
+      "wins": 113,
       "losses": 98,
-      "winRate": 53.3,
+      "winRate": 53.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6622.png"
     },
     {
