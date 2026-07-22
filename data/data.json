@@ -3,12 +3,12 @@
     {
       "name": "UIC Speedy",
       "role": "TOP",
-      "level": 1187,
-      "tier": "DIAMOND III",
-      "lp": 94,
-      "wins": 218,
-      "losses": 236,
-      "winRate": 48,
+      "level": 1188,
+      "tier": "DIAMOND II",
+      "lp": 11,
+      "wins": 220,
+      "losses": 237,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4835.png"
     },
     {
@@ -17,8 +17,8 @@
       "level": 1055,
       "tier": "MASTER I",
       "lp": 333,
-      "wins": 220,
-      "losses": 206,
+      "wins": 221,
+      "losses": 207,
       "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
@@ -27,10 +27,10 @@
       "role": "MID",
       "level": 643,
       "tier": "MASTER I",
-      "lp": 64,
-      "wins": 100,
+      "lp": 95,
+      "wins": 101,
       "losses": 93,
-      "winRate": 51.8,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7094.png"
     },
     {
@@ -161,7 +161,7 @@
     {
       "name": "Stafferl",
       "role": "TOP",
-      "level": 865,
+      "level": 866,
       "tier": "EMERALD II",
       "lp": 91,
       "wins": 10,
@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1043,
       "tier": "MASTER I",
-      "lp": 72,
+      "lp": 41,
       "wins": 306,
-      "losses": 309,
-      "winRate": 49.8,
+      "losses": 310,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -240,7 +240,7 @@
     {
       "name": "UIC Kaoxz",
       "role": "MID",
-      "level": 481,
+      "level": 482,
       "tier": "DIAMOND IV",
       "lp": 46,
       "wins": 89,
@@ -409,12 +409,12 @@
     {
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 829,
-      "tier": "DIAMOND IV",
-      "lp": 89,
-      "wins": 180,
-      "losses": 168,
-      "winRate": 51.7,
+      "level": 830,
+      "tier": "DIAMOND III",
+      "lp": 9,
+      "wins": 182,
+      "losses": 169,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3366.png"
     },
     {
