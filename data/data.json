@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1042,
       "tier": "MASTER I",
-      "lp": 7,
-      "wins": 300,
-      "losses": 304,
-      "winRate": 49.7,
+      "lp": 37,
+      "wins": 302,
+      "losses": 305,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 582,
       "tier": "MASTER I",
-      "lp": 84,
-      "wins": 371,
+      "lp": 114,
+      "wins": 372,
       "losses": 348,
-      "winRate": 51.6,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6640.png"
     },
     {
@@ -516,8 +516,8 @@
       "tier": "PLATINUM II",
       "lp": 8,
       "wins": 156,
-      "losses": 152,
-      "winRate": 50.6,
+      "losses": 153,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     },
     {
