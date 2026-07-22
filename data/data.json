@@ -184,11 +184,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1042,
-      "tier": "MASTER I",
-      "lp": 37,
-      "wins": 302,
-      "losses": 305,
-      "winRate": 49.8,
+      "tier": "DIAMOND I",
+      "lp": 94,
+      "wins": 303,
+      "losses": 308,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -330,7 +330,7 @@
     {
       "name": "McOffensive",
       "role": "TOP",
-      "level": 726,
+      "level": 727,
       "tier": "EMERALD I",
       "lp": 58,
       "wins": 40,
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 582,
       "tier": "MASTER I",
-      "lp": 114,
-      "wins": 372,
+      "lp": 174,
+      "wins": 374,
       "losses": 348,
-      "winRate": 51.7,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6640.png"
     },
     {
@@ -492,10 +492,10 @@
       "role": "TOP",
       "level": 948,
       "tier": "DIAMOND II",
-      "lp": 12,
-      "wins": 110,
-      "losses": 101,
-      "winRate": 52.1,
+      "lp": 32,
+      "wins": 112,
+      "losses": 102,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7169.png"
     },
     {
@@ -514,10 +514,10 @@
       "role": "MID",
       "level": 610,
       "tier": "PLATINUM II",
-      "lp": 8,
-      "wins": 156,
+      "lp": 26,
+      "wins": 157,
       "losses": 153,
-      "winRate": 50.5,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     },
     {
@@ -525,10 +525,10 @@
       "role": "BOT",
       "level": 634,
       "tier": "DIAMOND I",
-      "lp": 27,
+      "lp": 4,
       "wins": 306,
-      "losses": 320,
-      "winRate": 48.9,
+      "losses": 321,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7172.png"
     },
     {
@@ -615,10 +615,10 @@
       "role": "MID",
       "level": 621,
       "tier": "DIAMOND III",
-      "lp": 35,
+      "lp": 16,
       "wins": 374,
-      "losses": 341,
-      "winRate": 52.3,
+      "losses": 342,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/23.png"
     },
     {
@@ -626,10 +626,10 @@
       "role": "BOT",
       "level": 1448,
       "tier": "GOLD II",
-      "lp": 49,
-      "wins": 651,
+      "lp": 67,
+      "wins": 652,
       "losses": 655,
-      "winRate": 49.8,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7157.png"
     },
     {
@@ -648,9 +648,9 @@
       "role": "SUP",
       "level": 399,
       "tier": "PLATINUM III",
-      "lp": 35,
-      "wins": 160,
-      "losses": 165,
+      "lp": 34,
+      "wins": 161,
+      "losses": 166,
       "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7099.png"
     },
@@ -658,11 +658,11 @@
       "name": "UIC Excellent C",
       "role": "SUP",
       "level": 589,
-      "tier": "GOLD II",
-      "lp": 15,
-      "wins": 151,
-      "losses": 162,
-      "winRate": 48.2,
+      "tier": "GOLD III",
+      "lp": 92,
+      "wins": 152,
+      "losses": 164,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7064.png"
     }
   ],
@@ -751,10 +751,10 @@
       "role": "MID",
       "level": 651,
       "tier": "EMERALD II",
-      "lp": 64,
+      "lp": 44,
       "wins": 129,
-      "losses": 131,
-      "winRate": 49.6,
+      "losses": 132,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/626.png"
     },
     {
