@@ -14,12 +14,12 @@
     {
       "name": "UIC Niki",
       "role": "JGL",
-      "level": 1055,
+      "level": 1056,
       "tier": "MASTER I",
-      "lp": 273,
+      "lp": 243,
       "wins": 221,
-      "losses": 210,
-      "winRate": 51.3,
+      "losses": 211,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
     {
@@ -27,10 +27,10 @@
       "role": "MID",
       "level": 644,
       "tier": "MASTER I",
-      "lp": 0,
-      "wins": 101,
+      "lp": 31,
+      "wins": 102,
       "losses": 97,
-      "winRate": 51,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7094.png"
     },
     {
@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1043,
       "tier": "MASTER I",
-      "lp": 70,
+      "lp": 39,
       "wins": 308,
-      "losses": 311,
-      "winRate": 49.8,
+      "losses": 312,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -275,11 +275,11 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1321,
+      "level": 1322,
       "tier": "MASTER I",
-      "lp": 51,
+      "lp": 20,
       "wins": 256,
-      "losses": 267,
+      "losses": 268,
       "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     },
@@ -378,10 +378,10 @@
       "role": "MID",
       "level": 931,
       "tier": "DIAMOND II",
-      "lp": 13,
-      "wins": 224,
-      "losses": 252,
-      "winRate": 47.1,
+      "lp": 28,
+      "wins": 226,
+      "losses": 253,
+      "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5954.png"
     },
     {
@@ -738,7 +738,7 @@
     {
       "name": "BlauerKlaus",
       "role": "JGL",
-      "level": 1168,
+      "level": 1169,
       "tier": "MASTER I",
       "lp": 15,
       "wins": 107,
