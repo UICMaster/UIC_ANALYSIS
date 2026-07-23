@@ -17,8 +17,8 @@
       "level": 1056,
       "tier": "MASTER I",
       "lp": 243,
-      "wins": 221,
-      "losses": 211,
+      "wins": 222,
+      "losses": 212,
       "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
@@ -38,10 +38,10 @@
       "role": "BOT",
       "level": 741,
       "tier": "DIAMOND I",
-      "lp": 98,
+      "lp": 62,
       "wins": 76,
-      "losses": 69,
-      "winRate": 52.4,
+      "losses": 72,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7.png"
     },
     {
@@ -60,8 +60,8 @@
       "role": "MID",
       "level": 1092,
       "tier": "MASTER I",
-      "lp": 107,
-      "wins": 413,
+      "lp": 140,
+      "wins": 414,
       "losses": 402,
       "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3151.png"
@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 659,
       "tier": "MASTER I",
-      "lp": 609,
+      "lp": 578,
       "wins": 133,
-      "losses": 111,
-      "winRate": 54.5,
+      "losses": 112,
+      "winRate": 54.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     }
   ],
@@ -184,11 +184,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1044,
-      "tier": "DIAMOND I",
-      "lp": 67,
-      "wins": 310,
-      "losses": 317,
-      "winRate": 49.4,
+      "tier": "MASTER I",
+      "lp": 4,
+      "wins": 312,
+      "losses": 318,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 583,
       "tier": "MASTER I",
-      "lp": 234,
-      "wins": 377,
+      "lp": 294,
+      "wins": 379,
       "losses": 349,
-      "winRate": 51.9,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6640.png"
     },
     {
@@ -569,7 +569,7 @@
     {
       "name": "UIC Muh",
       "role": "TOP",
-      "level": 541,
+      "level": 542,
       "tier": "PLATINUM IV",
       "lp": 57,
       "wins": 167,
@@ -615,10 +615,10 @@
       "role": "MID",
       "level": 622,
       "tier": "DIAMOND IV",
-      "lp": 56,
-      "wins": 375,
+      "lp": 76,
+      "wins": 376,
       "losses": 346,
-      "winRate": 52,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/23.png"
     },
     {
@@ -795,12 +795,12 @@
     {
       "name": "yShizuu",
       "role": "JGL",
-      "level": 507,
+      "level": 508,
       "tier": "DIAMOND I",
-      "lp": 59,
-      "wins": 184,
-      "losses": 178,
-      "winRate": 50.8,
+      "lp": 76,
+      "wins": 186,
+      "losses": 179,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6759.png"
     },
     {
