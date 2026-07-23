@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1043,
       "tier": "MASTER I",
-      "lp": 39,
+      "lp": 0,
       "wins": 308,
-      "losses": 312,
-      "winRate": 49.7,
+      "losses": 314,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -490,12 +490,12 @@
     {
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 948,
+      "level": 949,
       "tier": "DIAMOND II",
-      "lp": 52,
-      "wins": 113,
-      "losses": 102,
-      "winRate": 52.6,
+      "lp": 67,
+      "wins": 115,
+      "losses": 103,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7169.png"
     },
     {
@@ -614,10 +614,10 @@
       "name": "UIC GroßATuin",
       "role": "MID",
       "level": 621,
-      "tier": "DIAMOND III",
-      "lp": 16,
+      "tier": "DIAMOND IV",
+      "lp": 96,
       "wins": 374,
-      "losses": 342,
+      "losses": 343,
       "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/23.png"
     },
@@ -659,10 +659,10 @@
       "role": "SUP",
       "level": 590,
       "tier": "GOLD III",
-      "lp": 71,
-      "wins": 152,
+      "lp": 90,
+      "wins": 153,
       "losses": 165,
-      "winRate": 47.9,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7064.png"
     }
   ],
