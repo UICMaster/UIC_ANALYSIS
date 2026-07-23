@@ -84,7 +84,7 @@
       "role": "TOP",
       "level": 257,
       "tier": "MASTER I",
-      "lp": 585,
+      "lp": 510,
       "wins": 133,
       "losses": 104,
       "winRate": 56.1,
@@ -95,11 +95,11 @@
       "role": "JGL",
       "level": 293,
       "tier": "GRANDMASTER I",
-      "lp": 1912,
+      "lp": 1877,
       "wins": 291,
-      "losses": 251,
-      "winRate": 53.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4302.png"
+      "losses": 252,
+      "winRate": 53.6,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7147.png"
     },
     {
       "name": "UIC Symphonie",
@@ -378,10 +378,10 @@
       "role": "MID",
       "level": 931,
       "tier": "DIAMOND II",
-      "lp": 28,
-      "wins": 226,
+      "lp": 66,
+      "wins": 227,
       "losses": 253,
-      "winRate": 47.2,
+      "winRate": 47.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5954.png"
     },
     {
@@ -635,11 +635,11 @@
     {
       "name": "UIC Deavan",
       "role": "BOT",
-      "level": 431,
+      "level": 432,
       "tier": "PLATINUM II",
-      "lp": 60,
-      "wins": 226,
-      "losses": 203,
+      "lp": 59,
+      "wins": 227,
+      "losses": 204,
       "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7172.png"
     },
@@ -657,7 +657,7 @@
     {
       "name": "UIC Excellent C",
       "role": "SUP",
-      "level": 589,
+      "level": 590,
       "tier": "GOLD III",
       "lp": 71,
       "wins": 152,
@@ -740,10 +740,10 @@
       "role": "JGL",
       "level": 1169,
       "tier": "MASTER I",
-      "lp": 15,
-      "wins": 107,
+      "lp": 45,
+      "wins": 108,
       "losses": 96,
-      "winRate": 52.7,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7123.png"
     },
     {
