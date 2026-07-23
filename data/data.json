@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1188,
       "tier": "DIAMOND II",
-      "lp": 7,
-      "wins": 222,
+      "lp": 46,
+      "wins": 224,
       "losses": 239,
-      "winRate": 48.2,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4835.png"
     },
     {
@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1056,
       "tier": "MASTER I",
-      "lp": 213,
-      "wins": 223,
+      "lp": 273,
+      "wins": 225,
       "losses": 214,
-      "winRate": 51,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
     {
@@ -184,11 +184,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1044,
-      "tier": "MASTER I",
-      "lp": 29,
+      "tier": "DIAMOND I",
+      "lp": 50,
       "wins": 313,
-      "losses": 319,
-      "winRate": 49.5,
+      "losses": 322,
+      "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -411,10 +411,10 @@
       "role": "COH",
       "level": 830,
       "tier": "DIAMOND III",
-      "lp": 9,
-      "wins": 184,
+      "lp": 49,
+      "wins": 186,
       "losses": 171,
-      "winRate": 51.8,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3366.png"
     },
     {
@@ -514,21 +514,21 @@
       "role": "MID",
       "level": 611,
       "tier": "PLATINUM II",
-      "lp": 1,
-      "wins": 158,
+      "lp": 19,
+      "wins": 159,
       "losses": 155,
-      "winRate": 50.5,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     },
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 635,
-      "tier": "DIAMOND I",
-      "lp": 21,
+      "tier": "DIAMOND II",
+      "lp": 98,
       "wins": 307,
-      "losses": 322,
-      "winRate": 48.8,
+      "losses": 323,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7172.png"
     },
     {
@@ -591,7 +591,7 @@
     {
       "name": "UIC Namorii",
       "role": "JGL",
-      "level": 972,
+      "level": 973,
       "tier": "DIAMOND II",
       "lp": 5,
       "wins": 69,
@@ -749,12 +749,12 @@
     {
       "name": "UIC Flare",
       "role": "MID",
-      "level": 651,
-      "tier": "EMERALD II",
-      "lp": 40,
+      "level": 652,
+      "tier": "EMERALD III",
+      "lp": 96,
       "wins": 130,
-      "losses": 135,
-      "winRate": 49.1,
+      "losses": 137,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/626.png"
     },
     {
