@@ -9,7 +9,7 @@
       "wins": 226,
       "losses": 240,
       "winRate": 48.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4835.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/627.png"
     },
     {
       "name": "UIC Niki",
@@ -60,10 +60,10 @@
       "role": "MID",
       "level": 1092,
       "tier": "MASTER I",
-      "lp": 158,
+      "lp": 131,
       "wins": 417,
-      "losses": 405,
-      "winRate": 50.7,
+      "losses": 407,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3151.png"
     },
     {
@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1046,
       "tier": "MASTER I",
-      "lp": 7,
-      "wins": 325,
+      "lp": 37,
+      "wins": 326,
       "losses": 330,
-      "winRate": 49.6,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -253,16 +253,16 @@
       "role": "BOT",
       "level": 808,
       "tier": "DIAMOND IV",
-      "lp": 59,
+      "lp": 38,
       "wins": 105,
-      "losses": 90,
-      "winRate": 53.8,
+      "losses": 91,
+      "winRate": 53.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7167.png"
     },
     {
       "name": "UIC FirstBlo",
       "role": "SUP",
-      "level": 506,
+      "level": 507,
       "tier": "MASTER I",
       "lp": 210,
       "wins": 133,
@@ -400,10 +400,10 @@
       "role": "SUP",
       "level": 1017,
       "tier": "MASTER I",
-      "lp": 623,
-      "wins": 113,
+      "lp": 654,
+      "wins": 114,
       "losses": 99,
-      "winRate": 53.3,
+      "winRate": 53.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6622.png"
     },
     {
@@ -466,7 +466,7 @@
     {
       "name": "UIC Pjure",
       "role": "BOT",
-      "level": 764,
+      "level": 765,
       "tier": "MASTER I",
       "lp": 1,
       "wins": 146,
@@ -560,11 +560,11 @@
       "role": "TOP",
       "level": 887,
       "tier": "DIAMOND IV",
-      "lp": 65,
-      "wins": 71,
+      "lp": 87,
+      "wins": 72,
       "losses": 59,
-      "winRate": 54.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6340.png"
+      "winRate": 55,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5917.png"
     },
     {
       "name": "UIC Muh",
@@ -572,8 +572,8 @@
       "level": 543,
       "tier": "PLATINUM IV",
       "lp": 0,
-      "wins": 175,
-      "losses": 181,
+      "wins": 176,
+      "losses": 182,
       "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7123.png"
     },
@@ -714,12 +714,12 @@
     {
       "name": "LordZash",
       "role": "SUP",
-      "level": 765,
+      "level": 766,
       "tier": "PLATINUM III",
-      "lp": 71,
-      "wins": 105,
-      "losses": 113,
-      "winRate": 48.2,
+      "lp": 27,
+      "wins": 106,
+      "losses": 116,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6378.png"
     }
   ],
