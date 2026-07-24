@@ -56,14 +56,14 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
     {
-      "name": "Baumi",
+      "name": "UIC Baumi",
       "role": "MID",
       "level": 1092,
       "tier": "MASTER I",
-      "lp": 185,
+      "lp": 158,
       "wins": 417,
-      "losses": 404,
-      "winRate": 50.8,
+      "losses": 405,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3151.png"
     },
     {
@@ -184,11 +184,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1045,
-      "tier": "MASTER I",
-      "lp": 29,
+      "tier": "DIAMOND I",
+      "lp": 50,
       "wins": 322,
-      "losses": 327,
-      "winRate": 49.6,
+      "losses": 330,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -252,11 +252,11 @@
       "name": "UIC Painfull",
       "role": "BOT",
       "level": 808,
-      "tier": "DIAMOND III",
-      "lp": 1,
+      "tier": "DIAMOND IV",
+      "lp": 80,
       "wins": 104,
-      "losses": 87,
-      "winRate": 54.5,
+      "losses": 88,
+      "winRate": 54.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7167.png"
     },
     {
@@ -571,10 +571,10 @@
       "role": "TOP",
       "level": 543,
       "tier": "GOLD I",
-      "lp": 46,
-      "wins": 171,
-      "losses": 179,
-      "winRate": 48.9,
+      "lp": 63,
+      "wins": 173,
+      "losses": 180,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7123.png"
     },
     {
@@ -716,10 +716,10 @@
       "role": "SUP",
       "level": 765,
       "tier": "PLATINUM III",
-      "lp": 98,
+      "lp": 34,
       "wins": 103,
-      "losses": 110,
-      "winRate": 48.4,
+      "losses": 113,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6378.png"
     }
   ],
