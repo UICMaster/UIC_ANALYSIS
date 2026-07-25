@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1189,
       "tier": "DIAMOND II",
-      "lp": 44,
-      "wins": 229,
+      "lp": 84,
+      "wins": 231,
       "losses": 244,
-      "winRate": 48.4,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/627.png"
     },
     {
@@ -286,7 +286,7 @@
     {
       "name": "UIC RealCrimes",
       "role": "JGL",
-      "level": 1063,
+      "level": 1064,
       "tier": "DIAMOND IV",
       "lp": 29,
       "wins": 49,
@@ -409,12 +409,12 @@
     {
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 831,
+      "level": 832,
       "tier": "DIAMOND III",
-      "lp": 49,
-      "wins": 191,
+      "lp": 89,
+      "wins": 193,
       "losses": 176,
-      "winRate": 52,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3366.png"
     },
     {
@@ -501,7 +501,7 @@
     {
       "name": "Blauerlupos",
       "role": "JGL",
-      "level": 1145,
+      "level": 1146,
       "tier": "DIAMOND IV",
       "lp": 0,
       "wins": 320,
