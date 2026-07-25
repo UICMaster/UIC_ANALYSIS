@@ -5,21 +5,21 @@
       "role": "TOP",
       "level": 1189,
       "tier": "DIAMOND II",
-      "lp": 44,
-      "wins": 228,
+      "lp": 64,
+      "wins": 229,
       "losses": 243,
-      "winRate": 48.4,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/627.png"
     },
     {
       "name": "UIC Niki",
       "role": "JGL",
-      "level": 1057,
+      "level": 1058,
       "tier": "MASTER I",
-      "lp": 212,
-      "wins": 228,
+      "lp": 242,
+      "wins": 229,
       "losses": 220,
-      "winRate": 50.9,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
     {
@@ -308,12 +308,12 @@
     {
       "name": "UIC BissiBoy",
       "role": "BOT",
-      "level": 797,
+      "level": 798,
       "tier": "DIAMOND II",
-      "lp": 24,
-      "wins": 241,
+      "lp": 44,
+      "wins": 242,
       "losses": 253,
-      "winRate": 48.8,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6379.png"
     },
     {
@@ -411,10 +411,10 @@
       "role": "COH",
       "level": 831,
       "tier": "DIAMOND III",
-      "lp": 49,
-      "wins": 190,
+      "lp": 69,
+      "wins": 191,
       "losses": 175,
-      "winRate": 52.1,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3366.png"
     },
     {
@@ -536,10 +536,10 @@
       "role": "SUP",
       "level": 335,
       "tier": "MASTER I",
-      "lp": 148,
-      "wins": 132,
+      "lp": 178,
+      "wins": 133,
       "losses": 113,
-      "winRate": 53.9,
+      "winRate": 54.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4793.png"
     },
     {
@@ -558,7 +558,7 @@
     {
       "name": "UIC Kaetaya",
       "role": "TOP",
-      "level": 887,
+      "level": 888,
       "tier": "DIAMOND IV",
       "lp": 87,
       "wins": 72,
@@ -573,8 +573,8 @@
       "tier": "PLATINUM IV",
       "lp": 0,
       "wins": 177,
-      "losses": 183,
-      "winRate": 49.2,
+      "losses": 184,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7123.png"
     },
     {
@@ -716,10 +716,10 @@
       "role": "SUP",
       "level": 766,
       "tier": "PLATINUM IV",
-      "lp": 36,
-      "wins": 107,
-      "losses": 121,
-      "winRate": 46.9,
+      "lp": 32,
+      "wins": 108,
+      "losses": 122,
+      "winRate": 47,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6378.png"
     }
   ],
