@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1047,
       "tier": "MASTER I",
-      "lp": 217,
-      "wins": 332,
+      "lp": 277,
+      "wins": 334,
       "losses": 332,
-      "winRate": 50,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -231,9 +231,9 @@
       "role": "JGL",
       "level": 986,
       "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 151,
-      "losses": 146,
+      "lp": 18,
+      "wins": 152,
+      "losses": 147,
       "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4967.png"
     },
@@ -297,7 +297,7 @@
     {
       "name": "UIC Landmine",
       "role": "MID",
-      "level": 673,
+      "level": 674,
       "tier": "EMERALD I",
       "lp": 59,
       "wins": 74,
@@ -514,10 +514,10 @@
       "role": "MID",
       "level": 612,
       "tier": "PLATINUM II",
-      "lp": 19,
-      "wins": 159,
+      "lp": 37,
+      "wins": 160,
       "losses": 155,
-      "winRate": 50.6,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     },
     {
@@ -750,11 +750,11 @@
       "name": "UIC Flare",
       "role": "MID",
       "level": 652,
-      "tier": "EMERALD III",
-      "lp": 96,
-      "wins": 130,
+      "tier": "EMERALD II",
+      "lp": 14,
+      "wins": 131,
       "losses": 137,
-      "winRate": 48.7,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/626.png"
     },
     {
