@@ -3,12 +3,12 @@
     {
       "name": "UIC Speedy",
       "role": "TOP",
-      "level": 1188,
+      "level": 1189,
       "tier": "DIAMOND II",
-      "lp": 26,
-      "wins": 226,
-      "losses": 242,
-      "winRate": 48.3,
+      "lp": 44,
+      "wins": 228,
+      "losses": 243,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/627.png"
     },
     {
@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1057,
       "tier": "MASTER I",
-      "lp": 273,
+      "lp": 212,
       "wins": 228,
-      "losses": 218,
-      "winRate": 51.1,
+      "losses": 220,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
     {
@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 660,
       "tier": "MASTER I",
-      "lp": 574,
-      "wins": 134,
+      "lp": 603,
+      "wins": 135,
       "losses": 114,
-      "winRate": 54,
+      "winRate": 54.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     }
   ],
@@ -115,12 +115,12 @@
     {
       "name": "UIC Stevie",
       "role": "BOT",
-      "level": 178,
+      "level": 179,
       "tier": "MASTER I",
-      "lp": 1005,
+      "lp": 970,
       "wins": 483,
-      "losses": 455,
-      "winRate": 51.5,
+      "losses": 456,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/1455.png"
     },
     {
@@ -149,11 +149,11 @@
       "name": "Webzy",
       "role": "COH",
       "level": 1153,
-      "tier": "EMERALD II",
-      "lp": 12,
+      "tier": "EMERALD III",
+      "lp": 91,
       "wins": 223,
-      "losses": 239,
-      "winRate": 48.3,
+      "losses": 240,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7084.png"
     }
   ],
@@ -183,12 +183,12 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1046,
+      "level": 1047,
       "tier": "MASTER I",
-      "lp": 157,
-      "wins": 330,
+      "lp": 217,
+      "wins": 332,
       "losses": 331,
-      "winRate": 49.9,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -411,10 +411,10 @@
       "role": "COH",
       "level": 831,
       "tier": "DIAMOND III",
-      "lp": 29,
-      "wins": 188,
-      "losses": 174,
-      "winRate": 51.9,
+      "lp": 49,
+      "wins": 190,
+      "losses": 175,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3366.png"
     },
     {
@@ -564,16 +564,16 @@
       "wins": 72,
       "losses": 59,
       "winRate": 55,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5917.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7129.png"
     },
     {
       "name": "UIC Muh",
       "role": "TOP",
-      "level": 543,
+      "level": 544,
       "tier": "PLATINUM IV",
       "lp": 0,
-      "wins": 176,
-      "losses": 182,
+      "wins": 177,
+      "losses": 183,
       "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7123.png"
     },
