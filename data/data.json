@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1046,
       "tier": "MASTER I",
-      "lp": 37,
-      "wins": 326,
+      "lp": 67,
+      "wins": 327,
       "losses": 330,
-      "winRate": 49.7,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -625,12 +625,12 @@
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1449,
-      "tier": "GOLD I",
-      "lp": 1,
-      "wins": 661,
-      "losses": 663,
+      "tier": "GOLD II",
+      "lp": 74,
+      "wins": 662,
+      "losses": 665,
       "winRate": 49.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7157.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7143.png"
     },
     {
       "name": "UIC Deavan",
