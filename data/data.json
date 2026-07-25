@@ -231,10 +231,10 @@
       "role": "JGL",
       "level": 986,
       "tier": "DIAMOND IV",
-      "lp": 8,
+      "lp": 0,
       "wins": 151,
-      "losses": 145,
-      "winRate": 51,
+      "losses": 146,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4967.png"
     },
     {
@@ -354,10 +354,10 @@
     {
       "name": "UIC Kamo",
       "role": "TOP",
-      "level": 583,
+      "level": 584,
       "tier": "MASTER I",
-      "lp": 354,
-      "wins": 383,
+      "lp": 384,
+      "wins": 384,
       "losses": 351,
       "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6640.png"
@@ -512,7 +512,7 @@
     {
       "name": "UIC Ayumu",
       "role": "MID",
-      "level": 611,
+      "level": 612,
       "tier": "PLATINUM II",
       "lp": 19,
       "wins": 159,
