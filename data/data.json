@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1189,
       "tier": "DIAMOND II",
-      "lp": 64,
+      "lp": 44,
       "wins": 229,
-      "losses": 243,
-      "winRate": 48.5,
+      "losses": 244,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/627.png"
     },
     {
@@ -187,8 +187,8 @@
       "tier": "MASTER I",
       "lp": 217,
       "wins": 332,
-      "losses": 331,
-      "winRate": 50.1,
+      "losses": 332,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -387,12 +387,12 @@
     {
       "name": "UIC AutumnLeaf",
       "role": "BOT",
-      "level": 866,
+      "level": 867,
       "tier": "MASTER I",
-      "lp": 407,
-      "wins": 153,
+      "lp": 437,
+      "wins": 154,
       "losses": 128,
-      "winRate": 54.4,
+      "winRate": 54.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6943.png"
     },
     {
@@ -411,10 +411,10 @@
       "role": "COH",
       "level": 831,
       "tier": "DIAMOND III",
-      "lp": 69,
+      "lp": 49,
       "wins": 191,
-      "losses": 175,
-      "winRate": 52.2,
+      "losses": 176,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3366.png"
     },
     {
@@ -716,9 +716,9 @@
       "role": "SUP",
       "level": 766,
       "tier": "PLATINUM IV",
-      "lp": 32,
-      "wins": 108,
-      "losses": 122,
+      "lp": 28,
+      "wins": 109,
+      "losses": 123,
       "winRate": 47,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6378.png"
     }
