@@ -240,7 +240,7 @@
     {
       "name": "UIC Kaoxz",
       "role": "MID",
-      "level": 482,
+      "level": 483,
       "tier": "DIAMOND IV",
       "lp": 46,
       "wins": 89,
@@ -715,11 +715,11 @@
       "name": "LordZash",
       "role": "SUP",
       "level": 766,
-      "tier": "PLATINUM III",
-      "lp": 5,
-      "wins": 106,
-      "losses": 117,
-      "winRate": 47.5,
+      "tier": "PLATINUM IV",
+      "lp": 36,
+      "wins": 107,
+      "losses": 121,
+      "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6378.png"
     }
   ],
