@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1189,
       "tier": "DIAMOND II",
-      "lp": 64,
+      "lp": 44,
       "wins": 232,
-      "losses": 246,
-      "winRate": 48.5,
+      "losses": 247,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/627.png"
     },
     {
@@ -71,10 +71,10 @@
       "role": "MID",
       "level": 660,
       "tier": "MASTER I",
-      "lp": 603,
-      "wins": 135,
+      "lp": 632,
+      "wins": 136,
       "losses": 114,
-      "winRate": 54.2,
+      "winRate": 54.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     }
   ],
@@ -148,12 +148,12 @@
     {
       "name": "Webzy",
       "role": "COH",
-      "level": 1153,
+      "level": 1154,
       "tier": "EMERALD II",
-      "lp": 8,
-      "wins": 226,
-      "losses": 242,
-      "winRate": 48.3,
+      "lp": 27,
+      "wins": 228,
+      "losses": 243,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7084.png"
     }
   ],
@@ -185,8 +185,8 @@
       "role": "MID",
       "level": 1047,
       "tier": "MASTER I",
-      "lp": 247,
-      "wins": 337,
+      "lp": 277,
+      "wins": 338,
       "losses": 336,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
@@ -378,9 +378,9 @@
       "role": "MID",
       "level": 933,
       "tier": "DIAMOND I",
-      "lp": 44,
-      "wins": 235,
-      "losses": 256,
+      "lp": 41,
+      "wins": 236,
+      "losses": 257,
       "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5954.png"
     },
@@ -411,10 +411,10 @@
       "role": "COH",
       "level": 832,
       "tier": "DIAMOND III",
-      "lp": 49,
+      "lp": 29,
       "wins": 193,
-      "losses": 178,
-      "winRate": 52,
+      "losses": 179,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3366.png"
     },
     {
@@ -626,10 +626,10 @@
       "role": "BOT",
       "level": 1449,
       "tier": "GOLD II",
-      "lp": 74,
-      "wins": 662,
-      "losses": 665,
-      "winRate": 49.9,
+      "lp": 45,
+      "wins": 663,
+      "losses": 667,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7143.png"
     },
     {
@@ -683,10 +683,10 @@
       "role": "JGL",
       "level": 473,
       "tier": "GOLD IV",
-      "lp": 29,
-      "wins": 143,
+      "lp": 49,
+      "wins": 144,
       "losses": 146,
-      "winRate": 49.5,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3539.png"
     },
     {
@@ -716,10 +716,10 @@
       "role": "SUP",
       "level": 767,
       "tier": "PLATINUM IV",
-      "lp": 24,
-      "wins": 110,
-      "losses": 124,
-      "winRate": 47,
+      "lp": 0,
+      "wins": 111,
+      "losses": 126,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6378.png"
     }
   ],
