@@ -84,7 +84,7 @@
       "role": "TOP",
       "level": 257,
       "tier": "MASTER I",
-      "lp": 285,
+      "lp": 210,
       "wins": 133,
       "losses": 104,
       "winRate": 56.1,
@@ -411,10 +411,10 @@
       "role": "COH",
       "level": 833,
       "tier": "DIAMOND IV",
-      "lp": 6,
-      "wins": 196,
+      "lp": 25,
+      "wins": 197,
       "losses": 188,
-      "winRate": 51,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3366.png"
     },
     {
