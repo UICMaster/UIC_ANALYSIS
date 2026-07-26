@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1058,
       "tier": "MASTER I",
-      "lp": 272,
-      "wins": 231,
+      "lp": 302,
+      "wins": 232,
       "losses": 221,
-      "winRate": 51.1,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
     {
@@ -149,11 +149,11 @@
       "name": "Webzy",
       "role": "COH",
       "level": 1153,
-      "tier": "EMERALD III",
-      "lp": 91,
-      "wins": 223,
+      "tier": "EMERALD II",
+      "lp": 10,
+      "wins": 224,
       "losses": 240,
-      "winRate": 48.2,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7084.png"
     }
   ],
@@ -286,7 +286,7 @@
     {
       "name": "UIC RealCrimes",
       "role": "JGL",
-      "level": 1064,
+      "level": 1065,
       "tier": "DIAMOND IV",
       "lp": 29,
       "wins": 49,
