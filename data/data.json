@@ -4,11 +4,11 @@
       "name": "UIC Speedy",
       "role": "TOP",
       "level": 1190,
-      "tier": "DIAMOND II",
-      "lp": 23,
+      "tier": "DIAMOND III",
+      "lp": 82,
       "wins": 235,
-      "losses": 251,
-      "winRate": 48.4,
+      "losses": 253,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/627.png"
     },
     {
@@ -150,10 +150,10 @@
       "role": "COH",
       "level": 1154,
       "tier": "EMERALD II",
-      "lp": 67,
-      "wins": 230,
+      "lp": 87,
+      "wins": 231,
       "losses": 243,
-      "winRate": 48.6,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7084.png"
     }
   ],
@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1048,
       "tier": "MASTER I",
-      "lp": 217,
-      "wins": 338,
+      "lp": 277,
+      "wins": 340,
       "losses": 338,
-      "winRate": 50,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -357,8 +357,8 @@
       "level": 585,
       "tier": "MASTER I",
       "lp": 444,
-      "wins": 387,
-      "losses": 353,
+      "wins": 388,
+      "losses": 354,
       "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6640.png"
     },
@@ -376,12 +376,12 @@
     {
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 933,
-      "tier": "DIAMOND II",
-      "lp": 75,
-      "wins": 236,
+      "level": 934,
+      "tier": "DIAMOND I",
+      "lp": 11,
+      "wins": 238,
       "losses": 261,
-      "winRate": 47.5,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5954.png"
     },
     {
@@ -410,11 +410,11 @@
       "name": "UIC Loonz",
       "role": "COH",
       "level": 833,
-      "tier": "DIAMOND III",
-      "lp": 9,
+      "tier": "DIAMOND IV",
+      "lp": 69,
       "wins": 196,
-      "losses": 183,
-      "winRate": 51.7,
+      "losses": 185,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3366.png"
     },
     {
@@ -602,7 +602,7 @@
     {
       "name": "UIC adedier",
       "role": "MID",
-      "level": 634,
+      "level": 635,
       "tier": "PLATINUM II",
       "lp": 90,
       "wins": 132,
@@ -637,10 +637,10 @@
       "role": "BOT",
       "level": 433,
       "tier": "PLATINUM II",
-      "lp": 78,
+      "lp": 58,
       "wins": 230,
-      "losses": 206,
-      "winRate": 52.8,
+      "losses": 207,
+      "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7172.png"
     },
     {
