@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1190,
       "tier": "DIAMOND II",
-      "lp": 24,
-      "wins": 233,
-      "losses": 249,
-      "winRate": 48.3,
+      "lp": 44,
+      "wins": 235,
+      "losses": 250,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/627.png"
     },
     {
@@ -330,7 +330,7 @@
     {
       "name": "McOffensive",
       "role": "TOP",
-      "level": 728,
+      "level": 729,
       "tier": "EMERALD I",
       "lp": 58,
       "wins": 40,
@@ -354,11 +354,11 @@
     {
       "name": "UIC Kamo",
       "role": "TOP",
-      "level": 584,
+      "level": 585,
       "tier": "MASTER I",
-      "lp": 414,
-      "wins": 385,
-      "losses": 351,
+      "lp": 444,
+      "wins": 386,
+      "losses": 352,
       "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6640.png"
     },
@@ -409,12 +409,12 @@
     {
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 832,
+      "level": 833,
       "tier": "DIAMOND III",
-      "lp": 9,
-      "wins": 194,
-      "losses": 181,
-      "winRate": 51.7,
+      "lp": 29,
+      "wins": 196,
+      "losses": 182,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3366.png"
     },
     {
@@ -466,7 +466,7 @@
     {
       "name": "UIC Pjure",
       "role": "BOT",
-      "level": 765,
+      "level": 766,
       "tier": "MASTER I",
       "lp": 1,
       "wins": 146,
@@ -604,10 +604,10 @@
       "role": "MID",
       "level": 634,
       "tier": "PLATINUM II",
-      "lp": 69,
-      "wins": 131,
+      "lp": 90,
+      "wins": 132,
       "losses": 129,
-      "winRate": 50.4,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4379.png"
     },
     {
