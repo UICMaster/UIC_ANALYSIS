@@ -277,10 +277,10 @@
       "role": "TOP",
       "level": 1324,
       "tier": "MASTER I",
-      "lp": 47,
+      "lp": 16,
       "wins": 258,
-      "losses": 269,
-      "winRate": 49,
+      "losses": 270,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     },
     {
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 585,
       "tier": "MASTER I",
-      "lp": 414,
-      "wins": 388,
+      "lp": 444,
+      "wins": 389,
       "losses": 355,
-      "winRate": 52.2,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6640.png"
     },
     {
@@ -411,10 +411,10 @@
       "role": "COH",
       "level": 833,
       "tier": "DIAMOND IV",
-      "lp": 69,
+      "lp": 48,
       "wins": 196,
-      "losses": 185,
-      "winRate": 51.4,
+      "losses": 186,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3366.png"
     },
     {
@@ -635,7 +635,7 @@
     {
       "name": "UIC Deavan",
       "role": "BOT",
-      "level": 433,
+      "level": 434,
       "tier": "PLATINUM II",
       "lp": 58,
       "wins": 230,
@@ -714,7 +714,7 @@
     {
       "name": "LordZash",
       "role": "SUP",
-      "level": 767,
+      "level": 768,
       "tier": "PLATINUM IV",
       "lp": 0,
       "wins": 111,
