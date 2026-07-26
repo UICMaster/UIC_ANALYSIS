@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1058,
       "tier": "MASTER I",
-      "lp": 302,
+      "lp": 272,
       "wins": 231,
-      "losses": 220,
-      "winRate": 51.2,
+      "losses": 221,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
     {
@@ -378,10 +378,10 @@
       "role": "MID",
       "level": 932,
       "tier": "DIAMOND I",
-      "lp": 8,
-      "wins": 233,
+      "lp": 26,
+      "wins": 234,
       "losses": 256,
-      "winRate": 47.6,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/5954.png"
     },
     {
@@ -714,11 +714,11 @@
     {
       "name": "LordZash",
       "role": "SUP",
-      "level": 766,
+      "level": 767,
       "tier": "PLATINUM IV",
-      "lp": 28,
-      "wins": 109,
-      "losses": 123,
+      "lp": 24,
+      "wins": 110,
+      "losses": 124,
       "winRate": 47,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6378.png"
     }
