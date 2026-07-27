@@ -5,21 +5,21 @@
       "role": "TOP",
       "level": 1191,
       "tier": "DIAMOND III",
-      "lp": 74,
+      "lp": 53,
       "wins": 239,
-      "losses": 257,
-      "winRate": 48.2,
+      "losses": 258,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/627.png"
     },
     {
       "name": "UIC Niki",
       "role": "JGL",
-      "level": 1058,
+      "level": 1059,
       "tier": "MASTER I",
-      "lp": 272,
-      "wins": 232,
-      "losses": 222,
-      "winRate": 51.1,
+      "lp": 302,
+      "wins": 234,
+      "losses": 223,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/4380.png"
     },
     {
@@ -93,12 +93,12 @@
     {
       "name": "Stark",
       "role": "JGL",
-      "level": 294,
+      "level": 295,
       "tier": "GRANDMASTER I",
-      "lp": 1746,
+      "lp": 1677,
       "wins": 294,
-      "losses": 258,
-      "winRate": 53.3,
+      "losses": 260,
+      "winRate": 53.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7147.png"
     },
     {
@@ -411,10 +411,10 @@
       "role": "COH",
       "level": 834,
       "tier": "DIAMOND IV",
-      "lp": 18,
+      "lp": 0,
       "wins": 201,
-      "losses": 193,
-      "winRate": 51,
+      "losses": 194,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3366.png"
     },
     {
@@ -593,10 +593,10 @@
       "role": "JGL",
       "level": 975,
       "tier": "DIAMOND II",
-      "lp": 49,
+      "lp": 30,
       "wins": 72,
-      "losses": 57,
-      "winRate": 55.8,
+      "losses": 58,
+      "winRate": 55.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3791.png"
     },
     {
@@ -751,10 +751,10 @@
       "role": "MID",
       "level": 653,
       "tier": "EMERALD II",
-      "lp": 24,
+      "lp": 2,
       "wins": 134,
-      "losses": 139,
-      "winRate": 49.1,
+      "losses": 140,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/626.png"
     },
     {
