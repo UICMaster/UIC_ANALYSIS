@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1190,
       "tier": "DIAMOND III",
-      "lp": 61,
-      "wins": 235,
-      "losses": 254,
-      "winRate": 48.1,
+      "lp": 78,
+      "wins": 237,
+      "losses": 255,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/627.png"
     },
     {
@@ -95,9 +95,9 @@
       "role": "JGL",
       "level": 294,
       "tier": "GRANDMASTER I",
-      "lp": 1755,
-      "wins": 293,
-      "losses": 257,
+      "lp": 1746,
+      "wins": 294,
+      "losses": 258,
       "winRate": 53.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7147.png"
     },
@@ -194,12 +194,12 @@
     {
       "name": "Pferdemilch",
       "role": "BOT",
-      "level": 856,
+      "level": 857,
       "tier": "EMERALD IV",
-      "lp": 3,
+      "lp": 0,
       "wins": 69,
-      "losses": 90,
-      "winRate": 43.4,
+      "losses": 91,
+      "winRate": 43.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6582.png"
     },
     {
@@ -409,11 +409,11 @@
     {
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 833,
+      "level": 834,
       "tier": "DIAMOND IV",
-      "lp": 4,
-      "wins": 197,
-      "losses": 189,
+      "lp": 18,
+      "wins": 199,
+      "losses": 191,
       "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3366.png"
     },
@@ -490,7 +490,7 @@
     {
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 950,
+      "level": 951,
       "tier": "DIAMOND II",
       "lp": 47,
       "wins": 117,
@@ -740,10 +740,10 @@
       "role": "JGL",
       "level": 1170,
       "tier": "MASTER I",
-      "lp": 45,
-      "wins": 108,
+      "lp": 75,
+      "wins": 109,
       "losses": 96,
-      "winRate": 52.9,
+      "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7123.png"
     },
     {
@@ -819,10 +819,10 @@
       "role": "BOT",
       "level": 647,
       "tier": "EMERALD I",
-      "lp": 53,
+      "lp": 31,
       "wins": 87,
-      "losses": 99,
-      "winRate": 46.8,
+      "losses": 100,
+      "winRate": 46.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6330.png"
     },
     {
