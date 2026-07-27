@@ -150,10 +150,10 @@
       "role": "COH",
       "level": 1154,
       "tier": "EMERALD II",
-      "lp": 87,
+      "lp": 67,
       "wins": 231,
-      "losses": 243,
-      "winRate": 48.7,
+      "losses": 244,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7084.png"
     }
   ],
@@ -185,10 +185,10 @@
       "role": "MID",
       "level": 1048,
       "tier": "MASTER I",
-      "lp": 307,
+      "lp": 247,
       "wins": 341,
-      "losses": 339,
-      "winRate": 50.1,
+      "losses": 341,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
     {
@@ -229,7 +229,7 @@
     {
       "name": "UIC Hunter",
       "role": "JGL",
-      "level": 986,
+      "level": 987,
       "tier": "DIAMOND IV",
       "lp": 36,
       "wins": 153,
@@ -387,12 +387,12 @@
     {
       "name": "UIC AutumnLeaf",
       "role": "BOT",
-      "level": 867,
+      "level": 868,
       "tier": "MASTER I",
-      "lp": 437,
+      "lp": 406,
       "wins": 154,
-      "losses": 128,
-      "winRate": 54.6,
+      "losses": 129,
+      "winRate": 54.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6943.png"
     },
     {
@@ -492,10 +492,10 @@
       "role": "TOP",
       "level": 950,
       "tier": "DIAMOND II",
-      "lp": 67,
-      "wins": 116,
-      "losses": 104,
-      "winRate": 52.7,
+      "lp": 47,
+      "wins": 117,
+      "losses": 106,
+      "winRate": 52.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7169.png"
     },
     {
@@ -504,8 +504,8 @@
       "level": 1146,
       "tier": "DIAMOND IV",
       "lp": 0,
-      "wins": 320,
-      "losses": 324,
+      "wins": 321,
+      "losses": 325,
       "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/3382.png"
     },
@@ -513,11 +513,11 @@
       "name": "UIC Ayumu",
       "role": "MID",
       "level": 612,
-      "tier": "PLATINUM III",
-      "lp": 89,
-      "wins": 161,
-      "losses": 158,
-      "winRate": 50.5,
+      "tier": "PLATINUM II",
+      "lp": 4,
+      "wins": 163,
+      "losses": 159,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     },
     {
