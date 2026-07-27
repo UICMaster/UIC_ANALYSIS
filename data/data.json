@@ -150,10 +150,10 @@
       "role": "COH",
       "level": 1154,
       "tier": "EMERALD II",
-      "lp": 67,
-      "wins": 231,
-      "losses": 244,
-      "winRate": 48.6,
+      "lp": 47,
+      "wins": 232,
+      "losses": 246,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7084.png"
     }
   ],
@@ -183,11 +183,11 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1048,
+      "level": 1049,
       "tier": "MASTER I",
       "lp": 247,
-      "wins": 341,
-      "losses": 341,
+      "wins": 343,
+      "losses": 343,
       "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6284.png"
     },
@@ -240,7 +240,7 @@
     {
       "name": "UIC Kaoxz",
       "role": "MID",
-      "level": 483,
+      "level": 484,
       "tier": "DIAMOND IV",
       "lp": 46,
       "wins": 89,
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 585,
       "tier": "MASTER I",
-      "lp": 444,
+      "lp": 384,
       "wins": 389,
-      "losses": 355,
-      "winRate": 52.3,
+      "losses": 357,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/6640.png"
     },
     {
@@ -512,11 +512,11 @@
     {
       "name": "UIC Ayumu",
       "role": "MID",
-      "level": 612,
+      "level": 613,
       "tier": "PLATINUM II",
-      "lp": 4,
-      "wins": 163,
-      "losses": 159,
+      "lp": 20,
+      "wins": 164,
+      "losses": 160,
       "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7168.png"
     },
@@ -525,9 +525,9 @@
       "role": "BOT",
       "level": 636,
       "tier": "DIAMOND II",
-      "lp": 86,
+      "lp": 64,
       "wins": 309,
-      "losses": 325,
+      "losses": 326,
       "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/7172.png"
     },
@@ -749,12 +749,12 @@
     {
       "name": "UIC Flare",
       "role": "MID",
-      "level": 652,
+      "level": 653,
       "tier": "EMERALD II",
-      "lp": 14,
-      "wins": 131,
-      "losses": 137,
-      "winRate": 48.9,
+      "lp": 24,
+      "wins": 134,
+      "losses": 139,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/profileicon/626.png"
     },
     {
