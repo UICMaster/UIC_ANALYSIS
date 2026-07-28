@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1059,
       "tier": "MASTER I",
-      "lp": 332,
-      "wins": 236,
+      "lp": 362,
+      "wins": 237,
       "losses": 224,
-      "winRate": 51.3,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4380.png"
     },
     {
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 1066,
       "tier": "DIAMOND IV",
-      "lp": 7,
+      "lp": 0,
       "wins": 49,
-      "losses": 58,
-      "winRate": 45.8,
+      "losses": 59,
+      "winRate": 45.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/1453.png"
     },
     {
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 674,
       "tier": "EMERALD I",
-      "lp": 34,
+      "lp": 13,
       "wins": 76,
-      "losses": 82,
-      "winRate": 48.1,
+      "losses": 83,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/615.png"
     },
     {
@@ -591,7 +591,7 @@
     {
       "name": "UIC Namorii",
       "role": "JGL",
-      "level": 975,
+      "level": 976,
       "tier": "DIAMOND II",
       "lp": 30,
       "wins": 72,
@@ -637,10 +637,10 @@
       "role": "BOT",
       "level": 434,
       "tier": "PLATINUM II",
-      "lp": 58,
-      "wins": 230,
+      "lp": 78,
+      "wins": 231,
       "losses": 207,
-      "winRate": 52.6,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7172.png"
     },
     {
@@ -795,7 +795,7 @@
     {
       "name": "yShizuu",
       "role": "JGL",
-      "level": 508,
+      "level": 509,
       "tier": "MASTER I",
       "lp": 13,
       "wins": 191,
