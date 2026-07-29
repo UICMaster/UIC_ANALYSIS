@@ -4,11 +4,11 @@
       "name": "UIC Speedy",
       "role": "TOP",
       "level": 1191,
-      "tier": "DIAMOND III",
-      "lp": 51,
-      "wins": 240,
+      "tier": "DIAMOND II",
+      "lp": 11,
+      "wins": 242,
       "losses": 259,
-      "winRate": 48.1,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/627.png"
     },
     {
@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1059,
       "tier": "MASTER I",
-      "lp": 361,
-      "wins": 238,
+      "lp": 390,
+      "wins": 239,
       "losses": 226,
-      "winRate": 51.3,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4380.png"
     },
     {
@@ -40,8 +40,8 @@
       "tier": "MASTER I",
       "lp": 0,
       "wins": 79,
-      "losses": 74,
-      "winRate": 51.6,
+      "losses": 75,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7.png"
     },
     {
@@ -51,8 +51,8 @@
       "tier": "MASTER I",
       "lp": 0,
       "wins": 161,
-      "losses": 145,
-      "winRate": 52.6,
+      "losses": 146,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4380.png"
     },
     {
@@ -60,10 +60,10 @@
       "role": "MID",
       "level": 1093,
       "tier": "MASTER I",
-      "lp": 164,
+      "lp": 136,
       "wins": 418,
-      "losses": 407,
-      "winRate": 50.7,
+      "losses": 408,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3151.png"
     },
     {
@@ -411,10 +411,10 @@
       "role": "COH",
       "level": 834,
       "tier": "DIAMOND IV",
-      "lp": 18,
-      "wins": 202,
+      "lp": 55,
+      "wins": 204,
       "losses": 194,
-      "winRate": 51,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3366.png"
     },
     {
@@ -750,11 +750,11 @@
       "name": "UIC Flare",
       "role": "MID",
       "level": 654,
-      "tier": "EMERALD II",
-      "lp": 87,
-      "wins": 140,
+      "tier": "EMERALD I",
+      "lp": 6,
+      "wins": 141,
       "losses": 142,
-      "winRate": 49.6,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/626.png"
     },
     {
