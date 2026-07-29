@@ -148,12 +148,12 @@
     {
       "name": "Webzy",
       "role": "COH",
-      "level": 1155,
+      "level": 1156,
       "tier": "EMERALD II",
-      "lp": 47,
-      "wins": 234,
-      "losses": 248,
-      "winRate": 48.5,
+      "lp": 46,
+      "wins": 236,
+      "losses": 250,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7084.png"
     }
   ],
@@ -330,7 +330,7 @@
     {
       "name": "McOffensive",
       "role": "TOP",
-      "level": 729,
+      "level": 730,
       "tier": "EMERALD I",
       "lp": 58,
       "wins": 40,
@@ -490,7 +490,7 @@
     {
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 951,
+      "level": 952,
       "tier": "DIAMOND II",
       "lp": 47,
       "wins": 117,
@@ -569,12 +569,12 @@
     {
       "name": "UIC Muh",
       "role": "TOP",
-      "level": 544,
+      "level": 545,
       "tier": "PLATINUM IV",
-      "lp": 0,
-      "wins": 177,
+      "lp": 56,
+      "wins": 180,
       "losses": 184,
-      "winRate": 49,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7123.png"
     },
     {
@@ -593,10 +593,10 @@
       "role": "JGL",
       "level": 976,
       "tier": "DIAMOND II",
-      "lp": 30,
-      "wins": 72,
-      "losses": 58,
-      "winRate": 55.4,
+      "lp": 13,
+      "wins": 73,
+      "losses": 60,
+      "winRate": 54.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3791.png"
     },
     {
@@ -604,10 +604,10 @@
       "role": "MID",
       "level": 635,
       "tier": "PLATINUM II",
-      "lp": 90,
-      "wins": 132,
-      "losses": 129,
-      "winRate": 50.6,
+      "lp": 73,
+      "wins": 133,
+      "losses": 131,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4379.png"
     },
     {
@@ -616,8 +616,8 @@
       "level": 626,
       "tier": "DIAMOND IV",
       "lp": 61,
-      "wins": 383,
-      "losses": 354,
+      "wins": 385,
+      "losses": 356,
       "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/23.png"
     },
@@ -625,11 +625,11 @@
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1450,
-      "tier": "GOLD II",
-      "lp": 77,
-      "wins": 666,
+      "tier": "GOLD I",
+      "lp": 14,
+      "wins": 668,
       "losses": 668,
-      "winRate": 49.9,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7143.png"
     },
     {
@@ -670,7 +670,7 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 605,
+      "level": 606,
       "tier": "PLATINUM II",
       "lp": 39,
       "wins": 119,
@@ -714,7 +714,7 @@
     {
       "name": "LordZash",
       "role": "SUP",
-      "level": 768,
+      "level": 769,
       "tier": "PLATINUM IV",
       "lp": 0,
       "wins": 111,
@@ -751,10 +751,10 @@
       "role": "MID",
       "level": 654,
       "tier": "EMERALD II",
-      "lp": 69,
-      "wins": 139,
+      "lp": 87,
+      "wins": 140,
       "losses": 142,
-      "winRate": 49.5,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/626.png"
     },
     {
