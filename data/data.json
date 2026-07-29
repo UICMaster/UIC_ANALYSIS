@@ -47,7 +47,7 @@
     {
       "name": "UIC Baguetto",
       "role": "SUP",
-      "level": 1015,
+      "level": 1016,
       "tier": "MASTER I",
       "lp": 0,
       "wins": 161,
@@ -241,11 +241,11 @@
       "name": "UIC Kaoxz",
       "role": "MID",
       "level": 485,
-      "tier": "DIAMOND IV",
-      "lp": 86,
-      "wins": 93,
+      "tier": "DIAMOND III",
+      "lp": 6,
+      "wins": 94,
       "losses": 86,
-      "winRate": 52,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7076.png"
     },
     {
@@ -277,10 +277,10 @@
       "role": "TOP",
       "level": 1324,
       "tier": "MASTER I",
-      "lp": 16,
+      "lp": 0,
       "wins": 258,
-      "losses": 270,
-      "winRate": 48.9,
+      "losses": 271,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7168.png"
     },
     {
@@ -591,7 +591,7 @@
     {
       "name": "UIC Namorii",
       "role": "JGL",
-      "level": 976,
+      "level": 977,
       "tier": "DIAMOND II",
       "lp": 56,
       "wins": 76,
@@ -766,7 +766,7 @@
       "wins": 348,
       "losses": 320,
       "winRate": 52.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/5714.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7185.png"
     },
     {
       "name": "UIC Envy",
