@@ -5,9 +5,9 @@
       "role": "TOP",
       "level": 1191,
       "tier": "DIAMOND III",
-      "lp": 53,
-      "wins": 239,
-      "losses": 258,
+      "lp": 51,
+      "wins": 240,
+      "losses": 259,
       "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/627.png"
     },
@@ -36,12 +36,12 @@
     {
       "name": "UIC Giani",
       "role": "BOT",
-      "level": 741,
+      "level": 742,
       "tier": "MASTER I",
-      "lp": 8,
+      "lp": 0,
       "wins": 79,
-      "losses": 73,
-      "winRate": 52,
+      "losses": 74,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7.png"
     },
     {
@@ -49,10 +49,10 @@
       "role": "SUP",
       "level": 1015,
       "tier": "MASTER I",
-      "lp": 11,
+      "lp": 0,
       "wins": 161,
-      "losses": 144,
-      "winRate": 52.8,
+      "losses": 145,
+      "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4380.png"
     },
     {
@@ -150,10 +150,10 @@
       "role": "COH",
       "level": 1156,
       "tier": "EMERALD II",
-      "lp": 46,
-      "wins": 236,
+      "lp": 66,
+      "wins": 237,
       "losses": 250,
-      "winRate": 48.6,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7084.png"
     }
   ],
@@ -389,10 +389,10 @@
       "role": "BOT",
       "level": 869,
       "tier": "MASTER I",
-      "lp": 434,
-      "wins": 157,
+      "lp": 464,
+      "wins": 158,
       "losses": 131,
-      "winRate": 54.5,
+      "winRate": 54.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7144.png"
     },
     {
@@ -400,10 +400,10 @@
       "role": "SUP",
       "level": 1018,
       "tier": "MASTER I",
-      "lp": 658,
+      "lp": 628,
       "wins": 116,
-      "losses": 101,
-      "winRate": 53.5,
+      "losses": 102,
+      "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6622.png"
     },
     {
@@ -411,10 +411,10 @@
       "role": "COH",
       "level": 834,
       "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 201,
+      "lp": 18,
+      "wins": 202,
       "losses": 194,
-      "winRate": 50.9,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3366.png"
     },
     {
@@ -536,10 +536,10 @@
       "role": "SUP",
       "level": 336,
       "tier": "MASTER I",
-      "lp": 148,
-      "wins": 133,
+      "lp": 178,
+      "wins": 134,
       "losses": 114,
-      "winRate": 53.8,
+      "winRate": 54,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4793.png"
     },
     {
@@ -571,10 +571,10 @@
       "role": "TOP",
       "level": 545,
       "tier": "PLATINUM IV",
-      "lp": 56,
-      "wins": 180,
+      "lp": 75,
+      "wins": 181,
       "losses": 184,
-      "winRate": 49.5,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7123.png"
     },
     {
@@ -593,10 +593,10 @@
       "role": "JGL",
       "level": 976,
       "tier": "DIAMOND II",
-      "lp": 13,
-      "wins": 73,
-      "losses": 60,
-      "winRate": 54.9,
+      "lp": 14,
+      "wins": 74,
+      "losses": 61,
+      "winRate": 54.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3791.png"
     },
     {
@@ -613,11 +613,11 @@
     {
       "name": "UIC GroßATuin",
       "role": "MID",
-      "level": 626,
+      "level": 627,
       "tier": "DIAMOND IV",
       "lp": 61,
-      "wins": 385,
-      "losses": 356,
+      "wins": 386,
+      "losses": 357,
       "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/23.png"
     },
