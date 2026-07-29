@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1060,
       "tier": "MASTER I",
-      "lp": 390,
-      "wins": 239,
+      "lp": 419,
+      "wins": 240,
       "losses": 226,
-      "winRate": 51.4,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4380.png"
     },
     {
@@ -60,10 +60,10 @@
       "role": "MID",
       "level": 1093,
       "tier": "MASTER I",
-      "lp": 136,
-      "wins": 418,
+      "lp": 169,
+      "wins": 419,
       "losses": 408,
-      "winRate": 50.6,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3151.png"
     },
     {
@@ -76,85 +76,6 @@
       "losses": 115,
       "winRate": 54.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7168.png"
-    }
-  ],
-  "angels": [
-    {
-      "name": "DPS WindSlash",
-      "role": "TOP",
-      "level": 257,
-      "tier": "DIAMOND I",
-      "lp": 75,
-      "wins": 133,
-      "losses": 104,
-      "winRate": 56.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/28.png"
-    },
-    {
-      "name": "Stark",
-      "role": "JGL",
-      "level": 295,
-      "tier": "MASTER I",
-      "lp": 1642,
-      "wins": 294,
-      "losses": 261,
-      "winRate": 53,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7147.png"
-    },
-    {
-      "name": "UIC Symphonie",
-      "role": "MID",
-      "level": 764,
-      "tier": "GRANDMASTER I",
-      "lp": 1852,
-      "wins": 423,
-      "losses": 365,
-      "winRate": 53.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/16.png"
-    },
-    {
-      "name": "UIC Stevie",
-      "role": "BOT",
-      "level": 179,
-      "tier": "MASTER I",
-      "lp": 970,
-      "wins": 483,
-      "losses": 456,
-      "winRate": 51.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/1455.png"
-    },
-    {
-      "name": "UIC Bardie3",
-      "role": "SUP",
-      "level": 737,
-      "tier": "GRANDMASTER I",
-      "lp": 2057,
-      "wins": 266,
-      "losses": 225,
-      "winRate": 54.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4419.png"
-    },
-    {
-      "name": "Kelle",
-      "role": "MNG",
-      "level": 54,
-      "tier": "DIAMOND III",
-      "lp": 42,
-      "wins": 37,
-      "losses": 37,
-      "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/29.png"
-    },
-    {
-      "name": "Webzy",
-      "role": "COH",
-      "level": 1156,
-      "tier": "EMERALD II",
-      "lp": 66,
-      "wins": 237,
-      "losses": 250,
-      "winRate": 48.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7084.png"
     }
   ],
   "eclipse": [
@@ -672,10 +593,10 @@
       "role": "TOP",
       "level": 606,
       "tier": "PLATINUM II",
-      "lp": 39,
-      "wins": 119,
+      "lp": 58,
+      "wins": 120,
       "losses": 136,
-      "winRate": 46.7,
+      "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3891.png"
     },
     {
@@ -760,7 +681,7 @@
     {
       "name": "Starboy",
       "role": "BOT",
-      "level": 855,
+      "level": 856,
       "tier": "DIAMOND III",
       "lp": 65,
       "wins": 348,
