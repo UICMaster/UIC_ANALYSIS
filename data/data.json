@@ -110,7 +110,7 @@
       "wins": 423,
       "losses": 365,
       "winRate": 53.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4418.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/16.png"
     },
     {
       "name": "UIC Stevie",
@@ -172,7 +172,7 @@
     {
       "name": "UIC NairadAwsm",
       "role": "JGL",
-      "level": 299,
+      "level": 300,
       "tier": "EMERALD III",
       "lp": 52,
       "wins": 83,
@@ -240,12 +240,12 @@
     {
       "name": "UIC Kaoxz",
       "role": "MID",
-      "level": 484,
+      "level": 485,
       "tier": "DIAMOND IV",
-      "lp": 66,
-      "wins": 91,
-      "losses": 85,
-      "winRate": 51.7,
+      "lp": 86,
+      "wins": 93,
+      "losses": 86,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7076.png"
     },
     {
@@ -297,12 +297,12 @@
     {
       "name": "UIC Landmine",
       "role": "MID",
-      "level": 674,
+      "level": 675,
       "tier": "EMERALD I",
-      "lp": 32,
-      "wins": 77,
+      "lp": 70,
+      "wins": 79,
       "losses": 83,
-      "winRate": 48.1,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/615.png"
     },
     {
@@ -593,10 +593,10 @@
       "role": "JGL",
       "level": 976,
       "tier": "DIAMOND II",
-      "lp": 14,
-      "wins": 74,
+      "lp": 56,
+      "wins": 76,
       "losses": 61,
-      "winRate": 54.8,
+      "winRate": 55.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3791.png"
     },
     {
@@ -636,11 +636,11 @@
       "name": "UIC Deavan",
       "role": "BOT",
       "level": 434,
-      "tier": "PLATINUM II",
-      "lp": 98,
-      "wins": 232,
+      "tier": "PLATINUM I",
+      "lp": 19,
+      "wins": 233,
       "losses": 207,
-      "winRate": 52.8,
+      "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7172.png"
     },
     {
