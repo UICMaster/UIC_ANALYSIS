@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1059,
       "tier": "MASTER I",
-      "lp": 331,
-      "wins": 237,
+      "lp": 361,
+      "wins": 238,
       "losses": 226,
-      "winRate": 51.2,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4380.png"
     },
     {
@@ -95,10 +95,10 @@
       "role": "JGL",
       "level": 295,
       "tier": "MASTER I",
-      "lp": 1677,
+      "lp": 1642,
       "wins": 294,
-      "losses": 260,
-      "winRate": 53.1,
+      "losses": 261,
+      "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7147.png"
     },
     {
@@ -749,12 +749,12 @@
     {
       "name": "UIC Flare",
       "role": "MID",
-      "level": 653,
+      "level": 654,
       "tier": "EMERALD II",
-      "lp": 51,
-      "wins": 138,
+      "lp": 69,
+      "wins": 139,
       "losses": 142,
-      "winRate": 49.3,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/626.png"
     },
     {
