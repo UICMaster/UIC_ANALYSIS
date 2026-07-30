@@ -4,11 +4,11 @@
       "name": "UIC Speedy",
       "role": "TOP",
       "level": 1191,
-      "tier": "DIAMOND II",
-      "lp": 11,
+      "tier": "DIAMOND III",
+      "lp": 69,
       "wins": 242,
-      "losses": 259,
-      "winRate": 48.3,
+      "losses": 261,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/627.png"
     },
     {
@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1060,
       "tier": "MASTER I",
-      "lp": 419,
+      "lp": 388,
       "wins": 240,
-      "losses": 226,
-      "winRate": 51.5,
+      "losses": 227,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4380.png"
     },
     {
@@ -38,10 +38,10 @@
       "role": "BOT",
       "level": 742,
       "tier": "MASTER I",
-      "lp": 30,
+      "lp": 0,
       "wins": 81,
-      "losses": 76,
-      "winRate": 51.6,
+      "losses": 77,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7.png"
     },
     {
@@ -330,12 +330,12 @@
     {
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 834,
+      "level": 835,
       "tier": "DIAMOND IV",
-      "lp": 55,
+      "lp": 11,
       "wins": 204,
-      "losses": 194,
-      "winRate": 51.3,
+      "losses": 196,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3366.png"
     },
     {
@@ -536,8 +536,8 @@
       "role": "MID",
       "level": 627,
       "tier": "DIAMOND IV",
-      "lp": 61,
-      "wins": 386,
+      "lp": 81,
+      "wins": 387,
       "losses": 357,
       "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/23.png"
@@ -545,7 +545,7 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1451,
+      "level": 1452,
       "tier": "PLATINUM IV",
       "lp": 5,
       "wins": 675,
@@ -672,10 +672,10 @@
       "role": "MID",
       "level": 654,
       "tier": "EMERALD II",
-      "lp": 78,
+      "lp": 57,
       "wins": 142,
-      "losses": 144,
-      "winRate": 49.7,
+      "losses": 145,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/626.png"
     },
     {
