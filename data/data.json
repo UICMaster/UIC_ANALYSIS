@@ -58,12 +58,12 @@
     {
       "name": "UIC Baumi",
       "role": "MID",
-      "level": 1093,
+      "level": 1094,
       "tier": "MASTER I",
-      "lp": 146,
-      "wins": 420,
-      "losses": 410,
-      "winRate": 50.6,
+      "lp": 250,
+      "wins": 423,
+      "losses": 411,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3151.png"
     },
     {
@@ -591,12 +591,12 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 606,
+      "level": 607,
       "tier": "PLATINUM II",
-      "lp": 73,
-      "wins": 123,
+      "lp": 93,
+      "wins": 124,
       "losses": 138,
-      "winRate": 47.1,
+      "winRate": 47.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3891.png"
     },
     {
