@@ -185,10 +185,10 @@
       "role": "SUP",
       "level": 508,
       "tier": "MASTER I",
-      "lp": 152,
+      "lp": 122,
       "wins": 134,
-      "losses": 106,
-      "winRate": 55.8,
+      "losses": 107,
+      "winRate": 55.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4655.png"
     }
   ],
@@ -263,8 +263,8 @@
       "name": "UIC Taiga",
       "role": "COH",
       "level": 472,
-      "tier": "DIAMOND I",
-      "lp": 25,
+      "tier": "DIAMOND II",
+      "lp": 75,
       "wins": 31,
       "losses": 17,
       "winRate": 64.6,
@@ -297,12 +297,12 @@
     {
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 934,
+      "level": 935,
       "tier": "DIAMOND II",
-      "lp": 57,
+      "lp": 13,
       "wins": 240,
-      "losses": 266,
-      "winRate": 47.4,
+      "losses": 268,
+      "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/5954.png"
     },
     {
@@ -321,10 +321,10 @@
       "role": "SUP",
       "level": 1018,
       "tier": "MASTER I",
-      "lp": 628,
-      "wins": 116,
+      "lp": 659,
+      "wins": 117,
       "losses": 102,
-      "winRate": 53.2,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6622.png"
     },
     {
@@ -393,7 +393,7 @@
       "wins": 146,
       "losses": 129,
       "winRate": 53.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/5726.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7188.png"
     },
     {
       "name": "UIC Ryu Panda",
@@ -535,11 +535,11 @@
       "name": "UIC GroßATuin",
       "role": "MID",
       "level": 627,
-      "tier": "DIAMOND IV",
-      "lp": 61,
-      "wins": 387,
+      "tier": "DIAMOND III",
+      "lp": 1,
+      "wins": 388,
       "losses": 358,
-      "winRate": 51.9,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/23.png"
     },
     {
@@ -547,10 +547,10 @@
       "role": "BOT",
       "level": 1452,
       "tier": "PLATINUM IV",
-      "lp": 26,
-      "wins": 676,
-      "losses": 670,
-      "winRate": 50.2,
+      "lp": 49,
+      "wins": 678,
+      "losses": 671,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7167.png"
     },
     {
