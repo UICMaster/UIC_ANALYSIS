@@ -60,10 +60,10 @@
       "role": "MID",
       "level": 1094,
       "tier": "MASTER I",
-      "lp": 250,
-      "wins": 423,
+      "lp": 314,
+      "wins": 425,
       "losses": 411,
-      "winRate": 50.7,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3151.png"
     },
     {
@@ -104,12 +104,12 @@
     {
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1050,
+      "level": 1051,
       "tier": "MASTER I",
-      "lp": 247,
-      "wins": 347,
-      "losses": 347,
-      "winRate": 50,
+      "lp": 217,
+      "wins": 348,
+      "losses": 349,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6284.png"
     },
     {
@@ -411,7 +411,7 @@
     {
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 952,
+      "level": 953,
       "tier": "DIAMOND II",
       "lp": 47,
       "wins": 117,
