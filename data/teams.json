@@ -5,6 +5,7 @@
     "tier": "Division 4",
     "roster": [
       {
+        "playerId": "0001",
         "gameName": "UIC Speedy",
         "tagLine": "EUW",
         "role": "TOP",
@@ -15,6 +16,7 @@
         "isCaptain": true
       },
       {
+        "playerId": "0002",
         "gameName": "UIC Niki",
         "tagLine": "AMB",
         "role": "JGL",
@@ -25,6 +27,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0003",
         "gameName": "UIC Shenycrane",
         "tagLine": "Vugel",
         "role": "MID",
@@ -35,6 +38,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0004",
         "gameName": "UIC Giani",
         "tagLine": "999",
         "role": "BOT",
@@ -45,6 +49,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0005",
         "gameName": "UIC Baguetto",
         "tagLine": "R3kt",
         "role": "SUP",
@@ -55,6 +60,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0006",
         "gameName": "UIC Baumi",
         "tagLine": "123",
         "role": "MID",
@@ -65,6 +71,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0007",
         "gameName": "UIC FrozenHands",
         "tagLine": "MID",
         "role": "MID",
@@ -82,6 +89,7 @@
     "tier": "Division 6",
     "roster": [
       {
+        "playerId": "0008",
         "gameName": "Stafferl",
         "tagLine": "FNC",
         "role": "TOP",
@@ -92,6 +100,7 @@
         "isCaptain": true
       },
       {
+        "playerId": "0009",
         "gameName": "UIC NairadAwsm",
         "tagLine": "UIC",
         "role": "JGL",
@@ -102,6 +111,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0010",
         "gameName": "UIC Regentropfen",
         "tagLine": "H2O",
         "role": "MID",
@@ -112,6 +122,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0011",
         "gameName": "Pferdemilch",
         "tagLine": "Milch",
         "role": "BOT",
@@ -122,6 +133,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0012",
         "gameName": "SomalischerLP",
         "tagLine": "Pirat",
         "role": "SUP",
@@ -139,6 +151,7 @@
     "tier": "Division 5",
     "roster": [
       {
+        "playerId": "0013",
         "gameName": "UIC VTennic",
         "tagLine": "UIC",
         "role": "TOP",
@@ -149,6 +162,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0014",
         "gameName": "UIC Hunter",
         "tagLine": "UIC",
         "role": "JGL",
@@ -159,6 +173,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0015",
         "gameName": "UIC Kaoxz",
         "tagLine": "CRNGE",
         "role": "MID",
@@ -169,6 +184,7 @@
         "isCaptain": true
       },
       {
+        "playerId": "0016",
         "gameName": "UIC Painfull",
         "tagLine": "UIC",
         "role": "BOT",
@@ -179,6 +195,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0017",
         "gameName": "UIC FirstBlo",
         "tagLine": "Whack",
         "role": "SUP",
@@ -196,6 +213,7 @@
     "tier": "Division 6",
     "roster": [
       {
+        "playerId": "0018",
         "gameName": "Reign",
         "tagLine": "Teach",
         "role": "TOP",
@@ -206,6 +224,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0019",
         "gameName": "UIC RealCrimes",
         "tagLine": "UIC",
         "role": "JGL",
@@ -216,6 +235,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0020",
         "gameName": "UIC Landmine",
         "tagLine": "UIC",
         "role": "MID",
@@ -226,6 +246,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0021",
         "gameName": "UIC BissiBoy",
         "tagLine": "UIC",
         "role": "BOT",
@@ -236,6 +257,7 @@
         "isCaptain": true
       },
       {
+        "playerId": "0022",
         "gameName": "UIC Haselmania",
         "tagLine": "UIC",
         "role": "SUP",
@@ -246,6 +268,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0023",
         "gameName": "McOffensive",
         "tagLine": "Pils",
         "role": "TOP",
@@ -256,6 +279,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0024",
         "gameName": "UIC Taiga",
         "tagLine": "UIC",
         "role": "COH",
@@ -273,6 +297,7 @@
     "tier": "Division 6",
     "roster": [
       {
+        "playerId": "0025",
         "gameName": "UIC Kamo",
         "tagLine": "tpt",
         "role": "TOP",
@@ -283,6 +308,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0026",
         "gameName": "UIC Exi",
         "tagLine": "QUAK",
         "role": "JGL",
@@ -293,6 +319,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0027",
         "gameName": "UIC Hayu",
         "tagLine": "UIC",
         "role": "MID",
@@ -303,6 +330,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0028",
         "gameName": "UIC AutumnLeaf",
         "tagLine": "Moo",
         "role": "BOT",
@@ -313,6 +341,7 @@
         "isCaptain": true
       },
       {
+        "playerId": "0029",
         "gameName": "UIC Ryu Copeland",
         "tagLine": "117",
         "role": "SUP",
@@ -323,6 +352,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0030",
         "gameName": "UIC Loonz",
         "tagLine": "Coach",
         "role": "COH",
@@ -333,6 +363,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0031",
         "gameName": "UIC Cerberus",
         "tagLine": "GOATZ",
         "role": "MNG",
@@ -350,6 +381,7 @@
     "tier": "Division 6",
     "roster": [
       {
+        "playerId": "0032",
         "gameName": "UIC DANY",
         "tagLine": "RFA40",
         "role": "TOP",
@@ -360,6 +392,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0033",
         "gameName": "UIC Ðărkø",
         "tagLine": "SAI",
         "role": "JGL",
@@ -370,6 +403,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0034",
         "gameName": "UIC Rellik",
         "tagLine": "CYS",
         "role": "MID",
@@ -380,6 +414,7 @@
         "isCaptain": true
       },
       {
+        "playerId": "0035",
         "gameName": "UIC Pjure",
         "tagLine": "CYS",
         "role": "BOT",
@@ -390,6 +425,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0036",
         "gameName": "UIC Ryu Panda",
         "tagLine": "CSX",
         "role": "SUP",
@@ -407,6 +443,7 @@
     "tier": "Division 5",
     "roster": [
       {
+        "playerId": "0037",
         "gameName": "UIC lightfire",
         "tagLine": "4667",
         "role": "TOP",
@@ -417,6 +454,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0038",
         "gameName": "Blauerlupos",
         "tagLine": "EUW",
         "role": "JGL",
@@ -427,6 +465,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0039",
         "gameName": "UIC Ayumu",
         "tagLine": "LoveK",
         "role": "MID",
@@ -437,6 +476,7 @@
         "isCaptain": true
       },
       {
+        "playerId": "0040",
         "gameName": "UIC SilentCarry",
         "tagLine": "Alune",
         "role": "BOT",
@@ -447,6 +487,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0041",
         "gameName": "Moonlxght",
         "tagLine": "16396",
         "role": "SUP",
@@ -457,6 +498,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0042",
         "gameName": "zab77",
         "tagLine": "EUW",
         "role": "TOP",
@@ -474,6 +516,7 @@
     "tier": "Division 7",
     "roster": [
       {
+        "playerId": "0043",
         "gameName": "UIC Kaetaya",
         "tagLine": "XwX",
         "role": "TOP",
@@ -484,6 +527,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0044",
         "gameName": "UIC Muh",
         "tagLine": "KATZE",
         "role": "TOP",
@@ -494,6 +538,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0045",
         "gameName": "UIC Rubix Qube",
         "tagLine": "MÖP",
         "role": "JGL",
@@ -504,6 +549,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0046",
         "gameName": "UIC Namorii",
         "tagLine": "Nova",
         "role": "JGL",
@@ -514,6 +560,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0047",
         "gameName": "UIC adedier",
         "tagLine": "EUWE",
         "role": "MID",
@@ -524,6 +571,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0048",
         "gameName": "UIC GroßATuin",
         "tagLine": "842",
         "role": "MID",
@@ -534,6 +582,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0049",
         "gameName": "UIC Boohunter",
         "tagLine": "Boo",
         "role": "BOT",
@@ -544,6 +593,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0050",
         "gameName": "UIC Deavan",
         "tagLine": "UIC",
         "role": "BOT",
@@ -554,6 +604,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0051",
         "gameName": "UIC Kaanto",
         "tagLine": "Nova",
         "role": "SUP",
@@ -564,6 +615,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0052",
         "gameName": "UIC Excellent C",
         "tagLine": "1997",
         "role": "SUP",
@@ -581,6 +633,7 @@
     "tier": "Division 8",
     "roster": [
       {
+        "playerId": "0053",
         "gameName": "UIC Papi Δce",
         "tagLine": "3072",
         "role": "TOP",
@@ -591,6 +644,7 @@
         "isCaptain": true
       },
       {
+        "playerId": "0054",
         "gameName": "Leberkasleatschn",
         "tagLine": "1990",
         "role": "JGL",
@@ -601,6 +655,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0055",
         "gameName": "",
         "tagLine": "",
         "role": "MID",
@@ -611,6 +666,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0056",
         "gameName": "BlondiXE1",
         "tagLine": "EUW",
         "role": "BOT",
@@ -621,6 +677,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0057",
         "gameName": "LordZash",
         "tagLine": "1220",
         "role": "SUP",
@@ -638,6 +695,7 @@
     "tier": "Division 6",
     "roster": [
       {
+        "playerId": "0058",
         "gameName": "UIC ソニック",
         "tagLine": "0815",
         "role": "TOP",
@@ -648,6 +706,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0059",
         "gameName": "BlauerKlaus",
         "tagLine": "Blubb",
         "role": "JGL",
@@ -658,6 +717,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0060",
         "gameName": "UIC Flare",
         "tagLine": "JND",
         "role": "MID",
@@ -668,6 +728,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0061",
         "gameName": "Starboy",
         "tagLine": "XO00",
         "role": "BOT",
@@ -678,6 +739,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0062",
         "gameName": "UIC Envy",
         "tagLine": "UIC",
         "role": "SUP",
@@ -695,6 +757,7 @@
     "tier": "Division 5",
     "roster": [
       {
+        "playerId": "0063",
         "gameName": "myblondie",
         "tagLine": "love",
         "role": "TOP",
@@ -705,6 +768,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0064",
         "gameName": "yShizuu",
         "tagLine": "ÊUW",
         "role": "JGL",
@@ -715,6 +779,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0065",
         "gameName": "UIC Keygasza",
         "tagLine": "1337",
         "role": "MID",
@@ -725,6 +790,7 @@
         "isCaptain": true
       },
       {
+        "playerId": "0066",
         "gameName": "UIC M Character",
         "tagLine": "UIC",
         "role": "BOT",
@@ -735,6 +801,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0067",
         "gameName": "TheEigeeen",
         "tagLine": "EIGI",
         "role": "SUP",
@@ -752,6 +819,7 @@
     "tier": "Community",
     "roster": [
       {
+        "playerId": "0068",
         "gameName": "RD Nuokii",
         "tagLine": "072",
         "role": "JGL",
@@ -762,6 +830,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0069",
         "gameName": "RD Slevin",
         "tagLine": "1612",
         "role": "MID",
@@ -772,6 +841,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0070",
         "gameName": "UIC Gallagros",
         "tagLine": "187",
         "role": "BOT",
@@ -782,6 +852,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0071",
         "gameName": "UIC Qvy",
         "tagLine": "rusty",
         "role": "JGL",
@@ -792,6 +863,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0072",
         "gameName": "UIC ReCord",
         "tagLine": "Cedo",
         "role": "JGL",
@@ -802,6 +874,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0073",
         "gameName": "UIC Goku",
         "tagLine": "UIC",
         "role": "MID",
@@ -812,6 +885,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0074",
         "gameName": "UIC Kuroko",
         "tagLine": "Pass",
         "role": "BOT",
@@ -822,6 +896,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0075",
         "gameName": "UIC Rayando07",
         "tagLine": "Help",
         "role": "TOP",
@@ -832,6 +907,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0076",
         "gameName": "PeaPuffer",
         "tagLine": "Efe",
         "role": "SUP",
@@ -842,6 +918,7 @@
         "isCaptain": false
       },
       {
+        "playerId": "0077",
         "gameName": "RD Dragonfly",
         "tagLine": "UIC",
         "role": "SUP",
