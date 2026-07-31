@@ -326,10 +326,10 @@
       "role": "MID",
       "level": 935,
       "tier": "DIAMOND III",
-      "lp": 43,
-      "wins": 241,
+      "lp": 61,
+      "wins": 242,
       "losses": 272,
-      "winRate": 47,
+      "winRate": 47.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/5954.png"
     },
     {
@@ -608,10 +608,10 @@
       "role": "BOT",
       "level": 436,
       "tier": "PLATINUM I",
-      "lp": 43,
-      "wins": 239,
+      "lp": 84,
+      "wins": 241,
       "losses": 212,
-      "winRate": 53,
+      "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7172.png"
     },
     {
@@ -644,7 +644,7 @@
       "playerId": "0053",
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 607,
+      "level": 608,
       "tier": "PLATINUM I",
       "lp": 33,
       "wins": 126,
@@ -736,7 +736,7 @@
       "wins": 142,
       "losses": 146,
       "winRate": 49.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/626.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/590.png"
     },
     {
       "playerId": "0061",
