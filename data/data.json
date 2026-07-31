@@ -18,10 +18,10 @@
       "role": "JGL",
       "level": 1060,
       "tier": "MASTER I",
-      "lp": 444,
+      "lp": 382,
       "wins": 243,
-      "losses": 228,
-      "winRate": 51.6,
+      "losses": 230,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4380.png"
     },
     {
@@ -66,10 +66,10 @@
       "role": "MID",
       "level": 1094,
       "tier": "MASTER I",
-      "lp": 350,
+      "lp": 294,
       "wins": 427,
-      "losses": 412,
-      "winRate": 50.9,
+      "losses": 414,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3151.png"
     },
     {
@@ -78,10 +78,10 @@
       "role": "MID",
       "level": 660,
       "tier": "MASTER I",
-      "lp": 570,
-      "wins": 136,
+      "lp": 628,
+      "wins": 138,
       "losses": 116,
-      "winRate": 54,
+      "winRate": 54.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7168.png"
     }
   ],
@@ -325,10 +325,10 @@
       "name": "UIC Hayu",
       "role": "MID",
       "level": 935,
-      "tier": "DIAMOND II",
-      "lp": 13,
+      "tier": "DIAMOND III",
+      "lp": 91,
       "wins": 240,
-      "losses": 268,
+      "losses": 269,
       "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/5954.png"
     },
@@ -338,9 +338,9 @@
       "role": "BOT",
       "level": 869,
       "tier": "MASTER I",
-      "lp": 524,
-      "wins": 159,
-      "losses": 131,
+      "lp": 522,
+      "wins": 160,
+      "losses": 132,
       "winRate": 54.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7144.png"
     },
@@ -362,10 +362,10 @@
       "role": "COH",
       "level": 835,
       "tier": "DIAMOND IV",
-      "lp": 12,
-      "wins": 207,
+      "lp": 31,
+      "wins": 208,
       "losses": 199,
-      "winRate": 51,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3366.png"
     },
     {
@@ -388,10 +388,10 @@
       "role": "TOP",
       "level": 556,
       "tier": "DIAMOND IV",
-      "lp": 46,
-      "wins": 123,
+      "lp": 81,
+      "wins": 125,
       "losses": 117,
-      "winRate": 51.2,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3157.png"
     },
     {
@@ -412,10 +412,10 @@
       "role": "MID",
       "level": 689,
       "tier": "EMERALD II",
-      "lp": 29,
-      "wins": 152,
+      "lp": 67,
+      "wins": 154,
       "losses": 142,
-      "winRate": 51.7,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7188.png"
     },
     {
@@ -474,10 +474,10 @@
       "role": "MID",
       "level": 614,
       "tier": "PLATINUM II",
-      "lp": 20,
-      "wins": 171,
+      "lp": 39,
+      "wins": 172,
       "losses": 166,
-      "winRate": 50.7,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7168.png"
     },
     {
@@ -572,10 +572,10 @@
       "role": "MID",
       "level": 635,
       "tier": "PLATINUM II",
-      "lp": 73,
-      "wins": 133,
+      "lp": 94,
+      "wins": 134,
       "losses": 131,
-      "winRate": 50.4,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4379.png"
     },
     {
@@ -594,7 +594,7 @@
       "playerId": "0049",
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1452,
+      "level": 1453,
       "tier": "PLATINUM IV",
       "lp": 53,
       "wins": 680,
@@ -608,10 +608,10 @@
       "role": "BOT",
       "level": 435,
       "tier": "PLATINUM I",
-      "lp": 61,
+      "lp": 21,
       "wins": 235,
-      "losses": 207,
-      "winRate": 53.2,
+      "losses": 209,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7172.png"
     },
     {
@@ -646,10 +646,10 @@
       "role": "TOP",
       "level": 607,
       "tier": "PLATINUM I",
-      "lp": 13,
-      "wins": 125,
+      "lp": 33,
+      "wins": 126,
       "losses": 138,
-      "winRate": 47.5,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3891.png"
     },
     {
