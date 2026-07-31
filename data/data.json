@@ -278,8 +278,8 @@
       "level": 586,
       "tier": "MASTER I",
       "lp": 444,
-      "wins": 391,
-      "losses": 357,
+      "wins": 392,
+      "losses": 358,
       "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6640.png"
     },
@@ -382,7 +382,7 @@
       "wins": 152,
       "losses": 141,
       "winRate": 51.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7168.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7188.png"
     },
     {
       "name": "UIC Pjure",
@@ -435,10 +435,10 @@
       "role": "MID",
       "level": 614,
       "tier": "PLATINUM II",
-      "lp": 43,
+      "lp": 1,
       "wins": 170,
-      "losses": 164,
-      "winRate": 50.9,
+      "losses": 166,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7168.png"
     },
     {
@@ -514,10 +514,10 @@
       "role": "JGL",
       "level": 977,
       "tier": "DIAMOND II",
-      "lp": 56,
-      "wins": 76,
-      "losses": 61,
-      "winRate": 55.5,
+      "lp": 78,
+      "wins": 77,
+      "losses": 62,
+      "winRate": 55.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3791.png"
     },
     {
@@ -534,12 +534,12 @@
     {
       "name": "UIC GroßATuin",
       "role": "MID",
-      "level": 627,
+      "level": 628,
       "tier": "DIAMOND III",
-      "lp": 1,
-      "wins": 388,
-      "losses": 358,
-      "winRate": 52,
+      "lp": 18,
+      "wins": 390,
+      "losses": 359,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/23.png"
     },
     {
@@ -547,9 +547,9 @@
       "role": "BOT",
       "level": 1452,
       "tier": "PLATINUM IV",
-      "lp": 72,
+      "lp": 53,
       "wins": 680,
-      "losses": 672,
+      "losses": 673,
       "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7167.png"
     },
