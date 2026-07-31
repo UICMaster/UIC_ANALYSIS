@@ -60,10 +60,10 @@
       "role": "MID",
       "level": 1094,
       "tier": "MASTER I",
-      "lp": 314,
-      "wins": 425,
+      "lp": 378,
+      "wins": 427,
       "losses": 411,
-      "winRate": 50.8,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3151.png"
     },
     {
@@ -196,7 +196,7 @@
     {
       "name": "Reign",
       "role": "TOP",
-      "level": 1325,
+      "level": 1326,
       "tier": "MASTER I",
       "lp": 57,
       "wins": 260,
@@ -496,7 +496,7 @@
       "wins": 181,
       "losses": 184,
       "winRate": 49.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7123.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/5898.png"
     },
     {
       "name": "UIC Rubix Qube",
@@ -670,12 +670,12 @@
     {
       "name": "UIC Flare",
       "role": "MID",
-      "level": 654,
+      "level": 655,
       "tier": "EMERALD II",
-      "lp": 57,
+      "lp": 36,
       "wins": 142,
-      "losses": 145,
-      "winRate": 49.5,
+      "losses": 146,
+      "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/626.png"
     },
     {
