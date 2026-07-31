@@ -80,6 +80,7 @@ async function runEngine() {
                 if (player.trackStats === false || !player.gameName || player.gameName.trim() === "") {
                     if (isExportTeam) {
                         exportData[teamKey].push({
+                            playerId: player.playerId || "0000",
                             name: player.gameName || "OPEN SPOT",
                             role: player.role,
                             level: 0,
@@ -116,6 +117,7 @@ async function runEngine() {
                     }
                     
                     exportData[teamKey].push({
+                        playerId: player.playerId || "0000",
                         name: player.gameName,
                         role: player.role,
                         level: summonerData ? summonerData.summonerLevel : 0,
