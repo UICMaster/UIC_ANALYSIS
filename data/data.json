@@ -354,12 +354,12 @@
     {
       "name": "UIC DANY",
       "role": "TOP",
-      "level": 555,
+      "level": 556,
       "tier": "DIAMOND IV",
-      "lp": 92,
+      "lp": 46,
       "wins": 123,
-      "losses": 115,
-      "winRate": 51.7,
+      "losses": 117,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3157.png"
     },
     {
@@ -378,10 +378,10 @@
       "role": "MID",
       "level": 689,
       "tier": "EMERALD II",
-      "lp": 51,
+      "lp": 29,
       "wins": 152,
-      "losses": 141,
-      "winRate": 51.9,
+      "losses": 142,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7188.png"
     },
     {
@@ -435,10 +435,10 @@
       "role": "MID",
       "level": 614,
       "tier": "PLATINUM II",
-      "lp": 1,
-      "wins": 170,
+      "lp": 20,
+      "wins": 171,
       "losses": 166,
-      "winRate": 50.6,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7168.png"
     },
     {
@@ -458,8 +458,8 @@
       "level": 336,
       "tier": "MASTER I",
       "lp": 178,
-      "wins": 134,
-      "losses": 114,
+      "wins": 135,
+      "losses": 115,
       "winRate": 54,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4793.png"
     },
@@ -578,7 +578,7 @@
     {
       "name": "UIC Excellent C",
       "role": "SUP",
-      "level": 591,
+      "level": 592,
       "tier": "GOLD III",
       "lp": 64,
       "wins": 154,
@@ -592,11 +592,11 @@
       "name": "UIC Papi Δce",
       "role": "TOP",
       "level": 607,
-      "tier": "PLATINUM II",
-      "lp": 93,
-      "wins": 124,
+      "tier": "PLATINUM I",
+      "lp": 13,
+      "wins": 125,
       "losses": 138,
-      "winRate": 47.3,
+      "winRate": 47.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3891.png"
     },
     {
