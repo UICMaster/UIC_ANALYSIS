@@ -6,10 +6,10 @@
       "role": "TOP",
       "level": 1193,
       "tier": "DIAMOND IV",
-      "lp": 75,
-      "wins": 248,
-      "losses": 271,
-      "winRate": 47.8,
+      "lp": 55,
+      "wins": 249,
+      "losses": 273,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6236.png"
     },
     {
@@ -18,10 +18,10 @@
       "role": "JGL",
       "level": 1061,
       "tier": "MASTER I",
-      "lp": 256,
-      "wins": 244,
+      "lp": 343,
+      "wins": 247,
       "losses": 236,
-      "winRate": 50.8,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4380.png"
     },
     {
@@ -64,12 +64,12 @@
       "playerId": "0006",
       "name": "UIC Baumi",
       "role": "MID",
-      "level": 1095,
+      "level": 1096,
       "tier": "MASTER I",
-      "lp": 406,
-      "wins": 434,
-      "losses": 419,
-      "winRate": 50.9,
+      "lp": 382,
+      "wins": 435,
+      "losses": 421,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3151.png"
     },
     {
@@ -362,10 +362,10 @@
       "role": "COH",
       "level": 836,
       "tier": "DIAMOND IV",
-      "lp": 18,
+      "lp": 0,
       "wins": 210,
-      "losses": 202,
-      "winRate": 51,
+      "losses": 203,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3366.png"
     },
     {
