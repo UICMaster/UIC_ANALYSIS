@@ -66,10 +66,10 @@
       "role": "MID",
       "level": 1095,
       "tier": "MASTER I",
-      "lp": 238,
-      "wins": 427,
+      "lp": 302,
+      "wins": 429,
       "losses": 417,
-      "winRate": 50.6,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3151.png"
     },
     {
@@ -412,10 +412,10 @@
       "role": "MID",
       "level": 689,
       "tier": "EMERALD II",
-      "lp": 67,
+      "lp": 46,
       "wins": 154,
-      "losses": 142,
-      "winRate": 52,
+      "losses": 143,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7188.png"
     },
     {
@@ -596,8 +596,8 @@
       "role": "BOT",
       "level": 1453,
       "tier": "PLATINUM IV",
-      "lp": 53,
-      "wins": 680,
+      "lp": 95,
+      "wins": 682,
       "losses": 673,
       "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7167.png"
