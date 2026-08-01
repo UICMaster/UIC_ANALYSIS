@@ -42,10 +42,10 @@
       "role": "BOT",
       "level": 742,
       "tier": "DIAMOND I",
-      "lp": 56,
-      "wins": 81,
+      "lp": 77,
+      "wins": 82,
       "losses": 79,
-      "winRate": 50.6,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7.png"
     },
     {
@@ -54,10 +54,10 @@
       "role": "SUP",
       "level": 1016,
       "tier": "MASTER I",
-      "lp": 0,
-      "wins": 163,
+      "lp": 30,
+      "wins": 164,
       "losses": 148,
-      "winRate": 52.4,
+      "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4380.png"
     },
     {
@@ -66,9 +66,9 @@
       "role": "MID",
       "level": 1096,
       "tier": "MASTER I",
-      "lp": 385,
-      "wins": 436,
-      "losses": 422,
+      "lp": 388,
+      "wins": 437,
+      "losses": 423,
       "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3151.png"
     },
@@ -203,8 +203,8 @@
       "level": 508,
       "tier": "MASTER I",
       "lp": 122,
-      "wins": 134,
-      "losses": 107,
+      "wins": 135,
+      "losses": 108,
       "winRate": 55.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4655.png"
     }
@@ -595,11 +595,11 @@
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1453,
-      "tier": "PLATINUM III",
-      "lp": 18,
+      "tier": "PLATINUM IV",
+      "lp": 80,
       "wins": 684,
-      "losses": 674,
-      "winRate": 50.4,
+      "losses": 676,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7167.png"
     },
     {
@@ -620,10 +620,10 @@
       "role": "SUP",
       "level": 400,
       "tier": "PLATINUM III",
-      "lp": 33,
+      "lp": 12,
       "wins": 162,
-      "losses": 167,
-      "winRate": 49.2,
+      "losses": 168,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7099.png"
     },
     {
@@ -731,11 +731,11 @@
       "name": "UIC Flare",
       "role": "MID",
       "level": 655,
-      "tier": "EMERALD II",
-      "lp": 15,
+      "tier": "EMERALD III",
+      "lp": 93,
       "wins": 142,
-      "losses": 147,
-      "winRate": 49.1,
+      "losses": 148,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/626.png"
     },
     {
