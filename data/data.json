@@ -216,10 +216,10 @@
       "role": "TOP",
       "level": 1328,
       "tier": "MASTER I",
-      "lp": 55,
-      "wins": 261,
+      "lp": 84,
+      "wins": 262,
       "losses": 272,
-      "winRate": 49,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7168.png"
     },
     {
@@ -350,10 +350,10 @@
       "role": "SUP",
       "level": 1018,
       "tier": "MASTER I",
-      "lp": 509,
+      "lp": 481,
       "wins": 117,
-      "losses": 102,
-      "winRate": 53.4,
+      "losses": 103,
+      "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6622.png"
     },
     {
