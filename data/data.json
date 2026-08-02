@@ -10,7 +10,7 @@
       "wins": 250,
       "losses": 273,
       "winRate": 47.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6236.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7026.png"
     },
     {
       "playerId": "0002",
@@ -572,10 +572,10 @@
       "role": "MID",
       "level": 636,
       "tier": "PLATINUM I",
-      "lp": 58,
-      "wins": 139,
+      "lp": 79,
+      "wins": 140,
       "losses": 133,
-      "winRate": 51.1,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4379.png"
     },
     {
@@ -583,11 +583,11 @@
       "name": "UIC GroßATuin",
       "role": "MID",
       "level": 629,
-      "tier": "DIAMOND III",
-      "lp": 87,
-      "wins": 397,
+      "tier": "DIAMOND II",
+      "lp": 6,
+      "wins": 398,
       "losses": 363,
-      "winRate": 52.2,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/23.png"
     },
     {
@@ -734,8 +734,8 @@
       "tier": "EMERALD III",
       "lp": 93,
       "wins": 142,
-      "losses": 148,
-      "winRate": 49,
+      "losses": 149,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/626.png"
     },
     {
