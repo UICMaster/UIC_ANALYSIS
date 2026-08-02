@@ -324,7 +324,7 @@
       "playerId": "0027",
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 936,
+      "level": 937,
       "tier": "DIAMOND III",
       "lp": 60,
       "wins": 247,
@@ -424,10 +424,10 @@
       "role": "BOT",
       "level": 768,
       "tier": "DIAMOND I",
-      "lp": 25,
-      "wins": 149,
+      "lp": 44,
+      "wins": 150,
       "losses": 134,
-      "winRate": 52.7,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7188.png"
     },
     {
@@ -560,10 +560,10 @@
       "role": "JGL",
       "level": 977,
       "tier": "DIAMOND II",
-      "lp": 37,
+      "lp": 17,
       "wins": 78,
-      "losses": 65,
-      "winRate": 54.5,
+      "losses": 66,
+      "winRate": 54.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3791.png"
     },
     {
@@ -658,10 +658,10 @@
       "role": "JGL",
       "level": 474,
       "tier": "GOLD IV",
-      "lp": 70,
-      "wins": 146,
+      "lp": 91,
+      "wins": 147,
       "losses": 147,
-      "winRate": 49.8,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3539.png"
     },
     {
