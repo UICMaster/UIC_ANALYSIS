@@ -400,10 +400,10 @@
       "role": "JGL",
       "level": 808,
       "tier": "DIAMOND I",
-      "lp": 75,
-      "wins": 51,
-      "losses": 49,
-      "winRate": 51,
+      "lp": 55,
+      "wins": 52,
+      "losses": 51,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3840.png"
     },
     {
@@ -424,10 +424,10 @@
       "role": "BOT",
       "level": 768,
       "tier": "DIAMOND I",
-      "lp": 50,
-      "wins": 148,
-      "losses": 132,
-      "winRate": 52.9,
+      "lp": 25,
+      "wins": 149,
+      "losses": 134,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7188.png"
     },
     {
@@ -496,12 +496,12 @@
       "playerId": "0041",
       "name": "Moonlxght",
       "role": "SUP",
-      "level": 337,
+      "level": 338,
       "tier": "MASTER I",
-      "lp": 178,
+      "lp": 148,
       "wins": 137,
-      "losses": 117,
-      "winRate": 53.9,
+      "losses": 118,
+      "winRate": 53.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4793.png"
     },
     {
@@ -560,10 +560,10 @@
       "role": "JGL",
       "level": 977,
       "tier": "DIAMOND II",
-      "lp": 77,
+      "lp": 37,
       "wins": 78,
-      "losses": 63,
-      "winRate": 55.3,
+      "losses": 65,
+      "winRate": 54.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3791.png"
     },
     {
@@ -584,10 +584,10 @@
       "role": "MID",
       "level": 630,
       "tier": "DIAMOND III",
-      "lp": 64,
-      "wins": 398,
-      "losses": 365,
-      "winRate": 52.2,
+      "lp": 41,
+      "wins": 399,
+      "losses": 367,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/23.png"
     },
     {
@@ -598,7 +598,7 @@
       "tier": "PLATINUM IV",
       "lp": 85,
       "wins": 690,
-      "losses": 682,
+      "losses": 683,
       "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7167.png"
     },
@@ -656,12 +656,12 @@
       "playerId": "0054",
       "name": "Leberkasleatschn",
       "role": "JGL",
-      "level": 473,
+      "level": 474,
       "tier": "GOLD IV",
-      "lp": 29,
-      "wins": 144,
+      "lp": 70,
+      "wins": 146,
       "losses": 147,
-      "winRate": 49.5,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3539.png"
     },
     {
