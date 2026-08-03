@@ -18,10 +18,10 @@
       "role": "JGL",
       "level": 1062,
       "tier": "MASTER I",
-      "lp": 362,
-      "wins": 253,
+      "lp": 420,
+      "wins": 255,
       "losses": 242,
-      "winRate": 51.1,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4380.png"
     },
     {
@@ -214,7 +214,7 @@
       "playerId": "0018",
       "name": "Reign",
       "role": "TOP",
-      "level": 1328,
+      "level": 1329,
       "tier": "MASTER I",
       "lp": 113,
       "wins": 263,
@@ -326,10 +326,10 @@
       "role": "MID",
       "level": 937,
       "tier": "DIAMOND III",
-      "lp": 79,
+      "lp": 37,
       "wins": 248,
-      "losses": 277,
-      "winRate": 47.2,
+      "losses": 279,
+      "winRate": 47.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/5954.png"
     },
     {
@@ -642,7 +642,7 @@
   "obsidian": [
     {
       "playerId": "0053",
-      "name": "UIC Papi Δce",
+      "name": "Papi Δce",
       "role": "TOP",
       "level": 608,
       "tier": "PLATINUM I",
@@ -658,10 +658,10 @@
       "role": "JGL",
       "level": 474,
       "tier": "GOLD IV",
-      "lp": 91,
+      "lp": 72,
       "wins": 147,
-      "losses": 147,
-      "winRate": 50,
+      "losses": 148,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3539.png"
     },
     {
@@ -742,12 +742,12 @@
       "playerId": "0061",
       "name": "Starboy",
       "role": "BOT",
-      "level": 856,
+      "level": 857,
       "tier": "DIAMOND III",
-      "lp": 65,
-      "wins": 348,
+      "lp": 82,
+      "wins": 349,
       "losses": 320,
-      "winRate": 52.1,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7183.png"
     },
     {
