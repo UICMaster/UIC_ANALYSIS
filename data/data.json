@@ -64,12 +64,12 @@
       "playerId": "0006",
       "name": "UIC Baumi",
       "role": "MID",
-      "level": 1096,
+      "level": 1097,
       "tier": "MASTER I",
-      "lp": 548,
-      "wins": 441,
-      "losses": 423,
-      "winRate": 51,
+      "lp": 584,
+      "wins": 443,
+      "losses": 424,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3151.png"
     },
     {
@@ -326,10 +326,10 @@
       "role": "MID",
       "level": 937,
       "tier": "DIAMOND III",
-      "lp": 60,
-      "wins": 247,
+      "lp": 79,
+      "wins": 248,
       "losses": 277,
-      "winRate": 47.1,
+      "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/5954.png"
     },
     {
@@ -424,10 +424,10 @@
       "role": "BOT",
       "level": 768,
       "tier": "DIAMOND I",
-      "lp": 44,
-      "wins": 150,
+      "lp": 63,
+      "wins": 151,
       "losses": 134,
-      "winRate": 52.8,
+      "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7188.png"
     },
     {
@@ -597,8 +597,8 @@
       "level": 1455,
       "tier": "PLATINUM IV",
       "lp": 83,
-      "wins": 691,
-      "losses": 684,
+      "wins": 692,
+      "losses": 685,
       "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7167.png"
     },
@@ -748,7 +748,7 @@
       "wins": 348,
       "losses": 320,
       "winRate": 52.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7185.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7183.png"
     },
     {
       "playerId": "0062",
