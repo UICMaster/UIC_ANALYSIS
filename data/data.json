@@ -66,10 +66,10 @@
       "role": "MID",
       "level": 1096,
       "tier": "MASTER I",
-      "lp": 452,
-      "wins": 439,
+      "lp": 548,
+      "wins": 441,
       "losses": 423,
-      "winRate": 50.9,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3151.png"
     },
     {
@@ -116,10 +116,10 @@
       "role": "MID",
       "level": 1054,
       "tier": "MASTER I",
-      "lp": 148,
-      "wins": 356,
-      "losses": 360,
-      "winRate": 49.7,
+      "lp": 85,
+      "wins": 357,
+      "losses": 363,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6284.png"
     },
     {
@@ -302,10 +302,10 @@
       "role": "TOP",
       "level": 586,
       "tier": "MASTER I",
-      "lp": 474,
-      "wins": 393,
+      "lp": 504,
+      "wins": 394,
       "losses": 358,
-      "winRate": 52.3,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6640.png"
     },
     {
@@ -386,7 +386,7 @@
       "playerId": "0032",
       "name": "UIC DANY",
       "role": "TOP",
-      "level": 556,
+      "level": 557,
       "tier": "DIAMOND III",
       "lp": 17,
       "wins": 127,
@@ -584,10 +584,10 @@
       "role": "MID",
       "level": 630,
       "tier": "DIAMOND III",
-      "lp": 39,
+      "lp": 18,
       "wins": 400,
-      "losses": 368,
-      "winRate": 52.1,
+      "losses": 369,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/23.png"
     },
     {
