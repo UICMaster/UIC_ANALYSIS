@@ -117,9 +117,9 @@
       "level": 1056,
       "tier": "MASTER I",
       "lp": 88,
-      "wins": 364,
-      "losses": 370,
-      "winRate": 49.6,
+      "wins": 365,
+      "losses": 372,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6284.png"
     },
     {
@@ -428,7 +428,7 @@
       "wins": 152,
       "losses": 136,
       "winRate": 52.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7188.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/5970.png"
     },
     {
       "playerId": "0036",
@@ -706,7 +706,7 @@
       "playerId": "0058",
       "name": "UIC ソニック",
       "role": "TOP",
-      "level": 729,
+      "level": 730,
       "tier": "EMERALD III",
       "lp": 26,
       "wins": 100,
