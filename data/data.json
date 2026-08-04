@@ -117,8 +117,8 @@
       "level": 1056,
       "tier": "MASTER I",
       "lp": 88,
-      "wins": 365,
-      "losses": 372,
+      "wins": 366,
+      "losses": 373,
       "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6284.png"
     },
@@ -730,12 +730,12 @@
       "playerId": "0060",
       "name": "UIC Flare",
       "role": "MID",
-      "level": 655,
-      "tier": "EMERALD III",
-      "lp": 88,
-      "wins": 143,
+      "level": 656,
+      "tier": "EMERALD II",
+      "lp": 6,
+      "wins": 144,
       "losses": 150,
-      "winRate": 48.8,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/626.png"
     },
     {
