@@ -18,10 +18,10 @@
       "role": "JGL",
       "level": 1062,
       "tier": "MASTER I",
-      "lp": 420,
-      "wins": 255,
+      "lp": 449,
+      "wins": 256,
       "losses": 242,
-      "winRate": 51.3,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4380.png"
     },
     {
@@ -30,10 +30,10 @@
       "role": "MID",
       "level": 645,
       "tier": "DIAMOND I",
-      "lp": 59,
-      "wins": 106,
-      "losses": 104,
-      "winRate": 50.5,
+      "lp": 87,
+      "wins": 108,
+      "losses": 105,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7094.png"
     },
     {
@@ -78,10 +78,10 @@
       "role": "MID",
       "level": 661,
       "tier": "MASTER I",
-      "lp": 589,
+      "lp": 496,
       "wins": 142,
-      "losses": 121,
-      "winRate": 54,
+      "losses": 124,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7168.png"
     }
   ],
@@ -448,7 +448,7 @@
       "playerId": "0037",
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 953,
+      "level": 954,
       "tier": "DIAMOND II",
       "lp": 47,
       "wins": 117,
