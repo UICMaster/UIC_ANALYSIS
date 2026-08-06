@@ -76,12 +76,12 @@
       "playerId": "0007",
       "name": "UIC FrozenHands",
       "role": "MID",
-      "level": 661,
+      "level": 662,
       "tier": "MASTER I",
-      "lp": 552,
-      "wins": 144,
+      "lp": 610,
+      "wins": 146,
       "losses": 125,
-      "winRate": 53.5,
+      "winRate": 53.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7168.png"
     }
   ],
@@ -202,10 +202,10 @@
       "role": "SUP",
       "level": 509,
       "tier": "MASTER I",
-      "lp": 122,
+      "lp": 92,
       "wins": 136,
-      "losses": 109,
-      "winRate": 55.5,
+      "losses": 110,
+      "winRate": 55.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4655.png"
     }
   ],
@@ -594,12 +594,12 @@
       "playerId": "0049",
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1455,
+      "level": 1456,
       "tier": "PLATINUM IV",
-      "lp": 41,
+      "lp": 20,
       "wins": 692,
-      "losses": 687,
-      "winRate": 50.2,
+      "losses": 688,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7167.png"
     },
     {
@@ -720,10 +720,10 @@
       "role": "JGL",
       "level": 1172,
       "tier": "MASTER I",
-      "lp": 90,
-      "wins": 113,
-      "losses": 100,
-      "winRate": 53.1,
+      "lp": 60,
+      "wins": 114,
+      "losses": 102,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7123.png"
     },
     {
