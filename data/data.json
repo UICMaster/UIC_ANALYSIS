@@ -6,10 +6,10 @@
       "role": "TOP",
       "level": 1193,
       "tier": "DIAMOND IV",
-      "lp": 55,
-      "wins": 251,
+      "lp": 75,
+      "wins": 252,
       "losses": 275,
-      "winRate": 47.7,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7026.png"
     },
     {
@@ -240,10 +240,10 @@
       "role": "MID",
       "level": 675,
       "tier": "EMERALD I",
-      "lp": 70,
+      "lp": 49,
       "wins": 79,
-      "losses": 83,
-      "winRate": 48.8,
+      "losses": 84,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/615.png"
     },
     {
@@ -326,10 +326,10 @@
       "role": "MID",
       "level": 938,
       "tier": "DIAMOND III",
-      "lp": 58,
-      "wins": 257,
+      "lp": 77,
+      "wins": 258,
       "losses": 287,
-      "winRate": 47.2,
+      "winRate": 47.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/5954.png"
     },
     {
@@ -448,7 +448,7 @@
       "playerId": "0037",
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 954,
+      "level": 955,
       "tier": "DIAMOND II",
       "lp": 47,
       "wins": 117,
@@ -594,7 +594,7 @@
       "playerId": "0049",
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1456,
+      "level": 1457,
       "tier": "GOLD I",
       "lp": 87,
       "wins": 695,
@@ -639,37 +639,37 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7064.png"
     }
   ],
-  "obsidian": [
+  "polaris": [
     {
       "playerId": "0053",
-      "name": "Papi Δce",
+      "name": "GIG Evil",
       "role": "TOP",
-      "level": 609,
-      "tier": "PLATINUM I",
-      "lp": 73,
-      "wins": 131,
-      "losses": 141,
-      "winRate": 48.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3891.png"
+      "level": 246,
+      "tier": "PLATINUM II",
+      "lp": 89,
+      "wins": 261,
+      "losses": 251,
+      "winRate": 51,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7102.png"
     },
     {
       "playerId": "0054",
-      "name": "Leberkasleatschn",
+      "name": "Otter",
       "role": "JGL",
-      "level": 474,
-      "tier": "GOLD IV",
-      "lp": 52,
-      "wins": 148,
-      "losses": 150,
-      "winRate": 49.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3539.png"
+      "level": 961,
+      "tier": "DIAMOND IV",
+      "lp": 6,
+      "wins": 48,
+      "losses": 48,
+      "winRate": 50,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/983.png"
     },
     {
       "playerId": "0055",
-      "name": "OPEN SPOT",
+      "name": "UIC Rhinoshield",
       "role": "MID",
       "level": 0,
-      "tier": "RECRUITING",
+      "tier": "STAFF",
       "lp": 0,
       "wins": 0,
       "losses": 0,
@@ -678,27 +678,27 @@
     },
     {
       "playerId": "0056",
-      "name": "BlondiXE1",
+      "name": "Schneebär",
       "role": "BOT",
-      "level": 437,
-      "tier": "SILVER I",
-      "lp": 24,
-      "wins": 110,
-      "losses": 103,
-      "winRate": 51.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6102.png"
+      "level": 652,
+      "tier": "DIAMOND II",
+      "lp": 67,
+      "wins": 75,
+      "losses": 58,
+      "winRate": 56.4,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7190.png"
     },
     {
       "playerId": "0057",
-      "name": "LordZash",
+      "name": "Void Shield",
       "role": "SUP",
-      "level": 770,
-      "tier": "GOLD I",
-      "lp": 88,
-      "wins": 113,
-      "losses": 127,
-      "winRate": 47.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6378.png"
+      "level": 547,
+      "tier": "DIAMOND III",
+      "lp": 59,
+      "wins": 170,
+      "losses": 153,
+      "winRate": 52.6,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7170.png"
     }
   ],
   "ember": [
@@ -732,10 +732,10 @@
       "role": "MID",
       "level": 656,
       "tier": "EMERALD II",
-      "lp": 16,
-      "wins": 147,
+      "lp": 35,
+      "wins": 148,
       "losses": 152,
-      "winRate": 49.2,
+      "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/626.png"
     },
     {
