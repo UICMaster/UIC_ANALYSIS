@@ -627,63 +627,63 @@
       }
     ]
   },
-  "obsidian": {
+  "polaris": {
     "primeLeagueId": "212407",
-    "teamDisplay": "UIC Obsidian",
-    "tier": "Division 8",
+    "teamDisplay": "UIC Polaris",
+    "tier": "xxxxx",
     "roster": [
       {
         "playerId": "0053",
-        "gameName": "Papi Δce",
-        "tagLine": "3072",
+        "gameName": "GIG Evil",
+        "tagLine": "RAC",
         "role": "TOP",
-        "puuid": "FVavbyNpC5ILrl_koF3ULJwnW8p_6RknfsyP0rXOZAJaUfWbxqJjfF3KbcFxz4TezzFS8OFSGUFdoQ",
+        "puuid": "",
         "trackStats": true,
-        "discordId": "776762991546728448",
+        "discordId": "690292529463164981",
         "rosterStatus": "starter",
-        "isCaptain": true
+        "isCaptain": false
       },
       {
         "playerId": "0054",
-        "gameName": "Leberkasleatschn",
-        "tagLine": "1990",
+        "gameName": "Otter",
+        "tagLine": "0812",
         "role": "JGL",
-        "puuid": "Unzb7tEG5SftZwO9h9MQkICud70nvgRHlCoUma71Ovfo5bQxpMbhpYsJVYzqyEUji5dDYARUWhBHJg",
+        "puuid": "",
         "trackStats": true,
-        "discordId": "797458459444510752",
+        "discordId": "245589403173388289",
         "rosterStatus": "starter",
         "isCaptain": false
       },
       {
         "playerId": "0055",
-        "gameName": "",
-        "tagLine": "",
+        "gameName": "UIC Rhinoshield",
+        "tagLine": "RIN",
         "role": "MID",
         "puuid": "",
         "trackStats": false,
-        "discordId": "",
+        "discordId": "387681244709650442",
         "rosterStatus": "starter",
-        "isCaptain": false
+        "isCaptain": true
       },
       {
         "playerId": "0056",
-        "gameName": "BlondiXE1",
-        "tagLine": "EUW",
+        "gameName": "Schneebär",
+        "tagLine": "RAWR",
         "role": "BOT",
-        "puuid": "-3-DyCMsjwzKbp_yrp5CgA_Mf6HDjGpdUTPSL4gAguW03iwKZ1WKFim900adNWPwSgktQAmVzcVdPQ",
+        "puuid": "",
         "trackStats": true,
-        "discordId": "1044518316556955648",
+        "discordId": "263363907186327553",
         "rosterStatus": "starter",
         "isCaptain": false
       },
       {
         "playerId": "0057",
-        "gameName": "LordZash",
-        "tagLine": "1220",
+        "gameName": "Void Shield",
+        "tagLine": "GGWP",
         "role": "SUP",
-        "puuid": "-gPQulPWyxfsrfX1NtsPgK5AdxN0BkdJUEQHbItIR3HCdqkY4yKf4jcoGBS1Mp0XWNfoN4WDbK2W5g",
+        "puuid": "",
         "trackStats": true,
-        "discordId": "293441218061271060",
+        "discordId": "1475483387660861480",
         "rosterStatus": "starter",
         "isCaptain": false
       }
