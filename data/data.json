@@ -302,10 +302,10 @@
       "role": "TOP",
       "level": 587,
       "tier": "MASTER I",
-      "lp": 474,
-      "wins": 395,
-      "losses": 360,
-      "winRate": 52.3,
+      "lp": 534,
+      "wins": 397,
+      "losses": 361,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6640.png"
     },
     {
@@ -423,11 +423,11 @@
       "name": "UIC Pjure",
       "role": "BOT",
       "level": 770,
-      "tier": "DIAMOND III",
-      "lp": 96,
-      "wins": 160,
+      "tier": "DIAMOND II",
+      "lp": 15,
+      "wins": 161,
       "losses": 150,
-      "winRate": 51.6,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/5970.png"
     },
     {
@@ -595,11 +595,11 @@
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1456,
-      "tier": "PLATINUM IV",
-      "lp": 0,
+      "tier": "GOLD I",
+      "lp": 50,
       "wins": 693,
-      "losses": 690,
-      "winRate": 50.1,
+      "losses": 692,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7167.png"
     },
     {
@@ -693,11 +693,11 @@
       "name": "LordZash",
       "role": "SUP",
       "level": 770,
-      "tier": "PLATINUM IV",
-      "lp": 0,
+      "tier": "GOLD I",
+      "lp": 50,
       "wins": 111,
-      "losses": 126,
-      "winRate": 46.8,
+      "losses": 127,
+      "winRate": 46.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6378.png"
     }
   ],
