@@ -128,10 +128,10 @@
       "role": "BOT",
       "level": 857,
       "tier": "EMERALD IV",
-      "lp": 18,
+      "lp": 0,
       "wins": 70,
-      "losses": 91,
-      "winRate": 43.5,
+      "losses": 92,
+      "winRate": 43.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6582.png"
     },
     {
@@ -325,11 +325,11 @@
       "name": "UIC Hayu",
       "role": "MID",
       "level": 939,
-      "tier": "DIAMOND II",
-      "lp": 9,
+      "tier": "DIAMOND III",
+      "lp": 88,
       "wins": 263,
-      "losses": 290,
-      "winRate": 47.6,
+      "losses": 291,
+      "winRate": 47.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/5954.png"
     },
     {
@@ -412,10 +412,10 @@
       "role": "MID",
       "level": 690,
       "tier": "EMERALD II",
-      "lp": 36,
+      "lp": 15,
       "wins": 159,
-      "losses": 148,
-      "winRate": 51.8,
+      "losses": 149,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7188.png"
     },
     {
@@ -596,9 +596,9 @@
       "role": "BOT",
       "level": 1457,
       "tier": "GOLD I",
-      "lp": 83,
+      "lp": 62,
       "wins": 697,
-      "losses": 694,
+      "losses": 695,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7167.png"
     },
