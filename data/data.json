@@ -116,10 +116,10 @@
       "role": "MID",
       "level": 1059,
       "tier": "MASTER I",
-      "lp": 117,
-      "wins": 379,
+      "lp": 147,
+      "wins": 380,
       "losses": 388,
-      "winRate": 49.4,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6284.png"
     },
     {
@@ -646,7 +646,7 @@
       "role": "TOP",
       "level": 246,
       "tier": "PLATINUM II",
-      "lp": 68,
+      "lp": 63,
       "wins": 264,
       "losses": 255,
       "winRate": 50.9,
