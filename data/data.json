@@ -76,12 +76,12 @@
       "playerId": "0007",
       "name": "UIC FrozenHands",
       "role": "MID",
-      "level": 662,
+      "level": 663,
       "tier": "MASTER I",
-      "lp": 480,
+      "lp": 449,
       "wins": 149,
-      "losses": 132,
-      "winRate": 53,
+      "losses": 133,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7168.png"
     }
   ],
@@ -116,9 +116,9 @@
       "role": "MID",
       "level": 1059,
       "tier": "MASTER I",
-      "lp": 147,
+      "lp": 116,
       "wins": 380,
-      "losses": 389,
+      "losses": 390,
       "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6284.png"
     },
@@ -170,7 +170,7 @@
       "wins": 154,
       "losses": 148,
       "winRate": 51,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/606.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/660.png"
     },
     {
       "playerId": "0015",
@@ -324,12 +324,12 @@
       "playerId": "0027",
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 939,
+      "level": 940,
       "tier": "DIAMOND II",
-      "lp": 27,
-      "wins": 265,
+      "lp": 47,
+      "wins": 266,
       "losses": 291,
-      "winRate": 47.7,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/5954.png"
     },
     {
@@ -536,10 +536,10 @@
       "role": "TOP",
       "level": 547,
       "tier": "GOLD I",
-      "lp": 46,
-      "wins": 182,
+      "lp": 64,
+      "wins": 183,
       "losses": 190,
-      "winRate": 48.9,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3536.png"
     },
     {
@@ -596,9 +596,9 @@
       "role": "BOT",
       "level": 1458,
       "tier": "GOLD II",
-      "lp": 74,
-      "wins": 697,
-      "losses": 699,
+      "lp": 70,
+      "wins": 698,
+      "losses": 700,
       "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7167.png"
     },
