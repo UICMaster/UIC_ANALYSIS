@@ -152,7 +152,7 @@
       "playerId": "0013",
       "name": "UIC VTennic",
       "role": "TOP",
-      "level": 491,
+      "level": 492,
       "tier": "DIAMOND IV",
       "lp": 0,
       "wins": 24,
@@ -326,10 +326,10 @@
       "role": "MID",
       "level": 939,
       "tier": "DIAMOND III",
-      "lp": 71,
-      "wins": 261,
+      "lp": 90,
+      "wins": 262,
       "losses": 290,
-      "winRate": 47.4,
+      "winRate": 47.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/5954.png"
     },
     {
@@ -668,13 +668,13 @@
       "playerId": "0055",
       "name": "UIC Rhinoshield",
       "role": "MID",
-      "level": 0,
-      "tier": "STAFF",
-      "lp": 0,
-      "wins": 0,
-      "losses": 0,
-      "winRate": 0,
-      "icon": null
+      "level": 989,
+      "tier": "PLATINUM II",
+      "lp": 70,
+      "wins": 313,
+      "losses": 316,
+      "winRate": 49.8,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6990.png"
     },
     {
       "playerId": "0056",
