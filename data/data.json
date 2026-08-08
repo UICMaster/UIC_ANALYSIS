@@ -78,10 +78,10 @@
       "role": "MID",
       "level": 663,
       "tier": "MASTER I",
-      "lp": 449,
-      "wins": 149,
+      "lp": 478,
+      "wins": 150,
       "losses": 133,
-      "winRate": 52.8,
+      "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7168.png"
     }
   ],
@@ -116,17 +116,17 @@
       "role": "MID",
       "level": 1059,
       "tier": "MASTER I",
-      "lp": 116,
+      "lp": 85,
       "wins": 380,
-      "losses": 390,
-      "winRate": 49.4,
+      "losses": 391,
+      "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6284.png"
     },
     {
       "playerId": "0011",
       "name": "UIC Pferdemilch",
       "role": "BOT",
-      "level": 857,
+      "level": 858,
       "tier": "EMERALD IV",
       "lp": 55,
       "wins": 73,
@@ -216,10 +216,10 @@
       "role": "TOP",
       "level": 1329,
       "tier": "MASTER I",
-      "lp": 20,
-      "wins": 263,
+      "lp": 49,
+      "wins": 264,
       "losses": 275,
-      "winRate": 48.9,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7168.png"
     },
     {
@@ -522,13 +522,13 @@
       "playerId": "0043",
       "name": "UIC Kaetaya",
       "role": "TOP",
-      "level": 889,
-      "tier": "DIAMOND IV",
-      "lp": 87,
-      "wins": 72,
+      "level": 890,
+      "tier": "DIAMOND III",
+      "lp": 31,
+      "wins": 73,
       "losses": 59,
-      "winRate": 55,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7129.png"
+      "winRate": 55.3,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6700.png"
     },
     {
       "playerId": "0044",
@@ -596,10 +596,10 @@
       "role": "BOT",
       "level": 1458,
       "tier": "GOLD II",
-      "lp": 70,
-      "wins": 698,
+      "lp": 88,
+      "wins": 699,
       "losses": 700,
-      "winRate": 49.9,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7167.png"
     },
     {
