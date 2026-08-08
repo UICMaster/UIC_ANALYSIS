@@ -660,7 +660,7 @@
         "tagLine": "RIN",
         "role": "MID",
         "puuid": "",
-        "trackStats": false,
+        "trackStats": true,
         "discordId": "387681244709650442",
         "rosterStatus": "starter",
         "isCaptain": true
