@@ -388,10 +388,10 @@
       "role": "TOP",
       "level": 558,
       "tier": "DIAMOND IV",
-      "lp": 73,
-      "wins": 127,
+      "lp": 91,
+      "wins": 128,
       "losses": 119,
-      "winRate": 51.6,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3157.png"
     },
     {
@@ -434,7 +434,7 @@
       "playerId": "0036",
       "name": "UIC Ryu Panda",
       "role": "SUP",
-      "level": 803,
+      "level": 804,
       "tier": "UNRANKED",
       "lp": 0,
       "wins": 0,
@@ -535,11 +535,11 @@
       "name": "UIC Muh",
       "role": "TOP",
       "level": 546,
-      "tier": "PLATINUM IV",
-      "lp": 0,
+      "tier": "GOLD I",
+      "lp": 50,
       "wins": 181,
-      "losses": 188,
-      "winRate": 49.1,
+      "losses": 189,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3536.png"
     },
     {
@@ -732,10 +732,10 @@
       "role": "MID",
       "level": 657,
       "tier": "EMERALD II",
-      "lp": 81,
+      "lp": 59,
       "wins": 152,
-      "losses": 155,
-      "winRate": 49.5,
+      "losses": 156,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/626.png"
     },
     {
