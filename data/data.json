@@ -78,10 +78,10 @@
       "role": "MID",
       "level": 663,
       "tier": "MASTER I",
-      "lp": 443,
+      "lp": 380,
       "wins": 152,
-      "losses": 136,
-      "winRate": 52.8,
+      "losses": 138,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7168.png"
     }
   ],
@@ -326,10 +326,10 @@
       "role": "MID",
       "level": 940,
       "tier": "DIAMOND II",
-      "lp": 67,
-      "wins": 270,
+      "lp": 88,
+      "wins": 271,
       "losses": 294,
-      "winRate": 47.9,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/5954.png"
     },
     {
@@ -386,11 +386,11 @@
       "playerId": "0032",
       "name": "UIC DANY",
       "role": "TOP",
-      "level": 558,
+      "level": 559,
       "tier": "DIAMOND III",
-      "lp": 3,
-      "wins": 131,
-      "losses": 121,
+      "lp": 1,
+      "wins": 132,
+      "losses": 122,
       "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3157.png"
     },
@@ -424,9 +424,9 @@
       "role": "BOT",
       "level": 772,
       "tier": "DIAMOND III",
-      "lp": 85,
-      "wins": 165,
-      "losses": 156,
+      "lp": 99,
+      "wins": 166,
+      "losses": 157,
       "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/5970.png"
     },
@@ -478,7 +478,7 @@
       "wins": 175,
       "losses": 169,
       "winRate": 50.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7168.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3230.png"
     },
     {
       "playerId": "0040",
@@ -536,9 +536,9 @@
       "role": "TOP",
       "level": 548,
       "tier": "PLATINUM IV",
-      "lp": 31,
-      "wins": 189,
-      "losses": 193,
+      "lp": 29,
+      "wins": 190,
+      "losses": 194,
       "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3536.png"
     },
@@ -596,10 +596,10 @@
       "role": "BOT",
       "level": 1459,
       "tier": "GOLD I",
-      "lp": 10,
-      "wins": 705,
+      "lp": 29,
+      "wins": 706,
       "losses": 704,
-      "winRate": 50,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7167.png"
     },
     {
