@@ -78,10 +78,10 @@
       "role": "MID",
       "level": 663,
       "tier": "MASTER I",
-      "lp": 416,
-      "wins": 150,
+      "lp": 445,
+      "wins": 151,
       "losses": 135,
-      "winRate": 52.6,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7168.png"
     }
   ],
@@ -114,12 +114,12 @@
       "playerId": "0010",
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1059,
+      "level": 1060,
       "tier": "MASTER I",
-      "lp": 83,
-      "wins": 382,
+      "lp": 113,
+      "wins": 383,
       "losses": 393,
-      "winRate": 49.3,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6284.png"
     },
     {
@@ -338,10 +338,10 @@
       "role": "BOT",
       "level": 871,
       "tier": "MASTER I",
-      "lp": 549,
+      "lp": 518,
       "wins": 162,
-      "losses": 133,
-      "winRate": 54.9,
+      "losses": 134,
+      "winRate": 54.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7144.png"
     },
     {
@@ -350,10 +350,10 @@
       "role": "SUP",
       "level": 1020,
       "tier": "MASTER I",
-      "lp": 31,
-      "wins": 117,
+      "lp": 66,
+      "wins": 118,
       "losses": 103,
-      "winRate": 53.2,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6622.png"
     },
     {
@@ -422,7 +422,7 @@
       "playerId": "0035",
       "name": "UIC Pjure",
       "role": "BOT",
-      "level": 771,
+      "level": 772,
       "tier": "DIAMOND II",
       "lp": 72,
       "wins": 164,
