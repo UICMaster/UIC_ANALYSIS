@@ -66,10 +66,10 @@
       "role": "MID",
       "level": 1098,
       "tier": "MASTER I",
-      "lp": 715,
-      "wins": 448,
+      "lp": 747,
+      "wins": 449,
       "losses": 425,
-      "winRate": 51.3,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3151.png"
     },
     {
@@ -104,10 +104,10 @@
       "role": "JGL",
       "level": 302,
       "tier": "EMERALD II",
-      "lp": 52,
+      "lp": 32,
       "wins": 88,
-      "losses": 81,
-      "winRate": 52.1,
+      "losses": 82,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/5982.png"
     },
     {
@@ -534,11 +534,11 @@
       "playerId": "0044",
       "name": "UIC Muh",
       "role": "TOP",
-      "level": 547,
+      "level": 548,
       "tier": "GOLD I",
-      "lp": 60,
-      "wins": 184,
-      "losses": 191,
+      "lp": 79,
+      "wins": 185,
+      "losses": 192,
       "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3536.png"
     },
