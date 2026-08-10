@@ -66,10 +66,10 @@
       "role": "MID",
       "level": 1099,
       "tier": "MASTER I",
-      "lp": 697,
+      "lp": 668,
       "wins": 452,
-      "losses": 431,
-      "winRate": 51.2,
+      "losses": 432,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3151.png"
     },
     {
@@ -116,10 +116,10 @@
       "role": "MID",
       "level": 1061,
       "tier": "DIAMOND II",
-      "lp": 91,
+      "lp": 49,
       "wins": 385,
-      "losses": 404,
-      "winRate": 48.8,
+      "losses": 406,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6284.png"
     },
     {
@@ -239,11 +239,11 @@
       "name": "UIC Landmine",
       "role": "MID",
       "level": 675,
-      "tier": "EMERALD I",
-      "lp": 85,
-      "wins": 82,
+      "tier": "DIAMOND IV",
+      "lp": 4,
+      "wins": 83,
       "losses": 85,
-      "winRate": 49.1,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/615.png"
     },
     {
