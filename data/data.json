@@ -116,10 +116,10 @@
       "role": "MID",
       "level": 1060,
       "tier": "MASTER I",
-      "lp": 80,
+      "lp": 18,
       "wins": 385,
-      "losses": 396,
-      "winRate": 49.3,
+      "losses": 398,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6284.png"
     },
     {
@@ -128,10 +128,10 @@
       "role": "BOT",
       "level": 858,
       "tier": "EMERALD IV",
-      "lp": 53,
-      "wins": 74,
-      "losses": 93,
-      "winRate": 44.3,
+      "lp": 51,
+      "wins": 75,
+      "losses": 94,
+      "winRate": 44.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6582.png"
     },
     {
@@ -411,11 +411,11 @@
       "name": "UIC Rellik",
       "role": "MID",
       "level": 691,
-      "tier": "EMERALD II",
-      "lp": 67,
-      "wins": 164,
+      "tier": "EMERALD I",
+      "lp": 5,
+      "wins": 166,
       "losses": 152,
-      "winRate": 51.9,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7188.png"
     },
     {
@@ -561,9 +561,9 @@
       "level": 980,
       "tier": "DIAMOND III",
       "lp": 97,
-      "wins": 78,
-      "losses": 67,
-      "winRate": 53.8,
+      "wins": 79,
+      "losses": 68,
+      "winRate": 53.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6497.png"
     },
     {
@@ -584,9 +584,9 @@
       "role": "MID",
       "level": 633,
       "tier": "DIAMOND IV",
-      "lp": 71,
-      "wins": 403,
-      "losses": 375,
+      "lp": 67,
+      "wins": 404,
+      "losses": 376,
       "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/23.png"
     },
@@ -596,10 +596,10 @@
       "role": "BOT",
       "level": 1459,
       "tier": "GOLD I",
-      "lp": 8,
-      "wins": 706,
+      "lp": 46,
+      "wins": 708,
       "losses": 705,
-      "winRate": 50,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7167.png"
     },
     {
