@@ -18,10 +18,10 @@
       "role": "JGL",
       "level": 1063,
       "tier": "MASTER I",
-      "lp": 501,
+      "lp": 470,
       "wins": 261,
-      "losses": 245,
-      "winRate": 51.6,
+      "losses": 246,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4380.png"
     },
     {
@@ -30,10 +30,10 @@
       "role": "MID",
       "level": 646,
       "tier": "MASTER I",
-      "lp": 37,
-      "wins": 113,
+      "lp": 68,
+      "wins": 114,
       "losses": 110,
-      "winRate": 50.7,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7094.png"
     },
     {
@@ -66,10 +66,10 @@
       "role": "MID",
       "level": 1099,
       "tier": "MASTER I",
-      "lp": 701,
+      "lp": 643,
       "wins": 454,
-      "losses": 433,
-      "winRate": 51.2,
+      "losses": 435,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3151.png"
     },
     {
@@ -596,8 +596,8 @@
       "role": "BOT",
       "level": 1460,
       "tier": "PLATINUM IV",
-      "lp": 19,
-      "wins": 713,
+      "lp": 38,
+      "wins": 714,
       "losses": 707,
       "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7167.png"
@@ -680,7 +680,7 @@
       "playerId": "0056",
       "name": "Schneebär",
       "role": "BOT",
-      "level": 652,
+      "level": 653,
       "tier": "DIAMOND II",
       "lp": 26,
       "wins": 75,
@@ -708,10 +708,10 @@
       "role": "TOP",
       "level": 730,
       "tier": "EMERALD IV",
-      "lp": 66,
-      "wins": 100,
+      "lp": 86,
+      "wins": 101,
       "losses": 95,
-      "winRate": 51.3,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6490.png"
     },
     {
