@@ -83,6 +83,79 @@
       }
     ]
   },
+  "basilisk": {
+    "primeLeagueId": "212586",
+    "teamDisplay": "UIC Basilisk",
+    "tier": "Division 4",
+    "roster": [
+      {
+        "playerId": "0078",
+        "gameName": "π nut",
+        "tagLine": "EUW",
+        "role": "TOP",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "222373796147888133",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0079",
+        "gameName": "Panger",
+        "tagLine": "EUW12",
+        "role": "JGL",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "343841540411752459",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0080",
+        "gameName": "Lanzus",
+        "tagLine": "DIV5",
+        "role": "MID",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "622381409981693953",
+        "rosterStatus": "starter",
+        "isCaptain": true
+      },
+      {
+        "playerId": "0081",
+        "gameName": "Voracity",
+        "tagLine": "HNVR",
+        "role": "BOT",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "282564643749232640",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0076",
+        "gameName": "PeaPuffer",
+        "tagLine": "Efe",
+        "role": "SUP",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "611304700779692135",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0082",
+        "gameName": "MakZkovich",
+        "tagLine": "222",
+        "role": "COH",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "558688298701160450",
+        "rosterStatus": "staff",
+        "isCaptain": false
+      }
+    ]
+  },
   "eclipse": {
     "primeLeagueId": "208131",
     "teamDisplay": "UIC Eclipse",
@@ -903,17 +976,6 @@
         "puuid": "6SLO1ln5FlFBoW1mxcFvhIHwxgbUw1RWHogzDEH4irD5uTWxHfa4yCPzJXEoWQOhlLtEPzv9rmNDCQ",
         "trackStats": true,
         "discordId": "855126257859821579",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "playerId": "0076",
-        "gameName": "PeaPuffer",
-        "tagLine": "Efe",
-        "role": "SUP",
-        "puuid": "fbGUOApCfckQft52lWA-J9iR6G5u-DjzSLTlX1ss4UFiNnAUGtlzt8YAqnLkQJQWNWgMn-MeMy48dg",
-        "trackStats": true,
-        "discordId": "611304700779692135",
         "rosterStatus": "starter",
         "isCaptain": false
       },
