@@ -118,8 +118,8 @@
       "tier": "DIAMOND II",
       "lp": 43,
       "wins": 388,
-      "losses": 409,
-      "winRate": 48.7,
+      "losses": 410,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/6284.png"
     },
     {
@@ -584,9 +584,9 @@
       "role": "MID",
       "level": 634,
       "tier": "DIAMOND IV",
-      "lp": 55,
-      "wins": 407,
-      "losses": 379,
+      "lp": 52,
+      "wins": 408,
+      "losses": 380,
       "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/23.png"
     },
