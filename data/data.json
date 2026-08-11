@@ -18,10 +18,10 @@
       "role": "JGL",
       "level": 1064,
       "tier": "MASTER I",
-      "lp": 468,
-      "wins": 262,
+      "lp": 497,
+      "wins": 263,
       "losses": 247,
-      "winRate": 51.5,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4380.png"
     },
     {
@@ -78,11 +78,85 @@
       "role": "MID",
       "level": 664,
       "tier": "MASTER I",
-      "lp": 403,
+      "lp": 372,
       "wins": 155,
-      "losses": 140,
-      "winRate": 52.5,
+      "losses": 141,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
+    }
+  ],
+  "basilisk": [
+    {
+      "playerId": "0078",
+      "name": "π nut",
+      "role": "TOP",
+      "level": 670,
+      "tier": "MASTER I",
+      "lp": 313,
+      "wins": 86,
+      "losses": 66,
+      "winRate": 56.6,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6622.png"
+    },
+    {
+      "playerId": "0079",
+      "name": "Panger",
+      "role": "JGL",
+      "level": 349,
+      "tier": "MASTER I",
+      "lp": 443,
+      "wins": 127,
+      "losses": 95,
+      "winRate": 57.2,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/657.png"
+    },
+    {
+      "playerId": "0080",
+      "name": "Lanzus",
+      "role": "MID",
+      "level": 935,
+      "tier": "MASTER I",
+      "lp": 1306,
+      "wins": 151,
+      "losses": 121,
+      "winRate": 55.5,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6629.png"
+    },
+    {
+      "playerId": "0081",
+      "name": "Voracity",
+      "role": "BOT",
+      "level": 1690,
+      "tier": "MASTER I",
+      "lp": 763,
+      "wins": 209,
+      "losses": 191,
+      "winRate": 52.3,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6872.png"
+    },
+    {
+      "playerId": "0076",
+      "name": "PeaPuffer",
+      "role": "SUP",
+      "level": 753,
+      "tier": "MASTER I",
+      "lp": 1212,
+      "wins": 386,
+      "losses": 364,
+      "winRate": 51.5,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/1625.png"
+    },
+    {
+      "playerId": "0082",
+      "name": "MakZkovich",
+      "role": "COH",
+      "level": 508,
+      "tier": "MASTER I",
+      "lp": 1162,
+      "wins": 368,
+      "losses": 337,
+      "winRate": 52.2,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4096.png"
     }
   ],
   "eclipse": [
@@ -116,8 +190,8 @@
       "role": "MID",
       "level": 1062,
       "tier": "DIAMOND I",
-      "lp": 34,
-      "wins": 394,
+      "lp": 52,
+      "wins": 395,
       "losses": 412,
       "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
@@ -302,9 +376,9 @@
       "role": "TOP",
       "level": 587,
       "tier": "MASTER I",
-      "lp": 594,
+      "lp": 563,
       "wins": 398,
-      "losses": 361,
+      "losses": 362,
       "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6640.png"
     },
