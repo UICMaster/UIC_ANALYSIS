@@ -30,10 +30,10 @@
       "role": "MID",
       "level": 647,
       "tier": "MASTER I",
-      "lp": 2,
+      "lp": 0,
       "wins": 118,
-      "losses": 117,
-      "winRate": 50.2,
+      "losses": 119,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7094.png"
     },
     {
@@ -42,9 +42,9 @@
       "role": "BOT",
       "level": 744,
       "tier": "MASTER I",
-      "lp": 58,
-      "wins": 87,
-      "losses": 84,
+      "lp": 56,
+      "wins": 88,
+      "losses": 85,
       "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7.png"
     },
@@ -55,8 +55,8 @@
       "level": 1019,
       "tier": "MASTER I",
       "lp": 16,
-      "wins": 169,
-      "losses": 153,
+      "wins": 170,
+      "losses": 154,
       "winRate": 52.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4380.png"
     },
@@ -66,10 +66,10 @@
       "role": "MID",
       "level": 1100,
       "tier": "MASTER I",
-      "lp": 777,
+      "lp": 719,
       "wins": 462,
-      "losses": 440,
-      "winRate": 51.2,
+      "losses": 442,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3151.png"
     },
     {
@@ -472,7 +472,7 @@
       "playerId": "0039",
       "name": "UIC Ayumu",
       "role": "MID",
-      "level": 616,
+      "level": 617,
       "tier": "PLATINUM II",
       "lp": 32,
       "wins": 176,
@@ -498,10 +498,10 @@
       "role": "SUP",
       "level": 338,
       "tier": "MASTER I",
-      "lp": 208,
+      "lp": 148,
       "wins": 139,
-      "losses": 118,
-      "winRate": 54.1,
+      "losses": 120,
+      "winRate": 53.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/4793.png"
     },
     {
@@ -682,10 +682,10 @@
       "role": "BOT",
       "level": 653,
       "tier": "DIAMOND II",
-      "lp": 26,
+      "lp": 5,
       "wins": 75,
-      "losses": 60,
-      "winRate": 55.6,
+      "losses": 61,
+      "winRate": 55.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7190.png"
     },
     {
@@ -732,10 +732,10 @@
       "role": "MID",
       "level": 657,
       "tier": "EMERALD II",
-      "lp": 32,
-      "wins": 153,
+      "lp": 50,
+      "wins": 154,
       "losses": 158,
-      "winRate": 49.2,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/626.png"
     },
     {
@@ -755,11 +755,11 @@
       "name": "UIC Envy",
       "role": "SUP",
       "level": 354,
-      "tier": "PLATINUM III",
-      "lp": 82,
-      "wins": 254,
+      "tier": "PLATINUM II",
+      "lp": 1,
+      "wins": 255,
       "losses": 247,
-      "winRate": 50.7,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/7100.png"
     }
   ],
