@@ -226,7 +226,7 @@
       "playerId": "0019",
       "name": "UIC RealCrimes",
       "role": "JGL",
-      "level": 1066,
+      "level": 1067,
       "tier": "DIAMOND IV",
       "lp": 0,
       "wins": 49,
@@ -535,11 +535,11 @@
       "name": "UIC Muh",
       "role": "TOP",
       "level": 549,
-      "tier": "PLATINUM IV",
-      "lp": 85,
-      "wins": 196,
+      "tier": "PLATINUM III",
+      "lp": 5,
+      "wins": 197,
       "losses": 197,
-      "winRate": 49.9,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/3536.png"
     },
     {
@@ -584,10 +584,10 @@
       "role": "MID",
       "level": 634,
       "tier": "DIAMOND IV",
-      "lp": 37,
-      "wins": 406,
+      "lp": 55,
+      "wins": 407,
       "losses": 379,
-      "winRate": 51.7,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/23.png"
     },
     {
