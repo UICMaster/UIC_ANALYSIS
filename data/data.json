@@ -128,10 +128,10 @@
       "role": "BOT",
       "level": 1691,
       "tier": "MASTER I",
-      "lp": 666,
-      "wins": 211,
+      "lp": 695,
+      "wins": 212,
       "losses": 196,
-      "winRate": 51.8,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6872.png"
     },
     {
@@ -276,10 +276,10 @@
       "role": "SUP",
       "level": 511,
       "tier": "MASTER I",
-      "lp": 183,
+      "lp": 123,
       "wins": 141,
-      "losses": 112,
-      "winRate": 55.7,
+      "losses": 114,
+      "winRate": 55.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4655.png"
     }
   ],
@@ -398,12 +398,12 @@
       "playerId": "0027",
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 942,
+      "level": 943,
       "tier": "DIAMOND I",
-      "lp": 49,
+      "lp": 28,
       "wins": 282,
-      "losses": 303,
-      "winRate": 48.2,
+      "losses": 304,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5954.png"
     },
     {
@@ -412,10 +412,10 @@
       "role": "BOT",
       "level": 872,
       "tier": "MASTER I",
-      "lp": 485,
+      "lp": 454,
       "wins": 163,
-      "losses": 136,
-      "winRate": 54.5,
+      "losses": 137,
+      "winRate": 54.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7144.png"
     },
     {
@@ -674,7 +674,7 @@
       "wins": 718,
       "losses": 714,
       "winRate": 50.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7167.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7180.png"
     },
     {
       "playerId": "0050",
