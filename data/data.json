@@ -116,10 +116,10 @@
       "role": "MID",
       "level": 936,
       "tier": "MASTER I",
-      "lp": 1330,
+      "lp": 1298,
       "wins": 153,
-      "losses": 122,
-      "winRate": 55.6,
+      "losses": 123,
+      "winRate": 55.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6629.png"
     },
     {
@@ -128,10 +128,10 @@
       "role": "BOT",
       "level": 1690,
       "tier": "MASTER I",
-      "lp": 697,
+      "lp": 666,
       "wins": 211,
-      "losses": 195,
-      "winRate": 52,
+      "losses": 196,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6872.png"
     },
     {
@@ -570,7 +570,7 @@
       "playerId": "0041",
       "name": "Moonlxght",
       "role": "SUP",
-      "level": 338,
+      "level": 339,
       "tier": "MASTER I",
       "lp": 148,
       "wins": 139,
@@ -742,12 +742,12 @@
       "playerId": "0055",
       "name": "UIC Rhinoshield",
       "role": "MID",
-      "level": 990,
+      "level": 991,
       "tier": "PLATINUM II",
-      "lp": 74,
+      "lp": 53,
       "wins": 321,
-      "losses": 324,
-      "winRate": 49.8,
+      "losses": 325,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6990.png"
     },
     {
