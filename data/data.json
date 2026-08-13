@@ -128,10 +128,10 @@
       "role": "BOT",
       "level": 1691,
       "tier": "MASTER I",
-      "lp": 664,
+      "lp": 633,
       "wins": 212,
-      "losses": 197,
-      "winRate": 51.8,
+      "losses": 198,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6872.png"
     },
     {
@@ -658,22 +658,22 @@
       "role": "MID",
       "level": 635,
       "tier": "DIAMOND IV",
-      "lp": 19,
+      "lp": 0,
       "wins": 412,
-      "losses": 385,
-      "winRate": 51.7,
+      "losses": 386,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/23.png"
     },
     {
       "playerId": "0049",
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1462,
+      "level": 1463,
       "tier": "PLATINUM III",
-      "lp": 52,
-      "wins": 727,
+      "lp": 93,
+      "wins": 729,
       "losses": 715,
-      "winRate": 50.4,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7180.png"
     },
     {
