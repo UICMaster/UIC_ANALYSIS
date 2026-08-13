@@ -192,7 +192,7 @@
     "survivability": 67
   },
   "nNZGQpV8CEhJe3kKXEWsIepYo5rtNOdAiVhq_M9L390k7B-rS0tggXzPZc-T_7JhF7D3PvZcsasNHw": {
-    "lastMatchId": "EUW1_7949356701",
+    "lastMatchId": "EUW1_7949413528",
     "ovr": 50,
     "laning": 39,
     "combat": 60,
@@ -240,12 +240,12 @@
     "survivability": 67
   },
   "18YvlQGliML87VkZUo4aeWArbXem-a2WbXT5MeaVJL5Z9jQQMQCLEa36rEsTrDCT5AWlpx1FsCH1HQ": {
-    "lastMatchId": "EUW1_7949329800",
-    "ovr": 44,
-    "laning": 42,
-    "combat": 39,
+    "lastMatchId": "EUW1_7949416917",
+    "ovr": 46,
+    "laning": 46,
+    "combat": 40,
     "macro": 46,
-    "survivability": 62
+    "survivability": 61
   },
   "lY9GHu-Y8r2kG2rGedjAGqNxV6PDhXQZxK6O5eXQL_8FwxH3H_3YsYrAzfYLlQoznMjgTpF4e7CZ5g": {
     "lastMatchId": "EUW1_7931238459",
@@ -296,12 +296,12 @@
     "survivability": 54
   },
   "LX-A01UXRDbHY-kSZmhaIi9BN_9FkzwxPGv0I_m5eE8ZNGlHmV1tZlkM052kG-fKuVy1CkTOEJWZ5g": {
-    "lastMatchId": "EUW1_7944407476",
-    "ovr": 56,
-    "laning": 53,
+    "lastMatchId": "EUW1_7949393749",
+    "ovr": 58,
+    "laning": 55,
     "combat": 58,
     "macro": 46,
-    "survivability": 64
+    "survivability": 67
   },
   "gM9duXUTV7Kxbf4J0ARmIFUy8cfXoJFJTNpzX8CDtJKv-WnOq70DyqZTYJnzO5EX7EAPoU473A3ZTg": {
     "lastMatchId": "EUW1_7947605723",
@@ -440,11 +440,11 @@
     "survivability": 57
   },
   "EVe4VA1ME7GsyunDKbQ2vHarczndDRJIcML-Iq5fs6PtFK5J5OA0hQ-wzLmcQ-5NYU12D3u4ZoX4Tw": {
-    "lastMatchId": "EUW1_7949243836",
+    "lastMatchId": "EUW1_7949405133",
     "ovr": 47,
-    "laning": 41,
-    "combat": 67,
-    "macro": 44,
+    "laning": 42,
+    "combat": 66,
+    "macro": 45,
     "survivability": 43
   },
   "OVC44IryXTq4-R_S538DxBfOmC3FR-lgUDkeG2SVbWzE36L9SSjJwxGhE0ECUo3smJOJOCSmjoenqg": {
@@ -691,11 +691,11 @@
     "survivability": 66
   },
   "v6kE2kq8JVCm8xLDe6gYxq9VYfd71EKpKNS9K6mFHrdmx2z0_oaPZ0GT2claKkL5rctuF-zJjkpHqw": {
-    "lastMatchId": "EUW1_7949081067",
-    "ovr": 41,
+    "lastMatchId": "EUW1_7949428732",
+    "ovr": 43,
     "laning": 43,
-    "combat": 36,
-    "macro": 34,
+    "combat": 39,
+    "macro": 35,
     "survivability": 58
   }
 }
