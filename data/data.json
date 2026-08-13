@@ -138,12 +138,12 @@
       "playerId": "0076",
       "name": "PeaPuffer",
       "role": "SUP",
-      "level": 753,
+      "level": 754,
       "tier": "MASTER I",
-      "lp": 1144,
+      "lp": 1048,
       "wins": 387,
-      "losses": 367,
-      "winRate": 51.3,
+      "losses": 370,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/1625.png"
     },
     {
@@ -289,11 +289,11 @@
       "name": "Reign",
       "role": "TOP",
       "level": 1331,
-      "tier": "DIAMOND I",
-      "lp": 41,
+      "tier": "DIAMOND II",
+      "lp": 75,
       "wins": 266,
-      "losses": 281,
-      "winRate": 48.6,
+      "losses": 284,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     },
     {
@@ -670,8 +670,8 @@
       "role": "BOT",
       "level": 1462,
       "tier": "PLATINUM III",
-      "lp": 31,
-      "wins": 725,
+      "lp": 51,
+      "wins": 726,
       "losses": 714,
       "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7180.png"
