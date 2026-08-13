@@ -66,10 +66,10 @@
       "role": "MID",
       "level": 1101,
       "tier": "MASTER I",
-      "lp": 781,
-      "wins": 464,
+      "lp": 843,
+      "wins": 466,
       "losses": 442,
-      "winRate": 51.2,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3151.png"
     },
     {
@@ -104,10 +104,10 @@
       "role": "JGL",
       "level": 349,
       "tier": "MASTER I",
-      "lp": 408,
+      "lp": 377,
       "wins": 128,
-      "losses": 98,
-      "winRate": 56.6,
+      "losses": 99,
+      "winRate": 56.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/657.png"
     },
     {
@@ -128,10 +128,10 @@
       "role": "BOT",
       "level": 1692,
       "tier": "MASTER I",
-      "lp": 600,
+      "lp": 569,
       "wins": 213,
-      "losses": 200,
-      "winRate": 51.6,
+      "losses": 201,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6872.png"
     },
     {
@@ -190,10 +190,10 @@
       "role": "MID",
       "level": 1064,
       "tier": "DIAMOND I",
-      "lp": 17,
-      "wins": 401,
+      "lp": 55,
+      "wins": 402,
       "losses": 419,
-      "winRate": 48.9,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
     {
@@ -290,10 +290,10 @@
       "role": "TOP",
       "level": 1331,
       "tier": "DIAMOND II",
-      "lp": 31,
-      "wins": 266,
+      "lp": 49,
+      "wins": 267,
       "losses": 286,
-      "winRate": 48.2,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     },
     {
@@ -496,12 +496,12 @@
       "playerId": "0035",
       "name": "UIC Pjure",
       "role": "BOT",
-      "level": 773,
+      "level": 774,
       "tier": "DIAMOND II",
-      "lp": 47,
-      "wins": 171,
+      "lp": 66,
+      "wins": 172,
       "losses": 159,
-      "winRate": 51.8,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5970.png"
     },
     {
@@ -804,12 +804,12 @@
       "playerId": "0060",
       "name": "UIC Flare",
       "role": "MID",
-      "level": 657,
+      "level": 658,
       "tier": "EMERALD II",
-      "lp": 46,
-      "wins": 155,
+      "lp": 64,
+      "wins": 156,
       "losses": 159,
-      "winRate": 49.4,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/626.png"
     },
     {
@@ -830,9 +830,9 @@
       "role": "SUP",
       "level": 355,
       "tier": "PLATINUM III",
-      "lp": 14,
-      "wins": 257,
-      "losses": 253,
+      "lp": 12,
+      "wins": 258,
+      "losses": 254,
       "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7100.png"
     }
