@@ -166,10 +166,10 @@
       "role": "TOP",
       "level": 871,
       "tier": "EMERALD I",
-      "lp": 1,
-      "wins": 11,
+      "lp": 61,
+      "wins": 13,
       "losses": 23,
-      "winRate": 32.4,
+      "winRate": 36.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7011.png"
     },
     {
@@ -536,10 +536,10 @@
       "role": "JGL",
       "level": 1150,
       "tier": "EMERALD I",
-      "lp": 75,
-      "wins": 321,
+      "lp": 93,
+      "wins": 322,
       "losses": 326,
-      "winRate": 49.6,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3382.png"
     },
     {
@@ -548,10 +548,10 @@
       "role": "MID",
       "level": 617,
       "tier": "PLATINUM II",
-      "lp": 1,
-      "wins": 178,
+      "lp": 20,
+      "wins": 179,
       "losses": 174,
-      "winRate": 50.6,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/1437.png"
     },
     {
@@ -669,9 +669,9 @@
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1463,
-      "tier": "PLATINUM III",
-      "lp": 93,
-      "wins": 729,
+      "tier": "PLATINUM II",
+      "lp": 14,
+      "wins": 730,
       "losses": 715,
       "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7180.png"
@@ -828,12 +828,12 @@
       "playerId": "0062",
       "name": "UIC Envy",
       "role": "SUP",
-      "level": 354,
+      "level": 355,
       "tier": "PLATINUM III",
-      "lp": 77,
+      "lp": 56,
       "wins": 257,
-      "losses": 250,
-      "winRate": 50.7,
+      "losses": 251,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7100.png"
     }
   ],
