@@ -78,10 +78,10 @@
       "role": "MID",
       "level": 664,
       "tier": "MASTER I",
-      "lp": 334,
-      "wins": 157,
-      "losses": 144,
-      "winRate": 52.2,
+      "lp": 331,
+      "wins": 158,
+      "losses": 145,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     }
   ],
@@ -128,10 +128,10 @@
       "role": "BOT",
       "level": 1692,
       "tier": "MASTER I",
-      "lp": 569,
-      "wins": 213,
+      "lp": 598,
+      "wins": 214,
       "losses": 201,
-      "winRate": 51.4,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6872.png"
     },
     {
@@ -190,10 +190,10 @@
       "role": "MID",
       "level": 1064,
       "tier": "DIAMOND II",
-      "lp": 84,
+      "lp": 63,
       "wins": 404,
-      "losses": 424,
-      "winRate": 48.8,
+      "losses": 425,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
     {
@@ -300,7 +300,7 @@
       "playerId": "0019",
       "name": "UIC RealCrimes",
       "role": "JGL",
-      "level": 1068,
+      "level": 1069,
       "tier": "DIAMOND IV",
       "lp": 17,
       "wins": 50,
@@ -376,10 +376,10 @@
       "role": "TOP",
       "level": 588,
       "tier": "MASTER I",
-      "lp": 462,
+      "lp": 400,
       "wins": 401,
-      "losses": 369,
-      "winRate": 52.1,
+      "losses": 371,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6640.png"
     },
     {
@@ -462,10 +462,10 @@
       "role": "TOP",
       "level": 559,
       "tier": "DIAMOND IV",
-      "lp": 80,
-      "wins": 132,
-      "losses": 123,
-      "winRate": 51.8,
+      "lp": 97,
+      "wins": 134,
+      "losses": 124,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3157.png"
     },
     {
@@ -474,10 +474,10 @@
       "role": "JGL",
       "level": 809,
       "tier": "DIAMOND I",
-      "lp": 57,
+      "lp": 38,
       "wins": 53,
-      "losses": 52,
-      "winRate": 50.5,
+      "losses": 53,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3840.png"
     },
     {
@@ -866,12 +866,12 @@
       "playerId": "0065",
       "name": "UIC Keygasza",
       "role": "MID",
-      "level": 483,
+      "level": 484,
       "tier": "EMERALD I",
-      "lp": 8,
-      "wins": 73,
-      "losses": 102,
-      "winRate": 41.7,
+      "lp": 23,
+      "wins": 75,
+      "losses": 103,
+      "winRate": 42.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/1045.png"
     },
     {
