@@ -190,10 +190,10 @@
       "role": "MID",
       "level": 1065,
       "tier": "DIAMOND II",
-      "lp": 75,
+      "lp": 31,
       "wins": 407,
-      "losses": 428,
-      "winRate": 48.7,
+      "losses": 430,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
     {
@@ -376,10 +376,10 @@
       "role": "TOP",
       "level": 589,
       "tier": "MASTER I",
-      "lp": 425,
+      "lp": 394,
       "wins": 404,
-      "losses": 373,
-      "winRate": 52,
+      "losses": 374,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6640.png"
     },
     {
@@ -596,7 +596,7 @@
       "playerId": "0043",
       "name": "UIC Kaetaya",
       "role": "TOP",
-      "level": 890,
+      "level": 891,
       "tier": "DIAMOND IV",
       "lp": 93,
       "wins": 73,
@@ -670,9 +670,9 @@
       "role": "BOT",
       "level": 1464,
       "tier": "PLATINUM II",
-      "lp": 48,
+      "lp": 29,
       "wins": 737,
-      "losses": 721,
+      "losses": 722,
       "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7180.png"
     },
@@ -806,10 +806,10 @@
       "role": "MID",
       "level": 658,
       "tier": "EMERALD I",
-      "lp": 1,
-      "wins": 158,
+      "lp": 20,
+      "wins": 159,
       "losses": 159,
-      "winRate": 49.8,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/626.png"
     },
     {
