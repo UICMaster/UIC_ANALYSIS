@@ -572,10 +572,10 @@
       "role": "SUP",
       "level": 340,
       "tier": "MASTER I",
-      "lp": 238,
-      "wins": 142,
+      "lp": 298,
+      "wins": 143,
       "losses": 121,
-      "winRate": 54,
+      "winRate": 54.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4793.png"
     },
     {
@@ -805,11 +805,11 @@
       "name": "UIC Flare",
       "role": "MID",
       "level": 658,
-      "tier": "EMERALD I",
-      "lp": 20,
+      "tier": "EMERALD II",
+      "lp": 99,
       "wins": 159,
-      "losses": 159,
-      "winRate": 50,
+      "losses": 160,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/626.png"
     },
     {
