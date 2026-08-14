@@ -101,8 +101,8 @@
       },
       {
         "playerId": "0079",
-        "gameName": "Panger",
-        "tagLine": "EUW12",
+        "gameName": "UIC Panger",
+        "tagLine": "JGA",
         "role": "JGL",
         "puuid": "DPoVp-X16JxIqGuI_WVa2ilnhzjiLlTJM-VvCvDdiDq5ZuTUM6lgYSKoglTSj4Bcg_AYaq3rwR2hTQ",
         "trackStats": true,
@@ -112,8 +112,8 @@
       },
       {
         "playerId": "0080",
-        "gameName": "Lanzus",
-        "tagLine": "DIV5",
+        "gameName": "UIC Lanzus",
+        "tagLine": "AEGIS",
         "role": "MID",
         "puuid": "dMMqKcTGDfnKJUKyyVBrV_6A8co1VXwL_mqw8TaRX39a3uGExzeutPnjbslb6wxNyfRQU7AqeLvDAQ",
         "trackStats": true,
@@ -123,8 +123,8 @@
       },
       {
         "playerId": "0081",
-        "gameName": "Voracity",
-        "tagLine": "HNVR",
+        "gameName": "UIC Voracity",
+        "tagLine": "0711",
         "role": "BOT",
         "puuid": "v6kE2kq8JVCm8xLDe6gYxq9VYfd71EKpKNS9K6mFHrdmx2z0_oaPZ0GT2claKkL5rctuF-zJjkpHqw",
         "trackStats": true,
@@ -134,8 +134,8 @@
       },
       {
         "playerId": "0076",
-        "gameName": "PeaPuffer",
-        "tagLine": "Efe",
+        "gameName": "UIC PeaPuffer",
+        "tagLine": "PUFFY",
         "role": "SUP",
         "puuid": "fbGUOApCfckQft52lWA-J9iR6G5u-DjzSLTlX1ss4UFiNnAUGtlzt8YAqnLkQJQWNWgMn-MeMy48dg",
         "trackStats": true,
