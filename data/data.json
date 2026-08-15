@@ -78,9 +78,9 @@
       "role": "MID",
       "level": 665,
       "tier": "MASTER I",
-      "lp": 412,
-      "wins": 163,
-      "losses": 147,
+      "lp": 410,
+      "wins": 164,
+      "losses": 148,
       "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     }
@@ -128,10 +128,10 @@
       "role": "BOT",
       "level": 1693,
       "tier": "MASTER I",
-      "lp": 505,
-      "wins": 214,
+      "lp": 534,
+      "wins": 215,
       "losses": 204,
-      "winRate": 51.2,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6872.png"
     },
     {
@@ -550,8 +550,8 @@
       "tier": "PLATINUM III",
       "lp": 97,
       "wins": 181,
-      "losses": 177,
-      "winRate": 50.6,
+      "losses": 178,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/1437.png"
     },
     {
@@ -670,9 +670,9 @@
       "role": "BOT",
       "level": 1465,
       "tier": "PLATINUM II",
-      "lp": 56,
-      "wins": 741,
-      "losses": 725,
+      "lp": 58,
+      "wins": 742,
+      "losses": 726,
       "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7180.png"
     },
@@ -718,11 +718,11 @@
       "playerId": "0053",
       "name": "GIG Evil",
       "role": "TOP",
-      "level": 246,
+      "level": 247,
       "tier": "PLATINUM II",
       "lp": 83,
-      "wins": 266,
-      "losses": 256,
+      "wins": 267,
+      "losses": 257,
       "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7102.png"
     },
