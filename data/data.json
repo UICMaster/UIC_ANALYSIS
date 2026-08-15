@@ -16,12 +16,12 @@
       "playerId": "0002",
       "name": "UIC Niki",
       "role": "JGL",
-      "level": 1064,
+      "level": 1065,
       "tier": "MASTER I",
-      "lp": 497,
+      "lp": 466,
       "wins": 263,
-      "losses": 247,
-      "winRate": 51.6,
+      "losses": 248,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4380.png"
     },
     {
@@ -140,10 +140,10 @@
       "role": "SUP",
       "level": 754,
       "tier": "MASTER I",
-      "lp": 1105,
-      "wins": 389,
+      "lp": 1163,
+      "wins": 391,
       "losses": 370,
-      "winRate": 51.3,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/1625.png"
     },
     {
@@ -157,6 +157,80 @@
       "losses": 337,
       "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4096.png"
+    }
+  ],
+  "baddie": [
+    {
+      "playerId": "0083",
+      "name": "OPEN SPOT",
+      "role": "TOP",
+      "level": 0,
+      "tier": "RECRUITING",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": null
+    },
+    {
+      "playerId": "0084",
+      "name": "OPEN SPOT",
+      "role": "JGL",
+      "level": 0,
+      "tier": "RECRUITING",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": null
+    },
+    {
+      "playerId": "0085",
+      "name": "OPEN SPOT",
+      "role": "MID",
+      "level": 0,
+      "tier": "RECRUITING",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": null
+    },
+    {
+      "playerId": "0086",
+      "name": "UIC stevie",
+      "role": "BOT",
+      "level": 719,
+      "tier": "MASTER I",
+      "lp": 775,
+      "wins": 177,
+      "losses": 157,
+      "winRate": 53,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/29.png"
+    },
+    {
+      "playerId": "0087",
+      "name": "UIC Bardie3",
+      "role": "SUP",
+      "level": 743,
+      "tier": "GRANDMASTER I",
+      "lp": 1888,
+      "wins": 274,
+      "losses": 232,
+      "winRate": 54.2,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/1114.png"
+    },
+    {
+      "playerId": "0071",
+      "name": "UIC Qvy",
+      "role": "COH",
+      "level": 807,
+      "tier": "EMERALD I",
+      "lp": 31,
+      "wins": 368,
+      "losses": 370,
+      "winRate": 49.9,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7190.png"
     }
   ],
   "eclipse": [
@@ -400,10 +474,10 @@
       "role": "MID",
       "level": 944,
       "tier": "MASTER I",
-      "lp": 96,
+      "lp": 66,
       "wins": 292,
-      "losses": 308,
-      "winRate": 48.7,
+      "losses": 309,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5954.png"
     },
     {
@@ -558,7 +632,7 @@
       "playerId": "0040",
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 637,
+      "level": 638,
       "tier": "DIAMOND II",
       "lp": 15,
       "wins": 310,
@@ -602,7 +676,7 @@
       "wins": 73,
       "losses": 61,
       "winRate": 54.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6700.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7129.png"
     },
     {
       "playerId": "0044",
@@ -754,7 +828,7 @@
       "playerId": "0056",
       "name": "Schneebär",
       "role": "BOT",
-      "level": 653,
+      "level": 654,
       "tier": "DIAMOND II",
       "lp": 5,
       "wins": 75,
@@ -868,10 +942,10 @@
       "role": "MID",
       "level": 484,
       "tier": "EMERALD I",
-      "lp": 40,
-      "wins": 77,
+      "lp": 59,
+      "wins": 78,
       "losses": 104,
-      "winRate": 42.5,
+      "winRate": 42.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/1045.png"
     },
     {
