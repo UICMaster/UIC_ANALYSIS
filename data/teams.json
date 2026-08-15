@@ -156,6 +156,79 @@
       }
     ]
   },
+  "baddie": {
+    "primeLeagueId": "212852",
+    "teamDisplay": "UIC Baddie",
+    "tier": "Division 5",
+    "roster": [
+      {
+        "playerId": "0083",
+        "gameName": "",
+        "tagLine": "",
+        "role": "TOP",
+        "puuid": "",
+        "trackStats": false,
+        "discordId": "",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0084",
+        "gameName": "",
+        "tagLine": "",
+        "role": "JGL",
+        "puuid": "",
+        "trackStats": false,
+        "discordId": "",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0085",
+        "gameName": "",
+        "tagLine": "",
+        "role": "MID",
+        "puuid": "",
+        "trackStats": false,
+        "discordId": "",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0086",
+        "gameName": "UIC stevie",
+        "tagLine": "lisa",
+        "role": "BOT",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "814199009362313218",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0087",
+        "gameName": "UIC Bardie3",
+        "tagLine": "0711",
+        "role": "SUP",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "189346815508742144",
+        "rosterStatus": "starter",
+        "isCaptain": true
+      },
+      {
+        "playerId": "0071",
+        "gameName": "UIC Qvy",
+        "tagLine": "rusty",
+        "role": "COH",
+        "puuid": "aRCEjx3H8LAtSFGSHOL7XSE00eeck9cQNPGoxsZkEXG5F8A4U7-jzCxpnuyxZaEoAhVTGRvzwtfoUw",
+        "trackStats": true,
+        "discordId": "143055127899537408",
+        "rosterStatus": "staff",
+        "isCaptain": false
+      }
+    ]
+  },
   "eclipse": {
     "primeLeagueId": "208131",
     "teamDisplay": "UIC Eclipse",
@@ -921,17 +994,6 @@
         "puuid": "iEfL8WZpVUBnc40ohtlqiBSPuPzZ_mxDSLS1VNcxLkTGjs3LLGwy7kgpafXPKjfO3WitczujnK9H6A",
         "trackStats": true,
         "discordId": "391932277162246147",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "playerId": "0071",
-        "gameName": "UIC Qvy",
-        "tagLine": "rusty",
-        "role": "JGL",
-        "puuid": "aRCEjx3H8LAtSFGSHOL7XSE00eeck9cQNPGoxsZkEXG5F8A4U7-jzCxpnuyxZaEoAhVTGRvzwtfoUw",
-        "trackStats": true,
-        "discordId": "143055127899537408",
         "rosterStatus": "starter",
         "isCaptain": false
       },
