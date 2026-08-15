@@ -128,10 +128,10 @@
       "role": "BOT",
       "level": 1693,
       "tier": "MASTER I",
-      "lp": 534,
+      "lp": 503,
       "wins": 215,
-      "losses": 204,
-      "winRate": 51.3,
+      "losses": 205,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6872.png"
     },
     {
@@ -376,10 +376,10 @@
       "role": "TOP",
       "level": 589,
       "tier": "MASTER I",
-      "lp": 394,
-      "wins": 404,
+      "lp": 423,
+      "wins": 405,
       "losses": 374,
-      "winRate": 51.9,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6640.png"
     },
     {
@@ -398,12 +398,12 @@
       "playerId": "0027",
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 943,
+      "level": 944,
       "tier": "MASTER I",
-      "lp": 32,
-      "wins": 288,
+      "lp": 92,
+      "wins": 290,
       "losses": 305,
-      "winRate": 48.6,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5954.png"
     },
     {
@@ -434,11 +434,11 @@
       "playerId": "0030",
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 837,
-      "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 210,
-      "losses": 203,
+      "level": 838,
+      "tier": "EMERALD I",
+      "lp": 94,
+      "wins": 211,
+      "losses": 204,
       "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3366.png"
     },
@@ -548,11 +548,11 @@
       "role": "MID",
       "level": 618,
       "tier": "PLATINUM III",
-      "lp": 97,
+      "lp": 76,
       "wins": 181,
-      "losses": 178,
-      "winRate": 50.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/1437.png"
+      "losses": 179,
+      "winRate": 50.3,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7144.png"
     },
     {
       "playerId": "0040",
@@ -572,10 +572,10 @@
       "role": "SUP",
       "level": 340,
       "tier": "MASTER I",
-      "lp": 298,
-      "wins": 143,
+      "lp": 328,
+      "wins": 144,
       "losses": 121,
-      "winRate": 54.2,
+      "winRate": 54.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4793.png"
     },
     {
@@ -719,11 +719,11 @@
       "name": "GIG Evil",
       "role": "TOP",
       "level": 247,
-      "tier": "PLATINUM II",
-      "lp": 83,
-      "wins": 267,
+      "tier": "PLATINUM I",
+      "lp": 23,
+      "wins": 269,
       "losses": 257,
-      "winRate": 51,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7102.png"
     },
     {
@@ -868,10 +868,10 @@
       "role": "MID",
       "level": 484,
       "tier": "EMERALD I",
-      "lp": 23,
-      "wins": 75,
+      "lp": 42,
+      "wins": 76,
       "losses": 103,
-      "winRate": 42.1,
+      "winRate": 42.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/1045.png"
     },
     {
