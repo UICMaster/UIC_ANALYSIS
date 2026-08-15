@@ -78,10 +78,10 @@
       "role": "MID",
       "level": 665,
       "tier": "MASTER I",
-      "lp": 348,
+      "lp": 286,
       "wins": 164,
-      "losses": 150,
-      "winRate": 52.2,
+      "losses": 152,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     }
   ],
@@ -104,10 +104,10 @@
       "role": "JGL",
       "level": 349,
       "tier": "MASTER I",
-      "lp": 344,
+      "lp": 313,
       "wins": 129,
-      "losses": 101,
-      "winRate": 56.1,
+      "losses": 102,
+      "winRate": 55.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/657.png"
     },
     {
@@ -188,11 +188,11 @@
       "playerId": "0010",
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1065,
+      "level": 1066,
       "tier": "DIAMOND II",
-      "lp": 49,
-      "wins": 408,
-      "losses": 430,
+      "lp": 46,
+      "wins": 409,
+      "losses": 431,
       "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
@@ -376,10 +376,10 @@
       "role": "TOP",
       "level": 589,
       "tier": "MASTER I",
-      "lp": 299,
-      "wins": 405,
+      "lp": 386,
+      "wins": 407,
       "losses": 378,
-      "winRate": 51.7,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6640.png"
     },
     {
@@ -461,11 +461,11 @@
       "name": "UIC DANY",
       "role": "TOP",
       "level": 560,
-      "tier": "DIAMOND III",
-      "lp": 31,
+      "tier": "DIAMOND IV",
+      "lp": 89,
       "wins": 138,
-      "losses": 126,
-      "winRate": 52.3,
+      "losses": 128,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3157.png"
     },
     {
@@ -669,11 +669,11 @@
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1465,
-      "tier": "PLATINUM II",
-      "lp": 58,
-      "wins": 742,
+      "tier": "PLATINUM I",
+      "lp": 1,
+      "wins": 744,
       "losses": 726,
-      "winRate": 50.5,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7180.png"
     },
     {
@@ -784,8 +784,8 @@
       "tier": "EMERALD IV",
       "lp": 26,
       "wins": 101,
-      "losses": 98,
-      "winRate": 50.8,
+      "losses": 99,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6490.png"
     },
     {
