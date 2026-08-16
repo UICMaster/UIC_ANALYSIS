@@ -230,9 +230,9 @@
     ]
   },
   "tempest": {
-    "primeLeagueId": "",
+    "primeLeagueId": "208606",
     "teamDisplay": "UIC Tempest",
-    "tier": "Division 5",
+    "tier": "Division 6",
     "roster": [
       {
         "playerId": "0089",
@@ -247,7 +247,7 @@
       },
       {
         "playerId": "0090",
-        "gameName": "LAG Kurt Schluss",
+        "gameName": "UIC Kurt Schluss",
         "tagLine": "1337",
         "role": "JGL",
         "puuid": "",
