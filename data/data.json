@@ -28,11 +28,11 @@
       "playerId": "0003",
       "name": "UIC Shenycrane",
       "role": "MID",
-      "level": 648,
+      "level": 649,
       "tier": "DIAMOND I",
-      "lp": 65,
-      "wins": 123,
-      "losses": 126,
+      "lp": 68,
+      "wins": 124,
+      "losses": 127,
       "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7094.png"
     },
@@ -264,10 +264,10 @@
       "role": "MID",
       "level": 1067,
       "tier": "DIAMOND II",
-      "lp": 50,
-      "wins": 414,
+      "lp": 68,
+      "wins": 415,
       "losses": 437,
-      "winRate": 48.6,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
     {
@@ -314,10 +314,10 @@
       "role": "JGL",
       "level": 991,
       "tier": "DIAMOND III",
-      "lp": 10,
-      "wins": 158,
+      "lp": 30,
+      "wins": 159,
       "losses": 148,
-      "winRate": 51.6,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/660.png"
     },
     {
@@ -364,10 +364,10 @@
       "role": "TOP",
       "level": 1334,
       "tier": "DIAMOND II",
-      "lp": 10,
-      "wins": 280,
+      "lp": 29,
+      "wins": 281,
       "losses": 300,
-      "winRate": 48.3,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     },
     {
@@ -572,10 +572,10 @@
       "role": "BOT",
       "level": 775,
       "tier": "DIAMOND II",
-      "lp": 75,
-      "wins": 175,
+      "lp": 94,
+      "wins": 176,
       "losses": 162,
-      "winRate": 51.9,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5970.png"
     },
     {
@@ -793,11 +793,11 @@
       "name": "GIG Evil",
       "role": "TOP",
       "level": 248,
-      "tier": "PLATINUM I",
-      "lp": 3,
+      "tier": "PLATINUM II",
+      "lp": 83,
       "wins": 273,
-      "losses": 262,
-      "winRate": 51,
+      "losses": 263,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7102.png"
     },
     {
