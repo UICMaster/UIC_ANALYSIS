@@ -102,12 +102,12 @@
       "playerId": "0079",
       "name": "UIC Panger",
       "role": "JGL",
-      "level": 349,
+      "level": 350,
       "tier": "MASTER I",
-      "lp": 311,
+      "lp": 280,
       "wins": 130,
-      "losses": 103,
-      "winRate": 55.8,
+      "losses": 104,
+      "winRate": 55.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/657.png"
     },
     {
@@ -264,10 +264,10 @@
       "role": "MID",
       "level": 1066,
       "tier": "DIAMOND II",
-      "lp": 44,
+      "lp": 23,
       "wins": 410,
-      "losses": 432,
-      "winRate": 48.7,
+      "losses": 433,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
     {
