@@ -363,11 +363,11 @@
       "name": "Reign",
       "role": "TOP",
       "level": 1333,
-      "tier": "DIAMOND II",
-      "lp": 16,
+      "tier": "DIAMOND III",
+      "lp": 95,
       "wins": 277,
-      "losses": 297,
-      "winRate": 48.3,
+      "losses": 298,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     },
     {
@@ -744,8 +744,8 @@
       "role": "BOT",
       "level": 1466,
       "tier": "EMERALD IV",
-      "lp": 29,
-      "wins": 751,
+      "lp": 50,
+      "wins": 752,
       "losses": 727,
       "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7180.png"
