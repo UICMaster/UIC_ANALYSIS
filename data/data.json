@@ -30,10 +30,10 @@
       "role": "MID",
       "level": 648,
       "tier": "DIAMOND I",
-      "lp": 43,
-      "wins": 122,
+      "lp": 65,
+      "wins": 123,
       "losses": 126,
-      "winRate": 49.2,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7094.png"
     },
     {
@@ -152,10 +152,10 @@
       "role": "COH",
       "level": 508,
       "tier": "MASTER I",
-      "lp": 1218,
+      "lp": 1186,
       "wins": 369,
-      "losses": 337,
-      "winRate": 52.3,
+      "losses": 338,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4096.png"
     }
   ],
@@ -262,12 +262,12 @@
       "playerId": "0010",
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1066,
+      "level": 1067,
       "tier": "DIAMOND II",
-      "lp": 72,
+      "lp": 50,
       "wins": 414,
-      "losses": 435,
-      "winRate": 48.8,
+      "losses": 437,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
     {
@@ -313,11 +313,11 @@
       "name": "UIC Hunter",
       "role": "JGL",
       "level": 991,
-      "tier": "DIAMOND IV",
-      "lp": 91,
-      "wins": 157,
+      "tier": "DIAMOND III",
+      "lp": 10,
+      "wins": 158,
       "losses": 148,
-      "winRate": 51.5,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/660.png"
     },
     {
@@ -364,10 +364,10 @@
       "role": "TOP",
       "level": 1334,
       "tier": "DIAMOND II",
-      "lp": 31,
+      "lp": 10,
       "wins": 280,
-      "losses": 299,
-      "winRate": 48.4,
+      "losses": 300,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     },
     {
@@ -474,10 +474,10 @@
       "role": "MID",
       "level": 944,
       "tier": "MASTER I",
-      "lp": 98,
-      "wins": 294,
+      "lp": 129,
+      "wins": 295,
       "losses": 310,
-      "winRate": 48.7,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5954.png"
     },
     {
@@ -622,9 +622,9 @@
       "role": "MID",
       "level": 619,
       "tier": "PLATINUM III",
-      "lp": 70,
-      "wins": 184,
-      "losses": 182,
+      "lp": 87,
+      "wins": 185,
+      "losses": 183,
       "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7144.png"
     },
@@ -672,10 +672,10 @@
       "role": "TOP",
       "level": 892,
       "tier": "DIAMOND IV",
-      "lp": 93,
+      "lp": 73,
       "wins": 73,
-      "losses": 61,
-      "winRate": 54.5,
+      "losses": 62,
+      "winRate": 54.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7129.png"
     },
     {
@@ -708,10 +708,10 @@
       "role": "JGL",
       "level": 981,
       "tier": "DIAMOND III",
-      "lp": 77,
+      "lp": 57,
       "wins": 81,
-      "losses": 71,
-      "winRate": 53.3,
+      "losses": 72,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6497.png"
     },
     {
@@ -720,10 +720,10 @@
       "role": "MID",
       "level": 640,
       "tier": "PLATINUM II",
-      "lp": 64,
-      "wins": 150,
+      "lp": 81,
+      "wins": 151,
       "losses": 151,
-      "winRate": 49.8,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4379.png"
     },
     {
@@ -780,10 +780,10 @@
       "role": "SUP",
       "level": 593,
       "tier": "GOLD III",
-      "lp": 60,
-      "wins": 155,
+      "lp": 79,
+      "wins": 156,
       "losses": 169,
-      "winRate": 47.8,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7064.png"
     }
   ],
@@ -793,11 +793,11 @@
       "name": "GIG Evil",
       "role": "TOP",
       "level": 248,
-      "tier": "PLATINUM II",
-      "lp": 83,
-      "wins": 272,
+      "tier": "PLATINUM I",
+      "lp": 3,
+      "wins": 273,
       "losses": 262,
-      "winRate": 50.9,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7102.png"
     },
     {
@@ -942,10 +942,10 @@
       "role": "MID",
       "level": 484,
       "tier": "EMERALD I",
-      "lp": 59,
-      "wins": 78,
+      "lp": 78,
+      "wins": 79,
       "losses": 104,
-      "winRate": 42.9,
+      "winRate": 43.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/1045.png"
     },
     {
