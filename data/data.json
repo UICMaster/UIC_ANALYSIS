@@ -233,6 +233,80 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7190.png"
     }
   ],
+  "tempest": [
+    {
+      "playerId": "0089",
+      "name": "Ballas",
+      "role": "TOP",
+      "level": 1310,
+      "tier": "DIAMOND II",
+      "lp": 83,
+      "wins": 425,
+      "losses": 415,
+      "winRate": 50.6,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7194.png"
+    },
+    {
+      "playerId": "0090",
+      "name": "UIC Kurt Schluss",
+      "role": "JGL",
+      "level": 1170,
+      "tier": "DIAMOND IV",
+      "lp": 9,
+      "wins": 101,
+      "losses": 87,
+      "winRate": 53.7,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4855.png"
+    },
+    {
+      "playerId": "0091",
+      "name": "LAG Levin2Go",
+      "role": "MID",
+      "level": 1268,
+      "tier": "MASTER I",
+      "lp": 69,
+      "wins": 312,
+      "losses": 333,
+      "winRate": 48.4,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6934.png"
+    },
+    {
+      "playerId": "0092",
+      "name": "LAG Lightning",
+      "role": "BOT",
+      "level": 696,
+      "tier": "EMERALD IV",
+      "lp": 94,
+      "wins": 113,
+      "losses": 122,
+      "winRate": 48.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4803.png"
+    },
+    {
+      "playerId": "0093",
+      "name": "LAG Phântox",
+      "role": "SUP",
+      "level": 963,
+      "tier": "DIAMOND IV",
+      "lp": 98,
+      "wins": 159,
+      "losses": 153,
+      "winRate": 51,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3901.png"
+    },
+    {
+      "playerId": "0036",
+      "name": "UIC Ryu Panda",
+      "role": "MNG",
+      "level": 804,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7149.png"
+    }
+  ],
   "eclipse": [
     {
       "playerId": "0008",
