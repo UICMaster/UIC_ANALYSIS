@@ -30,10 +30,10 @@
       "role": "MID",
       "level": 649,
       "tier": "DIAMOND I",
-      "lp": 70,
-      "wins": 125,
+      "lp": 91,
+      "wins": 126,
       "losses": 128,
-      "winRate": 49.4,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7094.png"
     },
     {
@@ -338,9 +338,9 @@
       "role": "MID",
       "level": 1067,
       "tier": "DIAMOND II",
-      "lp": 64,
+      "lp": 42,
       "wins": 416,
-      "losses": 438,
+      "losses": 439,
       "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
@@ -438,10 +438,10 @@
       "role": "TOP",
       "level": 1334,
       "tier": "DIAMOND II",
-      "lp": 68,
-      "wins": 283,
+      "lp": 88,
+      "wins": 284,
       "losses": 300,
-      "winRate": 48.5,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     },
     {
@@ -820,7 +820,7 @@
       "tier": "EMERALD III",
       "lp": 12,
       "wins": 756,
-      "losses": 729,
+      "losses": 730,
       "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7180.png"
     },
