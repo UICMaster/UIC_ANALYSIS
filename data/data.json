@@ -30,10 +30,10 @@
       "role": "MID",
       "level": 648,
       "tier": "DIAMOND I",
-      "lp": 63,
+      "lp": 43,
       "wins": 122,
-      "losses": 125,
-      "winRate": 49.4,
+      "losses": 126,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7094.png"
     },
     {
@@ -274,12 +274,12 @@
       "playerId": "0011",
       "name": "UIC Pferdemilch",
       "role": "BOT",
-      "level": 858,
+      "level": 859,
       "tier": "EMERALD IV",
-      "lp": 70,
+      "lp": 49,
       "wins": 76,
-      "losses": 94,
-      "winRate": 44.7,
+      "losses": 95,
+      "winRate": 44.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6582.png"
     },
     {
@@ -314,10 +314,10 @@
       "role": "JGL",
       "level": 991,
       "tier": "DIAMOND IV",
-      "lp": 72,
-      "wins": 156,
+      "lp": 91,
+      "wins": 157,
       "losses": 148,
-      "winRate": 51.3,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/660.png"
     },
     {
@@ -474,10 +474,10 @@
       "role": "MID",
       "level": 944,
       "tier": "MASTER I",
-      "lp": 67,
-      "wins": 293,
+      "lp": 98,
+      "wins": 294,
       "losses": 310,
-      "winRate": 48.6,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5954.png"
     },
     {
@@ -622,10 +622,10 @@
       "role": "MID",
       "level": 619,
       "tier": "PLATINUM III",
-      "lp": 51,
-      "wins": 183,
+      "lp": 70,
+      "wins": 184,
       "losses": 182,
-      "winRate": 50.1,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7144.png"
     },
     {
@@ -743,9 +743,9 @@
       "name": "UIC Boohunter",
       "role": "BOT",
       "level": 1467,
-      "tier": "EMERALD IV",
-      "lp": 91,
-      "wins": 755,
+      "tier": "EMERALD III",
+      "lp": 12,
+      "wins": 756,
       "losses": 729,
       "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7180.png"
@@ -793,11 +793,11 @@
       "name": "GIG Evil",
       "role": "TOP",
       "level": 248,
-      "tier": "PLATINUM I",
-      "lp": 3,
+      "tier": "PLATINUM II",
+      "lp": 83,
       "wins": 272,
-      "losses": 261,
-      "winRate": 51,
+      "losses": 262,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7102.png"
     },
     {
