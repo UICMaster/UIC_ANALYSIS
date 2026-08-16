@@ -114,12 +114,12 @@
       "playerId": "0080",
       "name": "UIC Lanzus",
       "role": "MID",
-      "level": 936,
+      "level": 937,
       "tier": "MASTER I",
-      "lp": 1180,
-      "wins": 155,
+      "lp": 1207,
+      "wins": 156,
       "losses": 130,
-      "winRate": 54.4,
+      "winRate": 54.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6629.png"
     },
     {
@@ -879,11 +879,11 @@
       "name": "UIC Flare",
       "role": "MID",
       "level": 658,
-      "tier": "EMERALD II",
-      "lp": 99,
-      "wins": 159,
+      "tier": "EMERALD I",
+      "lp": 18,
+      "wins": 160,
       "losses": 160,
-      "winRate": 49.8,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/626.png"
     },
     {
