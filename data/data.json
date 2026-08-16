@@ -128,10 +128,10 @@
       "role": "BOT",
       "level": 1693,
       "tier": "MASTER I",
-      "lp": 532,
-      "wins": 216,
+      "lp": 561,
+      "wins": 217,
       "losses": 205,
-      "winRate": 51.3,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6872.png"
     },
     {
@@ -622,10 +622,10 @@
       "role": "MID",
       "level": 618,
       "tier": "PLATINUM III",
-      "lp": 53,
+      "lp": 32,
       "wins": 182,
-      "losses": 181,
-      "winRate": 50.1,
+      "losses": 182,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7144.png"
     },
     {
@@ -732,10 +732,10 @@
       "role": "MID",
       "level": 636,
       "tier": "EMERALD I",
-      "lp": 85,
+      "lp": 62,
       "wins": 414,
-      "losses": 389,
-      "winRate": 51.6,
+      "losses": 390,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/23.png"
     },
     {
@@ -744,9 +744,9 @@
       "role": "BOT",
       "level": 1466,
       "tier": "EMERALD IV",
-      "lp": 71,
-      "wins": 753,
-      "losses": 727,
+      "lp": 91,
+      "wins": 754,
+      "losses": 728,
       "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7180.png"
     },
@@ -754,7 +754,7 @@
       "playerId": "0050",
       "name": "UIC Deavan",
       "role": "BOT",
-      "level": 436,
+      "level": 437,
       "tier": "EMERALD IV",
       "lp": 4,
       "wins": 243,
@@ -794,10 +794,10 @@
       "role": "TOP",
       "level": 247,
       "tier": "PLATINUM I",
-      "lp": 3,
-      "wins": 271,
+      "lp": 23,
+      "wins": 272,
       "losses": 260,
-      "winRate": 51,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7102.png"
     },
     {
@@ -818,10 +818,10 @@
       "role": "MID",
       "level": 991,
       "tier": "PLATINUM II",
-      "lp": 53,
+      "lp": 32,
       "wins": 321,
-      "losses": 325,
-      "winRate": 49.7,
+      "losses": 326,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6990.png"
     },
     {
