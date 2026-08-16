@@ -229,6 +229,79 @@
       }
     ]
   },
+  "tempest": {
+    "primeLeagueId": "",
+    "teamDisplay": "UIC Tempest",
+    "tier": "Division 5",
+    "roster": [
+      {
+        "playerId": "0089",
+        "gameName": "Ballas",
+        "tagLine": "Potea",
+        "role": "TOP",
+        "puuid": "",
+        "trackStats": false,
+        "discordId": "241943941572853760",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0090",
+        "gameName": "LAG Kurt Schluss",
+        "tagLine": "1337",
+        "role": "JGL",
+        "puuid": "",
+        "trackStats": false,
+        "discordId": "524997671916666886",
+        "rosterStatus": "starter",
+        "isCaptain": true
+      },
+      {
+        "playerId": "0091",
+        "gameName": "LAG Levin2Go",
+        "tagLine": "ATN",
+        "role": "MID",
+        "puuid": "",
+        "trackStats": false,
+        "discordId": "399959698062966794",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0092",
+        "gameName": "LAG Lightning",
+        "tagLine": "Uzi",
+        "role": "BOT",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "449200823071801348",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0093",
+        "gameName": "LAG Phântox",
+        "tagLine": "ATN",
+        "role": "SUP",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "252742177401077761",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0036",
+        "gameName": "UIC Ryu Panda",
+        "tagLine": "CSX",
+        "role": "MNG",
+        "puuid": "H63Ow4JXI3KgT05HWg6q24xi0GeTHrtLN-ypclqi10R452ewY7EXHTBw0paEiyLnYsVNGDSvWsW0hw",
+        "trackStats": true,
+        "discordId": "465698775638212610",
+        "rosterStatus": "staff",
+        "isCaptain": false
+      }
+    ]
+  },
   "eclipse": {
     "primeLeagueId": "208131",
     "teamDisplay": "UIC Eclipse",
