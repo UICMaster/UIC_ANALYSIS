@@ -128,10 +128,10 @@
       "role": "BOT",
       "level": 1694,
       "tier": "MASTER I",
-      "lp": 528,
-      "wins": 218,
+      "lp": 586,
+      "wins": 219,
       "losses": 207,
-      "winRate": 51.3,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6872.png"
     },
     {
@@ -338,10 +338,10 @@
       "role": "MID",
       "level": 1068,
       "tier": "DIAMOND III",
-      "lp": 59,
-      "wins": 421,
-      "losses": 448,
-      "winRate": 48.4,
+      "lp": 55,
+      "wins": 422,
+      "losses": 449,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
     {
@@ -387,11 +387,11 @@
       "name": "UIC Hunter",
       "role": "JGL",
       "level": 992,
-      "tier": "DIAMOND IV",
-      "lp": 89,
-      "wins": 160,
+      "tier": "DIAMOND III",
+      "lp": 9,
+      "wins": 161,
       "losses": 151,
-      "winRate": 51.4,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/660.png"
     },
     {
@@ -548,10 +548,10 @@
       "role": "MID",
       "level": 945,
       "tier": "MASTER I",
-      "lp": 165,
+      "lp": 105,
       "wins": 301,
-      "losses": 315,
-      "winRate": 48.9,
+      "losses": 317,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5954.png"
     },
     {
@@ -622,10 +622,10 @@
       "role": "JGL",
       "level": 810,
       "tier": "DIAMOND I",
-      "lp": 21,
-      "wins": 54,
+      "lp": 42,
+      "wins": 55,
       "losses": 55,
-      "winRate": 49.5,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3840.png"
     },
     {
@@ -854,10 +854,10 @@
       "role": "SUP",
       "level": 593,
       "tier": "GOLD III",
-      "lp": 56,
-      "wins": 157,
+      "lp": 75,
+      "wins": 158,
       "losses": 171,
-      "winRate": 47.9,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7064.png"
     }
   ],
