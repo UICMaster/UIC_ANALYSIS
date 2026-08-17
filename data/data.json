@@ -338,10 +338,10 @@
       "role": "MID",
       "level": 1068,
       "tier": "DIAMOND III",
-      "lp": 61,
-      "wins": 420,
+      "lp": 80,
+      "wins": 421,
       "losses": 446,
-      "winRate": 48.5,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
     {
@@ -548,10 +548,10 @@
       "role": "MID",
       "level": 945,
       "tier": "MASTER I",
-      "lp": 132,
-      "wins": 298,
+      "lp": 163,
+      "wins": 299,
       "losses": 313,
-      "winRate": 48.8,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5954.png"
     },
     {
@@ -572,10 +572,10 @@
       "role": "SUP",
       "level": 1021,
       "tier": "MASTER I",
-      "lp": 5,
-      "wins": 119,
+      "lp": 40,
+      "wins": 120,
       "losses": 103,
-      "winRate": 53.6,
+      "winRate": 53.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6622.png"
     },
     {
@@ -646,10 +646,10 @@
       "role": "BOT",
       "level": 776,
       "tier": "DIAMOND II",
-      "lp": 46,
+      "lp": 25,
       "wins": 178,
-      "losses": 166,
-      "winRate": 51.7,
+      "losses": 167,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5970.png"
     },
     {
@@ -794,10 +794,10 @@
       "role": "MID",
       "level": 641,
       "tier": "PLATINUM II",
-      "lp": 24,
+      "lp": 2,
       "wins": 153,
-      "losses": 155,
-      "winRate": 49.7,
+      "losses": 156,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4379.png"
     },
     {
@@ -816,7 +816,7 @@
       "playerId": "0049",
       "name": "RD Boohunter",
       "role": "BOT",
-      "level": 1467,
+      "level": 1468,
       "tier": "EMERALD IV",
       "lp": 4,
       "wins": 758,
@@ -940,7 +940,7 @@
       "playerId": "0059",
       "name": "BlauerKlaus",
       "role": "JGL",
-      "level": 1173,
+      "level": 1174,
       "tier": "MASTER I",
       "lp": 18,
       "wins": 118,
@@ -977,11 +977,11 @@
       "name": "UIC Envy",
       "role": "SUP",
       "level": 355,
-      "tier": "PLATINUM III",
-      "lp": 12,
+      "tier": "PLATINUM IV",
+      "lp": 70,
       "wins": 258,
-      "losses": 254,
-      "winRate": 50.4,
+      "losses": 256,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7100.png"
     }
   ],
