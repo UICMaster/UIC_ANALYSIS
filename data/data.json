@@ -18,10 +18,10 @@
       "role": "JGL",
       "level": 1066,
       "tier": "MASTER I",
-      "lp": 574,
+      "lp": 543,
       "wins": 270,
-      "losses": 252,
-      "winRate": 51.7,
+      "losses": 253,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4380.png"
     },
     {
@@ -66,10 +66,10 @@
       "role": "MID",
       "level": 1105,
       "tier": "MASTER I",
-      "lp": 982,
-      "wins": 481,
+      "lp": 1042,
+      "wins": 483,
       "losses": 454,
-      "winRate": 51.4,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3151.png"
     },
     {
@@ -240,8 +240,8 @@
       "role": "TOP",
       "level": 1310,
       "tier": "DIAMOND I",
-      "lp": 1,
-      "wins": 427,
+      "lp": 21,
+      "wins": 428,
       "losses": 416,
       "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7194.png"
@@ -338,8 +338,8 @@
       "role": "MID",
       "level": 1068,
       "tier": "DIAMOND III",
-      "lp": 51,
-      "wins": 423,
+      "lp": 69,
+      "wins": 424,
       "losses": 450,
       "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
@@ -546,12 +546,12 @@
       "playerId": "0027",
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 945,
+      "level": 946,
       "tier": "MASTER I",
-      "lp": 136,
-      "wins": 302,
-      "losses": 317,
-      "winRate": 48.8,
+      "lp": 137,
+      "wins": 303,
+      "losses": 319,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5954.png"
     },
     {
@@ -584,10 +584,10 @@
       "role": "COH",
       "level": 838,
       "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 212,
+      "lp": 18,
+      "wins": 213,
       "losses": 205,
-      "winRate": 50.8,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3366.png"
     },
     {
