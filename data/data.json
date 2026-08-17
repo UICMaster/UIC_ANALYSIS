@@ -524,9 +524,9 @@
       "role": "TOP",
       "level": 590,
       "tier": "MASTER I",
-      "lp": 384,
-      "wins": 408,
-      "losses": 379,
+      "lp": 382,
+      "wins": 409,
+      "losses": 380,
       "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6640.png"
     },
@@ -720,10 +720,10 @@
       "role": "SUP",
       "level": 341,
       "tier": "MASTER I",
-      "lp": 266,
-      "wins": 145,
+      "lp": 296,
+      "wins": 146,
       "losses": 124,
-      "winRate": 53.9,
+      "winRate": 54.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4793.png"
     },
     {
@@ -794,10 +794,10 @@
       "role": "MID",
       "level": 640,
       "tier": "PLATINUM II",
-      "lp": 81,
+      "lp": 59,
       "wins": 151,
-      "losses": 151,
-      "winRate": 50,
+      "losses": 152,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4379.png"
     },
     {
@@ -818,9 +818,9 @@
       "role": "BOT",
       "level": 1467,
       "tier": "EMERALD IV",
-      "lp": 29,
+      "lp": 8,
       "wins": 756,
-      "losses": 734,
+      "losses": 735,
       "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7180.png"
     },
