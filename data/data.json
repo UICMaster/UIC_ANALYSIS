@@ -18,10 +18,10 @@
       "role": "JGL",
       "level": 1066,
       "tier": "MASTER I",
-      "lp": 605,
+      "lp": 574,
       "wins": 270,
-      "losses": 251,
-      "winRate": 51.8,
+      "losses": 252,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4380.png"
     },
     {
@@ -66,10 +66,10 @@
       "role": "MID",
       "level": 1105,
       "tier": "MASTER I",
-      "lp": 1012,
+      "lp": 982,
       "wins": 481,
-      "losses": 453,
-      "winRate": 51.5,
+      "losses": 454,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3151.png"
     },
     {
@@ -78,10 +78,10 @@
       "role": "MID",
       "level": 666,
       "tier": "MASTER I",
-      "lp": 277,
-      "wins": 168,
+      "lp": 306,
+      "wins": 169,
       "losses": 156,
-      "winRate": 51.9,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     }
   ],
@@ -239,11 +239,11 @@
       "name": "Ballas",
       "role": "TOP",
       "level": 1310,
-      "tier": "DIAMOND II",
-      "lp": 81,
-      "wins": 426,
+      "tier": "DIAMOND I",
+      "lp": 1,
+      "wins": 427,
       "losses": 416,
-      "winRate": 50.6,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7194.png"
     },
     {
@@ -338,9 +338,9 @@
       "role": "MID",
       "level": 1068,
       "tier": "DIAMOND III",
-      "lp": 55,
-      "wins": 422,
-      "losses": 449,
+      "lp": 51,
+      "wins": 423,
+      "losses": 450,
       "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
@@ -548,10 +548,10 @@
       "role": "MID",
       "level": 945,
       "tier": "MASTER I",
-      "lp": 105,
-      "wins": 301,
+      "lp": 136,
+      "wins": 302,
       "losses": 317,
-      "winRate": 48.7,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5954.png"
     },
     {
@@ -584,10 +584,10 @@
       "role": "COH",
       "level": 838,
       "tier": "DIAMOND IV",
-      "lp": 13,
+      "lp": 0,
       "wins": 212,
-      "losses": 204,
-      "winRate": 51,
+      "losses": 205,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3366.png"
     },
     {
