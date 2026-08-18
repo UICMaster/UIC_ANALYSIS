@@ -437,11 +437,11 @@
       "name": "Reign",
       "role": "TOP",
       "level": 1335,
-      "tier": "DIAMOND I",
-      "lp": 8,
+      "tier": "DIAMOND II",
+      "lp": 87,
       "wins": 288,
-      "losses": 303,
-      "winRate": 48.7,
+      "losses": 305,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     },
     {
@@ -916,10 +916,10 @@
       "role": "SUP",
       "level": 549,
       "tier": "DIAMOND III",
-      "lp": 37,
+      "lp": 15,
       "wins": 170,
-      "losses": 154,
-      "winRate": 52.5,
+      "losses": 155,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7170.png"
     }
   ],
