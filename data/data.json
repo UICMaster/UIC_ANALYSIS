@@ -66,10 +66,10 @@
       "role": "MID",
       "level": 1106,
       "tier": "MASTER I",
-      "lp": 1132,
+      "lp": 1072,
       "wins": 485,
-      "losses": 454,
-      "winRate": 51.7,
+      "losses": 456,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3151.png"
     },
     {
@@ -436,12 +436,12 @@
       "playerId": "0018",
       "name": "Reign",
       "role": "TOP",
-      "level": 1334,
-      "tier": "DIAMOND I",
-      "lp": 8,
+      "level": 1335,
+      "tier": "DIAMOND II",
+      "lp": 88,
       "wins": 287,
-      "losses": 302,
-      "winRate": 48.7,
+      "losses": 303,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     },
     {
@@ -818,9 +818,9 @@
       "role": "BOT",
       "level": 1468,
       "tier": "PLATINUM I",
-      "lp": 75,
+      "lp": 53,
       "wins": 758,
-      "losses": 739,
+      "losses": 741,
       "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7180.png"
     },
