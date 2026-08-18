@@ -78,10 +78,10 @@
       "role": "MID",
       "level": 666,
       "tier": "MASTER I",
-      "lp": 306,
+      "lp": 275,
       "wins": 169,
-      "losses": 156,
-      "winRate": 52,
+      "losses": 157,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     }
   ],
@@ -238,10 +238,10 @@
       "playerId": "0089",
       "name": "Ballas",
       "role": "TOP",
-      "level": 1310,
+      "level": 1311,
       "tier": "DIAMOND I",
-      "lp": 0,
-      "wins": 428,
+      "lp": 20,
+      "wins": 429,
       "losses": 417,
       "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7194.png"
@@ -720,9 +720,9 @@
       "role": "SUP",
       "level": 342,
       "tier": "MASTER I",
-      "lp": 356,
-      "wins": 147,
-      "losses": 124,
+      "lp": 354,
+      "wins": 148,
+      "losses": 125,
       "winRate": 54.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4793.png"
     },
@@ -806,10 +806,10 @@
       "role": "MID",
       "level": 637,
       "tier": "DIAMOND IV",
-      "lp": 8,
-      "wins": 419,
+      "lp": 45,
+      "wins": 421,
       "losses": 392,
-      "winRate": 51.7,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/23.png"
     },
     {
@@ -894,8 +894,8 @@
       "tier": "PLATINUM III",
       "lp": 60,
       "wins": 323,
-      "losses": 332,
-      "winRate": 49.3,
+      "losses": 333,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6990.png"
     },
     {
