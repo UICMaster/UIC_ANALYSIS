@@ -66,10 +66,10 @@
       "role": "MID",
       "level": 1106,
       "tier": "MASTER I",
-      "lp": 1102,
-      "wins": 484,
+      "lp": 1132,
+      "wins": 485,
       "losses": 454,
-      "winRate": 51.6,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3151.png"
     },
     {
@@ -817,11 +817,11 @@
       "name": "RD Boohunter",
       "role": "BOT",
       "level": 1468,
-      "tier": "EMERALD IV",
-      "lp": 4,
+      "tier": "PLATINUM I",
+      "lp": 75,
       "wins": 758,
-      "losses": 737,
-      "winRate": 50.7,
+      "losses": 739,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7180.png"
     },
     {
