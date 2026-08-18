@@ -338,10 +338,10 @@
       "role": "MID",
       "level": 1068,
       "tier": "DIAMOND III",
-      "lp": 66,
-      "wins": 425,
+      "lp": 85,
+      "wins": 426,
       "losses": 451,
-      "winRate": 48.5,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
     {
@@ -524,8 +524,8 @@
       "role": "TOP",
       "level": 590,
       "tier": "MASTER I",
-      "lp": 351,
-      "wins": 409,
+      "lp": 380,
+      "wins": 410,
       "losses": 381,
       "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6640.png"
@@ -560,10 +560,10 @@
       "role": "BOT",
       "level": 873,
       "tier": "MASTER I",
-      "lp": 498,
-      "wins": 171,
+      "lp": 527,
+      "wins": 172,
       "losses": 145,
-      "winRate": 54.1,
+      "winRate": 54.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7144.png"
     },
     {
@@ -793,11 +793,11 @@
       "name": "UIC adedier",
       "role": "MID",
       "level": 641,
-      "tier": "PLATINUM II",
-      "lp": 2,
+      "tier": "PLATINUM III",
+      "lp": 79,
       "wins": 153,
-      "losses": 156,
-      "winRate": 49.5,
+      "losses": 157,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4379.png"
     },
     {
