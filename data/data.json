@@ -78,10 +78,10 @@
       "role": "MID",
       "level": 666,
       "tier": "MASTER I",
-      "lp": 275,
-      "wins": 169,
+      "lp": 362,
+      "wins": 171,
       "losses": 157,
-      "winRate": 51.8,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     }
   ],
@@ -240,10 +240,10 @@
       "role": "TOP",
       "level": 1311,
       "tier": "DIAMOND I",
-      "lp": 20,
-      "wins": 429,
+      "lp": 39,
+      "wins": 430,
       "losses": 417,
-      "winRate": 50.7,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7194.png"
     },
     {
@@ -264,10 +264,10 @@
       "role": "MID",
       "level": 1268,
       "tier": "MASTER I",
-      "lp": 69,
+      "lp": 38,
       "wins": 312,
-      "losses": 333,
-      "winRate": 48.4,
+      "losses": 334,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6934.png"
     },
     {
@@ -696,10 +696,10 @@
       "role": "MID",
       "level": 619,
       "tier": "PLATINUM III",
-      "lp": 83,
+      "lp": 61,
       "wins": 186,
-      "losses": 184,
-      "winRate": 50.3,
+      "losses": 185,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7144.png"
     },
     {
@@ -793,11 +793,11 @@
       "name": "UIC adedier",
       "role": "MID",
       "level": 641,
-      "tier": "PLATINUM III",
-      "lp": 79,
-      "wins": 153,
+      "tier": "PLATINUM II",
+      "lp": 14,
+      "wins": 155,
       "losses": 157,
-      "winRate": 49.4,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4379.png"
     },
     {
@@ -818,10 +818,10 @@
       "role": "BOT",
       "level": 1468,
       "tier": "PLATINUM I",
-      "lp": 53,
+      "lp": 7,
       "wins": 758,
-      "losses": 741,
-      "winRate": 50.6,
+      "losses": 743,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7180.png"
     },
     {
@@ -853,11 +853,11 @@
       "name": "UIC Excellent C",
       "role": "SUP",
       "level": 593,
-      "tier": "GOLD III",
-      "lp": 75,
-      "wins": 158,
+      "tier": "GOLD II",
+      "lp": 13,
+      "wins": 160,
       "losses": 171,
-      "winRate": 48,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7064.png"
     }
   ],
@@ -892,9 +892,9 @@
       "role": "MID",
       "level": 992,
       "tier": "PLATINUM III",
-      "lp": 60,
-      "wins": 323,
-      "losses": 333,
+      "lp": 54,
+      "wins": 324,
+      "losses": 334,
       "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6990.png"
     },
