@@ -392,7 +392,7 @@
       "wins": 161,
       "losses": 154,
       "winRate": 51.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/660.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6908.png"
     },
     {
       "playerId": "0015",
@@ -524,10 +524,10 @@
       "role": "TOP",
       "level": 590,
       "tier": "MASTER I",
-      "lp": 286,
-      "wins": 410,
+      "lp": 315,
+      "wins": 411,
       "losses": 384,
-      "winRate": 51.6,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6640.png"
     },
     {
@@ -890,11 +890,11 @@
       "playerId": "0055",
       "name": "UIC Rhinoshield",
       "role": "MID",
-      "level": 992,
+      "level": 993,
       "tier": "PLATINUM III",
-      "lp": 59,
+      "lp": 37,
       "wins": 329,
-      "losses": 338,
+      "losses": 339,
       "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6990.png"
     },
