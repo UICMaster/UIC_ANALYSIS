@@ -78,10 +78,10 @@
       "role": "MID",
       "level": 667,
       "tier": "MASTER I",
-      "lp": 417,
+      "lp": 385,
       "wins": 174,
-      "losses": 159,
-      "winRate": 52.3,
+      "losses": 160,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     }
   ],
@@ -114,12 +114,12 @@
       "playerId": "0080",
       "name": "UIC Lanzus",
       "role": "MID",
-      "level": 937,
+      "level": 938,
       "tier": "MASTER I",
-      "lp": 1084,
-      "wins": 159,
-      "losses": 137,
-      "winRate": 53.7,
+      "lp": 1045,
+      "wins": 160,
+      "losses": 139,
+      "winRate": 53.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6629.png"
     },
     {
@@ -264,10 +264,10 @@
       "role": "MID",
       "level": 1269,
       "tier": "MASTER I",
-      "lp": 52,
+      "lp": 0,
       "wins": 314,
-      "losses": 337,
-      "winRate": 48.2,
+      "losses": 339,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6934.png"
     },
     {
@@ -892,10 +892,10 @@
       "role": "MID",
       "level": 993,
       "tier": "PLATINUM III",
-      "lp": 15,
-      "wins": 329,
-      "losses": 340,
-      "winRate": 49.2,
+      "lp": 31,
+      "wins": 331,
+      "losses": 341,
+      "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6990.png"
     },
     {
