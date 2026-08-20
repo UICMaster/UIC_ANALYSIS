@@ -78,10 +78,10 @@
       "role": "MID",
       "level": 668,
       "tier": "MASTER I",
-      "lp": 365,
+      "lp": 333,
       "wins": 179,
-      "losses": 166,
-      "winRate": 51.9,
+      "losses": 167,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     }
   ],
@@ -805,11 +805,11 @@
       "name": "UIC GroßATuin",
       "role": "MID",
       "level": 638,
-      "tier": "DIAMOND III",
-      "lp": 18,
+      "tier": "DIAMOND IV",
+      "lp": 98,
       "wins": 427,
-      "losses": 394,
-      "winRate": 52,
+      "losses": 395,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/23.png"
     },
     {
@@ -818,10 +818,10 @@
       "role": "BOT",
       "level": 1470,
       "tier": "PLATINUM II",
-      "lp": 44,
+      "lp": 23,
       "wins": 769,
-      "losses": 755,
-      "winRate": 50.5,
+      "losses": 756,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7180.png"
     },
     {
