@@ -78,10 +78,10 @@
       "role": "MID",
       "level": 669,
       "tier": "MASTER I",
-      "lp": 317,
+      "lp": 285,
       "wins": 183,
-      "losses": 171,
-      "winRate": 51.7,
+      "losses": 172,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     }
   ],
@@ -90,7 +90,7 @@
       "playerId": "0078",
       "name": "UIC Nutty",
       "role": "TOP",
-      "level": 671,
+      "level": 672,
       "tier": "MASTER I",
       "lp": 373,
       "wins": 89,
@@ -236,7 +236,7 @@
   "tempest": [
     {
       "playerId": "0089",
-      "name": "Ballas",
+      "name": "UIC Ballas",
       "role": "TOP",
       "level": 1312,
       "tier": "DIAMOND II",
@@ -260,7 +260,7 @@
     },
     {
       "playerId": "0091",
-      "name": "LAG Levin2Go",
+      "name": "UIC Levin2Go",
       "role": "MID",
       "level": 1270,
       "tier": "DIAMOND II",
@@ -284,7 +284,7 @@
     },
     {
       "playerId": "0093",
-      "name": "LAG Phântox",
+      "name": "UIC Phântox",
       "role": "SUP",
       "level": 963,
       "tier": "DIAMOND IV",
@@ -548,10 +548,10 @@
       "role": "MID",
       "level": 947,
       "tier": "MASTER I",
-      "lp": 257,
-      "wins": 312,
+      "lp": 287,
+      "wins": 313,
       "losses": 326,
-      "winRate": 48.9,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5954.png"
     },
     {
@@ -610,10 +610,10 @@
       "role": "TOP",
       "level": 560,
       "tier": "DIAMOND IV",
-      "lp": 59,
+      "lp": 38,
       "wins": 140,
-      "losses": 131,
-      "winRate": 51.7,
+      "losses": 132,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3157.png"
     },
     {
@@ -792,12 +792,12 @@
       "playerId": "0047",
       "name": "UIC adedier",
       "role": "MID",
-      "level": 641,
+      "level": 642,
       "tier": "PLATINUM II",
-      "lp": 28,
+      "lp": 6,
       "wins": 157,
-      "losses": 158,
-      "winRate": 49.8,
+      "losses": 159,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4379.png"
     },
     {
@@ -954,10 +954,10 @@
       "role": "MID",
       "level": 659,
       "tier": "EMERALD I",
-      "lp": 16,
-      "wins": 161,
+      "lp": 54,
+      "wins": 163,
       "losses": 161,
-      "winRate": 50,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/626.png"
     },
     {
@@ -1016,10 +1016,10 @@
       "role": "MID",
       "level": 484,
       "tier": "EMERALD I",
-      "lp": 78,
+      "lp": 57,
       "wins": 79,
-      "losses": 104,
-      "winRate": 43.2,
+      "losses": 105,
+      "winRate": 42.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/1045.png"
     },
     {

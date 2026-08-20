@@ -236,8 +236,8 @@
     "roster": [
       {
         "playerId": "0089",
-        "gameName": "Ballas",
-        "tagLine": "Potea",
+        "gameName": "UIC Ballas",
+        "tagLine": "Wisp",
         "role": "TOP",
         "puuid": "GLRQZhI8v8ucVR17uyNFLmq8HOK4J3bYLKBiyT-mc58aITOTqex6MwIuqgE6xs8k8EFK8gIJ6PxjdQ",
         "trackStats": true,
@@ -258,7 +258,7 @@
       },
       {
         "playerId": "0091",
-        "gameName": "LAG Levin2Go",
+        "gameName": "UIC Levin2Go",
         "tagLine": "ATN",
         "role": "MID",
         "puuid": "Sz4reBn72kgI3iCCC_vA44hUbD0RTWKaTyWgWtr21Spjen3nr6-2oE-MVQmAxiC6f7njxCBmTM9_lA",
@@ -280,7 +280,7 @@
       },
       {
         "playerId": "0093",
-        "gameName": "LAG Phântox",
+        "gameName": "UIC Phântox",
         "tagLine": "ATN",
         "role": "SUP",
         "puuid": "ZSIkXC650RRjT6RHlb8hgkimAWZlnOnTqD02qHAZ30TSGGekd-kr9l3fDv-sKM17NukA8Jjd3S2oIQ",
