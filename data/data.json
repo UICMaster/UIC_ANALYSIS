@@ -16,7 +16,7 @@
       "playerId": "0002",
       "name": "UIC Niki",
       "role": "JGL",
-      "level": 1066,
+      "level": 1067,
       "tier": "MASTER I",
       "lp": 627,
       "wins": 273,
@@ -78,10 +78,10 @@
       "role": "MID",
       "level": 669,
       "tier": "MASTER I",
-      "lp": 321,
-      "wins": 182,
+      "lp": 349,
+      "wins": 183,
       "losses": 170,
-      "winRate": 51.7,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     }
   ],
@@ -128,10 +128,10 @@
       "role": "BOT",
       "level": 1695,
       "tier": "MASTER I",
-      "lp": 453,
+      "lp": 421,
       "wins": 221,
-      "losses": 213,
-      "winRate": 50.9,
+      "losses": 214,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6872.png"
     },
     {
@@ -646,10 +646,10 @@
       "role": "BOT",
       "level": 777,
       "tier": "DIAMOND I",
-      "lp": 22,
-      "wins": 183,
+      "lp": 42,
+      "wins": 184,
       "losses": 167,
-      "winRate": 52.3,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5970.png"
     },
     {
@@ -794,10 +794,10 @@
       "role": "MID",
       "level": 641,
       "tier": "PLATINUM II",
-      "lp": 14,
-      "wins": 155,
+      "lp": 32,
+      "wins": 156,
       "losses": 157,
-      "winRate": 49.7,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4379.png"
     },
     {
@@ -818,8 +818,8 @@
       "role": "BOT",
       "level": 1470,
       "tier": "PLATINUM II",
-      "lp": 42,
-      "wins": 770,
+      "lp": 61,
+      "wins": 771,
       "losses": 756,
       "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7180.png"
@@ -854,10 +854,10 @@
       "role": "SUP",
       "level": 594,
       "tier": "GOLD II",
-      "lp": 47,
+      "lp": 26,
       "wins": 163,
-      "losses": 173,
-      "winRate": 48.5,
+      "losses": 174,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7064.png"
     }
   ],
