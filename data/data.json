@@ -88,7 +88,7 @@
   "basilisk": [
     {
       "playerId": "0078",
-      "name": "π nut",
+      "name": "UIC Nutty",
       "role": "TOP",
       "level": 671,
       "tier": "MASTER I",
@@ -263,11 +263,11 @@
       "name": "LAG Levin2Go",
       "role": "MID",
       "level": 1270,
-      "tier": "DIAMOND II",
-      "lp": 6,
+      "tier": "DIAMOND III",
+      "lp": 84,
       "wins": 316,
-      "losses": 347,
-      "winRate": 47.7,
+      "losses": 348,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6934.png"
     },
     {
@@ -478,7 +478,7 @@
       "wins": 245,
       "losses": 253,
       "winRate": 49.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3568.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6883.png"
     },
     {
       "playerId": "0022",
@@ -720,10 +720,10 @@
       "role": "SUP",
       "level": 343,
       "tier": "MASTER I",
-      "lp": 351,
+      "lp": 320,
       "wins": 151,
-      "losses": 128,
-      "winRate": 54.1,
+      "losses": 129,
+      "winRate": 53.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4793.png"
     },
     {
