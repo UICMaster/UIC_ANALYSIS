@@ -78,9 +78,9 @@
       "role": "MID",
       "level": 669,
       "tier": "MASTER I",
-      "lp": 285,
-      "wins": 183,
-      "losses": 172,
+      "lp": 281,
+      "wins": 184,
+      "losses": 173,
       "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     }
@@ -336,37 +336,37 @@
       "playerId": "0010",
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 0,
+      "level": 1071,
       "tier": "DIAMOND III",
       "lp": 65,
       "wins": 432,
       "losses": 458,
       "winRate": 48.5,
-      "icon": null
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
     {
       "playerId": "0011",
       "name": "UIC Pferdemilch",
       "role": "BOT",
-      "level": 0,
+      "level": 859,
       "tier": "EMERALD IV",
       "lp": 43,
       "wins": 79,
       "losses": 98,
       "winRate": 44.6,
-      "icon": null
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6582.png"
     },
     {
       "playerId": "0012",
       "name": "SomalischerLP",
       "role": "SUP",
-      "level": 0,
+      "level": 129,
       "tier": "PLATINUM II",
       "lp": 5,
       "wins": 5,
       "losses": 3,
       "winRate": 62.5,
-      "icon": null
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/2074.png"
     }
   ],
   "vakuum": [
@@ -374,37 +374,37 @@
       "playerId": "0013",
       "name": "UIC VTennic",
       "role": "TOP",
-      "level": 0,
+      "level": 492,
       "tier": "EMERALD I",
       "lp": 75,
       "wins": 24,
       "losses": 23,
       "winRate": 51.1,
-      "icon": null
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4552.png"
     },
     {
       "playerId": "0014",
       "name": "UIC Hunter",
       "role": "JGL",
-      "level": 0,
+      "level": 992,
       "tier": "DIAMOND IV",
       "lp": 65,
       "wins": 163,
       "losses": 155,
       "winRate": 51.3,
-      "icon": null
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6908.png"
     },
     {
       "playerId": "0015",
       "name": "UIC Kaoxz",
       "role": "MID",
-      "level": 0,
+      "level": 489,
       "tier": "DIAMOND III",
       "lp": 46,
       "wins": 97,
       "losses": 87,
       "winRate": 52.7,
-      "icon": null
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7076.png"
     },
     {
       "playerId": "0016",
@@ -436,37 +436,37 @@
       "playerId": "0018",
       "name": "Reign",
       "role": "TOP",
-      "level": 0,
+      "level": 1336,
       "tier": "DIAMOND II",
       "lp": 29,
       "wins": 295,
       "losses": 315,
       "winRate": 48.4,
-      "icon": null
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     },
     {
       "playerId": "0019",
       "name": "UIC RealCrimes",
       "role": "JGL",
-      "level": 0,
+      "level": 1071,
       "tier": "DIAMOND IV",
       "lp": 17,
       "wins": 50,
       "losses": 59,
       "winRate": 45.9,
-      "icon": null
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/1453.png"
     },
     {
       "playerId": "0020",
       "name": "UIC Landmine",
       "role": "MID",
-      "level": 0,
+      "level": 677,
       "tier": "DIAMOND IV",
       "lp": 18,
       "wins": 84,
       "losses": 86,
       "winRate": 49.4,
-      "icon": null
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/615.png"
     },
     {
       "playerId": "0021",
@@ -548,10 +548,10 @@
       "role": "MID",
       "level": 947,
       "tier": "MASTER I",
-      "lp": 287,
-      "wins": 314,
+      "lp": 347,
+      "wins": 315,
       "losses": 327,
-      "winRate": 49,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5954.png"
     },
     {
@@ -600,7 +600,7 @@
       "wins": 0,
       "losses": 0,
       "winRate": 0,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3015.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/917.png"
     }
   ],
   "cyber": [
@@ -696,10 +696,10 @@
       "role": "MID",
       "level": 620,
       "tier": "PLATINUM III",
-      "lp": 57,
+      "lp": 35,
       "wins": 187,
-      "losses": 186,
-      "winRate": 50.1,
+      "losses": 187,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7144.png"
     },
     {
@@ -868,10 +868,10 @@
       "role": "TOP",
       "level": 249,
       "tier": "PLATINUM II",
-      "lp": 36,
-      "wins": 276,
+      "lp": 55,
+      "wins": 277,
       "losses": 269,
-      "winRate": 50.6,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7102.png"
     },
     {
@@ -953,11 +953,11 @@
       "name": "UIC Flare",
       "role": "MID",
       "level": 659,
-      "tier": "EMERALD I",
-      "lp": 93,
-      "wins": 165,
+      "tier": "DIAMOND IV",
+      "lp": 13,
+      "wins": 166,
       "losses": 161,
-      "winRate": 50.6,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/626.png"
     },
     {
