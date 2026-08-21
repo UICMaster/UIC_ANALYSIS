@@ -102,12 +102,12 @@
       "playerId": "0079",
       "name": "UIC Panger",
       "role": "JGL",
-      "level": 350,
+      "level": 351,
       "tier": "MASTER I",
-      "lp": 212,
-      "wins": 133,
+      "lp": 241,
+      "wins": 134,
       "losses": 109,
-      "winRate": 55,
+      "winRate": 55.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/657.png"
     },
     {
@@ -522,12 +522,12 @@
       "playerId": "0025",
       "name": "UIC Kamo",
       "role": "TOP",
-      "level": 590,
+      "level": 591,
       "tier": "MASTER I",
-      "lp": 312,
+      "lp": 280,
       "wins": 412,
-      "losses": 385,
-      "winRate": 51.7,
+      "losses": 386,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6640.png"
     },
     {
