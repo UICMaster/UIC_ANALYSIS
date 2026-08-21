@@ -78,10 +78,10 @@
       "role": "MID",
       "level": 670,
       "tier": "MASTER I",
-      "lp": 349,
+      "lp": 317,
       "wins": 192,
-      "losses": 178,
-      "winRate": 51.9,
+      "losses": 179,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     }
   ],
@@ -152,10 +152,10 @@
       "role": "COH",
       "level": 509,
       "tier": "MASTER I",
-      "lp": 1143,
-      "wins": 371,
+      "lp": 1197,
+      "wins": 373,
       "losses": 341,
-      "winRate": 52.1,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4096.png"
     }
   ],
@@ -202,11 +202,11 @@
       "role": "BOT",
       "level": 720,
       "tier": "MASTER I",
-      "lp": 638,
-      "wins": 177,
+      "lp": 667,
+      "wins": 178,
       "losses": 159,
-      "winRate": 52.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/29.png"
+      "winRate": 52.8,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/1455.png"
     },
     {
       "playerId": "0087",
@@ -263,10 +263,10 @@
       "name": "UIC Levin2Go",
       "role": "MID",
       "level": 1271,
-      "tier": "DIAMOND I",
-      "lp": 21,
+      "tier": "DIAMOND II",
+      "lp": 99,
       "wins": 324,
-      "losses": 349,
+      "losses": 350,
       "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6934.png"
     },
@@ -744,7 +744,7 @@
       "playerId": "0043",
       "name": "UIC Kaetaya",
       "role": "TOP",
-      "level": 892,
+      "level": 893,
       "tier": "DIAMOND IV",
       "lp": 53,
       "wins": 73,
@@ -818,9 +818,9 @@
       "role": "BOT",
       "level": 1471,
       "tier": "EMERALD IV",
-      "lp": 19,
+      "lp": 0,
       "wins": 779,
-      "losses": 757,
+      "losses": 758,
       "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7180.png"
     },
