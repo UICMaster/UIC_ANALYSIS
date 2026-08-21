@@ -78,10 +78,10 @@
       "role": "MID",
       "level": 670,
       "tier": "MASTER I",
-      "lp": 209,
-      "wins": 186,
+      "lp": 265,
+      "wins": 188,
       "losses": 177,
-      "winRate": 51.2,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     }
   ],
@@ -92,10 +92,10 @@
       "role": "TOP",
       "level": 672,
       "tier": "MASTER I",
-      "lp": 373,
-      "wins": 91,
+      "lp": 403,
+      "wins": 92,
       "losses": 70,
-      "winRate": 56.5,
+      "winRate": 56.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6622.png"
     },
     {
@@ -128,10 +128,10 @@
       "role": "BOT",
       "level": 1695,
       "tier": "MASTER I",
-      "lp": 450,
-      "wins": 222,
+      "lp": 479,
+      "wins": 223,
       "losses": 214,
-      "winRate": 50.9,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6872.png"
     },
     {
@@ -252,10 +252,10 @@
       "role": "JGL",
       "level": 1172,
       "tier": "DIAMOND IV",
-      "lp": 31,
-      "wins": 110,
+      "lp": 50,
+      "wins": 111,
       "losses": 95,
-      "winRate": 53.7,
+      "winRate": 53.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4855.png"
     },
     {
@@ -263,9 +263,9 @@
       "name": "UIC Levin2Go",
       "role": "MID",
       "level": 1270,
-      "tier": "DIAMOND II",
-      "lp": 86,
-      "wins": 322,
+      "tier": "DIAMOND I",
+      "lp": 24,
+      "wins": 323,
       "losses": 348,
       "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6934.png"
@@ -337,11 +337,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1071,
-      "tier": "DIAMOND II",
-      "lp": 3,
+      "tier": "DIAMOND III",
+      "lp": 81,
       "wins": 434,
-      "losses": 459,
-      "winRate": 48.6,
+      "losses": 460,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
     {
@@ -398,7 +398,7 @@
       "playerId": "0015",
       "name": "UIC Kaoxz",
       "role": "MID",
-      "level": 489,
+      "level": 490,
       "tier": "DIAMOND III",
       "lp": 46,
       "wins": 97,
