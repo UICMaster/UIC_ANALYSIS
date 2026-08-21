@@ -78,10 +78,10 @@
       "role": "MID",
       "level": 670,
       "tier": "MASTER I",
-      "lp": 273,
+      "lp": 209,
       "wins": 186,
-      "losses": 175,
-      "winRate": 51.5,
+      "losses": 177,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     }
   ],
@@ -92,10 +92,10 @@
       "role": "TOP",
       "level": 672,
       "tier": "MASTER I",
-      "lp": 343,
-      "wins": 90,
+      "lp": 373,
+      "wins": 91,
       "losses": 70,
-      "winRate": 56.3,
+      "winRate": 56.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6622.png"
     },
     {
@@ -202,10 +202,10 @@
       "role": "BOT",
       "level": 720,
       "tier": "MASTER I",
-      "lp": 669,
+      "lp": 638,
       "wins": 177,
-      "losses": 158,
-      "winRate": 52.8,
+      "losses": 159,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/29.png"
     },
     {
@@ -252,10 +252,10 @@
       "role": "JGL",
       "level": 1172,
       "tier": "DIAMOND IV",
-      "lp": 12,
-      "wins": 109,
+      "lp": 31,
+      "wins": 110,
       "losses": 95,
-      "winRate": 53.4,
+      "winRate": 53.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4855.png"
     },
     {
@@ -264,10 +264,10 @@
       "role": "MID",
       "level": 1270,
       "tier": "DIAMOND II",
-      "lp": 72,
-      "wins": 321,
+      "lp": 86,
+      "wins": 322,
       "losses": 348,
-      "winRate": 48,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6934.png"
     },
     {
@@ -337,11 +337,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1071,
-      "tier": "DIAMOND III",
-      "lp": 65,
-      "wins": 432,
-      "losses": 458,
-      "winRate": 48.5,
+      "tier": "DIAMOND II",
+      "lp": 3,
+      "wins": 434,
+      "losses": 459,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
     {
