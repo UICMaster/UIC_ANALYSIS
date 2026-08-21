@@ -40,10 +40,10 @@
     "survivability": 54
   },
   "3DMahNPpjlR3RxjkBK09QJ5BL99KyPuxtCRLIH2cZLSbjKalcYBRMelGmKotQVQuNUHd_VVNPnGyuA": {
-    "lastMatchId": "EUW1_7955595280",
-    "ovr": 51,
+    "lastMatchId": "EUW1_7957826516",
+    "ovr": 50,
     "laning": 53,
-    "combat": 54,
+    "combat": 51,
     "macro": 34,
     "survivability": 70
   },
@@ -280,12 +280,12 @@
     "survivability": 56
   },
   "P9KXx1FsPCQmUtO1otcR-ab6gLJ8tLcmUeFk69aN_S0hDT79jZVbgy9QhlQkoxRVeQA7W0rhZAdHYQ": {
-    "lastMatchId": "EUW1_7957758815",
-    "ovr": 48,
-    "laning": 47,
-    "combat": 62,
+    "lastMatchId": "EUW1_7957814985",
+    "ovr": 49,
+    "laning": 50,
+    "combat": 64,
     "macro": 41,
-    "survivability": 58
+    "survivability": 60
   },
   "OsITEayqHQuCj7n2rKsf6nUuGcs0rxIxSA5WIA7GJXGAlIPNIWLg-wGFxn_YMIUqMqsnzG_NZLL0KA": {
     "lastMatchId": "EUW1_7711683616",
@@ -753,5 +753,13 @@
     "combat": 61,
     "macro": 37,
     "survivability": 79
+  },
+  "LVBIOhLQvPNK-le_nqzf9bQ5VRtgH-HvY_RnECyVKMIVE5mdjt1y3qeEyGaB9ybbZHoRVFKzIs8MfQ": {
+    "lastMatchId": "EUW1_7957139833",
+    "ovr": 47,
+    "laning": 53,
+    "combat": 55,
+    "macro": 35,
+    "survivability": 53
   }
 }
