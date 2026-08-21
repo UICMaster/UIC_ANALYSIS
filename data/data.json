@@ -78,10 +78,10 @@
       "role": "MID",
       "level": 670,
       "tier": "MASTER I",
-      "lp": 317,
-      "wins": 192,
+      "lp": 375,
+      "wins": 193,
       "losses": 179,
-      "winRate": 51.8,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     }
   ],
@@ -202,10 +202,10 @@
       "role": "BOT",
       "level": 720,
       "tier": "MASTER I",
-      "lp": 667,
-      "wins": 178,
+      "lp": 696,
+      "wins": 179,
       "losses": 159,
-      "winRate": 52.8,
+      "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/1455.png"
     },
     {
@@ -263,11 +263,11 @@
       "name": "UIC Levin2Go",
       "role": "MID",
       "level": 1271,
-      "tier": "DIAMOND II",
-      "lp": 99,
-      "wins": 324,
+      "tier": "DIAMOND I",
+      "lp": 37,
+      "wins": 326,
       "losses": 350,
-      "winRate": 48.1,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6934.png"
     },
     {
@@ -942,10 +942,10 @@
       "role": "JGL",
       "level": 1174,
       "tier": "MASTER I",
-      "lp": 18,
+      "lp": 0,
       "wins": 118,
-      "losses": 107,
-      "winRate": 52.4,
+      "losses": 108,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7123.png"
     },
     {
