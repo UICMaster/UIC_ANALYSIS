@@ -163,23 +163,23 @@
     "roster": [
       {
         "playerId": "0083",
-        "gameName": "",
-        "tagLine": "",
+        "gameName": "UIC Rayando07",
+        "tagLine": "Help",
         "role": "TOP",
         "puuid": "",
-        "trackStats": false,
-        "discordId": "",
+        "trackStats": true,
+        "discordId": "855126257859821579",
         "rosterStatus": "starter",
         "isCaptain": false
       },
       {
         "playerId": "0084",
-        "gameName": "",
-        "tagLine": "",
+        "gameName": "TTVXavertseltsam",
+        "tagLine": "Mr X",
         "role": "JGL",
         "puuid": "",
-        "trackStats": false,
-        "discordId": "",
+        "trackStats": true,
+        "discordId": "382549209171230731",
         "rosterStatus": "starter",
         "isCaptain": false
       },
