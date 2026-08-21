@@ -162,11 +162,11 @@
     "tier": "Division 5",
     "roster": [
       {
-        "playerId": "0083",
+        "playerId": "0075",
         "gameName": "UIC Rayando07",
         "tagLine": "Help",
         "role": "TOP",
-        "puuid": "",
+        "puuid": "6SLO1ln5FlFBoW1mxcFvhIHwxgbUw1RWHogzDEH4irD5uTWxHfa4yCPzJXEoWQOhlLtEPzv9rmNDCQ",
         "trackStats": true,
         "discordId": "855126257859821579",
         "rosterStatus": "starter",
@@ -1100,17 +1100,6 @@
         "puuid": "SKxclARQWxiRzKEd4VtPJHTw3jfahqv6-SqOSDxnUUn5bAWCgPjx0MoMnQt64SW_ELtMkPLfSt-2xA",
         "trackStats": true,
         "discordId": "396457449982525451",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "playerId": "0075",
-        "gameName": "UIC Rayando07",
-        "tagLine": "Help",
-        "role": "TOP",
-        "puuid": "6SLO1ln5FlFBoW1mxcFvhIHwxgbUw1RWHogzDEH4irD5uTWxHfa4yCPzJXEoWQOhlLtEPzv9rmNDCQ",
-        "trackStats": true,
-        "discordId": "855126257859821579",
         "rosterStatus": "starter",
         "isCaptain": false
       },
