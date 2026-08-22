@@ -78,10 +78,10 @@
       "role": "MID",
       "level": 671,
       "tier": "MASTER I",
-      "lp": 371,
-      "wins": 194,
+      "lp": 399,
+      "wins": 195,
       "losses": 180,
-      "winRate": 51.9,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     }
   ],
@@ -226,10 +226,10 @@
       "role": "COH",
       "level": 807,
       "tier": "EMERALD I",
-      "lp": 29,
+      "lp": 8,
       "wins": 369,
-      "losses": 371,
-      "winRate": 49.9,
+      "losses": 372,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7190.png"
     }
   ],
@@ -338,10 +338,10 @@
       "role": "MID",
       "level": 1072,
       "tier": "DIAMOND III",
-      "lp": 37,
-      "wins": 434,
+      "lp": 55,
+      "wins": 435,
       "losses": 462,
-      "winRate": 48.4,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
     {
@@ -524,10 +524,10 @@
       "role": "TOP",
       "level": 591,
       "tier": "MASTER I",
-      "lp": 268,
-      "wins": 416,
+      "lp": 297,
+      "wins": 417,
       "losses": 390,
-      "winRate": 51.6,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6640.png"
     },
     {
@@ -548,10 +548,10 @@
       "role": "MID",
       "level": 948,
       "tier": "MASTER I",
-      "lp": 436,
-      "wins": 318,
+      "lp": 466,
+      "wins": 319,
       "losses": 327,
-      "winRate": 49.3,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5954.png"
     },
     {
@@ -696,10 +696,10 @@
       "role": "MID",
       "level": 621,
       "tier": "PLATINUM III",
-      "lp": 99,
+      "lp": 77,
       "wins": 192,
-      "losses": 190,
-      "winRate": 50.3,
+      "losses": 191,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7144.png"
     },
     {
@@ -792,7 +792,7 @@
       "playerId": "0047",
       "name": "UIC adedier",
       "role": "MID",
-      "level": 642,
+      "level": 643,
       "tier": "PLATINUM III",
       "lp": 54,
       "wins": 159,
