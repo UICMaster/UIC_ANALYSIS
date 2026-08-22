@@ -30,10 +30,10 @@
       "role": "MID",
       "level": 649,
       "tier": "MASTER I",
-      "lp": 12,
-      "wins": 127,
+      "lp": 72,
+      "wins": 128,
       "losses": 128,
-      "winRate": 49.8,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7094.png"
     },
     {
@@ -66,10 +66,10 @@
       "role": "MID",
       "level": 1109,
       "tier": "MASTER I",
-      "lp": 1001,
+      "lp": 939,
       "wins": 496,
-      "losses": 471,
-      "winRate": 51.3,
+      "losses": 473,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3151.png"
     },
     {
@@ -338,10 +338,10 @@
       "role": "MID",
       "level": 1073,
       "tier": "DIAMOND II",
-      "lp": 80,
-      "wins": 443,
+      "lp": 99,
+      "wins": 444,
       "losses": 463,
-      "winRate": 48.9,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
     {
@@ -388,10 +388,10 @@
       "role": "JGL",
       "level": 993,
       "tier": "DIAMOND IV",
-      "lp": 21,
-      "wins": 165,
+      "lp": 41,
+      "wins": 166,
       "losses": 159,
-      "winRate": 50.9,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6908.png"
     },
     {
@@ -720,10 +720,10 @@
       "role": "SUP",
       "level": 344,
       "tier": "MASTER I",
-      "lp": 349,
-      "wins": 153,
+      "lp": 379,
+      "wins": 154,
       "losses": 130,
-      "winRate": 54.1,
+      "winRate": 54.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4793.png"
     },
     {
@@ -841,11 +841,11 @@
       "name": "UIC Kaanto",
       "role": "SUP",
       "level": 400,
-      "tier": "PLATINUM III",
-      "lp": 12,
+      "tier": "PLATINUM IV",
+      "lp": 91,
       "wins": 162,
-      "losses": 168,
-      "winRate": 49.1,
+      "losses": 169,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7099.png"
     },
     {
