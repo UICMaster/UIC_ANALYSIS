@@ -10,7 +10,7 @@
       "wins": 252,
       "losses": 276,
       "winRate": 47.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7026.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4380.png"
     },
     {
       "playerId": "0002",
@@ -152,10 +152,10 @@
       "role": "COH",
       "level": 509,
       "tier": "MASTER I",
-      "lp": 1197,
-      "wins": 373,
+      "lp": 1278,
+      "wins": 375,
       "losses": 341,
-      "winRate": 52.2,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4096.png"
     }
   ],
@@ -166,10 +166,10 @@
       "role": "TOP",
       "level": 488,
       "tier": "MASTER I",
-      "lp": 185,
-      "wins": 160,
+      "lp": 215,
+      "wins": 161,
       "losses": 145,
-      "winRate": 52.5,
+      "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3890.png"
     },
     {
@@ -240,8 +240,8 @@
       "role": "TOP",
       "level": 1312,
       "tier": "DIAMOND II",
-      "lp": 61,
-      "wins": 439,
+      "lp": 81,
+      "wins": 440,
       "losses": 429,
       "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7194.png"
@@ -336,12 +336,12 @@
       "playerId": "0010",
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1072,
+      "level": 1073,
       "tier": "DIAMOND II",
-      "lp": 23,
-      "wins": 440,
+      "lp": 61,
+      "wins": 442,
       "losses": 463,
-      "winRate": 48.7,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
     {
@@ -646,10 +646,10 @@
       "role": "BOT",
       "level": 779,
       "tier": "DIAMOND I",
-      "lp": 39,
-      "wins": 188,
+      "lp": 59,
+      "wins": 189,
       "losses": 171,
-      "winRate": 52.4,
+      "winRate": 52.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5970.png"
     },
     {
