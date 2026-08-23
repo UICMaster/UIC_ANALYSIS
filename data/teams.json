@@ -27,13 +27,13 @@
         "isCaptain": false
       },
       {
-        "playerId": "0003",
-        "gameName": "UIC Shenycrane",
-        "tagLine": "Vugel",
+        "playerId": "0006",
+        "gameName": "UIC Baumi",
+        "tagLine": "123",
         "role": "MID",
-        "puuid": "KpMhWF_pSvK_qbQ1zblwoOEDc0MXnXKVoekkbA6k0-VJ_k6D3z3Hy8NNA2zMeboChulkpJ7h2CAX8w",
+        "puuid": "3DMahNPpjlR3RxjkBK09QJ5BL99KyPuxtCRLIH2cZLSbjKalcYBRMelGmKotQVQuNUHd_VVNPnGyuA",
         "trackStats": true,
-        "discordId": "398893599959285761",
+        "discordId": "664131365213700107",
         "rosterStatus": "starter",
         "isCaptain": false
       },
@@ -57,28 +57,6 @@
         "trackStats": true,
         "discordId": "311898583567958017",
         "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "playerId": "0006",
-        "gameName": "UIC Baumi",
-        "tagLine": "123",
-        "role": "MID",
-        "puuid": "3DMahNPpjlR3RxjkBK09QJ5BL99KyPuxtCRLIH2cZLSbjKalcYBRMelGmKotQVQuNUHd_VVNPnGyuA",
-        "trackStats": true,
-        "discordId": "664131365213700107",
-        "rosterStatus": "substitute",
-        "isCaptain": false
-      },
-      {
-        "playerId": "0007",
-        "gameName": "UIC FrozenHands",
-        "tagLine": "MID",
-        "role": "MID",
-        "puuid": "ll9NNvYriAv6RkM9noZ2emX5IBkNoLwbpFWWlmvH4r5i8Up1rEouEtd6w22zVAxlpWvjZeN0mYJATw",
-        "trackStats": true,
-        "discordId": "672116990369988610",
-        "rosterStatus": "substitute",
         "isCaptain": false
       }
     ]
@@ -1111,6 +1089,28 @@
         "puuid": "cXIyOPrtDiD0vd-1MrO3P4FThAGg_eUlNzvtRNC-ZNDDnNQCNsf0DHIsfKfo5zmFsMlrl2NZAzOz9g",
         "trackStats": true,
         "discordId": "315184207594782730",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0007",
+        "gameName": "UIC FrozenHands",
+        "tagLine": "MID",
+        "role": "MID",
+        "puuid": "ll9NNvYriAv6RkM9noZ2emX5IBkNoLwbpFWWlmvH4r5i8Up1rEouEtd6w22zVAxlpWvjZeN0mYJATw",
+        "trackStats": true,
+        "discordId": "672116990369988610",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0003",
+        "gameName": "UIC Shenycrane",
+        "tagLine": "Vugel",
+        "role": "MID",
+        "puuid": "KpMhWF_pSvK_qbQ1zblwoOEDc0MXnXKVoekkbA6k0-VJ_k6D3z3Hy8NNA2zMeboChulkpJ7h2CAX8w",
+        "trackStats": true,
+        "discordId": "398893599959285761",
         "rosterStatus": "starter",
         "isCaptain": false
       },
