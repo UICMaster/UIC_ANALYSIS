@@ -162,6 +162,17 @@
         "isCaptain": false
       },
       {
+        "playerId": "0088",
+        "gameName": "BL4CKPINKFAN",
+        "tagLine": "FLOW",
+        "role": "MID",
+        "puuid": "cXIyOPrtDiD0vd-1MrO3P4FThAGg_eUlNzvtRNC-ZNDDnNQCNsf0DHIsfKfo5zmFsMlrl2NZAzOz9g",
+        "trackStats": true,
+        "discordId": "315184207594782730",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
         "playerId": "0085",
         "gameName": "",
         "tagLine": "",
@@ -1078,17 +1089,6 @@
         "puuid": "SKxclARQWxiRzKEd4VtPJHTw3jfahqv6-SqOSDxnUUn5bAWCgPjx0MoMnQt64SW_ELtMkPLfSt-2xA",
         "trackStats": true,
         "discordId": "396457449982525451",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "playerId": "0088",
-        "gameName": "BL4CKPINKFAN",
-        "tagLine": "FLOW",
-        "role": "MID",
-        "puuid": "cXIyOPrtDiD0vd-1MrO3P4FThAGg_eUlNzvtRNC-ZNDDnNQCNsf0DHIsfKfo5zmFsMlrl2NZAzOz9g",
-        "trackStats": true,
-        "discordId": "315184207594782730",
         "rosterStatus": "starter",
         "isCaptain": false
       },
