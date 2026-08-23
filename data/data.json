@@ -178,10 +178,10 @@
       "role": "JGL",
       "level": 1245,
       "tier": "MASTER I",
-      "lp": 1220,
+      "lp": 1187,
       "wins": 739,
-      "losses": 728,
-      "winRate": 50.4,
+      "losses": 729,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/29.png"
     },
     {
@@ -240,10 +240,10 @@
       "role": "TOP",
       "level": 1313,
       "tier": "DIAMOND I",
-      "lp": 39,
+      "lp": 18,
       "wins": 444,
-      "losses": 430,
-      "winRate": 50.8,
+      "losses": 431,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7195.png"
     },
     {
@@ -262,11 +262,11 @@
       "playerId": "0091",
       "name": "UIC Levin2Go",
       "role": "MID",
-      "level": 1271,
+      "level": 1272,
       "tier": "DIAMOND II",
-      "lp": 70,
-      "wins": 328,
-      "losses": 355,
+      "lp": 68,
+      "wins": 329,
+      "losses": 356,
       "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6934.png"
     },
@@ -438,10 +438,10 @@
       "role": "TOP",
       "level": 1337,
       "tier": "DIAMOND II",
-      "lp": 3,
-      "wins": 296,
+      "lp": 22,
+      "wins": 297,
       "losses": 317,
-      "winRate": 48.3,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     },
     {
@@ -672,10 +672,10 @@
       "role": "TOP",
       "level": 958,
       "tier": "DIAMOND II",
-      "lp": 47,
-      "wins": 120,
+      "lp": 67,
+      "wins": 121,
       "losses": 109,
-      "winRate": 52.4,
+      "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7169.png"
     },
     {
@@ -750,7 +750,7 @@
       "wins": 73,
       "losses": 64,
       "winRate": 53.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7129.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6945.png"
     },
     {
       "playerId": "0044",
@@ -954,10 +954,10 @@
       "role": "MID",
       "level": 660,
       "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 167,
+      "lp": 20,
+      "wins": 168,
       "losses": 163,
-      "winRate": 50.6,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/626.png"
     },
     {
