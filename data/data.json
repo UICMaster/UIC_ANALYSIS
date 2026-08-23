@@ -30,10 +30,10 @@
       "role": "MID",
       "level": 650,
       "tier": "MASTER I",
-      "lp": 72,
-      "wins": 129,
+      "lp": 102,
+      "wins": 130,
       "losses": 129,
-      "winRate": 50,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7094.png"
     },
     {
@@ -138,12 +138,12 @@
       "playerId": "0076",
       "name": "UIC PeaPuffer",
       "role": "SUP",
-      "level": 757,
+      "level": 758,
       "tier": "MASTER I",
-      "lp": 1237,
-      "wins": 398,
-      "losses": 375,
-      "winRate": 51.5,
+      "lp": 1199,
+      "wins": 399,
+      "losses": 377,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/1625.png"
     },
     {
