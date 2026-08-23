@@ -61,9 +61,9 @@
       }
     ]
   },
-  "basilisk": {
+  "hydra": {
     "primeLeagueId": "212586",
-    "teamDisplay": "UIC Basilisk",
+    "teamDisplay": "UIC Hydra",
     "tier": "Division 4",
     "roster": [
       {
