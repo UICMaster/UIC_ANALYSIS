@@ -25,16 +25,16 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4380.png"
     },
     {
-      "playerId": "0003",
-      "name": "UIC Shenycrane",
+      "playerId": "0006",
+      "name": "UIC Baumi",
       "role": "MID",
-      "level": 650,
+      "level": 1110,
       "tier": "MASTER I",
-      "lp": 102,
-      "wins": 130,
-      "losses": 129,
-      "winRate": 50.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7094.png"
+      "lp": 875,
+      "wins": 497,
+      "losses": 476,
+      "winRate": 51.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3151.png"
     },
     {
       "playerId": "0004",
@@ -52,37 +52,13 @@
       "playerId": "0005",
       "name": "UIC Baguetto",
       "role": "SUP",
-      "level": 1020,
+      "level": 1021,
       "tier": "DIAMOND I",
       "lp": 18,
       "wins": 170,
       "losses": 159,
       "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4380.png"
-    },
-    {
-      "playerId": "0006",
-      "name": "UIC Baumi",
-      "role": "MID",
-      "level": 1110,
-      "tier": "MASTER I",
-      "lp": 875,
-      "wins": 497,
-      "losses": 476,
-      "winRate": 51.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3151.png"
-    },
-    {
-      "playerId": "0007",
-      "name": "UIC FrozenHands",
-      "role": "MID",
-      "level": 671,
-      "tier": "MASTER I",
-      "lp": 359,
-      "wins": 197,
-      "losses": 183,
-      "winRate": 51.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     }
   ],
   "basilisk": [
@@ -240,10 +216,10 @@
       "role": "TOP",
       "level": 1313,
       "tier": "DIAMOND I",
-      "lp": 57,
+      "lp": 36,
       "wins": 447,
-      "losses": 432,
-      "winRate": 50.9,
+      "losses": 433,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7195.png"
     },
     {
@@ -263,11 +239,11 @@
       "name": "UIC Levin2Go",
       "role": "MID",
       "level": 1272,
-      "tier": "DIAMOND I",
-      "lp": 4,
+      "tier": "DIAMOND II",
+      "lp": 83,
       "wins": 332,
-      "losses": 357,
-      "winRate": 48.2,
+      "losses": 358,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6934.png"
     },
     {
@@ -460,7 +436,7 @@
       "playerId": "0020",
       "name": "UIC Landmine",
       "role": "MID",
-      "level": 677,
+      "level": 678,
       "tier": "DIAMOND IV",
       "lp": 18,
       "wins": 84,
