@@ -66,10 +66,10 @@
       "role": "MID",
       "level": 1110,
       "tier": "MASTER I",
-      "lp": 846,
-      "wins": 496,
+      "lp": 875,
+      "wins": 497,
       "losses": 476,
-      "winRate": 51,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3151.png"
     },
     {
@@ -166,17 +166,17 @@
       "role": "TOP",
       "level": 489,
       "tier": "MASTER I",
-      "lp": 272,
-      "wins": 164,
+      "lp": 301,
+      "wins": 165,
       "losses": 147,
-      "winRate": 52.7,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3890.png"
     },
     {
       "playerId": "0084",
       "name": "TTVXavertseltsam",
       "role": "JGL",
-      "level": 1244,
+      "level": 1245,
       "tier": "MASTER I",
       "lp": 1205,
       "wins": 736,
@@ -244,7 +244,7 @@
       "wins": 443,
       "losses": 429,
       "winRate": 50.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7194.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7195.png"
     },
     {
       "playerId": "0090",
@@ -264,10 +264,10 @@
       "role": "MID",
       "level": 1271,
       "tier": "DIAMOND II",
-      "lp": 53,
-      "wins": 326,
+      "lp": 91,
+      "wins": 328,
       "losses": 354,
-      "winRate": 47.9,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6934.png"
     },
     {
@@ -314,10 +314,10 @@
       "role": "TOP",
       "level": 871,
       "tier": "DIAMOND IV",
-      "lp": 41,
-      "wins": 16,
+      "lp": 66,
+      "wins": 17,
       "losses": 24,
-      "winRate": 40,
+      "winRate": 41.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7011.png"
     },
     {
@@ -336,12 +336,12 @@
       "playerId": "0010",
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1073,
+      "level": 1074,
       "tier": "DIAMOND II",
-      "lp": 95,
+      "lp": 74,
       "wins": 446,
-      "losses": 465,
-      "winRate": 49,
+      "losses": 466,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
     {
@@ -450,10 +450,10 @@
       "role": "JGL",
       "level": 1073,
       "tier": "DIAMOND IV",
-      "lp": 7,
-      "wins": 52,
+      "lp": 25,
+      "wins": 53,
       "losses": 61,
-      "winRate": 46,
+      "winRate": 46.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/1453.png"
     },
     {
@@ -524,10 +524,10 @@
       "role": "TOP",
       "level": 592,
       "tier": "MASTER I",
-      "lp": 314,
-      "wins": 422,
+      "lp": 372,
+      "wins": 424,
       "losses": 394,
-      "winRate": 51.7,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6640.png"
     },
     {
