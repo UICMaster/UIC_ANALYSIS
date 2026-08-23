@@ -104,10 +104,10 @@
       "role": "BOT",
       "level": 1697,
       "tier": "MASTER I",
-      "lp": 582,
+      "lp": 550,
       "wins": 229,
-      "losses": 217,
-      "winRate": 51.3,
+      "losses": 218,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6872.png"
     },
     {
@@ -159,6 +159,18 @@
       "losses": 730,
       "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/29.png"
+    },
+    {
+      "playerId": "0088",
+      "name": "BL4CKPINKFAN",
+      "role": "MID",
+      "level": 996,
+      "tier": "MASTER I",
+      "lp": 1502,
+      "wins": 338,
+      "losses": 287,
+      "winRate": 54.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3798.png"
     },
     {
       "playerId": "0085",
@@ -214,10 +226,10 @@
       "playerId": "0089",
       "name": "UIC Ballas",
       "role": "TOP",
-      "level": 1313,
+      "level": 1314,
       "tier": "DIAMOND I",
-      "lp": 56,
-      "wins": 448,
+      "lp": 76,
+      "wins": 449,
       "losses": 433,
       "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7195.png"
@@ -414,10 +426,10 @@
       "role": "TOP",
       "level": 1337,
       "tier": "DIAMOND II",
-      "lp": 41,
+      "lp": 20,
       "wins": 298,
-      "losses": 317,
-      "winRate": 48.5,
+      "losses": 318,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     },
     {
@@ -522,12 +534,12 @@
       "playerId": "0027",
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 949,
+      "level": 950,
       "tier": "MASTER I",
-      "lp": 610,
+      "lp": 579,
       "wins": 326,
-      "losses": 330,
-      "winRate": 49.7,
+      "losses": 331,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5954.png"
     },
     {
