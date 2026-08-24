@@ -128,10 +128,10 @@
       "role": "COH",
       "level": 510,
       "tier": "MASTER I",
-      "lp": 1159,
-      "wins": 377,
+      "lp": 1240,
+      "wins": 379,
       "losses": 347,
-      "winRate": 52.1,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4096.png"
     }
   ],
@@ -326,10 +326,10 @@
       "role": "MID",
       "level": 1075,
       "tier": "DIAMOND III",
-      "lp": 99,
+      "lp": 77,
       "wins": 453,
-      "losses": 478,
-      "winRate": 48.7,
+      "losses": 479,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
     {
@@ -374,12 +374,12 @@
       "playerId": "0014",
       "name": "UIC Hunter",
       "role": "JGL",
-      "level": 993,
+      "level": 994,
       "tier": "DIAMOND IV",
-      "lp": 77,
+      "lp": 35,
       "wins": 169,
-      "losses": 161,
-      "winRate": 51.2,
+      "losses": 163,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6908.png"
     },
     {
@@ -424,12 +424,12 @@
       "playerId": "0018",
       "name": "Reign",
       "role": "TOP",
-      "level": 1337,
+      "level": 1338,
       "tier": "DIAMOND II",
-      "lp": 58,
-      "wins": 300,
+      "lp": 77,
+      "wins": 301,
       "losses": 318,
-      "winRate": 48.5,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     },
     {
@@ -460,7 +460,7 @@
       "playerId": "0021",
       "name": "UIC BissiBoy",
       "role": "BOT",
-      "level": 808,
+      "level": 809,
       "tier": "DIAMOND I",
       "lp": 4,
       "wins": 245,
@@ -536,10 +536,10 @@
       "role": "MID",
       "level": 950,
       "tier": "MASTER I",
-      "lp": 576,
-      "wins": 329,
+      "lp": 636,
+      "wins": 330,
       "losses": 334,
-      "winRate": 49.6,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5954.png"
     },
     {
@@ -856,10 +856,10 @@
       "role": "TOP",
       "level": 249,
       "tier": "PLATINUM II",
-      "lp": 25,
-      "wins": 279,
+      "lp": 64,
+      "wins": 281,
       "losses": 272,
-      "winRate": 50.6,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7102.png"
     },
     {
@@ -954,10 +954,10 @@
       "role": "BOT",
       "level": 857,
       "tier": "DIAMOND III",
-      "lp": 82,
+      "lp": 59,
       "wins": 349,
-      "losses": 320,
-      "winRate": 52.2,
+      "losses": 321,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7183.png"
     },
     {
