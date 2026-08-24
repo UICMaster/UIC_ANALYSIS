@@ -154,9 +154,9 @@
       "role": "JGL",
       "level": 1245,
       "tier": "MASTER I",
-      "lp": 1176,
+      "lp": 1144,
       "wins": 741,
-      "losses": 731,
+      "losses": 732,
       "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/29.png"
     },
@@ -708,10 +708,10 @@
       "role": "SUP",
       "level": 344,
       "tier": "MASTER I",
-      "lp": 377,
+      "lp": 347,
       "wins": 156,
-      "losses": 132,
-      "winRate": 54.2,
+      "losses": 133,
+      "winRate": 54,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4793.png"
     },
     {
@@ -964,12 +964,12 @@
       "playerId": "0062",
       "name": "UIC Envy",
       "role": "SUP",
-      "level": 356,
+      "level": 357,
       "tier": "PLATINUM IV",
-      "lp": 23,
+      "lp": 1,
       "wins": 260,
-      "losses": 260,
-      "winRate": 50,
+      "losses": 261,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7100.png"
     }
   ],
