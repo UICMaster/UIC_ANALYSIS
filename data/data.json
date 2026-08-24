@@ -152,12 +152,12 @@
       "playerId": "0084",
       "name": "TTVXavertseltsam",
       "role": "JGL",
-      "level": 1245,
+      "level": 1246,
       "tier": "MASTER I",
-      "lp": 1080,
+      "lp": 984,
       "wins": 741,
-      "losses": 734,
-      "winRate": 50.2,
+      "losses": 737,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/29.png"
     },
     {
@@ -251,11 +251,11 @@
       "name": "UIC Levin2Go",
       "role": "MID",
       "level": 1272,
-      "tier": "DIAMOND II",
-      "lp": 83,
-      "wins": 332,
+      "tier": "DIAMOND I",
+      "lp": 2,
+      "wins": 333,
       "losses": 358,
-      "winRate": 48.1,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6934.png"
     },
     {
@@ -326,10 +326,10 @@
       "role": "MID",
       "level": 1074,
       "tier": "DIAMOND II",
-      "lp": 66,
+      "lp": 24,
       "wins": 451,
-      "losses": 472,
-      "winRate": 48.9,
+      "losses": 474,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
     {
@@ -338,10 +338,10 @@
       "role": "BOT",
       "level": 860,
       "tier": "EMERALD IV",
-      "lp": 62,
-      "wins": 80,
-      "losses": 98,
-      "winRate": 44.9,
+      "lp": 60,
+      "wins": 81,
+      "losses": 99,
+      "winRate": 45,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6582.png"
     },
     {
@@ -622,10 +622,10 @@
       "role": "MID",
       "level": 692,
       "tier": "EMERALD I",
-      "lp": 24,
+      "lp": 3,
       "wins": 167,
-      "losses": 152,
-      "winRate": 52.4,
+      "losses": 153,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     },
     {
@@ -684,9 +684,9 @@
       "role": "MID",
       "level": 622,
       "tier": "PLATINUM III",
-      "lp": 87,
-      "wins": 195,
-      "losses": 193,
+      "lp": 83,
+      "wins": 196,
+      "losses": 194,
       "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7144.png"
     },
