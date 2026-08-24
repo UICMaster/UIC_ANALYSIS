@@ -154,10 +154,10 @@
       "role": "JGL",
       "level": 1245,
       "tier": "MASTER I",
-      "lp": 1144,
+      "lp": 1080,
       "wins": 741,
-      "losses": 732,
-      "winRate": 50.3,
+      "losses": 734,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/29.png"
     },
     {
@@ -633,11 +633,11 @@
       "name": "UIC Pjure",
       "role": "BOT",
       "level": 779,
-      "tier": "DIAMOND I",
-      "lp": 79,
-      "wins": 190,
+      "tier": "MASTER I",
+      "lp": 19,
+      "wins": 191,
       "losses": 171,
-      "winRate": 52.6,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5726.png"
     },
     {
@@ -706,12 +706,12 @@
       "playerId": "0041",
       "name": "Moonlxght",
       "role": "SUP",
-      "level": 344,
+      "level": 345,
       "tier": "MASTER I",
-      "lp": 347,
+      "lp": 316,
       "wins": 156,
-      "losses": 133,
-      "winRate": 54,
+      "losses": 134,
+      "winRate": 53.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4793.png"
     },
     {
@@ -966,10 +966,10 @@
       "role": "SUP",
       "level": 357,
       "tier": "PLATINUM IV",
-      "lp": 1,
+      "lp": 0,
       "wins": 260,
-      "losses": 261,
-      "winRate": 49.9,
+      "losses": 262,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7100.png"
     }
   ],
