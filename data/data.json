@@ -128,10 +128,10 @@
       "role": "COH",
       "level": 510,
       "tier": "MASTER I",
-      "lp": 1240,
+      "lp": 1207,
       "wins": 379,
-      "losses": 347,
-      "winRate": 52.2,
+      "losses": 348,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4096.png"
     }
   ],
@@ -252,10 +252,10 @@
       "role": "MID",
       "level": 1272,
       "tier": "DIAMOND I",
-      "lp": 59,
-      "wins": 335,
+      "lp": 77,
+      "wins": 336,
       "losses": 358,
-      "winRate": 48.3,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6934.png"
     },
     {
@@ -325,11 +325,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1075,
-      "tier": "DIAMOND III",
-      "lp": 77,
-      "wins": 453,
+      "tier": "DIAMOND II",
+      "lp": 13,
+      "wins": 455,
       "losses": 479,
-      "winRate": 48.6,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
     {
@@ -426,10 +426,10 @@
       "role": "TOP",
       "level": 1338,
       "tier": "DIAMOND II",
-      "lp": 77,
+      "lp": 56,
       "wins": 301,
-      "losses": 318,
-      "winRate": 48.6,
+      "losses": 319,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     },
     {
@@ -536,10 +536,10 @@
       "role": "MID",
       "level": 950,
       "tier": "MASTER I",
-      "lp": 636,
+      "lp": 605,
       "wins": 330,
-      "losses": 334,
-      "winRate": 49.7,
+      "losses": 335,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5954.png"
     },
     {
@@ -598,9 +598,9 @@
       "role": "TOP",
       "level": 561,
       "tier": "EMERALD I",
-      "lp": 48,
-      "wins": 141,
-      "losses": 137,
+      "lp": 46,
+      "wins": 142,
+      "losses": 138,
       "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3157.png"
     },
@@ -816,7 +816,7 @@
       "playerId": "0050",
       "name": "UIC Deavan",
       "role": "BOT",
-      "level": 437,
+      "level": 438,
       "tier": "EMERALD IV",
       "lp": 0,
       "wins": 243,
