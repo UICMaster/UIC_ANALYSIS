@@ -128,10 +128,10 @@
       "role": "COH",
       "level": 509,
       "tier": "MASTER I",
-      "lp": 1291,
+      "lp": 1258,
       "wins": 377,
-      "losses": 343,
-      "winRate": 52.4,
+      "losses": 344,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4096.png"
     }
   ],
@@ -154,9 +154,9 @@
       "role": "JGL",
       "level": 1246,
       "tier": "MASTER I",
-      "lp": 984,
+      "lp": 952,
       "wins": 741,
-      "losses": 737,
+      "losses": 738,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/29.png"
     },
@@ -252,10 +252,10 @@
       "role": "MID",
       "level": 1272,
       "tier": "DIAMOND I",
-      "lp": 2,
-      "wins": 333,
+      "lp": 59,
+      "wins": 335,
       "losses": 358,
-      "winRate": 48.2,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6934.png"
     },
     {
@@ -324,10 +324,10 @@
       "playerId": "0010",
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1074,
+      "level": 1075,
       "tier": "DIAMOND II",
-      "lp": 24,
-      "wins": 451,
+      "lp": 43,
+      "wins": 452,
       "losses": 474,
       "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
@@ -338,10 +338,10 @@
       "role": "BOT",
       "level": 860,
       "tier": "EMERALD IV",
-      "lp": 60,
-      "wins": 81,
+      "lp": 79,
+      "wins": 82,
       "losses": 99,
-      "winRate": 45,
+      "winRate": 45.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6582.png"
     },
     {
