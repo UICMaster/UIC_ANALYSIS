@@ -104,10 +104,10 @@
       "role": "BOT",
       "level": 1697,
       "tier": "MASTER I",
-      "lp": 518,
+      "lp": 486,
       "wins": 229,
-      "losses": 219,
-      "winRate": 51.1,
+      "losses": 220,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6872.png"
     },
     {
@@ -116,22 +116,22 @@
       "role": "SUP",
       "level": 758,
       "tier": "MASTER I",
-      "lp": 1187,
-      "wins": 402,
+      "lp": 1215,
+      "wins": 403,
       "losses": 381,
-      "winRate": 51.3,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/1625.png"
     },
     {
       "playerId": "0082",
       "name": "MakZkovich",
       "role": "COH",
-      "level": 509,
+      "level": 510,
       "tier": "MASTER I",
-      "lp": 1225,
+      "lp": 1159,
       "wins": 377,
-      "losses": 345,
-      "winRate": 52.2,
+      "losses": 347,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4096.png"
     }
   ],
@@ -142,10 +142,10 @@
       "role": "TOP",
       "level": 489,
       "tier": "MASTER I",
-      "lp": 301,
+      "lp": 270,
       "wins": 165,
-      "losses": 147,
-      "winRate": 52.9,
+      "losses": 148,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3890.png"
     },
     {
@@ -325,11 +325,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1075,
-      "tier": "DIAMOND II",
-      "lp": 22,
+      "tier": "DIAMOND III",
+      "lp": 80,
       "wins": 452,
-      "losses": 475,
-      "winRate": 48.8,
+      "losses": 477,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
     },
     {
@@ -536,9 +536,9 @@
       "role": "MID",
       "level": 950,
       "tier": "MASTER I",
-      "lp": 578,
-      "wins": 327,
-      "losses": 332,
+      "lp": 577,
+      "wins": 328,
+      "losses": 333,
       "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5954.png"
     },
@@ -1016,10 +1016,10 @@
       "role": "BOT",
       "level": 647,
       "tier": "EMERALD I",
-      "lp": 31,
-      "wins": 87,
+      "lp": 49,
+      "wins": 88,
       "losses": 100,
-      "winRate": 46.5,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6330.png"
     },
     {
@@ -1028,10 +1028,10 @@
       "role": "SUP",
       "level": 692,
       "tier": "EMERALD II",
-      "lp": 15,
-      "wins": 85,
+      "lp": 35,
+      "wins": 86,
       "losses": 97,
-      "winRate": 46.7,
+      "winRate": 47,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6037.png"
     }
   ]
