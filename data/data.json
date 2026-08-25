@@ -42,10 +42,10 @@
       "role": "BOT",
       "level": 747,
       "tier": "DIAMOND I",
-      "lp": 33,
+      "lp": 13,
       "wins": 88,
-      "losses": 90,
-      "winRate": 49.4,
+      "losses": 91,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7.png"
     },
     {
@@ -102,7 +102,7 @@
       "playerId": "0081",
       "name": "UIC Voracity",
       "role": "BOT",
-      "level": 1697,
+      "level": 1698,
       "tier": "MASTER I",
       "lp": 454,
       "wins": 229,
@@ -140,12 +140,12 @@
       "playerId": "0075",
       "name": "UIC Rayando07",
       "role": "TOP",
-      "level": 489,
+      "level": 490,
       "tier": "MASTER I",
-      "lp": 300,
-      "wins": 166,
-      "losses": 148,
-      "winRate": 52.9,
+      "lp": 298,
+      "wins": 167,
+      "losses": 149,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3890.png"
     },
     {
@@ -276,9 +276,9 @@
       "role": "SUP",
       "level": 964,
       "tier": "DIAMOND IV",
-      "lp": 69,
-      "wins": 164,
-      "losses": 159,
+      "lp": 67,
+      "wins": 165,
+      "losses": 160,
       "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3901.png"
     },
@@ -512,10 +512,10 @@
       "role": "TOP",
       "level": 592,
       "tier": "MASTER I",
-      "lp": 401,
-      "wins": 425,
+      "lp": 430,
+      "wins": 426,
       "losses": 394,
-      "winRate": 51.9,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6640.png"
     },
     {
@@ -536,10 +536,10 @@
       "role": "MID",
       "level": 952,
       "tier": "MASTER I",
-      "lp": 502,
-      "wins": 334,
+      "lp": 531,
+      "wins": 335,
       "losses": 343,
-      "winRate": 49.3,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5954.png"
     },
     {
@@ -682,12 +682,12 @@
       "playerId": "0039",
       "name": "UIC Ayumu",
       "role": "MID",
-      "level": 622,
+      "level": 623,
       "tier": "PLATINUM III",
-      "lp": 79,
-      "wins": 197,
+      "lp": 98,
+      "wins": 198,
       "losses": 195,
-      "winRate": 50.3,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7144.png"
     },
     {
@@ -708,10 +708,10 @@
       "role": "SUP",
       "level": 345,
       "tier": "MASTER I",
-      "lp": 285,
-      "wins": 156,
+      "lp": 315,
+      "wins": 157,
       "losses": 135,
-      "winRate": 53.6,
+      "winRate": 53.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4793.png"
     },
     {
@@ -738,7 +738,7 @@
       "wins": 74,
       "losses": 66,
       "winRate": 52.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4655.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7129.png"
     },
     {
       "playerId": "0044",
