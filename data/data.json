@@ -42,10 +42,10 @@
       "role": "BOT",
       "level": 747,
       "tier": "DIAMOND I",
-      "lp": 13,
-      "wins": 88,
+      "lp": 53,
+      "wins": 90,
       "losses": 91,
-      "winRate": 49.2,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7.png"
     },
     {
@@ -128,10 +128,10 @@
       "role": "COH",
       "level": 510,
       "tier": "MASTER I",
-      "lp": 1168,
+      "lp": 1102,
       "wins": 380,
-      "losses": 350,
-      "winRate": 52.1,
+      "losses": 352,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/4096.png"
     }
   ],
@@ -142,10 +142,10 @@
       "role": "TOP",
       "level": 490,
       "tier": "MASTER I",
-      "lp": 298,
-      "wins": 167,
+      "lp": 328,
+      "wins": 168,
       "losses": 149,
-      "winRate": 52.8,
+      "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3890.png"
     },
     {
@@ -512,10 +512,10 @@
       "role": "TOP",
       "level": 592,
       "tier": "MASTER I",
-      "lp": 430,
+      "lp": 399,
       "wins": 426,
-      "losses": 394,
-      "winRate": 52,
+      "losses": 395,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6640.png"
     },
     {
@@ -965,11 +965,11 @@
       "name": "UIC Envy",
       "role": "SUP",
       "level": 357,
-      "tier": "PLATINUM IV",
-      "lp": 0,
+      "tier": "GOLD I",
+      "lp": 50,
       "wins": 260,
-      "losses": 262,
-      "winRate": 49.8,
+      "losses": 263,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7100.png"
     }
   ],
