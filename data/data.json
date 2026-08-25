@@ -92,10 +92,10 @@
       "role": "MID",
       "level": 940,
       "tier": "MASTER I",
-      "lp": 990,
+      "lp": 957,
       "wins": 172,
-      "losses": 151,
-      "winRate": 53.3,
+      "losses": 152,
+      "winRate": 53.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6629.png"
     },
     {
@@ -326,8 +326,8 @@
       "role": "MID",
       "level": 1076,
       "tier": "DIAMOND II",
-      "lp": 70,
-      "wins": 458,
+      "lp": 89,
+      "wins": 459,
       "losses": 479,
       "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/6284.png"
