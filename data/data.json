@@ -30,9 +30,9 @@
       "role": "MID",
       "level": 1111,
       "tier": "MASTER I",
-      "lp": 1215,
-      "wins": 510,
-      "losses": 480,
+      "lp": 1182,
+      "wins": 511,
+      "losses": 482,
       "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/3151.png"
     },
@@ -116,10 +116,10 @@
       "role": "SUP",
       "level": 759,
       "tier": "MASTER I",
-      "lp": 1119,
-      "wins": 403,
-      "losses": 384,
-      "winRate": 51.2,
+      "lp": 1143,
+      "wins": 405,
+      "losses": 385,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/1625.png"
     },
     {
@@ -154,10 +154,10 @@
       "role": "JGL",
       "level": 1247,
       "tier": "MASTER I",
-      "lp": 819,
+      "lp": 755,
       "wins": 744,
-      "losses": 745,
-      "winRate": 50,
+      "losses": 747,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/29.png"
     },
     {
@@ -536,8 +536,8 @@
       "role": "MID",
       "level": 951,
       "tier": "MASTER I",
-      "lp": 446,
-      "wins": 332,
+      "lp": 504,
+      "wins": 333,
       "losses": 342,
       "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5954.png"
@@ -805,11 +805,11 @@
       "name": "RD Boohunter",
       "role": "BOT",
       "level": 1473,
-      "tier": "PLATINUM II",
-      "lp": 11,
+      "tier": "PLATINUM III",
+      "lp": 67,
       "wins": 783,
-      "losses": 771,
-      "winRate": 50.4,
+      "losses": 773,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7180.png"
     },
     {
