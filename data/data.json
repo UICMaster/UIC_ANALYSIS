@@ -135,7 +135,7 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/4096.png"
     }
   ],
-  "baddie": [
+  "ascend": [
     {
       "playerId": "0075",
       "name": "UIC Rayando07",
@@ -426,10 +426,10 @@
       "role": "TOP",
       "level": 1339,
       "tier": "DIAMOND II",
-      "lp": 26,
+      "lp": 6,
       "wins": 306,
-      "losses": 325,
-      "winRate": 48.5,
+      "losses": 326,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7168.png"
     },
     {
