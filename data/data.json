@@ -42,9 +42,9 @@
       "role": "BOT",
       "level": 747,
       "tier": "DIAMOND I",
-      "lp": 53,
-      "wins": 90,
-      "losses": 91,
+      "lp": 72,
+      "wins": 91,
+      "losses": 92,
       "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7.png"
     },
@@ -54,9 +54,9 @@
       "role": "SUP",
       "level": 1021,
       "tier": "DIAMOND I",
-      "lp": 18,
-      "wins": 170,
-      "losses": 159,
+      "lp": 39,
+      "wins": 171,
+      "losses": 160,
       "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/4380.png"
     }
@@ -154,8 +154,8 @@
       "role": "JGL",
       "level": 1247,
       "tier": "MASTER I",
-      "lp": 701,
-      "wins": 749,
+      "lp": 728,
+      "wins": 750,
       "losses": 753,
       "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/29.png"
@@ -171,18 +171,6 @@
       "losses": 287,
       "winRate": 54.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3798.png"
-    },
-    {
-      "playerId": "0085",
-      "name": "OPEN SPOT",
-      "role": "MID",
-      "level": 0,
-      "tier": "RECRUITING",
-      "lp": 0,
-      "wins": 0,
-      "losses": 0,
-      "winRate": 0,
-      "icon": null
     },
     {
       "playerId": "0086",
@@ -536,10 +524,10 @@
       "role": "MID",
       "level": 952,
       "tier": "MASTER I",
-      "lp": 376,
-      "wins": 335,
+      "lp": 405,
+      "wins": 336,
       "losses": 348,
-      "winRate": 49,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/5954.png"
     },
     {
