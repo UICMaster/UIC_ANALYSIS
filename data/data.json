@@ -114,12 +114,12 @@
       "playerId": "0076",
       "name": "UIC PeaPuffer",
       "role": "SUP",
-      "level": 759,
+      "level": 760,
       "tier": "MASTER I",
-      "lp": 1137,
-      "wins": 406,
+      "lp": 1192,
+      "wins": 408,
       "losses": 386,
-      "winRate": 51.3,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/1625.png"
     },
     {
@@ -228,10 +228,10 @@
       "role": "TOP",
       "level": 1315,
       "tier": "DIAMOND II",
-      "lp": 62,
+      "lp": 41,
       "wins": 453,
-      "losses": 443,
-      "winRate": 50.6,
+      "losses": 444,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7195.png"
     },
     {
@@ -426,10 +426,10 @@
       "role": "TOP",
       "level": 1339,
       "tier": "DIAMOND II",
-      "lp": 6,
-      "wins": 305,
+      "lp": 26,
+      "wins": 306,
       "losses": 325,
-      "winRate": 48.4,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7168.png"
     },
     {
@@ -460,7 +460,7 @@
       "playerId": "0021",
       "name": "UIC BissiBoy",
       "role": "BOT",
-      "level": 809,
+      "level": 810,
       "tier": "DIAMOND I",
       "lp": 4,
       "wins": 245,
