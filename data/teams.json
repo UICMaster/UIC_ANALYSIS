@@ -173,17 +173,6 @@
         "isCaptain": false
       },
       {
-        "playerId": "0085",
-        "gameName": "",
-        "tagLine": "",
-        "role": "MID",
-        "puuid": "",
-        "trackStats": false,
-        "discordId": "",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
         "playerId": "0086",
         "gameName": "UIC stevie",
         "tagLine": "LISA",
@@ -1111,6 +1100,17 @@
         "puuid": "KpMhWF_pSvK_qbQ1zblwoOEDc0MXnXKVoekkbA6k0-VJ_k6D3z3Hy8NNA2zMeboChulkpJ7h2CAX8w",
         "trackStats": true,
         "discordId": "398893599959285761",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0085",
+        "gameName": "",
+        "tagLine": "",
+        "role": "MID",
+        "puuid": "",
+        "trackStats": false,
+        "discordId": "",
         "rosterStatus": "starter",
         "isCaptain": false
       },
