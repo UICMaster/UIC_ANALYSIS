@@ -516,7 +516,7 @@
         "isCaptain": false
       },
       {
-        "playerId": "0086",
+        "playerId": "0094",
         "gameName": "UIC Ace",
         "tagLine": "ACE",
         "role": "MID",
@@ -629,6 +629,79 @@
         "puuid": "H63Ow4JXI3KgT05HWg6q24xi0GeTHrtLN-ypclqi10R452ewY7EXHTBw0paEiyLnYsVNGDSvWsW0hw",
         "trackStats": true,
         "discordId": "465698775638212610",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      }
+    ]
+  },
+  "raiders": {
+    "primeLeagueId": "211794",
+    "teamDisplay": "UIC Raiders",
+    "tier": "Division 7",
+    "roster": [
+      {
+        "playerId": "0083",
+        "gameName": "Schinken",
+        "tagLine": "GGS",
+        "role": "TOP",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "250624620573491201",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0095",
+        "gameName": "탈리야",
+        "tagLine": "zzxo",
+        "role": "JGL",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "146378040006410240",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0096",
+        "gameName": "SoulxEater",
+        "tagLine": "1908",
+        "role": "MID",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "404054488287150080",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0097",
+        "gameName": "GER Angi6875",
+        "tagLine": "3725",
+        "role": "BOT",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "487236534924476416",
+        "rosterStatus": "starter",
+        "isCaptain": true
+      },
+      {
+        "playerId": "0098",
+        "gameName": "Lynx",
+        "tagLine": "XIV",
+        "role": "SUP",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "187645586739167233",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0099",
+        "gameName": "angi2103",
+        "tagLine": "EUW",
+        "role": "COH",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "773255681724776470",
         "rosterStatus": "starter",
         "isCaptain": false
       }
