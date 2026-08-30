@@ -519,7 +519,7 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/528.png"
     },
     {
-      "playerId": "0086",
+      "playerId": "0094",
       "name": "UIC Ace",
       "role": "MID",
       "level": 785,
@@ -639,6 +639,80 @@
       "losses": 0,
       "winRate": 0,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7149.png"
+    }
+  ],
+  "raiders": [
+    {
+      "playerId": "0083",
+      "name": "Schinken",
+      "role": "TOP",
+      "level": 861,
+      "tier": "PLATINUM II",
+      "lp": 87,
+      "wins": 20,
+      "losses": 10,
+      "winRate": 66.7,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7131.png"
+    },
+    {
+      "playerId": "0095",
+      "name": "탈리야",
+      "role": "JGL",
+      "level": 502,
+      "tier": "PLATINUM II",
+      "lp": 87,
+      "wins": 228,
+      "losses": 238,
+      "winRate": 48.9,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3154.png"
+    },
+    {
+      "playerId": "0096",
+      "name": "SoulxEater",
+      "role": "MID",
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": null
+    },
+    {
+      "playerId": "0097",
+      "name": "GER Angi6875",
+      "role": "BOT",
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": null
+    },
+    {
+      "playerId": "0098",
+      "name": "Lynx",
+      "role": "SUP",
+      "level": 857,
+      "tier": "EMERALD II",
+      "lp": 33,
+      "wins": 144,
+      "losses": 138,
+      "winRate": 51.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7144.png"
+    },
+    {
+      "playerId": "0099",
+      "name": "angi2103",
+      "role": "COH",
+      "level": 14,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/907.png"
     }
   ],
   "sakura": [
