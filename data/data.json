@@ -201,10 +201,10 @@
       "name": "UIC Qvy",
       "role": "COH",
       "level": 810,
-      "tier": "EMERALD II",
-      "lp": 10,
+      "tier": "EMERALD III",
+      "lp": 90,
       "wins": 382,
-      "losses": 389,
+      "losses": 390,
       "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7190.png"
     }
@@ -216,10 +216,10 @@
       "role": "TOP",
       "level": 1316,
       "tier": "DIAMOND III",
-      "lp": 46,
+      "lp": 4,
       "wins": 458,
-      "losses": 453,
-      "winRate": 50.3,
+      "losses": 455,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6377.png"
     },
     {
@@ -450,11 +450,11 @@
       "role": "BOT",
       "level": 814,
       "tier": "DIAMOND IV",
-      "lp": 79,
+      "lp": 58,
       "wins": 260,
-      "losses": 278,
-      "winRate": 48.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6301.png"
+      "losses": 279,
+      "winRate": 48.2,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6943.png"
     },
     {
       "playerId": "0022",
