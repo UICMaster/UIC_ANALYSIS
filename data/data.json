@@ -18,8 +18,8 @@
       "role": "JGL",
       "level": 1070,
       "tier": "MASTER I",
-      "lp": 484,
-      "wins": 285,
+      "lp": 512,
+      "wins": 286,
       "losses": 270,
       "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/4380.png"
@@ -142,10 +142,10 @@
       "role": "TOP",
       "level": 490,
       "tier": "MASTER I",
-      "lp": 386,
-      "wins": 170,
+      "lp": 415,
+      "wins": 171,
       "losses": 149,
-      "winRate": 53.3,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3890.png"
     },
     {
@@ -154,9 +154,9 @@
       "role": "JGL",
       "level": 1251,
       "tier": "MASTER I",
-      "lp": 748,
-      "wins": 765,
-      "losses": 766,
+      "lp": 766,
+      "wins": 768,
+      "losses": 768,
       "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/29.png"
     },
@@ -203,8 +203,8 @@
       "level": 810,
       "tier": "EMERALD II",
       "lp": 10,
-      "wins": 383,
-      "losses": 390,
+      "wins": 384,
+      "losses": 391,
       "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7190.png"
     }
@@ -312,11 +312,11 @@
       "playerId": "0010",
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1083,
+      "level": 1084,
       "tier": "DIAMOND I",
-      "lp": 36,
-      "wins": 490,
-      "losses": 509,
+      "lp": 30,
+      "wins": 491,
+      "losses": 511,
       "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6284.png"
     },
@@ -414,10 +414,10 @@
       "role": "TOP",
       "level": 1341,
       "tier": "DIAMOND II",
-      "lp": 81,
+      "lp": 38,
       "wins": 320,
-      "losses": 337,
-      "winRate": 48.7,
+      "losses": 340,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7168.png"
     },
     {
@@ -524,11 +524,11 @@
       "role": "MID",
       "level": 786,
       "tier": "MASTER I",
-      "lp": 969,
-      "wins": 270,
+      "lp": 994,
+      "wins": 271,
       "losses": 260,
-      "winRate": 50.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7030.png"
+      "winRate": 51,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/924.png"
     },
     {
       "playerId": "0028",
@@ -584,12 +584,12 @@
       "playerId": "0032",
       "name": "UIC DANY",
       "role": "TOP",
-      "level": 562,
+      "level": 563,
       "tier": "EMERALD II",
-      "lp": 60,
+      "lp": 37,
       "wins": 142,
-      "losses": 143,
-      "winRate": 49.8,
+      "losses": 144,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3157.png"
     },
     {
@@ -660,10 +660,10 @@
       "role": "JGL",
       "level": 503,
       "tier": "PLATINUM I",
-      "lp": 24,
-      "wins": 230,
+      "lp": 43,
+      "wins": 231,
       "losses": 238,
-      "winRate": 49.1,
+      "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3154.png"
     },
     {
