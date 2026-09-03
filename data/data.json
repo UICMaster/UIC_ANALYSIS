@@ -20,8 +20,8 @@
       "tier": "MASTER I",
       "lp": 512,
       "wins": 286,
-      "losses": 270,
-      "winRate": 51.4,
+      "losses": 271,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/4380.png"
     },
     {
@@ -30,10 +30,10 @@
       "role": "MID",
       "level": 1119,
       "tier": "MASTER I",
-      "lp": 1233,
-      "wins": 551,
-      "losses": 522,
-      "winRate": 51.4,
+      "lp": 1164,
+      "wins": 552,
+      "losses": 525,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3151.png"
     },
     {
@@ -128,10 +128,10 @@
       "role": "COH",
       "level": 513,
       "tier": "MASTER I",
-      "lp": 914,
-      "wins": 393,
-      "losses": 370,
-      "winRate": 51.5,
+      "lp": 935,
+      "wins": 395,
+      "losses": 371,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/4096.png"
     }
   ],
@@ -142,10 +142,10 @@
       "role": "TOP",
       "level": 490,
       "tier": "MASTER I",
-      "lp": 384,
+      "lp": 353,
       "wins": 171,
-      "losses": 150,
-      "winRate": 53.3,
+      "losses": 151,
+      "winRate": 53.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3890.png"
     },
     {
@@ -178,10 +178,10 @@
       "role": "BOT",
       "level": 727,
       "tier": "MASTER I",
-      "lp": 1016,
-      "wins": 202,
-      "losses": 173,
-      "winRate": 53.9,
+      "lp": 1043,
+      "wins": 204,
+      "losses": 174,
+      "winRate": 54,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/1455.png"
     },
     {
@@ -240,10 +240,10 @@
       "role": "MID",
       "level": 1275,
       "tier": "DIAMOND II",
-      "lp": 72,
-      "wins": 345,
+      "lp": 92,
+      "wins": 346,
       "losses": 371,
-      "winRate": 48.2,
+      "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6934.png"
     },
     {
@@ -264,10 +264,10 @@
       "role": "SUP",
       "level": 966,
       "tier": "DIAMOND IV",
-      "lp": 61,
-      "wins": 170,
+      "lp": 81,
+      "wins": 171,
       "losses": 165,
-      "winRate": 50.7,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3901.png"
     },
     {
@@ -288,7 +288,7 @@
       "playerId": "0008",
       "name": "UIC Stafferl",
       "role": "TOP",
-      "level": 873,
+      "level": 874,
       "tier": "DIAMOND III",
       "lp": 1,
       "wins": 22,
@@ -560,10 +560,10 @@
       "role": "COH",
       "level": 843,
       "tier": "DIAMOND IV",
-      "lp": 96,
-      "wins": 231,
-      "losses": 218,
-      "winRate": 51.4,
+      "lp": 73,
+      "wins": 232,
+      "losses": 220,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3366.png"
     },
     {
@@ -586,9 +586,9 @@
       "role": "TOP",
       "level": 563,
       "tier": "EMERALD II",
-      "lp": 37,
-      "wins": 142,
-      "losses": 144,
+      "lp": 31,
+      "wins": 143,
+      "losses": 145,
       "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3157.png"
     },
@@ -658,12 +658,12 @@
       "playerId": "0095",
       "name": "탈리야",
       "role": "JGL",
-      "level": 504,
-      "tier": "PLATINUM I",
-      "lp": 61,
-      "wins": 232,
+      "level": 505,
+      "tier": "EMERALD IV",
+      "lp": 18,
+      "wins": 235,
       "losses": 239,
-      "winRate": 49.3,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3154.png"
     },
     {
@@ -770,10 +770,10 @@
       "role": "SUP",
       "level": 350,
       "tier": "MASTER I",
-      "lp": 603,
-      "wins": 176,
+      "lp": 632,
+      "wins": 177,
       "losses": 145,
-      "winRate": 54.8,
+      "winRate": 55,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/4793.png"
     },
     {
@@ -844,10 +844,10 @@
       "role": "MID",
       "level": 645,
       "tier": "PLATINUM II",
-      "lp": 21,
-      "wins": 167,
-      "losses": 167,
-      "winRate": 50,
+      "lp": 57,
+      "wins": 170,
+      "losses": 168,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/4379.png"
     },
     {
@@ -872,7 +872,7 @@
       "wins": 831,
       "losses": 815,
       "winRate": 50.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7167.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6922.png"
     },
     {
       "playerId": "0050",
@@ -991,18 +991,18 @@
       "name": "BlauerKlaus",
       "role": "JGL",
       "level": 1174,
-      "tier": "DIAMOND I",
-      "lp": 75,
-      "wins": 118,
+      "tier": "MASTER I",
+      "lp": 17,
+      "wins": 120,
       "losses": 108,
-      "winRate": 52.2,
+      "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7123.png"
     },
     {
       "playerId": "0060",
       "name": "UIC Flare",
       "role": "MID",
-      "level": 662,
+      "level": 663,
       "tier": "DIAMOND IV",
       "lp": 60,
       "wins": 177,
