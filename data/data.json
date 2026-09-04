@@ -200,12 +200,12 @@
       "playerId": "0071",
       "name": "UIC Qvy",
       "role": "COH",
-      "level": 811,
+      "level": 812,
       "tier": "EMERALD IV",
-      "lp": 21,
+      "lp": 0,
       "wins": 387,
-      "losses": 403,
-      "winRate": 49,
+      "losses": 404,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7190.png"
     }
   ],
@@ -414,9 +414,9 @@
       "role": "TOP",
       "level": 1342,
       "tier": "DIAMOND II",
-      "lp": 70,
+      "lp": 48,
       "wins": 323,
-      "losses": 341,
+      "losses": 342,
       "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7168.png"
     },
@@ -655,21 +655,9 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7131.png"
     },
     {
-      "playerId": "0095",
-      "name": "탈리야",
-      "role": "JGL",
-      "level": 506,
-      "tier": "PLATINUM II",
-      "lp": 52,
-      "wins": 237,
-      "losses": 249,
-      "winRate": 48.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3154.png"
-    },
-    {
       "playerId": "0096",
       "name": "SoulxEater",
-      "role": "MID",
+      "role": "JGL",
       "level": 0,
       "tier": "UNRANKED",
       "lp": 0,
@@ -677,6 +665,18 @@
       "losses": 0,
       "winRate": 0,
       "icon": null
+    },
+    {
+      "playerId": "0095",
+      "name": "탈리야",
+      "role": "MID",
+      "level": 506,
+      "tier": "PLATINUM II",
+      "lp": 70,
+      "wins": 238,
+      "losses": 249,
+      "winRate": 48.9,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3154.png"
     },
     {
       "playerId": "0097",
@@ -794,13 +794,13 @@
       "playerId": "0043",
       "name": "UIC Kaetaya",
       "role": "TOP",
-      "level": 897,
+      "level": 898,
       "tier": "DIAMOND IV",
       "lp": 60,
       "wins": 81,
       "losses": 71,
       "winRate": 53.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6404.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6700.png"
     },
     {
       "playerId": "0044",
