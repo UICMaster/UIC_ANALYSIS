@@ -202,10 +202,10 @@
       "role": "COH",
       "level": 811,
       "tier": "EMERALD III",
-      "lp": 49,
+      "lp": 28,
       "wins": 386,
-      "losses": 396,
-      "winRate": 49.4,
+      "losses": 397,
+      "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7190.png"
     }
   ],
@@ -660,10 +660,10 @@
       "role": "JGL",
       "level": 505,
       "tier": "PLATINUM I",
-      "lp": 27,
+      "lp": 5,
       "wins": 236,
-      "losses": 245,
-      "winRate": 49.1,
+      "losses": 246,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3154.png"
     },
     {
@@ -732,7 +732,7 @@
       "playerId": "0038",
       "name": "Blauerlupos",
       "role": "JGL",
-      "level": 1152,
+      "level": 1153,
       "tier": "DIAMOND IV",
       "lp": 0,
       "wins": 323,
