@@ -178,10 +178,10 @@
       "role": "BOT",
       "level": 728,
       "tier": "MASTER I",
-      "lp": 981,
-      "wins": 204,
+      "lp": 1010,
+      "wins": 205,
       "losses": 176,
-      "winRate": 53.7,
+      "winRate": 53.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/1455.png"
     },
     {
@@ -190,10 +190,10 @@
       "role": "SUP",
       "level": 748,
       "tier": "MASTER I",
-      "lp": 1402,
-      "wins": 276,
+      "lp": 1431,
+      "wins": 277,
       "losses": 237,
-      "winRate": 53.8,
+      "winRate": 53.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/1114.png"
     },
     {
@@ -672,9 +672,9 @@
       "role": "MID",
       "level": 506,
       "tier": "PLATINUM II",
-      "lp": 70,
-      "wins": 238,
-      "losses": 249,
+      "lp": 66,
+      "wins": 239,
+      "losses": 250,
       "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3165.png"
     },
