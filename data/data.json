@@ -41,11 +41,11 @@
       "name": "UIC Giani",
       "role": "BOT",
       "level": 748,
-      "tier": "DIAMOND I",
-      "lp": 34,
+      "tier": "DIAMOND II",
+      "lp": 90,
       "wins": 94,
-      "losses": 98,
-      "winRate": 49,
+      "losses": 100,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7.png"
     },
     {
@@ -54,10 +54,10 @@
       "role": "SUP",
       "level": 1022,
       "tier": "DIAMOND II",
-      "lp": 98,
+      "lp": 57,
       "wins": 174,
-      "losses": 166,
-      "winRate": 51.2,
+      "losses": 168,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/4380.png"
     }
   ],
@@ -128,9 +128,9 @@
       "role": "COH",
       "level": 514,
       "tier": "MASTER I",
-      "lp": 949,
-      "wins": 401,
-      "losses": 377,
+      "lp": 943,
+      "wins": 402,
+      "losses": 378,
       "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/4096.png"
     }
@@ -215,11 +215,11 @@
       "name": "UIC Ballas",
       "role": "TOP",
       "level": 1317,
-      "tier": "DIAMOND III",
-      "lp": 17,
+      "tier": "DIAMOND IV",
+      "lp": 75,
       "wins": 462,
-      "losses": 458,
-      "winRate": 50.2,
+      "losses": 460,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6377.png"
     },
     {
@@ -314,10 +314,10 @@
       "role": "MID",
       "level": 1085,
       "tier": "MASTER I",
-      "lp": 24,
-      "wins": 498,
+      "lp": 52,
+      "wins": 499,
       "losses": 516,
-      "winRate": 49.1,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6284.png"
     },
     {
