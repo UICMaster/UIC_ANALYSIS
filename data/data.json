@@ -142,10 +142,10 @@
       "role": "TOP",
       "level": 491,
       "tier": "MASTER I",
-      "lp": 361,
-      "wins": 174,
+      "lp": 391,
+      "wins": 175,
       "losses": 153,
-      "winRate": 53.2,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3890.png"
     },
     {
@@ -364,10 +364,10 @@
       "role": "JGL",
       "level": 997,
       "tier": "EMERALD I",
-      "lp": 10,
-      "wins": 181,
-      "losses": 180,
-      "winRate": 50.1,
+      "lp": 30,
+      "wins": 183,
+      "losses": 181,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6908.png"
     },
     {
@@ -560,10 +560,10 @@
       "role": "COH",
       "level": 844,
       "tier": "DIAMOND III",
-      "lp": 11,
-      "wins": 234,
+      "lp": 30,
+      "wins": 235,
       "losses": 220,
-      "winRate": 51.5,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3366.png"
     },
     {
@@ -800,7 +800,7 @@
       "wins": 81,
       "losses": 71,
       "winRate": 53.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6700.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7129.png"
     },
     {
       "playerId": "0044",
@@ -856,10 +856,10 @@
       "role": "MID",
       "level": 640,
       "tier": "DIAMOND IV",
-      "lp": 38,
-      "wins": 436,
-      "losses": 407,
-      "winRate": 51.7,
+      "lp": 0,
+      "wins": 437,
+      "losses": 410,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/23.png"
     },
     {
@@ -868,9 +868,9 @@
       "role": "BOT",
       "level": 1485,
       "tier": "PLATINUM I",
-      "lp": 9,
-      "wins": 836,
-      "losses": 818,
+      "lp": 10,
+      "wins": 837,
+      "losses": 819,
       "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6922.png"
     },
@@ -917,11 +917,11 @@
       "name": "GIG Evil",
       "role": "TOP",
       "level": 252,
-      "tier": "PLATINUM II",
-      "lp": 41,
+      "tier": "PLATINUM III",
+      "lp": 78,
       "wins": 288,
-      "losses": 280,
-      "winRate": 50.7,
+      "losses": 283,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7102.png"
     },
     {
@@ -1028,10 +1028,10 @@
       "role": "SUP",
       "level": 366,
       "tier": "PLATINUM IV",
-      "lp": 0,
-      "wins": 296,
+      "lp": 14,
+      "wins": 297,
       "losses": 299,
-      "winRate": 49.7,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7100.png"
     }
   ],
