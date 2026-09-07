@@ -214,12 +214,12 @@
       "playerId": "0089",
       "name": "UIC Ballas",
       "role": "TOP",
-      "level": 1317,
-      "tier": "DIAMOND IV",
-      "lp": 91,
-      "wins": 464,
+      "level": 1318,
+      "tier": "DIAMOND III",
+      "lp": 10,
+      "wins": 465,
       "losses": 462,
-      "winRate": 50.1,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6377.png"
     },
     {
@@ -909,68 +909,6 @@
       "losses": 174,
       "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7064.png"
-    }
-  ],
-  "polaris": [
-    {
-      "playerId": "0053",
-      "name": "GIG Evil",
-      "role": "TOP",
-      "level": 252,
-      "tier": "PLATINUM III",
-      "lp": 36,
-      "wins": 288,
-      "losses": 285,
-      "winRate": 50.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7102.png"
-    },
-    {
-      "playerId": "0054",
-      "name": "Otter",
-      "role": "JGL",
-      "level": 962,
-      "tier": "DIAMOND IV",
-      "lp": 30,
-      "wins": 49,
-      "losses": 48,
-      "winRate": 50.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/983.png"
-    },
-    {
-      "playerId": "0055",
-      "name": "UIC Rhinoshield",
-      "role": "MID",
-      "level": 996,
-      "tier": "PLATINUM III",
-      "lp": 97,
-      "wins": 349,
-      "losses": 355,
-      "winRate": 49.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6990.png"
-    },
-    {
-      "playerId": "0056",
-      "name": "Schneebär",
-      "role": "BOT",
-      "level": 656,
-      "tier": "DIAMOND III",
-      "lp": 40,
-      "wins": 76,
-      "losses": 65,
-      "winRate": 53.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6412.png"
-    },
-    {
-      "playerId": "0057",
-      "name": "UIC Void Shield",
-      "role": "SUP",
-      "level": 549,
-      "tier": "DIAMOND III",
-      "lp": 15,
-      "wins": 170,
-      "losses": 155,
-      "winRate": 52.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7170.png"
     }
   ],
   "ember": [
