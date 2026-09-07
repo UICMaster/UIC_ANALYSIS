@@ -314,9 +314,9 @@
       "role": "MID",
       "level": 1087,
       "tier": "MASTER I",
-      "lp": 112,
+      "lp": 80,
       "wins": 507,
-      "losses": 523,
+      "losses": 524,
       "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6284.png"
     },
@@ -718,27 +718,27 @@
   "sakura": [
     {
       "playerId": "0037",
-      "name": "RAC lightfire",
+      "name": "Kreuzfeuer",
       "role": "TOP",
-      "level": 959,
-      "tier": "DIAMOND II",
-      "lp": 87,
-      "wins": 123,
-      "losses": 110,
-      "winRate": 52.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7169.png"
+      "level": 1043,
+      "tier": "DIAMOND I",
+      "lp": 51,
+      "wins": 43,
+      "losses": 35,
+      "winRate": 55.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3506.png"
     },
     {
       "playerId": "0038",
-      "name": "Blauerlupos",
+      "name": "UIC Shapeshift",
       "role": "JGL",
-      "level": 1154,
-      "tier": "DIAMOND IV",
+      "level": 950,
+      "tier": "EMERALD IV",
       "lp": 0,
-      "wins": 323,
-      "losses": 328,
-      "winRate": 49.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3382.png"
+      "wins": 21,
+      "losses": 35,
+      "winRate": 37.5,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/1211.png"
     },
     {
       "playerId": "0039",
@@ -754,39 +754,39 @@
     },
     {
       "playerId": "0040",
-      "name": "TGP Trazan",
+      "name": "Unranked",
       "role": "BOT",
-      "level": 638,
-      "tier": "DIAMOND II",
-      "lp": 49,
-      "wins": 312,
-      "losses": 330,
-      "winRate": 48.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7172.png"
+      "level": 753,
+      "tier": "MASTER I",
+      "lp": 30,
+      "wins": 74,
+      "losses": 66,
+      "winRate": 52.9,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/5914.png"
     },
     {
       "playerId": "0041",
-      "name": "Moonlxght",
+      "name": "Daydream",
       "role": "SUP",
-      "level": 350,
+      "level": 1185,
       "tier": "MASTER I",
-      "lp": 632,
-      "wins": 177,
-      "losses": 145,
-      "winRate": 55,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/4793.png"
+      "lp": 79,
+      "wins": 331,
+      "losses": 304,
+      "winRate": 52.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3788.png"
     },
     {
       "playerId": "0042",
-      "name": "zab77",
+      "name": "OPEN SPOT",
       "role": "TOP",
-      "level": 288,
-      "tier": "UNRANKED",
+      "level": 0,
+      "tier": "RECRUITING",
       "lp": 0,
       "wins": 0,
       "losses": 0,
       "winRate": 0,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6923.png"
+      "icon": null
     }
   ],
   "nova": [
@@ -942,10 +942,10 @@
       "role": "MID",
       "level": 995,
       "tier": "PLATINUM II",
-      "lp": 17,
-      "wins": 347,
+      "lp": 37,
+      "wins": 348,
       "losses": 352,
-      "winRate": 49.6,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6990.png"
     },
     {
