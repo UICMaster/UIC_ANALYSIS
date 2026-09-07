@@ -672,10 +672,10 @@
       "role": "MID",
       "level": 507,
       "tier": "PLATINUM II",
-      "lp": 20,
-      "wins": 240,
+      "lp": 38,
+      "wins": 241,
       "losses": 253,
-      "winRate": 48.7,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/3165.png"
     },
     {
@@ -745,11 +745,11 @@
       "name": "UIC Ayumu",
       "role": "MID",
       "level": 626,
-      "tier": "PLATINUM III",
-      "lp": 81,
-      "wins": 205,
+      "tier": "PLATINUM II",
+      "lp": 1,
+      "wins": 206,
       "losses": 202,
-      "winRate": 50.4,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7144.png"
     },
     {
@@ -843,11 +843,11 @@
       "name": "UIC adedier",
       "role": "MID",
       "level": 647,
-      "tier": "PLATINUM III",
-      "lp": 86,
-      "wins": 175,
+      "tier": "PLATINUM II",
+      "lp": 3,
+      "wins": 176,
       "losses": 177,
-      "winRate": 49.7,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/4379.png"
     },
     {
@@ -866,12 +866,12 @@
       "playerId": "0049",
       "name": "RD Boohunter",
       "role": "BOT",
-      "level": 1487,
+      "level": 1488,
       "tier": "PLATINUM I",
-      "lp": 46,
+      "lp": 26,
       "wins": 847,
-      "losses": 828,
-      "winRate": 50.6,
+      "losses": 829,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6922.png"
     },
     {
@@ -909,130 +909,6 @@
       "losses": 174,
       "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7064.png"
-    }
-  ],
-  "ember": [
-    {
-      "playerId": "0058",
-      "name": "UIC ソニック",
-      "role": "TOP",
-      "level": 731,
-      "tier": "EMERALD IV",
-      "lp": 45,
-      "wins": 102,
-      "losses": 100,
-      "winRate": 50.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6490.png"
-    },
-    {
-      "playerId": "0059",
-      "name": "BlauerKlaus",
-      "role": "JGL",
-      "level": 1176,
-      "tier": "MASTER I",
-      "lp": 47,
-      "wins": 121,
-      "losses": 108,
-      "winRate": 52.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7123.png"
-    },
-    {
-      "playerId": "0060",
-      "name": "UIC Flare",
-      "role": "MID",
-      "level": 663,
-      "tier": "DIAMOND IV",
-      "lp": 20,
-      "wins": 178,
-      "losses": 173,
-      "winRate": 50.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/626.png"
-    },
-    {
-      "playerId": "0061",
-      "name": "Starboy",
-      "role": "BOT",
-      "level": 857,
-      "tier": "DIAMOND III",
-      "lp": 59,
-      "wins": 349,
-      "losses": 321,
-      "winRate": 52.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7183.png"
-    },
-    {
-      "playerId": "0062",
-      "name": "UIC Envy",
-      "role": "SUP",
-      "level": 366,
-      "tier": "PLATINUM IV",
-      "lp": 0,
-      "wins": 297,
-      "losses": 301,
-      "winRate": 49.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/7100.png"
-    }
-  ],
-  "abyss": [
-    {
-      "playerId": "0063",
-      "name": "myblondie",
-      "role": "TOP",
-      "level": 759,
-      "tier": "EMERALD I",
-      "lp": 50,
-      "wins": 47,
-      "losses": 60,
-      "winRate": 43.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6809.png"
-    },
-    {
-      "playerId": "0064",
-      "name": "yShizuu",
-      "role": "JGL",
-      "level": 510,
-      "tier": "DIAMOND I",
-      "lp": 75,
-      "wins": 196,
-      "losses": 185,
-      "winRate": 51.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6759.png"
-    },
-    {
-      "playerId": "0065",
-      "name": "UIC Keygasza",
-      "role": "MID",
-      "level": 489,
-      "tier": "EMERALD I",
-      "lp": 15,
-      "wins": 79,
-      "losses": 107,
-      "winRate": 42.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6386.png"
-    },
-    {
-      "playerId": "0066",
-      "name": "UIC M Character",
-      "role": "BOT",
-      "level": 649,
-      "tier": "EMERALD I",
-      "lp": 15,
-      "wins": 93,
-      "losses": 106,
-      "winRate": 46.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6330.png"
-    },
-    {
-      "playerId": "0067",
-      "name": "TheEigeeen",
-      "role": "SUP",
-      "level": 697,
-      "tier": "EMERALD III",
-      "lp": 51,
-      "wins": 86,
-      "losses": 101,
-      "winRate": 46,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/profileicon/6037.png"
     }
   ]
 }
