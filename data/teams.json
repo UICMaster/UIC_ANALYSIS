@@ -959,130 +959,6 @@
       }
     ]
   },
-  "ember": {
-    "primeLeagueId": "211165",
-    "teamDisplay": "UIC Ember",
-    "tier": "Division 6",
-    "roster": [
-      {
-        "playerId": "0058",
-        "gameName": "UIC ソニック",
-        "tagLine": "0815",
-        "role": "TOP",
-        "puuid": "kmyDTaRhWrPDgwSVzy035ONes-czo-AlyWP8dDJx3yJZYXAmiJkYJMgmX26cBYQ7sDgTJ19VnPRSOw",
-        "trackStats": true,
-        "discordId": "551842354513051708",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "playerId": "0059",
-        "gameName": "BlauerKlaus",
-        "tagLine": "Blubb",
-        "role": "JGL",
-        "puuid": "XKeLjlEO7gyJQE-5DH9TC7vmVumFpIY6qDmmX3C3fdJcivDgxBZSG6ETr9JBT2pRRh8JIs-VUw7yww",
-        "trackStats": true,
-        "discordId": "524265506098774017",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "playerId": "0060",
-        "gameName": "UIC Flare",
-        "tagLine": "JND",
-        "role": "MID",
-        "puuid": "e07SGBUf8sxG2Ixb6Oe8QKAvX_EvlkuMbkhs49atblxK5sI8JPQBJ27EgK0CQZL0LozmU6ZCX-YYJg",
-        "trackStats": true,
-        "discordId": "207167122483314688",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "playerId": "0061",
-        "gameName": "Starboy",
-        "tagLine": "XO00",
-        "role": "BOT",
-        "puuid": "k5WtAHEBE7LYPO78rAvR4XojGaBrdNWADgIjQwqXjPZbsU9vz5gKOZ13ZMizmU5D-lhh--Xfu5-AEA",
-        "trackStats": true,
-        "discordId": "256782695479115776",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "playerId": "0062",
-        "gameName": "UIC Envy",
-        "tagLine": "UIC",
-        "role": "SUP",
-        "puuid": "EVe4VA1ME7GsyunDKbQ2vHarczndDRJIcML-Iq5fs6PtFK5J5OA0hQ-wzLmcQ-5NYU12D3u4ZoX4Tw",
-        "trackStats": true,
-        "discordId": "858153409735688203",
-        "rosterStatus": "starter",
-        "isCaptain": true
-      }
-    ]
-  },
-  "abyss": {
-    "primeLeagueId": "191522",
-    "teamDisplay": "UIC Abyss",
-    "tier": "Division 5",
-    "roster": [
-      {
-        "playerId": "0063",
-        "gameName": "myblondie",
-        "tagLine": "love",
-        "role": "TOP",
-        "puuid": "OVC44IryXTq4-R_S538DxBfOmC3FR-lgUDkeG2SVbWzE36L9SSjJwxGhE0ECUo3smJOJOCSmjoenqg",
-        "trackStats": true,
-        "discordId": "1468940738757660674",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "playerId": "0064",
-        "gameName": "yShizuu",
-        "tagLine": "ÊUW",
-        "role": "JGL",
-        "puuid": "GAMoAGwvhvQ01CDnfS-caqP5XayHSWPGwoPTziUjqLiCBBADTGnpr_gFG3E8IhJrlh7dpQLE13IsYg",
-        "trackStats": true,
-        "discordId": "611252609608581130",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "playerId": "0065",
-        "gameName": "UIC Keygasza",
-        "tagLine": "1337",
-        "role": "MID",
-        "puuid": "1EDdcCuTZ6DUwlqyKZ0tmivARWi7o6Fnp83B2M_uFZMWT2oJM3zyWYqmd1AkQd1UOi3Wmy4RYXhlhA",
-        "trackStats": true,
-        "discordId": "185448414174117888",
-        "rosterStatus": "starter",
-        "isCaptain": true
-      },
-      {
-        "playerId": "0066",
-        "gameName": "UIC M Character",
-        "tagLine": "UIC",
-        "role": "BOT",
-        "puuid": "b7n5vwRV66N0HlnlKs5NGQKvR53cwPs5BW6oZRWhSPlXSlKJze83D29hC_7QEujbgAS0Mbi_klIdEA",
-        "trackStats": true,
-        "discordId": "283258897417109514",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "playerId": "0067",
-        "gameName": "TheEigeeen",
-        "tagLine": "EIGI",
-        "role": "SUP",
-        "puuid": "TVAfPVLKfV_82PjBy30tOpy4NjhjVNggbNyW_EsHCPLIFXI0mxEGIMHTvP_2ZyjW9fnIP35xiZ8XJw",
-        "trackStats": true,
-        "discordId": "284774229604302850",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      }
-    ]
-  },
   "community": {
     "primeLeagueId": "",
     "teamDisplay": "Community",
@@ -1186,6 +1062,39 @@
         "discordId": "",
         "rosterStatus": "starter",
         "isCaptain": false
+      },
+      {
+        "playerId": "0065",
+        "gameName": "UIC Keygasza",
+        "tagLine": "1337",
+        "role": "MID",
+        "puuid": "1EDdcCuTZ6DUwlqyKZ0tmivARWi7o6Fnp83B2M_uFZMWT2oJM3zyWYqmd1AkQd1UOi3Wmy4RYXhlhA",
+        "trackStats": true,
+        "discordId": "185448414174117888",
+        "rosterStatus": "starter",
+        "isCaptain": true
+      },
+      {
+        "playerId": "0060",
+        "gameName": "UIC Flare",
+        "tagLine": "JND",
+        "role": "MID",
+        "puuid": "e07SGBUf8sxG2Ixb6Oe8QKAvX_EvlkuMbkhs49atblxK5sI8JPQBJ27EgK0CQZL0LozmU6ZCX-YYJg",
+        "trackStats": true,
+        "discordId": "207167122483314688",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0062",
+        "gameName": "UIC Envy",
+        "tagLine": "UIC",
+        "role": "SUP",
+        "puuid": "EVe4VA1ME7GsyunDKbQ2vHarczndDRJIcML-Iq5fs6PtFK5J5OA0hQ-wzLmcQ-5NYU12D3u4ZoX4Tw",
+        "trackStats": true,
+        "discordId": "858153409735688203",
+        "rosterStatus": "starter",
+        "isCaptain": true
       },
       {
         "playerId": "0027",
