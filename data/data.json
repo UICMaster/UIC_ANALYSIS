@@ -68,10 +68,10 @@
       "role": "TOP",
       "level": 676,
       "tier": "MASTER I",
-      "lp": 371,
+      "lp": 311,
       "wins": 98,
-      "losses": 77,
-      "winRate": 56,
+      "losses": 79,
+      "winRate": 55.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6622.png"
     },
     {
@@ -80,10 +80,10 @@
       "role": "JGL",
       "level": 353,
       "tier": "MASTER I",
-      "lp": 345,
+      "lp": 283,
       "wins": 144,
-      "losses": 115,
-      "winRate": 55.6,
+      "losses": 117,
+      "winRate": 55.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/657.png"
     },
     {
@@ -128,10 +128,10 @@
       "role": "COH",
       "level": 516,
       "tier": "MASTER I",
-      "lp": 1034,
-      "wins": 415,
-      "losses": 386,
-      "winRate": 51.8,
+      "lp": 963,
+      "wins": 416,
+      "losses": 389,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/4096.png"
     }
   ],
@@ -176,7 +176,7 @@
       "playerId": "0086",
       "name": "UIC stevie",
       "role": "BOT",
-      "level": 730,
+      "level": 731,
       "tier": "MASTER I",
       "lp": 907,
       "wins": 209,
@@ -203,8 +203,8 @@
       "level": 812,
       "tier": "EMERALD IV",
       "lp": 19,
-      "wins": 389,
-      "losses": 405,
+      "wins": 390,
+      "losses": 406,
       "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7190.png"
     }
@@ -240,10 +240,10 @@
       "role": "MID",
       "level": 1277,
       "tier": "DIAMOND I",
-      "lp": 58,
+      "lp": 16,
       "wins": 356,
-      "losses": 378,
-      "winRate": 48.5,
+      "losses": 380,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6934.png"
     },
     {
@@ -263,11 +263,11 @@
       "name": "UIC Phântox",
       "role": "SUP",
       "level": 968,
-      "tier": "DIAMOND II",
-      "lp": 17,
+      "tier": "DIAMOND III",
+      "lp": 77,
       "wins": 184,
-      "losses": 171,
-      "winRate": 51.8,
+      "losses": 173,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3901.png"
     },
     {
@@ -312,12 +312,12 @@
       "playerId": "0010",
       "name": "UIC Regentropfen",
       "role": "MID",
-      "level": 1090,
-      "tier": "DIAMOND II",
-      "lp": 72,
-      "wins": 522,
+      "level": 1091,
+      "tier": "DIAMOND I",
+      "lp": 24,
+      "wins": 525,
       "losses": 544,
-      "winRate": 49,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6284.png"
     },
     {
@@ -398,7 +398,7 @@
       "playerId": "0017",
       "name": "UIC FirstBlo",
       "role": "SUP",
-      "level": 514,
+      "level": 515,
       "tier": "DIAMOND I",
       "lp": 75,
       "wins": 142,
@@ -500,9 +500,9 @@
       "role": "TOP",
       "level": 595,
       "tier": "MASTER I",
-      "lp": 648,
-      "wins": 441,
-      "losses": 402,
+      "lp": 646,
+      "wins": 442,
+      "losses": 403,
       "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6640.png"
     },
@@ -558,12 +558,12 @@
       "playerId": "0030",
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 846,
+      "level": 847,
       "tier": "EMERALD I",
-      "lp": 45,
+      "lp": 23,
       "wins": 246,
-      "losses": 242,
-      "winRate": 50.4,
+      "losses": 243,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3366.png"
     },
     {
@@ -622,10 +622,10 @@
       "role": "BOT",
       "level": 784,
       "tier": "MASTER I",
-      "lp": 79,
+      "lp": 49,
       "wins": 194,
-      "losses": 172,
-      "winRate": 53,
+      "losses": 173,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/5726.png"
     },
     {
@@ -746,10 +746,10 @@
       "role": "MID",
       "level": 628,
       "tier": "PLATINUM III",
-      "lp": 89,
+      "lp": 68,
       "wins": 214,
-      "losses": 210,
-      "winRate": 50.5,
+      "losses": 211,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7144.png"
     },
     {
@@ -762,7 +762,7 @@
       "wins": 74,
       "losses": 67,
       "winRate": 52.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/5914.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/683.png"
     },
     {
       "playerId": "0041",
@@ -842,12 +842,12 @@
       "playerId": "0047",
       "name": "UIC adedier",
       "role": "MID",
-      "level": 647,
+      "level": 648,
       "tier": "PLATINUM II",
-      "lp": 91,
-      "wins": 183,
-      "losses": 179,
-      "winRate": 50.6,
+      "lp": 89,
+      "wins": 184,
+      "losses": 180,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/4379.png"
     },
     {
@@ -868,9 +868,9 @@
       "role": "BOT",
       "level": 1489,
       "tier": "PLATINUM II",
-      "lp": 66,
+      "lp": 26,
       "wins": 853,
-      "losses": 838,
+      "losses": 840,
       "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6922.png"
     },
@@ -909,6 +909,68 @@
       "losses": 174,
       "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7064.png"
+    }
+  ],
+  "dinonuggets": [
+    {
+      "playerId": "0100",
+      "name": "BigSchuetze2",
+      "role": "TOP",
+      "level": 437,
+      "tier": "DIAMOND IV",
+      "lp": 19,
+      "wins": 58,
+      "losses": 54,
+      "winRate": 51.8,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/5259.png"
+    },
+    {
+      "playerId": "0101",
+      "name": "CrintyPlay",
+      "role": "JGL",
+      "level": 427,
+      "tier": "EMERALD III",
+      "lp": 58,
+      "wins": 224,
+      "losses": 217,
+      "winRate": 50.8,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7028.png"
+    },
+    {
+      "playerId": "0102",
+      "name": "SwissBack",
+      "role": "MID",
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": null
+    },
+    {
+      "playerId": "0103",
+      "name": "UIC DontMethWith",
+      "role": "BOT",
+      "level": 1381,
+      "tier": "DIAMOND IV",
+      "lp": 97,
+      "wins": 422,
+      "losses": 408,
+      "winRate": 50.8,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6988.png"
+    },
+    {
+      "playerId": "0104",
+      "name": "Californium",
+      "role": "SUP",
+      "level": 957,
+      "tier": "DIAMOND III",
+      "lp": 13,
+      "wins": 130,
+      "losses": 122,
+      "winRate": 51.6,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7102.png"
     }
   ]
 }
