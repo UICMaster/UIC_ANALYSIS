@@ -80,10 +80,10 @@
       "role": "JGL",
       "level": 352,
       "tier": "MASTER I",
-      "lp": 289,
-      "wins": 141,
+      "lp": 318,
+      "wins": 142,
       "losses": 114,
-      "winRate": 55.3,
+      "winRate": 55.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/657.png"
     },
     {
@@ -104,10 +104,10 @@
       "role": "BOT",
       "level": 1706,
       "tier": "MASTER I",
-      "lp": 734,
-      "wins": 256,
-      "losses": 242,
-      "winRate": 51.4,
+      "lp": 782,
+      "wins": 260,
+      "losses": 244,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6872.png"
     },
     {
@@ -166,9 +166,9 @@
       "role": "MID",
       "level": 1000,
       "tier": "MASTER I",
-      "lp": 1492,
-      "wins": 356,
-      "losses": 304,
+      "lp": 1486,
+      "wins": 357,
+      "losses": 305,
       "winRate": 53.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3798.png"
     },
@@ -190,10 +190,10 @@
       "role": "SUP",
       "level": 749,
       "tier": "MASTER I",
-      "lp": 1249,
-      "wins": 277,
+      "lp": 1309,
+      "wins": 279,
       "losses": 243,
-      "winRate": 53.3,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/1114.png"
     },
     {
@@ -314,10 +314,10 @@
       "role": "MID",
       "level": 1090,
       "tier": "DIAMOND II",
-      "lp": 21,
-      "wins": 520,
+      "lp": 72,
+      "wins": 522,
       "losses": 544,
-      "winRate": 48.9,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6284.png"
     },
     {
@@ -534,12 +534,12 @@
       "playerId": "0028",
       "name": "UIC AutumnLeaf",
       "role": "BOT",
-      "level": 877,
+      "level": 878,
       "tier": "MASTER I",
-      "lp": 405,
-      "wins": 186,
+      "lp": 434,
+      "wins": 187,
       "losses": 161,
-      "winRate": 53.6,
+      "winRate": 53.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7144.png"
     },
     {
@@ -547,11 +547,11 @@
       "name": "UIC Ryu Copeland",
       "role": "SUP",
       "level": 1023,
-      "tier": "DIAMOND I",
-      "lp": 80,
-      "wins": 121,
-      "losses": 105,
-      "winRate": 53.5,
+      "tier": "MASTER I",
+      "lp": 0,
+      "wins": 122,
+      "losses": 107,
+      "winRate": 53.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6479.png"
     },
     {
@@ -559,11 +559,11 @@
       "name": "UIC Loonz",
       "role": "COH",
       "level": 846,
-      "tier": "DIAMOND IV",
-      "lp": 47,
-      "wins": 243,
-      "losses": 234,
-      "winRate": 50.9,
+      "tier": "EMERALD I",
+      "lp": 75,
+      "wins": 244,
+      "losses": 239,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3366.png"
     },
     {
@@ -598,10 +598,10 @@
       "role": "JGL",
       "level": 815,
       "tier": "MASTER I",
-      "lp": 120,
+      "lp": 90,
       "wins": 63,
-      "losses": 58,
-      "winRate": 52.1,
+      "losses": 59,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3840.png"
     },
     {
@@ -738,7 +738,7 @@
       "wins": 29,
       "losses": 39,
       "winRate": 42.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/1211.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/5041.png"
     },
     {
       "playerId": "0039",
@@ -856,10 +856,10 @@
       "role": "MID",
       "level": 642,
       "tier": "DIAMOND IV",
-      "lp": 16,
+      "lp": 0,
       "wins": 445,
-      "losses": 418,
-      "winRate": 51.6,
+      "losses": 419,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/23.png"
     },
     {
