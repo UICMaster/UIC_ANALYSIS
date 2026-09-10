@@ -166,8 +166,8 @@
       "role": "MID",
       "level": 1000,
       "tier": "MASTER I",
-      "lp": 1465,
-      "wins": 355,
+      "lp": 1492,
+      "wins": 356,
       "losses": 304,
       "winRate": 53.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3798.png"
@@ -449,11 +449,11 @@
       "name": "UIC BissiBoy",
       "role": "BOT",
       "level": 818,
-      "tier": "DIAMOND III",
-      "lp": 84,
-      "wins": 283,
+      "tier": "DIAMOND II",
+      "lp": 3,
+      "wins": 284,
       "losses": 296,
-      "winRate": 48.9,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/5916.png"
     },
     {
@@ -868,10 +868,10 @@
       "role": "BOT",
       "level": 1489,
       "tier": "PLATINUM II",
-      "lp": 86,
+      "lp": 66,
       "wins": 853,
-      "losses": 837,
-      "winRate": 50.5,
+      "losses": 838,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6922.png"
     },
     {
