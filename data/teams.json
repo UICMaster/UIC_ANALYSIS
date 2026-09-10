@@ -959,6 +959,68 @@
       }
     ]
   },
+  "dinonuggets": {
+    "primeLeagueId": "212432",
+    "teamDisplay": "UIC Dinonuggets",
+    "tier": "xxxxx",
+    "roster": [
+      {
+        "playerId": "0100",
+        "gameName": "BigSchuetze2",
+        "tagLine": "EUW",
+        "role": "TOP",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "311497927870775297",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0101",
+        "gameName": "CrintyPlay",
+        "tagLine": "EUW",
+        "role": "JGL",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "1019682077794381974",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0102",
+        "gameName": "SwissBack",
+        "tagLine": "EUW",
+        "role": "MID",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "304660544906854400",
+        "rosterStatus": "starter",
+        "isCaptain": true
+      },
+      {
+        "playerId": "0103",
+        "gameName": "UIC DontMethWith",
+        "tagLine": "AMB",
+        "role": "BOT",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "351797668378312714",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0104",
+        "gameName": "Californium",
+        "tagLine": "098",
+        "role": "SUP",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      }
+    ]
+  },
   "community": {
     "primeLeagueId": "",
     "teamDisplay": "Community",
