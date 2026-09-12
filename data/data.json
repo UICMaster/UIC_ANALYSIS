@@ -40,7 +40,7 @@
       "playerId": "0004",
       "name": "UIC Giani",
       "role": "BOT",
-      "level": 749,
+      "level": 750,
       "tier": "DIAMOND II",
       "lp": 63,
       "wins": 97,
@@ -128,10 +128,10 @@
       "role": "COH",
       "level": 517,
       "tier": "MASTER I",
-      "lp": 915,
+      "lp": 851,
       "wins": 420,
-      "losses": 394,
-      "winRate": 51.6,
+      "losses": 396,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/4096.png"
     }
   ],
@@ -250,7 +250,7 @@
       "playerId": "0092",
       "name": "UIC Lightning",
       "role": "BOT",
-      "level": 696,
+      "level": 697,
       "tier": "EMERALD III",
       "lp": 71,
       "wins": 117,
@@ -450,10 +450,10 @@
       "role": "BOT",
       "level": 819,
       "tier": "DIAMOND II",
-      "lp": 3,
-      "wins": 284,
+      "lp": 41,
+      "wins": 286,
       "losses": 296,
-      "winRate": 49,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/5916.png"
     },
     {
@@ -516,18 +516,18 @@
       "wins": 252,
       "losses": 243,
       "winRate": 50.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/528.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/585.png"
     },
     {
       "playerId": "0094",
       "name": "UIC Ace",
       "role": "MID",
-      "level": 788,
+      "level": 789,
       "tier": "MASTER I",
-      "lp": 922,
-      "wins": 280,
+      "lp": 948,
+      "wins": 281,
       "losses": 270,
-      "winRate": 50.9,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/924.png"
     },
     {
