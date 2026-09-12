@@ -102,12 +102,12 @@
       "playerId": "0081",
       "name": "UIC Voracity",
       "role": "BOT",
-      "level": 1709,
+      "level": 1710,
       "tier": "MASTER I",
-      "lp": 938,
-      "wins": 275,
-      "losses": 254,
-      "winRate": 52,
+      "lp": 902,
+      "wins": 276,
+      "losses": 256,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6872.png"
     },
     {
@@ -206,7 +206,7 @@
       "wins": 394,
       "losses": 408,
       "winRate": 49.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/5369.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7210.png"
     }
   ],
   "tempest": [
@@ -216,8 +216,8 @@
       "role": "TOP",
       "level": 1318,
       "tier": "DIAMOND III",
-      "lp": 44,
-      "wins": 469,
+      "lp": 64,
+      "wins": 470,
       "losses": 464,
       "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6377.png"
@@ -314,9 +314,9 @@
       "role": "MID",
       "level": 1092,
       "tier": "DIAMOND II",
-      "lp": 56,
+      "lp": 33,
       "wins": 529,
-      "losses": 552,
+      "losses": 553,
       "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6284.png"
     },
@@ -350,7 +350,7 @@
       "playerId": "0013",
       "name": "UIC VTennic",
       "role": "TOP",
-      "level": 493,
+      "level": 494,
       "tier": "DIAMOND IV",
       "lp": 18,
       "wins": 26,
@@ -413,11 +413,11 @@
       "name": "Reign",
       "role": "TOP",
       "level": 1342,
-      "tier": "DIAMOND II",
-      "lp": 96,
-      "wins": 329,
+      "tier": "DIAMOND I",
+      "lp": 15,
+      "wins": 330,
       "losses": 345,
-      "winRate": 48.8,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7168.png"
     },
     {
@@ -560,10 +560,10 @@
       "role": "COH",
       "level": 848,
       "tier": "EMERALD I",
-      "lp": 11,
-      "wins": 250,
+      "lp": 30,
+      "wins": 251,
       "losses": 247,
-      "winRate": 50.3,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3366.png"
     },
     {
@@ -598,7 +598,7 @@
       "role": "JGL",
       "level": 815,
       "tier": "MASTER I",
-      "lp": 120,
+      "lp": 45,
       "wins": 64,
       "losses": 59,
       "winRate": 52,
@@ -622,10 +622,10 @@
       "role": "BOT",
       "level": 785,
       "tier": "MASTER I",
-      "lp": 79,
-      "wins": 195,
+      "lp": 109,
+      "wins": 196,
       "losses": 173,
-      "winRate": 53,
+      "winRate": 53.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/5726.png"
     },
     {
@@ -720,7 +720,7 @@
       "playerId": "0037",
       "name": "Kreuzfeuer",
       "role": "TOP",
-      "level": 1043,
+      "level": 1044,
       "tier": "DIAMOND I",
       "lp": 51,
       "wins": 43,
