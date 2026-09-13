@@ -128,10 +128,10 @@
       "role": "COH",
       "level": 518,
       "tier": "MASTER I",
-      "lp": 839,
-      "wins": 423,
+      "lp": 951,
+      "wins": 427,
       "losses": 399,
-      "winRate": 51.5,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/4096.png"
     }
   ],
@@ -216,10 +216,10 @@
       "role": "TOP",
       "level": 1319,
       "tier": "DIAMOND II",
-      "lp": 24,
-      "wins": 472,
+      "lp": 43,
+      "wins": 473,
       "losses": 464,
-      "winRate": 50.4,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6377.png"
     },
     {
@@ -288,12 +288,12 @@
       "playerId": "0008",
       "name": "UIC Stafferl",
       "role": "TOP",
-      "level": 874,
-      "tier": "DIAMOND IV",
-      "lp": 86,
-      "wins": 22,
+      "level": 875,
+      "tier": "DIAMOND III",
+      "lp": 11,
+      "wins": 23,
       "losses": 33,
-      "winRate": 40,
+      "winRate": 41.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7011.png"
     },
     {
@@ -324,7 +324,7 @@
       "playerId": "0011",
       "name": "UIC Pferdemilch",
       "role": "BOT",
-      "level": 861,
+      "level": 862,
       "tier": "EMERALD IV",
       "lp": 54,
       "wins": 84,
@@ -514,8 +514,8 @@
       "tier": "MASTER I",
       "lp": 0,
       "wins": 255,
-      "losses": 246,
-      "winRate": 50.9,
+      "losses": 249,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/585.png"
     },
     {
@@ -524,10 +524,10 @@
       "role": "MID",
       "level": 789,
       "tier": "MASTER I",
-      "lp": 948,
+      "lp": 914,
       "wins": 281,
-      "losses": 270,
-      "winRate": 51,
+      "losses": 271,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/924.png"
     },
     {
@@ -794,13 +794,13 @@
       "playerId": "0043",
       "name": "UIC Kaetaya",
       "role": "TOP",
-      "level": 898,
+      "level": 899,
       "tier": "DIAMOND IV",
       "lp": 60,
       "wins": 81,
       "losses": 71,
       "winRate": 53.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6340.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6945.png"
     },
     {
       "playerId": "0044",
