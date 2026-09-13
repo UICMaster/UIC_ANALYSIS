@@ -104,10 +104,10 @@
       "role": "BOT",
       "level": 1710,
       "tier": "MASTER I",
-      "lp": 902,
-      "wins": 276,
-      "losses": 256,
-      "winRate": 51.9,
+      "lp": 1010,
+      "wins": 280,
+      "losses": 257,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6872.png"
     },
     {
@@ -178,10 +178,10 @@
       "role": "BOT",
       "level": 732,
       "tier": "MASTER I",
-      "lp": 963,
+      "lp": 932,
       "wins": 212,
-      "losses": 185,
-      "winRate": 53.4,
+      "losses": 186,
+      "winRate": 53.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/1455.png"
     },
     {
@@ -240,9 +240,9 @@
       "role": "MID",
       "level": 1279,
       "tier": "DIAMOND II",
-      "lp": 32,
+      "lp": 11,
       "wins": 360,
-      "losses": 388,
+      "losses": 389,
       "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6934.png"
     },
@@ -264,10 +264,10 @@
       "role": "SUP",
       "level": 968,
       "tier": "DIAMOND III",
-      "lp": 36,
+      "lp": 15,
       "wins": 184,
-      "losses": 175,
-      "winRate": 51.3,
+      "losses": 176,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3901.png"
     },
     {
@@ -302,10 +302,10 @@
       "role": "JGL",
       "level": 304,
       "tier": "EMERALD III",
-      "lp": 45,
-      "wins": 92,
+      "lp": 65,
+      "wins": 93,
       "losses": 90,
-      "winRate": 50.5,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/5982.png"
     },
     {
@@ -314,10 +314,10 @@
       "role": "MID",
       "level": 1092,
       "tier": "DIAMOND II",
-      "lp": 33,
-      "wins": 529,
-      "losses": 553,
-      "winRate": 48.9,
+      "lp": 2,
+      "wins": 530,
+      "losses": 556,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6284.png"
     },
     {
@@ -512,9 +512,9 @@
       "role": "JGL",
       "level": 821,
       "tier": "DIAMOND I",
-      "lp": 64,
-      "wins": 252,
-      "losses": 243,
+      "lp": 77,
+      "wins": 253,
+      "losses": 244,
       "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/585.png"
     },
@@ -546,12 +546,12 @@
       "playerId": "0029",
       "name": "UIC Ryu Copeland",
       "role": "SUP",
-      "level": 1023,
+      "level": 1024,
       "tier": "MASTER I",
       "lp": 0,
       "wins": 123,
-      "losses": 109,
-      "winRate": 53,
+      "losses": 111,
+      "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6479.png"
     },
     {
@@ -843,11 +843,11 @@
       "name": "UIC adedier",
       "role": "MID",
       "level": 649,
-      "tier": "PLATINUM II",
-      "lp": 3,
+      "tier": "PLATINUM III",
+      "lp": 82,
       "wins": 185,
-      "losses": 185,
-      "winRate": 50,
+      "losses": 186,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/4379.png"
     },
     {
@@ -904,10 +904,10 @@
       "role": "SUP",
       "level": 595,
       "tier": "GOLD II",
-      "lp": 26,
+      "lp": 5,
       "wins": 163,
-      "losses": 174,
-      "winRate": 48.4,
+      "losses": 175,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7064.png"
     }
   ],
