@@ -128,10 +128,10 @@
       "role": "COH",
       "level": 518,
       "tier": "MASTER I",
-      "lp": 951,
+      "lp": 919,
       "wins": 427,
-      "losses": 399,
-      "winRate": 51.7,
+      "losses": 400,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/4096.png"
     }
   ],
@@ -313,11 +313,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1093,
-      "tier": "DIAMOND III",
-      "lp": 83,
-      "wins": 533,
+      "tier": "DIAMOND II",
+      "lp": 18,
+      "wins": 535,
       "losses": 559,
-      "winRate": 48.8,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6284.png"
     },
     {
@@ -570,7 +570,7 @@
       "playerId": "0031",
       "name": "UIC Cerberus",
       "role": "MNG",
-      "level": 233,
+      "level": 234,
       "tier": "UNRANKED",
       "lp": 0,
       "wins": 0,
@@ -598,10 +598,10 @@
       "role": "JGL",
       "level": 816,
       "tier": "MASTER I",
-      "lp": 45,
+      "lp": 15,
       "wins": 64,
-      "losses": 59,
-      "winRate": 52,
+      "losses": 60,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3840.png"
     },
     {
@@ -722,10 +722,10 @@
       "role": "TOP",
       "level": 1044,
       "tier": "DIAMOND I",
-      "lp": 51,
-      "wins": 43,
-      "losses": 35,
-      "winRate": 55.1,
+      "lp": 55,
+      "wins": 44,
+      "losses": 36,
+      "winRate": 55,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3506.png"
     },
     {
@@ -738,7 +738,7 @@
       "wins": 34,
       "losses": 43,
       "winRate": 44.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/5041.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6576.png"
     },
     {
       "playerId": "0039",
@@ -758,10 +758,10 @@
       "role": "BOT",
       "level": 754,
       "tier": "MASTER I",
-      "lp": 0,
-      "wins": 74,
+      "lp": 60,
+      "wins": 75,
       "losses": 67,
-      "winRate": 52.5,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7030.png"
     },
     {
