@@ -202,10 +202,10 @@
       "role": "COH",
       "level": 813,
       "tier": "EMERALD IV",
-      "lp": 75,
-      "wins": 394,
+      "lp": 94,
+      "wins": 395,
       "losses": 408,
-      "winRate": 49.1,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7210.png"
     }
   ],
@@ -412,12 +412,12 @@
       "playerId": "0018",
       "name": "Reign",
       "role": "TOP",
-      "level": 1342,
-      "tier": "DIAMOND I",
-      "lp": 15,
+      "level": 1343,
+      "tier": "DIAMOND II",
+      "lp": 94,
       "wins": 330,
-      "losses": 345,
-      "winRate": 48.9,
+      "losses": 346,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7168.png"
     },
     {
