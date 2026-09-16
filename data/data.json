@@ -128,8 +128,8 @@
       "role": "COH",
       "level": 519,
       "tier": "MASTER I",
-      "lp": 987,
-      "wins": 434,
+      "lp": 1015,
+      "wins": 435,
       "losses": 404,
       "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/4096.png"
@@ -240,10 +240,10 @@
       "role": "MID",
       "level": 1280,
       "tier": "DIAMOND II",
-      "lp": 11,
-      "wins": 367,
+      "lp": 49,
+      "wins": 368,
       "losses": 397,
-      "winRate": 48,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6934.png"
     },
     {
@@ -314,10 +314,10 @@
       "role": "MID",
       "level": 1096,
       "tier": "DIAMOND II",
-      "lp": 85,
-      "wins": 553,
-      "losses": 571,
-      "winRate": 49.2,
+      "lp": 41,
+      "wins": 554,
+      "losses": 574,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6284.png"
     },
     {
@@ -512,10 +512,10 @@
       "role": "JGL",
       "level": 822,
       "tier": "MASTER I",
-      "lp": 98,
+      "lp": 40,
       "wins": 258,
-      "losses": 250,
-      "winRate": 50.8,
+      "losses": 252,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/585.png"
     },
     {
@@ -524,10 +524,10 @@
       "role": "MID",
       "level": 790,
       "tier": "MASTER I",
-      "lp": 824,
+      "lp": 756,
       "wins": 288,
-      "losses": 279,
-      "winRate": 50.8,
+      "losses": 281,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/924.png"
     },
     {
@@ -538,8 +538,8 @@
       "tier": "MASTER I",
       "lp": 180,
       "wins": 190,
-      "losses": 172,
-      "winRate": 52.5,
+      "losses": 173,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7144.png"
     },
     {
@@ -559,11 +559,11 @@
       "name": "UIC Loonz",
       "role": "COH",
       "level": 849,
-      "tier": "EMERALD I",
-      "lp": 6,
+      "tier": "EMERALD II",
+      "lp": 85,
       "wins": 252,
-      "losses": 249,
-      "winRate": 50.3,
+      "losses": 250,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3366.png"
     },
     {
@@ -798,8 +798,8 @@
       "tier": "DIAMOND IV",
       "lp": 40,
       "wins": 81,
-      "losses": 72,
-      "winRate": 52.9,
+      "losses": 73,
+      "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6945.png"
     },
     {
@@ -856,10 +856,10 @@
       "role": "MID",
       "level": 643,
       "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 450,
+      "lp": 37,
+      "wins": 452,
       "losses": 424,
-      "winRate": 51.5,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/23.png"
     },
     {
@@ -918,10 +918,10 @@
       "role": "TOP",
       "level": 438,
       "tier": "EMERALD I",
-      "lp": 27,
-      "wins": 59,
+      "lp": 64,
+      "wins": 61,
       "losses": 60,
-      "winRate": 49.6,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/5259.png"
     },
     {
@@ -929,11 +929,11 @@
       "name": "CrintyPlay",
       "role": "JGL",
       "level": 429,
-      "tier": "EMERALD II",
-      "lp": 17,
+      "tier": "EMERALD III",
+      "lp": 77,
       "wins": 230,
-      "losses": 220,
-      "winRate": 51.1,
+      "losses": 222,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7028.png"
     },
     {
