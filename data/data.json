@@ -116,10 +116,10 @@
       "role": "SUP",
       "level": 763,
       "tier": "MASTER I",
-      "lp": 1300,
-      "wins": 419,
+      "lp": 1328,
+      "wins": 420,
       "losses": 394,
-      "winRate": 51.5,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/1625.png"
     },
     {
@@ -164,10 +164,10 @@
       "playerId": "0088",
       "name": "UIC BL4CKPINKFAN",
       "role": "MID",
-      "level": 1002,
+      "level": 1003,
       "tier": "MASTER I",
-      "lp": 1585,
-      "wins": 366,
+      "lp": 1612,
+      "wins": 367,
       "losses": 311,
       "winRate": 54.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3798.png"
@@ -178,10 +178,10 @@
       "role": "BOT",
       "level": 734,
       "tier": "MASTER I",
-      "lp": 955,
+      "lp": 924,
       "wins": 216,
-      "losses": 189,
-      "winRate": 53.3,
+      "losses": 190,
+      "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/1455.png"
     },
     {
@@ -190,10 +190,10 @@
       "role": "SUP",
       "level": 752,
       "tier": "MASTER I",
-      "lp": 1309,
-      "wins": 281,
+      "lp": 1339,
+      "wins": 282,
       "losses": 245,
-      "winRate": 53.4,
+      "winRate": 53.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/1114.png"
     },
     {
@@ -450,10 +450,10 @@
       "role": "BOT",
       "level": 820,
       "tier": "DIAMOND II",
-      "lp": 75,
+      "lp": 33,
       "wins": 290,
-      "losses": 298,
-      "winRate": 49.3,
+      "losses": 300,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3184.png"
     },
     {
@@ -868,9 +868,9 @@
       "role": "BOT",
       "level": 1492,
       "tier": "PLATINUM IV",
-      "lp": 49,
-      "wins": 863,
-      "losses": 858,
+      "lp": 45,
+      "wins": 864,
+      "losses": 859,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7204.png"
     },
