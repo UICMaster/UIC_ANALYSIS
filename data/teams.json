@@ -966,8 +966,8 @@
     "roster": [
       {
         "playerId": "0100",
-        "gameName": "BigSchuetze2",
-        "tagLine": "EUW",
+        "gameName": "UIC BigSchuetze",
+        "tagLine": "DINO",
         "role": "TOP",
         "puuid": "NT6KR6oLpGarcXmwHUD-KANeXgjXxIE78seSC1jMeuYlpl7lAMg1721CLd5QdYs-Yfo3eLlt_gCukw",
         "trackStats": true,
@@ -977,8 +977,8 @@
       },
       {
         "playerId": "0101",
-        "gameName": "CrintyPlay",
-        "tagLine": "EUW",
+        "gameName": "UIC CrintyPlay",
+        "tagLine": "UIC",
         "role": "JGL",
         "puuid": "VUsRjjo_hWq50oVkfhGpVC-gQIqClYklsg_S_x6RMHiyWfTzgf5HBYvtw5LfuGgRoKBbkf8q_sDX1w",
         "trackStats": true,
