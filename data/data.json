@@ -166,10 +166,10 @@
       "role": "MID",
       "level": 1004,
       "tier": "MASTER I",
-      "lp": 1558,
-      "wins": 371,
+      "lp": 1642,
+      "wins": 373,
       "losses": 316,
-      "winRate": 54,
+      "winRate": 54.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3798.png"
     },
     {
@@ -190,10 +190,10 @@
       "role": "SUP",
       "level": 752,
       "tier": "MASTER I",
-      "lp": 1309,
+      "lp": 1279,
       "wins": 282,
-      "losses": 246,
-      "winRate": 53.4,
+      "losses": 247,
+      "winRate": 53.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/1114.png"
     },
     {
@@ -450,9 +450,9 @@
       "role": "BOT",
       "level": 821,
       "tier": "DIAMOND II",
-      "lp": 47,
+      "lp": 27,
       "wins": 295,
-      "losses": 304,
+      "losses": 305,
       "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3184.png"
     },
@@ -796,10 +796,10 @@
       "role": "TOP",
       "level": 899,
       "tier": "DIAMOND IV",
-      "lp": 19,
-      "wins": 81,
+      "lp": 38,
+      "wins": 82,
       "losses": 74,
-      "winRate": 52.3,
+      "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7129.png"
     },
     {
@@ -844,10 +844,10 @@
       "role": "MID",
       "level": 649,
       "tier": "PLATINUM III",
-      "lp": 99,
+      "lp": 78,
       "wins": 187,
-      "losses": 187,
-      "winRate": 50,
+      "losses": 188,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/4379.png"
     },
     {
@@ -866,12 +866,12 @@
       "playerId": "0049",
       "name": "RD Boohunter",
       "role": "BOT",
-      "level": 1492,
-      "tier": "PLATINUM IV",
-      "lp": 83,
-      "wins": 866,
+      "level": 1493,
+      "tier": "PLATINUM III",
+      "lp": 22,
+      "wins": 868,
       "losses": 859,
-      "winRate": 50.2,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7204.png"
     },
     {
