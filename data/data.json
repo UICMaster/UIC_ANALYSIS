@@ -68,10 +68,10 @@
       "role": "TOP",
       "level": 681,
       "tier": "MASTER I",
-      "lp": 251,
-      "wins": 101,
+      "lp": 281,
+      "wins": 102,
       "losses": 84,
-      "winRate": 54.6,
+      "winRate": 54.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6622.png"
     },
     {
@@ -90,12 +90,12 @@
       "playerId": "0080",
       "name": "UIC Lanzus",
       "role": "MID",
-      "level": 941,
+      "level": 942,
       "tier": "MASTER I",
-      "lp": 980,
-      "wins": 181,
-      "losses": 159,
-      "winRate": 53.2,
+      "lp": 1003,
+      "wins": 183,
+      "losses": 160,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6629.png"
     },
     {
@@ -104,10 +104,10 @@
       "role": "BOT",
       "level": 1712,
       "tier": "MASTER I",
-      "lp": 862,
+      "lp": 830,
       "wins": 285,
-      "losses": 266,
-      "winRate": 51.7,
+      "losses": 267,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6872.png"
     },
     {
@@ -178,10 +178,10 @@
       "role": "BOT",
       "level": 735,
       "tier": "MASTER I",
-      "lp": 974,
+      "lp": 943,
       "wins": 221,
-      "losses": 194,
-      "winRate": 53.3,
+      "losses": 195,
+      "winRate": 53.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/1455.png"
     },
     {
@@ -314,9 +314,9 @@
       "role": "MID",
       "level": 1097,
       "tier": "DIAMOND II",
-      "lp": 70,
-      "wins": 559,
-      "losses": 578,
+      "lp": 87,
+      "wins": 561,
+      "losses": 579,
       "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6284.png"
     },
@@ -512,10 +512,10 @@
       "role": "JGL",
       "level": 823,
       "tier": "MASTER I",
-      "lp": 0,
-      "wins": 259,
-      "losses": 256,
-      "winRate": 50.3,
+      "lp": 63,
+      "wins": 262,
+      "losses": 257,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/585.png"
     },
     {
@@ -868,8 +868,8 @@
       "role": "BOT",
       "level": 1493,
       "tier": "PLATINUM III",
-      "lp": 22,
-      "wins": 868,
+      "lp": 42,
+      "wins": 869,
       "losses": 859,
       "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7204.png"
