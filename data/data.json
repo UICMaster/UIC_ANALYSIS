@@ -154,9 +154,9 @@
       "role": "JGL",
       "level": 1256,
       "tier": "MASTER I",
-      "lp": 681,
-      "wins": 782,
-      "losses": 784,
+      "lp": 707,
+      "wins": 783,
+      "losses": 786,
       "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/29.png"
     },
@@ -164,12 +164,12 @@
       "playerId": "0088",
       "name": "UIC BL4CKPINKFAN",
       "role": "MID",
-      "level": 1004,
+      "level": 1005,
       "tier": "MASTER I",
-      "lp": 1630,
+      "lp": 1533,
       "wins": 375,
-      "losses": 319,
-      "winRate": 54,
+      "losses": 322,
+      "winRate": 53.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3798.png"
     },
     {
@@ -216,10 +216,10 @@
       "role": "TOP",
       "level": 1321,
       "tier": "DIAMOND II",
-      "lp": 1,
-      "wins": 485,
+      "lp": 21,
+      "wins": 486,
       "losses": 477,
-      "winRate": 50.4,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7216.png"
     },
     {
@@ -356,7 +356,7 @@
       "wins": 27,
       "losses": 26,
       "winRate": 50.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/4552.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3863.png"
     },
     {
       "playerId": "0014",
@@ -368,7 +368,7 @@
       "wins": 183,
       "losses": 183,
       "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6908.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3460.png"
     },
     {
       "playerId": "0015",
@@ -398,12 +398,12 @@
       "playerId": "0017",
       "name": "UIC FirstBlo",
       "role": "SUP",
-      "level": 516,
+      "level": 517,
       "tier": "DIAMOND I",
-      "lp": 96,
+      "lp": 76,
       "wins": 143,
-      "losses": 121,
-      "winRate": 54.2,
+      "losses": 122,
+      "winRate": 54,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/4655.png"
     }
   ],
@@ -598,10 +598,10 @@
       "role": "JGL",
       "level": 817,
       "tier": "MASTER I",
-      "lp": 168,
+      "lp": 138,
       "wins": 69,
-      "losses": 61,
-      "winRate": 53.1,
+      "losses": 62,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3840.png"
     },
     {
@@ -738,7 +738,7 @@
       "wins": 34,
       "losses": 43,
       "winRate": 44.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6576.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6577.png"
     },
     {
       "playerId": "0039",
@@ -746,10 +746,10 @@
       "role": "MID",
       "level": 630,
       "tier": "PLATINUM III",
-      "lp": 83,
+      "lp": 62,
       "wins": 219,
-      "losses": 215,
-      "winRate": 50.5,
+      "losses": 216,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7144.png"
     },
     {
