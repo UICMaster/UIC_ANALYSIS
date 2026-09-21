@@ -166,10 +166,10 @@
       "role": "MID",
       "level": 1005,
       "tier": "MASTER I",
-      "lp": 1533,
+      "lp": 1469,
       "wins": 375,
-      "losses": 322,
-      "winRate": 53.8,
+      "losses": 324,
+      "winRate": 53.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3798.png"
     },
     {
@@ -313,11 +313,11 @@
       "name": "UIC Regentropfen",
       "role": "MID",
       "level": 1098,
-      "tier": "DIAMOND I",
-      "lp": 19,
-      "wins": 566,
-      "losses": 583,
-      "winRate": 49.3,
+      "tier": "DIAMOND II",
+      "lp": 96,
+      "wins": 567,
+      "losses": 585,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6284.png"
     },
     {
@@ -363,11 +363,11 @@
       "name": "UIC Hunter",
       "role": "JGL",
       "level": 999,
-      "tier": "EMERALD I",
-      "lp": 10,
-      "wins": 183,
-      "losses": 183,
-      "winRate": 50,
+      "tier": "EMERALD II",
+      "lp": 87,
+      "wins": 184,
+      "losses": 185,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3460.png"
     },
     {
@@ -498,11 +498,11 @@
       "playerId": "0025",
       "name": "UIC Kamo",
       "role": "TOP",
-      "level": 597,
+      "level": 598,
       "tier": "MASTER I",
-      "lp": 653,
-      "wins": 454,
-      "losses": 415,
+      "lp": 647,
+      "wins": 457,
+      "losses": 418,
       "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6640.png"
     },
@@ -536,10 +536,10 @@
       "role": "BOT",
       "level": 880,
       "tier": "MASTER I",
-      "lp": 209,
-      "wins": 191,
+      "lp": 267,
+      "wins": 193,
       "losses": 173,
-      "winRate": 52.5,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7144.png"
     },
     {
@@ -672,10 +672,10 @@
       "role": "MID",
       "level": 510,
       "tier": "PLATINUM II",
-      "lp": 13,
-      "wins": 247,
+      "lp": 32,
+      "wins": 248,
       "losses": 260,
-      "winRate": 48.7,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3165.png"
     },
     {
@@ -746,10 +746,10 @@
       "role": "MID",
       "level": 630,
       "tier": "PLATINUM III",
-      "lp": 62,
-      "wins": 219,
+      "lp": 82,
+      "wins": 220,
       "losses": 216,
-      "winRate": 50.3,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7144.png"
     },
     {
@@ -775,18 +775,6 @@
       "losses": 308,
       "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3788.png"
-    },
-    {
-      "playerId": "0042",
-      "name": "OPEN SPOT",
-      "role": "TOP",
-      "level": 0,
-      "tier": "RECRUITING",
-      "lp": 0,
-      "wins": 0,
-      "losses": 0,
-      "winRate": 0,
-      "icon": null
     }
   ],
   "nova": [
@@ -813,18 +801,6 @@
       "losses": 198,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7212.png"
-    },
-    {
-      "playerId": "0045",
-      "name": "UIC Rubix Qube",
-      "role": "JGL",
-      "level": 503,
-      "tier": "GOLD II",
-      "lp": 28,
-      "wins": 185,
-      "losses": 194,
-      "winRate": 48.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3592.png"
     },
     {
       "playerId": "0046",
@@ -854,25 +830,25 @@
       "playerId": "0048",
       "name": "UIC GroßATuin",
       "role": "MID",
-      "level": 644,
+      "level": 645,
       "tier": "EMERALD I",
-      "lp": 24,
-      "wins": 455,
-      "losses": 432,
+      "lp": 22,
+      "wins": 456,
+      "losses": 433,
       "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/23.png"
     },
     {
-      "playerId": "0049",
-      "name": "RD Boohunter",
+      "playerId": "0042",
+      "name": "UIC Sadrik",
       "role": "BOT",
-      "level": 1494,
-      "tier": "PLATINUM I",
-      "lp": 14,
-      "wins": 879,
-      "losses": 861,
-      "winRate": 50.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7204.png"
+      "level": 855,
+      "tier": "DIAMOND IV",
+      "lp": 31,
+      "wins": 293,
+      "losses": 298,
+      "winRate": 49.6,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/5914.png"
     },
     {
       "playerId": "0050",
@@ -887,16 +863,16 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7172.png"
     },
     {
-      "playerId": "0051",
-      "name": "UIC Kaanto",
+      "playerId": "0085",
+      "name": "UIC DemiGodly",
       "role": "SUP",
-      "level": 400,
-      "tier": "PLATINUM IV",
-      "lp": 91,
-      "wins": 162,
-      "losses": 169,
-      "winRate": 48.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7099.png"
+      "level": 648,
+      "tier": "MASTER I",
+      "lp": 263,
+      "wins": 172,
+      "losses": 158,
+      "winRate": 52.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/4568.png"
     },
     {
       "playerId": "0052",
@@ -930,10 +906,10 @@
       "role": "JGL",
       "level": 430,
       "tier": "EMERALD II",
-      "lp": 17,
-      "wins": 233,
-      "losses": 223,
-      "winRate": 51.1,
+      "lp": 37,
+      "wins": 235,
+      "losses": 224,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7028.png"
     },
     {
