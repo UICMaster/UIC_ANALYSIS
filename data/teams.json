@@ -280,6 +280,79 @@
       }
     ]
   },
+  "dynasty": {
+    "primeLeagueId": "206270",
+    "teamDisplay": "UIC Dynasty",
+    "tier": "Division 4",
+    "roster": [
+      {
+        "playerId": "0053",
+        "gameName": "helloitskostas",
+        "tagLine": "alina",
+        "role": "TOP",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "362998422707372033",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0056",
+        "gameName": "Vaugg",
+        "tagLine": "EUW",
+        "role": "JGL",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "242774606266499072",
+        "rosterStatus": "starter",
+        "isCaptain": true
+      },
+      {
+        "playerId": "0057",
+        "gameName": "Kyzero",
+        "tagLine": "EGB",
+        "role": "MID",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "182524313629360129",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0058",
+        "gameName": "ATALANTA",
+        "tagLine": "ADC",
+        "role": "BOT",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "1317200411777568793",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0059",
+        "gameName": "legend of leeks",
+        "tagLine": "EUW",
+        "role": "SUP",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "303860734503157760",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0061",
+        "gameName": "GER spectator",
+        "tagLine": "GER",
+        "role": "MNG",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "530753578655023126",
+        "rosterStatus": "staff",
+        "isCaptain": false
+      }
+    ]
+  },
   "eclipse": {
     "primeLeagueId": "208131",
     "teamDisplay": "UIC Eclipse",
