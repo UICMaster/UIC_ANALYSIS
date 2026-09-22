@@ -166,10 +166,10 @@
       "role": "MID",
       "level": 1005,
       "tier": "MASTER I",
-      "lp": 1493,
-      "wins": 377,
-      "losses": 325,
-      "winRate": 53.7,
+      "lp": 1457,
+      "wins": 378,
+      "losses": 327,
+      "winRate": 53.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3798.png"
     },
     {
@@ -745,11 +745,11 @@
       "name": "UIC Ayumu",
       "role": "MID",
       "level": 631,
-      "tier": "PLATINUM I",
-      "lp": 2,
+      "tier": "PLATINUM II",
+      "lp": 81,
       "wins": 226,
-      "losses": 217,
-      "winRate": 51,
+      "losses": 218,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7144.png"
     },
     {
