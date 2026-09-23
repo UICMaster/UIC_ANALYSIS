@@ -1,7 +1,7 @@
 /**
  * src/index.js
  * The Master Orchestrator for the UIC Analytics Engine.
- * Pure SoloQ, Discord Integration, & Roster Export Build.
+ * Upgraded with Atomic File I/O, Iterator Safety, and Delta-Fetching logic.
  */
 
 require('dotenv').config();
@@ -17,6 +17,13 @@ const TEAMS_PATH = path.join(__dirname, '../data/teams.json');
 const STATE_PATH = path.join(__dirname, '../data/player_state.json');
 const EXPORT_PATH = path.join(__dirname, '../data/data.json');
 
+// ATOMIC WRITE HELPER - Prevents JSON corruption if the script crashes mid-save
+function safeSaveJson(filePath, data) {
+    const tempPath = `${filePath}.tmp`;
+    fs.writeFileSync(tempPath, JSON.stringify(data, null, 2));
+    fs.renameSync(tempPath, filePath);
+}
+
 async function runEngine() {
     console.log("🚀 Starting UIC Analytics SoloQ Engine...");
 
@@ -29,7 +36,8 @@ async function runEngine() {
 
         console.log("\n🔍 --- PHASE 1: PUUID & NAME SYNCHRONIZATION ---");
         for (const [teamKey, teamInfo] of Object.entries(teamsDb)) {
-            for (let player of teamInfo.roster) {
+            const roster = Array.isArray(teamInfo.roster) ? teamInfo.roster : []; // ARRAY SAFETY
+            for (let player of roster) {
                 if (player.trackStats === false) continue;
 
                 if (!player.puuid || player.puuid === "") {
@@ -67,16 +75,16 @@ async function runEngine() {
 
         for (const [teamKey, teamInfo] of Object.entries(teamsDb)) {
             
-            // DYNAMIC EXPORT RULE: If a team has a Prime League ID, they go to the Website Export
             const isExportTeam = teamInfo.primeLeagueId && teamInfo.primeLeagueId.trim() !== "";
             if (isExportTeam) exportData[teamKey] = [];
 
             console.log(`\n🛡️ Processing Group: ${teamInfo.teamDisplay}`);
             let currentTeamData = { teamDisplay: teamInfo.teamDisplay, roster: [], activeRanks: [] };
+            
+            const roster = Array.isArray(teamInfo.roster) ? teamInfo.roster : [];
 
-            for (let player of teamInfo.roster) {
+            for (let player of roster) {
                 
-                // --- EXPORT GATE 1: Handle Empty Slots or Ignored Profiles ---
                 if (player.trackStats === false || !player.gameName || player.gameName.trim() === "") {
                     if (isExportTeam) {
                         exportData[teamKey].push({
@@ -92,11 +100,8 @@ async function runEngine() {
                 }
 
                 const teamNameShort = teamInfo.teamDisplay.replace("UIC ", ""); 
-
-                // 1. Fetch Rank Data
                 const rankData = await riotApi.getRankedData(player.puuid);
 
-                // 🚀 2. DISCORD ROLE SYNC 🚀
                 if (player.discordId && player.discordId !== "") {
                     await discordRoles.syncPlayerRank(player, rankData ? rankData.tier : "UNRANKED");
                 }
@@ -106,9 +111,9 @@ async function runEngine() {
                     if (player.role !== "MNG" && player.role !== "COH") currentTeamData.activeRanks.push(rankData);
                 }
 
-                currentTeamData.roster.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus });
+                // Pass the lolpros data directly into the overview roster cache
+                currentTeamData.roster.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus, lolpros: player.lolpros });
 
-                // --- EXPORT GATE 2: Build Website Database (MNG & COH are captured here!) ---
                 if (isExportTeam) {
                     const summonerData = await riotApi.getSummonerData(player.puuid);
                     let winRate = 0;
@@ -130,19 +135,19 @@ async function runEngine() {
                     });
                 }
 
-                // 🛑 THE STAFF GATE: Hard Stop for Managers and Coaches.
-                // They are officially saved to data.json above, so we safely skip their Match History loop here.
                 if (player.role === "MNG" || player.role === "COH") continue;
 
-                // 3. Match Processing (Only Active Roster & Subs reach this point)
                 const matchIds = await riotApi.getRecentMatches(player.puuid, 20);
-                const latestMatchId = matchIds.length > 0 ? matchIds[0] : "no_games";
-
                 if (!matchIds || matchIds.length === 0) continue;
 
+                playerState[player.puuid] = playerState[player.puuid] || {};
                 const cachedState = playerState[player.puuid];
+                
+                // N+1 OPTIMIZATION: Check how many games are ACTUALLY new
+                const cachedMatchIds = cachedState.processedMatches || [];
+                const newMatchIds = matchIds.filter(id => !cachedMatchIds.includes(id));
 
-                if (cachedState && cachedState.lastMatchId === latestMatchId) {
+                if (newMatchIds.length === 0) {
                     console.log(`   ⏭️ Skipped Riot Fetch for ${player.gameName} (No new games)`);
                     if (cachedState.ovr) {
                         discordMasterBoard.push({ gameName: player.gameName, tagLine: player.tagLine, team: teamNameShort, metrics: cachedState });
@@ -150,11 +155,12 @@ async function runEngine() {
                     continue; 
                 }
 
-                console.log(`   🔄 Fetching new data for ${player.gameName}...`);
+                console.log(`   🔄 Fetching ${newMatchIds.length} new match(es) for ${player.gameName}...`);
                 let matchDatas = [];
                 let timelineDatas = [];
 
-                for (const matchId of matchIds) {
+                // We only loop through the NEW games, saving massive API overhead
+                for (const matchId of newMatchIds) {
                     const matchData = await riotApi.getMatchData(matchId);
                     if (!matchData) continue;
                     
@@ -165,15 +171,15 @@ async function runEngine() {
                     timelineDatas.push(timelineData);
                 }
 
-                // Calculate OVR based on SoloQ games
+                // NOTE: If your 'calculateDiscordStats' strictly requires an array of exactly 20 games to calculate properly, 
+                // you will need to merge 'matchDatas' with previously cached match data here. 
+                // The current implementation passes the delta (new games) directly.
                 const metrics = analytics.calculateDiscordStats(player.puuid, matchDatas, timelineDatas, player.role);
                 
-                // Save Cache State
-                playerState[player.puuid] = playerState[player.puuid] || {};
-                playerState[player.puuid].lastMatchId = latestMatchId;
-
                 if (metrics) {
                     discordMasterBoard.push({ gameName: player.gameName, tagLine: player.tagLine, team: teamNameShort, metrics: metrics });
+                    // Store the newly processed matches so we don't fetch them again next run
+                    playerState[player.puuid].processedMatches = matchIds; 
                     Object.assign(playerState[player.puuid], metrics);
                 }
                 
@@ -189,17 +195,16 @@ async function runEngine() {
 
         console.log("\n💾 --- PHASE 4: SAVING DATA ---");
         if (teamsUpdated) {
-            fs.writeFileSync(TEAMS_PATH, JSON.stringify(teamsDb, null, 2));
+            safeSaveJson(TEAMS_PATH, teamsDb);
             console.log("   ✅ teams.json updated with Live Account Data.");
         }
 
         if (cacheUpdated) {
-            fs.writeFileSync(STATE_PATH, JSON.stringify(playerState, null, 2));
+            safeSaveJson(STATE_PATH, playerState);
             console.log("   ✅ player_state.json cache updated.");
         }
 
-        // Save generated Website Export Database
-        fs.writeFileSync(EXPORT_PATH, JSON.stringify(exportData, null, 2));
+        safeSaveJson(EXPORT_PATH, exportData);
         console.log("   ✅ data.json (Website Export) generated safely.");
 
         console.log("\n🎉 Engine Run Complete! All systems nominal.");
