@@ -1,6 +1,7 @@
 /**
  * src/discord/messages.js
  * Formats and delivers the analytical leaderboards to Discord via Smart Editing.
+ * Upgraded with Idempotency filters, Capped Retries, and 3-Column Team Links.
  */
 
 const BOT_TOKEN = process.env.DISCORD_BOT_TOKEN;
@@ -19,8 +20,14 @@ const RANK_EMOJIS = {
     "IRON": "<:iron:1501325151466422282>", "UNRANKED": "<:unranked:1501325256227553362>"
 };
 
-async function discordFetch(endpoint, method = 'GET', body = null) {
+// 1. Capped recursion & safe JSON parsing
+async function discordFetch(endpoint, method = 'GET', body = null, retries = 3) {
     if (!BOT_TOKEN) return null;
+    if (retries <= 0) {
+        console.error(`❌ [Discord API] Max retries reached for ${endpoint}`);
+        return null;
+    }
+
     const options = { method, headers: { 'Authorization': `Bot ${BOT_TOKEN}`, 'Content-Type': 'application/json' } };
     if (body) options.body = JSON.stringify(body);
     
@@ -30,20 +37,23 @@ async function discordFetch(endpoint, method = 'GET', body = null) {
             const errorData = await response.json();
             console.warn(`⚠️ [Discord] Rate limited. Waiting ${errorData.retry_after}s...`);
             await new Promise(res => setTimeout(res, errorData.retry_after * 1000));
-            return discordFetch(endpoint, method, body);
+            return discordFetch(endpoint, method, body, retries - 1);
         }
         if (!response.ok) {
             const errText = await response.text();
             console.error(`❌ [Discord API Error] HTTP ${response.status} on ${endpoint}:`, errText);
             return null;
         }
-        return response.status === 204 ? true : await response.json();
+        
+        const text = await response.text();
+        return text ? JSON.parse(text) : true;
     } catch (error) {
         console.error(`❌ [Discord Network Error] on ${endpoint}:`, error.message);
         return null;
     }
 }
 
+// 2. Idempotent filtering to prevent duplicate posts
 async function updateOrPostMessage(channelId, embeds) {
     if (!channelId || embeds.length === 0) return;
 
@@ -52,28 +62,36 @@ async function updateOrPostMessage(channelId, embeds) {
         embedChunks.push(embeds.slice(i, i + 3));
     }
 
-    const messages = await discordFetch(`/channels/${channelId}/messages?limit=20`);
-    const botMessages = (messages || []).filter(m => m.author.bot);
-    botMessages.sort((a, b) => a.id.localeCompare(b.id));
-
-    for (let i = 0; i < embedChunks.length; i++) {
-        const payload = { embeds: embedChunks[i] };
-        if (i < botMessages.length) {
-            await discordFetch(`/channels/${channelId}/messages/${botMessages[i].id}`, 'PATCH', payload);
-        } else {
-            await discordFetch(`/channels/${channelId}/messages`, 'POST', payload);
-        }
+    const messages = await discordFetch(`/channels/${channelId}/messages?limit=100`);
+    if (!messages) {
+        console.error(`❌ [Discord] Aborting update for ${channelId} to prevent duplicates (Fetch failed).`);
+        return; 
     }
 
-    for (let i = embedChunks.length; i < botMessages.length; i++) {
-        await discordFetch(`/channels/${channelId}/messages/${botMessages[i].id}`, 'DELETE');
+    // Filter ONLY for bot messages that belong to our system, sort using BigInt
+    const botMessages = messages.filter(m => 
+        m.author.bot && m.embeds?.[0]?.footer?.text?.includes("Bereitgestellt durch UIC")
+    ).sort((a, b) => (BigInt(a.id) < BigInt(b.id) ? -1 : 1));
+
+    for (let i = 0; i < Math.max(embedChunks.length, botMessages.length); i++) {
+        const payload = { embeds: embedChunks[i] };
+        if (i < embedChunks.length && i < botMessages.length) {
+            await discordFetch(`/channels/${channelId}/messages/${botMessages[i].id}`, 'PATCH', payload);
+        } else if (i < embedChunks.length) {
+            await discordFetch(`/channels/${channelId}/messages`, 'POST', payload);
+        } else {
+            await discordFetch(`/channels/${channelId}/messages/${botMessages[i].id}`, 'DELETE');
+        }
     }
 }
 
 function getRankScore(tier, rank, lp) {
     const tiers = { "CHALLENGER": 90000, "GRANDMASTER": 80000, "MASTER": 70000, "DIAMOND": 60000, "EMERALD": 50000, "PLATINUM": 40000, "GOLD": 30000, "SILVER": 20000, "BRONZE": 10000, "IRON": 0, "UNRANKED": 0 };
     const ranks = { "I": 4000, "II": 3000, "III": 2000, "IV": 1000 };
-    return (tiers[tier] || 0) + (ranks[rank] || 0) + parseInt(lp || 0);
+    
+    // Safety check for lp parsing
+    const numericLp = lp === null || lp === undefined || isNaN(lp) ? 0 : parseInt(lp);
+    return (tiers[tier] || 0) + (ranks[rank] || 0) + numericLp;
 }
 
 const capitalize = s => s ? s.charAt(0).toUpperCase() + s.slice(1).toLowerCase() : "";
@@ -129,32 +147,28 @@ async function updateLpLeaderboard(data) {
             wertung: `${emoji} ${tierStr} ${rankStr} ${lpStr}`.trim()
         };
     });
-    
-    console.log(`   ✅ [Discord] Updated LP Leaderboard (Alle Spieler)`);
+    console.log(`   ✅ [Discord] Updated LP Leaderboard`);
 }
 
 async function updateMasterLeaderboard(data) {
     if (!CH_LEADERBOARD || data.length === 0) return;
     
-    // CHANGED: Sort by OVR instead of UPS
     data.sort((a, b) => b.metrics.ovr - a.metrics.ovr);
     
     await postRankingsEmbeds(CH_LEADERBOARD, "UIC Formkurve (Letzte 10 SoloQ)", "Wertung", data, (p, rank) => {
-        // CHANGED: Extract OVR instead of UPS
         const { ovr } = p.metrics;
         return {
             spieler: `**${rank}.** ${p.gameName}#${p.tagLine}`,
             team: p.team || "-",
-            // CHANGED: Display OVR instead of UPS
             wertung: `Score: **${ovr}**`
         };
     });
-
-    console.log(`   ✅ [Discord] Updated Master DNA Leaderboard (Single Score)`);
+    console.log(`   ✅ [Discord] Updated Master Leaderboard`);
 }
 
+// 3. Upgraded Team Overview with Link Integrations & Footer Fix
 async function updateTeamOverview(teamOverviewData) {
-    if (!CH_OVERVIEW || teamOverviewData.length === 0) return;
+    if (!CH_OVERVIEW || !Array.isArray(teamOverviewData) || teamOverviewData.length === 0) return;
 
     const roleMapping = { "TOP": "Toplane", "JGL": "Jungle", "MID": "Midlane", "BOT": "Botlane", "SUP": "Support", "MNG": "Manager", "COH": "Coach" };
     let embeds = [];
@@ -162,25 +176,43 @@ async function updateTeamOverview(teamOverviewData) {
     for (const team of teamOverviewData) {
         let nameColumn = "";
         let roleColumn = "";
+        let linksColumn = ""; // NEW: 3rd Column for profiles
+        
+        const roster = Array.isArray(team.roster) ? team.roster : [];
+        let validSummonersForMulti = [];
 
-        team.roster.forEach(p => {
-            const tag = p.tagLine && p.tagLine !== "undefined" ? `#${p.tagLine}` : "";
+        roster.forEach(p => {
+            const tag = p.tagLine && p.tagLine !== "undefined" ? p.tagLine : "EUW";
             const crown = p.isCaptain ? " 👑" : "";
             const subLabel = p.rosterStatus === "substitute" ? " *(Sub)*" : "";
             
-            nameColumn += `${p.gameName}${tag}${crown}\n`;
+            nameColumn += `${p.gameName}#${tag}${crown}\n`;
             roleColumn += `${roleMapping[p.role] || p.role}${subLabel}\n`; 
+
+            // Link Generation
+            const encodedName = encodeURIComponent(`${p.gameName}-${tag}`);
+            const opggLink = `[op.gg](https://www.op.gg/summoners/euw/${encodedName})`;
+            const lolprosLink = p.lolpros ? ` | [lolpros](${p.lolpros})` : "";
+            linksColumn += `${opggLink}${lolprosLink}\n`;
+
+            // Collect names for team-wide OP.GG multi-search
+            validSummonersForMulti.push(encodeURIComponent(`${p.gameName}#${tag}`));
         });
+
+        const multiSearchUrl = `https://www.op.gg/multisearch/euw?summoners=${validSummonersForMulti.join('%2C')}`;
 
         embeds.push({
-            title: team.teamDisplay, color: UIC_COLOR,
-            fields: [ { name: "Kader", value: nameColumn || "-", inline: true }, { name: "Rolle", value: roleColumn || "-", inline: true } ]
+            title: team.teamDisplay || "Unbekanntes Team", 
+            description: roster.length > 0 ? `🔎 **[Team OP.GG Multi-Search öffnen](${multiSearchUrl})**` : "",
+            color: UIC_COLOR,
+            fields: [ 
+                { name: "Kader", value: nameColumn || "-", inline: true }, 
+                { name: "Rolle", value: roleColumn || "-", inline: true },
+                { name: "Profile", value: linksColumn || "-", inline: true }
+            ],
+            footer: { text: "Bereitgestellt durch UIC" },
+            timestamp: new Date().toISOString()
         });
-    }
-
-    if (embeds.length > 0) {
-        embeds[embeds.length - 1].footer = { text: "Bereitgestellt durch UIC" };
-        embeds[embeds.length - 1].timestamp = new Date().toISOString();
     }
 
     await updateOrPostMessage(CH_OVERVIEW, embeds);
