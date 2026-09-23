@@ -20,7 +20,6 @@ const RANK_EMOJIS = {
     "IRON": "<:iron:1501325151466422282>", "UNRANKED": "<:unranked:1501325256227553362>"
 };
 
-// 1. Capped recursion & safe JSON parsing
 async function discordFetch(endpoint, method = 'GET', body = null, retries = 3) {
     if (!BOT_TOKEN) return null;
     if (retries <= 0) {
@@ -53,7 +52,6 @@ async function discordFetch(endpoint, method = 'GET', body = null, retries = 3) 
     }
 }
 
-// 2. Idempotent filtering to prevent duplicate posts
 async function updateOrPostMessage(channelId, embeds) {
     if (!channelId || embeds.length === 0) return;
 
@@ -64,11 +62,10 @@ async function updateOrPostMessage(channelId, embeds) {
 
     const messages = await discordFetch(`/channels/${channelId}/messages?limit=100`);
     if (!messages) {
-        console.error(`❌ [Discord] Aborting update for ${channelId} to prevent duplicates (Fetch failed).`);
+        console.error(`❌ [Discord] Aborting update for ${channelId} to prevent duplicates.`);
         return; 
     }
 
-    // Filter ONLY for bot messages that belong to our system, sort using BigInt
     const botMessages = messages.filter(m => 
         m.author.bot && m.embeds?.[0]?.footer?.text?.includes("Bereitgestellt durch UIC")
     ).sort((a, b) => (BigInt(a.id) < BigInt(b.id) ? -1 : 1));
@@ -89,7 +86,6 @@ function getRankScore(tier, rank, lp) {
     const tiers = { "CHALLENGER": 90000, "GRANDMASTER": 80000, "MASTER": 70000, "DIAMOND": 60000, "EMERALD": 50000, "PLATINUM": 40000, "GOLD": 30000, "SILVER": 20000, "BRONZE": 10000, "IRON": 0, "UNRANKED": 0 };
     const ranks = { "I": 4000, "II": 3000, "III": 2000, "IV": 1000 };
     
-    // Safety check for lp parsing
     const numericLp = lp === null || lp === undefined || isNaN(lp) ? 0 : parseInt(lp);
     return (tiers[tier] || 0) + (ranks[rank] || 0) + numericLp;
 }
@@ -166,7 +162,6 @@ async function updateMasterLeaderboard(data) {
     console.log(`   ✅ [Discord] Updated Master Leaderboard`);
 }
 
-// 3. Upgraded Team Overview with Link Integrations & Footer Fix
 async function updateTeamOverview(teamOverviewData) {
     if (!CH_OVERVIEW || !Array.isArray(teamOverviewData) || teamOverviewData.length === 0) return;
 
@@ -176,7 +171,7 @@ async function updateTeamOverview(teamOverviewData) {
     for (const team of teamOverviewData) {
         let nameColumn = "";
         let roleColumn = "";
-        let linksColumn = ""; // NEW: 3rd Column for profiles
+        let linksColumn = ""; 
         
         const roster = Array.isArray(team.roster) ? team.roster : [];
         let validSummonersForMulti = [];
@@ -189,13 +184,11 @@ async function updateTeamOverview(teamOverviewData) {
             nameColumn += `${p.gameName}#${tag}${crown}\n`;
             roleColumn += `${roleMapping[p.role] || p.role}${subLabel}\n`; 
 
-            // Link Generation
             const encodedName = encodeURIComponent(`${p.gameName}-${tag}`);
             const opggLink = `[op.gg](https://www.op.gg/summoners/euw/${encodedName})`;
             const lolprosLink = p.lolpros ? ` | [lolpros](${p.lolpros})` : "";
             linksColumn += `${opggLink}${lolprosLink}\n`;
 
-            // Collect names for team-wide OP.GG multi-search
             validSummonersForMulti.push(encodeURIComponent(`${p.gameName}#${tag}`));
         });
 
