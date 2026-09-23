@@ -1,7 +1,7 @@
 /**
  * src/core/analytics.js
  * Professionelle Esports-Analytics Engine mit Z-Score Normalisierung.
- * Pure SoloQ Discord OVR Edition.
+ * Pure SoloQ Discord OVR Edition (Delta-Cache Optimized).
  */
 
 const RIOT_ROLE_MAP = {
@@ -26,13 +26,37 @@ function normalize(val, baseline) {
     return clamp(n_raw, 0, 100);
 }
 
-function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, expectedRole) {
+function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, expectedRole, cachedState = null) {
+    const deltaResult = calculateRawMetrics(targetPuuid, matchDataArray, timelineDataArray, expectedRole);
+    
+    if (!deltaResult) return null;
+
+    const newMetrics = deltaResult.metrics;
+    const newCount = deltaResult.count;
+    const ROLLING_WINDOW = 10; 
+
+    if (!cachedState || !cachedState.ovr || newCount >= ROLLING_WINDOW) {
+        return newMetrics;
+    }
+
+    const oldWeight = ROLLING_WINDOW - newCount;
+
+    return {
+        ovr: clamp(Math.round(((cachedState.ovr * oldWeight) + (newMetrics.ovr * newCount)) / ROLLING_WINDOW), 0, 100),
+        laning: clamp(Math.round(((cachedState.laning * oldWeight) + (newMetrics.laning * newCount)) / ROLLING_WINDOW), 0, 100),
+        combat: clamp(Math.round(((cachedState.combat * oldWeight) + (newMetrics.combat * newCount)) / ROLLING_WINDOW), 0, 100),
+        macro: clamp(Math.round(((cachedState.macro * oldWeight) + (newMetrics.macro * newCount)) / ROLLING_WINDOW), 0, 100),
+        survivability: clamp(Math.round(((cachedState.survivability * oldWeight) + (newMetrics.survivability * newCount)) / ROLLING_WINDOW), 0, 100)
+    };
+}
+
+function calculateRawMetrics(targetPuuid, matchDataArray, timelineDataArray, expectedRole) {
     const validMatches = [];
     const validTimelines = [];
 
     matchDataArray.forEach((m, idx) => {
         if (!m || !m.info || m.info.gameDuration <= 300) return;
-        if (m.info.queueId !== 420) return; // Strict SoloQ restriction
+        if (m.info.queueId !== 420) return; 
 
         const me = m.info.participants.find(p => p.puuid === targetPuuid);
         if (!me) return;
@@ -64,7 +88,6 @@ function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, e
         const teamDeaths = myTeam.reduce((sum, p) => sum + p.deaths, 0);
         const teamDamage = myTeam.reduce((sum, p) => sum + p.totalDamageDealtToChampions, 0);
         const teamGold = myTeam.reduce((sum, p) => sum + p.goldEarned, 0);
-        const teamDamageTaken = myTeam.reduce((sum, p) => sum + p.totalDamageTaken, 0);
 
         const dmgShare = me.totalDamageDealtToChampions / (teamDamage || 1);
         const goldShare = me.goldEarned / (teamGold || 1);
@@ -129,12 +152,15 @@ function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, e
 
     const avg = arr => Math.round(arr.reduce((a, b) => a + b, 0) / arr.length);
 
-    return { 
-        ovr: clamp(avg(gameScores.ovr), 0, 100),
-        laning: clamp(avg(gameScores.laning), 0, 100), 
-        combat: clamp(avg(gameScores.combat), 0, 100),
-        macro: clamp(avg(gameScores.macro), 0, 100),
-        survivability: clamp(avg(gameScores.survivability), 0, 100)
+    return {
+        metrics: {
+            ovr: clamp(avg(gameScores.ovr), 0, 100),
+            laning: clamp(avg(gameScores.laning), 0, 100), 
+            combat: clamp(avg(gameScores.combat), 0, 100),
+            macro: clamp(avg(gameScores.macro), 0, 100),
+            survivability: clamp(avg(gameScores.survivability), 0, 100)
+        },
+        count: validMatches.length 
     };
 }
 
