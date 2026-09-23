@@ -42,10 +42,10 @@
       "role": "BOT",
       "level": 751,
       "tier": "DIAMOND I",
-      "lp": 52,
-      "wins": 104,
+      "lp": 90,
+      "wins": 106,
       "losses": 106,
-      "winRate": 49.5,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7.png"
     },
     {
@@ -53,11 +53,11 @@
       "name": "UIC Baguetto",
       "role": "SUP",
       "level": 1024,
-      "tier": "DIAMOND I",
-      "lp": 95,
-      "wins": 184,
+      "tier": "MASTER I",
+      "lp": 45,
+      "wins": 186,
       "losses": 171,
-      "winRate": 51.8,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/4380.png"
     }
   ],
@@ -302,10 +302,10 @@
       "role": "JGL",
       "level": 516,
       "tier": "MASTER I",
-      "lp": 655,
+      "lp": 593,
       "wins": 618,
-      "losses": 613,
-      "winRate": 50.2,
+      "losses": 615,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/7212.png"
     },
     {
@@ -672,10 +672,10 @@
       "role": "JGL",
       "level": 817,
       "tier": "MASTER I",
-      "lp": 78,
-      "wins": 69,
+      "lp": 108,
+      "wins": 70,
       "losses": 64,
-      "winRate": 51.9,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/3840.png"
     },
     {
@@ -906,10 +906,10 @@
       "role": "MID",
       "level": 646,
       "tier": "EMERALD I",
-      "lp": 52,
-      "wins": 461,
-      "losses": 437,
-      "winRate": 51.3,
+      "lp": 69,
+      "wins": 463,
+      "losses": 438,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/23.png"
     },
     {
@@ -966,12 +966,12 @@
       "playerId": "0100",
       "name": "UIC BigSchuetze",
       "role": "TOP",
-      "level": 441,
-      "tier": "EMERALD I",
-      "lp": 86,
-      "wins": 74,
+      "level": 442,
+      "tier": "DIAMOND IV",
+      "lp": 5,
+      "wins": 75,
       "losses": 71,
-      "winRate": 51,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/5259.png"
     },
     {
@@ -992,10 +992,10 @@
       "role": "MID",
       "level": 309,
       "tier": "MASTER I",
-      "lp": 699,
-      "wins": 159,
+      "lp": 729,
+      "wins": 160,
       "losses": 142,
-      "winRate": 52.8,
+      "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/profileicon/6806.png"
     },
     {
