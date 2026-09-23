@@ -17,7 +17,6 @@ const TEAMS_PATH = path.join(__dirname, '../data/teams.json');
 const STATE_PATH = path.join(__dirname, '../data/player_state.json');
 const EXPORT_PATH = path.join(__dirname, '../data/data.json');
 
-// ATOMIC WRITE HELPER - Prevents JSON corruption if the script crashes mid-save
 function safeSaveJson(filePath, data) {
     const tempPath = `${filePath}.tmp`;
     fs.writeFileSync(tempPath, JSON.stringify(data, null, 2));
@@ -36,7 +35,7 @@ async function runEngine() {
 
         console.log("\n🔍 --- PHASE 1: PUUID & NAME SYNCHRONIZATION ---");
         for (const [teamKey, teamInfo] of Object.entries(teamsDb)) {
-            const roster = Array.isArray(teamInfo.roster) ? teamInfo.roster : []; // ARRAY SAFETY
+            const roster = Array.isArray(teamInfo.roster) ? teamInfo.roster : []; 
             for (let player of roster) {
                 if (player.trackStats === false) continue;
 
@@ -74,7 +73,6 @@ async function runEngine() {
         let exportData = {}; 
 
         for (const [teamKey, teamInfo] of Object.entries(teamsDb)) {
-            
             const isExportTeam = teamInfo.primeLeagueId && teamInfo.primeLeagueId.trim() !== "";
             if (isExportTeam) exportData[teamKey] = [];
 
@@ -84,7 +82,6 @@ async function runEngine() {
             const roster = Array.isArray(teamInfo.roster) ? teamInfo.roster : [];
 
             for (let player of roster) {
-                
                 if (player.trackStats === false || !player.gameName || player.gameName.trim() === "") {
                     if (isExportTeam) {
                         exportData[teamKey].push({
@@ -111,7 +108,6 @@ async function runEngine() {
                     if (player.role !== "MNG" && player.role !== "COH") currentTeamData.activeRanks.push(rankData);
                 }
 
-                // Pass the lolpros data directly into the overview roster cache
                 currentTeamData.roster.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, isCaptain: player.isCaptain, rankData: rankData, rosterStatus: player.rosterStatus, lolpros: player.lolpros });
 
                 if (isExportTeam) {
@@ -143,7 +139,6 @@ async function runEngine() {
                 playerState[player.puuid] = playerState[player.puuid] || {};
                 const cachedState = playerState[player.puuid];
                 
-                // N+1 OPTIMIZATION: Check how many games are ACTUALLY new
                 const cachedMatchIds = cachedState.processedMatches || [];
                 const newMatchIds = matchIds.filter(id => !cachedMatchIds.includes(id));
 
@@ -159,7 +154,6 @@ async function runEngine() {
                 let matchDatas = [];
                 let timelineDatas = [];
 
-                // We only loop through the NEW games, saving massive API overhead
                 for (const matchId of newMatchIds) {
                     const matchData = await riotApi.getMatchData(matchId);
                     if (!matchData) continue;
@@ -171,14 +165,10 @@ async function runEngine() {
                     timelineDatas.push(timelineData);
                 }
 
-                // NOTE: If your 'calculateDiscordStats' strictly requires an array of exactly 20 games to calculate properly, 
-                // you will need to merge 'matchDatas' with previously cached match data here. 
-                // The current implementation passes the delta (new games) directly.
-                const metrics = analytics.calculateDiscordStats(player.puuid, matchDatas, timelineDatas, player.role);
+                const metrics = analytics.calculateDiscordStats(player.puuid, matchDatas, timelineDatas, player.role, cachedState);
                 
                 if (metrics) {
                     discordMasterBoard.push({ gameName: player.gameName, tagLine: player.tagLine, team: teamNameShort, metrics: metrics });
-                    // Store the newly processed matches so we don't fetch them again next run
                     playerState[player.puuid].processedMatches = matchIds; 
                     Object.assign(playerState[player.puuid], metrics);
                 }
