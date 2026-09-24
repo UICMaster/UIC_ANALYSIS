@@ -1,7 +1,6 @@
 /**
  * src/index.js
  * The Master Orchestrator for the UIC Analytics Engine.
- * Upgraded with Atomic File I/O, Iterator Safety, and Delta-Fetching logic.
  */
 
 require('dotenv').config();
@@ -46,13 +45,11 @@ async function runEngine() {
                     if (puuid) {
                         player.puuid = puuid;
                         teamsUpdated = true;
-                        console.log(`   ✅ Saved PUUID`);
                     }
                 } else {
                     const liveAccount = await riotApi.getAccountByPUUID(player.puuid);
                     if (liveAccount && liveAccount.gameName) {
                         if (player.gameName !== liveAccount.gameName || player.tagLine !== liveAccount.tagLine) {
-                            console.log(`   ✨ Name Healed! ${player.gameName} -> ${liveAccount.gameName}#${liveAccount.tagLine}`);
                             player.gameName = liveAccount.gameName;
                             player.tagLine = liveAccount.tagLine;
                             teamsUpdated = true;
@@ -65,10 +62,9 @@ async function runEngine() {
         console.log("\n🧠 --- PHASE 2: SOLOQ DATA ACQUISITION & EXPORT ---");
         
         const currentPatch = await riotApi.getLatestPatch();
-        console.log(`   ✨ Using Data Dragon Patch: ${currentPatch}`);
-
+        
         let discordLpBoard = [];
-        let discordMasterBoard = []; 
+        let discordTeamStatsData = []; // NEW: Groups stats per team instead of a global leaderboard
         let teamOverviewData = []; 
         let exportData = {}; 
 
@@ -79,17 +75,17 @@ async function runEngine() {
             console.log(`\n🛡️ Processing Group: ${teamInfo.teamDisplay}`);
             let currentTeamData = { teamDisplay: teamInfo.teamDisplay, roster: [], activeRanks: [] };
             
+            // NEW: Prepare the payload for this specific team's stats
+            let currentTeamStats = { teamDisplay: teamInfo.teamDisplay, players: [] };
+            
             const roster = Array.isArray(teamInfo.roster) ? teamInfo.roster : [];
 
             for (let player of roster) {
                 if (player.trackStats === false || !player.gameName || player.gameName.trim() === "") {
                     if (isExportTeam) {
                         exportData[teamKey].push({
-                            playerId: player.playerId || "0000",
-                            name: player.gameName || "OPEN SPOT",
-                            role: player.role,
-                            level: 0,
-                            tier: player.gameName ? "STAFF" : "RECRUITING",
+                            playerId: player.playerId || "0000", name: player.gameName || "OPEN SPOT",
+                            role: player.role, level: 0, tier: player.gameName ? "STAFF" : "RECRUITING",
                             lp: 0, wins: 0, losses: 0, winRate: 0, icon: null
                         });
                     }
@@ -116,18 +112,11 @@ async function runEngine() {
                     if (rankData && (rankData.wins + rankData.losses) > 0) {
                         winRate = parseFloat(((rankData.wins / (rankData.wins + rankData.losses)) * 100).toFixed(1));
                     }
-                    
                     exportData[teamKey].push({
-                        playerId: player.playerId || "0000",
-                        name: player.gameName,
-                        role: player.role,
-                        level: summonerData ? summonerData.summonerLevel : 0,
-                        tier: rankData ? `${rankData.tier} ${rankData.rank}` : "UNRANKED",
-                        lp: rankData ? rankData.lp : 0,
-                        wins: rankData ? rankData.wins : 0,
-                        losses: rankData ? rankData.losses : 0,
-                        winRate: winRate,
-                        icon: summonerData ? `https://ddragon.leagueoflegends.com/cdn/${currentPatch}/img/profileicon/${summonerData.profileIconId}.png` : null
+                        playerId: player.playerId || "0000", name: player.gameName, role: player.role,
+                        level: summonerData ? summonerData.summonerLevel : 0, tier: rankData ? `${rankData.tier} ${rankData.rank}` : "UNRANKED",
+                        lp: rankData ? rankData.lp : 0, wins: rankData ? rankData.wins : 0, losses: rankData ? rankData.losses : 0,
+                        winRate: winRate, icon: summonerData ? `https://ddragon.leagueoflegends.com/cdn/${currentPatch}/img/profileicon/${summonerData.profileIconId}.png` : null
                     });
                 }
 
@@ -144,8 +133,9 @@ async function runEngine() {
 
                 if (newMatchIds.length === 0) {
                     console.log(`   ⏭️ Skipped Riot Fetch for ${player.gameName} (No new games)`);
-                    if (cachedState.ovr) {
-                        discordMasterBoard.push({ gameName: player.gameName, tagLine: player.tagLine, team: teamNameShort, metrics: cachedState });
+                    if (cachedState.gd15 !== undefined) {
+                        // Push cached raw stats into the team dashboard array
+                        currentTeamStats.players.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, metrics: cachedState });
                     }
                     continue; 
                 }
@@ -168,35 +158,31 @@ async function runEngine() {
                 const metrics = analytics.calculateDiscordStats(player.puuid, matchDatas, timelineDatas, player.role, cachedState);
                 
                 if (metrics) {
-                    discordMasterBoard.push({ gameName: player.gameName, tagLine: player.tagLine, team: teamNameShort, metrics: metrics });
+                    // Push newly calculated raw stats into the team dashboard array
+                    currentTeamStats.players.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, metrics: metrics });
                     playerState[player.puuid].processedMatches = matchIds; 
                     Object.assign(playerState[player.puuid], metrics);
                 }
-                
                 cacheUpdated = true;
+            }
+            
+            // Add the team's dashboard to the array if it has players
+            if (currentTeamStats.players.length > 0) {
+                discordTeamStatsData.push(currentTeamStats);
             }
             teamOverviewData.push(currentTeamData);
         }
 
         console.log("\n📊 --- PHASE 3: DISCORD DELIVERY ---");
         if (discordLpBoard.length > 0) await discordMessages.updateLpLeaderboard(discordLpBoard);
-        if (discordMasterBoard.length > 0) await discordMessages.updateMasterLeaderboard(discordMasterBoard);
+        if (discordTeamStatsData.length > 0) await discordMessages.updateTeamStatsBoard(discordTeamStatsData);
         if (teamOverviewData.length > 0) await discordMessages.updateTeamOverview(teamOverviewData);
 
         console.log("\n💾 --- PHASE 4: SAVING DATA ---");
-        if (teamsUpdated) {
-            safeSaveJson(TEAMS_PATH, teamsDb);
-            console.log("   ✅ teams.json updated with Live Account Data.");
-        }
-
-        if (cacheUpdated) {
-            safeSaveJson(STATE_PATH, playerState);
-            console.log("   ✅ player_state.json cache updated.");
-        }
-
+        if (teamsUpdated) safeSaveJson(TEAMS_PATH, teamsDb);
+        if (cacheUpdated) safeSaveJson(STATE_PATH, playerState);
         safeSaveJson(EXPORT_PATH, exportData);
-        console.log("   ✅ data.json (Website Export) generated safely.");
-
+        
         console.log("\n🎉 Engine Run Complete! All systems nominal.");
     } catch (error) {
         console.error("\n❌ Fatal Engine Error:", error);
