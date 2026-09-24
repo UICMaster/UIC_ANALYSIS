@@ -135,8 +135,12 @@ async function updateTeamStatsBoard(teamStatsData) {
     const formatRank = (rankData) => {
         if (!rankData || !rankData.tier) return "Unranked";
         const tier = rankData.tier.charAt(0).toUpperCase() + rankData.tier.slice(1).toLowerCase();
-        // SyntaxError fixed on the line below!
-        return `${tier} ${rankData.rank \vert{}\vert{} ""} (${rankData.lp !== undefined ? rankData.lp : 0} LP)`.trim();
+        
+        // Fully bulletproof extraction to avoid Markdown syntax issues
+        const cleanRank = rankData.rank ? rankData.rank : "";
+        const cleanLp = rankData.lp !== undefined ? rankData.lp : 0;
+        
+        return `${tier} ${cleanRank} (${cleanLp} LP)`.trim();
     };
 
     const formatVal = (val, isPlus = false) => {
@@ -153,7 +157,6 @@ async function updateTeamStatsBoard(teamStatsData) {
             const m = p.metrics;
             let statsText = "";
 
-            // YAML spacing aligned properly for Discord monospace grids
             if (p.role === "TOP") {
                 statsText = `GD@15:   ${formatVal(m.gd15, true)}\nDPG:${m.dpg.toFixed(2)}\nDMG Mit: ${formatVal(m.dmgMitigated)}\nKP:${formatVal(m.kp)}%`;
             } else if (p.role === "JGL") {
