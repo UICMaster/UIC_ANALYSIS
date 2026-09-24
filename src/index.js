@@ -64,7 +64,7 @@ async function runEngine() {
         const currentPatch = await riotApi.getLatestPatch();
         
         let discordLpBoard = [];
-        let discordTeamStatsData = []; // NEW: Groups stats per team instead of a global leaderboard
+        let discordTeamStatsData = []; 
         let teamOverviewData = []; 
         let exportData = {}; 
 
@@ -74,8 +74,6 @@ async function runEngine() {
 
             console.log(`\n🛡️ Processing Group: ${teamInfo.teamDisplay}`);
             let currentTeamData = { teamDisplay: teamInfo.teamDisplay, roster: [], activeRanks: [] };
-            
-            // NEW: Prepare the payload for this specific team's stats
             let currentTeamStats = { teamDisplay: teamInfo.teamDisplay, players: [] };
             
             const roster = Array.isArray(teamInfo.roster) ? teamInfo.roster : [];
@@ -114,7 +112,7 @@ async function runEngine() {
                     }
                     exportData[teamKey].push({
                         playerId: player.playerId || "0000", name: player.gameName, role: player.role,
-                        level: summonerData ? summonerData.summonerLevel : 0, tier: rankData ? `${rankData.tier} ${rankData.rank}` : "UNRANKED",
+                        level: summonerData ? summonerData.summonerLevel : 0, tier: rankData ? `${rankData.tier}${rankData.rank}` : "UNRANKED",
                         lp: rankData ? rankData.lp : 0, wins: rankData ? rankData.wins : 0, losses: rankData ? rankData.losses : 0,
                         winRate: winRate, icon: summonerData ? `https://ddragon.leagueoflegends.com/cdn/${currentPatch}/img/profileicon/${summonerData.profileIconId}.png` : null
                     });
@@ -134,13 +132,15 @@ async function runEngine() {
                 if (newMatchIds.length === 0) {
                     console.log(`   ⏭️ Skipped Riot Fetch for ${player.gameName} (No new games)`);
                     if (cachedState.gd15 !== undefined) {
-                        // Push cached raw stats into the team dashboard array
-                        currentTeamStats.players.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, metrics: cachedState });
+                        currentTeamStats.players.push({ 
+                            gameName: player.gameName, tagLine: player.tagLine, role: player.role, 
+                            metrics: cachedState, rankData: rankData 
+                        });
                     }
                     continue; 
                 }
 
-                console.log(`   🔄 Fetching ${newMatchIds.length} new match(es) for ${player.gameName}...`);
+                console.log(`   🔄 Fetching ${newMatchIds.length} new match(es) for${player.gameName}...`);
                 let matchDatas = [];
                 let timelineDatas = [];
 
@@ -158,15 +158,16 @@ async function runEngine() {
                 const metrics = analytics.calculateDiscordStats(player.puuid, matchDatas, timelineDatas, player.role, cachedState);
                 
                 if (metrics) {
-                    // Push newly calculated raw stats into the team dashboard array
-                    currentTeamStats.players.push({ gameName: player.gameName, tagLine: player.tagLine, role: player.role, metrics: metrics });
+                    currentTeamStats.players.push({ 
+                        gameName: player.gameName, tagLine: player.tagLine, role: player.role, 
+                        metrics: metrics, rankData: rankData 
+                    });
                     playerState[player.puuid].processedMatches = matchIds; 
                     Object.assign(playerState[player.puuid], metrics);
                 }
                 cacheUpdated = true;
             }
             
-            // Add the team's dashboard to the array if it has players
             if (currentTeamStats.players.length > 0) {
                 discordTeamStatsData.push(currentTeamStats);
             }
