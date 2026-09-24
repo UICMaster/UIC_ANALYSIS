@@ -2697,5 +2697,34 @@
     "combat": 39,
     "macro": 40,
     "survivability": 64
+  },
+  "_Fzw8munZSayiskhk4DoEYv6y3bEJkQaTj4MfzChFIB5m77mejL2RZZjdknpqbmvfBfM2RRC9udbRg": {
+    "processedMatches": [
+      "EUW1_7992292180",
+      "EUW1_7991371418",
+      "EUW1_7991380597",
+      "EUW1_7991359423",
+      "EUW1_7990973512",
+      "EUW1_7989983064",
+      "EUW1_7987251834",
+      "EUW1_7987237350",
+      "EUW1_7985324617",
+      "EUW1_7985308414",
+      "EUW1_7984072405",
+      "EUW1_7984031035",
+      "EUW1_7982802317",
+      "EUW1_7980423803",
+      "EUW1_7980366283",
+      "EUW1_7977310680",
+      "EUW1_7977280742",
+      "EUW1_7977238358",
+      "EUW1_7976047163",
+      "EUW1_7975628119"
+    ],
+    "ovr": 54,
+    "laning": 53,
+    "combat": 63,
+    "macro": 44,
+    "survivability": 53
   }
 }
