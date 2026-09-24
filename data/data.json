@@ -395,16 +395,16 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/5982.png"
     },
     {
-      "playerId": "0010",
-      "name": "UIC Regentropfen",
+      "playerId": "0034",
+      "name": "UIC Rellik",
       "role": "MID",
-      "level": 1100,
-      "tier": "DIAMOND II",
-      "lp": 58,
-      "wins": 573,
-      "losses": 593,
-      "winRate": 49.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6284.png"
+      "level": 694,
+      "tier": "EMERALD II",
+      "lp": 61,
+      "wins": 167,
+      "losses": 155,
+      "winRate": 51.9,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7168.png"
     },
     {
       "playerId": "0011",
@@ -691,16 +691,16 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3840.png"
     },
     {
-      "playerId": "0034",
-      "name": "UIC Rellik",
+      "playerId": "0110",
+      "name": "xauberdave",
       "role": "MID",
-      "level": 694,
-      "tier": "EMERALD II",
-      "lp": 61,
-      "wins": 167,
-      "losses": 155,
-      "winRate": 51.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7168.png"
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": null
     },
     {
       "playerId": "0035",
@@ -715,9 +715,33 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/5726.png"
     },
     {
+      "playerId": "0111",
+      "name": "Pavus",
+      "role": "SUP",
+      "level": 551,
+      "tier": "DIAMOND II",
+      "lp": 20,
+      "wins": 50,
+      "losses": 54,
+      "winRate": 48.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4884.png"
+    },
+    {
+      "playerId": "0112",
+      "name": "Askir",
+      "role": "BOT",
+      "level": 1396,
+      "tier": "MASTER I",
+      "lp": 600,
+      "wins": 209,
+      "losses": 192,
+      "winRate": 52.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3020.png"
+    },
+    {
       "playerId": "0036",
       "name": "UIC Panda",
-      "role": "SUP",
+      "role": "MNG",
       "level": 806,
       "tier": "UNRANKED",
       "lp": 0,
