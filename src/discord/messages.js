@@ -19,10 +19,6 @@ const RANK_EMOJIS = {
     "IRON": "<:iron:1501325151466422282>", "UNRANKED": "<:unranked:1501325256227553362>"
 };
 
-const ROLE_ICONS = {
-    "TOP": "🛡️", "JGL": "🌲", "MID": "🔥", "BOT": "🏹", "SUP": "✨"
-};
-
 async function discordFetch(endpoint, method = 'GET', body = null, retries = 3) {
     if (!BOT_TOKEN) return null;
     if (retries <= 0) return null;
@@ -123,7 +119,7 @@ async function updateLpLeaderboard(data) {
         return {
             spieler: `**${rank}.** ${p.gameName}#${p.tagLine}`,
             team: p.team || "-",
-            wertung: `${emoji} ${p.tier ? capitalize(p.tier) : "Unranked"} ${p.rank ? p.rank : ""} ${p.lp !== undefined ? `(${p.lp} LP)` : ""}`.trim()
+            wertung: `${emoji}${p.tier ? capitalize(p.tier) : "Unranked"} ${p.rank ? p.rank : ""} ${p.lp !== undefined ? `(${p.lp} LP)` : ""}`.trim()
         };
     });
     console.log(`   ✅ [Discord] Updated LP Leaderboard`);
@@ -134,41 +130,74 @@ async function updateTeamStatsBoard(teamStatsData) {
     if (!CH_LEADERBOARD || teamStatsData.length === 0) return;
     
     let embeds = [];
-
-    // Role-specific formatting templates so players see the data that matters most to their position
-    const roleFormatter = {
-        "TOP": (m) => `GD@15: ${m.gd15>0?'+':''}${Math.round(m.gd15)} | DPG: ${m.dpg.toFixed(2)} | DMG Mit: ${Math.round(m.dmgMitigated)} | KP: ${Math.round(m.kp)}%`,
-        "JGL": (m) => `GD@15: ${m.gd15>0?'+':''}${Math.round(m.gd15)} | KP: ${Math.round(m.kp)}% | VSPM: ${m.vspm.toFixed(2)} | DPG: ${m.dpg.toFixed(2)}`,
-        "MID": (m) => `GD@15: ${m.gd15>0?'+':''}${Math.round(m.gd15)} | DPG: ${m.dpg.toFixed(2)} | KP: ${Math.round(m.kp)}% | VSPM: ${m.vspm.toFixed(2)}`,
-        "BOT": (m) => `GD@15: ${m.gd15>0?'+':''}${Math.round(m.gd15)} | DPG: ${m.dpg.toFixed(2)} | KP: ${Math.round(m.kp)}% | GD@14: ${m.gd14>0?'+':''}${Math.round(m.gd14)}`,
-        "SUP": (m) => `VSPM: ${m.vspm.toFixed(2)} | HSP: ${Math.round(m.hsp)} | KP: ${Math.round(m.kp)}% | GD@15: ${m.gd15>0?'+':''}${Math.round(m.gd15)}`
-    };
-
-    // Sort roles in standard order for the embed display
     const roleOrder = ["TOP", "JGL", "MID", "BOT", "SUP"];
 
+    const formatRank = (rankData) => {
+        if (!rankData || !rankData.tier) return "Unranked";
+        const tier = rankData.tier.charAt(0).toUpperCase() + rankData.tier.slice(1).toLowerCase();
+        return `${tier} ${rankData.rank \vert{}\vert{} ""} (${rankData.lp !== undefined ? rankData.lp : 0} LP)`.trim();
+    };
+
+    const formatVal = (val, isPlus = false) => {
+        const num = Math.round(val);
+        return (isPlus && num > 0) ? `+${num}` : `${num}`;
+    };
+
     for (const team of teamStatsData) {
-        let dashboardText = "";
+        let teamFields = [];
         
         team.players.sort((a, b) => roleOrder.indexOf(a.role) - roleOrder.indexOf(b.role));
 
         team.players.forEach(p => {
-            const icon = ROLE_ICONS[p.role] || "👤";
-            const formatter = roleFormatter[p.role] || roleFormatter["MID"];
-            dashboardText += `**${icon} ${p.gameName}**\n\`${formatter(p.metrics)}\`\n\n`;
+            const m = p.metrics;
+            let statsText = "";
+
+            if (p.role === "TOP") {
+                statsText = `GD@15:   ${formatVal(m.gd15, true)}\nDPG:${m.dpg.toFixed(2)}\nDMG Mit: ${formatVal(m.dmgMitigated)}\nKP:${formatVal(m.kp)}%`;
+            } else if (p.role === "JGL") {
+                statsText = `GD@15:   ${formatVal(m.gd15, true)}\nKP:${formatVal(m.kp)}%\nVSPM:    ${m.vspm.toFixed(2)}\nDPG:${m.dpg.toFixed(2)}`;
+            } else if (p.role === "MID") {
+                statsText = `GD@15:   ${formatVal(m.gd15, true)}\nDPG:${m.dpg.toFixed(2)}\nKP:      ${formatVal(m.kp)}\%\nVSPM:${m.vspm.toFixed(2)}`;
+            } else if (p.role === "BOT") {
+                statsText = `GD@15:   ${formatVal(m.gd15, true)}\nDPG:${m.dpg.toFixed(2)}\nKP:      ${formatVal(m.kp)}\%\nCSD@14:${formatVal(m.csd14, true)}`;
+            } else if (p.role === "SUP") {
+                statsText = `VSPM:    ${m.vspm.toFixed(2)}\nHSP:${formatVal(m.hsp)}\nKP:      ${formatVal(m.kp)}\%\nGD@15:${formatVal(m.gd15, true)}`;
+            } else {
+                statsText = `GD@15:   ${formatVal(m.gd15, true)}\nDPG:${m.dpg.toFixed(2)}\nKP:      ${formatVal(m.kp)}\%\nVSPM:${m.vspm.toFixed(2)}`;
+            }
+
+            teamFields.push({
+                name: `[${p.role}]${p.gameName}`,
+                value: `*${formatRank(p.rankData)}*\n\`\`\`yaml\n${statsText}\n\`\`\``,
+                inline: true
+            });
         });
 
         embeds.push({
             title: `${team.teamDisplay} - Raw Stats (Letzte 10 SoloQ)`,
-            description: dashboardText,
             color: UIC_COLOR,
+            fields: teamFields,
             footer: { text: "Bereitgestellt durch UIC" },
             timestamp: new Date().toISOString()
         });
     }
 
+    embeds.push({
+        title: "Legende & Benchmarks (Einordnung der Raw Stats)",
+        description: "Ein kurzer Guide, um die eigenen Metriken besser einordnen zu können. \n*Achtung: Werte wie HSP und DMG Mitigated sind extrem Champion-abhängig!*",
+        color: 0xFFAA00,
+        fields: [
+            { name: "GD@15 (Gold) / CSD@14 (CS Diff)", value: "Dein Vorsprung in der Laning-Phase.\n`GD > +300` = Solide (ca. 1 Kill vorn).\n`CSD > +15` = Deutlicher Farm-Lead." },
+            { name: "DPG (Damage Per Gold)", value: "Effizienz: Wie viel Schaden machst du mit deinem Gold?\n`~1.0` = Durchschnitt.\n`> 1.3` = Starker Carry (ADC/Mid)." },
+            { name: "VSPM (Vision Score per Minute)", value: "Laner: `~1.0`.\nSup/Jgl: `> 2.0` (Top-Tier Supports peilen `> 2.5` an)." },
+            { name: "KP (Kill Participation)", value: "Kills + Assists an den Teamkills.\nLaner: `> 50%`. Jungler & Supports: `> 60%`." },
+            { name: "HSP (Heal & Shield) / DMG Mit (Absorb)", value: "HSP: Enchanter (Lulu/Soraka) oft `8.000+`. Engage-Sups `< 1.000`.\nDMG Mit: Tanks/Bruiser absorbieren locker `25.000+`." }
+        ],
+        footer: { text: "Bereitgestellt durch UIC" }
+    });
+
     await updateOrPostMessage(CH_LEADERBOARD, embeds);
-    console.log(`   ✅ [Discord] Updated Team Raw Stats Dashboards`);
+    console.log(`   ✅ [Discord] Updated Team Raw Stats Dashboards & Explainer`);
 }
 
 // ----------------- TEAM DIRECTORY OVERVIEW -----------------
@@ -197,7 +226,7 @@ async function updateTeamOverview(teamOverviewData) {
 
         embeds.push({
             title: team.teamDisplay || "Unbekanntes Team", 
-            description: roster.length > 0 ? `**[OP.GG Multi-Search öffnen](${multiSearchUrl})**` : "",
+            description: roster.length > 0 ? `🔎 **[Team OP.GG Multi-Search öffnen](${multiSearchUrl})**` : "",
             color: UIC_COLOR,
             fields: [ 
                 { name: "Kader", value: nameColumn || "-", inline: true }, 
