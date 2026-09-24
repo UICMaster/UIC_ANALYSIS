@@ -92,10 +92,10 @@
       "role": "MID",
       "level": 942,
       "tier": "MASTER I",
-      "lp": 963,
-      "wins": 184,
+      "lp": 1047,
+      "wins": 186,
       "losses": 163,
-      "winRate": 53,
+      "winRate": 53.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6629.png"
     },
     {
@@ -178,9 +178,9 @@
       "role": "MID",
       "level": 1007,
       "tier": "MASTER I",
-      "lp": 1512,
-      "wins": 387,
-      "losses": 334,
+      "lp": 1508,
+      "wins": 388,
+      "losses": 335,
       "winRate": 53.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3798.png"
     },
@@ -251,10 +251,10 @@
       "name": "UIC Levin2Go",
       "role": "MID",
       "level": 1285,
-      "tier": "DIAMOND II",
-      "lp": 3,
-      "wins": 390,
-      "losses": 419,
+      "tier": "DIAMOND III",
+      "lp": 99,
+      "wins": 392,
+      "losses": 421,
       "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6934.png"
     },
@@ -276,9 +276,9 @@
       "role": "SUP",
       "level": 969,
       "tier": "DIAMOND IV",
-      "lp": 93,
-      "wins": 185,
-      "losses": 178,
+      "lp": 92,
+      "wins": 187,
+      "losses": 180,
       "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3901.png"
     },
@@ -314,10 +314,10 @@
       "role": "JGL",
       "level": 516,
       "tier": "MASTER I",
-      "lp": 593,
-      "wins": 618,
-      "losses": 615,
-      "winRate": 50.1,
+      "lp": 620,
+      "wins": 620,
+      "losses": 616,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7212.png"
     },
     {
@@ -371,16 +371,16 @@
   ],
   "eclipse": [
     {
-      "playerId": "0008",
-      "name": "UIC Stafferl",
+      "playerId": "0121",
+      "name": "UIC Undergrinder",
       "role": "TOP",
-      "level": 876,
-      "tier": "DIAMOND III",
-      "lp": 11,
-      "wins": 23,
-      "losses": 33,
-      "winRate": 41.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7011.png"
+      "level": 961,
+      "tier": "EMERALD III",
+      "lp": 45,
+      "wins": 441,
+      "losses": 440,
+      "winRate": 50.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4559.png"
     },
     {
       "playerId": "0009",
@@ -419,16 +419,16 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6582.png"
     },
     {
-      "playerId": "0012",
-      "name": "SomalischerLP",
+      "playerId": "0008",
+      "name": "UIC Stafferl",
       "role": "SUP",
-      "level": 129,
-      "tier": "PLATINUM II",
-      "lp": 5,
-      "wins": 5,
-      "losses": 3,
-      "winRate": 62.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/2074.png"
+      "level": 876,
+      "tier": "DIAMOND III",
+      "lp": 11,
+      "wins": 23,
+      "losses": 33,
+      "winRate": 41.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7011.png"
     }
   ],
   "vakuum": [
@@ -782,9 +782,9 @@
       "role": "MID",
       "level": 512,
       "tier": "PLATINUM III",
-      "lp": 61,
-      "wins": 252,
-      "losses": 267,
+      "lp": 53,
+      "wins": 253,
+      "losses": 268,
       "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/5974.png"
     },
@@ -794,10 +794,10 @@
       "role": "BOT",
       "level": 505,
       "tier": "PLATINUM II",
-      "lp": 19,
-      "wins": 61,
+      "lp": 84,
+      "wins": 64,
       "losses": 52,
-      "winRate": 54,
+      "winRate": 55.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4545.png"
     },
     {
@@ -856,10 +856,10 @@
       "role": "MID",
       "level": 632,
       "tier": "PLATINUM II",
-      "lp": 94,
+      "lp": 31,
       "wins": 232,
-      "losses": 223,
-      "winRate": 51,
+      "losses": 226,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7216.png"
     },
     {
@@ -918,10 +918,10 @@
       "role": "JGL",
       "level": 985,
       "tier": "DIAMOND IV",
-      "lp": 93,
+      "lp": 75,
       "wins": 84,
-      "losses": 75,
-      "winRate": 52.8,
+      "losses": 76,
+      "winRate": 52.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6497.png"
     },
     {
@@ -941,11 +941,11 @@
       "name": "UIC GroßATuin",
       "role": "MID",
       "level": 646,
-      "tier": "DIAMOND IV",
-      "lp": 7,
+      "tier": "EMERALD I",
+      "lp": 50,
       "wins": 465,
-      "losses": 438,
-      "winRate": 51.5,
+      "losses": 441,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/23.png"
     },
     {
@@ -990,10 +990,10 @@
       "role": "SUP",
       "level": 595,
       "tier": "GOLD II",
-      "lp": 24,
-      "wins": 164,
-      "losses": 175,
-      "winRate": 48.4,
+      "lp": 41,
+      "wins": 166,
+      "losses": 176,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7064.png"
     }
   ],
@@ -1016,10 +1016,10 @@
       "role": "JGL",
       "level": 431,
       "tier": "EMERALD III",
-      "lp": 97,
+      "lp": 76,
       "wins": 235,
-      "losses": 226,
-      "winRate": 51,
+      "losses": 227,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7028.png"
     },
     {
