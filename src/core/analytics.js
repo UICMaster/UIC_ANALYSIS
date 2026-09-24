@@ -1,30 +1,12 @@
 /**
  * src/core/analytics.js
- * Professionelle Esports-Analytics Engine mit Z-Score Normalisierung.
- * Pure SoloQ Discord OVR Edition (Delta-Cache Optimized).
+ * Raw Data Extractor - Pure SoloQ Discord Dashboard Edition
  */
 
 const RIOT_ROLE_MAP = {
     "TOP": "TOP", "JUNGLE": "JGL", "MIDDLE": "MID", "BOTTOM": "BOT", "UTILITY": "SUP",
     "JGL": "JGL", "MID": "MID", "BOT": "BOT", "SUP": "SUP"
 };
-
-const BASELINES = {
-    TOP: { gd_15: { m: 0, s: 1500 }, dpg: { m: 1.2, s: 0.35 }, de: { m: 0.02, s: 0.05 }, ss: { m: 0.80, s: 0.08 }, vspm: { m: 1.4, s: 0.5 }, cc: { m: 18, s: 12 }, kp: { m: 48, s: 10 }, obj: { m: 0.15, s: 0.08 }, hsp: { m: 1000, s: 1500 }, smd: { m: 25000, s: 10000 }, dt2d: { m: 4000, s: 1500 }, dtp: { m: 0.28, s: 0.05 } },
-    JGL: { gd_15: { m: 0, s: 1200 }, dpg: { m: 0.9, s: 0.25 }, de: { m: -0.04, s: 0.05 }, ss: { m: 0.80, s: 0.08 }, vspm: { m: 2.2, s: 0.7 }, cc: { m: 28, s: 18 }, kp: { m: 65, s: 12 }, obj: { m: 0.45, s: 0.15 }, hsp: { m: 1500, s: 2000 }, smd: { m: 20000, s: 8000 }, dt2d: { m: 3500, s: 1200 }, dtp: { m: 0.25, s: 0.05 } },
-    MID: { gd_15: { m: 0, s: 1300 }, dpg: { m: 1.45, s: 0.4 }, de: { m: 0.06, s: 0.05 }, ss: { m: 0.78, s: 0.08 }, vspm: { m: 1.5, s: 0.5 }, cc: { m: 20, s: 14 }, kp: { m: 58, s: 11 }, obj: { m: 0.15, s: 0.08 }, hsp: { m: 1000, s: 1500 }, smd: { m: 10000, s: 5000 }, dt2d: { m: 2500, s: 800 }, dtp: { m: 0.15, s: 0.04 } },
-    BOT: { gd_15: { m: 0, s: 1600 }, dpg: { m: 1.65, s: 0.45 }, de: { m: 0.08, s: 0.05 }, ss: { m: 0.82, s: 0.08 }, vspm: { m: 1.3, s: 0.4 }, cc: { m: 12, s: 8 },  kp: { m: 52, s: 10 }, obj: { m: 0.20, s: 0.10 }, hsp: { m: 500,  s: 800  }, smd: { m: 8000, s: 3000 }, dt2d: { m: 2000, s: 600 }, dtp: { m: 0.12, s: 0.03 } },
-    SUP: { gd_15: { m: 0, s: 800 },  dpg: { m: 0.45, s: 0.2 }, de: { m: -0.10, s: 0.05 }, ss: { m: 0.80, s: 0.08 }, vspm: { m: 3.8, s: 1.4 }, cc: { m: 40, s: 25 }, kp: { m: 68, s: 13 }, obj: { m: 0.05, s: 0.05 }, hsp: { m: 6000, s: 5000 }, smd: { m: 15000, s: 8000 }, dt2d: { m: 3000, s: 1000 }, dtp: { m: 0.20, s: 0.05 } }
-};
-
-function clamp(val, min, max) { return Math.max(min, Math.min(max, val)); }
-
-function normalize(val, baseline) {
-    if (!baseline) return 50;
-    const z = (val - baseline.m) / baseline.s;
-    const n_raw = (z * 15) + 50;
-    return clamp(n_raw, 0, 100);
-}
 
 function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, expectedRole, cachedState = null) {
     const deltaResult = calculateRawMetrics(targetPuuid, matchDataArray, timelineDataArray, expectedRole);
@@ -35,18 +17,21 @@ function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, e
     const newCount = deltaResult.count;
     const ROLLING_WINDOW = 10; 
 
-    if (!cachedState || !cachedState.ovr || newCount >= ROLLING_WINDOW) {
+    if (!cachedState || cachedState.gd15 === undefined || newCount >= ROLLING_WINDOW) {
         return newMetrics;
     }
 
     const oldWeight = ROLLING_WINDOW - newCount;
 
+    // Weighted moving average for pure raw stats
     return {
-        ovr: clamp(Math.round(((cachedState.ovr * oldWeight) + (newMetrics.ovr * newCount)) / ROLLING_WINDOW), 0, 100),
-        laning: clamp(Math.round(((cachedState.laning * oldWeight) + (newMetrics.laning * newCount)) / ROLLING_WINDOW), 0, 100),
-        combat: clamp(Math.round(((cachedState.combat * oldWeight) + (newMetrics.combat * newCount)) / ROLLING_WINDOW), 0, 100),
-        macro: clamp(Math.round(((cachedState.macro * oldWeight) + (newMetrics.macro * newCount)) / ROLLING_WINDOW), 0, 100),
-        survivability: clamp(Math.round(((cachedState.survivability * oldWeight) + (newMetrics.survivability * newCount)) / ROLLING_WINDOW), 0, 100)
+        gd14: ((cachedState.gd14 || 0) * oldWeight + (newMetrics.gd14 * newCount)) / ROLLING_WINDOW,
+        gd15: ((cachedState.gd15 || 0) * oldWeight + (newMetrics.gd15 * newCount)) / ROLLING_WINDOW,
+        dpg: ((cachedState.dpg || 0) * oldWeight + (newMetrics.dpg * newCount)) / ROLLING_WINDOW,
+        kp: ((cachedState.kp || 0) * oldWeight + (newMetrics.kp * newCount)) / ROLLING_WINDOW,
+        vspm: ((cachedState.vspm || 0) * oldWeight + (newMetrics.vspm * newCount)) / ROLLING_WINDOW,
+        hsp: ((cachedState.hsp || 0) * oldWeight + (newMetrics.hsp * newCount)) / ROLLING_WINDOW,
+        dmgMitigated: ((cachedState.dmgMitigated || 0) * oldWeight + (newMetrics.dmgMitigated * newCount)) / ROLLING_WINDOW
     };
 }
 
@@ -64,18 +49,15 @@ function calculateRawMetrics(targetPuuid, matchDataArray, timelineDataArray, exp
         const rawRiotPosition = me.teamPosition || "MIDDLE";
         const mappedRole = RIOT_ROLE_MAP[rawRiotPosition] || "MID"; 
         
-        if (mappedRole === expectedRole) {
-            if (validMatches.length < 10) {
-                validMatches.push(m);
-                validTimelines.push(timelineDataArray[idx]);
-            }
+        if (mappedRole === expectedRole && validMatches.length < 10) {
+            validMatches.push(m);
+            validTimelines.push(timelineDataArray[idx]);
         }
     });
 
     if (validMatches.length === 0) return null;
 
-    let gameScores = { ovr: [], laning: [], combat: [], macro: [], survivability: [] };
-    const bl = BASELINES[expectedRole] || BASELINES.MID;
+    let stats = { gd14: [], gd15: [], dpg: [], kp: [], vspm: [], hsp: [], dmgMitigated: [] };
 
     validMatches.forEach((match, idx) => {
         const info = match.info;
@@ -85,80 +67,51 @@ function calculateRawMetrics(targetPuuid, matchDataArray, timelineDataArray, exp
 
         const myTeam = info.participants.filter(p => p.teamId === me.teamId);
         const teamKills = myTeam.reduce((sum, p) => sum + p.kills, 0);
-        const teamDeaths = myTeam.reduce((sum, p) => sum + p.deaths, 0);
-        const teamDamage = myTeam.reduce((sum, p) => sum + p.totalDamageDealtToChampions, 0);
-        const teamGold = myTeam.reduce((sum, p) => sum + p.goldEarned, 0);
 
-        const dmgShare = me.totalDamageDealtToChampions / (teamDamage || 1);
-        const goldShare = me.goldEarned / (teamGold || 1);
-        const objDmgShare = me.damageDealtToObjectives / (info.participants.reduce((s, p) => s + p.damageDealtToObjectives, 0) || 1);
-
+        let gd14 = 0;
         let gd15 = 0;
-        if (timeline && timeline.info && timeline.info.frames && timeline.info.frames.length > 15) {
-            const frame15 = timeline.info.frames[15];
+        if (timeline && timeline.info && timeline.info.frames) {
             const enemy = info.participants.find(p => p.teamId !== me.teamId && p.teamPosition === me.teamPosition);
-            if (enemy && frame15 && frame15.participantFrames) {
-                const myG = frame15.participantFrames[me.participantId.toString()]?.totalGold || 0;
-                const enG = frame15.participantFrames[enemy.participantId.toString()]?.totalGold || 0;
-                gd15 = myG - enG;
+            if (enemy) {
+                const frame14 = timeline.info.frames[14];
+                if (frame14 && frame14.participantFrames) {
+                    gd14 = (frame14.participantFrames[me.participantId.toString()]?.totalGold || 0) - 
+                           (frame14.participantFrames[enemy.participantId.toString()]?.totalGold || 0);
+                }
+                const frame15 = timeline.info.frames[15];
+                if (frame15 && frame15.participantFrames) {
+                    gd15 = (frame15.participantFrames[me.participantId.toString()]?.totalGold || 0) - 
+                           (frame15.participantFrames[enemy.participantId.toString()]?.totalGold || 0);
+                }
             }
         }
 
-        let Laning = normalize(gd15, bl.gd_15);
+        const dpg = me.totalDamageDealtToChampions / (me.goldEarned || 1);
+        const kp_pct = teamKills > 0 ? ((me.kills + me.assists) / teamKills) * 100 : 0;
+        const vspm = me.visionScore / gameMins;
+        const hsp = (me.totalHealsOnTeammates || 0) + (me.totalDamageShieldedOnTeammates || 0);
+        const dmgMitigated = me.damageSelfMitigated || 0;
 
-        const delta_econ = dmgShare - goldShare;
-        const n_delta_econ = normalize(delta_econ, bl.de);
-        const n_dpg = normalize(me.totalDamageDealtToChampions / (me.goldEarned || 1), bl.dpg);
-        const kp_pct = teamKills > 0 ? (me.kills + me.assists) / teamKills : 0;
-        
-        let Combat = (0.40 * n_delta_econ) + (0.35 * n_dpg) + (0.25 * normalize(kp_pct * 100, bl.kp));
-
-        const healShield = (me.totalHealsOnTeammates || 0) + (me.totalDamageShieldedOnTeammates || 0);
-        const primaryUtility = Math.max(normalize(me.timeCCingOthers, bl.cc), normalize(healShield, bl.hsp));
-        const secondaryUtility = Math.min(normalize(me.timeCCingOthers, bl.cc), normalize(healShield, bl.hsp));
-        const blendedUtility = (0.6 * primaryUtility) + (0.4 * secondaryUtility);
-
-        let Macro = (0.45 * normalize(me.visionScore / gameMins, bl.vspm)) + (0.35 * blendedUtility) + (0.20 * normalize(objDmgShare, bl.obj));
-
-        const dt2d_adj = me.totalDamageTaken / (me.deaths + 1); 
-        const survival_share = clamp(1 - (me.deaths / (teamDeaths || 1)), 0, 1);
-        const positioning_score = normalize(survival_share, bl.ss); 
-
-        let Survivability = (0.35 * normalize(me.damageSelfMitigated, bl.smd)) + 
-                            (0.35 * normalize(dt2d_adj, bl.dt2d)) + 
-                            (0.30 * positioning_score);
-
-        let OVR = 0;
-        if (expectedRole === "TOP") {
-            OVR = (0.30 * Laning) + (0.30 * Combat) + (0.15 * Macro) + (0.25 * Survivability);
-        } else if (expectedRole === "JGL") {
-            OVR = (0.15 * Laning) + (0.25 * Combat) + (0.35 * Macro) + (0.25 * Survivability);
-        } else if (expectedRole === "MID") {
-            OVR = (0.25 * Laning) + (0.35 * Combat) + (0.25 * Macro) + (0.15 * Survivability);
-        } else if (expectedRole === "BOT") {
-            OVR = (0.30 * Laning) + (0.45 * Combat) + (0.10 * Macro) + (0.15 * Survivability);
-        } else if (expectedRole === "SUP") {
-            OVR = (0.15 * Laning) + (0.15 * Combat) + (0.50 * Macro) + (0.20 * Survivability);
-        }
-
-        gameScores.laning.push(Laning);
-        gameScores.combat.push(Combat);
-        gameScores.macro.push(Macro);
-        gameScores.survivability.push(Survivability);
-        gameScores.ovr.push(OVR);
+        stats.gd14.push(gd14);
+        stats.gd15.push(gd15);
+        stats.dpg.push(dpg);
+        stats.kp.push(kp_pct);
+        stats.vspm.push(vspm);
+        stats.hsp.push(hsp);
+        stats.dmgMitigated.push(dmgMitigated);
     });
 
-    if (gameScores.ovr.length === 0) return null;
-
-    const avg = arr => Math.round(arr.reduce((a, b) => a + b, 0) / arr.length);
+    const avg = arr => arr.reduce((a, b) => a + b, 0) / arr.length;
 
     return {
         metrics: {
-            ovr: clamp(avg(gameScores.ovr), 0, 100),
-            laning: clamp(avg(gameScores.laning), 0, 100), 
-            combat: clamp(avg(gameScores.combat), 0, 100),
-            macro: clamp(avg(gameScores.macro), 0, 100),
-            survivability: clamp(avg(gameScores.survivability), 0, 100)
+            gd14: avg(stats.gd14),
+            gd15: avg(stats.gd15),
+            dpg: avg(stats.dpg),
+            kp: avg(stats.kp),
+            vspm: avg(stats.vspm),
+            hsp: avg(stats.hsp),
+            dmgMitigated: avg(stats.dmgMitigated)
         },
         count: validMatches.length 
     };
