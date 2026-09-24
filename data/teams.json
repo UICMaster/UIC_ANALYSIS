@@ -370,15 +370,15 @@
     "tier": "Division 6",
     "roster": [
       {
-        "playerId": "0008",
-        "gameName": "UIC Stafferl",
-        "tagLine": "FNC",
+        "playerId": "0121",
+        "gameName": "UIC Undergrinder",
+        "tagLine": "TOP",
         "role": "TOP",
-        "puuid": "BHku01UvPCM0XHTSiZfGdR16RsnGgAd2RvA-B7ZoJbGIOYNFwAjM9e67CqZ2tMF4yW7plzCFT3Akmw",
+        "puuid": "",
         "trackStats": true,
-        "discordId": "262628424135213056",
+        "discordId": "274281672617492482",
         "rosterStatus": "starter",
-        "isCaptain": true
+        "isCaptain": false
       },
       {
         "playerId": "0009",
@@ -414,15 +414,15 @@
         "isCaptain": false
       },
       {
-        "playerId": "0012",
-        "gameName": "SomalischerLP",
-        "tagLine": "Pirat",
+        "playerId": "0008",
+        "gameName": "UIC Stafferl",
+        "tagLine": "FNC",
         "role": "SUP",
-        "puuid": "t7jf9cwGQrW_VpEOojkquILeUPHWR_XwljvkQ2GeqEno-lugLackSiWAsn-zM051OjBIw7KGPOYU-g",
+        "puuid": "BHku01UvPCM0XHTSiZfGdR16RsnGgAd2RvA-B7ZoJbGIOYNFwAjM9e67CqZ2tMF4yW7plzCFT3Akmw",
         "trackStats": true,
-        "discordId": "289434989861404672",
+        "discordId": "262628424135213056",
         "rosterStatus": "starter",
-        "isCaptain": false
+        "isCaptain": true
       }
     ]
   },
