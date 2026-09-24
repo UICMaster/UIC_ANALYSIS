@@ -392,15 +392,15 @@
         "isCaptain": false
       },
       {
-        "playerId": "0010",
-        "gameName": "UIC Regentropfen",
-        "tagLine": "H2O",
+        "playerId": "0034",
+        "gameName": "UIC Rellik",
+        "tagLine": "CYS",
         "role": "MID",
-        "puuid": "4cqeT6xao6yC3bHq3gxy1urHRIsTjHUwp9jT3FQ3Ip664FyfJsIoIwdzvHq7-SUBqnWOQGIDbRZ02g",
+        "puuid": "fKOByvOyBYcGvcG1VbIDg6bzIbIwrOeh7g06MfvjO2ZQwygs0oRU38SzKEesW3L30zinihHppprPVg",
         "trackStats": true,
-        "discordId": "359390498051457025",
+        "discordId": "201428142898937856",
         "rosterStatus": "starter",
-        "isCaptain": false
+        "isCaptain": true
       },
       {
         "playerId": "0011",
@@ -684,13 +684,13 @@
         "isCaptain": false
       },
       {
-        "playerId": "0034",
-        "gameName": "UIC Rellik",
-        "tagLine": "CYS",
+        "playerId": "0110",
+        "gameName": "xauberdave",
+        "tagLine": "dlmd",
         "role": "MID",
-        "puuid": "fKOByvOyBYcGvcG1VbIDg6bzIbIwrOeh7g06MfvjO2ZQwygs0oRU38SzKEesW3L30zinihHppprPVg",
+        "puuid": "1296703935427510296",
         "trackStats": true,
-        "discordId": "201428142898937856",
+        "discordId": "",
         "rosterStatus": "starter",
         "isCaptain": true
       },
@@ -706,14 +706,36 @@
         "isCaptain": false
       },
       {
+        "playerId": "0111",
+        "gameName": "Pavus",
+        "tagLine": "Zephr",
+        "role": "SUP",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "376114632399650826",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0112",
+        "gameName": "Askir",
+        "tagLine": "Jhin",
+        "role": "BOT",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "127545401204015105",
+        "rosterStatus": "substitute",
+        "isCaptain": false
+      },
+      {
         "playerId": "0036",
         "gameName": "UIC Panda",
         "tagLine": "CSX",
-        "role": "SUP",
+        "role": "MNG",
         "puuid": "H63Ow4JXI3KgT05HWg6q24xi0GeTHrtLN-ypclqi10R452ewY7EXHTBw0paEiyLnYsVNGDSvWsW0hw",
         "trackStats": true,
         "discordId": "465698775638212610",
-        "rosterStatus": "starter",
+        "rosterStatus": "staff",
         "isCaptain": false
       }
     ]
