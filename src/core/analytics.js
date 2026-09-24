@@ -17,15 +17,14 @@ function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, e
     const newCount = deltaResult.count;
     const ROLLING_WINDOW = 10; 
 
-    if (!cachedState || cachedState.gd15 === undefined || newCount >= ROLLING_WINDOW) {
+    if (!cachedState || cachedState.csd14 === undefined || newCount >= ROLLING_WINDOW) {
         return newMetrics;
     }
 
     const oldWeight = ROLLING_WINDOW - newCount;
 
-    // Weighted moving average for pure raw stats
     return {
-        gd14: ((cachedState.gd14 || 0) * oldWeight + (newMetrics.gd14 * newCount)) / ROLLING_WINDOW,
+        csd14: ((cachedState.csd14 || 0) * oldWeight + (newMetrics.csd14 * newCount)) / ROLLING_WINDOW,
         gd15: ((cachedState.gd15 || 0) * oldWeight + (newMetrics.gd15 * newCount)) / ROLLING_WINDOW,
         dpg: ((cachedState.dpg || 0) * oldWeight + (newMetrics.dpg * newCount)) / ROLLING_WINDOW,
         kp: ((cachedState.kp || 0) * oldWeight + (newMetrics.kp * newCount)) / ROLLING_WINDOW,
@@ -57,7 +56,7 @@ function calculateRawMetrics(targetPuuid, matchDataArray, timelineDataArray, exp
 
     if (validMatches.length === 0) return null;
 
-    let stats = { gd14: [], gd15: [], dpg: [], kp: [], vspm: [], hsp: [], dmgMitigated: [] };
+    let stats = { csd14: [], gd15: [], dpg: [], kp: [], vspm: [], hsp: [], dmgMitigated: [] };
 
     validMatches.forEach((match, idx) => {
         const info = match.info;
@@ -68,15 +67,21 @@ function calculateRawMetrics(targetPuuid, matchDataArray, timelineDataArray, exp
         const myTeam = info.participants.filter(p => p.teamId === me.teamId);
         const teamKills = myTeam.reduce((sum, p) => sum + p.kills, 0);
 
-        let gd14 = 0;
+        let csd14 = 0;
         let gd15 = 0;
+        
         if (timeline && timeline.info && timeline.info.frames) {
             const enemy = info.participants.find(p => p.teamId !== me.teamId && p.teamPosition === me.teamPosition);
             if (enemy) {
                 const frame14 = timeline.info.frames[14];
                 if (frame14 && frame14.participantFrames) {
-                    gd14 = (frame14.participantFrames[me.participantId.toString()]?.totalGold || 0) - 
-                           (frame14.participantFrames[enemy.participantId.toString()]?.totalGold || 0);
+                    const myFrame14 = frame14.participantFrames[me.participantId.toString()];
+                    const enFrame14 = frame14.participantFrames[enemy.participantId.toString()];
+                    if (myFrame14 && enFrame14) {
+                        const myCS = (myFrame14.minionsKilled || 0) + (myFrame14.jungleMinionsKilled || 0);
+                        const enCS = (enFrame14.minionsKilled || 0) + (enFrame14.jungleMinionsKilled || 0);
+                        csd14 = myCS - enCS;
+                    }
                 }
                 const frame15 = timeline.info.frames[15];
                 if (frame15 && frame15.participantFrames) {
@@ -92,7 +97,7 @@ function calculateRawMetrics(targetPuuid, matchDataArray, timelineDataArray, exp
         const hsp = (me.totalHealsOnTeammates || 0) + (me.totalDamageShieldedOnTeammates || 0);
         const dmgMitigated = me.damageSelfMitigated || 0;
 
-        stats.gd14.push(gd14);
+        stats.csd14.push(csd14);
         stats.gd15.push(gd15);
         stats.dpg.push(dpg);
         stats.kp.push(kp_pct);
@@ -105,7 +110,7 @@ function calculateRawMetrics(targetPuuid, matchDataArray, timelineDataArray, exp
 
     return {
         metrics: {
-            gd14: avg(stats.gd14),
+            csd14: avg(stats.csd14),
             gd15: avg(stats.gd15),
             dpg: avg(stats.dpg),
             kp: avg(stats.kp),
