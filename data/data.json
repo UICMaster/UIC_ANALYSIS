@@ -116,10 +116,10 @@
       "role": "SUP",
       "level": 766,
       "tier": "MASTERI",
-      "lp": 1330,
-      "wins": 427,
+      "lp": 1414,
+      "wins": 430,
       "losses": 401,
-      "winRate": 51.6,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/1625.png"
     },
     {
@@ -176,12 +176,12 @@
       "playerId": "0088",
       "name": "UIC BL4CKPINKFAN",
       "role": "MID",
-      "level": 1007,
+      "level": 1008,
       "tier": "MASTERI",
-      "lp": 1496,
+      "lp": 1430,
       "wins": 390,
-      "losses": 337,
-      "winRate": 53.6,
+      "losses": 339,
+      "winRate": 53.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3798.png"
     },
     {
@@ -610,10 +610,10 @@
       "role": "MID",
       "level": 793,
       "tier": "MASTERI",
-      "lp": 795,
-      "wins": 306,
+      "lp": 822,
+      "wins": 307,
       "losses": 296,
-      "winRate": 50.8,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/924.png"
     },
     {
@@ -696,10 +696,10 @@
       "role": "MID",
       "level": 746,
       "tier": "MASTERI",
-      "lp": 690,
-      "wins": 178,
+      "lp": 777,
+      "wins": 181,
       "losses": 155,
-      "winRate": 53.5,
+      "winRate": 53.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6251.png"
     },
     {
@@ -756,7 +756,7 @@
       "playerId": "0083",
       "name": "UIC Schlnken",
       "role": "TOP",
-      "level": 865,
+      "level": 866,
       "tier": "PLATINUMII",
       "lp": 87,
       "wins": 20,
@@ -1052,10 +1052,10 @@
       "role": "SUP",
       "level": 960,
       "tier": "DIAMONDIV",
-      "lp": 52,
-      "wins": 135,
+      "lp": 72,
+      "wins": 136,
       "losses": 130,
-      "winRate": 50.9,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7102.png"
     }
   ]
