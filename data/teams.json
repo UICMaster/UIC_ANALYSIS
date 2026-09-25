@@ -162,17 +162,6 @@
         "isCaptain": false
       },
       {
-        "playerId": "0084",
-        "gameName": "UIC Xaverseltsam",
-        "tagLine": "TTV",
-        "role": "JGL",
-        "puuid": "LVBIOhLQvPNK-le_nqzf9bQ5VRtgH-HvY_RnECyVKMIVE5mdjt1y3qeEyGaB9ybbZHoRVFKzIs8MfQ",
-        "trackStats": true,
-        "discordId": "382549209171230731",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
         "playerId": "0088",
         "gameName": "UIC BL4CKPINKFAN",
         "tagLine": "FLOW",
@@ -204,6 +193,17 @@
         "discordId": "189346815508742144",
         "rosterStatus": "starter",
         "isCaptain": true
+      },
+      {
+        "playerId": "0084",
+        "gameName": "UIC Xaverseltsam",
+        "tagLine": "TTV",
+        "role": "JGL",
+        "puuid": "LVBIOhLQvPNK-le_nqzf9bQ5VRtgH-HvY_RnECyVKMIVE5mdjt1y3qeEyGaB9ybbZHoRVFKzIs8MfQ",
+        "trackStats": true,
+        "discordId": "382549209171230731",
+        "rosterStatus": "substitute",
+        "isCaptain": false
       },
       {
         "playerId": "0071",
@@ -443,13 +443,13 @@
         "isCaptain": false
       },
       {
-        "playerId": "0014",
-        "gameName": "UIC Hunter",
-        "tagLine": "UIC",
+        "playerId": "0016",
+        "gameName": "UIC Inferno",
+        "tagLine": "Clown",
         "role": "JGL",
-        "puuid": "zniAKhakLc_ZbCQPb5d0CEHLQzmehZ6pNm6v4I5UtTroCm_NPkw48TN0d72snbpY2r0N3ZZqX4M2sA",
+        "puuid": "",
         "trackStats": true,
-        "discordId": "478557851921416202",
+        "discordId": "313229078838902785",
         "rosterStatus": "starter",
         "isCaptain": false
       },
@@ -465,13 +465,13 @@
         "isCaptain": true
       },
       {
-        "playerId": "0016",
-        "gameName": "UIC Painfull",
+        "playerId": "0014",
+        "gameName": "UIC Hunter",
         "tagLine": "UIC",
         "role": "BOT",
-        "puuid": "JKgT-4oENsnSHzsqL9MmFeEFIyrrdj-kfe9pRt6mDQTnZrBvPl4rt4iRGeZJhBkSgT-GwnFZZnQ9Gw",
+        "puuid": "zniAKhakLc_ZbCQPb5d0CEHLQzmehZ6pNm6v4I5UtTroCm_NPkw48TN0d72snbpY2r0N3ZZqX4M2sA",
         "trackStats": true,
-        "discordId": "652933573560631297",
+        "discordId": "478557851921416202",
         "rosterStatus": "starter",
         "isCaptain": false
       },
@@ -484,6 +484,17 @@
         "trackStats": true,
         "discordId": "388457426539511810",
         "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0131",
+        "gameName": "Superior",
+        "tagLine": "1110",
+        "role": "MID",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "171867892915109889",
+        "rosterStatus": "substitute",
         "isCaptain": false
       }
     ]
