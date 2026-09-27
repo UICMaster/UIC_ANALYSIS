@@ -280,6 +280,13 @@
   },
   "fbGUOApCfckQft52lWA-J9iR6G5u-DjzSLTlX1ss4UFiNnAUGtlzt8YAqnLkQJQWNWgMn-MeMy48dg": {
     "processedMatches": [
+      "EUW1_7996287700",
+      "EUW1_7996278151",
+      "EUW1_7996277925",
+      "EUW1_7996269846",
+      "EUW1_7996259296",
+      "EUW1_7996261518",
+      "EUW1_7996233152",
       "EUW1_7996223992",
       "EUW1_7996215548",
       "EUW1_7996194702",
@@ -292,22 +299,15 @@
       "EUW1_7994145847",
       "EUW1_7994119933",
       "EUW1_7994087550",
-      "EUW1_7992120448",
-      "EUW1_7992070931",
-      "EUW1_7991879068",
-      "EUW1_7991852051",
-      "EUW1_7991802185",
-      "EUW1_7991770140",
-      "EUW1_7991743595",
-      "EUW1_7991671926"
+      "EUW1_7992120448"
     ],
-    "csd14": 2.44,
-    "gd15": -437.63,
-    "dpg": 0.8126465140390021,
-    "kp": 62.36020776646858,
-    "vspm": 2.126810378900259,
-    "hsp": 3101.767,
-    "dmgMitigated": 16359.261999999999
+    "csd14": -0.16799999999999998,
+    "gd15": -226.089,
+    "dpg": 0.8182732670556291,
+    "kp": 61.006146045584316,
+    "vspm": 2.1942471964638264,
+    "hsp": 4574.1301,
+    "dmgMitigated": 17308.178599999996
   },
   "6SLO1ln5FlFBoW1mxcFvhIHwxgbUw1RWHogzDEH4irD5uTWxHfa4yCPzJXEoWQOhlLtEPzv9rmNDCQ": {
     "processedMatches": [
@@ -1210,6 +1210,8 @@
   },
   "t3hEzRtOIFW_KgfR3nD3JhAEIcE5GpJO4AFZ127crI5hmUl3ca5wGr_W4wdUxPOVS3vGHvDfAQvvXg": {
     "processedMatches": [
+      "EUW1_7996283390",
+      "EUW1_7996294858",
       "EUW1_7996023258",
       "EUW1_7995986934",
       "EUW1_7995958722",
@@ -1227,17 +1229,15 @@
       "EUW1_7994868755",
       "EUW1_7994811296",
       "EUW1_7994794749",
-      "EUW1_7994759546",
-      "EUW1_7994701258",
-      "EUW1_7994671938"
+      "EUW1_7994759546"
     ],
-    "csd14": -20.76928752,
-    "gd15": -942.3836944000001,
-    "dpg": 1.6128109151670635,
-    "kp": 48.96936709261503,
-    "vspm": 0.6089992395121073,
+    "csd14": -15.092358768,
+    "gd15": -490.3453249600001,
+    "dpg": 1.8057972383765375,
+    "kp": 51.850208161131306,
+    "vspm": 0.6372885047500858,
     "hsp": 0,
-    "dmgMitigated": 10198.359992959999
+    "dmgMitigated": 10965.123993664
   },
   "GIAiFNAMJBQQrKeTj8eoEQkB5sX589SHkMOUfD5tefLLY-kPMDu3jaxGr7cTPqONETmvhSc92SzO4A": {
     "processedMatches": [
@@ -1273,6 +1273,7 @@
   "3485gpd44_EoP-IwPy92G8y4gESvmNFZVVv29gfhmCsnMbyfFp_rsNPEQkWalnSkWFaPYlPLJbWXig": {},
   "yW-F5PHwT5Md1lHTBUIZEyX8PEwjGJpO6iExN_Qx3No_PSz_4I_iPsU5s1AGdzyrxvmi87QNdizR6w": {
     "processedMatches": [
+      "EUW1_7996309938",
       "EUW1_7994851002",
       "EUW1_7993889889",
       "EUW1_7993817231",
@@ -1291,19 +1292,19 @@
       "EUW1_7990598717",
       "EUW1_7990556353",
       "EUW1_7990554638",
-      "EUW1_7990512096",
-      "EUW1_7990497078"
+      "EUW1_7990512096"
     ],
-    "csd14": 13.62,
-    "gd15": 777.9959999999999,
-    "dpg": 1.773072752070958,
-    "kp": 38.718132355449434,
-    "vspm": 0.8267543753167738,
-    "hsp": 232.632,
-    "dmgMitigated": 31713.904
+    "csd14": 10.758,
+    "gd15": 577.1963999999999,
+    "dpg": 1.7625794556509167,
+    "kp": 38.75936259816536,
+    "vspm": 0.8307006894694082,
+    "hsp": 209.36880000000002,
+    "dmgMitigated": 32540.3136
   },
   "mg7YerOOmSD0EhfX4IixqdbR0rU7qcD89Zc9KfRTfwoIjkBQpYtwjXXaMGLCBZ5ZBtHfjwGXBkC8lQ": {
     "processedMatches": [
+      "EUW1_7996309249",
       "EUW1_7995611214",
       "EUW1_7995572214",
       "EUW1_7995526284",
@@ -1322,16 +1323,15 @@
       "EUW1_7988492556",
       "EUW1_7988464667",
       "EUW1_7988420411",
-      "EUW1_7988399367",
-      "EUW1_7988328107"
+      "EUW1_7988399367"
     ],
-    "csd14": -6.151700000000001,
-    "gd15": -636.518,
-    "dpg": 1.6147831491614206,
-    "kp": 54.317632536199504,
-    "vspm": 0.9092941530280099,
-    "hsp": 94.26079999999999,
-    "dmgMitigated": 29362.9815
+    "csd14": -3.5365300000000004,
+    "gd15": -546.5662,
+    "dpg": 1.6632113170476246,
+    "kp": 55.21920261591289,
+    "vspm": 0.9172240533145626,
+    "hsp": 84.83471999999999,
+    "dmgMitigated": 27095.68335
   },
   "d3zx4abpiAr9uuLjEnGqZydaS7yg0CNGNnS8ZRwOev7qToSs0VKcy4P2Eni5W4xo_Ilxwxgfje68Ew": {
     "processedMatches": [
