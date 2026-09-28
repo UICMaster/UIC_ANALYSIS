@@ -166,10 +166,10 @@
       "role": "MID",
       "level": 1009,
       "tier": "MASTERI",
-      "lp": 1349,
-      "wins": 397,
+      "lp": 1376,
+      "wins": 398,
       "losses": 348,
-      "winRate": 53.3,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3798.png"
     },
     {
@@ -188,12 +188,12 @@
       "playerId": "0087",
       "name": "UIC Bardie3",
       "role": "SUP",
-      "level": 757,
+      "level": 758,
       "tier": "MASTERI",
-      "lp": 1517,
+      "lp": 1424,
       "wins": 294,
-      "losses": 252,
-      "winRate": 53.8,
+      "losses": 255,
+      "winRate": 53.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/1114.png"
     },
     {
@@ -286,13 +286,13 @@
       "playerId": "0036",
       "name": "UIC Panda",
       "role": "MNG",
-      "level": 806,
+      "level": 807,
       "tier": "UNRANKED",
       "lp": 0,
       "wins": 0,
       "losses": 0,
       "winRate": 0,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7149.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6872.png"
     }
   ],
   "dynasty": [
@@ -486,10 +486,10 @@
       "role": "SUP",
       "level": 518,
       "tier": "DIAMONDI",
-      "lp": 56,
-      "wins": 143,
+      "lp": 76,
+      "wins": 144,
       "losses": 123,
-      "winRate": 53.8,
+      "winRate": 53.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4655.png"
     },
     {
@@ -706,7 +706,7 @@
       "playerId": "0110",
       "name": "xauberdave",
       "role": "MID",
-      "level": 746,
+      "level": 747,
       "tier": "MASTERI",
       "lp": 777,
       "wins": 181,
@@ -732,10 +732,10 @@
       "role": "SUP",
       "level": 551,
       "tier": "DIAMONDII",
-      "lp": 20,
-      "wins": 50,
+      "lp": 39,
+      "wins": 51,
       "losses": 54,
-      "winRate": 48.1,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7215.png"
     },
     {
@@ -754,13 +754,13 @@
       "playerId": "0036",
       "name": "UIC Panda",
       "role": "MNG",
-      "level": 806,
+      "level": 807,
       "tier": "UNRANKED",
       "lp": 0,
       "wins": 0,
       "losses": 0,
       "winRate": 0,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7149.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6872.png"
     }
   ],
   "raiders": [
@@ -868,10 +868,10 @@
       "role": "MID",
       "level": 634,
       "tier": "EMERALDIV",
-      "lp": 15,
+      "lp": 0,
       "wins": 247,
-      "losses": 232,
-      "winRate": 51.6,
+      "losses": 233,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7216.png"
     },
     {
