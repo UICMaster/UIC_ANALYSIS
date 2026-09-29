@@ -18,10 +18,10 @@
       "role": "JGL",
       "level": 1077,
       "tier": "MASTERI",
-      "lp": 737,
-      "wins": 314,
+      "lp": 766,
+      "wins": 315,
       "losses": 290,
-      "winRate": 52,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4380.png"
     },
     {
@@ -42,10 +42,10 @@
       "role": "BOT",
       "level": 755,
       "tier": "MASTERI",
-      "lp": 190,
-      "wins": 121,
+      "lp": 220,
+      "wins": 122,
       "losses": 114,
-      "winRate": 51.5,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7.png"
     },
     {
@@ -54,10 +54,10 @@
       "role": "SUP",
       "level": 1027,
       "tier": "MASTERI",
-      "lp": 294,
-      "wins": 199,
+      "lp": 324,
+      "wins": 200,
       "losses": 179,
-      "winRate": 52.6,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4380.png"
     }
   ],
@@ -128,9 +128,9 @@
       "role": "COH",
       "level": 522,
       "tier": "MASTERI",
-      "lp": 909,
-      "wins": 453,
-      "losses": 426,
+      "lp": 873,
+      "wins": 454,
+      "losses": 428,
       "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4096.png"
     }
@@ -143,8 +143,8 @@
       "level": 496,
       "tier": "MASTERI",
       "lp": 721,
-      "wins": 191,
-      "losses": 160,
+      "wins": 192,
+      "losses": 161,
       "winRate": 54.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3890.png"
     },
@@ -152,12 +152,12 @@
       "playerId": "9999",
       "name": "UIC Davy",
       "role": "JGL",
-      "level": 766,
+      "level": 767,
       "tier": "MASTERI",
-      "lp": 1065,
-      "wins": 256,
-      "losses": 232,
-      "winRate": 52.5,
+      "lp": 992,
+      "wins": 259,
+      "losses": 237,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/5269.png"
     },
     {
@@ -166,8 +166,8 @@
       "role": "MID",
       "level": 1009,
       "tier": "MASTERI",
-      "lp": 1343,
-      "wins": 398,
+      "lp": 1371,
+      "wins": 399,
       "losses": 349,
       "winRate": 53.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3798.png"
@@ -215,8 +215,8 @@
       "level": 815,
       "tier": "EMERALDIV",
       "lp": 66,
-      "wins": 403,
-      "losses": 417,
+      "wins": 404,
+      "losses": 418,
       "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7210.png"
     }
@@ -274,7 +274,7 @@
       "playerId": "0093",
       "name": "UIC Phântox",
       "role": "SUP",
-      "level": 970,
+      "level": 971,
       "tier": "DIAMONDIII",
       "lp": 12,
       "wins": 194,
@@ -292,7 +292,7 @@
       "wins": 0,
       "losses": 0,
       "winRate": 0,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4419.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4561.png"
     }
   ],
   "dynasty": [
@@ -300,12 +300,12 @@
       "playerId": "0053",
       "name": "hi itskostas UIC",
       "role": "TOP",
-      "level": 196,
+      "level": 197,
       "tier": "MASTERI",
-      "lp": 232,
-      "wins": 246,
-      "losses": 206,
-      "winRate": 54.4,
+      "lp": 222,
+      "wins": 248,
+      "losses": 209,
+      "winRate": 54.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/15.png"
     },
     {
@@ -314,9 +314,9 @@
       "role": "JGL",
       "level": 520,
       "tier": "MASTERI",
-      "lp": 457,
+      "lp": 426,
       "wins": 637,
-      "losses": 639,
+      "losses": 640,
       "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7212.png"
     },
@@ -326,9 +326,9 @@
       "role": "MID",
       "level": 1223,
       "tier": "MASTERI",
-      "lp": 470,
-      "wins": 751,
-      "losses": 741,
+      "lp": 462,
+      "wins": 753,
+      "losses": 743,
       "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7168.png"
     },
@@ -460,7 +460,7 @@
       "playerId": "0015",
       "name": "UIC Kaoxz",
       "role": "MID",
-      "level": 499,
+      "level": 500,
       "tier": "DIAMONDIV",
       "lp": 38,
       "wins": 107,
@@ -472,7 +472,7 @@
       "playerId": "0014",
       "name": "UIC Hunter",
       "role": "BOT",
-      "level": 1000,
+      "level": 1001,
       "tier": "EMERALDII",
       "lp": 85,
       "wins": 185,
@@ -548,9 +548,9 @@
       "role": "BOT",
       "level": 828,
       "tier": "DIAMONDII",
-      "lp": 11,
-      "wins": 331,
-      "losses": 343,
+      "lp": 9,
+      "wins": 332,
+      "losses": 344,
       "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4550.png"
     },
@@ -598,10 +598,10 @@
       "role": "TOP",
       "level": 602,
       "tier": "MASTERI",
-      "lp": 576,
-      "wins": 475,
-      "losses": 439,
-      "winRate": 52,
+      "lp": 510,
+      "wins": 477,
+      "losses": 443,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6640.png"
     },
     {
@@ -610,10 +610,10 @@
       "role": "JGL",
       "level": 827,
       "tier": "MASTERI",
-      "lp": 233,
-      "wins": 283,
-      "losses": 273,
-      "winRate": 50.9,
+      "lp": 265,
+      "wins": 285,
+      "losses": 274,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/585.png"
     },
     {
@@ -696,10 +696,10 @@
       "role": "JGL",
       "level": 818,
       "tier": "MASTERI",
-      "lp": 18,
-      "wins": 71,
+      "lp": 48,
+      "wins": 72,
       "losses": 68,
-      "winRate": 51.1,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3840.png"
     },
     {
@@ -720,10 +720,10 @@
       "role": "BOT",
       "level": 789,
       "tier": "MASTERI",
-      "lp": 153,
-      "wins": 209,
+      "lp": 182,
+      "wins": 210,
       "losses": 188,
-      "winRate": 52.6,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/5726.png"
     },
     {
@@ -732,9 +732,9 @@
       "role": "SUP",
       "level": 551,
       "tier": "DIAMONDII",
-      "lp": 18,
-      "wins": 51,
-      "losses": 55,
+      "lp": 16,
+      "wins": 52,
+      "losses": 56,
       "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7215.png"
     },
@@ -760,7 +760,7 @@
       "wins": 0,
       "losses": 0,
       "winRate": 0,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4419.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4561.png"
     }
   ],
   "raiders": [
@@ -780,13 +780,13 @@
       "playerId": "0096",
       "name": "UIC SoulxEater",
       "role": "JGL",
-      "level": 657,
+      "level": 658,
       "tier": "PLATINUMIII",
       "lp": 1,
       "wins": 76,
       "losses": 85,
       "winRate": 47.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3607.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3536.png"
     },
     {
       "playerId": "0095",
@@ -804,7 +804,7 @@
       "playerId": "0097",
       "name": "UIC Angie6875",
       "role": "BOT",
-      "level": 507,
+      "level": 508,
       "tier": "PLATINUMII",
       "lp": 68,
       "wins": 65,
@@ -842,7 +842,7 @@
       "playerId": "0037",
       "name": "Kreuzfeuer",
       "role": "TOP",
-      "level": 1044,
+      "level": 1045,
       "tier": "DIAMONDI",
       "lp": 77,
       "wins": 45,
@@ -884,7 +884,7 @@
       "wins": 76,
       "losses": 71,
       "winRate": 51.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/5255.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7097.png"
     },
     {
       "playerId": "0041",
@@ -930,10 +930,10 @@
       "role": "JGL",
       "level": 985,
       "tier": "DIAMONDIII",
-      "lp": 1,
-      "wins": 86,
-      "losses": 77,
-      "winRate": 52.8,
+      "lp": 5,
+      "wins": 87,
+      "losses": 78,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6943.png"
     },
     {
@@ -966,10 +966,10 @@
       "role": "BOT",
       "level": 857,
       "tier": "DIAMONDIV",
-      "lp": 17,
-      "wins": 300,
-      "losses": 305,
-      "winRate": 49.6,
+      "lp": 0,
+      "wins": 301,
+      "losses": 307,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/5914.png"
     },
     {
@@ -990,10 +990,10 @@
       "role": "SUP",
       "level": 648,
       "tier": "MASTERI",
-      "lp": 272,
+      "lp": 243,
       "wins": 176,
-      "losses": 162,
-      "winRate": 52.1,
+      "losses": 163,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4568.png"
     },
     {
@@ -1064,10 +1064,10 @@
       "role": "SUP",
       "level": 962,
       "tier": "EMERALDI",
-      "lp": 75,
-      "wins": 139,
+      "lp": 94,
+      "wins": 140,
       "losses": 139,
-      "winRate": 50,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7102.png"
     }
   ]
