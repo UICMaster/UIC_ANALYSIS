@@ -506,34 +506,34 @@
     "roster": [
       {
         "playerId": "0018",
-        "gameName": "ZAN Teach",
-        "tagLine": "Lofi",
+        "gameName": "UIC SméagoI",
+        "tagLine": "LOL",
         "role": "TOP",
-        "puuid": "E-enkJpeTZVUwYVYmW6bDQSHcck8uvyTggBHDcXv0zzsWZYjiF6DJlGi-g0xw3-i6_cDKv9hLpBEFA",
+        "puuid": "",
         "trackStats": true,
-        "discordId": "188731589373460480",
+        "discordId": "361239022573453333",
         "rosterStatus": "starter",
         "isCaptain": false
       },
       {
         "playerId": "0019",
-        "gameName": "TheRealCrimes",
-        "tagLine": "GOLF",
+        "gameName": "UIC Kili",
+        "tagLine": "UIC",
         "role": "JGL",
-        "puuid": "Cv3IfFlDGFtwBFVjskb22spcb9gp5wN1uGbqYdQYjGn-dma5w3diHginc6c6sW9kWGE2Sk4B5Bk8MQ",
+        "puuid": "",
         "trackStats": true,
-        "discordId": "442280987095859200",
+        "discordId": "175298106819215360",
         "rosterStatus": "starter",
         "isCaptain": false
       },
       {
         "playerId": "0020",
-        "gameName": "UIC Landmine",
-        "tagLine": "UIC",
+        "gameName": "Pray",
+        "tagLine": "2206",
         "role": "MID",
-        "puuid": "501Zdt2x7L0afILZacLPz79WrkP73DLAhnRuSq-yrHkB0XKNneOkbIHY1SzVhpB3Dr7nzU20hK3ooQ",
+        "puuid": "",
         "trackStats": true,
-        "discordId": "331194551207329792",
+        "discordId": "204315878643335168",
         "rosterStatus": "starter",
         "isCaptain": false
       },
@@ -550,35 +550,13 @@
       },
       {
         "playerId": "0022",
-        "gameName": "ZAN Hazel",
-        "tagLine": "Mania",
+        "gameName": "Moonlxght",
+        "tagLine": "16396",
         "role": "SUP",
-        "puuid": "GIAiFNAMJBQQrKeTj8eoEQkB5sX589SHkMOUfD5tefLLY-kPMDu3jaxGr7cTPqONETmvhSc92SzO4A",
+        "puuid": "",
         "trackStats": true,
-        "discordId": "264119701745958913",
+        "discordId": "614170140833218623",
         "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "playerId": "0023",
-        "gameName": "McOffensive",
-        "tagLine": "Pils",
-        "role": "TOP",
-        "puuid": "3485gpd44_EoP-IwPy92G8y4gESvmNFZVVv29gfhmCsnMbyfFp_rsNPEQkWalnSkWFaPYlPLJbWXig",
-        "trackStats": true,
-        "discordId": "282221304919359489",
-        "rosterStatus": "substitute",
-        "isCaptain": false
-      },
-      {
-        "playerId": "0024",
-        "gameName": "EmpyreanPyke",
-        "tagLine": "Sup",
-        "role": "COH",
-        "puuid": "beEudGPCZazDKHj8wLDn4KNgd0AtTeTtXCy9NhvKC7XIZxBRx_8iBf1XP3ZWrq_WBi3vnsNLvzGnJw",
-        "trackStats": true,
-        "discordId": "390181591021780992",
-        "rosterStatus": "staff",
         "isCaptain": false
       }
     ]
