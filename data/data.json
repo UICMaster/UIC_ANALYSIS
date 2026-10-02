@@ -336,12 +336,12 @@
       "playerId": "0058",
       "name": "UIC ATALANTA",
       "role": "BOT",
-      "level": 448,
+      "level": 449,
       "tier": "MASTERI",
-      "lp": 132,
-      "wins": 471,
+      "lp": 162,
+      "wins": 472,
       "losses": 450,
-      "winRate": 51.1,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6934.png"
     },
     {
@@ -376,10 +376,10 @@
       "role": "TOP",
       "level": 963,
       "tier": "EMERALDIII",
-      "lp": 20,
-      "wins": 452,
+      "lp": 39,
+      "wins": 453,
       "losses": 452,
-      "winRate": 50,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4559.png"
     },
     {
@@ -536,10 +536,10 @@
       "role": "MID",
       "level": 922,
       "tier": "MASTERI",
-      "lp": 147,
-      "wins": 746,
+      "lp": 207,
+      "wins": 748,
       "losses": 733,
-      "winRate": 50.4,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3182.png"
     },
     {
@@ -558,12 +558,12 @@
       "playerId": "0022",
       "name": "UIC Moonlxght",
       "role": "SUP",
-      "level": 360,
+      "level": 361,
       "tier": "MASTERI",
-      "lp": 583,
+      "lp": 552,
       "wins": 212,
-      "losses": 183,
-      "winRate": 53.7,
+      "losses": 184,
+      "winRate": 53.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4793.png"
     }
   ],
@@ -574,8 +574,8 @@
       "role": "TOP",
       "level": 603,
       "tier": "MASTERI",
-      "lp": 533,
-      "wins": 481,
+      "lp": 591,
+      "wins": 482,
       "losses": 446,
       "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6640.png"
@@ -720,10 +720,10 @@
       "role": "BOT",
       "level": 1398,
       "tier": "MASTERI",
-      "lp": 534,
-      "wins": 209,
+      "lp": 562,
+      "wins": 210,
       "losses": 195,
-      "winRate": 51.7,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3020.png"
     },
     {
