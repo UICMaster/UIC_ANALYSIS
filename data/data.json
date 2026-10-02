@@ -154,10 +154,10 @@
       "role": "JGL",
       "level": 769,
       "tier": "MASTERI",
-      "lp": 1217,
-      "wins": 269,
+      "lp": 1275,
+      "wins": 271,
       "losses": 240,
-      "winRate": 52.8,
+      "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/5269.png"
     },
     {
@@ -214,10 +214,10 @@
       "role": "COH",
       "level": 817,
       "tier": "EMERALDIV",
-      "lp": 69,
-      "wins": 417,
-      "losses": 431,
-      "winRate": 49.2,
+      "lp": 68,
+      "wins": 418,
+      "losses": 433,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7210.png"
     }
   ],
@@ -339,9 +339,9 @@
       "level": 448,
       "tier": "MASTERI",
       "lp": 132,
-      "wins": 467,
-      "losses": 445,
-      "winRate": 51.2,
+      "wins": 471,
+      "losses": 450,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6934.png"
     },
     {
@@ -844,10 +844,10 @@
       "role": "MID",
       "level": 635,
       "tier": "EMERALDIV",
-      "lp": 18,
+      "lp": 0,
       "wins": 248,
-      "losses": 235,
-      "winRate": 51.3,
+      "losses": 236,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7216.png"
     },
     {
