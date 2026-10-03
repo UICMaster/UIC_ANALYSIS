@@ -212,12 +212,12 @@
       "playerId": "0071",
       "name": "UIC Qvy",
       "role": "COH",
-      "level": 817,
-      "tier": "EMERALDIV",
-      "lp": 46,
-      "wins": 418,
+      "level": 818,
+      "tier": "EMERALDIII",
+      "lp": 22,
+      "wins": 422,
       "losses": 434,
-      "winRate": 49.1,
+      "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7210.png"
     }
   ],
@@ -546,12 +546,12 @@
       "playerId": "0021",
       "name": "UIC BissiBoy",
       "role": "BOT",
-      "level": 830,
-      "tier": "DIAMONDII",
-      "lp": 51,
-      "wins": 340,
-      "losses": 351,
-      "winRate": 49.2,
+      "level": 831,
+      "tier": "DIAMONDIII",
+      "lp": 81,
+      "wins": 341,
+      "losses": 355,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4550.png"
     },
     {
@@ -660,10 +660,10 @@
       "role": "TOP",
       "level": 566,
       "tier": "EMERALDII",
-      "lp": 51,
-      "wins": 156,
-      "losses": 156,
-      "winRate": 50,
+      "lp": 65,
+      "wins": 158,
+      "losses": 157,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3157.png"
     },
     {
@@ -672,10 +672,10 @@
       "role": "JGL",
       "level": 818,
       "tier": "MASTERI",
-      "lp": 78,
-      "wins": 74,
+      "lp": 108,
+      "wins": 75,
       "losses": 69,
-      "winRate": 51.7,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3840.png"
     },
     {
@@ -832,10 +832,10 @@
       "role": "JGL",
       "level": 956,
       "tier": "EMERALDIII",
-      "lp": 49,
-      "wins": 35,
-      "losses": 45,
-      "winRate": 43.8,
+      "lp": 66,
+      "wins": 37,
+      "losses": 46,
+      "winRate": 44.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7243.png"
     },
     {
@@ -844,10 +844,10 @@
       "role": "MID",
       "level": 635,
       "tier": "EMERALDIV",
-      "lp": 10,
+      "lp": 0,
       "wins": 250,
-      "losses": 238,
-      "winRate": 51.2,
+      "losses": 239,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7216.png"
     },
     {
@@ -856,10 +856,10 @@
       "role": "BOT",
       "level": 757,
       "tier": "DIAMONDI",
-      "lp": 10,
-      "wins": 77,
+      "lp": 50,
+      "wins": 79,
       "losses": 75,
-      "winRate": 50.7,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7097.png"
     },
     {
@@ -898,13 +898,13 @@
       "wins": 202,
       "losses": 202,
       "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7212.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6923.png"
     },
     {
       "playerId": "0046",
       "name": "UIC Namorii",
       "role": "JGL",
-      "level": 986,
+      "level": 987,
       "tier": "DIAMONDIV",
       "lp": 51,
       "wins": 87,
@@ -916,12 +916,12 @@
       "playerId": "0047",
       "name": "UIC adedier",
       "role": "MID",
-      "level": 653,
+      "level": 654,
       "tier": "PLATINUMI",
-      "lp": 30,
-      "wins": 209,
+      "lp": 72,
+      "wins": 211,
       "losses": 203,
-      "winRate": 50.7,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4379.png"
     },
     {
@@ -1038,11 +1038,11 @@
       "playerId": "0104",
       "name": "UIC Californium",
       "role": "SUP",
-      "level": 964,
+      "level": 965,
       "tier": "EMERALDI",
-      "lp": 91,
-      "wins": 148,
-      "losses": 147,
+      "lp": 89,
+      "wins": 149,
+      "losses": 148,
       "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7102.png"
     }

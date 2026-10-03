@@ -1210,6 +1210,11 @@
   },
   "t3hEzRtOIFW_KgfR3nD3JhAEIcE5GpJO4AFZ127crI5hmUl3ca5wGr_W4wdUxPOVS3vGHvDfAQvvXg": {
     "processedMatches": [
+      "EUW1_8002917881",
+      "EUW1_8002864856",
+      "EUW1_8002827491",
+      "EUW1_8002772156",
+      "EUW1_8002729618",
       "EUW1_8002677045",
       "EUW1_8002645001",
       "EUW1_8002614988",
@@ -1224,20 +1229,15 @@
       "EUW1_7999177104",
       "EUW1_7999140211",
       "EUW1_7999108804",
-      "EUW1_7999064491",
-      "EUW1_7999002992",
-      "EUW1_7998943238",
-      "EUW1_7998392862",
-      "EUW1_7998388629",
-      "EUW1_7998271514"
+      "EUW1_7999064491"
     ],
-    "csd14": -3.5415039999999998,
-    "gd15": -182.18283519999994,
-    "dpg": 1.4561335098895698,
-    "kp": 44.50240092009738,
-    "vspm": 0.6440725395738756,
+    "csd14": -8.2332032,
+    "gd15": -392.54626815999995,
+    "dpg": 1.4646557484655283,
+    "kp": 43.44063041349726,
+    "vspm": 0.5933775886651345,
     "hsp": 0,
-    "dmgMitigated": 9896.4187456
+    "dmgMitigated": 9776.13499648
   },
   "GIAiFNAMJBQQrKeTj8eoEQkB5sX589SHkMOUfD5tefLLY-kPMDu3jaxGr7cTPqONETmvhSc92SzO4A": {
     "processedMatches": [
@@ -1428,6 +1428,9 @@
   },
   "sr7jFQeNuNjFIH8BaAaS71fhf6KEHkMN2sgZ9aBis01TsLFovpWelMh1oKLDjpgdQa14ebq9ClanHg": {
     "processedMatches": [
+      "EUW1_8002861060",
+      "EUW1_8002823573",
+      "EUW1_8002782811",
       "EUW1_8000861006",
       "EUW1_8000806339",
       "EUW1_7996117455",
@@ -1444,21 +1447,19 @@
       "EUW1_7985845753",
       "EUW1_7985837517",
       "EUW1_7980667462",
-      "EUW1_7980661534",
-      "EUW1_7980607723",
-      "EUW1_7980543588",
-      "EUW1_7980275928"
+      "EUW1_7980661534"
     ],
-    "csd14": -1.0928,
-    "gd15": -20.892480000000024,
-    "dpg": 2.371247645034299,
-    "kp": 40.626686692581174,
-    "vspm": 0.7976705960730854,
-    "hsp": 225.05472,
-    "dmgMitigated": 35124.254559999994
+    "csd14": 0.73504,
+    "gd15": -35.824736000000016,
+    "dpg": 2.169587289650845,
+    "kp": 39.474716720842856,
+    "vspm": 0.7629846244887478,
+    "hsp": 157.53830399999998,
+    "dmgMitigated": 28515.778191999998
   },
   "mESlB2z7lQHlo4ixbdSNVnXGanRKkaV3kTgWBVAKK5K2KFTwZQ5m9QaauHzih-KnrHsdULQR_FAF6w": {
     "processedMatches": [
+      "EUW1_8002746504",
       "EUW1_8001941666",
       "EUW1_8001046623",
       "EUW1_7999931456",
@@ -1477,16 +1478,15 @@
       "EUW1_7987974224",
       "EUW1_7986912380",
       "EUW1_7986851740",
-      "EUW1_7986053944",
-      "EUW1_7985133938"
+      "EUW1_7986053944"
     ],
-    "csd14": 4.9226425781,
-    "gd15": -81.3161991877,
-    "dpg": 1.7779140652071,
-    "kp": 53.93231899611951,
-    "vspm": 1.0563386752847816,
-    "hsp": 25.221073833899993,
-    "dmgMitigated": 31756.035745764897
+    "csd14": 1.8303783202899992,
+    "gd15": -46.784579268929996,
+    "dpg": 1.765063600548639,
+    "kp": 53.92370248112295,
+    "vspm": 1.0394144851756582,
+    "hsp": 22.698966450509992,
+    "dmgMitigated": 29813.732171188407
   },
   "_Fzw8munZSayiskhk4DoEYv6y3bEJkQaTj4MfzChFIB5m77mejL2RZZjdknpqbmvfBfM2RRC9udbRg": {
     "processedMatches": [
@@ -1800,6 +1800,9 @@
   },
   "S21KBOIJzC2dlR-qKPZ96H0fq7RO2_eO7-xjGNvv_uGKEuFQS0-y_6p9JwhH3OWXo3p3XlC3OFravA": {
     "processedMatches": [
+      "EUW1_8002905038",
+      "EUW1_8002862908",
+      "EUW1_8002813928",
       "EUW1_8002657345",
       "EUW1_8002624993",
       "EUW1_8002591670",
@@ -1816,18 +1819,15 @@
       "EUW1_7978260844",
       "EUW1_7978233773",
       "EUW1_7978192847",
-      "EUW1_7978167721",
-      "EUW1_7978137092",
-      "EUW1_7978115002",
-      "EUW1_7977208175"
+      "EUW1_7978167721"
     ],
-    "csd14": -1.6099999999999999,
-    "gd15": 132.66,
-    "dpg": 1.8275637108067522,
-    "kp": 51.76985903647119,
-    "vspm": 0.6591841850281247,
+    "csd14": 1.673,
+    "gd15": 333.662,
+    "dpg": 1.9391134089969881,
+    "kp": 53.0385435437767,
+    "vspm": 0.607486936553304,
     "hsp": 0,
-    "dmgMitigated": 30055.309999999998
+    "dmgMitigated": 26525.517
   },
   "In0bz7zXo9lgwLtIPZRiyt840xPC1aHqYA4gpUUDVnQZm3bG5G1QQTONKPDRYHRV_PbXqmeUBsOIFw": {
     "processedMatches": [
@@ -1862,6 +1862,8 @@
   },
   "ZkiOYXtZt9nw1_fT41I1QdXjfBHDTBWh7cmslzjwQ_ZfVCexynVgq2uCK_I-YOOQDXdiUlgWLWqwqA": {
     "processedMatches": [
+      "EUW1_8002879560",
+      "EUW1_8002845762",
       "EUW1_8002536137",
       "EUW1_8001881855",
       "EUW1_8001830848",
@@ -1879,17 +1881,15 @@
       "EUW1_7965027122",
       "EUW1_7964198458",
       "EUW1_7964144600",
-      "EUW1_7963849125",
-      "EUW1_7963808179",
-      "EUW1_7962927462"
+      "EUW1_7963849125"
     ],
-    "csd14": -3.4,
-    "gd15": -229.664,
-    "dpg": 1.7510236564730008,
-    "kp": 49.31862172671565,
-    "vspm": 0.40187007217617765,
-    "hsp": 551.3040000000001,
-    "dmgMitigated": 11587.41
+    "csd14": -2.02,
+    "gd15": -122.43119999999999,
+    "dpg": 1.8136806053328005,
+    "kp": 51.581213170846205,
+    "vspm": 0.39828985218179536,
+    "hsp": 1240.2432000000001,
+    "dmgMitigated": 11909.228
   },
   "C2owGWKbMhlDpfNXV8OWgKogtDyhggiB1WrjVDowhhs74iSLEeH089CJdXsgUIwz8kESvmJ3jMhc4g": {
     "processedMatches": [
@@ -2017,6 +2017,8 @@
   },
   "EkFB388xZ4X_eouU08c_FA1XNOAXciTxm9XZj5uDzfZ7-9b2CqVNS6lq0sCL4Ghyd_R_QyWwFpMmEw": {
     "processedMatches": [
+      "EUW1_8002910505",
+      "EUW1_8002855273",
       "EUW1_8002602159",
       "EUW1_8002566638",
       "EUW1_8002526115",
@@ -2034,17 +2036,15 @@
       "EUW1_7997694101",
       "EUW1_7997576937",
       "EUW1_7997525339",
-      "EUW1_7997177300",
-      "EUW1_7996803970",
-      "EUW1_7995597216"
+      "EUW1_7997177300"
     ],
-    "csd14": 10.061522976128,
-    "gd15": 275.317753036032,
-    "dpg": 2.379848650946789,
-    "kp": 44.044098583385825,
-    "vspm": 0.810911689224693,
-    "hsp": 1499.551004050048,
-    "dmgMitigated": 10838.81013614502
+    "csd14": 9.7492183809024,
+    "gd15": 162.5542024288256,
+    "dpg": 2.329762671430415,
+    "kp": 42.181091674590434,
+    "vspm": 0.7628783659360993,
+    "hsp": 1258.4408032400383,
+    "dmgMitigated": 10000.048108916017
   },
   "4HSkNh-Z6SCrl5Cz8XZhw7BRWnW-bXYy2MZlJuuFk_Lk_HMnuuxQhEL1aRhXCdXgBKbkW4XCtBX9cg": {
     "processedMatches": [
@@ -2327,6 +2327,8 @@
   },
   "p3QTXlSf8-VaT-J5W9IK_qsIJ2vOTIfbMjvpdgItLxpVF9J4ZVwuldFgXwDTcT66DOxYdUvKvjGZKQ": {
     "processedMatches": [
+      "EUW1_8002806152",
+      "EUW1_8002772797",
       "EUW1_8002620895",
       "EUW1_8002589839",
       "EUW1_8002305398",
@@ -2344,17 +2346,15 @@
       "EUW1_7999612107",
       "EUW1_7999089671",
       "EUW1_7999035300",
-      "EUW1_7998154958",
-      "EUW1_7998098657",
-      "EUW1_7998051822"
+      "EUW1_7998154958"
     ],
-    "csd14": 0.9330677609201894,
-    "gd15": -267.5972470818644,
-    "dpg": 0.969892397265934,
-    "kp": 61.21168694573811,
-    "vspm": 3.161701038158379,
-    "hsp": 7926.378902649883,
-    "dmgMitigated": 22538.225207191463
+    "csd14": 2.2464542087361514,
+    "gd15": -115.57779766549152,
+    "dpg": 0.9626739831446427,
+    "kp": 59.14028972753066,
+    "vspm": 3.113008800928074,
+    "hsp": 7444.903122119906,
+    "dmgMitigated": 23231.78016575317
   },
   "mbWVi1V9N2wVOx_OIeh5-hU5QJajUvV6ONsqhKI1MLpKY1BoHYOIOueZEPUHbdkMbU6-rXGOFQHsfQ": {
     "processedMatches": [
@@ -2482,6 +2482,10 @@
   },
   "y7rgNWhzYVSXNkXpKAh5SHuJO5a-t-XuMSFGGXt9BjgyeBhCj1uX6V4u1ilueNZlmoUrcjSG9_QRBQ": {
     "processedMatches": [
+      "EUW1_8002931210",
+      "EUW1_8002887360",
+      "EUW1_8002835005",
+      "EUW1_8002796639",
       "EUW1_7984122161",
       "EUW1_7984076758",
       "EUW1_7983644000",
@@ -2497,19 +2501,15 @@
       "EUW1_7928359627",
       "EUW1_7923660460",
       "EUW1_7923626361",
-      "EUW1_7923582678",
-      "EUW1_7923496692",
-      "EUW1_7923453804",
-      "EUW1_7923409092",
-      "EUW1_7887170802"
+      "EUW1_7923582678"
     ],
-    "csd14": 2.8,
-    "gd15": -801.2,
-    "dpg": 1.8436323179398104,
-    "kp": 38.781191222570534,
-    "vspm": 0.6792554955018881,
+    "csd14": 5.859999999999999,
+    "gd15": -708.0400000000001,
+    "dpg": 1.9633752554129906,
+    "kp": 38.61742209109349,
+    "vspm": 0.6368880521923147,
     "hsp": 0,
-    "dmgMitigated": 14720.6
+    "dmgMitigated": 12359.72
   },
   "SKxclARQWxiRzKEd4VtPJHTw3jfahqv6-SqOSDxnUUn5bAWCgPjx0MoMnQt64SW_ELtMkPLfSt-2xA": {
     "processedMatches": [
