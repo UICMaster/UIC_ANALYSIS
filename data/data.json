@@ -18,10 +18,10 @@
       "role": "JGL",
       "level": 1079,
       "tier": "MASTERI",
-      "lp": 814,
+      "lp": 783,
       "wins": 321,
-      "losses": 295,
-      "winRate": 52.1,
+      "losses": 296,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4380.png"
     },
     {
@@ -326,9 +326,9 @@
       "role": "MID",
       "level": 1225,
       "tier": "MASTERI",
-      "lp": 561,
+      "lp": 529,
       "wins": 768,
-      "losses": 755,
+      "losses": 756,
       "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7168.png"
     },
@@ -782,10 +782,10 @@
       "role": "BOT",
       "level": 508,
       "tier": "PLATINUMII",
-      "lp": 49,
-      "wins": 65,
+      "lp": 70,
+      "wins": 66,
       "losses": 55,
-      "winRate": 54.2,
+      "winRate": 54.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4545.png"
     },
     {
@@ -918,10 +918,10 @@
       "role": "MID",
       "level": 653,
       "tier": "PLATINUMI",
-      "lp": 24,
+      "lp": 5,
       "wins": 206,
-      "losses": 200,
-      "winRate": 50.7,
+      "losses": 201,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4379.png"
     },
     {
