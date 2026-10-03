@@ -280,6 +280,11 @@
   },
   "fbGUOApCfckQft52lWA-J9iR6G5u-DjzSLTlX1ss4UFiNnAUGtlzt8YAqnLkQJQWNWgMn-MeMy48dg": {
     "processedMatches": [
+      "EUW1_8002127954",
+      "EUW1_8002099437",
+      "EUW1_8002077319",
+      "EUW1_8002060778",
+      "EUW1_8002022810",
       "EUW1_8001967315",
       "EUW1_8001943778",
       "EUW1_8001901726",
@@ -294,20 +299,15 @@
       "EUW1_7999317579",
       "EUW1_7999299959",
       "EUW1_7997156874",
-      "EUW1_7996668701",
-      "EUW1_7996614550",
-      "EUW1_7996287700",
-      "EUW1_7996278151",
-      "EUW1_7996277925",
-      "EUW1_7996269846"
+      "EUW1_7996668701"
     ],
-    "csd14": -1.1922285568,
-    "gd15": 59.0885791336,
-    "dpg": 0.9928915424105844,
-    "kp": 57.67768158636172,
-    "vspm": 2.2774604251375417,
-    "hsp": 3656.3778454597596,
-    "dmgMitigated": 17846.07484676336
+    "csd14": -0.9961142784,
+    "gd15": 130.9442895668,
+    "dpg": 0.958862390605022,
+    "kp": 57.288082242422306,
+    "vspm": 2.4317638130545163,
+    "hsp": 5197.8889227298805,
+    "dmgMitigated": 12991.63742338168
   },
   "6SLO1ln5FlFBoW1mxcFvhIHwxgbUw1RWHogzDEH4irD5uTWxHfa4yCPzJXEoWQOhlLtEPzv9rmNDCQ": {
     "processedMatches": [
@@ -404,6 +404,8 @@
   },
   "cXIyOPrtDiD0vd-1MrO3P4FThAGg_eUlNzvtRNC-ZNDDnNQCNsf0DHIsfKfo5zmFsMlrl2NZAzOz9g": {
     "processedMatches": [
+      "EUW1_8002083882",
+      "EUW1_8002026166",
       "EUW1_8002006580",
       "EUW1_8001953653",
       "EUW1_8001911170",
@@ -421,17 +423,15 @@
       "EUW1_8000624099",
       "EUW1_8000591938",
       "EUW1_8000544954",
-      "EUW1_8000430056",
-      "EUW1_8000414489",
-      "EUW1_8000376224"
+      "EUW1_8000430056"
     ],
-    "csd14": -11.140246972068658,
-    "gd15": -729.8881034041426,
-    "dpg": 1.9514674307667257,
-    "kp": 48.136387832751645,
-    "vspm": 0.6508221179710346,
-    "hsp": 168.56283644928,
-    "dmgMitigated": 13057.939437961488
+    "csd14": -2.9121975776549265,
+    "gd15": -249.7104827233141,
+    "dpg": 2.0081683020180328,
+    "kp": 48.45355471064576,
+    "vspm": 0.6452783991659736,
+    "hsp": 134.85026915942402,
+    "dmgMitigated": 14278.751550369192
   },
   "pqQtj7lgRv7DYhrwbphtkPXWuFrgGqAWc8HRHbYBTnZln9GSuMZCqDzMc7TcTG3xeFTO6Fu0eFSk1A": {
     "processedMatches": [
@@ -745,6 +745,10 @@
   },
   "kffwTXfgXkNkaLE9wk7GNCZtNViI6fmYHpIsb0_tmj9o_k_6gEmKBAY0qT_B8bvvvcU-cZ3mz5ccUw": {
     "processedMatches": [
+      "EUW1_8002133070",
+      "EUW1_8002122529",
+      "EUW1_8002083428",
+      "EUW1_8002039602",
       "EUW1_8001986238",
       "EUW1_8001942369",
       "EUW1_8001892156",
@@ -760,19 +764,15 @@
       "EUW1_8001347045",
       "EUW1_8001174086",
       "EUW1_8001169159",
-      "EUW1_8001172608",
-      "EUW1_8001164889",
-      "EUW1_8001157792",
-      "EUW1_8001142882",
-      "EUW1_8001138579"
+      "EUW1_8001172608"
     ],
-    "csd14": -9.300783206400002,
-    "gd15": -362.4160911360001,
-    "dpg": 1.9337363085105383,
-    "kp": 53.583756939934645,
-    "vspm": 0.5265862347598553,
-    "hsp": 323.448,
-    "dmgMitigated": 15917.8074299392
+    "csd14": -5.870704885760001,
+    "gd15": -239.47448202240008,
+    "dpg": 1.9672400526519447,
+    "kp": 53.488539140678014,
+    "vspm": 0.5181148811418392,
+    "hsp": 291.10319999999996,
+    "dmgMitigated": 15976.426686945279
   },
   "UUNBCHLya2ZV3E9j7y3EKFjrIyWLpm8_g0tKKnvzH71yr92Sp-agu8PdPOUBp1SwkGVMEABqQblyhw": {
     "processedMatches": [
@@ -1955,6 +1955,9 @@
   },
   "gM9duXUTV7Kxbf4J0ARmIFUy8cfXoJFJTNpzX8CDtJKv-WnOq70DyqZTYJnzO5EX7EAPoU473A3ZTg": {
     "processedMatches": [
+      "EUW1_8002096882",
+      "EUW1_8002066195",
+      "EUW1_8002035076",
       "EUW1_7950682047",
       "EUW1_7949496568",
       "EUW1_7947605723",
@@ -1971,18 +1974,15 @@
       "EUW1_7945524816",
       "EUW1_7945467429",
       "EUW1_7945358077",
-      "EUW1_7945317934",
-      "EUW1_7945267240",
-      "EUW1_7945269711",
-      "EUW1_7945230533"
+      "EUW1_7945317934"
     ],
-    "csd14": 3.7,
-    "gd15": 401,
-    "dpg": 1.7788744349481742,
-    "kp": 32.32857303103755,
-    "vspm": 0.7241574575068933,
+    "csd14": 2.1900000000000004,
+    "gd15": 498.8,
+    "dpg": 2.0709494690480823,
+    "kp": 33.92812829942663,
+    "vspm": 0.7543304579724613,
     "hsp": 0,
-    "dmgMitigated": 44792.5
+    "dmgMitigated": 43328.85
   },
   "Tsc1I8RpPwc2feJytl_PBi3fkCVc-X_Rn2uyH3Cxldu4BN2qYvq0g-E1LUFF8Vc9kIQ1SGeM-sY3tg": {
     "processedMatches": [
@@ -2513,6 +2513,7 @@
   },
   "SKxclARQWxiRzKEd4VtPJHTw3jfahqv6-SqOSDxnUUn5bAWCgPjx0MoMnQt64SW_ELtMkPLfSt-2xA": {
     "processedMatches": [
+      "EUW1_8002094125",
       "EUW1_8001430200",
       "EUW1_8001208553",
       "EUW1_8001197795",
@@ -2531,16 +2532,15 @@
       "EUW1_7998391747",
       "EUW1_7998388456",
       "EUW1_7998301401",
-      "EUW1_7996416968",
-      "EUW1_7996387508"
+      "EUW1_7996416968"
     ],
-    "csd14": -3.8162109760000007,
-    "gd15": -37.96465062668799,
-    "dpg": 1.8552063935855696,
-    "kp": 49.38133878125931,
-    "vspm": 0.6835359919088873,
+    "csd14": -1.5345898784000007,
+    "gd15": -47.068185564019196,
+    "dpg": 1.79767325980488,
+    "kp": 50.35229581222429,
+    "vspm": 0.6953080800707088,
     "hsp": 0,
-    "dmgMitigated": 10968.64174728179
+    "dmgMitigated": 10252.87757255361
   },
   "USGUZzWuJQvmDIc7quhCmmrHbIftP7Q0ZREzigBWigLq63PIhXqMLcOcHSlCaVUrptEQBpHc6IZ0pA": {
     "processedMatches": [
