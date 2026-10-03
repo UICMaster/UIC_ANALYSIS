@@ -400,7 +400,7 @@
         "trackStats": true,
         "discordId": "201428142898937856",
         "rosterStatus": "starter",
-        "isCaptain": true
+        "isCaptain": false
       },
       {
         "playerId": "0011",
@@ -937,12 +937,12 @@
       },
       {
         "playerId": "0050",
-        "gameName": "UIC Deavan",
-        "tagLine": "UIC",
+        "gameName": "UIC Tiki",
+        "tagLine": "pure",
         "role": "BOT",
-        "puuid": "Y27tgfcpaY7E5jwQDrHnYrw71QzdsPlpMrYcHTmUo61AaBME1GLKFLN7GaNefXqBtMg8E1HvLlY_fw",
+        "puuid": "",
         "trackStats": true,
-        "discordId": "399582601498853379",
+        "discordId": "162835818300440576",
         "rosterStatus": "starter",
         "isCaptain": false
       },
