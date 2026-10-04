@@ -745,6 +745,8 @@
   },
   "kffwTXfgXkNkaLE9wk7GNCZtNViI6fmYHpIsb0_tmj9o_k_6gEmKBAY0qT_B8bvvvcU-cZ3mz5ccUw": {
     "processedMatches": [
+      "EUW1_8003237747",
+      "EUW1_8003235536",
       "EUW1_8003098142",
       "EUW1_8003063894",
       "EUW1_8003002413",
@@ -762,17 +764,15 @@
       "EUW1_8002039602",
       "EUW1_8001986238",
       "EUW1_8001942369",
-      "EUW1_8001892156",
-      "EUW1_8001683414",
-      "EUW1_8001658411"
+      "EUW1_8001892156"
     ],
-    "csd14": -0.2571264468172803,
-    "gd15": 459.5906457955328,
-    "dpg": 2.1176306116891928,
-    "kp": 50.32317053017063,
-    "vspm": 0.5029813353035322,
-    "hsp": 146.9970096,
-    "dmgMitigated": 21042.243287665315
+    "csd14": 4.468586197864448,
+    "gd15": 579.8315812159796,
+    "dpg": 2.114963668554939,
+    "kp": 48.86228204858214,
+    "vspm": 0.4912684107763944,
+    "hsp": 132.29730864,
+    "dmgMitigated": 21040.718958898782
   },
   "UUNBCHLya2ZV3E9j7y3EKFjrIyWLpm8_g0tKKnvzH71yr92Sp-agu8PdPOUBp1SwkGVMEABqQblyhw": {
     "processedMatches": [
@@ -1210,6 +1210,8 @@
   },
   "t3hEzRtOIFW_KgfR3nD3JhAEIcE5GpJO4AFZ127crI5hmUl3ca5wGr_W4wdUxPOVS3vGHvDfAQvvXg": {
     "processedMatches": [
+      "EUW1_8003176000",
+      "EUW1_8003153181",
       "EUW1_8003119370",
       "EUW1_8003087071",
       "EUW1_8003070638",
@@ -1227,17 +1229,15 @@
       "EUW1_8002279397",
       "EUW1_8002276506",
       "EUW1_8002255658",
-      "EUW1_8002231628",
-      "EUW1_7999245960",
-      "EUW1_7999245651"
+      "EUW1_8002231628"
     ],
-    "csd14": -8.163242239999999,
-    "gd15": -293.98238771199993,
-    "dpg": 1.5243047773657181,
-    "kp": 40.83233694590187,
-    "vspm": 0.5716134939398858,
+    "csd14": -4.430593791999999,
+    "gd15": 6.914089830400053,
+    "dpg": 1.4946116137743868,
+    "kp": 41.103589472273924,
+    "vspm": 0.5793327120047121,
     "hsp": 0,
-    "dmgMitigated": 10264.694497535998
+    "dmgMitigated": 10417.555598028799
   },
   "GIAiFNAMJBQQrKeTj8eoEQkB5sX589SHkMOUfD5tefLLY-kPMDu3jaxGr7cTPqONETmvhSc92SzO4A": {
     "processedMatches": [
