@@ -166,8 +166,8 @@
       "role": "MID",
       "level": 1013,
       "tier": "MASTERI",
-      "lp": 1669,
-      "wins": 424,
+      "lp": 1697,
+      "wins": 425,
       "losses": 366,
       "winRate": 53.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3798.png"
@@ -213,11 +213,11 @@
       "name": "UIC Qvy",
       "role": "COH",
       "level": 818,
-      "tier": "EMERALDIII",
-      "lp": 18,
+      "tier": "EMERALDIV",
+      "lp": 97,
       "wins": 424,
-      "losses": 436,
-      "winRate": 49.3,
+      "losses": 437,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7210.png"
     }
   ],
@@ -547,11 +547,11 @@
       "name": "UIC BissiBoy",
       "role": "BOT",
       "level": 833,
-      "tier": "DIAMONDIII",
-      "lp": 60,
-      "wins": 352,
+      "tier": "DIAMONDII",
+      "lp": 14,
+      "wins": 354,
       "losses": 368,
-      "winRate": 48.9,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4550.png"
     },
     {
@@ -770,10 +770,10 @@
       "role": "MID",
       "level": 516,
       "tier": "PLATINUMIII",
-      "lp": 41,
-      "wins": 262,
+      "lp": 81,
+      "wins": 264,
       "losses": 276,
-      "winRate": 48.7,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/5974.png"
     },
     {
@@ -918,10 +918,10 @@
       "role": "MID",
       "level": 654,
       "tier": "PLATINUMI",
-      "lp": 32,
-      "wins": 211,
+      "lp": 74,
+      "wins": 213,
       "losses": 205,
-      "winRate": 50.7,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4379.png"
     },
     {
@@ -941,11 +941,11 @@
       "name": "UIC Sadrik",
       "role": "BOT",
       "level": 858,
-      "tier": "EMERALDII",
-      "lp": 87,
-      "wins": 301,
+      "tier": "EMERALDI",
+      "lp": 5,
+      "wins": 302,
       "losses": 313,
-      "winRate": 49,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/5914.png"
     },
     {
