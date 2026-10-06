@@ -68,10 +68,10 @@
       "role": "TOP",
       "level": 686,
       "tier": "MASTERI",
-      "lp": 371,
+      "lp": 341,
       "wins": 110,
-      "losses": 90,
-      "winRate": 55,
+      "losses": 91,
+      "winRate": 54.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6622.png"
     },
     {
@@ -142,10 +142,10 @@
       "role": "TOP",
       "level": 497,
       "tier": "MASTERI",
-      "lp": 691,
+      "lp": 661,
       "wins": 194,
-      "losses": 164,
-      "winRate": 54.2,
+      "losses": 165,
+      "winRate": 54,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3890.png"
     },
     {
@@ -213,10 +213,10 @@
       "name": "UIC Qvy",
       "role": "COH",
       "level": 819,
-      "tier": "EMERALDIII",
-      "lp": 9,
+      "tier": "EMERALDIV",
+      "lp": 88,
       "wins": 429,
-      "losses": 441,
+      "losses": 442,
       "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7210.png"
     }
@@ -228,8 +228,8 @@
       "role": "TOP",
       "level": 1325,
       "tier": "DIAMONDIII",
-      "lp": 79,
-      "wins": 508,
+      "lp": 98,
+      "wins": 509,
       "losses": 502,
       "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4802.png"
@@ -610,9 +610,9 @@
       "role": "BOT",
       "level": 883,
       "tier": "MASTERI",
-      "lp": 395,
-      "wins": 205,
-      "losses": 181,
+      "lp": 393,
+      "wins": 206,
+      "losses": 182,
       "winRate": 53.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7144.png"
     },
@@ -793,11 +793,11 @@
       "name": "UIC Lynx",
       "role": "SUP",
       "level": 861,
-      "tier": "EMERALDII",
-      "lp": 71,
-      "wins": 154,
+      "tier": "EMERALDI",
+      "lp": 9,
+      "wins": 156,
       "losses": 145,
-      "winRate": 51.5,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7144.png"
     },
     {
@@ -940,12 +940,12 @@
       "playerId": "0042",
       "name": "UIC Sadrik",
       "role": "BOT",
-      "level": 858,
-      "tier": "EMERALDII",
-      "lp": 13,
+      "level": 859,
+      "tier": "EMERALDIII",
+      "lp": 69,
       "wins": 303,
-      "losses": 318,
-      "winRate": 48.8,
+      "losses": 320,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/5914.png"
     },
     {
@@ -1004,10 +1004,10 @@
       "role": "JGL",
       "level": 434,
       "tier": "EMERALDII",
-      "lp": 16,
-      "wins": 241,
+      "lp": 56,
+      "wins": 243,
       "losses": 232,
-      "winRate": 51,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7028.png"
     },
     {
