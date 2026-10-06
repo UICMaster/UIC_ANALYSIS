@@ -10,19 +10,19 @@
       "wins": 263,
       "losses": 282,
       "winRate": 48.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/627.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/627.png"
     },
     {
       "playerId": "0002",
       "name": "UIC Niki",
       "role": "JGL",
-      "level": 1081,
+      "level": 1082,
       "tier": "MASTERI",
-      "lp": 591,
-      "wins": 324,
-      "losses": 305,
-      "winRate": 51.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4380.png"
+      "lp": 616,
+      "wins": 327,
+      "losses": 307,
+      "winRate": 51.6,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/4380.png"
     },
     {
       "playerId": "0006",
@@ -34,7 +34,7 @@
       "wins": 613,
       "losses": 589,
       "winRate": 51,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3151.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/3151.png"
     },
     {
       "playerId": "0004",
@@ -46,7 +46,7 @@
       "wins": 130,
       "losses": 128,
       "winRate": 50.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7.png"
     },
     {
       "playerId": "0005",
@@ -58,7 +58,7 @@
       "wins": 210,
       "losses": 194,
       "winRate": 52,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4380.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/4380.png"
     }
   ],
   "hydra": [
@@ -72,19 +72,19 @@
       "wins": 110,
       "losses": 94,
       "winRate": 53.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6622.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/6622.png"
     },
     {
       "playerId": "0079",
       "name": "UIC Panger",
       "role": "JGL",
-      "level": 355,
+      "level": 356,
       "tier": "MASTERI",
-      "lp": 434,
-      "wins": 159,
+      "lp": 492,
+      "wins": 161,
       "losses": 128,
-      "winRate": 55.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/657.png"
+      "winRate": 55.7,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/657.png"
     },
     {
       "playerId": "0080",
@@ -96,7 +96,7 @@
       "wins": 191,
       "losses": 170,
       "winRate": 52.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6629.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/6629.png"
     },
     {
       "playerId": "0081",
@@ -108,19 +108,19 @@
       "wins": 299,
       "losses": 285,
       "winRate": 51.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6872.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/6872.png"
     },
     {
       "playerId": "0076",
       "name": "UIC PeaPuffer",
       "role": "SUP",
-      "level": 770,
+      "level": 771,
       "tier": "MASTERI",
       "lp": 1182,
       "wins": 444,
       "losses": 423,
       "winRate": 51.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/1625.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/1625.png"
     },
     {
       "playerId": "0082",
@@ -132,7 +132,7 @@
       "wins": 462,
       "losses": 436,
       "winRate": 51.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4096.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/4096.png"
     }
   ],
   "ascend": [
@@ -146,19 +146,19 @@
       "wins": 197,
       "losses": 165,
       "winRate": 54.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3890.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/3890.png"
     },
     {
       "playerId": "9999",
       "name": "UIC Davy",
       "role": "JGL",
-      "level": 772,
+      "level": 773,
       "tier": "MASTERI",
-      "lp": 1174,
-      "wins": 275,
-      "losses": 247,
-      "winRate": 52.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/953.png"
+      "lp": 1108,
+      "wins": 277,
+      "losses": 251,
+      "winRate": 52.5,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/953.png"
     },
     {
       "playerId": "0088",
@@ -166,23 +166,23 @@
       "role": "MID",
       "level": 1014,
       "tier": "GRANDMASTERI",
-      "lp": 1685,
-      "wins": 428,
-      "losses": 369,
-      "winRate": 53.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3798.png"
+      "lp": 1765,
+      "wins": 431,
+      "losses": 370,
+      "winRate": 53.8,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/3798.png"
     },
     {
       "playerId": "0086",
       "name": "UIC stevie",
       "role": "BOT",
-      "level": 745,
+      "level": 746,
       "tier": "MASTERI",
-      "lp": 1286,
-      "wins": 249,
-      "losses": 216,
-      "winRate": 53.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/1455.png"
+      "lp": 1251,
+      "wins": 250,
+      "losses": 218,
+      "winRate": 53.4,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/1455.png"
     },
     {
       "playerId": "0087",
@@ -194,7 +194,7 @@
       "wins": 295,
       "losses": 257,
       "winRate": 53.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/1114.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/1114.png"
     },
     {
       "playerId": "0084",
@@ -206,7 +206,7 @@
       "wins": 797,
       "losses": 797,
       "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/29.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/29.png"
     },
     {
       "playerId": "0071",
@@ -214,11 +214,11 @@
       "role": "COH",
       "level": 819,
       "tier": "EMERALDIII",
-      "lp": 86,
+      "lp": 66,
       "wins": 434,
-      "losses": 442,
+      "losses": 443,
       "winRate": 49.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7210.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7210.png"
     }
   ],
   "tempest": [
@@ -228,11 +228,11 @@
       "role": "TOP",
       "level": 1325,
       "tier": "DIAMONDII",
-      "lp": 15,
-      "wins": 511,
+      "lp": 34,
+      "wins": 512,
       "losses": 503,
       "winRate": 50.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4802.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/4802.png"
     },
     {
       "playerId": "0090",
@@ -244,7 +244,7 @@
       "wins": 113,
       "losses": 99,
       "winRate": 53.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4855.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/4855.png"
     },
     {
       "playerId": "0091",
@@ -256,7 +256,7 @@
       "wins": 418,
       "losses": 453,
       "winRate": 48,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6934.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/6934.png"
     },
     {
       "playerId": "0092",
@@ -268,7 +268,7 @@
       "wins": 117,
       "losses": 122,
       "winRate": 49,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4803.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/4803.png"
     },
     {
       "playerId": "0093",
@@ -280,7 +280,7 @@
       "wins": 196,
       "losses": 194,
       "winRate": 50.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3901.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/3901.png"
     },
     {
       "playerId": "0036",
@@ -292,7 +292,7 @@
       "wins": 0,
       "losses": 0,
       "winRate": 0,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4561.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/4561.png"
     }
   ],
   "dynasty": [
@@ -306,7 +306,7 @@
       "wins": 266,
       "losses": 222,
       "winRate": 54.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/15.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/15.png"
     },
     {
       "playerId": "0056",
@@ -314,11 +314,11 @@
       "role": "JGL",
       "level": 523,
       "tier": "MASTERI",
-      "lp": 414,
-      "wins": 656,
-      "losses": 660,
-      "winRate": 49.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7212.png"
+      "lp": 499,
+      "wins": 660,
+      "losses": 661,
+      "winRate": 50,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7212.png"
     },
     {
       "playerId": "0057",
@@ -330,7 +330,7 @@
       "wins": 780,
       "losses": 765,
       "winRate": 50.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7168.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7168.png"
     },
     {
       "playerId": "0058",
@@ -342,7 +342,7 @@
       "wins": 482,
       "losses": 467,
       "winRate": 50.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6934.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/6934.png"
     },
     {
       "playerId": "0059",
@@ -350,11 +350,11 @@
       "role": "SUP",
       "level": 841,
       "tier": "MASTERI",
-      "lp": 929,
-      "wins": 335,
+      "lp": 989,
+      "wins": 337,
       "losses": 315,
-      "winRate": 51.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/775.png"
+      "winRate": 51.7,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/775.png"
     },
     {
       "playerId": "0061",
@@ -366,7 +366,7 @@
       "wins": 56,
       "losses": 50,
       "winRate": 52.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6759.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/6759.png"
     }
   ],
   "eclipse": [
@@ -375,12 +375,12 @@
       "name": "UIC Undergrinder",
       "role": "TOP",
       "level": 965,
-      "tier": "EMERALDIII",
-      "lp": 10,
+      "tier": "EMERALDIV",
+      "lp": 89,
       "wins": 458,
-      "losses": 458,
-      "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4559.png"
+      "losses": 459,
+      "winRate": 49.9,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/4559.png"
     },
     {
       "playerId": "0009",
@@ -392,7 +392,7 @@
       "wins": 95,
       "losses": 90,
       "winRate": 51.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/5982.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/5982.png"
     },
     {
       "playerId": "0034",
@@ -404,7 +404,7 @@
       "wins": 181,
       "losses": 161,
       "winRate": 52.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7223.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7223.png"
     },
     {
       "playerId": "0011",
@@ -416,7 +416,7 @@
       "wins": 90,
       "losses": 103,
       "winRate": 46.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6582.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/6582.png"
     },
     {
       "playerId": "0008",
@@ -428,7 +428,7 @@
       "wins": 23,
       "losses": 33,
       "winRate": 41.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7011.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7011.png"
     }
   ],
   "vakuum": [
@@ -442,7 +442,7 @@
       "wins": 28,
       "losses": 28,
       "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3863.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/3863.png"
     },
     {
       "playerId": "0016",
@@ -454,7 +454,7 @@
       "wins": 147,
       "losses": 160,
       "winRate": 47.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/5763.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/5763.png"
     },
     {
       "playerId": "0015",
@@ -466,7 +466,7 @@
       "wins": 112,
       "losses": 112,
       "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7076.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7076.png"
     },
     {
       "playerId": "0014",
@@ -478,7 +478,7 @@
       "wins": 185,
       "losses": 188,
       "winRate": 49.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3460.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/3460.png"
     },
     {
       "playerId": "0017",
@@ -490,7 +490,7 @@
       "wins": 144,
       "losses": 123,
       "winRate": 53.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4655.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/4655.png"
     },
     {
       "playerId": "0131",
@@ -502,7 +502,7 @@
       "wins": 540,
       "losses": 545,
       "winRate": 49.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7216.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7216.png"
     }
   ],
   "spark": [
@@ -510,13 +510,13 @@
       "playerId": "0018",
       "name": "UIC SméagoI",
       "role": "TOP",
-      "level": 1002,
+      "level": 1003,
       "tier": "DIAMONDI",
-      "lp": 14,
-      "wins": 184,
-      "losses": 158,
+      "lp": 11,
+      "wins": 186,
+      "losses": 160,
       "winRate": 53.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/25.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/25.png"
     },
     {
       "playerId": "0019",
@@ -528,19 +528,19 @@
       "wins": 199,
       "losses": 218,
       "winRate": 47.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/666.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/666.png"
     },
     {
       "playerId": "0020",
       "name": "UIC Pray",
       "role": "MID",
-      "level": 924,
+      "level": 925,
       "tier": "MASTERI",
-      "lp": 228,
-      "wins": 755,
-      "losses": 740,
-      "winRate": 50.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3182.png"
+      "lp": 162,
+      "wins": 757,
+      "losses": 744,
+      "winRate": 50.4,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/3182.png"
     },
     {
       "playerId": "0021",
@@ -552,7 +552,7 @@
       "wins": 357,
       "losses": 371,
       "winRate": 49,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4550.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/4550.png"
     },
     {
       "playerId": "0022",
@@ -560,11 +560,11 @@
       "role": "SUP",
       "level": 362,
       "tier": "MASTERI",
-      "lp": 516,
-      "wins": 217,
-      "losses": 190,
-      "winRate": 53.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4793.png"
+      "lp": 484,
+      "wins": 218,
+      "losses": 192,
+      "winRate": 53.2,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/4793.png"
     }
   ],
   "phoenix": [
@@ -572,13 +572,13 @@
       "playerId": "0025",
       "name": "UIC Kamo",
       "role": "TOP",
-      "level": 605,
+      "level": 606,
       "tier": "MASTERI",
-      "lp": 622,
-      "wins": 491,
-      "losses": 456,
-      "winRate": 51.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6640.png"
+      "lp": 702,
+      "wins": 495,
+      "losses": 457,
+      "winRate": 52,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/6640.png"
     },
     {
       "playerId": "0026",
@@ -590,7 +590,7 @@
       "wins": 298,
       "losses": 282,
       "winRate": 51.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/585.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/585.png"
     },
     {
       "playerId": "0094",
@@ -598,11 +598,11 @@
       "role": "MID",
       "level": 793,
       "tier": "MASTERI",
-      "lp": 822,
-      "wins": 307,
+      "lp": 849,
+      "wins": 308,
       "losses": 296,
-      "winRate": 50.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/924.png"
+      "winRate": 51,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/924.png"
     },
     {
       "playerId": "0028",
@@ -614,7 +614,7 @@
       "wins": 206,
       "losses": 183,
       "winRate": 53,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7144.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7144.png"
     },
     {
       "playerId": "0029",
@@ -626,7 +626,7 @@
       "wins": 135,
       "losses": 121,
       "winRate": 52.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6479.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/6479.png"
     },
     {
       "playerId": "0030",
@@ -638,7 +638,7 @@
       "wins": 253,
       "losses": 250,
       "winRate": 50.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3366.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/3366.png"
     },
     {
       "playerId": "0031",
@@ -650,7 +650,7 @@
       "wins": 0,
       "losses": 0,
       "winRate": 0,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/917.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/917.png"
     }
   ],
   "cyber": [
@@ -664,7 +664,7 @@
       "wins": 158,
       "losses": 158,
       "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3157.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/3157.png"
     },
     {
       "playerId": "0033",
@@ -676,7 +676,7 @@
       "wins": 76,
       "losses": 71,
       "winRate": 51.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3840.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/3840.png"
     },
     {
       "playerId": "0110",
@@ -688,7 +688,7 @@
       "wins": 188,
       "losses": 158,
       "winRate": 54.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6251.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/6251.png"
     },
     {
       "playerId": "0035",
@@ -700,7 +700,7 @@
       "wins": 211,
       "losses": 188,
       "winRate": 52.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/5726.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/5726.png"
     },
     {
       "playerId": "0111",
@@ -712,7 +712,7 @@
       "wins": 54,
       "losses": 57,
       "winRate": 48.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7215.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7215.png"
     },
     {
       "playerId": "0112",
@@ -724,7 +724,7 @@
       "wins": 213,
       "losses": 196,
       "winRate": 52.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3020.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/3020.png"
     },
     {
       "playerId": "0036",
@@ -736,7 +736,7 @@
       "wins": 0,
       "losses": 0,
       "winRate": 0,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4561.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/4561.png"
     }
   ],
   "raiders": [
@@ -750,7 +750,7 @@
       "wins": 20,
       "losses": 10,
       "winRate": 66.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7216.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7216.png"
     },
     {
       "playerId": "0096",
@@ -762,7 +762,7 @@
       "wins": 76,
       "losses": 85,
       "winRate": 47.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3607.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/3607.png"
     },
     {
       "playerId": "0095",
@@ -774,7 +774,7 @@
       "wins": 264,
       "losses": 276,
       "winRate": 48.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/5974.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/5974.png"
     },
     {
       "playerId": "0097",
@@ -786,7 +786,7 @@
       "wins": 68,
       "losses": 58,
       "winRate": 54,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4545.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/4545.png"
     },
     {
       "playerId": "0098",
@@ -798,7 +798,7 @@
       "wins": 156,
       "losses": 146,
       "winRate": 51.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7144.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7144.png"
     },
     {
       "playerId": "0099",
@@ -810,7 +810,7 @@
       "wins": 0,
       "losses": 0,
       "winRate": 0,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/907.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/907.png"
     }
   ],
   "sakura": [
@@ -822,21 +822,21 @@
       "tier": "DIAMONDII",
       "lp": 82,
       "wins": 49,
-      "losses": 47,
-      "winRate": 51,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3506.png"
+      "losses": 48,
+      "winRate": 50.5,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/3506.png"
     },
     {
       "playerId": "0038",
       "name": "UIC Shapeshift",
       "role": "JGL",
-      "level": 956,
+      "level": 957,
       "tier": "EMERALDIII",
       "lp": 62,
       "wins": 39,
       "losses": 48,
       "winRate": 44.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6020.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/6020.png"
     },
     {
       "playerId": "0039",
@@ -848,31 +848,31 @@
       "wins": 258,
       "losses": 246,
       "winRate": 51.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7216.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7216.png"
     },
     {
       "playerId": "0040",
       "name": "Unranked",
       "role": "BOT",
-      "level": 757,
+      "level": 758,
       "tier": "DIAMONDI",
       "lp": 50,
       "wins": 79,
       "losses": 75,
       "winRate": 51.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7030.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7030.png"
     },
     {
       "playerId": "0041",
       "name": "Daydream",
       "role": "SUP",
-      "level": 1187,
+      "level": 1188,
       "tier": "DIAMONDI",
       "lp": 38,
       "wins": 333,
       "losses": 310,
       "winRate": 51.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/3788.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/3788.png"
     }
   ],
   "nova": [
@@ -886,7 +886,7 @@
       "wins": 83,
       "losses": 76,
       "winRate": 52.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6340.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/6945.png"
     },
     {
       "playerId": "0044",
@@ -898,7 +898,7 @@
       "wins": 202,
       "losses": 202,
       "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6923.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/6923.png"
     },
     {
       "playerId": "0046",
@@ -910,7 +910,7 @@
       "wins": 90,
       "losses": 81,
       "winRate": 52.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6943.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/6943.png"
     },
     {
       "playerId": "0047",
@@ -922,7 +922,7 @@
       "wins": 215,
       "losses": 208,
       "winRate": 50.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4379.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/4379.png"
     },
     {
       "playerId": "0048",
@@ -934,7 +934,7 @@
       "wins": 486,
       "losses": 468,
       "winRate": 50.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/23.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/23.png"
     },
     {
       "playerId": "0042",
@@ -946,7 +946,7 @@
       "wins": 303,
       "losses": 320,
       "winRate": 48.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/5914.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/5914.png"
     },
     {
       "playerId": "0050",
@@ -958,7 +958,7 @@
       "wins": 60,
       "losses": 46,
       "winRate": 56.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4661.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/4661.png"
     },
     {
       "playerId": "0085",
@@ -970,7 +970,7 @@
       "wins": 178,
       "losses": 165,
       "winRate": 51.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/4568.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/4568.png"
     },
     {
       "playerId": "0052",
@@ -982,7 +982,7 @@
       "wins": 171,
       "losses": 181,
       "winRate": 48.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7064.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7064.png"
     }
   ],
   "dinonuggets": [
@@ -996,7 +996,7 @@
       "wins": 81,
       "losses": 73,
       "winRate": 52.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/5259.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/5259.png"
     },
     {
       "playerId": "0101",
@@ -1008,7 +1008,7 @@
       "wins": 244,
       "losses": 233,
       "winRate": 51.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7028.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7028.png"
     },
     {
       "playerId": "0102",
@@ -1016,11 +1016,11 @@
       "role": "MID",
       "level": 311,
       "tier": "MASTERI",
-      "lp": 757,
-      "wins": 162,
+      "lp": 817,
+      "wins": 163,
       "losses": 143,
-      "winRate": 53.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6806.png"
+      "winRate": 53.3,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/6806.png"
     },
     {
       "playerId": "0103",
@@ -1032,19 +1032,19 @@
       "wins": 433,
       "losses": 422,
       "winRate": 50.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/6988.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/6988.png"
     },
     {
       "playerId": "0104",
       "name": "UIC Californium",
       "role": "SUP",
       "level": 965,
-      "tier": "EMERALDI",
-      "lp": 66,
-      "wins": 150,
+      "tier": "DIAMONDIV",
+      "lp": 4,
+      "wins": 152,
       "losses": 150,
-      "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.19.1/img/profileicon/7102.png"
+      "winRate": 50.3,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7102.png"
     }
   ]
 }
