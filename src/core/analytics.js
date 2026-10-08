@@ -1,6 +1,7 @@
 /**
  * src/core/analytics.js
  * Raw Data Extractor - Pure SoloQ Discord Dashboard Edition
+ * Computes all 8 metrics with a true 10-game sliding window.
  */
 
 const RIOT_ROLE_MAP = {
@@ -8,57 +9,47 @@ const RIOT_ROLE_MAP = {
     "JGL": "JGL", "MID": "MID", "BOT": "BOT", "SUP": "SUP"
 };
 
-function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, expectedRole, cachedState = null) {
-    const deltaResult = calculateRawMetrics(targetPuuid, matchDataArray, timelineDataArray, expectedRole);
-    
-    if (!deltaResult) return null;
-
-    const newMetrics = deltaResult.metrics;
-    const newCount = deltaResult.count;
-    const ROLLING_WINDOW = 10; 
-
-    if (!cachedState || cachedState.csd14 === undefined || newCount >= ROLLING_WINDOW) {
-        return newMetrics;
-    }
-
-    const oldWeight = ROLLING_WINDOW - newCount;
-
-    return {
-        csd14: ((cachedState.csd14 || 0) * oldWeight + (newMetrics.csd14 * newCount)) / ROLLING_WINDOW,
-        gd15: ((cachedState.gd15 || 0) * oldWeight + (newMetrics.gd15 * newCount)) / ROLLING_WINDOW,
-        dpg: ((cachedState.dpg || 0) * oldWeight + (newMetrics.dpg * newCount)) / ROLLING_WINDOW,
-        kp: ((cachedState.kp || 0) * oldWeight + (newMetrics.kp * newCount)) / ROLLING_WINDOW,
-        vspm: ((cachedState.vspm || 0) * oldWeight + (newMetrics.vspm * newCount)) / ROLLING_WINDOW,
-        hsp: ((cachedState.hsp || 0) * oldWeight + (newMetrics.hsp * newCount)) / ROLLING_WINDOW,
-        dmgMitigated: ((cachedState.dmgMitigated || 0) * oldWeight + (newMetrics.dmgMitigated * newCount)) / ROLLING_WINDOW
-    };
-}
-
-function calculateRawMetrics(targetPuuid, matchDataArray, timelineDataArray, expectedRole) {
+function calculateDiscordStats(targetPuuid, matchDataArray, timelineDataArray, expectedRole, cachedState = {}) {
     const validMatches = [];
     const validTimelines = [];
 
+    // 1. Filter valid matches (SoloQ 5v5 queue=420, assigned role, duration > 5 mins)
     matchDataArray.forEach((m, idx) => {
         if (!m || !m.info || m.info.gameDuration <= 300) return;
-        if (m.info.queueId !== 420) return; 
+        if (m.info.queueId !== 420) return;
 
         const me = m.info.participants.find(p => p.puuid === targetPuuid);
         if (!me) return;
 
         const rawRiotPosition = me.teamPosition || "MIDDLE";
-        const mappedRole = RIOT_ROLE_MAP[rawRiotPosition] || "MID"; 
-        
-        if (mappedRole === expectedRole && validMatches.length < 10) {
+        const mappedRole = RIOT_ROLE_MAP[rawRiotPosition] || "MID";
+
+        if (mappedRole === expectedRole) {
             validMatches.push(m);
             validTimelines.push(timelineDataArray[idx]);
         }
     });
 
-    if (validMatches.length === 0) return null;
+    // 2. Clone or initialize history arrays
+    const requiredKeys = ['csd14', 'gd15', 'dpg', 'kp', 'vspm', 'kda', 'dpm', 'csm'];
+    let history = cachedState && cachedState.history
+        ? JSON.parse(JSON.stringify(cachedState.history))
+        : {};
 
-    let stats = { csd14: [], gd15: [], dpg: [], kp: [], vspm: [], hsp: [], dmgMitigated: [] };
+    for (const key of requiredKeys) {
+        if (!Array.isArray(history[key])) {
+            history[key] = [];
+        }
+    }
 
-    validMatches.forEach((match, idx) => {
+    // 3. Fallback check: If no new valid SoloQ role matches were found
+    if (validMatches.length === 0) {
+        if (history.gd15.length === 0) return null;
+        return { averages: cachedState.averages, history: history };
+    }
+
+    // 4. Extract metrics in chronological order (oldest of the batch -> newest)
+    validMatches.reverse().forEach((match, idx) => {
         const info = match.info;
         const timeline = validTimelines[idx];
         const me = info.participants.find(p => p.puuid === targetPuuid);
@@ -69,57 +60,62 @@ function calculateRawMetrics(targetPuuid, matchDataArray, timelineDataArray, exp
 
         let csd14 = 0;
         let gd15 = 0;
-        
-        if (timeline && timeline.info && timeline.info.frames) {
+
+        if (timeline && timeline.info && Array.isArray(timeline.info.frames)) {
             const enemy = info.participants.find(p => p.teamId !== me.teamId && p.teamPosition === me.teamPosition);
-            if (enemy) {
-                const frame14 = timeline.info.frames[14];
-                if (frame14 && frame14.participantFrames) {
-                    const myFrame14 = frame14.participantFrames[me.participantId.toString()];
-                    const enFrame14 = frame14.participantFrames[enemy.participantId.toString()];
-                    if (myFrame14 && enFrame14) {
-                        const myCS = (myFrame14.minionsKilled || 0) + (myFrame14.jungleMinionsKilled || 0);
-                        const enCS = (enFrame14.minionsKilled || 0) + (enFrame14.jungleMinionsKilled || 0);
+            if (enemy && me.teamPosition) {
+                const f14 = timeline.info.frames[14];
+                if (f14 && f14.participantFrames) {
+                    const myF14 = f14.participantFrames[me.participantId.toString()];
+                    const enF14 = f14.participantFrames[enemy.participantId.toString()];
+                    if (myF14 && enF14) {
+                        const myCS = (myF14.minionsKilled || 0) + (myF14.jungleMinionsKilled || 0);
+                        const enCS = (enF14.minionsKilled || 0) + (enF14.jungleMinionsKilled || 0);
                         csd14 = myCS - enCS;
                     }
                 }
-                const frame15 = timeline.info.frames[15];
-                if (frame15 && frame15.participantFrames) {
-                    gd15 = (frame15.participantFrames[me.participantId.toString()]?.totalGold || 0) - 
-                           (frame15.participantFrames[enemy.participantId.toString()]?.totalGold || 0);
+
+                const f15 = timeline.info.frames[15];
+                if (f15 && f15.participantFrames) {
+                    const myTotalGold = f15.participantFrames[me.participantId.toString()]?.totalGold || 0;
+                    const enTotalGold = f15.participantFrames[enemy.participantId.toString()]?.totalGold || 0;
+                    gd15 = myTotalGold - enTotalGold;
                 }
             }
         }
 
-        const dpg = me.totalDamageDealtToChampions / (me.goldEarned || 1);
-        const kp_pct = teamKills > 0 ? ((me.kills + me.assists) / teamKills) * 100 : 0;
-        const vspm = me.visionScore / gameMins;
-        const hsp = (me.totalHealsOnTeammates || 0) + (me.totalDamageShieldedOnTeammates || 0);
-        const dmgMitigated = me.damageSelfMitigated || 0;
+        const deaths = me.deaths === 0 ? 1 : me.deaths;
 
-        stats.csd14.push(csd14);
-        stats.gd15.push(gd15);
-        stats.dpg.push(dpg);
-        stats.kp.push(kp_pct);
-        stats.vspm.push(vspm);
-        stats.hsp.push(hsp);
-        stats.dmgMitigated.push(dmgMitigated);
+        history.csd14.push(csd14);
+        history.gd15.push(gd15);
+        history.dpg.push(me.totalDamageDealtToChampions / (me.goldEarned || 1));
+        history.kp.push(teamKills > 0 ? ((me.kills + me.assists) / teamKills) * 100 : 0);
+        history.vspm.push(me.visionScore / gameMins);
+        history.kda.push((me.kills + me.assists) / deaths);
+        history.dpm.push(me.totalDamageDealtToChampions / gameMins);
+        history.csm.push(((me.totalMinionsKilled || 0) + (me.neutralMinionsKilled || 0)) / gameMins);
     });
 
-    const avg = arr => arr.reduce((a, b) => a + b, 0) / arr.length;
+    // 5. Trim sliding window to strictly the last 10 games
+    for (const key of requiredKeys) {
+        history[key] = history[key].slice(-10);
+    }
 
-    return {
-        metrics: {
-            csd14: avg(stats.csd14),
-            gd15: avg(stats.gd15),
-            dpg: avg(stats.dpg),
-            kp: avg(stats.kp),
-            vspm: avg(stats.vspm),
-            hsp: avg(stats.hsp),
-            dmgMitigated: avg(stats.dmgMitigated)
-        },
-        count: validMatches.length 
+    // 6. Compute true arithmetic averages
+    const avg = arr => arr.length ? arr.reduce((a, b) => a + b, 0) / arr.length : 0;
+
+    const averages = {
+        csd14: avg(history.csd14),
+        gd15: avg(history.gd15),
+        dpg: avg(history.dpg),
+        kp: avg(history.kp),
+        vspm: avg(history.vspm),
+        kda: avg(history.kda),
+        dpm: avg(history.dpm),
+        csm: avg(history.csm)
     };
+
+    return { averages, history };
 }
 
 module.exports = { calculateDiscordStats };
