@@ -1,6 +1,6 @@
 /**
  * src/discord/messages.js
- * Formats and delivers the analytical leaderboards and dashboards to Discord.
+ * Formats and delivers leaderboards and Option A split monospace dashboards to Discord.
  */
 
 const BOT_TOKEN = process.env.DISCORD_BOT_TOKEN;
@@ -20,8 +20,7 @@ const RANK_EMOJIS = {
 };
 
 async function discordFetch(endpoint, method = 'GET', body = null, retries = 3) {
-    if (!BOT_TOKEN) return null;
-    if (retries <= 0) return null;
+    if (!BOT_TOKEN || retries <= 0) return null;
 
     const options = { method, headers: { 'Authorization': `Bot ${BOT_TOKEN}`, 'Content-Type': 'application/json' } };
     if (body) options.body = JSON.stringify(body);
@@ -30,14 +29,18 @@ async function discordFetch(endpoint, method = 'GET', body = null, retries = 3) 
         const response = await fetch(`${API_BASE}${endpoint}`, options);
         if (response.status === 429) {
             const errorData = await response.json();
-            await new Promise(res => setTimeout(res, errorData.retry_after * 1000));
+            await new Promise(res => setTimeout(res, (errorData.retry_after * 1000) + 100));
             return discordFetch(endpoint, method, body, retries - 1);
         }
-        if (!response.ok) return null;
+        if (!response.ok) {
+            console.error(`❌ [Discord API] ${response.status} Error on${endpoint}:`, await response.text());
+            return null;
+        }
         
         const text = await response.text();
         return text ? JSON.parse(text) : true;
     } catch (error) {
+        console.error(`❌ [Discord Fetch Exception]:`, error.message);
         return null;
     }
 }
@@ -66,6 +69,7 @@ async function updateOrPostMessage(channelId, embeds) {
         } else {
             await discordFetch(`/channels/${channelId}/messages/${botMessages[i].id}`, 'DELETE');
         }
+        await new Promise(r => setTimeout(r, 600)); 
     }
 }
 
@@ -125,84 +129,93 @@ async function updateLpLeaderboard(data) {
     console.log(`   ✅ [Discord] Updated LP Leaderboard`);
 }
 
-// ----------------- RAW TEAM STATS DASHBOARD -----------------
+// ----------------- OPTION A: SPLIT MONOSPACE DASHBOARD -----------------
 async function updateTeamStatsBoard(teamStatsData) {
     if (!CH_LEADERBOARD || teamStatsData.length === 0) return;
     
     let embeds = [];
     const roleOrder = ["TOP", "JGL", "MID", "BOT", "SUP"];
 
-    const formatRank = (rankData) => {
-        if (!rankData || !rankData.tier) return "Unranked";
-        const tier = rankData.tier.charAt(0).toUpperCase() + rankData.tier.slice(1).toLowerCase();
-        
-        // Fully bulletproof extraction to avoid Markdown syntax issues
-        const cleanRank = rankData.rank ? rankData.rank : "";
-        const cleanLp = rankData.lp !== undefined ? rankData.lp : 0;
-        
-        return `${tier} ${cleanRank} (${cleanLp} LP)`.trim();
+    const pad = (str, len, alignLeft = true) => {
+        const s = String(str ?? "");
+        return alignLeft ? s.padEnd(len, ' ').slice(0, len) : s.padStart(len, ' ').slice(-len);
     };
 
-    const formatVal = (val, isPlus = false) => {
-        const num = Math.round(val);
-        return (isPlus && num > 0) ? `+${num}` : `${num}`;
+    const fmtDelta = (val, len) => {
+        const num = Math.round(val || 0);
+        const signed = num > 0 ? `+${num}` : `${num}`;
+        return pad(signed, len, false);
     };
 
     for (const team of teamStatsData) {
-        let teamFields = [];
-        
         team.players.sort((a, b) => roleOrder.indexOf(a.role) - roleOrder.indexOf(b.role));
 
+        let t1 = "ROL | SPIELER    | GD@15 | CSD14 | CS/M | VSPM\n";
+        t1 +=   "----+------------+-------+-------+------+-----\n";
+
+        let t2 = "ROL | SPIELER    |  KDA  |  KP%  | DPM  | DPG \n";
+        t2 +=   "----+------------+-------+-------+------+-----\n";
+
         team.players.forEach(p => {
-            const m = p.metrics;
-            let statsText = "";
+            const m = p.metrics || {};
+            const role = pad(p.role, 3, true);
+            const name = pad(p.gameName, 10, true);
 
-            if (p.role === "TOP") {
-                statsText = `GD@15:   ${formatVal(m.gd15, true)}\nDPG:${m.dpg.toFixed(2)}\nDMG Mit: ${formatVal(m.dmgMitigated)}\nKP:${formatVal(m.kp)}%`;
-            } else if (p.role === "JGL") {
-                statsText = `GD@15:   ${formatVal(m.gd15, true)}\nKP:${formatVal(m.kp)}%\nVSPM:    ${m.vspm.toFixed(2)}\nDPG:${m.dpg.toFixed(2)}`;
-            } else if (p.role === "MID") {
-                statsText = `GD@15:   ${formatVal(m.gd15, true)}\nDPG:${m.dpg.toFixed(2)}\nKP:      ${formatVal(m.kp)}\%\nVSPM:${m.vspm.toFixed(2)}`;
-            } else if (p.role === "BOT") {
-                statsText = `GD@15:   ${formatVal(m.gd15, true)}\nDPG:${m.dpg.toFixed(2)}\nKP:      ${formatVal(m.kp)}\%\nCSD@14:${formatVal(m.csd14, true)}`;
-            } else if (p.role === "SUP") {
-                statsText = `VSPM:    ${m.vspm.toFixed(2)}\nHSP:${formatVal(m.hsp)}\nKP:      ${formatVal(m.kp)}\%\nGD@15:${formatVal(m.gd15, true)}`;
-            } else {
-                statsText = `GD@15:   ${formatVal(m.gd15, true)}\nDPG:${m.dpg.toFixed(2)}\nKP:      ${formatVal(m.kp)}\%\nVSPM:${m.vspm.toFixed(2)}`;
-            }
+            // Table 1: Early Game & Macro
+            const gd15  = fmtDelta(m.gd15, 5);
+            const csd14 = fmtDelta(m.csd14, 5);
+            const csm   = pad((m.csm || 0).toFixed(1), 4, false);
+            const vspm  = pad((m.vspm || 0).toFixed(2), 4, false);
+            t1 += `${role} \vert{}${name} | ${gd15} \vert{}${csd14} | ${csm} \vert{}${vspm}\n`;
 
-            teamFields.push({
-                name: `[${p.role}]${p.gameName}`,
-                value: `*${formatRank(p.rankData)}*\n\`\`\`yaml\n${statsText}\n\`\`\``,
-                inline: true
-            });
+            // Table 2: Teamfight & Efficiency
+            const kda = pad((m.kda || 0).toFixed(2), 5, false);
+            const kp  = pad(`${Math.round(m.kp || 0)}%`, 5, false);
+            const dpm = pad(Math.round(m.dpm || 0), 4, false);
+            const dpg = pad((m.dpg || 0).toFixed(2), 4, false);
+            t2 += `${role} \vert{}${name} | ${kda} \vert{}${kp} | ${dpm} \vert{}${dpg}\n`;
         });
 
         embeds.push({
-            title: `${team.teamDisplay} - Raw Stats (Letzte 10 SoloQ)`,
+            title: `🛡️ ${team.teamDisplay} — Performance (Letzte 10 SoloQ)`,
             color: UIC_COLOR,
-            fields: teamFields,
+            fields: [
+                {
+                    name: "📊 Early Game & Macro (GD@15, CSD@14, CS/M, Vision)",
+                    value: `\`\`\`text\n${t1}\`\`\``,
+                    inline: false
+                },
+                {
+                    name: "⚔️ Teamfight & Combat (KDA, Kill Part., DPM, DPG)",
+                    value: `\`\`\`text\n${t2}\`\`\``,
+                    inline: false
+                }
+            ],
             footer: { text: "Bereitgestellt durch UIC" },
             timestamp: new Date().toISOString()
         });
     }
 
+    // Benchmark & Legend Embed
     embeds.push({
-        title: "Legende & Benchmarks (Einordnung der Raw Stats)",
-        description: "Ein kurzer Guide, um die eigenen Metriken besser einordnen zu können. \n*Achtung: Werte wie HSP und DMG Mitigated sind extrem Champion-abhängig!*",
+        title: "Legende & Benchmarks (Einordnung aller 8 Metriken)",
+        description: "Richtwerte basierend auf High-Elo SoloQ Durchschnitten:",
         color: 0xFFAA00,
         fields: [
-            { name: "GD@15 (Gold) / CSD@14 (CS Diff)", value: "Dein Vorsprung in der Laning-Phase.\n`GD > +300` = Solide (ca. 1 Kill vorn).\n`CSD > +15` = Deutlicher Farm-Lead." },
-            { name: "DPG (Damage Per Gold)", value: "Effizienz: Wie viel Schaden machst du mit deinem Gold?\n`~1.0` = Durchschnitt.\n`> 1.3` = Starker Carry (ADC/Mid)." },
-            { name: "VSPM (Vision Score per Minute)", value: "Laner: `~1.0`.\nSup/Jgl: `> 2.0` (Top-Tier Supports peilen `> 2.5` an)." },
-            { name: "KP (Kill Participation)", value: "Kills + Assists an den Teamkills.\nLaner: `> 50%`. Jungler & Supports: `> 60%`." },
-            { name: "HSP (Heal & Shield) / DMG Mit (Absorb)", value: "HSP: Enchanter (Lulu/Soraka) oft `8.000+`. Engage-Sups `< 1.000`.\nDMG Mit: Tanks/Bruiser absorbieren locker `25.000+`." }
+            { 
+                name: "Early Game (Laning)", 
+                value: "• **GD@15**: `> +300` solider Vorsprung, `< -300` Defizit.\n• **CSD@14**: `> +10` deutlicher Farm-Lead.\n• **CS/M**: Carries peilen `> 8.0` an, Jungler `~6.5-7.0`.\n• **VSPM**: Laner `~1.0`, Support & Jungle `> 2.0`." 
+            },
+            { 
+                name: "Combat & Efficiency", 
+                value: "• **KDA**: `> 3.0` solides Positioning & Playmaking.\n• **KP%**: Laner `> 50%`, Roamer/Jgl/Sup `> 60%`.\n• **DPM**: Carries peilen `> 600` an.\n• **DPG**: `> 1.30` hohe Kampfeffizienz pro Gold." 
+            }
         ],
         footer: { text: "Bereitgestellt durch UIC" }
     });
 
     await updateOrPostMessage(CH_LEADERBOARD, embeds);
-    console.log(`   ✅ [Discord] Updated Team Raw Stats Dashboards & Explainer`);
+    console.log(`   ✅ [Discord] Updated Monospace Team Stats Boards`);
 }
 
 // ----------------- TEAM DIRECTORY OVERVIEW -----------------
@@ -220,7 +233,7 @@ async function updateTeamOverview(teamOverviewData) {
         roster.forEach(p => {
             const tag = p.tagLine && p.tagLine !== "undefined" ? p.tagLine : "EUW";
             nameColumn += `${p.gameName}#${tag}${p.isCaptain ? " 👑" : ""}\n`;
-            roleColumn += `${roleMapping[p.role] || p.role}${p.rosterStatus === "substitute" ? " *(Sub)*" : ""}\n`; 
+            roleColumn += `${roleMapping[p.role] \vert{}\vert{} p.role}${p.rosterStatus === "substitute" ? " *(Sub)*" : ""}\n`; 
 
             const encodedName = encodeURIComponent(`${p.gameName}-${tag}`);
             linksColumn += `[op.gg](https://www.op.gg/summoners/euw/${encodedName})${p.lolpros ? ` | [lolpros](${p.lolpros})` : ""}\n`;
