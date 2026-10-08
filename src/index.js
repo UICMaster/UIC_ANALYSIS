@@ -131,10 +131,10 @@ async function runEngine() {
 
                 if (newMatchIds.length === 0) {
                     console.log(`   ⏭️ Skipped Riot Fetch for ${player.gameName} (No new games)`);
-                    if (cachedState.gd15 !== undefined) {
+                    if (cachedState && cachedState.averages) { 
                         currentTeamStats.players.push({ 
                             gameName: player.gameName, tagLine: player.tagLine, role: player.role, 
-                            metrics: cachedState, rankData: rankData 
+                            metrics: cachedState.averages, rankData: rankData 
                         });
                     }
                     continue; 
@@ -155,17 +155,26 @@ async function runEngine() {
                     timelineDatas.push(timelineData);
                 }
 
-                const metrics = analytics.calculateDiscordStats(player.puuid, matchDatas, timelineDatas, player.role, cachedState);
+                const result = analytics.calculateDiscordStats(player.puuid, matchDatas, timelineDatas, player.role, cachedState);
                 
-                if (metrics) {
+                if (result) {
                     currentTeamStats.players.push({ 
                         gameName: player.gameName, tagLine: player.tagLine, role: player.role, 
-                        metrics: metrics, rankData: rankData 
+                        metrics: result.averages, rankData: rankData 
                     });
                     playerState[player.puuid].processedMatches = matchIds; 
-                    Object.assign(playerState[player.puuid], metrics);
+                    playerState[player.puuid].averages = result.averages;
+                    playerState[player.puuid].history = result.history;
+                    cacheUpdated = true;
+                } else if (cachedState && cachedState.averages) {
+                    // Fallback if games were non-SoloQ/autofill
+                    currentTeamStats.players.push({ 
+                        gameName: player.gameName, tagLine: player.tagLine, role: player.role, 
+                        metrics: cachedState.averages, rankData: rankData 
+                    });
+                    playerState[player.puuid].processedMatches = matchIds;
+                    cacheUpdated = true;
                 }
-                cacheUpdated = true;
             }
             
             if (currentTeamStats.players.length > 0) {
