@@ -1,6 +1,6 @@
 /**
  * src/api/riot.js
- * Handles Riot API requests with an invincible Global Batch Queue.
+ * Handles Riot API requests with a Rate-Limited Global Batch Queue.
  * Optimized: Pure SoloQ Engine (queue=420) for Discord OVR.
  */
 
@@ -11,7 +11,7 @@ const REGION_BASE = 'https://europe.api.riotgames.com';
 const EUW_BASE = 'https://euw1.api.riotgames.com';      
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-const RATE_LIMIT_DELAY_MS = 10; 
+const RATE_LIMIT_DELAY_MS = 1200; // Paced to avoid hitting the 100 req / 2 min ceiling
 let requestQueue = Promise.resolve(); 
 
 async function executeFetch(url) {
@@ -26,6 +26,7 @@ async function executeFetch(url) {
         
         if (response.status === 429) {
             const retryAfter = response.headers.get('Retry-After') || 5;
+            console.warn(`⏳ [Riot API] Rate limit hit. Backing off for ${retryAfter}s...`);
             await delay(retryAfter * 1000);
             return executeFetch(url);
         }
@@ -70,7 +71,7 @@ async function getSummonerData(puuid) {
     return await riotFetch(`${EUW_BASE}/lol/summoner/v4/summoners/by-puuid/${puuid.trim()}`);
 }
 
-// ---------------------------------------
+// --- ACCOUNT & MATCH ENDPOINTS ---
 
 async function getPUUID(gameName, tagLine) {
     const safeName = encodeURIComponent(gameName.trim());
@@ -95,7 +96,6 @@ async function getRankedData(puuid) {
 
 async function getRecentMatches(puuid, count = 20) {
     if (!puuid) return [];
-    // Strictly fetch SoloQ games (queue=420)
     const url = `${REGION_BASE}/lol/match/v5/matches/by-puuid/${puuid.trim()}/ids?start=0&queue=420&count=${count}`;
     const data = await riotFetch(url);
     return Array.isArray(data) ? data : [];
