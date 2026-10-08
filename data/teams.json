@@ -1229,9 +1229,20 @@
         "gameName": "UIC Regentropfen",
         "tagLine": "H2O",
         "role": "MID",
-        "puuid": " ",
+        "puuid": "",
         "trackStats": true,
         "discordId": "359390498051457025",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0063",
+        "gameName": "UIC Simply",
+        "tagLine": "666",
+        "role": "TOP",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "503183783395065856",
         "rosterStatus": "starter",
         "isCaptain": false
       },
