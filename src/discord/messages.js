@@ -233,7 +233,7 @@ async function updateTeamOverview(teamOverviewData) {
         roster.forEach(p => {
             const tag = p.tagLine && p.tagLine !== "undefined" ? p.tagLine : "EUW";
             nameColumn += `${p.gameName}#${tag}${p.isCaptain ? " 👑" : ""}\n`;
-            roleColumn += `${roleMapping[p.role] \vert{}\vert{} p.role}${p.rosterStatus === "substitute" ? " *(Sub)*" : ""}\n`; 
+            roleColumn += `${roleMapping[p.role] || p.role}${p.rosterStatus === "substitute" ? " *(Sub)*" : ""}\n`;
 
             const encodedName = encodeURIComponent(`${p.gameName}-${tag}`);
             linksColumn += `[op.gg](https://www.op.gg/summoners/euw/${encodedName})${p.lolpros ? ` | [lolpros](${p.lolpros})` : ""}\n`;
