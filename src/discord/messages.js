@@ -33,7 +33,7 @@ async function discordFetch(endpoint, method = 'GET', body = null, retries = 3) 
             return discordFetch(endpoint, method, body, retries - 1);
         }
         if (!response.ok) {
-            console.error(`❌ [Discord API] ${response.status} Error on${endpoint}:`, await response.text());
+            console.error(`❌ [Discord API] ${response.status} Error on ${endpoint}:`, await response.text());
             return null;
         }
         
@@ -135,6 +135,7 @@ async function updateTeamStatsBoard(teamStatsData) {
     
     let embeds = [];
     const roleOrder = ["TOP", "JGL", "MID", "BOT", "SUP"];
+    const sep = "|"; // Variable separation prevents formatting breakdown
 
     const pad = (str, len, alignLeft = true) => {
         const s = String(str ?? "");
@@ -150,50 +151,58 @@ async function updateTeamStatsBoard(teamStatsData) {
     for (const team of teamStatsData) {
         team.players.sort((a, b) => roleOrder.indexOf(a.role) - roleOrder.indexOf(b.role));
 
-        let t1 = "ROL | SPIELER    | GD@15 | CSD14 | CS/M | VSPM\n";
-        t1 +=   "----+------------+-------+-------+------+-----\n";
+        // Chunking the roster to prevent Discord rejecting embeds > 1024 chars
+        const chunkSize = 8;
+        for (let i = 0; i < team.players.length; i += chunkSize) {
+            const playerChunk = team.players.slice(i, i + chunkSize);
 
-        let t2 = "ROL | SPIELER    |  KDA  |  KP%  | DPM  | DPG \n";
-        t2 +=   "----+------------+-------+-------+------+-----\n";
+            let t1 = `ROL ${sep} SPIELER    ${sep} GD@15 ${sep} CSD14 ${sep} CS/M ${sep} VSPM\n`;
+            t1 +=   `----+------------+-------+-------+------+-----\n`;
 
-        team.players.forEach(p => {
-            const m = p.metrics || {};
-            const role = pad(p.role, 3, true);
-            const name = pad(p.gameName, 10, true);
+            let t2 = `ROL ${sep} SPIELER    ${sep}  KDA  ${sep}  KP%  ${sep} DPM  ${sep} DPG \n`;
+            t2 +=   `----+------------+-------+-------+------+-----\n`;
 
-            // Table 1: Early Game & Macro
-            const gd15  = fmtDelta(m.gd15, 5);
-            const csd14 = fmtDelta(m.csd14, 5);
-            const csm   = pad((m.csm || 0).toFixed(1), 4, false);
-            const vspm  = pad((m.vspm || 0).toFixed(2), 4, false);
-            t1 += `${role} \vert{}${name} | ${gd15} \vert{}${csd14} | ${csm} \vert{}${vspm}\n`;
+            playerChunk.forEach(p => {
+                const m = p.metrics || {};
+                const role = pad(p.role, 3, true);
+                const name = pad(p.gameName, 10, true);
 
-            // Table 2: Teamfight & Efficiency
-            const kda = pad((m.kda || 0).toFixed(2), 5, false);
-            const kp  = pad(`${Math.round(m.kp || 0)}%`, 5, false);
-            const dpm = pad(Math.round(m.dpm || 0), 4, false);
-            const dpg = pad((m.dpg || 0).toFixed(2), 4, false);
-            t2 += `${role} \vert{}${name} | ${kda} \vert{}${kp} | ${dpm} \vert{}${dpg}\n`;
-        });
+                // Table 1: Early Game & Macro
+                const gd15  = fmtDelta(m.gd15, 5);
+                const csd14 = fmtDelta(m.csd14, 5);
+                const csm   = pad((m.csm || 0).toFixed(1), 4, false);
+                const vspm  = pad((m.vspm || 0).toFixed(2), 4, false);
+                t1 += `${role} ${sep} ${name} ${sep} ${gd15} ${sep} ${csd14} ${sep} ${csm} ${sep} ${vspm}\n`;
 
-        embeds.push({
-            title: `🛡️ ${team.teamDisplay} — Performance (Letzte 10 SoloQ)`,
-            color: UIC_COLOR,
-            fields: [
-                {
-                    name: "📊 Early Game & Macro (GD@15, CSD@14, CS/M, Vision)",
-                    value: `\`\`\`text\n${t1}\`\`\``,
-                    inline: false
-                },
-                {
-                    name: "⚔️ Teamfight & Combat (KDA, Kill Part., DPM, DPG)",
-                    value: `\`\`\`text\n${t2}\`\`\``,
-                    inline: false
-                }
-            ],
-            footer: { text: "Bereitgestellt durch UIC" },
-            timestamp: new Date().toISOString()
-        });
+                // Table 2: Teamfight & Efficiency
+                const kda = pad((m.kda || 0).toFixed(2), 5, false);
+                const kp  = pad(`${Math.round(m.kp || 0)}%`, 5, false);
+                const dpm = pad(Math.round(m.dpm || 0), 4, false);
+                const dpg = pad((m.dpg || 0).toFixed(2), 4, false);
+                t2 += `${role} ${sep} ${name} ${sep} ${kda} ${sep} ${kp} ${sep} ${dpm} ${sep} ${dpg}\n`;
+            });
+
+            const titleSuffix = team.players.length > chunkSize ? ` (Teil ${Math.floor(i/chunkSize) + 1})` : "";
+
+            embeds.push({
+                title: `${team.teamDisplay} - Performance (Letzte 10 SoloQ)${titleSuffix}`,
+                color: UIC_COLOR,
+                fields: [
+                    {
+                        name: "Early Game & Macro (GD@15, CSD@14, CS/M, Vision)",
+                        value: "```text\n" + t1 + "```",
+                        inline: false
+                    },
+                    {
+                        name: "Teamfight & Combat (KDA, Kill Part., DPM, DPG)",
+                        value: "```text\n" + t2 + "```",
+                        inline: false
+                    }
+                ],
+                footer: { text: "Bereitgestellt durch UIC" },
+                timestamp: new Date().toISOString()
+            });
+        }
     }
 
     // Benchmark & Legend Embed
@@ -226,34 +235,42 @@ async function updateTeamOverview(teamOverviewData) {
     let embeds = [];
 
     for (const team of teamOverviewData) {
-        let nameColumn = "", roleColumn = "", linksColumn = ""; 
         const roster = Array.isArray(team.roster) ? team.roster : [];
-        let validSummonersForMulti = [];
+        
+        // Chunking the roster to prevent 1024 char limits on linksColumn
+        const chunkSize = 10;
+        
+        for (let i = 0; i < roster.length; i += chunkSize) {
+            const chunk = roster.slice(i, i + chunkSize);
+            let nameColumn = "", roleColumn = "", linksColumn = ""; 
+            let validSummonersForMulti = [];
 
-        roster.forEach(p => {
-            const tag = p.tagLine && p.tagLine !== "undefined" ? p.tagLine : "EUW";
-            nameColumn += `${p.gameName}#${tag}${p.isCaptain ? " 👑" : ""}\n`;
-            roleColumn += `${roleMapping[p.role] || p.role}${p.rosterStatus === "substitute" ? " *(Sub)*" : ""}\n`;
+            chunk.forEach(p => {
+                const tag = p.tagLine && p.tagLine !== "undefined" ? p.tagLine : "EUW";
+                nameColumn += `${p.gameName}#${tag}${p.isCaptain ? " 👑" : ""}\n`;
+                roleColumn += `${roleMapping[p.role] || p.role}${p.rosterStatus === "substitute" ? " *(Sub)*" : ""}\n`;
 
-            const encodedName = encodeURIComponent(`${p.gameName}-${tag}`);
-            linksColumn += `[op.gg](https://www.op.gg/summoners/euw/${encodedName})${p.lolpros ? ` | [lolpros](${p.lolpros})` : ""}\n`;
-            validSummonersForMulti.push(encodeURIComponent(`${p.gameName}#${tag}`));
-        });
+                const encodedName = encodeURIComponent(`${p.gameName}-${tag}`);
+                linksColumn += `[op.gg](https://www.op.gg/summoners/euw/${encodedName})${p.lolpros ? ` | [lolpros](${p.lolpros})` : ""}\n`;
+                validSummonersForMulti.push(encodeURIComponent(`${p.gameName}#${tag}`));
+            });
 
-        const multiSearchUrl = `https://www.op.gg/multisearch/euw?summoners=${validSummonersForMulti.join('%2C')}`;
+            const multiSearchUrl = `https://www.op.gg/multisearch/euw?summoners=${validSummonersForMulti.join('%2C')}`;
+            const titleSuffix = roster.length > chunkSize ? ` (Teil ${Math.floor(i/chunkSize) + 1})` : "";
 
-        embeds.push({
-            title: team.teamDisplay || "Unbekanntes Team", 
-            description: roster.length > 0 ? `🔎 **[Team OP.GG Multi-Search öffnen](${multiSearchUrl})**` : "",
-            color: UIC_COLOR,
-            fields: [ 
-                { name: "Kader", value: nameColumn || "-", inline: true }, 
-                { name: "Rolle", value: roleColumn || "-", inline: true },
-                { name: "Profile", value: linksColumn || "-", inline: true }
-            ],
-            footer: { text: "Bereitgestellt durch UIC" },
-            timestamp: new Date().toISOString()
-        });
+            embeds.push({
+                title: (team.teamDisplay || "Unbekanntes Team") + titleSuffix, 
+                description: chunk.length > 0 ? `🔎 **[Team OP.GG Multi-Search öffnen](${multiSearchUrl})**` : "",
+                color: UIC_COLOR,
+                fields: [ 
+                    { name: "Kader", value: nameColumn || "-", inline: true }, 
+                    { name: "Rolle", value: roleColumn || "-", inline: true },
+                    { name: "Profile", value: linksColumn || "-", inline: true }
+                ],
+                footer: { text: "Bereitgestellt durch UIC" },
+                timestamp: new Date().toISOString()
+            });
+        }
     }
 
     await updateOrPostMessage(CH_OVERVIEW, embeds);
