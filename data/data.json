@@ -191,8 +191,8 @@
       "level": 765,
       "tier": "MASTERI",
       "lp": 1413,
-      "wins": 298,
-      "losses": 258,
+      "wins": 299,
+      "losses": 259,
       "winRate": 53.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/1114.png"
     },
@@ -546,12 +546,12 @@
       "playerId": "0021",
       "name": "UIC BissiBoy",
       "role": "BOT",
-      "level": 844,
+      "level": 845,
       "tier": "DIAMONDIV",
-      "lp": 51,
+      "lp": 9,
       "wins": 418,
-      "losses": 439,
-      "winRate": 48.8,
+      "losses": 441,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7213.png"
     },
     {
@@ -756,7 +756,7 @@
       "playerId": "0096",
       "name": "UIC SoulxEater",
       "role": "JGL",
-      "level": 664,
+      "level": 665,
       "tier": "PLATINUMIV",
       "lp": 81,
       "wins": 76,
@@ -1040,10 +1040,10 @@
       "role": "SUP",
       "level": 968,
       "tier": "EMERALDII",
-      "lp": 81,
+      "lp": 60,
       "wins": 155,
-      "losses": 159,
-      "winRate": 49.4,
+      "losses": 160,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7102.png"
     }
   ]
