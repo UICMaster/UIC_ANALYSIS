@@ -547,11 +547,11 @@
       "name": "UIC BissiBoy",
       "role": "BOT",
       "level": 845,
-      "tier": "EMERALDI",
-      "lp": 86,
-      "wins": 421,
-      "losses": 445,
-      "winRate": 48.6,
+      "tier": "DIAMONDIV",
+      "lp": 3,
+      "wins": 423,
+      "losses": 446,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7213.png"
     },
     {
@@ -706,12 +706,12 @@
       "playerId": "0111",
       "name": "Pavus",
       "role": "SUP",
-      "level": 552,
+      "level": 553,
       "tier": "DIAMONDII",
       "lp": 30,
-      "wins": 54,
-      "losses": 57,
-      "winRate": 48.6,
+      "wins": 56,
+      "losses": 59,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7215.png"
     },
     {
@@ -844,10 +844,10 @@
       "role": "MID",
       "level": 643,
       "tier": "EMERALDIII",
-      "lp": 56,
-      "wins": 292,
+      "lp": 76,
+      "wins": 293,
       "losses": 271,
-      "winRate": 51.9,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7221.png"
     },
     {
