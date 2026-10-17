@@ -376,10 +376,10 @@
       "role": "TOP",
       "level": 967,
       "tier": "EMERALDIV",
-      "lp": 73,
+      "lp": 53,
       "wins": 467,
-      "losses": 469,
-      "winRate": 49.9,
+      "losses": 470,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/4559.png"
     },
     {
@@ -596,12 +596,12 @@
       "playerId": "0094",
       "name": "UIC Ace",
       "role": "MID",
-      "level": 795,
+      "level": 796,
       "tier": "MASTERI",
-      "lp": 720,
-      "wins": 312,
-      "losses": 304,
-      "winRate": 50.6,
+      "lp": 754,
+      "wins": 314,
+      "losses": 305,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/924.png"
     },
     {
