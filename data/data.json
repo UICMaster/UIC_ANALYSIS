@@ -104,10 +104,10 @@
       "role": "BOT",
       "level": 1719,
       "tier": "MASTERI",
-      "lp": 757,
+      "lp": 725,
       "wins": 304,
-      "losses": 288,
-      "winRate": 51.4,
+      "losses": 289,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/6872.png"
     },
     {
@@ -314,10 +314,10 @@
       "role": "JGL",
       "level": 530,
       "tier": "MASTERI",
-      "lp": 314,
-      "wins": 692,
+      "lp": 401,
+      "wins": 695,
       "losses": 698,
-      "winRate": 49.8,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7212.png"
     },
     {
@@ -548,9 +548,9 @@
       "role": "BOT",
       "level": 847,
       "tier": "EMERALDI",
-      "lp": 7,
-      "wins": 429,
-      "losses": 456,
+      "lp": 23,
+      "wins": 431,
+      "losses": 457,
       "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7213.png"
     },
