@@ -182,7 +182,7 @@
       "wins": 270,
       "losses": 235,
       "winRate": 53.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/4419.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/1455.png"
     },
     {
       "playerId": "0087",
@@ -302,10 +302,10 @@
       "role": "TOP",
       "level": 206,
       "tier": "MASTERI",
-      "lp": 875,
-      "wins": 294,
+      "lp": 906,
+      "wins": 295,
       "losses": 246,
-      "winRate": 54.4,
+      "winRate": 54.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/15.png"
     },
     {
@@ -511,11 +511,11 @@
       "name": "UIC SméagoI",
       "role": "TOP",
       "level": 1007,
-      "tier": "DIAMONDII",
-      "lp": 3,
+      "tier": "DIAMONDIII",
+      "lp": 62,
       "wins": 202,
-      "losses": 181,
-      "winRate": 52.7,
+      "losses": 183,
+      "winRate": 52.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/25.png"
     },
     {
@@ -546,12 +546,12 @@
       "playerId": "0021",
       "name": "UIC BissiBoy",
       "role": "BOT",
-      "level": 846,
-      "tier": "DIAMONDIV",
-      "lp": 21,
+      "level": 847,
+      "tier": "EMERALDI",
+      "lp": 7,
       "wins": 429,
-      "losses": 452,
-      "winRate": 48.7,
+      "losses": 456,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/profileicon/7213.png"
     },
     {
