@@ -908,6 +908,68 @@
       }
     ]
   },
+  "strawhats": {
+    "primeLeagueId": "211165",
+    "teamDisplay": "UIC Strawhats",
+    "tier": "Division 6",
+    "roster": [
+      {
+        "playerId": "0063",
+        "gameName": "UIC Simply",
+        "tagLine": "666",
+        "role": "TOP",
+        "puuid": "zrEQPH6Bgk8_xKBX0Bt6cGWi7M8NDqgEd-PrxOh6Se5YMAux8ZKwwz7pvsDVIymBujEslj8uICgDVw",
+        "trackStats": true,
+        "discordId": "503183783395065856",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0142",
+        "gameName": "UIC C0RRUS1N",
+        "tagLine": "TWTV",
+        "role": "JGL",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "1187817416001073167",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0143",
+        "gameName": "UIC Devo",
+        "tagLine": "ACE",
+        "role": "MID",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "208554249498394627",
+        "rosterStatus": "starter",
+        "isCaptain": true
+      },
+      {
+        "playerId": "0144",
+        "gameName": "UIC Readem",
+        "tagLine": "SFO",
+        "role": "BOT",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "805155889018961971",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0062",
+        "gameName": "UIC Envy",
+        "tagLine": "UIC",
+        "role": "SUP",
+        "puuid": "EVe4VA1ME7GsyunDKbQ2vHarczndDRJIcML-Iq5fs6PtFK5J5OA0hQ-wzLmcQ-5NYU12D3u4ZoX4Tw",
+        "trackStats": true,
+        "discordId": "858153409735688203",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      }
+    ]
+  },
   "dinonuggets": {
     "primeLeagueId": "212432",
     "teamDisplay": "UIC Dinonuggets",
@@ -1141,17 +1203,6 @@
         "isCaptain": false
       },
       {
-        "playerId": "0062",
-        "gameName": "UIC Envy",
-        "tagLine": "UIC",
-        "role": "SUP",
-        "puuid": "EVe4VA1ME7GsyunDKbQ2vHarczndDRJIcML-Iq5fs6PtFK5J5OA0hQ-wzLmcQ-5NYU12D3u4ZoX4Tw",
-        "trackStats": true,
-        "discordId": "858153409735688203",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
         "playerId": "0027",
         "gameName": "Hayu",
         "tagLine": "5FDP",
@@ -1170,17 +1221,6 @@
         "puuid": "4cqeT6xao6yC3bHq3gxy1urHRIsTjHUwp9jT3FQ3Ip664FyfJsIoIwdzvHq7-SUBqnWOQGIDbRZ02g",
         "trackStats": true,
         "discordId": "359390498051457025",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "playerId": "0063",
-        "gameName": "UIC Simply",
-        "tagLine": "666",
-        "role": "TOP",
-        "puuid": "zrEQPH6Bgk8_xKBX0Bt6cGWi7M8NDqgEd-PrxOh6Se5YMAux8ZKwwz7pvsDVIymBujEslj8uICgDVw",
-        "trackStats": true,
-        "discordId": "503183783395065856",
         "rosterStatus": "starter",
         "isCaptain": false
       },
