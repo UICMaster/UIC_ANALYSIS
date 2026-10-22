@@ -166,11 +166,11 @@
       "role": "MID",
       "level": 1020,
       "tier": "GRANDMASTERI",
-      "lp": 2021,
+      "lp": 1957,
       "wins": 459,
-      "losses": 390,
-      "winRate": 54.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/3798.png"
+      "losses": 392,
+      "winRate": 53.9,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/7323.png"
     },
     {
       "playerId": "0086",
@@ -232,7 +232,7 @@
       "wins": 552,
       "losses": 541,
       "winRate": 50.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/7259.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/7267.png"
     },
     {
       "playerId": "0090",
@@ -268,7 +268,7 @@
       "wins": 125,
       "losses": 136,
       "winRate": 47.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/4803.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/1459.png"
     },
     {
       "playerId": "0093",
@@ -314,9 +314,9 @@
       "role": "JGL",
       "level": 533,
       "tier": "MASTERI",
-      "lp": 350,
-      "wins": 704,
-      "losses": 709,
+      "lp": 348,
+      "wins": 705,
+      "losses": 710,
       "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/7212.png"
     },
@@ -326,9 +326,9 @@
       "role": "MID",
       "level": 1236,
       "tier": "MASTERI",
-      "lp": 361,
-      "wins": 819,
-      "losses": 816,
+      "lp": 356,
+      "wins": 820,
+      "losses": 817,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/7272.png"
     },
@@ -892,10 +892,10 @@
       "role": "BOT",
       "level": 398,
       "tier": "MASTERI",
-      "lp": 867,
+      "lp": 837,
       "wins": 97,
-      "losses": 74,
-      "winRate": 56.7,
+      "losses": 75,
+      "winRate": 56.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/4661.png"
     },
     {
@@ -921,6 +921,68 @@
       "losses": 192,
       "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/7064.png"
+    }
+  ],
+  "strawhats": [
+    {
+      "playerId": "0063",
+      "name": "UIC Simply",
+      "role": "TOP",
+      "level": 468,
+      "tier": "PLATINUMIV",
+      "lp": 0,
+      "wins": 107,
+      "losses": 127,
+      "winRate": 45.7,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/7290.png"
+    },
+    {
+      "playerId": "0142",
+      "name": "UIC C0RRUS1N",
+      "role": "JGL",
+      "level": 108,
+      "tier": "DIAMONDII",
+      "lp": 1,
+      "wins": 386,
+      "losses": 386,
+      "winRate": 50,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/3166.png"
+    },
+    {
+      "playerId": "0143",
+      "name": "UIC Devo",
+      "role": "MID",
+      "level": 542,
+      "tier": "EMERALDIV",
+      "lp": 78,
+      "wins": 397,
+      "losses": 399,
+      "winRate": 49.9,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/6926.png"
+    },
+    {
+      "playerId": "0144",
+      "name": "UIC Readem",
+      "role": "BOT",
+      "level": 260,
+      "tier": "EMERALDI",
+      "lp": 3,
+      "wins": 264,
+      "losses": 257,
+      "winRate": 50.7,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/5067.png"
+    },
+    {
+      "playerId": "0062",
+      "name": "UIC Envy",
+      "role": "SUP",
+      "level": 389,
+      "tier": "PLATINUMIII",
+      "lp": 77,
+      "wins": 378,
+      "losses": 375,
+      "winRate": 50.2,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/7126.png"
     }
   ],
   "dinonuggets": [
@@ -966,10 +1028,10 @@
       "role": "BOT",
       "level": 1388,
       "tier": "DIAMONDIV",
-      "lp": 85,
+      "lp": 64,
       "wins": 451,
-      "losses": 437,
-      "winRate": 50.8,
+      "losses": 438,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/7300.png"
     },
     {
