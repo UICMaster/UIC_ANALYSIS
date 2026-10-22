@@ -944,7 +944,7 @@
         "trackStats": true,
         "discordId": "208554249498394627",
         "rosterStatus": "starter",
-        "isCaptain": true
+        "isCaptain": false
       },
       {
         "playerId": "0144",
@@ -966,7 +966,7 @@
         "trackStats": true,
         "discordId": "858153409735688203",
         "rosterStatus": "starter",
-        "isCaptain": false
+        "isCaptain": true
       }
     ]
   },
