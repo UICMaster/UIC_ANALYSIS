@@ -166,10 +166,10 @@
       "role": "MID",
       "level": 1020,
       "tier": "GRANDMASTERI",
-      "lp": 1921,
+      "lp": 1889,
       "wins": 460,
-      "losses": 394,
-      "winRate": 53.9,
+      "losses": 395,
+      "winRate": 53.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/7323.png"
     },
     {
@@ -598,9 +598,9 @@
       "role": "MID",
       "level": 797,
       "tier": "MASTERI",
-      "lp": 886,
-      "wins": 323,
-      "losses": 310,
+      "lp": 880,
+      "wins": 324,
+      "losses": 311,
       "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/924.png"
     },
@@ -793,11 +793,11 @@
       "name": "UIC Lynx",
       "role": "SUP",
       "level": 866,
-      "tier": "EMERALDII",
-      "lp": 87,
-      "wins": 168,
+      "tier": "EMERALDI",
+      "lp": 8,
+      "wins": 169,
       "losses": 157,
-      "winRate": 51.7,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/7085.png"
     },
     {
