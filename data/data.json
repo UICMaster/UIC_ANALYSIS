@@ -28,12 +28,12 @@
       "playerId": "0006",
       "name": "UIC Baumi",
       "role": "MID",
-      "level": 1137,
+      "level": 1138,
       "tier": "MASTERI",
-      "lp": 809,
-      "wins": 628,
-      "losses": 610,
-      "winRate": 50.7,
+      "lp": 743,
+      "wins": 630,
+      "losses": 614,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/3151.png"
     },
     {
@@ -104,11 +104,11 @@
       "role": "BOT",
       "level": 1720,
       "tier": "MASTERI",
-      "lp": 597,
+      "lp": 565,
       "wins": 304,
-      "losses": 293,
-      "winRate": 50.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/6872.png"
+      "losses": 295,
+      "winRate": 50.8,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/4764.png"
     },
     {
       "playerId": "0076",
@@ -376,9 +376,9 @@
       "role": "TOP",
       "level": 969,
       "tier": "EMERALDIV",
-      "lp": 55,
+      "lp": 34,
       "wins": 475,
-      "losses": 478,
+      "losses": 479,
       "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/4559.png"
     },
@@ -941,11 +941,11 @@
       "name": "UIC C0RRUS1N",
       "role": "JGL",
       "level": 109,
-      "tier": "DIAMONDIII",
-      "lp": 76,
-      "wins": 387,
-      "losses": 388,
-      "winRate": 49.9,
+      "tier": "DIAMONDII",
+      "lp": 31,
+      "wins": 391,
+      "losses": 389,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/3166.png"
     },
     {
