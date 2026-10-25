@@ -102,12 +102,12 @@
       "playerId": "0081",
       "name": "UIC Voracity",
       "role": "BOT",
-      "level": 1720,
+      "level": 1721,
       "tier": "MASTERI",
-      "lp": 565,
+      "lp": 533,
       "wins": 304,
-      "losses": 295,
-      "winRate": 50.8,
+      "losses": 296,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/4764.png"
     },
     {
@@ -326,10 +326,10 @@
       "role": "MID",
       "level": 1238,
       "tier": "MASTERI",
-      "lp": 119,
-      "wins": 825,
+      "lp": 197,
+      "wins": 827,
       "losses": 831,
-      "winRate": 49.8,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/7272.png"
     },
     {
@@ -586,10 +586,10 @@
       "role": "JGL",
       "level": 835,
       "tier": "MASTERI",
-      "lp": 574,
+      "lp": 544,
       "wins": 319,
-      "losses": 298,
-      "winRate": 51.7,
+      "losses": 299,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/585.png"
     },
     {
@@ -866,10 +866,10 @@
       "playerId": "0048",
       "name": "UIC GroßATuin",
       "role": "MID",
-      "level": 658,
+      "level": 659,
       "tier": "EMERALDIII",
-      "lp": 46,
-      "wins": 516,
+      "lp": 65,
+      "wins": 517,
       "losses": 502,
       "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/23.png"
@@ -942,10 +942,10 @@
       "role": "JGL",
       "level": 110,
       "tier": "DIAMONDIII",
-      "lp": 95,
+      "lp": 29,
       "wins": 396,
-      "losses": 396,
-      "winRate": 50,
+      "losses": 399,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/3166.png"
     },
     {
