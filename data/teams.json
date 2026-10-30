@@ -1236,6 +1236,17 @@
         "isCaptain": false
       },
       {
+        "playerId": "0192",
+        "gameName": "300 F10",
+        "tagLine": "300",
+        "role": "JGL",
+        "puuid": "",
+        "trackStats": true,
+        "discordId": "387711709789290498",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
         "playerId": "0077",
         "gameName": "RD Dragonfly",
         "tagLine": "UIC",
