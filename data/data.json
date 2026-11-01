@@ -114,12 +114,12 @@
       "playerId": "0076",
       "name": "UIC PeaPuffer",
       "role": "SUP",
-      "level": 776,
+      "level": 777,
       "tier": "MASTERI",
-      "lp": 859,
-      "wins": 460,
-      "losses": 447,
-      "winRate": 50.7,
+      "lp": 815,
+      "wins": 462,
+      "losses": 452,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/1625.png"
     },
     {
@@ -770,10 +770,10 @@
       "role": "MID",
       "level": 521,
       "tier": "PLATINUMII",
-      "lp": 13,
-      "wins": 276,
-      "losses": 287,
-      "winRate": 49,
+      "lp": 33,
+      "wins": 278,
+      "losses": 288,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/5974.png"
     },
     {
@@ -1040,10 +1040,10 @@
       "role": "SUP",
       "level": 971,
       "tier": "EMERALDI",
-      "lp": 25,
+      "lp": 4,
       "wins": 165,
-      "losses": 167,
-      "winRate": 49.7,
+      "losses": 168,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/1381.png"
     }
   ]
