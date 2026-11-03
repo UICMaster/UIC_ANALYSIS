@@ -30,10 +30,10 @@
       "role": "MID",
       "level": 1144,
       "tier": "MASTERI",
-      "lp": 649,
-      "wins": 663,
+      "lp": 705,
+      "wins": 665,
       "losses": 652,
-      "winRate": 50.4,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/6500.png"
     },
     {
@@ -128,10 +128,10 @@
       "role": "COH",
       "level": 531,
       "tier": "MASTERI",
-      "lp": 1061,
-      "wins": 502,
+      "lp": 1088,
+      "wins": 503,
       "losses": 474,
-      "winRate": 51.4,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/4096.png"
     }
   ],
@@ -376,10 +376,10 @@
       "role": "TOP",
       "level": 971,
       "tier": "EMERALDIII",
-      "lp": 22,
-      "wins": 486,
+      "lp": 41,
+      "wins": 487,
       "losses": 486,
-      "winRate": 50,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/4559.png"
     },
     {
@@ -448,7 +448,7 @@
       "playerId": "0016",
       "name": "UIC Inferno",
       "role": "JGL",
-      "level": 674,
+      "level": 675,
       "tier": "DIAMONDIII",
       "lp": 19,
       "wins": 151,
@@ -720,10 +720,10 @@
       "role": "BOT",
       "level": 1411,
       "tier": "MASTERI",
-      "lp": 753,
+      "lp": 720,
       "wins": 227,
-      "losses": 205,
-      "winRate": 52.5,
+      "losses": 206,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/3020.png"
     },
     {
@@ -976,12 +976,12 @@
       "playerId": "0062",
       "name": "UIC Envy",
       "role": "SUP",
-      "level": 392,
+      "level": 393,
       "tier": "PLATINUMII",
-      "lp": 92,
-      "wins": 396,
-      "losses": 388,
-      "winRate": 50.5,
+      "lp": 75,
+      "wins": 398,
+      "losses": 391,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/profileicon/7126.png"
     }
   ],
