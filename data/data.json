@@ -314,8 +314,8 @@
       "role": "JGL",
       "level": 538,
       "tier": "MASTERI",
-      "lp": 450,
-      "wins": 735,
+      "lp": 508,
+      "wins": 737,
       "losses": 736,
       "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/7212.png"
@@ -867,11 +867,11 @@
       "name": "UIC GroßATuin",
       "role": "MID",
       "level": 664,
-      "tier": "EMERALDII",
-      "lp": 4,
+      "tier": "EMERALDIII",
+      "lp": 83,
       "wins": 543,
-      "losses": 526,
-      "winRate": 50.8,
+      "losses": 527,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/23.png"
     },
     {
@@ -880,9 +880,9 @@
       "role": "BOT",
       "level": 872,
       "tier": "EMERALDI",
-      "lp": 57,
+      "lp": 37,
       "wins": 376,
-      "losses": 383,
+      "losses": 384,
       "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/5914.png"
     },
@@ -977,12 +977,12 @@
       "name": "UIC Envy",
       "role": "SUP",
       "level": 393,
-      "tier": "PLATINUMII",
-      "lp": 13,
+      "tier": "PLATINUMIII",
+      "lp": 71,
       "wins": 400,
-      "losses": 396,
-      "winRate": 50.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/7333.png"
+      "losses": 399,
+      "winRate": 50.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/3588.png"
     }
   ],
   "dinonuggets": [
