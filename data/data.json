@@ -126,7 +126,7 @@
       "playerId": "0082",
       "name": "MakZkovich",
       "role": "COH",
-      "level": 533,
+      "level": 534,
       "tier": "MASTERI",
       "lp": 1289,
       "wins": 517,
@@ -176,7 +176,7 @@
       "playerId": "0086",
       "name": "UIC xd2",
       "role": "BOT",
-      "level": 762,
+      "level": 763,
       "tier": "MASTERI",
       "lp": 1577,
       "wins": 286,
@@ -300,11 +300,11 @@
       "playerId": "0053",
       "name": "hi itskostas UIC",
       "role": "TOP",
-      "level": 210,
+      "level": 211,
       "tier": "MASTERI",
-      "lp": 948,
-      "wins": 319,
-      "losses": 270,
+      "lp": 978,
+      "wins": 321,
+      "losses": 271,
       "winRate": 54.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/15.png"
     },
@@ -326,10 +326,10 @@
       "role": "MID",
       "level": 1241,
       "tier": "MASTERI",
-      "lp": 105,
-      "wins": 841,
+      "lp": 157,
+      "wins": 843,
       "losses": 847,
-      "winRate": 49.8,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/7272.png"
     },
     {
@@ -462,10 +462,10 @@
       "role": "MID",
       "level": 512,
       "tier": "EMERALDII",
-      "lp": 52,
-      "wins": 125,
+      "lp": 73,
+      "wins": 126,
       "losses": 131,
-      "winRate": 48.8,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/7244.png"
     },
     {
@@ -768,12 +768,12 @@
       "playerId": "0095",
       "name": "UIC trance",
       "role": "MID",
-      "level": 522,
-      "tier": "PLATINUMI",
-      "lp": 57,
-      "wins": 285,
-      "losses": 289,
-      "winRate": 49.7,
+      "level": 523,
+      "tier": "EMERALDIV",
+      "lp": 25,
+      "wins": 289,
+      "losses": 290,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/7345.png"
     },
     {
@@ -950,7 +950,7 @@
     },
     {
       "playerId": "0143",
-      "name": "UIC Devo",
+      "name": "Missed Fortune",
       "role": "MID",
       "level": 546,
       "tier": "EMERALDIII",
@@ -958,7 +958,7 @@
       "wins": 413,
       "losses": 411,
       "winRate": 50.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/6926.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/3542.png"
     },
     {
       "playerId": "0144",
