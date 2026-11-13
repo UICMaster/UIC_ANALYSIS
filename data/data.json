@@ -264,10 +264,10 @@
       "role": "BOT",
       "level": 706,
       "tier": "EMERALDIV",
-      "lp": 58,
+      "lp": 37,
       "wins": 156,
-      "losses": 169,
-      "winRate": 48,
+      "losses": 170,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/7247.png"
     },
     {
@@ -880,10 +880,10 @@
       "role": "BOT",
       "level": 875,
       "tier": "EMERALDII",
-      "lp": 95,
+      "lp": 74,
       "wins": 391,
-      "losses": 401,
-      "winRate": 49.4,
+      "losses": 402,
+      "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/5914.png"
     },
     {
@@ -930,10 +930,10 @@
       "role": "TOP",
       "level": 470,
       "tier": "PLATINUMIV",
-      "lp": 0,
-      "wins": 111,
+      "lp": 19,
+      "wins": 112,
       "losses": 131,
-      "winRate": 45.9,
+      "winRate": 46.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/7332.png"
     },
     {
@@ -1040,10 +1040,10 @@
       "role": "SUP",
       "level": 974,
       "tier": "EMERALDI",
-      "lp": 58,
+      "lp": 37,
       "wins": 172,
-      "losses": 172,
-      "winRate": 50,
+      "losses": 173,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/1381.png"
     }
   ]
