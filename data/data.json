@@ -128,10 +128,10 @@
       "role": "COH",
       "level": 537,
       "tier": "MASTERI",
-      "lp": 1061,
-      "wins": 530,
-      "losses": 503,
-      "winRate": 51.3,
+      "lp": 919,
+      "wins": 531,
+      "losses": 509,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/4568.png"
     }
   ],
@@ -240,7 +240,7 @@
       "role": "JGL",
       "level": 1184,
       "tier": "DIAMONDIV",
-      "lp": 35,
+      "lp": 30,
       "wins": 118,
       "losses": 101,
       "winRate": 53.9,
@@ -264,10 +264,10 @@
       "role": "BOT",
       "level": 707,
       "tier": "EMERALDIV",
-      "lp": 18,
-      "wins": 159,
+      "lp": 56,
+      "wins": 161,
       "losses": 174,
-      "winRate": 47.7,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/7247.png"
     },
     {
@@ -302,10 +302,10 @@
       "role": "TOP",
       "level": 212,
       "tier": "MASTERI",
-      "lp": 1068,
-      "wins": 331,
+      "lp": 1128,
+      "wins": 333,
       "losses": 278,
-      "winRate": 54.4,
+      "winRate": 54.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/15.png"
     },
     {
@@ -586,9 +586,9 @@
       "role": "JGL",
       "level": 838,
       "tier": "MASTERI",
-      "lp": 427,
-      "wins": 331,
-      "losses": 315,
+      "lp": 397,
+      "wins": 332,
+      "losses": 317,
       "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/585.png"
     },
@@ -882,8 +882,8 @@
       "tier": "EMERALDI",
       "lp": 33,
       "wins": 395,
-      "losses": 403,
-      "winRate": 49.5,
+      "losses": 404,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/5914.png"
     },
     {
@@ -892,9 +892,9 @@
       "role": "BOT",
       "level": 409,
       "tier": "MASTERI",
-      "lp": 1104,
-      "wins": 135,
-      "losses": 109,
+      "lp": 1128,
+      "wins": 136,
+      "losses": 110,
       "winRate": 55.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/4661.png"
     },
