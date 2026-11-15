@@ -132,7 +132,7 @@
       "wins": 533,
       "losses": 510,
       "winRate": 51.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/4568.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/4096.png"
     }
   ],
   "ascend": [
@@ -302,10 +302,10 @@
       "role": "TOP",
       "level": 213,
       "tier": "MASTERI",
-      "lp": 1098,
-      "wins": 338,
+      "lp": 1158,
+      "wins": 340,
       "losses": 284,
-      "winRate": 54.3,
+      "winRate": 54.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/15.png"
     },
     {
@@ -376,8 +376,8 @@
       "role": "TOP",
       "level": 975,
       "tier": "EMERALDIII",
-      "lp": 13,
-      "wins": 508,
+      "lp": 32,
+      "wins": 509,
       "losses": 509,
       "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/4559.png"
@@ -598,10 +598,10 @@
       "role": "MID",
       "level": 801,
       "tier": "MASTERI",
-      "lp": 978,
+      "lp": 945,
       "wins": 339,
-      "losses": 322,
-      "winRate": 51.3,
+      "losses": 323,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/924.png"
     },
     {
@@ -768,7 +768,7 @@
       "playerId": "0095",
       "name": "UIC trance",
       "role": "MID",
-      "level": 525,
+      "level": 526,
       "tier": "EMERALDIV",
       "lp": 95,
       "wins": 293,
@@ -942,9 +942,9 @@
       "role": "JGL",
       "level": 118,
       "tier": "DIAMONDIV",
-      "lp": 6,
+      "lp": 0,
       "wins": 426,
-      "losses": 434,
+      "losses": 435,
       "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/3166.png"
     },
