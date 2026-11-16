@@ -166,10 +166,10 @@
       "role": "MID",
       "level": 1029,
       "tier": "MASTERI",
-      "lp": 1801,
+      "lp": 1767,
       "wins": 502,
-      "losses": 442,
-      "winRate": 53.2,
+      "losses": 443,
+      "winRate": 53.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/7323.png"
     },
     {
@@ -202,10 +202,10 @@
       "role": "JGL",
       "level": 1264,
       "tier": "MASTERI",
-      "lp": 82,
-      "wins": 814,
+      "lp": 242,
+      "wins": 818,
       "losses": 821,
-      "winRate": 49.8,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/29.png"
     },
     {
@@ -940,12 +940,12 @@
       "playerId": "0142",
       "name": "UIC C0RRUS1N",
       "role": "JGL",
-      "level": 119,
-      "tier": "EMERALDI",
-      "lp": 46,
-      "wins": 427,
-      "losses": 437,
-      "winRate": 49.4,
+      "level": 120,
+      "tier": "DIAMONDIV",
+      "lp": 0,
+      "wins": 432,
+      "losses": 439,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/3166.png"
     },
     {
@@ -976,12 +976,12 @@
       "playerId": "0062",
       "name": "UIC Envy",
       "role": "SUP",
-      "level": 396,
+      "level": 397,
       "tier": "PLATINUMIII",
-      "lp": 24,
-      "wins": 415,
+      "lp": 62,
+      "wins": 417,
       "losses": 415,
-      "winRate": 50,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/profileicon/3588.png"
     }
   ],
