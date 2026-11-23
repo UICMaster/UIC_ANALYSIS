@@ -264,10 +264,10 @@
       "role": "BOT",
       "level": 710,
       "tier": "EMERALDIII",
-      "lp": 90,
+      "lp": 69,
       "wins": 176,
-      "losses": 182,
-      "winRate": 49.2,
+      "losses": 183,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.23.1/img/profileicon/7247.png"
     },
     {
@@ -374,11 +374,11 @@
       "playerId": "0121",
       "name": "UIC Undergrinder",
       "role": "TOP",
-      "level": 977,
+      "level": 978,
       "tier": "EMERALDIII",
       "lp": 2,
       "wins": 515,
-      "losses": 517,
+      "losses": 518,
       "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.23.1/img/profileicon/4559.png"
     },
@@ -610,10 +610,10 @@
       "role": "BOT",
       "level": 897,
       "tier": "MASTERI",
-      "lp": 956,
-      "wins": 277,
+      "lp": 984,
+      "wins": 278,
       "losses": 239,
-      "winRate": 53.7,
+      "winRate": 53.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.23.1/img/profileicon/7244.png"
     },
     {
@@ -720,10 +720,10 @@
       "role": "BOT",
       "level": 1419,
       "tier": "MASTERI",
-      "lp": 759,
+      "lp": 726,
       "wins": 241,
-      "losses": 220,
-      "winRate": 52.3,
+      "losses": 221,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.23.1/img/profileicon/3020.png"
     },
     {
@@ -867,11 +867,11 @@
       "name": "UIC GroßATuin",
       "role": "MID",
       "level": 673,
-      "tier": "EMERALDII",
-      "lp": 2,
+      "tier": "EMERALDIII",
+      "lp": 58,
       "wins": 586,
-      "losses": 570,
-      "winRate": 50.7,
+      "losses": 572,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.23.1/img/profileicon/23.png"
     },
     {
@@ -904,10 +904,10 @@
       "role": "SUP",
       "level": 654,
       "tier": "MASTERI",
-      "lp": 132,
+      "lp": 103,
       "wins": 197,
-      "losses": 186,
-      "winRate": 51.4,
+      "losses": 187,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.23.1/img/profileicon/4568.png"
     },
     {
@@ -930,10 +930,10 @@
       "role": "TOP",
       "level": 471,
       "tier": "GOLDI",
-      "lp": 50,
+      "lp": 29,
       "wins": 112,
-      "losses": 134,
-      "winRate": 45.5,
+      "losses": 135,
+      "winRate": 45.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.23.1/img/profileicon/7332.png"
     },
     {
